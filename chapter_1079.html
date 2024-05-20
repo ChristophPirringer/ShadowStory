@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1079</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1079 Imp</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The pilot did not spend a long time bidding farewell to her comrades. By that point in the campaign, everyone had experienced loss and defeat... the soldiers had not grown numb to watching people die, but they did become used to it. </p><p> Death had always surrounded those who fought against the Nightmare Spell, and here in Antarctica, it was even more inescapable, both for the Awakened and for the mundanes. </p><p> When the young woman returned, however, a confused expression appeared on her face. Sunny raised an eyebrow. </p><p> "What?" </p><p> The pilot pointed. </p><p> "Uh... where did my MWP go?" </p><p> He looked back. The wrecked war platform was, indeed, gone. In its place, hidden behind a pile of dirt, sat an ugly little creature. It was hurriedly pushing a piece of bent alloy into its wide, toothy mouth with both hands. Noticing that someone was looking, the creature froze for a moment and feverishly continued to chew on the armored alloy, as if afraid that it would be taken away. </p><p> Sunny rolled his eyes. </p><p> "That little bastard right there ate it. Don't mind him..." </p><p> It was hard to imagine that the scrawny imp had devoured the massive machine, considering that it was dozens of times larger than him... but that was exactly what had happened. Sunny did not know what kind of infernal engine was hidden in the Imp's stomach, but the little guy's appetite was inexhaustible. Anything that entered his mouth disappeared without a trace, and there were very few things that his sharp teeth couldn't rip apart. </p><p> Sunny shuddered, remembering how he had turned the tiny wretch into a Shadow. </p><p> He had done it not long after arriving in East Antarctica. Before, Sunny had been planning to become a Tyrant first - but that was because he needed more power, fast, during the siege of Falcon Scott. Now that things had calmed down, the circumstances were not as pressing. He could allow himself to delay a little, and made converting the Echo of the Ravenous Fiend a priority. </p><p> Sunny had possessed three Shadows before, but funnily enough, only one of them - Saint-came from an Echo. The process of conversion itself had looked pretty much the same as the first time. In the tranquil silence of his Soul Sea, two beams of dark light descended from one of the Shadow Cores. One fell on the Echo of the Scavenger, the other on a motionless shadow that stood with the rest of them on the still surface of the calm waters. </p><p> The shadow of the Ravenous Fiend seemed to dissolve into the dark light, and then, the Echo became wreathed in black flames that seeped into its flesh, changing it on a fundamental level. The boundless spellweave that was hidden within the Echo disappeared, replaced by darkness. l?ghtnоvеlcave~с0m. A living shadow was now dwelling within the body of the imp instead, four transparent and empty embers burning in its depths. Fi𝒏d 𝒏ew upd𝒂t𝒆s on novel𝒃in(.)com</p><p> ...Granted, that scene was not as majestic and awe-inspiring as when Saint had become a Shadow. The scrawny little bastard could not compare to the magnificent stone knight in any shape or form, after all. Nevertheless, that was how Sunny had acquired his fourth Shadow. What came next, however... that, he did not like to think about one bit. </p><p> The [trip was a blank slate and had tremendous potential for growth, but Sunny had to be careful about what he fed the gluttonous creature. Some types of food were easy to come by, but would produce mediocre results. Worse titan that, be strongly suspected that some advancements would prevent more beneficial powers from taking root in the future. </p><p> There was one he could not compromise on, though... affinity to shadows. </p><p> And since shadow creatures were almost impossible to find, Sunny had no choice but to feed the hateful gremlin some of his own flesh again. </p><p> The first time he summoned the Fiend into the real world, the tiny creature looked around, then stared at him with fright and ran away, hiding behind Saint's leg. The imp then grabbed her calve with his eight clawed fingers and cautiously peeked from behind it, trembling slightly. </p><p> "Get over here, bastard!" </p><p> Unable to refuse Sunny's command, the imp reluctantly abandoned his shelter and slowly waddled over. The moment Sunny offered the gremlin his forearm and ordered him to take a bite, the bastard's eyes ignited with ferocious glee, though. </p><p> What happened next... was a truly ghastly experience for Sunny. I-le endured it by bitterly fantasizing about killing the vile little creature for the second time. However, it was worth it in the end - the scrawny fiend regained its ability to travel through shadows. </p><p> Later, Sunny learned that the process of gaining new Attributes and Abilities was rarely, if ever, so easy and fast. The Fiend had already possessed a high affinity to shadows thanks to being one, and Sunny himself was even more unique — he was a divine shadow, after all. These two reasons made it possible for the little imp to inherit a vestige of his power in one go. </p><p> As to how the bastard had managed it the first time around, Sunny had no idea. Maybe the inherent adaptability of the Scavengers resonated with the innate formlessness of shadows. Maybe the wretch had simply gotten lucky... </p><p> The point of it was that he couldn't just command the gluttonous scavenger to devour a Nightmare Creature and expect the same to happen. It took a long time and a lot of corpses - suitable ones, at that - for the imp to grow in the right direction. Luckily, he was not limited to only eating flesh. </p><p> Which was why Sunny was currently concentrating on feeding the imp all kinds of steel, alloy, and mystical metals. The Ravenous Fiend's bone armor had been rather spectacular, but he was determined to come up with something even more indestructible. </p><p> Watching as the scrawny bastard hurriedly finished chewing on the last piece of the broken MWP, Sunny smiled slightly, his eyes shining with ominous glee. </p><p> 'Eat, eat... eat more, trashling'. I need to fatten you up... </p><p> The imp suddenly shivered and looked at Sunny with wide, terrified eyes. </p><p> Sunny suppressed a menacing grin and dismissed the imp, then looked at the pilot. </p><p> "I got him as an Echo. Come, let's go... we need to hurry.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1078.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1080.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

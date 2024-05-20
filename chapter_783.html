@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 783</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 783 Captive Audience</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Projected onto the wall, a languid jade beauty with a slim waist and long eyelashes was traversing a labyrinth of crimson coral, her voluptuous figure barely covered by a flimsy seaweed attire. A teenage boy of about thirteen years of age was scurrying along as he shouted: </p><p> "...Are you crazy?!" </p><p> Sitting on the sofa near the real Changing Star, Rain felt like sinking into the earth. As the movie went by, her cheeks slowly turned bright red. The daughter of the Immortal Flame clan, on the contrary, became increasingly more deadpan and devoid of emotion. By now, her face was so still that it seemed paralyzed. </p><p> Rain awkwardly cleared her throat. </p><p> "Uh… come to think of it, the actress they chose does not look like you at all. You are much prettier!" </p><p> Nephis shifted and briefly glanced down. Then, she said evenly: </p><p> "Thank you." </p><p> After a while, she added: </p><p> "Why would they cast a child to play Sunny? What a strange decision. Only a complete fool could mistake him for a young boy." </p><p> Rain let out a nervous laugh. </p><p> "Yeah! Yeah… definitely…" </p><p> She looked away in utter embarrassment, and then forced out: </p><p> "And what is up with that stupid catchphrase? That does not sound like something Sunny would say at all!" </p><p> Changing Star moved, suddenly becoming a little more lively. </p><p> "Oh, no. That actually happened. A lot!" </p><p> The movie, meanwhile, continued. The three Sleepers braved the wilderness of the Forgotten Shore and eventually reached the Dark City. The brief moment of liveliness passed, and instead, Changing Star seemed to grow more rigid and cold with each scene. Rain felt so uncomfortable that she could not bring herself to say anything. </p><p> What kind of idiot directed that stupid movie?! </p><p> Meanwhile, a handsome young man with broad shoulders and a noble bearing appeared on the screen. Rain glanced at Lady Nephis curiously, wondering how much of what was shown about her relationship with the heroic Han Li Caster was true. </p><p> And how her apparent relationship with Sunny fit into it. </p><p> Could it be… that there had been an actual love triangle between them?! </p><p> ? Sadly, she failed to glimpse anything from Changing Star's stoic face. The movie progressed, slowly reaching its culmination. </p><p> On the wall, the masculine face of the actor playing Sir Caster radiated courage and passion. Holding the grief-stricken jade beauty by the hand, he looked her in the eyes and said with passion: </p><p> "Should I fall, do not cry for me, my lady. My life does not matter… but yours does! Immortal Flame must never be extinguished! As long as it burns, humanity still has hope! The Dreamers of the Dark City have hope! As long as you live, I can face a thousand deaths with a triumphant smile!" Get latest 𝒏ovel ch𝒂pters on n𝒐velbjn(.)c/𝒐m</p><p> Rain shifted uncomfortably. </p><p> 'Is it me, or is it getting hot in here?' </p><p> Not a single muscle moved on Changing Star's face. She looked at the projection with a deadpan expression. </p><p> …The projection, however, suddenly stuttered. </p><p> Rain frowned. </p><p> 'Huh?' </p><p> In the next moment, she thought that she smelled smoke. Turning around, the teenage girl noticed a thin stream of it rising from inside Sunny's expensive projector. </p><p> 'That's strange...' </p><p> Rain opened her mouth to say something, but before she could... </p><p> The projector suddenly exploded. </p><p> *** </p><p> After the movie was suddenly and violently interrupted, Rain only stayed for long enough to help Changing Star clean up the debris of the malfunctioned projector. Then, she found an excuse, grabbed her backpack, and hurriedly left. </p><p> Who knew what was going to explode next! </p><p> Once the teenage girl was gone, Nephis was once again left alone in the empty house. She lingered for a bit, then went back into the guest bedroom and rummaged through Effie's closet. She had no clothes apart from the tracksuit that the Academy had issued to her, which was soaked with sweat after the night she had spent with Sunny underground. </p><p> There were Memories, of course… but she had worn armor for the better part of the last three years. Putting on something mundane was strangely comforting. </p><p> Leaving Sunny's shirt on, she found a pair of gym shorts to match it. Sadly, other articles of Effie's clothing did not fit her too well. She was going to have to do some shopping soon... </p><p> Considering such matters again felt very strange. </p><p> Eventually, Nephis found herself back in the living room with nothing to do. She simply sat in silence for a while, trying to deal with the disturbing oddity of not being in danger. Then, she shifted uncomfortably, looked around, and took out the state-of-the-art communicator the government provided to her. </p><p> She stared at it for some time, then tentatively accessed the network. </p><p> After a while, Neph found herself senselessly scrolling through popular clips. A few minutes later, one video caught her attention. </p><p> A demonic figure in black armor and fearsome mask stood in a small clearing in the middle of a thick forest, a long blade of an odachi resting on his shoulder. The swordsman's white hair moved slightly in the wind. Something about him seemed… odd. </p><p> Suddenly, twelve figures appeared from behind the trees, surrounding the demonic swordsman. One of the ambushers spoke: </p><p> "Sorry, Mongrel… no hard feeling, right?" </p><p> Nephis shook her head slightly and sighed. </p><p> "Twelve against one…" </p><p> The man in black armor, meanwhile, remained silent for a moment and then said calmly: </p><p> "...None whatsoever." </p><p> Already knowing how the fight would end, Neph moved her finger to scroll on… but then stopped. </p><p> Something very unexpected was happening on the screen of her communicator! </p><p> Instead of being instantly overwhelmed, the warrior dodged several attacks and dove through a stream of scorching fire, his black armor reflecting the crimson flames like the scales of an infernal monster. His gauntlet collided against the head of one of the enemies, instantly breaking the skull. </p><p> White sparks slowly ignited in the depths of Neph's eyes. </p><p> "Interesting…" </p><p> She lingered, watching the brutal slaughter with a hint of excitement. After spending years fighting against overwhelming odds, Nephis couldn't help but root for the lonesome swordsman. </p><p> A few seconds later, she was fully engrossed in the video. </p><p> "Remarkable!"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_782.html">Previous Chapter</a><a class="navigationButton next" href="chapter_784.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

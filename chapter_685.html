@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 685</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 685 Temple Of The Night</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> When Kai was finished with his story, everyone remained silent for a while. Eventually, the young man sighed and stretched out his hands, which were covered in polished bark and looked more like those of one of the Sailor Dolls than those of a human. He moved his fingers, and then smiled lightly: </p><p> "Noctis did a wonderful job of healing my wounds. Just as he had said, some of the pain remains, but I am as strong and capable as I had been before. No, even more so… these enchanted limbs he gave me are much more sensitive to soul essence, and so, they are more durable and powerful than my own flesh had been. I also collected a few Memories during my time in the Sun Legion. Overall, my battle prowess has increased a lot since we entered the Nightmare… not to mention the experience I earned, and the lessons I was taught. Whatever comes, I am ready." </p><p> Sunny lingered for a few moments, then let out a low growl: </p><p> "What about the other Transcendent of the Ivory City? The Sun Prince? Have you met him?" </p><p> Kai frowned and made a vague gesture with his hand. </p><p> "Yes… I think. The Sun Prince is supposed to be a brother of Sevirax. Among the people, it is believed that his soul resides inside the metal colossus that guards the Ivory City and sometimes leads the Sun Legion into battle. I've seen him once, from afar… and to be honest, I am not quite sure if that thing is sentient or not." </p><p> He hesitated for a bit, and then added: </p><p> "You've seen him, too. I think that it is his corpse that swings beneath the Shipwreck Island, tangled in the chain… although I can't quite imagine what kind of force could have destroyed that implacable giant. He is at least ninety meters tall, with a body cast out of solid steel, and nearly invincible. He is... he is also not a living creature, really, and so can't be killed by wounding or damaging his body." </p><p> Sunny remained silent for a bit, and then said: </p><p> "There is nothing that can't be killed or destroyed... not even the gods. So then… three of the Chain Lords are accounted for, in the future. We've seen the bones of the dragon, Sevirax, on the Ivory Island, and both his brother and Solvane found their doom near the wreck of Noctis's ship. But what… what exactly happened? How did they fall, and how did Hope escape? What happened to Noctis himself, as well as the One in the North? How was the Ivory City destroyed? How did the Tower break free of its chains?" </p><p> No one answered, as perplexed as he was. After some time, Cassie finally spoke: </p><p> "I am not sure what happened. But I know one thing — because of our arrival, it is happening faster." </p><p> They turned to her, and after a moment of silence, Sunny asked: </p><p> "...Yours is the last story left. And, to be honest, it is the story I am interested in hearing the most. Because it concerns the fifth Awakened sent here by the Spell. Mordret… he found a way to enter the Seed with us, didn't he? </p><p> Cassie sighed heavily and turned her head away. After a while, she said: </p><p> "Yes. Yes, he did…" </p><p> The blind young woman remained silent for a few moments, gathering her thoughts, and then faced them again. Nêw 𝒄hapters will be fully updated at nov(𝒆)l/bin(.)com</p><p> "Unlike what happened to the three of you, my arrival into the Nightmare was not too harrowing. At least not at the start. I was sent into the body of a young priestess whose duty was to tend to the High Priestess of the Night Temple… the One in the North. In this era, the Night Temple still belongs to the cult of the Goddess of the Black Skies — of Storm God. The deity of darkness, stars, and guidance. And so, no light is allowed on the temple's premises." </p><p> She touched her blindfold briefly, then slowly lowered her hand. </p><p> "The acolytes spend long years living in the darkness, and blind themselves before becoming priestesses. For that reason, they are known as the Eyeless. Many of the Eyeless are seers, and possess powers of prophecy and divination. For most, becoming a blind priestess inside a lightless temple would have been a terrible trial. But for me… it was strangely soothing. To find myself among those similar to me, in a place where my blindness wasn't an aberrant oddity, but instead a choice." </p><p> A pale smile appeared on her lips. </p><p> "...However, it was my lady that I found the most comfort in. The One in the North, the Oracle of the Night… she was not unkind. She treated me well enough, and I have learned a lot from her knowledge and wisdom. However, just like the rest of the Chain Lords, she was being consumed by an insidious madness. Hers… was the madness of apathy. Over the centuries, my lady grew indifferent to most things happening in the world, or even to herself. That was why she needed attendants, and I was one of them." </p><p> The smile slowly disappeared from Cassie's face. </p><p> "That didn't mean that she was powerless or without responsibility, though. All of the northern reaches of the Kingdom of Hope were under her authority and protection. There were many villages and several towns full of mundane humans who relied on the Night Temple for safety and guidance. For that reason, the One in the North ruled not only over the blind priestesses, but also over a small, but fearsome army comprised of both mundane warriors and Awakened." </p><p> She sighed slightly. </p><p> "Their numbers might not have been as large as those of the armies of the Ivory City and the Red Colosseum, but due to their prowess and my lady's prophetic gift, the north was never attacked by either. The people rarely suffered from the Nightmare Creatures, as well." </p><p> Cassie grew silent, and a scowl slowly appeared on her beautiful face. </p><p> "...But as the One in the North grew more and more indifferent, that slowly started to change. Still, when I found myself in the Night Temple, things were still more or less fine." </p><p> Her scowl deepened, and her face grew dark and despondent. The blind young woman lingered, and then said in a grim voice: </p><p> "Until they weren't."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_684.html">Previous Chapter</a><a class="navigationButton next" href="chapter_686.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

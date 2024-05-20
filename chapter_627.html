@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 627</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 627 Needlework</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> It took Sunny almost two weeks to approach the southern boundary of the Chained Isles. The further from the Red Colosseum he went, the less presence the Warmongers had there. </p><p> With Solvane's militant order occupying the western reaches of the Kingdom of Hope and the followers of Sun God in control of its center, engaged in a centuries-old conflict with each other, the south remained desolate and neglected. That made Sunny's life a bit easier, but also caused him to lower his guard a little. </p><p> He still had to remain vigilant, though, because there were more and more unsightly horrors hiding in the deep shadows of the Dark Side as he traveled away from human settlements. </p><p> On one of these days, Sunny found himself clinging to the underside of a small floating island as he waited for the arrival of night. He had already rested and dined on several tubes of synthpaste, so for now, there was nothing much for him to do. </p><p> As had been his habit for the past week or so, he summoned one of the Memories from the Colosseum and studied its weave, trying to peer into the secrets of the complicated pattern of ethereal strings. </p><p> Armed with his innate intuition and the ability to compare different Memories to each other, he was making torturously slow progress in his understanding of sorcery… or at least of this type of it. Weaver's sorcery seemed elegant, strange, and marvelous… but also inhumanly complex and elaborate. </p><p> Sunny doubted that he would be able to comprehend its foundational principles any time soon. And even if he did, his human mind was simply unable to encompass the whole of the infinitely convoluted patterns, let alone create one from scratch. </p><p> Maybe if he had a powerful supercomputer instead of a brain… in any case, he was not going to be creating his own Memories just yet, or maybe ever. </p><p> That didn't mean that he couldn't do anything, though. </p><p> Sunny might not have had the capacity to create new weaves, but he had already proven his ability to copy those that already existed. He had reproduced the simplest and most common of them — the pattern responsible for storing Memories in his soul and then summoning them back through essence — in the dungeon of the Red Colosseum. Visit n𝒐velbin(.)c𝒐m for 𝒏ew 𝒏ovels</p><p> With enough time and preparation, he would be able to copy other enchantments of the familiar weaves, too. Creating anything meaningful was going to take a while, though… but that was not what Sunny was currently trying to achieve. </p><p> Instead, he wanted to expand his sorcerous repertoire from one trick... to no less than two tricks. He was experimenting with his Memories in hopes of learning how to modify and change an existing enchantment. </p><p> Right now, Sunny was holding a slim dagger in one hand and a small silver bell in the other. </p><p> The Silver Bell was the first Memory he had ever received, and also the simplest, while the slim dagger was one of the weapons he had won in the arena. Its enchantment was rather straightforward — it made the weapon utterly noiseless. It didn't ring when struck against armor or another blade, and didn't even rustle as it entered the enemy's flesh. </p><p> Sunny had chosen these two Memories for the experiment because, at the core, their enchantments were very similar. One was that of sound amplification, while the other was that of sound nullification. He wanted to change the latter into the former. </p><p> In other words, he wanted to turn the silent dagger into a very noisy dagger. Not because that would be very useful, but to prove that he was capable of modifying enchantments.<novelnext> </novelnext> </p><p> After studying the spellweave of the Silver Bell for many days, Sunny was close to memorizing the staggering complexity of the pattern of strings entirely. Since the bell had only one enchantment, it was easy to isolate it from the parts of the pattern that were common to all Memories. So, in theory, he knew what shape to create. </p><p> The dagger, on the other hand, was a bit different. It also only had a single enchantment and a single ember anchoring the pattern, but that ember was brighter, and the pattern itself was much larger and more intricate. However, there were certain similarities with the one in the bell… so, Sunny could imagine turning one into another. </p><p> He hesitated for a while, then sighed, and raised Weaver's needle. Just like on the day he had found it, the long and narrow needle was enveloped in a faint, weak golden shine that only he could see… thousands of years ago, or maybe sometime in the future, it had absorbed some of Weaver's deific blood, along with tiny traces of divinity. </p><p> Sunny suspected that the needle had not been a magical tool, and neither had it actually belonged to Weaver. Rather, it had been just a random needle that the Demon of Fate found in the Ebony Tower and made use of to sew a new arm to their body, and its magical properties came from being washed in the daemon's blood. </p><p> …However, now, the needle did possess magical properties. Just like Sunny's fingers, it was capable of interacting with the ephemeral strings that constituted spellweaves. </p><p> Sunny threaded a shadow string through the needle, and carefully thrust it into the sorcerous pattern that created the enchantment of the silent dagger. He was hoping to replace some of the existing strings with his own, shift others around, and remove some completely. </p><p> At first, everything went well. Sunny was on the verge of getting excited… but then, the same thing that happened with all his previous experiments repeated itself. </p><p> At some point, the strings trembled, and then the whole pattern tore and collapsed, turning into a chaotic mess of ripped and fluttering threads. Sunny hurriedly retracted his hand, afraid to lose it, and watched as the slim dagger shimmered and disintegrated into a rain of dim sparks. </p><p> A few moments later, the Spell spoke solemnly: </p><p> [Your Memory has been destroyed.] </p><p> Sunny grimaced and closed his eyes. </p><p> "Damnation! Another one..." </p><p> Then, however, he suddenly shifted and turned his head up, staring at the stone surface above him as if trying to pierce its solid mass with his gaze. </p><p> Up above, on the surface of the small island, one of his shadows had noticed movement.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_626.html">Previous Chapter</a><a class="navigationButton next" href="chapter_628.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 506</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 506 Silent Witnesses</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> As Sunny studied the bodies, Master Jet went away to talk to the police officers, and then returned with one of them. There was a disappointed expression on her face. </p><p> "No usable recordings left. Figures… places like this one only exist because they value the privacy of their clients. And the few cameras they did have show nothing but darkness." </p><p> Sunny looked at her, then sighed: </p><p> "Not much to tell from the victims, too. The murderer just used their fists." </p><p> She shrugged. </p><p> "That's how it usually goes, in situations like this. The most likely scenario is that the murderer was one of the clients, who went on a rampage because of either alcohol or stimulants, and a momentary failure to hold on to their sanity. So I doubt that this mess was premeditated." </p><p> Master Jet remained silent for a moment, and then added: </p><p> "He was lucid enough to use his Aspect to obscure the cameras, though. So dealing with him won't be too simple." </p><p> With that, she turned to the police officer and asked: </p><p> "Any survivors? Do we have witnesses?" </p><p> He hesitated for a bit, then gave her a strange look. </p><p> "That… yes, actually, there are a few. But…" </p><p> The officer didn't finish the sentence, and just stared at them with an uneasy expression. </p><p> Sunny raised an eyebrow. </p><p> "But what? Are they refusing to talk?" </p><p> The policeman shook his head slowly. </p><p> "No, they're not refusing. They just… I don't know, something is wrong with them. They just don't speak, or even react really. I've seen a lot of people in shock, and sometimes, they can seem almost catatonic. But this… this is something else. Gave us all the creeps, to be honest." </p><p> Sunny and Master Jet glanced at each other, and then, one of them said: </p><p> "Lead the way." </p><p> The officer sighed, then escorted them to the back of the club, where an inconspicuous door led to the service rooms. The witnesses were gathered in a small office, standing there motionlessly, with nervous paramedics trying to determine the reason for their condition. </p><p> There were five of them, all sharing the same blank, strangely peaceful expression on their faces. They were completely silent, motionless, and still. They did not react to the arrival of new people at all. </p><p> Their eyes were calm and empty. </p><p> Sunny paled. </p><p> 'How… how is this possible?' </p><p> It only took him a second to recognize what was wrong with the survivors, of course. </p><p> In fact, they weren't survivors at all. These people were dead. </p><p> To be more precise, they were Hollow. </p><p> 'How can a mundane human be Hollow?' </p><p> Suddenly, he felt a cold shiver run down his spine. </p><p> Looking at Master Jet, he saw that she had a deep frown on her face, too. </p><p> The massacre in the dance hall was bad enough. But this, this just made the whole situation frightening and eerie. If before Sunny was just disgusted, now, he was starting to get concerned. </p><p> "What the hell?" </p><p> Master Jet stared at the five Hollows for a few moments, then turned to the paramedics. </p><p> "Go take a break, guys. Let these people be. They are already dead." </p><p> One of the paramedics — a mature woman with short blond hair and gentle eyes — looked at her with confusion. </p><p> "I'm sorry, ma'am? But… but they're fine. We need to…" </p><p> Jet let out a heavy sigh. </p><p> "Their souls are destroyed. There is nothing you can do to help them. Something else will take care of the rest." </p><p> The paramedic looked at her for a while, then glanced at the ground and silently walked away. Her colleagues followed, expressions of regret, anger, and horror clearly written on their faces.</p><p> The police officer stayed, but made a point of standing as far away from the Hollows as he could. </p><p> Master Jet stood silently for a few moments, her scowls growing deeper, then turned to Sunny. </p><p> "Answering your question, I don't know." </p><p> He hesitated for a bit, then asked: T/his chapter is updat𝓮d by nov(ê(l)biin.co/m</p><p> "But how can a mundane human become a Hollow? It's only supposed to happen to those who die in the Dream Realm, right?" </p><p> She glanced at him, then silently shook her head. Eventually, Master Jet said: </p><p> "...Wrong. There is a very small chance of a powerful soul attack creating a Hollow. But beings capable of dealing direct soul damage are very rare, so it doesn't happen too often. Almost never, really." </p><p> Sunny walked closer to the five empty humans and studied them. </p><p> "Can you do something like this?" </p><p> Master Jet lingered for a bit, then answered simply: </p><p> "If I am really precise." </p><p> Something was very wrong with these people. And not just the fact that they were Hollow. There was something else… something that almost made Sunny's hair stand on end. </p><p> A feeling of subtle, but profound wrongness. </p><p> He reached out with Shadow Sense, and flinched. </p><p> Master Jet did not miss that sudden reaction. </p><p> "What? Did you discover something?" </p><p> Sunny gritted his teeth, then nodded. </p><p> "Their shadows… they're dead." </p><p> She stared at him with a raised eyebrow: </p><p> "How does this work? I don't know much about shadow affinity, sorry… it's a very rare type of Aspect. Does damage to a shadow correlate to soul damage?" </p><p> Sunny thought for a bit, then shrugged. </p><p> "I am not so sure myself. There's no manual for it, after all. But… only two things ever managed to damage my shadow. One was another shadow, and the other was a soul attack." </p><p> Sunny wasn't sure that he was comfortable providing Master Jet — a person specializing in exactly such a type of attack — with this information, but decided to share it nevertheless. </p><p> He trusted her that much, at least. </p><p> "So… since shadows are susceptible to soul damage, it is not too much of a leap to assume that they share a deep connection to the soul, or are tied to it somehow, at least." </p><p> She nodded, and remained silent for a while, thinking. Then, Master Jet echoed his recent question: </p><p> "Can you do something like this?" </p><p> Sunny shook his head. </p><p> "No. My Aspect doesn't have means of dealing damage to someone's shadow. At least not yet." </p><p> His Shadow Sense, meanwhile, spread throughout the whole club, allowing him to perceive it as a whole. </p><p> And there, deeper underground, he noticed something strange. </p><p> Sunny lingered for a few moments, and then turned to the police officer. </p><p> "Gather your colleagues and leave. Don't come inside again until either Master Jet or I tell you to." </p><p> The policeman opened his mouth, wishing to say something, then simply nodded and hurriedly walked away. </p><p> Master Jet glanced at Sunny with a question in her eyes. </p><p> "...What was that all about?" </p><p> Sunny gave her a dark look. </p><p> "That's... how do I say this? I think the killer is still inside."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_505.html">Previous Chapter</a><a class="navigationButton next" href="chapter_507.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

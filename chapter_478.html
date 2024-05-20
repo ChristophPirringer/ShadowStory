@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 478</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 478 Credit Where Credit Is Due</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> After the movie was other, Kai appeared to deafening applause and gave a short speech, congratulating the director and the crew of the movie and then inviting them on the stage for a short Q&amp;A. </p><p> Sunny stared at the director of this travesty, seriously considering silently assassinating him for a few moments. Then, he glanced at Effie, who — judging by her face — was thinking the same. </p><p> He lingered for a few moments, then asked: </p><p> "What do you want to do?" </p><p> The young woman inhaled deeply, turned to him, and smiled. </p><p> "...I am hungry. Let's go eat." </p><p> Together, they snuck out of the screening hall and went to find the theater's restaurant. </p><p> There were a lot of people there who, just like them, had decided to skip the PR portion of the event and were now enjoying food and drinks, discussing the movie with lively expressions. Sunny and Effie got themselves something to eat and sat at an empty table, then grew quiet for a while. Each was preoccupied with their own thoughts. </p><p> Now that Sunny had a little time to digest the movie, his anger subsided a bit. In fact, he was even happy. </p><p> Sure, the way he was portrayed in the story was as far from the truth as it could have been, and more than a little bit humiliating. But… in a way, this was exactly what he needed. </p><p> Now that Nephis had become his master, he didn't have to hide his strength and True Name that much. But he still preferred to remain in the shadows — not only because there was a possibility of becoming masterless again, but also because it was the best way to be in the world so full of hidden dangers and powerful enemies. </p><p> Being renowned would make a lot of things difficult for him, and make every battle he fought after that harder. After all, there was no better advantage than being underestimated by the enemy. </p><p> From that point of view, the ridiculous way in which he was portrayed in the movie was a blessing. It made the possibility of anyone thinking highly of him that much lower. Of course, not everyone was going to watch that travesty, but many would, and their opinion was going to spread. </p><p> Who would believe that a Changing Star's bumbling sidekick was, in fact, one of the most dangerous Awakened alive, and thus consider him as a serious threat? </p><p> ...Pretty much no one. </p><p> So, in fact, the director of the Song of Light and Darkness unintentionally made him a favor. </p><p> Satisfied with that conclusion, Sunny looked around. He saw several people looking at Effie with stunned expressions, clearly gathering their courage to come and introduce themselves. But no one had, yet. </p><p> He could hear their whispers, though: </p><p> "Look! It's her, Raised by Wolves!" </p><p> "Oh, my!" </p><p> "I heard about her situation, but to actually see... She is so brave!" </p><p> Effie herself was strangely quiet. She ignored the whispers, then looked at him and asked: </p><p> "Hey, Sunny. Can I ask you something?" </p><p> Sensing that this was not going to be a simple question, he tensed a little, and then said: </p><p> "Sure. What is it?" </p><p> Effie hesitated for a few moments, then lowered her voice, so that no one would be able to overhear: </p><p> "Did Caster really leave to help Nephis?" </p><p> 'Ah…' </p><p> Sunny stared at his friend for a bit, then shook his head. FiNd 𝒖pd𝒂tes on n(𝒐)/v𝒆l𝒃𝒊n(.)c𝒐m</p><p> "...No. He left to make sure that she dies." </p><p> Effie inhaled deeply.</p><p> "...I see." </p><p> She didn't continue that conversation, as though his answer confirmed something that she had already suspected. </p><p> Well… despite her often boorish demeanor and the way she was portrayed in the movie, Effie was anything but stupid. In fact, she was extremely intelligent, cool-headed, and cunning — otherwise, she would have never survived for three long years alone on the streets of the Dark City. </p><p> It was only natural for her to have suspicions, considering how much she knew. </p><p> Luckily, Effie did not ask anything else. </p><p> …Mostly because of a strange man who entered the restaurant, looked around, noticed their table, and walked over with gleaming eyes. </p><p> 'Oh no… another fan of Raised by Wolves…' </p><p> The man stopped in front of them, glanced at Effie, and then turned to Sunny with an awed expression: </p><p> "A… are you Awakened Sunless?" </p><p> Sunny blinked. </p><p> 'What?' </p><p> "Uh… yes?" </p><p> A bright smile appeared on the man's face. </p><p> "Oh my! Oh, goodness! It is such an honor! I am such a huge fan of yours!" </p><p> 'What is happening?!' </p><p> Sunny stared at the beaming man, trying to comprehend what he was saying. Misjudging his expression, the man hurriedly said: </p><p> "Oh, sorry! I was so nervous that I forgot to introduce myself. I am a writer… in fact, it was I who wrote the screenplay for A Song of Light and Darkness. And it's all… all thanks to you!" </p><p> Effie stared at Sunny with an expression that didn't promise him anything good and asked in a sweet voice: </p><p> "Oh? All thanks to him, really? How come?" </p><p> '...I'm in trouble!' </p><p> The man's smile grew even wider. </p><p> "Exploration Report on the Forgotten Shore! Ah, it is such a brilliant piece of academic work. I based most of my research on your profound work, Awakened Sunless! Everyone on the crew and everyone in the cast read it at least once. I even insisted on giving you the co-writer credit, but sadly, it was impossible… you know, due to you not being a member of the screenwriter's guild. But fret not! I'll let everyone know that if it weren't for you, this movie wouldn't exist!" </p><p> Sunny stared at the man with wide eyes, and then said in a weak voice: </p><p> "Please, don't…" </p><p> But it was of no use. </p><p> "Ah, you are so humble! So modest! Well, of course, what else would I expect from a researcher as talented as you? But it wouldn't be right for me to receive all the praise… no, people must know…" </p><p> He looked at the restaurant and proclaimed, not even trying to keep his voice down: </p><p> "...that it is you, Awakened Sunless, who they must thank for being able to enjoy our wonderful film!" </p><p> Sunny looked at the floor. </p><p> 'I guess I am going to have to kill Kai. Or wait, no. Actually, that probably makes us even after the whole Mongrel disaster...'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_477.html">Previous Chapter</a><a class="navigationButton next" href="chapter_479.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

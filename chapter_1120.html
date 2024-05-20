@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1120</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1120 Performance Review</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The divergence from the norm continued after the fighting was over, as well. Usually, the human forces would be hastily retreating from the site of the battle to escape the converging abominations that had been attracted by the noise and the smell of blood... </p><p> However, the joint army defiantly stayed in place. A field camp was established, surrounded by hastily constructed fortifications. Teams of salvagers prowled the vast battlefield, retrieving soul shards and dismantling the bodies of the most powerful Nightmare Creatures for precious materials. </p><p> It was as if the leaders of the expedition force were not at all concerned by the threat of the migrating hordes. On the contrary, they seemed to welcome the danger. </p><p> The joint army had been assembled to destroy the titans and reduce the accumulation of Nightmare Creatures in the area before the siege capitals could be compromised. Both of these objectives had been achieved, but the Saints decided to cull more abominations while they had a chance - no one knew when Valor, Song, and the government would join forces again. </p><p> The fighting on the fringes of the camp would most likely continue through the rest of the day and the entire night, with several smaller hordes being ground against the bulwark of the seven Saints and their soldiers. </p><p> None of that concerned Sunny, though. For now, he could just rest. </p><p> The Fire Keepers, the Wolves, and the Nightsingers had ended the battle together, so they were assigned the same spot inside the camp. Despite how fierce the fighting had been, casualties were few - none among the survivors of the Forgotten Shore, and a mere handful in the two companies led by Effie and Kai. </p><p> That was mostly thanks to the five Masters who had shielded the Awakened soldiers from the worst of what the titanic horde had to offer. </p><p> So, the mood inside their section of the camp was more festive than grave. </p><p> As Sunny walked through the rows of tents toward a supply vehicle where food was being prepared, he received many reactions. </p><p> "Look! It's him!""Gods almighty... when Master Sunless lured that Tyrant to the river, I knew that he was good. But I thought that he was just an extremely competent scout, you know? Who knew that we had such a monster with us this whole time...""A monster? More like a Devil! Damn, now I know where that nickname comes from. He has to be one of the scariest Ascended in the Quadrant, right? No - in the whole world.""Why are you guys so surprised? Master Sunless is from Changing Star's cohort, like our Wolfie. Of course he's just as crazy as her...""I think I'm going to have a dream about him today. I just don't know if it'll be a nightmare or, you know... a different kind of dream...""Are you so smitten that you've lost what little brain you used to have, fool? You're an Awakened! You don't dream.""Ah, yes... what a pity... relief, I mean relief!" </p><p> Sunny was slightly amused by that last one, but he did not let it show. It seemed that his little performance had worked... at least on these ordinary soldiers. What effect it had on the intended targets - Morgan, Seishan, and by extension the forces of the great clans on the continent - remained to be seen. </p><p> He got a generous portion of army stew and made his way to the tent where the other four Masters were gathered. </p><p> The atmosphere inside was relaxed, but none of them had dismissed their armor. Even though the situation seemed to be under control, and the Saints appeared confident in their ability to protect the camp, one could never know what would happen when the Spell was involved. So, experienced fighters like them never allowed themselves to completely lower their guards. </p><p> Kai was absent-mindedly cleaning his face with a wet towel, Nephis was sitting tiredly on a cot, Jet was stretched on another one with a blissful expression on her face, and Effie... of course, Effie was wolfing down an unreasonable amount of food. </p><p> When she saw him, however, she forced herself to pause for a moment. The huntress stared at Sunny with wide eyes. </p><p> "Sunny... what the hell was that?! You just... boom! And went berserk! It was actually sort of spectacular." </p><p> Effie paused for a moment, and then added with a glint in her eyes: </p><p> "And since when can you turn into that shadow fiend?! Have you Transcended? Are you secretly a Saint now? No, that can't be right... can it?" </p><p> He endured the deluge of questions, then coughed. </p><p> "It's just a trick I picked up in the Antarctic Center. A special application of my Ascended Ability." </p><p> Effie remained silent for a few moments, then shook her head. </p><p> "You are scary. Let's be friends!" </p><p> ...Then, she added with a grin: </p><p> "Oh... and try making that shadow fiend bigger, next time. Looking at it made me really want to ride you again..." </p><p> As a strange expression appeared on Jet's face, the huntress started giggling and stuffed a spoonful of stew into her mouth. </p><p> Sunny shook his head in resignation. </p><p> "Don't mind her. The fiend was actually my body in the Nightmare. While that... overgrown delinquent... was sent into the body of a small child. So I let her ride on my shoulders, to save time. In retrospect, that was a huge mistake." </p><p> Jet smiled at him lazily from her cot. </p><p> "You don't really have to explain, you know?" </p><p> Sunny briefly glanced at Neph and rolled his eyes. </p><p> "I know. I still want to, though!" </p><p> Soul Reaper chuckled. Visit n𝒐velbin(.)c𝒐m for 𝒏ew 𝒏ovels</p><p> "I see. Well, in any case... good job today. As for what Sunny did and the reputation he earned..." </p><p> She looked at Kai, Effie, and Nephis with a shrug. </p><p> "That's just how it goes. In the Antarctic Center, everyone knew how fierce of a fighter he is. Now, people in East Antarctica will know, too." </p><p> Kai lingered for a bit, then said: </p><p> "We all know it as well, of course. More than anyone. It's just that... Sunny, you usually shy away from the spotlight. Seeing you acting out of character is a little strange. Is everything alright?" </p><p> Sunny sent his friend a reassuring smile and nodded. </p><p> "Sure. I shied away from the spotlight because it was convenient, and now I don't... because it's more convenient. So, don't worry." </p><p> Then, he looked at Nephis and raised an eyebrow: </p><p> "And what about you? No comment?" </p><p> She turned her head and studied him for a few moments. </p><p> Eventually, Nephis looked away and said simply: </p><p> "...Your swordsmanship has improved." </p><p> And that was it. </p><p> Sunny opened his mouth to respond, but then grew silent. A slight frown appeared on his face. </p><p> With a sigh, he found himself a seat and concentrated on the food. </p><p> That was because the shadow he had left outside the tent noticed someone heading their way... </p><p> Black armor, red cape, vermilion eyes that were sharp enough to cut steel. </p><p> Morgan was coming to pay them a visit.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1119.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1121.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

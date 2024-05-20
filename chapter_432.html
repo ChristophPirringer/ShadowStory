@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 432</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 432 First Day Of Nothing</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 432 First Day of Nothing</p><p>'This is… sort of grim.'</p><p>Sunny was falling through a boundless, empty void of cold darkness. Far below, false stars were shimmering with pale white light. Their radiance, however, did very little to illuminate the Sky Below. Everywhere around him, there was just… nothing.</p><p>Sunny was still resting atop the treasure chest, holding onto it with his one healthy hand. He had no reference point to measure how far he had traveled, but suspected that the distance was swiftly leaving the realm of mundane sense and logic.</p><p>He was not very educated, however, even he knew that a falling object would forever accelerate at a steady pace… theoretically. That meant that every second Sunny was falling, his speed was increasing exponentially. By now, it had to be simply insane.</p><p>But he did not really feel that speed. All he felt were wisps of cold wind caressing his skin from time to time. If there was one good thing about the situation, it was that he had accumulated a bit of shadow essence and was able to summon the Puppeteer's Shroud again. So he wasn't naked anymore, at least.</p><p>If there was one thing he did know, though, it was the approximate speed with which he could glide forward with the help of the Dark Wing. Adding the weight of the dead treasure to the equation, he could more or less calculate the distance he was covering horizontally. With that in mind, he guessed that he would reach the middle of the Tear in around a day… <visit =""="" a="" better_user="" experience.="" for=""></visit></p><p>Problem was, he had no reliable way to measure time, as well. There were some clues he could try to use, like the rate of shadow essence regeneration or the state of his wounds, but they were not exactly reliable.</p><p>In heroic stories, characters often found themselves in similar situations. Every time that happened, the hero somehow managed to measure the passage of time by the state of their facial hair. Sadly, despite being eighteen, Sunny could not grow even the most pitiful of beards. That was a real shame.</p><p>'...I guess I'm not hero material.'</p><p>With a bitter sigh, he stared at the lid of the treasure chest and tried to assess his physical state.</p><p>Things weren't good, but they also weren't very bad. He had sustained minor internal damage due to the Crushing, as well as several rather ugly wounds in the battle against Mimic. The half-healed cuts left on his body by the Mirror Beast had also opened at some point, and were now hurting once again.</p><p>The worst injury was, of course, his broken arm.</p><p>His mental state was also somewhat in shambles after being ravaged by the visage of the Strings of Fate. Luckily, there seemed to be no long-lasting effects. Even the splitting headache was already growing fainter. Sunny also could not remember the exact details of what he had seen, as if his mind completely erased them from his memory to protect itself.</p><p>The only thing that remained was the fragment of the memory that he had preserved on purpose — the image of the thread of golden light leading deep into the Tear.</p><p>Sunny stared at the black nothingness, waited for a while, then slowly exhaled.</p><p>'Great. Now what?'</p><p>There was no answer.</p><p>***</p><p>After a while — Sunny had no idea how long — he got tired of waiting for something to happen and decided to act.</p><p>'Might as well…'</p><p>The first thing he did was summon the Covetous Coffer.</p><p>Sunny expected that an identical chest would appear near the dead one, but instead, what he saw was a miniature version of it. A box made of dark wood, with strips of iron reinforcing it, appeared on the lid of the treasure chest.</p><p>It was about the size of a jewelry box, but not at all elegant. In fact, the Covetous Coffer looked more mean than graceful… somehow. As Sunny stared at it, the lid of the box raised slightly, revealing rows of sharp iron teeth.Your f𝒂vorite stories on 𝒏ov𝒆lb𝒊n(.)c𝒐m</p><p>He blinked.</p><p>'I guess that's all I can manage with my current Soul Core capacity.'</p><p>Shaking his head, Sunny looked at the Coffer and said in an uncertain tone:</p><p>"Come here."</p><p>Immediately, eight short iron legs appeared from under the box, and it scurried over before plopping down near him.</p><p>Sunny hesitated for a few moments, glanced at his fingers, then cautiously opened the lid of the box. Luckily, it didn't try to bite them off.</p><p>Taking off his pack, Sunny transferred its contents into the box. Although it seemed rather small, the Coffer swallowed all his supplies without any problem.</p><p>'...Perfect.'</p><p>Sunny closed the box, patted it on the lid, and dismissed it.</p><p>Then, he summoned the Moonlight Shard and methodically cut his now empty pack into strips of leather. Using his one healthy hand and his teeth, Sunny tied them into a semblance of a rope, then tied himself to the treasure chest, and finally calmed down.</p><p>Now, his coins weren't going anywhere.</p><p>Satisfied with his handiwork, Sunny rested for a bit. He was starting to feel tired… and sleepy.</p><p>Falling through the endless abyss turned out to be way less exciting than he had thought. In fact, it was extremely boring.</p><p>There were still a lot of things he had to do, though…</p><p>With a grimace, Sunny cautiously shifted his weight and crawled to the end of the chest. There, he used the Moonlight Shard to widen a crack on the side of the dead Mimic and separate two long planks of wood from it.</p><p>Then, he made a roll out of the last strip of leather he had and bit down on it.</p><p>'This... is going to suck.'</p><p>Without giving himself too much time to think about it, he removed his broken arm from its sling, and then proceeded to swiftly set the bones… just like he had been taught.</p><p>A sharp, blinding pain pierced his mind.</p><p>When Sunny regained his vision and the ability to think straight, he saw that his arm did not look like jelly anymore. It seemed more or less straight.</p><p>'That will have to do...'</p><p>Hissing and cursing, he used the two planks of wood and the strip of leather to create a sturdy splint, then carefully placed it back inside the sling. Now, his broken bones had a good chance of growing back together correctly.</p><p>Hopefully.</p><p>After that, Sunny summoned the Endless Spring and the Covetous Coffer, took some of his remaining food out of it, and had a strangely relaxed meal on top of the dead Mimic's lid.</p><p>By the time he was done, the Sky Below… did not change at all.</p><p>He was still falling into its depths, slowly moving the treasure chest toward the center of the Tear with the help of the Dark Wing.</p><p>…He was also absolutely exhausted.</p><p>Sunny somberly stared at the distant false stars.</p><p>He stared at them until his eyes started to water and his thoughts became slow and muddy.</p><p>Then, he stared at them some more.</p><p>After a while, he thought:</p><p>'I can't take it anymore.'</p><p>By then, his reserves of shadow essence were full by a third. Judging that around twenty-four hours had passed after the destruction of the Twisted Rock, Sunny sighed, then dismissed the Dark Wing and allowed the chest to start falling straight down.</p><p>He was going to have to keep falling into the Sky Below for six more days... at least. Probably longer. Sunny shook his head, knowing full well that these estimations had almost nothing to do with reality.</p><p>Then, he did something that he had never thought he would ever do…</p><p>He cautiously lay down on the long lid of the dead Mimic, tightened the rope connecting them together… and closed his eyes.</p><p>Soon, Sunny was dead asleep, plummeting into the darkness of the abyss without a care in the world.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_431.html">Previous Chapter</a><a class="navigationButton next" href="chapter_433.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

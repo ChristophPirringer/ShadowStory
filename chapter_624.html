@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 624</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 624 A New Day</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Elyas hesitated for a moment, and then looked at Sunny with a sad smile. </p><p> "It's… it's alright, Demon. Thank you... thank you for getting us this far. But now, it is my turn. This is our chance. This is what we've been fighting for all this time, is it not? The tales my mother told me were all true… I'll free us both! You'll see. The Lord of Light will guide my hand…" </p><p> With that, he reached out and took the wooden knife from Solvane hand, his fingers wrapping tightly around its hilt. </p><p> The priestess smiled radiantly and took a step back. He beautiful eyes shone with joy, and he voice resounded in the darkness of the dying night, full of longing and hope: </p><p> "Be brave, boy. The gods are watching!" </p><p> Sunny struggled desperately against the crushing force that pressed him into the ground, but it was of no use. A stifled roar escaped from his mouth… </p><p> A few steps away, Elyas straightened, calmly looked the Transcendent beauty in the eyes, and then assumed a battle stance. He knew what he was doing, after all… the youth was as talented of a fighter as Sunny had been at his age, or maybe even better. </p><p> Two months of constant battles in the arena gave him plenty of experience. More than most would have acquired in a lifetime, and certainly no less than what Sunny had on the Forgotten Shore. </p><p> 'No! That is not enough!' </p><p> But what if... what if Elyas really had a chance? Sunny had achieved many impossible things himself, as well, and seen others do the same. Th/e most uptodat𝓮 n𝒐vels are published on n0velbj)n(.)co/m</p><p> Even in the direst of situations, there was always hope... that was a lesson he had learned against all odds in the hell of the Forgotten Shore, and later in the stone mausoleum of the Night Temple. </p><p> …Without wasting any time on doubt and hesitation, Elyas sent his soul essence flowing in a raging flood, and shot forward, moving with grace and speed that few Awakened could ever hope to achieve. His hand flew through the air, swift enough to appear as an almost imperceptible blur. </p><p> The strike was swift and cunning... however, it was just a feint. His true intention was to attack from below, and it was hidden almost perfectly. There was no sign of the fact that the young man was preparing to change the direction of the blow. He had learned well from watching Sunny fight... </p><p> But if Sunny could see it, then so could Solvane. </p><p> His eyes narrowed. </p><p> A split second before the wooden knife reached the Transcendent's flesh, Elyas suddenly stumbled, then slowed down. Taking a few unsteady steps forward, he swayed, and suddenly toppled to the ground. </p><p> A thin red line appeared across his chest, and then burst open in a flood of blood. </p><p> Above him, Solvane sighed with sorrow and lowered her hand, a single drop of crimson falling from her delicate fingers. Her lips trembled, and then, a barely audible whisper reached Sunny's ears. </p><p> "...Not today." </p><p> He didn't hear it, though. Frozen, Sunny stared at Elyas, who lay motionlessly on the ground, the grass soaking in his blood. The young man's unmoving face was turned to him, his light-blue eyes still open. However, those eyes, which had been bright and lively once, were now dull and empty, reflecting the boundless darkness of the night sky. Elyas's face seemed almost... peaceful. </p><p> The youth was finally free. </p><p> ...Sunny roared, struggling furiously to stand up, but all he achieved was damaging his mangled body even further. Without paying any attention to that pain, he continued fighting against the invisible chains holding him down, feeling the ground itself shift beneath his knees. </p><p> 'Kill! I'll kill her! I'll rip her to shreds!' </p><p> Solvane remained motionless for a while, and then silently bent down to pick up the wooden knife from the youth's bloodless fingers. </p><p> Coming closer, she stared at Sunny with a dark expression, and then asked: </p><p> "What about you? Are you willing to fight me, little demon?"<novelnext> </novelnext> </p><p> Sunny glared at her, his teeth bared in a hateful grin. He wanted to... oh, how he wanted to! </p><p> But he could not. Fighting Solvane meant nothing but death... </p><p> Slowly, he shook his head. </p><p> The beautiful priestess sighed. </p><p> "...Of course. Why did I expect different from the servant of cowardly Shadow?" </p><p> Her hand suddenly flashed, and terrible pain exploded through Sunny's body. </p><p> Looking down, in a morbid deja vu, he saw a graceful arm protruding from his chest, the breastplate of the Undying Chain shattered into pieces. </p><p> Solvane grimaced, and pulled his hand out of his broken chest, easily tearing the still-beating heart out in the process. She glanced at it with disappointment, and then sent the body of the four-armed demon tumbling over the edge of the island. </p><p> The last thing he saw before plummeting into the abyss was her graceful, beautiful figure standing forlornly in the tall grass. </p><p> Then, Sunny fell into the embrace of darkness. </p><p> His body flew down, faster and faster, quickly disappearing into the nothingness of the Sky Below. </p><p> Soon, it was so far away from the Red Island that even a memory of sunlight couldn't reach that far. </p><p> His chest was torn open, and his heart was violently ripped from it, leaving behind a harrowing wound. </p><p> ...After falling for a while, Sunny sighed. </p><p> Luckily, this strange body of his had two hearts. And while anyone else would have succumbed to blood loss after having one destroyed, he possessed Blood Weave, which kept him alive despite receiving such a ghastly wound. </p><p> It didn't feel too good, though. In fact, the pain was terrible. </p><p> But it could not compare even a little to the anguish he felt in his soul. </p><p> Sunny closed his eyes. </p><p> 'I'm sorry, Elyas. I failed. But... don't worry. I'll kill her on your behalf, one day… kill her again. I'll kill her as many times as it takes to erase the very memory of her from existence. Just you wait…' </p><p> He gritted his teeth, then summoned the Heavenly Burden, and then thrust the black needle into his flesh. </p><p> Dark Wing appeared on his shoulders, swiftly turning into a blur. </p><p> Sunny's fall slowed, then slowed some more, and finally turned into flight. </p><p> He was flying into the darkness, moving further and further away from the Red Colosseum… </p><p> Far above, the eastern horizon had already turned pale lilac, announcing the arrival of a new day.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_623.html">Previous Chapter</a><a class="navigationButton next" href="chapter_625.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 372</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 372 Names Of The Gods</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 372 Names of the Gods</p><p>After a while, he regained enough composure to continue the conversation.</p><p>Sunny and Teacher Julius chatted for a while, discussing the exact process of publishing the report, what changes would have to be made, and how they would work together to bring the project to fruition.</p><p>All of it, of course, was going to have to happen only after Sunny had settled in the Dream Realm and found a Citadel to anchor himself to. Right now, he did not exactly have time to work on an academic paper.</p><p>Teacher Julius also shared some of his knowledge about the human settlements in the Dream Realm and his views on how to decide on a proper Citadel. All his advice, however, could be described in one sentence:</p><p>"Find one with good plumbing."</p><p>Sunny wasn't sure what to make of it, but judging by the pained expression on the old man's face, it was indeed an important factor.</p><p>Finally, he managed to turn the conversation toward the things he really wanted to learn about.</p><p>"Speaking of that… I am really unclear on one thing. While exploring the Dark City, I found a few places of worship. However, the deities they worshipped seemed to be different from the ones I heard about in my First Nightmare. Did the native humans of the Dream Realm all have different gods?"</p><p>Teacher Julius looked at him and smiled.</p><p>"Ah! The gods. That is an interesting subject indeed."</p><p>He thought for a few moments, then said:</p><p>"Yes and no. The gods worshipped in different regions had different names, but from what we can tell, those names all described the same entities. The current consensus is that the "gods" of the Dream Realm were, in fact, actual beings, perhaps creatures of the Divine rank."</p><p>Sunny nodded.</p><p>"Really? Then… where are they now?"</p><p>The old man sighed.</p><p>"That is the strange thing about the gods. They are dead, just like everything else in the Dream Realm is dead. They seem to have been alive in the time periods of many of the Nightmares, but the ruins we have encountered and explored mostly describe them as being destroyed… by what or whom, we do not know. We also don't know if they existed before or after the Nightmare Spell itself appeared."</p><p>He lingered for a bit, then added.</p><p>"But we do know a few things about the gods. For example, how many of them there were…"</p><p>Sunny smiled.</p><p>"Let me guess… seven?"</p><p>Teacher Julius chuckled.</p><p>"You would think that, right? But no, there were only six gods. Their most common names were Sun, War, Beast, Storm, Heart, and Shadow. Although those names don't do them justice, truth be told"</p><p>Sunny raised an eyebrow.</p><p>"Really? How so?</p><p>His mentor rubbed his chin, then said doubtfully.</p><p>"Well, a god is too vast of a being to be described with one word. Take the Goddess of War… oh, yes, their gender seems to be very mercurial… the War God is supposed to be the deity of warfare, and in a sense, he — or she — is. But he is also the god of life."</p><p>'Uh… what?'</p><p>"How does it make any sense?"</p><p>The old man smiled.</p><p>"War is synonymous with struggle, and what is life if not a constant struggle for survival? So the Goddess of War can also be called the Goddess of Life. She is also the goddess of progress, technology, craft, intellect, and through all of this, the patron goddess of humanity."</p><p>Teacher Julius got engrossed in his favorite field and went on a small tangent:</p><p>"Or take the Beast God. He is also often described as the Goddess of the Moon, as well as hunting, carnal desire, blood, beauty, and the cycle of birth and death. The Sun God is also the Lord of Light, a manifestation of fire, passion, creation, and destruction. The Storm God is also the god of the depths, of the oceans, of darkness, stars, travel, guidance, and disaster. And so on…"</p><p>Sunny coughed.</p><p>"Uh… what about Shadow God?"</p><p>The eccentric instructor shrugged:</p><p>"Uh… I'm not too familiar with that one. As far as gods go, Shadow is not very prominent. Well, as a shadow should be, I guess. He is sometimes called the god of peace, death, solace, and mysteries. That's about it, I think."</p><p>Sunny hesitated for a few moments, then asked carefully:</p><p>"I see. Hard to imagine that only six entities were responsible for all that. Were there perhaps any other divine beings?"</p><p>Teacher Julius thought for a few moments, then shrugged.</p><p>"There certainly were many beings that were either partially divine, or even almost as powerful as the gods themselves. We don't know much about them, though. Take daemons, for example…"</p><p>Sunny held his breath.</p><p>"Daemons were such mysterious creatures! They were described as having power almost equal to that of the gods, but of a different nature. They also seemed to have created themselves, or at least appeared out of nowhere. Almost nothing is known about them, except for the fact that there were seven of them... one more terrible than the other."</p><p>He raised an eyebrow.</p><p>"Terrible? Why were they terrible?"</p><p>The old man smiled:</p><p>"What can be more terrifying than a creature that came out of nowhere, wielding enough power to wage war against the heavens? Don't forget that what humans fear the most is the unknown. Perhaps the gods were much the same."</p><p>Sunny hesitated for a long time, then finally asked:</p><p>"Teacher Julius... have you ever heard about the Unknown?"Re𝒂𝒂d the latest stories 𝒐n nov𝒆lbin(.)com</p><p>His mentor gave him a weird look, then laughed.</p><p>"What kind of a question is that? Haven't I dedicated my whole life to exploring the unknown? I think the lack of sleep is getting to you, my boy. Come, I have wasted enough of your time. A newly Awakened like you should be running around, trying to find patronage or ingratiate themselves to a welcoming clan. I'll recommend you several books on the gods and divinty, to read once you have settled out there in the Dream Realm..."</p><p>Sunny smiled weakly, realizing that Teacher Julius did not know anything about the Weaver, the reasons for why the gods were dead, and the Unknown.</p><p>Strangely, he felt relieved.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_371.html">Previous Chapter</a><a class="navigationButton next" href="chapter_373.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

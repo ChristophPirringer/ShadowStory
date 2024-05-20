@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 694</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 694 Key Piece</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<p> Back in the Red Colosseum, Sunny had spent an excruciating amount of time remembering and comparing the weaves of different Memories in order to understand what they had in common. </p><p> In his mind, there were three traits that all Memories shared: the ability to be summoned and dismissed, the ability to repair themselves while dismissed, and the connection to the wielder's soul. </p><p> By recognizing these three universal parts of the weave patterns, he thought that he had learned how to reproduce these simplest enchantments, at least to the point where he managed to create a simple pattern that allowed an item to be dismissed and summoned from essence. </p><p> …However, there was a fourth quality that all Memories shared, one that he had not thought about. </p><p> All Memories had a name. </p><p> 'I am an idiot… such an idiot…' </p><p> He of all people should have known what power names wielded, considering that his own True Name was literally the key to having absolute control over him. </p><p> Appearing from the shadows that nestled in his room, Sunny fell on the bed and summoned the Silver Bell — the Memory with which he was familiar the most. He had spent countless hours studying its weave and trying to comprehend the secrets of how it worked… to little avail, up until now. </p><p> Staring beneath the surface of the small bell, he saw the beautiful and complicated pattern of ethereal strings that permeated it, with a single dimly glowing ember in its middle. </p><p> By now, Sunny had managed to recognize the parts of the weave that were responsible for all its unique qualities… or so he thought. </p><p> There were the three segments of the pattern that he had learned in the Red Colosseum, and the rest was the single enchantment of the bell. However, despite knowing all the parts, Sunny could never make sense of the whole weave… as though something was missing, making all his attempts to comprehend the logic and connections of the ethereal strings useless. </p><p> 'There is one more element… the Silver Bell does have only a single enchantment, but it also has a name… the name that differentiates it from every other Memory, and thus, allows it to exist… somehow.' </p><p> Sunny stared at the part of the weave that he had thought was representing the enchantment for a long time, then summoned another Memory and studied it, as well. The task of separating one completely unique part of the weave from another completely unique part seemed impossible, at first… after all, he had nothing to use as a reference. </p><p> But he had something even better. The intrinsic predisposition to weaving that he had inherited from the Demon of Fate… the very quality that Noctis had mentioned Hope possessed when it came to runic sorcery, as its creator. </p><p> Sunny, of course, was no Weaver. But he was able to intuitively sense the purpose of spellweave elements due to his connection to the enigmatic daemon. That talent was literally in his blood. All Sunny had to do now… was carefully examine each and every string comprising the vast pattern, and sense which ones were meant to create sound, and which had no purpose he knew of. </p><p> The ones he knew nothing about had to do something with the name. </p><p> …Hours passed, and soon, it grew dark outside. Sunny continued to stare at the small silver bell, forgetting about his nightly hunt. And at some point in the middle of the night, his eyes suddenly widened. </p><p> 'There… is it? Yes! I see it!' </p><p> Finally, he had managed to isolate the part of the weave that had nothing to do with the three universal enchantments, but also didn't seem to be connected to the actual purpose of the bell — producing a ringing that could be heard from miles away. </p><p> This… this had to be the part of the spellweave that described the name of the Memory. Such a vast and intricate pattern of ethereal strings, all to express two simple words… </p><p> Silver Bell. </p><p> As soon as Sunny mentally connected these two words with the pattern, a strange thing happened. The weave of the Silver Bell remained the same, but he suddenly saw it differently. It was as though the whole thing completely transformed in front of his eyes, while not changing at all. </p><p> The disparate parts suddenly seemed harmoniously connected, and the chaotic and senseless structure of the weave suddenly appeared to possess a strange and mysterious, but elegant and undeniable logic. </p><p> He was stunned. </p><p> 'How… how did I not see this?' </p><p> The pattern was suddenly so much more open to him, so much easier to discern. And in the middle of it, weaving through every part of the tapestry of ethereal strings was the name, Silver Bell, which served as the bridge and the unifying element between them. </p><p> '...No wonder every Memory I tried to modify collapsed. I only missed the most important thing, damn!' </p><p> Sunny studied the weave of the Silver Bell with wide eyes, seeing the familiar parts of it in a new light. </p><p> …Then, however, a slight frown appeared on his face. </p><p> 'Wait… what is that?' </p><p> Now that he saw the entirety of the logic behind the pattern — or rather, of the logic behind its foundational structure — he could also see an element that seemed alien to his understanding. By now, no part of this weave was supposed to remain unknown to him. </p><p> And yet, there was one. </p><p> More than that, that part of the weave was vast and terribly complicated, as much inherent to the whole structure of the Memory as its name. It was hard to notice at first, but if one knew what to look for, it was almost impossible to ignore. Visit n𝒐velb𝒊n(.)c𝒐m for l𝒂test 𝒏𝒐vels</p><p> 'Huh… it is very pretty… but what the hell is it?' </p><p> He scowled, then glanced at the other Memory, wishing to compare its weave to that of the Silver Bell. </p><p> To Sunny's surprise, the vast and beautiful underlying pattern was there, as well, its presence as strange and unexplainable as before. </p><p> Suddenly tense, he summoned all of his Memories one after another, studying them… and finding the mysterious pattern everywhere! </p><p> 'What the hell is it?!' </p><p> Sunny had no idea, and even his intuition was silent, not providing any hint as to the purpose of the everpresent hidden weave. The only clue he found was that a part of it bore a distant resemblance to the weave of the Moonlight Shard, and that its overall structure slightly resembled that of the name of the Silver Bell. However, the mysterious pattern was incomparably vaster and… deeper. </p><p> He scowled, and then suddenly tilted his head with a surprised expression. </p><p> "Moonlight… light…" </p><p> Sunny glanced at the weave again, and then froze. </p><p> "...Lost from Light?"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_693.html">Previous Chapter</a><a class="navigationButton next" href="chapter_695.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

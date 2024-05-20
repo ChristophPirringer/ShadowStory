@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 740</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 740 Dream Is Collapsing</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> As the Ivory Dragon died, an invisible ripple spread through the world. The whole city trembled slightly, and then, one of the two remaining chains that bound the Ivory Island to the rest of Hope's shattered kingdom broke with a deafening ring. </p><p> The broken chain fell into the darkness of the Sky Below, leaving only a single tether holding the island in place. The island's position shifted… not by much, but enough to cause the arching stone bridge to crack, shudder, and then slowly crumble. </p><p> A cloud of stone dust rose into the air as the massive structure collapsed, enveloping the patch of grass where Sunny and Mordret lay, still reeling from the deadly soul attack. </p><p> Sunny coughed and waved his hand in front of his face, weakly trying to chase the dust away. </p><p> 'Damnation…' </p><p> The Prince of Nothing, meanwhile, was slowly rising to his feet. With a stagger, he regained his footing and looked in the direction of the Ivory Tower, his old face growing dim. </p><p> Mordret remained silent for a while, and then said evenly: </p><p> "Well, that… is a bit unfortunate." </p><p> Sunny let out a hoarse laugh, causing the old man to turn around and glance at him darkly. Then, he tried to sit up, but failed. </p><p> The Prince of Nothing scoffed. </p><p> "Drop the act, Sunless. I know you are not that weakened." </p><p> Sunny cursed, then stopped pretending and sat up with a groan. He was indeed in a very bad shape, drained of essence, and barely alive because of how severely damaged his soul was. However, he was indeed not as weak as he had wanted to mislead Mordret into believing. </p><p> The old man shook his head, then smiled. </p><p> "Using my own Reflections against me… how clever. I expected something like that from you." </p><p> Then, his face abruptly grew dark, and he gazed in the direction of the Ivory Tower once again. His voice sounded quiet and uncertain: </p><p> "That, however… that I did not expect at all. It should not have been possible! I don't understand… giving one of the knives away is not in your nature. With how cynical and distrustful you are, you should have clung to them to the end… how did I make this mistake?" </p><p> Sunny grinned. </p><p> "I guess I've changed." </p><p> Mordret frowned, then slowly shook his head. </p><p> "People don't change that easily." </p><p> The grin on Sunny's face became a little brittle. </p><p> "...It wasn't easy." </p><p> The old man remained motionless for a while, then sighed heavily and turned around to face him. At the same time, his remaining Reflection did the same. </p><p> The Prince of Nothing stared at the battered shadow devil for a few moments, then said amiably: </p><p> "Sunless, my fried… please give me one reason why I shouldn't kill you." </p><p> Sunny blinked a couple of times, then answered with a dark smile: </p><p> "In case you didn't notice, people who try to kill me tend to end up dead instead." </p><p> Mordret grinned dangerously. </p><p> "I am sure I can manage." </p><p> 'Well… crap. I'm a bit sure myself." </p><p> He tilted his head, then said doubtfully: </p><p> "Because I still have the Divine Memory you want to get your hands on?" </p><p> The old man took a step forward, causing the Reflection to do the same. </p><p> "Normally, that would have been a good reason. But right now… to be honest, Sunless, I am starting to wonder if it's worth the effort…" </p><p> Sunny lingered for a bit, then raised an eyebrow. </p><p> "...Pretty please?" </p><p> The Prince of Nothing laughed. </p><p> "Not good enough." </p><p> Sunny stared at him, slowly circulating what little essence he had left through his body. His Shadows were damaged and restoring themselves in the nurturing black flames of his soul… his strength was depleted… his allies were far away and in even worse shape than him. </p><p> Things were looking bleak. </p><p> He sighed, and then said in a neutral tone: </p><p> "Look… sure, you can probably kill me. But make no mistake, I won't make it easy for you. More importantly, I'll make sure to resist for a long, long time." </p><p> Mordret smiled politely. </p><p> "...So far, I am liking everything that I am hearing." Upd𝒂ted chapters 𝒐n n𝒐velbin(.)com</p><p> Sunny grinned. </p><p> "Aren't you forgetting something?" </p><p> The Prince of Nothing lingered for a moment, then frowned. </p><p> "And what might that be?" </p><p> Climbing back onto his chair, Sunny leaned on the backrest and let out a relieved sigh. Then, he pointed at the Ivory Tower: </p><p> "This Nightmare is coming to the end. There's not much time left until we are returned to the real world. Precious time that you are going to waste trying to get rid of me." </p><p> Mordret looked at him with a dark expression. </p><p> "That is alright. My schedule is suddenly free, anyway. What else is there to do?" </p><p> Sunny shook his head. </p><p> "You might have lost the opportunity to kill the Demon of Desire. But have you forgotten about the Demon of Destiny? There is a whole Ebony Tower beneath us, free for the plunder." </p><p> The old man's frown deepened. </p><p> "The divine flames are much more intense and plentiful during this time. The rift in them can't be traversed by the likes of us. Not that there's enough time to, anyway. Unless…" </p><p> His expression suddenly changed. </p><p> Sunny nodded. </p><p> "Indeed. The Sky Below cannot be traversed, but we just happen to be near the Ivory Island, and the portal that stands behind the Tower. Now… you can waste time trying to kill me… or you can try to pour enough divine flame into it, and get your hands on all the toys left behind by Nether. Just don't be an idiot like me and let the time catch up to them after the seal is broken…" </p><p> Mordret stared at him for a few moments, and then grinned. </p><p> "You are just hoping that the strange rot inside the Ebony Tower is going to devour me, aren't you? After all, it is not as starved yet, in this time." </p><p> Sunny coughed. </p><p> "Uh… guilty as charged. Still. Are you planning to kill a Sovereign without taking a risk from time to time? Hurry up and decide. The clock is ticking." </p><p> The old man studied him for a while, not saying anything. </p><p> Gradually, Sunny grew extremely uncomfortable under that gaze. </p><p> 'Damned bastard… your desire to kill me can't be stronger than your desire to take revenge on clan Valor! Hope, do your thing! Come on!' </p><p> Eventually, Mordret chuckled, shook his head, and said: </p><p> "Two Sovereigns." </p><p> Sunny raised an eyebrow. </p><p> "What?" </p><p> The old man turned around and headed to the edge of the island, followed by his Reflection. </p><p> "Two Sovereigns! I plan to kill Asterion, too. Although that will probably be much, much harder than dealing with my father… still, I am as good at remembering grudges as you are, Sunless… so pray that we never meet again." </p><p> He stopped near the very edge of the empty abyss of the Sky Below, lingered at it for a few moments, and then said somberly: </p><p> "Although who will hear your prayers? The gods are dead…" </p><p> With that, the Prince of Nothing stepped into the darkness and disappeared, taking his Reflection with him. </p><p> Sunny was left alone on the empty island, struggling to believe that he actually survived. </p><p> He looked down, at his exquisite wooden chair, then at the rock in his hand. </p><p> Then, he let out a shaky breath. </p><p> 'Damn. I can't believe that worked…'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_739.html">Previous Chapter</a><a class="navigationButton next" href="chapter_741.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

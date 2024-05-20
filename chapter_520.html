@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 520</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 520 Deliverance</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny almost stumbled because of the terrible realization. </p><p> Was the mutilated body inside the nest of moss… still alive? </p><p> 'How could that be?' </p><p> Thousands of years must have passed since the flying ship crashed on this desolate island. How long had this poor soul suffered this harrowing torture? What sin had they committed, and who had doomed them for an eternity of ghastly suffering? How had the vines ended up growing from their flesh, and why? </p><p> But most importantly… how the hell was that mangled thing not dead?! Even divine flame was powerless to end its grisly, gruesome existence. </p><p> If Sunny could find the answer, maybe he would be able to kill the Corrupted Monster, after all. </p><p> Using the momentary lull in the onslaught of the vines that Saint's appearance had bought him, he faced away from the fight and tried to understand what the host of the abominable growth was pointing at. </p><p> He desperately hoped that the ancient human was, indeed, trying to point at something, and not just convulsing in terrible pain. </p><p> 'Where is it… what is it…' </p><p> His gaze flew to a certain point on the wall of the cargo hold and lingered on it. </p><p> At first glance, there was nothing different about it. That section of the bulkhead was just like all the rest, ancient and overgrown with brown moss. But as he looked closer, he noticed a small gap in the layer of moss, as well as a strange bend to the vines growing on that particular wall. </p><p> It was as though they, too, wanted to avoid something lodged into the wooden boards. </p><p> That had to be it! </p><p> However, Sunny didn't see anything in the small circular gap, just a splinter of wood sticking out of it at a sharp angle. His heart was beating like a wild beast in a cage, consumed equally by hope and despair. </p><p> Throwing a glance at Saint, who was slowly drowning in the flood of slithering vines, he hesitated for a moment, and then rushed toward the wall instead of joining her in the fight. </p><p> 'There has to be something… there has to be!' </p><p> He was certain that the ancient human pointed at that section of the wall for a reason. Or rather, he hoped that they had… </p><p> Jumping over an attacking vine and staggering sideways to avoid another one, Sunny slashed, hacked, and tore his way through the cargo hold, feeling more wounds appearing on his body and more poison flowing through his bloodstream. </p><p> At this point, even Blood Weave was having trouble resisting the deadly toxin. Well… it was miraculous enough that he could withstand it at all, considering that the poison came from a creature two whole Ranks above Sunny. Weaver's lineage was, indeed, a terrifying thing. Maybe there was a reason for why it was described as forbidden… </p><p> Finally, Sunny sliced through the last vine in his way, leaving it broken and singed, and crashed into the overgrown bulkhead near the small gap in the brown moss. Drawing in a hoarse breath, he stared at it with enough intensity to melt stones. </p><p> 'Wait… is it?' </p><p> His eyes widened slightly. </p><p> The thing that he had thought to be a splinter turned out to be something else. </p><p> Out there on the wall of the cargo hold, thrust deeply into it by someone's hand, was a rather simple-looking knife. Its shape, however, was very familiar to Sunny. </p><p> It was exactly the same as the knife that lay on the white altar of the Sanctuary of Noctis, except for the fact that this one wasn't cut from a single piece of obsidian. </p><p> However, it also wasn't cut from ivory. </p><p> ...Instead, it seemed to be made entirely of wood, as if a tree branch had somehow grown in the shape of a knife, and was then broken off to become one.</p><p> 'What does it mean?' </p><p> Sunny allowed himself to remain confused and perplexed for a split second, and then decisively grabbed the handle of the knife. </p><p> 'Act now, think later! Damn it all... please don't tell me that I need a thousand coins to lift this one, too!' </p><p> Luckily, this time, there was no need for an offering. Although it took some effort, a moment later, the wooden blade slid from where it was thrust into the wall, and Sunny found himself holding the Cruel Sight in one hand, and the strange wooden knife in the other. </p><p> Something else happened, though. </p><p> As soon as he laid his hands on the wooden handle, all the vines in the cargo hold surged in his direction with frenzied fury, utterly forgetting about Saint and her vicious sword. </p><p> Sunny paled. </p><p> 'Crap!' </p><p> Before the mass of slithering vines could crush him, he abandoned all attempts to escape and thrust his hand forward instead. </p><p> …The wooden knife slipped from his grip, cut a sharp arc in the air, and was nimbly caught by Saint. </p><p> Without wasting the opportunity that the sudden shift in the Corrupted Monster's behavior gave her, the taciturn demon immediately dashed toward the pulsating mass of brown moss… and thrust the wooden knife right into one of the ancient human's empty eyes. </p><p> In the next moment, the whole wreck shuddered. </p><p> The mass of moss violently contracted, throwing Saint away. The vines suddenly lost any semblance of cohesion and thrashed violently, forcing Sunny to retreat as close to the wall as he could. Still, the sea of black thorns was mere centimeters away from his face, raging in a storm of chaotic movements. </p><p> Even the brown moss he was pressed against seemed to be convulsing, as if overwhelmed by unbearable pain. </p><p> Despite all that, the only thing Sunny saw was the one remaining eyes of the terribly malformed ancient human. </p><p> It stared at him for a few moments, the emptiness and darkness slowly giving way to something else. A feeling of relief so vast that it was almost beyond the concept of emotion. </p><p> Then, that look of deliverance was gone, too. </p><p> The terrible eye was empty once again, now truly and forever. </p><p> The head of the ancient human lifelessly rolled back. </p><p> And as soon as it did, the vines suddenly fell to the ground, too, dead and motionless. </p><p> Suddenly weak, Sunny powerlessly slid to the floor. </p><p> The voice of the Spell whispered into his ear: </p><p> [You have slain a Corrupted Monster, Wormvine.] </p><p> [You have slain a Transcendent human, Solvane.] </p><p> [Your shadow grows stronger.]𝒩ew updates 𝒂t n𝒐velbi𝒏(.)com</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_519.html">Previous Chapter</a><a class="navigationButton next" href="chapter_521.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

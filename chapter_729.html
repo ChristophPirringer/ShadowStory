@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 729</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 729 Broken Shackles</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Noctis stood in the darkness of the cargo hold, looking at Sunny with a dangerous, cold smile. One of his eyes glinted with pale moonlight, the other, still suffused with blood, with a mad red glow. </p><p> The air around them became cold, the darkness grew deeper. </p><p> Sunny trembled a little, then glanced at the broken wooden knife in his hand. Now that the tool created by the Lord of Light had served its purpose, it was empty and mundane, the ocean of radiant energy and the string of fate long gone from within it. </p><p> He dropped the remains of the knife on the floor, glanced at the sorcerer with a dour expression, and said nonchalantly: </p><p> "I killed her. Why?" </p><p> Noctis stared at him for a few moments, then took a deep breath. </p><p> "...I've been planning and waiting for this moment for a very long time, you know. Hundreds of years, really. And you… you just went and ruined it all. Ah, Sunless, we are friends, but I'll be honest… I am a little bit cross right now…" </p><p> Something shifted in the darkness, and the walls of the cargo hold groaned. The sorcerer continued to stare at him, his red eye glowing brighter and brighter. Sunny himself winced, feeling the sorcerer's presence crash into him like a wave. </p><p> Then, he pretended to look unimpressed, took a step forward, and shrugged. </p><p> "Well, get over yourself." </p><p> Noctis blinked. </p><p> Then, he tilted his head a little. </p><p> Then, he stopped smiling. </p><p> "Get… over myself?" </p><p> It did not seem like he liked that answer at all. The sourc𝗲 of this content no/v(𝒆l)bi((n))</p><p> Sunny nodded. </p><p> "Yeah. Snap out of it and get over yourself." </p><p> He pointed at the body of Solvane and frowned. </p><p> "First of all, do me a favor and remember why we started all this mess in the first place. It was to kill the Chain Lords and free Hope. Oh, look! A dead Chain Lord. Isn't it wonderful?" </p><p> He smiled, revealing his sharp fangs. However, Noctis remained unmoved, still staring at him with a frightening coldness. </p><p> Sunny took another step forward and pointed a finger at his chest. </p><p> "Second of all… aren't you too full of yourself? Aidre's last gift, really?" </p><p> He judged that if there was a moment when the Transcendent would simply kill him with one strike, it would have been now. So, despite the smile, Sunny was actually trembling inside. </p><p> Nocts gritted his teeth. </p><p> "What's wrong with that?" </p><p> Sunny crossed his arms. </p><p> "Who are you to deliver gifts on her behalf? Unlike the two of us, Lady Aidre had no hatred for Solvane. In fact, she was grateful to her. She swore to carry that debt of gratitude to the Shadow Realm, even… I saw it all in one of the nightmares you had sent me into." </p><p> The corner of the sorcerer's twitched. </p><p> "You are lying. Why would she?" </p><p> Sunny shook his head. </p><p> "I never lie. Lady Aidre was the first of the eternal shackles to question your duty, wasn't she? She came to the conclusion that Hope should be liberated, and that was where you got that idea. From her." </p><p> He sighed. </p><p> "Well, who has done more to make it happen than Solvane? Without her, Hope's prison would still have been perfect. The Chain Lords wouldn't have been driven to desperation and madness. And we wouldn't be standing here, trying to break the chains that bind Desire." </p><p> Sunny grimaced and looked away, still in the throes of crushing regret about gifting Solvane an easy death. </p><p> "So, as much as it pains me to admit… in a sense, Solvane is the true architect of this rebellion. She made Lady Aidre's desire come true. And although I would have loved to let her suffer for an eternity… our task comes first." </p><p> Noctis remained motionless for a while, staring into the distance. </p><p> The mad light in his eyes seemed to subside a little. </p><p> Then, he shifted slightly and glanced at Sunny. </p><p> His voice sounded grim: </p><p> "...I suggest you run, Sunless." </p><p> Sunny froze. </p><p> 'Crap! It didn't work!' </p><p> He took a step back and shuddered, staring at the sorcerer with fear: </p><p> "Uh… Noctis, wait! What I meant to say was…" </p><p> The sorcerer shook his head. </p><p> "No, you idiot! I'm not going to kill you! But have you stopped to think what would happen if Solvane dies?" </p><p> Sunny raised his eyebrows. </p><p> "I, uh... was a bit preoccupied. Wait, what?" </p><p> Noctis glanced at the body of the War Maiden and backed away, too. </p><p> "The Wormvine… it doesn't have a host anymore, you foolish shadow! So, run!" </p><p> *** </p><p> Some distance away, at the edge of the island, a small hand appeared from the darkness. A young girl in battered armor struggled to grab something, then pulled herself up, fell on the grass, and remained motionless, staring at the dark sky. </p><p> Her small body was covered in burns and lacerations, the bronze armor shredded so thoroughly that it was falling apart, slowly turning into dimming sparks of light. She was severely wounded, drained of essence, and exhausted. </p><p> But she was alive. </p><p> Effie stared at the stars, too tired to move. Feeling pain course through her badly burnt body, she winced slightly, and then whispered quietly: </p><p> "Oh... you should have seen the other guy..." </p><p> A pale smile appeared on her bloodied face. </p><p> …Far below, a giant steel carcass was swaying in the wind, its leg tangled in a heavenly chain that the colossus had broken as he fell. His chest was split open, and deep within it, a half-open cage in the form of a human figure was slowly turning cold. </p><p> Sun Prince was dead, as well. </p><p> Now, only two Chain Lords remained. </p><p> *** </p><p> Sunny and Noctis left the cargo hold of the ancient ship in a hurry, barely escaping the Wormwine. Behind them, the brown vines were already crawling across the floor, growing in size with each second, hungry to find a source of soul essence to devour. </p><p> Noctis did not seem too enthusiastic about the prospect of fighting his own creation, and neither was Sunny. The last time, he had destroyed the Corrupted Monster by killing its host… but this time, he himself ran the risk of becoming the host! </p><p> It was better to retreat and choose their battle wisely. </p><p> Very soon, they climbed on the hull of the broken vessel and lingered there for a few moments, looking up. </p><p> Above them, the remaining ships of the defending fleet hovered in the air, for some reason reluctant to approach and continue their relentless onslaught. There were still around forty ships left, but, perhaps stunned by the death of their commanders or afraid of the sorcerer, the enemies remained in place. </p><p> Then, as if following an order, the ships turned and flew back, toward the Ivory City. </p><p> Sunny frowned. </p><p> "They are… retreating?" </p><p> He glanced at Noctis, unsure of what was happening. </p><p> The sorcerer stared at the sky for a few more moments, and then sighed. </p><p> "Well… I have good news and bad news." </p><p> Sunny did not like the sound of it at all. </p><p> "What is it?" </p><p> Noctis smiled. </p><p> "The good news is that the eclipse is ending." </p><p> And indeed, as soon as he said it, the crimson hue of the night sky changed. Looking up, Sunny saw that the shadow was leaving the surface of the moon, which was returning to its usual silver color. </p><p> It's position, though… </p><p> Suddenly, he felt a very, very bad premonition. </p><p> "...What's the bad news?" </p><p> Noctis silently pointed east. </p><p> Turning around, Sunny saw a line of pale lilac painting the sky above the horizon as the edge of the sun slowly appeared from the darkness of the Sky Below. </p><p> The sorcerer grinned. </p><p> "The night is over. It's a new day…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_728.html">Previous Chapter</a><a class="navigationButton next" href="chapter_730.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

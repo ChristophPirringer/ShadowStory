@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1354</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1354 By Grace Of Dusk</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1354 By Grace of Dusk</h4> <p> With its tattered sails lowered, the ominous vessel slowed down, eventually coming to a semblance of a halt. It drifted on the waves a few hundred meters away from the pier, carried by nothing except the current. Cronos had managed to regain some composure by then. He briefly thought about running away but decided against it. </p><p> His body was too old to run with any kind of significant speed, anyway. The watchers guarding the city must have noticed the ghostly ship and the terrifying onyx serpent, too - if the Lady had truly not known about their arrival, warriors would already be on their way. </p><p> For a few moments, everyone remained motionless - the old men and women gathered on the pier, and the dark figure standing on the bow of the graceful vessel, as well. </p><p> The current was slowly pulling the ship closer. It was only a matter of minutes before it reached the pier. </p><p> 'This is... strangely exciting?' </p><p> Cronos should have been terrified, but he found himself awed and curious instead. All of them here in Fallen Grace lived with the knowledge that their lives would soon come to an end - death was like an old friend, not an odious enemy. The arrival of a mysterious ship, however, was a novelty. </p><p> How often did he get to experience something entirely unexpected? </p><p> He had never seen anything like it, and would most likely never get a chance to witness something as wondrous again. So, he waited for the moment when the hull of the ship touched the pier with bated breath. </p><p> ...Eventually, the graceful vessel drew close enough for them to see every terrible scar and every burn mark covering its battered hull. It seemed like the battered ship had escaped the depths of hell and survived all kinds of untold disasters... what terrible battles had it endured? What harrowing creatures had clawed its hull, unable to break through? </p><p> ...What kind of beings dwelled within it, who had been able to survive all these ordeals? Were they, perhaps, more harrowing than the creatures that had left their marks on the ancient hull? </p><p> Cronos and his fellows saw the deck of the ship, as well, stunned by the sight of a beautiful tree growing around the ship's main mast. That tree was vibrant and full of life, not at all like the grim vessel below it. It was much taller and robust than any tree growing in Fallen Grace. </p><p> 'What is this craftsmanship...' </p><p> Cronos had never seen a vessel of such design, nor had he known of any ship builder who could have created it. The lines of the ghostly ship were elegant but unfamiliar. The small details of its construction were unlike anything that the River People would have built... they were also entirely different from how the Twilight People had built things, back before they were wiped out by the Defiled. </p><p> The ghostly ship looked ancient and mysterious, like all things passed down from the Outsiders. </p><p> Suddenly, Cronos felt joyous excitement. </p><p> 'Are... are these people...' </p><p> The ship smoothly approached the pier and halted just beside it, its bow softly touching the mooring berth. As the humans of Fallen Grace watched in stunned silence, four figures jumped from its deck onto the weathered wood. </p><p> There were two humans in front... if they were really humans, and not deities. </p><p> Cronos suddenly found it hard to breathe. </p><p> The first one was the slender young man wearing a dark mantle, his porcelain face drowning in the shadows. His lightless eyes were like two pools of unfathomable darkness, cold and piercing. There was a crown of black metal resting on his head, shaped to resemble a twisting serpent. </p><p> The other was a tall young woman with silver hair and calm grey eyes, wearing a white tunic. Her face was like that of a statue, beautiful and distant. She wore a crown, too, this one bright and adorned with a single radiant gem. </p><p> When she appeared, it was as though the light of the seven suns had grown a little brighter. Cronos felt something move in his heart, and for a moment, his soul was grasped by a deep and unexplainable longing. </p><p> The two were like night and day, mysterious and beautiful. </p><p> ...The other two were like monsters. </p><p> One was a towering knight that seemed to have been carved from onyx, her graceful armor both intricate and fearsome. The other was like an ogre forged from black steel, with hungry flames burning in the depths of his ferocious eyes. </p><p> There was something hiding in the shadows, too. A dreadful presence that felt both elusive and terrifying. </p><p> Everyone stared at the strangers, feeling dread, awe, and wonder. </p><p> After a few moments of silence, the young man wearing the serpent crown took a step forward and spoke in a familiar language, his voice resounding across the pier: </p><p> "We have come from the far reaches of the future in search of Fallen Grace, the last bastion of the River People. We mean no harm... unless you do us harm. I am... " </p><p> At that moment, Cronos became sure of his suspicion. </p><p> 'They are! They must be!' </p><p> With his heart beating wildly, he stepped forward and asked in a trembling voice: </p><p> "M-my Lord... you... are you the Children of Weaver?" </p><p> The young man glanced at him, making Cronos shiver under that piercing gaze of his. A hint of surprise appeared in the lightless eyes, but then disappeared, replaced by something that resembled... satisfaction. </p><p> "Indeed. We are Changing Star and Sunless, Children of Weaver. " </p><p> His words were like an explosion for the old men and women gathered on the pier. Their fear disappeared, and instead, bright smiles illuminated their wrinkly faces. </p><p> "Of course!" ReaD lat𝙚St chapters at nô(v)(𝒆)lbin.c/o/m Only</p><p> "It's them!" </p><p> "Just like the Lady foretold!" </p><p> "Praise the Lady!" </p><p> Cronos couldn't keep the smile from appearing on his face, either. </p><p> 'Ah, I must have gone senile... why haven't I realized sooner?' </p><p> He hesitated for a moment, then bowed deeply and spoke, trying to make his voice sound solemn instead of amazed and excited: </p><p> "It is our honor to meet you. We welcome you to Fallen Grace, esteemed guests." </p><p> Then, he straightened and added reverently: </p><p> "Lady Dusk has been awaiting you for a long, long time..."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1353.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1355.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

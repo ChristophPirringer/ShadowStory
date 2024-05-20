@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 112</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 112 Duel Of The Monsters</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 112 Duel Of The Monsters</h4> <p> Just like in the battle against two Fallen beasts, the Stone Saint attacked first. Striking her sword against the rim of the shield twice, she dashed forward without fear or hesitation. </p><p> Of course, Sunny was not sure if Shadows were even capable of feeling fear. </p><p> The carapace centurion reacted swiftly and savagely, lunging at her in a furious onslaught of adamantine chitin and jagged blades. In front of this towering creature, Shadow Saint looked meager and slight. </p><p> The two monsters collided in the middle of the street, a small shockwave spreading outward from the point of their impact. Dust and small pieces of gravel were sent flying through the air. </p><p> Sunny watched the battle with vigilant eyes. </p><p> He suspected that these two Nightmare Creatures were somewhat equal in terms of power. The centurion was much bigger and heavier, the impenetrable carapace making it an especially deadly adversary. All carapace creatures were unnaturally tough and strong. It also had the advantage of reach and mass. </p><p> The Shadow Saint was equally as resilient due to her heavy armor and stonelike nature. Despite her small frame, the graceful knight possessed a stunning amount of strength. Sunny also had to keep reminding himself that she was not actually human, and as a being made of stone, weighed much more than a human would. </p><p> The disadvantage of her size was bridged by battle awareness and skill, making the outcome of the fight unpredictable. </p><p> However, that was only true if he failed to account for the dark embrace of his shadow. With its reinforcement, the Stone Saint was unimaginably more powerful. </p><p> Sunny was pretty sure that the centurion stood no chance. </p><p> Meanwhile, the two monsters were entwined in a ferocious battle. The Shadow Saint withstood the onslaught of bone scythes by bashing one away with her shield and evading the other. Not losing her momentum, she brought the shield down and slammed its edge into the centurion's carapace, causing the hulking creature to stagger. </p><p> The force of the impact was so grievous that it sent cracks running through the impregnable carapace. Sunny marveled at the sight, congratulating himself on the decision to not test the augmented monster's strength on himself. </p><p> Using the opening that she had created, the Stone Saint twisted her torso and delivered a backhand blow with the boss of the shield, striking the same spot again. The already damaged chitin plate splintered, revealing the soft flesh beneath. </p><p> A moment later, she was already moving to evade the fierce retaliation of the savage carapace creature. The graceful knight was miserly in her movements, dodging each strike with measured precision. </p><p> Although Sunny was only a novice in the art of combat, he had learned enough to be able to recognize the hints of a distinct battle style in how the Stone Saint fought. </p><p> Her whole technique was based in simplicity and economy of movement, each action calculated and efficient. Combining hard blocks, dodges and deflections with grounded footwork and well-timed ripostes, the Shadow was able to create a stark contrast between defense and offense, the former being solid and indomitable, the latter abrupt and inevitable. </p><p> It was very different from the flowing and unpredictable style that Nephis had used, and that he himself had been taught. Only now did Sunny realize that the basic katas and forms he had practiced were, in fact, very unique and unusual. </p><p> Where did his fighting style come from? </p><p> There was a lot to consider here, both in terms of how to improve his current technique and how to incorporate new elements into it. However, that was a task for the future. </p><p> Right now, he was more interested in the outcome of the fight. </p><p> The Stone Saint was already suppressing her monstrous enemy. A few of the centurion's legs were either broken or severed, streams of azure blood gashing out of the terrible wounds. However, it was still resisting furiously. </p><p> But no matter how enraged it became, the silent and menacing poise of the graceful shadow knight was much more terrifying. </p><p> Just at that moment, the Shadow Saint sidestepped a downward slash of one of the centurion's scythes and then pinned it under her greave. Using her weight to immobilize the enemy's weapon, she delivered a vicious blow with the rim of her shield and shattered the bone blade into pieces. </p><p> The carapace monster screeched, dazed by the loss of its scythe, and immediately tried to eviscerate the loathsome little fiend with the remaining one. However, he was a fraction of a second too late. With one side of its body left defenseless, the Stone Saint now had much more space to attack. </p><p> Deflecting the scythe with the shield, she dashed forward and lashed out with an upward slash, severing it near the joint. Continuing the motion, she then stepped through the rain of azure blood and mercilessly thrust her sword into the opening in the centurion's armor that had been created by her at the start of the fight. </p><p> The stone blade pierced through the flesh of the monster and devastated its spine. The force of the blow was so immense that the tip of the sword broke through the chitin on the centurion's back. </p><p> Pulling the sword out of the dying creature's body with one sharp motion, the Shadow Saint shook the blood off the blade. Then, she indifferently stepped back and froze, seemingly turning into a dark, motionless sculpture. Only the crimson fire still burning in her ruby eyes betrayed that the Shadow was alive. </p><p> Sunny held his breath, waiting for the Spell to speak. Soon, he heard its faintly familiar voice: </p><p> [You have slain an awakened monster, Carapace Centurion.] </p><p> [Your shadow grows stronger.] </p><p> Slightly disappointed, he summoned the runes and checked the number of the shadow fragments in his possession. </p><p> Shadow Fragments: [307/1000]. </p><p> 'Ninety-three left to four hundred,' he thought automatically. </p><p> Then, just to be sure, Sunny glanced at the description of the Stone Saint. 𝒩ew updates 𝒂t n𝒐velbi𝒏(.)com</p><p> Shadow Fragments: [6/200]. </p><p> So… just like with the Echoes, the kills performed by the Shadow benefitted her master instead of the monster herself. It seemed as though consuming Memories was truly the only way to feed the Stone Saint. </p><p> Sunny frowned. </p><p> "Well. That complicates things…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_111.html">Previous Chapter</a><a class="navigationButton next" href="chapter_113.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

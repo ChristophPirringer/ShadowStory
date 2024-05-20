@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 253</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 253 Without A Master</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div id="pf-8450-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "660f70227d1ca27afc9d2827", id: "pf-8450-1"})</script></div>
+<div></div>
+<p>Chapter 253 without a Master</p><p>The human shadow stood lonesomely in the mist, strangely aloof and motionless. As Sunny pulled on the golden rope to command his companions to stop, it shifted slightly and turned away, then became still once again.</p><p>Sunny sensed a cold, dreadful feeling settle in his heart.</p><p>The possibility of encountering another human in this dark and terrifying place was already unsettling enough. He did not consider even for a second that one of the members of the lost expedition could have survived down here, in the darkness, for all these years. Not unless they were no longer human.</p><p>But even that was not the cause for the coldness and dread he felt.Read latest 𝒏ov𝒆ls at n𝒐velbi𝒏(.)com</p><p>The real reason had nothing to do with logic and everything to do with his unique Aspect. Because of it, Sunny sensed that there was something terribly, utterly wrong with the shadow.</p><p>The feeling he got from it was one of eerie and utter wrongness. However, it didn't seem to be dangerous or hostile. Instead, it felt lost, empty, and… mournful. The shadow was full of sorrow and anguish that he could not describe with words.</p><p>Sunny was not that empathetic when it came to humans, but strangely, he couldn't help but share in the suffering of this lonely shadow. Maybe because, in a sense, they were kin.</p><p>As he was observing the shadow, unsure what to do, it made a few steps in a random direction and then stopped hesitantly, lingering there without moving. Then, it walked back and froze once again.</p><p>It was as though the shadow was lost.</p><p>A few moments later, Sunny finally understood the nature of the deep feeling of wrongness he felt in the lonesome shadow. When he did, a cold shiver ran through his entire body.</p><p>The reason why this shadow was so strange and eerie was because it wasn't connected to anyone. There was no human casting it. Not anymore, at least.</p><p>The human that the shadow had once belonged to was gone, cut from existence by some unknown power. Sunny couldn't sense any bones anywhere, either. It was as if the human had not been killed, but simply… erased.</p><p>While the shadow remained to wander aimlessly in the mist for all eternity.</p><p>'What a terrible fate…'</p><div id="pf-8886-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d36c95a2f0a704fff59", id: "pf-8886-1"})</script></div><p>But the question remained… what was he supposed to do now? The shadow was in his way. Sunny had to either walk past it or return back and try to find another way through the maze.</p><p>But what threat could this pitiful thing pose? It was just a shadow, after all. His own couldn't harm a fly no matter how hard it tried. This one had to be the same.</p><p>With a deep sigh, Sunny slowly walked forward. With each step he took, he could sense the lonesome shadow better.</p><p>…At some point, it sensed him, too.</p><p>Turning to face Sunny, the shadow hesitated for a few moments, then tentatively glided closer. He could feel an outburst of muted emotions radiating from it: surprise, hope… and then, sudden despair.</p><p>Realizing that he wasn't its long-lost master, the shadow froze. Its shoulders dropped.</p><p>Sensing the deep well of loneliness, anguish and sorrow in front of him, Sunny tilted his head to the side.</p><p>Then, following an impulse, he outstretched his hand to the shadow:</p><p>'Here… take my hand. You don't have to be alone anymore.'</p><p>The shadow trembled, as if it heard his silent invitation. Then, it lingered for a few moments and approached him with uncertainty. Finally, it raised its hand and tentatively placed it in the hand of his own shadow.</p><p>A moment later, it disappeared.</p><p>Sunny sighed. ғʀᴇᴇᴡᴇʙɴᴏᴠᴇʟ.ᴄᴏᴍ</p><p>[Your shadow grows stronger.]</p><p>Diving into the Soul Sea, he walked along the rows of silent shadows standing on the surface of the tranquil water. And there, just as he had expected, he saw a new one.</p><p>A shadow of a graceful young woman was standing among them, as motionless and still as the rest of them. Her anguish, sorrow, and loneliness were gone. The shadow seemed to finally be at peace.</p><div id="pf-8887-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d55c95a2f0a704fff8b", id: "pf-8887-1"})</script></div><p>Sunny looked at her for a few moments, his heart heavy. Finally, he said:</p><p>"Welcome. Rest now. Your… your nightmare is over."</p><p>With that, he left the silent sea and sighed again.</p><p>Standing in the darkness with his eyes sealed shut, Sunny remained motionless for some time.</p><p>Then, he pulled on the golden rope and led the cohort further into the mist.</p><p>Sunny didn't know how long they wandered around the dark maze. More than once, he had ended up at a dead-end and had to search for another path. It was hard to not lose track of all the turns of the twisting tunnels, but he had somehow managed to stay on track.</p><p>On the way, he had found three more shadows. Each of them was just like the first one, lost and lonesome.</p><p>And just like the first one, they eventually took his hand and were absorbed into his Soul Sea. The four of them — one young woman and three men — now stood silently together, united once again even though their masters were long gone.</p><p>...Seeing them together gave Sunny a little solace, no matter how misguided it was.</p><p>There were five stones arranged around the fire at the campsite left behind by the lost expedition, hinting that five people had descended into the ancient mine. Four of them had eventually perished in this eerie, dark place.</p><p>But no matter how hard Sunny searched, he couldn't find the fifth shadow.</p><p>The First Lord himself was not here.</p><p>Could it be that he had somehow managed to survive and leave the maze of mist?</p><p>At some point, Sunny felt someone pull on the golden rope. Turning around, he walked a few steps back and stopped near Cassie. Feeling his approach, the blind girl raised her hand and pointed at one of the tunnels.</p><p>Understanding what she wanted to say, Sunny led the cohort in that direction.</p><p>Soon, the sound of rushing water reached his ears.</p><p>Some time later, they came to the shore of another subterranean river.</p><p>They had reached the second boundary.</p>
+<div id="pf-8888-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d6bc95a2f0a704fffa3", id: "pf-8888-1"})</script></div>
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_252.html">Previous Chapter</a><a class="navigationButton next" href="chapter_254.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

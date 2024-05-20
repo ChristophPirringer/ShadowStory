@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1084</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1084 Following The Tyrant</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> For the next few days, Sunny and Jet stealthily pursued the Skull Centipede. These days were long, tense, and perilous - not only did they have to brave the wilderness, but they also had to keep up with the ghastly abomination while not being seen or sensed by it. On a few occasions, they had almost been discovered, barely managing to salvage the situation at the last moment. </p><p> Sunny was not sure what would have happened if the creature had found them. With Saint supporting the two scouts from the shadows, they at least had a slim chance of slaying the Tyrant... but a battle like that would be a dire one. It would have had to be one of those battles where he was forced to put everything on the line, only surviving by the skin of his teeth. </p><p> In the past, Sunny had fought plenty of battles like that. He had grown so used to walking the thin line between life and death that he did not even consider such things unusual anymore. That mad balancing act was just par for the course... however, he also knew that he would not remain on the winning side forever. If he kept risking everything, his luck was bound to run out one day. </p><p> After Falcon Scott, his way of thinking about things shifted. Sunny was now much more experienced, and with that experience came cold, calculating prudence. Nêw 𝒄hapters will be fully updated at nov(𝒆)l/bin(.)com</p><p> His chances of defeating the Skull Centipede and its army of bone abominations would be much higher with the support of two entire companies of Awakened, and so, he was determined to meet this enemy on a battlefield of his choosing, with the odds stacked in his favor as much as the circumstances allowed. </p><p> Jet was of the same mind. They followed the plan and put all their effort into remaining hidden. </p><p> The centipede slithered across the vast plains of East Antarctica, eviscerating everything in its path. It had no mercy for the other Nightmare Creatures, slaughtered swarms of them like helpless ants. After each massacre, the giant abomination would devour the corpses of its prey and coil its body into a macabre burrow of skulls, then wreathe and spew out more bone fiends. </p><p> The centipede's army continued to grow as it advanced through the wilderness. With each day, Sunny and Jet grew became more and more despondent... it had been hard to tell at the start, but now, there was no denying it. </p><p> The tyrant's course put it on a direct collision course with one of the siege capitals in East Antarctica. Each human stronghold on the continent was surrounded by vast masses of frenzied Nightmare Creatures, and even more dead ones. Tall piles of bodies covered the killing fields, growing with each passing day. </p><p> If the Skull Centipede was allowed to launch an attack on a siege capital, it would already be bad enough. However, if it managed to gain access to all those corpses... the strength of its army would increase exponentially, and the threat posed by the creature would explode in magnitude. </p><p> By then, only the intervention of a Saint would prevent a disaster. The Saints, however, were already busy racing endlessly from place to place, solving one crisis after another without rest. </p><p> Which was why it was important to stop the abomination as soon as possible. </p><p> On the fourth day of the pursuit, the centipede clashed with a whole horde of Nightmare Creatures, butchering hundreds of them and scaring the rest away. It dragged its massive body onto the battlefield, then got to the grisly business of consuming all the mangled bodies. One dead abomination after another disappeared into its massive maw, emotionlessly swallowed by the dreadful Tyrant. </p><p> Sunny and Jet were observing the process from a safe distance as they hid between two enormous boulders. On the ground between them lay a scattering of bleeding carcasses - they themselves had engaged in a short and gruesome fight with a pack of Nightmare Creatures just minutes ago. Now that a suitable shelter was cleared, they could rest easy for a few hours. </p><p> Sunny frowned. "It killed too many this time. Considering how long it takes to create a bone soldier... I'd say we'll be stuck here for a full day. The Tyrant's army will grow by a lot." </p><p> Jet shrugged. "The more it is delayed, the better. Army Command will have time to prepare." </p><p> She watched the giant centipede devour its victims for a few moments, then took a few steps back and contacted the headquarters to make a report. Soon after that, Soul Reaper's icy blue eyes suddenly gleamed. </p><p> "Understood." </p><p> She deactivated her comm and looked at Sunny with a grin. "It's happening. The welcoming party has already arrived. We need to overtake the monstrosity, meet up with them, and prepare the festivities." </p><p> Sunny let out a relieved sigh. "Finally." </p><p> A hunt like this one was not easy to arrange. Simply deploying troops outside the siege capital was a dangerous task by now - the wilderness was teeming with numerous Nightmares Creatures, and an expedition force risked drowning in a horde of them before even reaching the intended target. It took a lot of courage and competence to navigate a course through the enemy territory. </p><p> If the target was on the move, the task only grew that much harder. Luckily, this time, Army Command was receiving constant updates on the creature's location from Sunny and Jet, so tracking its path had been easier. </p><p> And now, finally, almost every piece was in place. All that remained was for the scouts to join the assault force and spring the trap on the menacing Tyrant. </p><p> Sunny smiled. "Let's go, then." </p><p> They silently abandoned their shelter and made a wide circle around the location of the Skull Centipede, then moved away with as much speed as they could allow themselves without risking attracting the attention of migrating hordes of Nightmare Creatures. </p><p> Half a day later, Sunny and Jet arrived at the shore of a wide river. The landscape made it so that there weren't many places to cross it for many kilometers around, with only a single ford formed by a scattering of giant boulders. </p><p> As they traversed the river, jumping from one stone to another, Sunny's comm suddenly came alive. A familiar voice came through the static. "...well it isn't... frog... welcome..." </p><p> Some of it got swallowed up by the interference, but the last word was very easy to discern: "...doofus..." </p><p> Sunny stopped for a moment and looked at the opposite bank of the river, where a tall figure suddenly rose from the ground. </p><p> Effie waved her hand and grinned. "Ah, venerable Master Sunless! How nice of you to pay a visit!"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1083.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1085.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

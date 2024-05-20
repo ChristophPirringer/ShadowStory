@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 915</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 915 Fools Errand</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> In the cold darkness, a small procession of vehicles was climbing an old and battered mountain road. The road clung precariously to the stone slope, so narrow that the wheels of the transports barely fit on its cracked surface. </p><p> Looking through the windows to their right, all the refugees could see was a sheer drop. It was as though they were driving on nothing, a few centimeters away from plummeting to their deaths. From time to time, a stray rock would be pushed off the road by the wheels of the slowly moving vehicles, and then fall down, ricocheting off the cliffs with startling clangor. </p><p> The sound traveled far through the deep gorge, reflecting from its stone walls as it grew louder and louder. For the frightened refugees, it seemed as deafening as thunder. </p><p> Their fear was only made worse by the darkness. The headlights of the transports cut wide swaths through it, but beyond that, the night was impenetrable and oppressive. The drivers were already struggling with keeping the vehicles on the narrow road, and with most of it obscured by the chilling gloom, their task seemed all but impossible. </p><p> Traveling through the mountains at night was an ill-advised and perilous affair. It was a fool's errand. </p><p> '...Who's the fool, then?' </p><p> Studying sensor feeds in the command suite of the Rhino, Sunny was mentally calculating the rate of their progress. No matter how he thought about it, the convoy's speed was appallingly slow. </p><p> Sadly, it couldn't be helped. </p><p> The powerful APC was moving at the head of the column, clearing the path for the other vehicles. Its ram was lowered and once again serving to push through the snow. From time to time, the Rhino had to remove other obstacles from the road, as well - stone debris, large boulders, and massive chunks of ice that had split from the glacier at the peak of the mountain. </p><p> It was doing a good job of it, for the most part. Very rarely did they stumble on something that the Rhino could not move through or push away. In these instances, the whole convoy had to come to a halt and wait for Sunny to remove the obstacle that the APC could not handle safely with his own two hands. </p><p> The Rhino was a powerful machine, but it could not compare to the might of a Master. There were very few things that Sunny could not throw off the road, and even if there were, he would simply cut through them with the Sin of Solace. The jade blade of the beautiful jian was sharp enough to cut through granite as if it was water. ALL new 𝒄hapters 𝒐n nov(𝒆)lbin(.)com</p><p> Not that he enjoyed listening to its invasive whispers. </p><p> In any case, each such stop made their already slow progress even slower. The darkness, the cold, the precarious nature of the old mountain roads, the rough state of the area after the recent earthquake... none of it was making Sunny's life easy. </p><p> And that was just the natural side of things. Of course, there were other threats around them, as well... </p><p> The whole region was teeming with Nightmare Creatures. </p><p> For now, Sunny had managed to lead the convoy past the large swarms of abominations, but it was only a question of time before they had to fight. With how much noise they were making and how much light they were producing, it was inevitable for something hungry to notice them. </p><p> Some already had, of course. However, Saint had been able to kill the few solitary Nightmare Creatures without drawing too much attention. Sunny was using her as an outrider, so she traveled apart from the convoy to intercept any emerging threats before they could deal damage to the transports. </p><p> He did not know how long her protection would last them, though. Sunny felt as though the envelope of safety around the convoy was getting smaller and smaller. </p><p> ...At least he and his soldiers could see through the darkness. If they were as blind as the mundane soldiers protecting the convoy, Sunny would have probably gone mad by now. As it was, he remained surprisingly calm and analytical. </p><p> To him, the situation was both simple and unreasonably difficult. </p><p> There were two types of things at his disposal. One of them was assets - Saint and Nightmare, himself, the Irregulars, and the mundane soldiers. The other was dependents - the refugees, as well as Professor Obel and Beth. </p><p> There were also four types of danger facing him. One was the Nightmare Creatures, whom he had to track through his shadows and either avoid or slay. The other was the threats from within - people succumbing to the Spell or going mad, which he could mitigate through various measures. The third was the environment itself. The world could easily kill them without even needing the help of the abominations, but that could be dealt with, as well. </p><p> And finally, there was the fourth kind of danger, the most dire one - the unforeseen threats. That one could not be preempted, dealt with, or mitigated. </p><p> Sunny's task was simply to apply his assets in the correct way, in order to protect his dependents from the danger. However, even if he made all the right decisions, nothing stopped a new Gate from opening right in the middle of the convoy, so... there was that to think about, as well. </p><p> 'Great. And on top of it all, we're too slow.' </p><p> Not only was the convoy too slow to escape from an attack if need be, they were also desperately behind schedule. At that rate, the refugees would have to spend a night or two inside the transports instead of a comparatively safe campsite. </p><p> "Well... there's nothing I can do about that, for now." </p><p> If he had better vehicles... if he had more Awakened... if there were more tools at his disposal... </p><p> Sunny sighed. There was no point in thinking about such things. </p><p> At that moment, his expression slightly changed. </p><p> Sunny looked to the side, as if piercing the hull of the Rhino with his gaze. </p><p> There, several kilometers ahead... the slopes of the gorge came together, forming a small valley with a frozen lake taking most of its surface. A swarm of Nightmare Creatures had just appeared from behind a tall rock protrusion and was descending toward the lake. </p><p> eaglesnov?1,сoМ And on the other side of the valley, still hidden from sight by the slope of the mountain, there was another swarm, this one smaller, but composed of much more powerful abominations. They were heading in the same direction. </p><p> What Sunny had feared came true. The convoy could not turn back, and would not be able to avoid colliding with the two swarms. A fight was inevitable. </p><p> The corner of his mouth twitched. </p><p> Standing up from his seat, Sunny stretched his limbs, and then glanced at the Irregulars with a deadpan expression. His people instantly tensed. </p><p> "Summon your weapons. It's time to get some fresh air..."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_914.html">Previous Chapter</a><a class="navigationButton next" href="chapter_916.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

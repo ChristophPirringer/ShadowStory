@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 170</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 170 Star Crossed</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 170 Star-Crossed</h4> <p> Sunny had never seen Nephis show fear before, not to mention being truly horrified. </p><p> Instantly, every muscle in his body tensed, and a cold shiver ran through it. </p><p> 'It can't be, it can't be!' </p><p> She was a person who faced demons and fearsome abominations without even flinching. What could scare her so much? </p><p> Was he mistaken? Was Kai an incarnation of some primordial evil after all? How could this be?! </p><p> Panicking, he turned back to face the charming young man and outstretched one arm, ready to summon the Midnight Shard. Not that it would help if even Changing Star was scared… </p><p> …But, to his surprise, Kai wasn't showing any signs of being an ancient terror. In fact, he was looking at him with a cute expression of confusion. </p><p> "Uh, Sunny? Who is your friend?" </p><p> No, it didn't make any sense. Not only was Sunny sure of his judgment, he had also seen multiple people greeting Night as though they knew and liked him. He couldn't be a Nightmare Creature. </p><p> Then what was wrong with Nephis? </p><p> Keeping his shadow's gaze on the charming archer, Sunny slowly turned back and glanced at Changing Star. She was still standing there, seemingly paralyzed by fear. Followw new 𝒄hapters at nov(e)l/bin/(.)com</p><p> What was going on? </p><p> "Uh… Neph?" </p><p> She flinched and tore her eyes away from Kai. After a few seconds, Changing Star cautiously leaned forward and whispered: </p><p> "Sunny… what is Night doing here?" </p><p> He frowned. </p><p> "He's the friend I was telling you about." </p><p> She lingered, then shook her head: </p><p> "No, I mean what is he doing here?" </p><p> The emphasis was on the word "here". </p><p> 'Where else would he be?' </p><p> Completely lost, Sunny struggled to understand what was going on. Maybe she knew something about the kidnapping? That didn't make sense. Finally, he said: </p><p> "I saved his life in the ruins, so he's doing me a favor in return." </p><p> Nephis stared at him with desperation, then shook her head again: </p><p> "No, I mean what is Night doing here, on the Forgotten Shore!" </p><p> Sunny scowled. </p><p> "Did you guys know each other in the real world?" </p><p> Nephis looked at him with a funny expression. She opened her mouth, then closed it again. </p><p> Finally, she forced herself to speak: </p><p> "You… you don't know who he is?" </p><p> Meanwhile, Kai, who was politely staying silent through this whole weird conversation, smiled dazzlingly and said: </p><p> "He really doesn't. Isn't it wonderful?" </p><p> Sunny gave him a dark look. </p><p> "How would I know who he is? Make sense, please." </p><p> Neph was silent for a while, then loudly whispered: </p><p> "That's Night, you idiot! Night from Nightingale! The Night!" </p><p> What was she going on about?! He had no idea what that meant! </p><p> Sunny rubbed his face with irritation: </p><p> "What are you talking about? What is a Nightingale?" </p><p> Nephis looked at Kai, paled even more, and finally said in a small voice: </p><p> "It's… only the best and most famous idol group of the last decade. Triple Orpheus winners, one hundred consecutive weeks at the top of all charts, six diamond albums. That… that Nightingale. That Night. The lead vocalist…" </p><p> Sunny simply stared. </p><p> 'Wait. Are you telling me…' </p><p> Was she so out of it because Kai used to be a member of some stupid boy band in the past? </p><p> Changing Star was not horrified, she was… starstruck? </p><p> He remained silent for a while. </p><p> And then exploded into laughter. </p><p> 'Gods… oh gods! Nephis is a fangirl! What the Spell, that's too funny…" </p><p> Come to think of it, when they first met, she had been wearing headphones the whole time. He should have realized that Neph was into music much earlier. Mighty and stoic Changing Star, brought down by a dainty idol boy… </p><p> That was just too hilarious! </p><p> He wasn't even jealous. What were the chances of meeting her bias in the damn Dark City? You couldn't come up with that crap! </p><p> As he was dying from laughter, both Changing Star and Kai glared at him with difficult expressions. However, Sunny just couldn't stop. His laughter only died down after he began wheezing. </p><p> "Sorry, sorry. I just… didn't expect it. From you. Ha! Oh, gods. As for your question, Night has been here for about two and a half years. He lives in the castle…" </p><p> Nephis seemed thoughtful for a few moments, then glanced at Kai with wide eyes. </p><p> "Two and a half years? But… but I thought that Nightingale was just on hiatus because of Gale's solo project…" </p><p> 'Oh, there's a Gale, too. I can't even...' </p><p> Kai smiled apologetically. </p><p> "I'm afraid not. I have indeed spent all this time here, in the Dark City. My agency had to come up with some cover story, I guess. With how things are, they can't even spin things and release a posthumous album, poor guys. You know, since I'm not technically dead, or even Hollow. Just… asleep." </p><p> Neph gave him a shy nod. </p><p> "Oh. I see." </p><p> Trying to remove the awkward atmosphere, Kai offered her another smile. </p><p> "By the way, it's so nice to meet another friend of Sunny's. What a surprise! I thought that he was a complete… uh… a solitary person. I'm sorry, but I didn't catch your name. Was it Neph?" </p><p> Looking at him, Sunny grinned. Then, he cleared his throat and said in a relaxed tone: </p><p> "Oh right, I forgot to introduce you. Sorry, by bad. Night, this is Nephis. Although these days she goes by another name. You might have heard it… meet Changing Star of the Immortal Flame clan." </p><p> …Now, it was Kai's turn to stare at Neph with horror. The corner of his eye twitched. </p><p> However, perhaps due to his idol training, he managed to hide his emotions much faster. Blinking a few times, he lingered for a moment, and then said in his smooth, enchanting voice: </p><p> "Oh. It's… a pleasure to meet you, my lady. I have... have heard so much about you. It's an honor!" </p><p> Nephis turned away, trying to hide a hint of blush on her cheeks. Staring at the wall of the alley, she hesitated, then awkwardly said: </p><p> "So… uh... your friend is already here, Sunny. Can we go have a talk now?" </p><p> She glanced at him and added after a bit of hesitation: </p><p> "I have something important to discuss with you. It's… a matter of life and death."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_169.html">Previous Chapter</a><a class="navigationButton next" href="chapter_171.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

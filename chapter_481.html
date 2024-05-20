@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 481</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 481 First Meeting</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> 'What is she doing here?! Why is she talking to me?!' </p><p>  Although Sunny was panicking on the inside, none of the emotions reflected on his face. Armed with the extensive experience of deceit, manipulation, and facing terrifying Nightmare Creatures in melee, he kept a straight face, threw a dark look at Rain, and calmly said:</p><p> "I am not staring at anything. And who are you calling a brat, you brat? Respect your elders!" </p><p> The girl scoffed. </p><p> "What elders? You're obviously younger than me!" </p><p> Sunny opened his eyes wide in outrage. </p><p> '...Ouch.' </p><p> He knew that he looked younger than his age, but to be mistaken for a middle schooler… that was just too much! </p><p> It was getting dark, so maybe that was the reason for her mistake. </p><p> Rain, meanwhile, was not done speaking: </p><p> "And you were definitely staring at me, with a very nasty expression. I almost tripped! Didn't your parents teach you not to stare?" </p><p> Sunny opened his mouth, then closed it again. Then opened it once more. </p><p> "First of all, I am eighteen. Second, I was just zoning out and thinking about stuff… adult stuff that a youngster like you would not even understand! And lastly, my parents taught me all they needed to teach me, but what do they have to do with any of this? They're not here!" </p><p> Rain mockingly raised an eyebrow. </p><p> "Oh yeah? You live in this big house all alone?" </p><p> Sunny furrowed his brow. </p><p> "Not only do I live in this house alone, I also own it!" </p><p> …But right at that moment, Effie suddenly shouted from inside: </p><p> "Sunny! Come eat, dinner is getting cold!" </p><p> He froze, then felt the tips of his ears growing hot. </p><p> 'Damn it, Effie!' </p><p> "Uh… that's a guest of mine. She's staying over… for reasons." </p><p> Rain stared at him for a few moments with a funny expression on her face, then asked: </p><p> "Your name is Sunny?" </p><p> Sunny shrugged, trying to appear as indifferent as possible. </p><p> "Sure. Why?" </p><p> She suddenly laughed. </p><p> "What's so funny?" </p><p> "No, no! It's just… my mom calls me Rainy. What a coincidence!" </p><p> He relaxed. </p><p> 'Oh… for a moment, I was afraid that she remembers me. But it doesn't seem that way. Good. That is good…' </p><p> Was he a little bit disappointed? </p><p> Sunny took out his communicator, pressed a button on it, and threw an etched chip that slid from the slick device to Rain. </p><p> She was in process of asking another question: Follow 𝒏ewest stories at n𝒐velbin(.)com</p><p> "Oh, and by the way, I often see you meandering on the porch and skipping school… are you a delinquent or wh…" </p><p> Then, she caught the chip and stared at it in confusion. </p><p> "Uh… what's this?" </p><p> Sunny smiled with a corner of his mouth. </p><p> "Can't you see? That's a government-issued citizenship chip. Now how would I have one if I wasn't of legal age?"</p><p> Rain looked at the chip, then grew even paler than usual. </p><p> "You, you really are eighteen?" </p><p> She was so mortified that she even used the proper honorifics. </p><p> Sunny laughed. </p><p> "Of course I am! As a respectable adult, I never lie. I am the most honest person in the world, really." </p><p> The girl seemed like she was currently wishing to sink into the earth. </p><p> "Oh… I am so s—sorry, then. I didn't think…" </p><p> As a child that grew up in a good family, she was most likely taught to be very polite to elders, so this situation was more or less a nightmare. Sunny himself had never associated with types of people who were particular about etiquette, but from what he had seen in Rain's school, among her ilk, social hierarchy and proper rituals were all the rage. </p><p> Luckily, Effie decided to appear at that very moment to put an end to the awkward situation. Opening the door, she rolled her wheelchair onto the porch while saying angrily: </p><p> "Listen, doofus, are you going to eat or not? Because if not, I'll eat your portion too, you know…" </p><p> Then, she stopped and stared at Rain, then at Sunny. After a few moments, she asked: </p><p> "Who's your friend?" </p><p> Sunny rubbed his face. </p><p> "Eat as much as you want. And this girl lives in the neighborhood. She was just passing by." </p><p> Rain nodded. </p><p> "Nice to meet you, ma'am. I, uh… am very sorry. I was just on my way home from school, and made a mistake. You see, what has happened…" </p><p> Effie grinned, then gestured for her to stop talking. </p><p> "Let me guess… this one right here was zoning out with a nasty expression on his face, and then looked at you and said something wildly inappropriate?" </p><p> Rain blinked a couple of times, then said: </p><p> "Yes! I mean, no… he didn't say anything. It was me, I said something inappropriate!" </p><p> The former huntress shook her head. </p><p> "Then you're lucky! Sunny here is a bit special. One of a kind! The things that sometimes come out of his mouth…" </p><p> Sunny stared at her in outrage and hissed: </p><p> "The things that come out of my mouth?! You're the one to talk!" </p><p> She sighed, then looked at Rain with a hurt expression on her face: </p><p> "You see how he bullies me? Ah, that's no way to treat a guest, Sunny. So ungracious! What will this nice neighborhood kid even think…" </p><p> Rain energetically shook her head. </p><p> "No, no! I won't think anything. I… have to go home, actually. It's been nice meeting you!" </p><p> With that, she hurriedly turned around a made a step to walk away. </p><p> Effie raised her voice a little: </p><p> "Bye! Nice meeting you, too! If you feel guilty about the misunderstanding, you can stop by any time! With food! All will be forgiven!" </p><p> Sunny stared at her with wide eyes, not quite believing what he was hearing. Finally, when Rain's figure disappeared behind the green fence, Effie turned to him and smiled. </p><p> "...It's almost like there's a factory somewhere in the city releasing whole batches of tiny, pale, bony teenagers. That girl is almost as pale as you, Sunny! I can't believe it…" </p><p> With that, she shook her head, turned her wheelchair, and went back inside to continue her dinner. </p><p> Leaving Sunny alone, flabbergasted and trying to determine if he was currently awake. </p><p> '...What was that? What just happened?' </p><p> Of all the countless scenarios he had in his head of how his first meeting with Rain would go… </p><p> This was definitely not one of them! </p><p> The Novel will be updated first on this website. Come back and continue reading tomorrow, everyone!</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_480.html">Previous Chapter</a><a class="navigationButton next" href="chapter_482.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

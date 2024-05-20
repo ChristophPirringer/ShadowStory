@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 602</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 602 Swarm Of Shadows</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> 'Slow down there, lady…' </p><p> Sunny tried to take a step back, but ended it staggering and almost falling down. Somehow, he managed to keep his balance, crouching as his talons dug into the ground. His four arms rose, sharp claws aimed at Solvane. </p><p> All that talk of glory and death made him very, very tense. </p><p> 'Solvane… wait. Solvane?' </p><p> A low growl escaped from Sunny's mouth as he realized who was standing in front of him. So this beautiful, graceful woman… she was the ghastly living corpse he had destroyed in the cargo hold of the crashed ship? Or rather… would be? </p><p> He had traveled into the past of the Chained Isles, after all, or at least an illusory reenactment of it. It made sense that Solvane had not succumbed to her harrowing fate. </p><p> ...Yet. </p><p> Sunny shivered, remembering the silent pleading and boundless torment in the empty eyes of the Wormvine's host. How could those terrible eyes be the same as the radiant ones looking at him right now? </p><p> Suddenly, he was overwhelmed by pity, compassion, and sorrow. </p><p> And fear. Visjt n𝒐velbin(.)c𝒐m for new updates</p><p> Because if he was right and this was really the same Solvane, then this dazzling stranger who had just promised to gift him a glorious death… was a Saint. </p><p> And a Saint promising to kill him was not something Sunny had ever wanted to hear. </p><p> He peered beneath the surface of Solvane's lovely figure, and saw a single sphere of light burning brightly in her chest, so radiant as to appear almost blinding. Her soul core… the soul core of a Transcendent. </p><p> His vertical pupils narrowed, a single thought ringing in his mind: </p><p> 'Run!' </p><p> Sunny felt that his body was much more powerful than his own, inhumanly so, but without knowing how to properly control it, outrunning a Saint was out of the question. If it had ever been. So, his only hope was Shadow Step… </p><p> He already started to fall into the shadows when a beautiful silhouette suddenly appeared near, a graceful hand falling from above to grasp one of his arms into an iron grip. If not for Bone Weave, his wrist would have shattered like glass. </p><p> The hold of a Saint was as inevitable and inescapable as death. </p><p> Sunny couldn't escape into the shadows anymore, and summoning any Memory would have taken too long to be of any use… </p><p> All except for one. </p><p> A ghostly stiletto suddenly appeared in his trapped hand and awkwardly shot upward, leaving a thin scratch on Sovane's perfectly smooth, silky skin. </p><p> She glanced at the scratch, which was slowly welling with blood, a single crimson drop falling on the verdant grass. Her luminous eyes glistened. </p><p> "Is this fate, then? A sacrifice of blood was made, on the altar of War. Little shadowspawn, how special you are! Ah, so be it…" </p><p> With that, she smiled radiantly. </p><p> In the next moment, her other hand moved forward, and before Sunny could even feel fear… </p><p> The world exploded with pain, and then turned utterly dark. </p><p> *** </p><p> Shadows… shadows… </p><p> Sunny was surrounded by shadows.<novelnext> </novelnext> </p><p> Some were close to him, and some were far. Some were small, and some were large. Some moved, and some were still. </p><p> He was one of the shadows, too. </p><p> No… not one. A swarm of them. A legion of shadows, all hidden in one vast and lightless soul. Silent and tranquil, free of all burdens. Free of all desires, free of reason and will. </p><p> For now… </p><p> 'Ugh… my head hurts…' </p><p> Slowly, Sunny regained his senses. The first thing he felt was pain, and then, the steady beating of his hearts. Hearts? Yes… apparently, he had two now. As well as four lungs. </p><p> His body was heavy and unfamiliar, too large, too cumbersome, and too strange. Something hard and cold was pressed against it, making him feel a dull pain in his limbs. His head ached, too, as if he had been struck on it hard enough to shatter a weaker skull. </p><p> Well… he had been. Had he not? </p><p> The breathtaking beauty, Solvane, hit him. She killed him. </p><p> 'Damnation… why am I still in pain if I am dead? What nonsense is this?!' </p><p> Full of outrage, Sunny tried to chase the pain away. But it remained. Why wouldn't it disappear? It wasn't supposed to torment him still. </p><p> Unless… he wasn't dead. </p><p> And the Saint had not, in fact, killed him with one strike. </p><p> Sunny hissed, and opened his eyes. </p><p> What he saw made him stare for a few moments, and then laugh. Or rather, he wanted to laugh, but what came out of his mouth instead was a chilling, deeply disturbing, uneven wail. </p><p> 'Oh, gods… this is just too on the nose, really! Come on!' </p><p> Sunny was so amused because the hard and cold things pressed painfully against his body… were the sturdy bars of an iron cage. </p><p> He was in a cage again, and there was a steel collar wrapped around his neck. </p><p> Sunny was, once again, turned into a slave. </p><p> 'Hey, Spell! Is this funny to you? Are you happy with yourself, you wretch?!' </p><p> His new cage was way smaller than his previous one in the Night Temple. In fact, it was barely large enough to fit his lanky body with all its limbs, claws, and horns. The cage was hung from the ceiling by a rusty chain, and his every move caused it to sway lightly, the bars digging painfully into his flesh. </p><p> Sunny growled angrily and looked around, trying to make sense of his previous sensations. What were all the other shadows he had felt close by… </p><p> '...Crap.' </p><p> All around him were rows of hanging cages of different sizes, and each of them imprisoned a creature of some sort. There were monstrous wolves, stone gargoyles, giant slithering worms, bulging mounds of flesh with gaping circular maws, and all kinds of abominations, some of which he had seen and fought before, and some that he had never even heard of. </p><p> There were closed metal boxes that produced the sound of hundreds of small feet rustling against their surface, and cages large enough to fit a Chain Worm. In fact, there was a Chain Warm trapped in one not too far away from Sunny. There were even cages that contained humans. </p><p> Sunny stared at this dungeon of horrors for a bit, and shivered. </p><p> 'What the hell is this place…'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_601.html">Previous Chapter</a><a class="navigationButton next" href="chapter_603.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

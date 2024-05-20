@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 709</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 709 Nature Of The Beast</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> It was only later, when they returned to the flying ship and looked down upon the devastation that the short and furious clash between Noctis and Sun Prince had created, did the understanding of what had happened finally settled in their minds. There was no going back now. </p><p> …The war of immortals had finally started. </p><p> Soon, the whole of the Kingdom of Hope was going to be turned into a battlefield and drowned in blood by its frenzy. And then, the repercussions of that madness were going to spread outward like a tidal wave, changing the world forever. </p><p> Looking down, Sunny couldn't help but shiver. The broken pillars, the severed hand of a giant, the ash swirling in the air… this place, this event, this moment in time… </p><p> Was that the spark that would eventually ignite another, much more terrifying war? A war between gods and daemons, one that would destroy them all and bring about the end of the world… the war to end all wars. He still suspected that it was the unchaining of the Demon of Desire that had set it in motion. </p><p> Looking down, Sunny silently whispered: </p><p> 'But then came desire, and with it came direction…' </p><p> Turning his head slightly, he looked at Noctis — the person who had started it all. The sorcerer seemed calm and without a worry in the world. His beautiful face was pale with exhaustion, but other than that, he did not look too different from his usual self… not at all like a person who had potentially ushered in the obliterating apocalypse. </p><p> Did he not understand the consequences of his actions? </p><p> …Or did he understand them far better than Sunny ever could? </p><p> With a sigh, Sunny threw one last glance at the Iron Hand island — not truly and once again deserving of its name — and walked to sit beneath the branches of the sacred tree. Despite the fact that he had not done much, he felt exhausted, too. And there was a lot he had to think about… </p><p> *** </p><p> On the way back, Sunny remembered the future. He had been to the Iron Hand island many times, had seen the toppled pillars and the severed arm of a giant, and had even sketched and described them in detail for an exploration report. </p><p> And now, he had witnessed how the island came to be in that state. </p><p> Another event from the distant past had repeated itself inside the Nightmare almost to a tee. Sunny had already formed a theory that fate was like a current, always pulling things toward an inescapable conclusion, after the destruction of the Temple of the Chalice. The details could be changed, but the result seemed to always be the same. </p><p> The events that had transpired on the Iron Hand island only cemented that theory. </p><p> By all accounts, the appearance of the cohort… and Mordret… should have drastically changed the flow of history in the Kingdom of Hope. They had accelerated the start of the war, and even slain one of the Chain Lords. If not for them, Noctis would have most likely spent several years searching for a way to make a deal with Weaver, and only then rebelled against the other immortals. </p><p> Those several years were, perhaps, the countdown to the blossoming of the Nightmare Seed. If no Awakened appeared to challenge the Nightmare by then… the Seed would have bloomed? Was that the logic? Seeds blossomed when the conflict inside them resolved itself and fate repeated unchanged? </p><p> Before, Sunny had thought that the task of the challenger was to resolve a conflict that would have otherwise remained unresolved. But now, knowing what he knew about the Chained Islands and the Kingdom of Hope, he realized that he had been wrong. With or without his help, Noctis was always going to start a war, the Ivory Tower was always going to break free from its chains… </p><p> The Temple of the Chalice was always going to be destroyed, and Sun Prince was always going to lose his hand to the enchanted moondial. </p><p> Come to think of it, his First Nightmare would have resolved itself without his intervention, too... one way or another. The nameless temple slave would have probably died, and Auro of the Nine would have survived… or would they? In any case, there would have been an ending. </p><p> 'That… doesn't really make sense.' </p><p> So what was the role of the challengers? If the conflict could resolve itself, why were they here? What did the Spell want from them? Prove that they were equal to the heroes of the past? Do it better than them? Simply survive? 𝑅ead new chapt𝒆rs on novel𝒃in(.)com</p><p> The Spell did not care what one did inside the Nightmare and how they went about solving the conflict. The reward was going to be the same, either way — the challenger would ascend to a new Rank. They could receive a True Name, or even, in extremely rare cases, an evolution of their Aspect, but those things could be done outside a Nightmare, as well. </p><p> The only thing the Spell cared about was that the challenger survived until the end. </p><p> …But that was not entirely true. The Spell would not give additional rewards, or deny the survivor their ascension. However, it did care a little… at least enough to appraise the challenger's performance. The appraisal did not really matter outside of the First Nightmare, where it was tied to the boon, but the Spell still gave them out each time. </p><p> Good, Exceptional, Remarkable... Glorious... and so on. </p><p> Was there a hint in there, somewhere, about what it wanted? </p><p> If so… Sunny had apparently pleased the Spell very much in his first trial. </p><p> Sitting in the shade of the sacred tree, he sighed and looked into the distance with a solemn expression. </p><p> 'I hope it will be pleased with us again, this time. I hope we survive…' </p><p> *** </p><p> Soon, the flying ship returned to the Sanctuary and descended to its usual position above the Altar Island. As they returned to the ground, Sunny could see hundreds of faces turned to them, fear and uncertainty written in their lines. </p><p> The inhabitants of the Sanctuary had not seen the clash between Noctis and Sun Prince, but they all knew that something was wrong. By now, the island had stopped trembling, but their hearts did not. </p><p> Without paying them any attention, the sorcerer tiredly landed on the grass, then turned to Sunny and frowned slightly. </p><p> "I am going to rest for a couple of days. That… most of the Sun Legion, as well as the army of the Red Colosseum, are arrayed along the border between Solvane's territory and that of the Ivory City. It is going to take them at least two weeks to assemble together and march east… so, we will give them enough time to break the current formation, but not enough to build a new one. We attack in seven days." </p><p> He hesitated for a few moments, and then suddenly smiled: </p><p> "Warmongers and the Sun Legion forgetting their hatred and fighting side by side… truly, no one but me could have made it happen! Am I not the most talented diplomat in all of the Kingdom of Hope?" </p><p> With that, Noctis laughed, turned around, and walked away. </p><p> Sunny stared at his back for a few moments, then sighed and said quietly: </p><p> "You are definitely not. But then again… maybe you are…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_708.html">Previous Chapter</a><a class="navigationButton next" href="chapter_710.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

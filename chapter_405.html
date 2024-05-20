@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 405</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 405 Going Back To School</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 405 Going Back to School</p><p>Indeed, the awkward fourteen-year-old girl was his little sister, Rain.</p><p>And indeed, it wasn't a coincidence that Sunny had bought this exact house in this exact district of the city. While the terrace neighborhood was nice and charming, the real reason he had chosen this home, in particular, was because it stood next to the place where Rain lived.</p><p>It was on this street, a year and a few months ago, that he had watched from the shadows as she was having dinner with her adopted family, their warm and happy life displayed for him to see through the wide window of their brightly illuminated living room.</p><p>…Well, now Sunny had a living room and a wide window of his own, even though there was usually only darkness behind it.</p><p>Back then, he had become painfully aware that his fantasy of saving his little sister was empty and misguided. Rain didn't need to be saved, least of all by a troubled outskirt stray like him... a ghost of the past that she most likely did not even remember. If he had knocked on her door on that night, nothing in her life would have changed for the better.</p><p>Sunny wasn't the same penniless kid anymore. He was an Awakened, one marked as a special strategic asset by the government. He was considerably wealthy, connected… even powerful.</p><p>But, deep down, he still believed that the statement held true. His clothes and circumstances might have changed, but Sunny himself remained the same. Twisted and damaged, like anyone who had seen the truth of this world would be.</p><p>What's worse, now that he had risen above his previous pathetic self, he had a whole swarm of new, much more serious problems. Nephis, the Sovereigns, the legacy of mysterious Weaver… all of these things promised a future full of turmoil and danger. He was not exactly the kind of person who had good things to offer to anybody.</p><p>So, no. Sunny had not changed his mind about keeping himself out of Rain's life. He wasn't going to approach her, and had no desire to meet her face to face.</p><p>...There was, however, a problem.</p><p>Now that Sunny was an Awakened, statistically, Rain's chances of becoming infected by the Nightmare Spell herself had grown. But even if he forgot about that statistical correlation, there was still a possibility that she would end up in the First Nightmare, no matter how small.</p><p>By now, Sunny was eighteen, and Rain was fourteen. Almost every person infected by the Spell had fallen victim to it while being older than sixteen and younger than nineteen, which meant that there were about two years left before Rain would be in real danger, and about four before she would be out of it.</p><p>Even if they were more or less strangers and didn't owe anything to each other, Sunny felt... responsible for her. Perhaps Rain did not remember him due to how little she had been at the time of their separation, but he remembered everything. To him, she was the last memento of their long-lost home.</p><p>Now that he had the ability to pull some strings behind the scenes to ensure that her chances of surviving the First Nightmare were enhanced — be it through access to better battle instructors or something else — he couldn't just sit still and do nothing.</p><p>But to do that, he first needed to understand how well Rain was being prepared already.</p><p>Hence, he bought a house near the place where she lived and let his shadows loose to explore the neighborhood and spy on her and her family.</p><p>'Uh… when I put it that way, it sure sounds a bit creepy.'</p><p>Sunny stood up, yawned, and shrugged. He was an Awakened whose power lay in shadows, deceit, and bloodshed. Before that, he was a street rat willing to do anything in order to survive. Mundane humans had no idea about what he had gone through, what he had done, and what he was capable of as the result.</p><p>If they did, they would probably be horrified. So, a little hint of creepiness was only to be expected.</p><p>Putting on a warm hoody, he walked outside, hid his hands in his pockets, and headed toward the public transport terminal at a slow pace.</p><p>His shadow was a few hundred meters ahead, stealthily following Rain and keeping an eye on her. No one was the wiser to its presence.</p><p>Sunny sighed and looked at the cloudy sky.</p><p>'Time to go to school, I guess.'</p><p>***</p><p>Rain went to a rather elite school, as it turned out. Judging by the prices of the homes in the terrace district, Sunny knew that her adopted family was reasonably well-to-do, but it seemed that he had underestimated either their wealth or their connections.</p><p>The school was not the most prestigious out there, but it was close. Enough that only the kids of government officials and conglomerate heirs attended it… for the most part, of course. There were a few kids who seemed to be there because of their academic achievements, but not enough to make a difference.</p><p>The children of government servants arrived on public transport, like Rain; the chaebols came in expensive PTVs, which were controlled by personal drivers.</p><p>Sitting at a table in a cafe a kilometer or so away from the heavily guarded entrance to the school, Sunny suppressed the desire to whistle.</p><p>'That's… like something out of a drama. I wonder if I'll see someone's getting slapped in the face today…'</p><p>Suddenly remembering his first encounter with Master Jet, Sunny coughed and rubbed his cheek in embarrassment.Get the l𝒂test 𝒏𝒐vels on novelbin(.)c/om</p><p>The happy shadow was still following Rain, stealthily moving from one shadowy patch to another. Then, it waited for a good opportunity and dove inside the shadow of one of the kids walking toward the same classroom as her.</p><p>Sunny got comfortable and ordered a few pastries and a pot of tea.</p><p>He couldn't quite believe that he was going to waste time attending school, of all things, even if it was in that very strange manner. He hadn't been to school in a dozen years already, not counting the month spent in the Academy.</p><p>'Well… this should be interesting.'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_404.html">Previous Chapter</a><a class="navigationButton next" href="chapter_406.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

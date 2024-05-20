@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 540</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 540 Blood Feud</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The peculiar man had an excellent technique, but it seemed as though anger was clouding his judgment. Sunny spent several minutes dodging and blocking his attacks, carefully observing both the enemy and the enemy's shadow. It wasn't long before he was able to grasp the essence of the enemy's style. </p><p> 'There… I understand now…' </p><p> After more than nine hundred duels in the Dreamscape, his ability to comprehend different battle styles had considerably improved. And this guy wasn't using anything he had never seen before — his technique was polished, but unoriginal. Not that there was anything wrong with that, except that it was also too straightforward and inflexible. </p><p> 'How did he even get so far?' </p><p> Since there was nothing else for Sunny to learn, he switched from defense to attack and delivered a swift strike, leaving a shallow wound on the opponent's shoulder. A few drops of blood landed on the Mantle of the Underworld… and in the next moment, Sunny learned just how the man was able to climb so high on the tournament ladder. </p><p> Suddenly, the blood shone with menacing crimson light and exploded, throwing Sunny back and tearing the Soul Serpent from his hand. At the same time, his enemy's wound ignited with dim red radiance, and in the next second, his movements became much faster, his blow carrying much more weight. </p><p> '...What the hell?' </p><p> Sunny barely dodged a devastating downward slash, rolled away, and grabbed the hilt of the odachi — just in time to block another strike and be thrown back a few steps again. </p><p> 'How is he suddenly so strong?!' </p><p> He struggled desperately to keep up with the man in rusted armor, who had somehow instantly become utterly overbearing. In the process, another drop of blood landed on him. </p><p> 'Crap…' </p><p> The Mantle withstood another explosion. Its surface did not crack, but Sunny could tell that the armor was weakened. Jumping back to his feet, he gritted his teeth and continued to fight. </p><p> Pretty soon, his suspicion was confirmed. The enemy seemed to possess an Aspect related to blood. His first Ability allowed him to ignite it, and the second increased his strength and speed the more he bled. So every time Sunny managed to perform a successful attack, the man grew much more formidable, while Sunny himself had to either dodge the drops of blood or somehow survive another explosion. </p><p> …But he wasn't worried. </p><p> By now, Sunny had realized that there were four types of challengers who tended to do well in this tournament. The first type relied on skill, the second type relied on a powerful Aspect, and the third type relied on excellent Memories. </p><p> While the latter two were tricky to deal with, only the first type was really dangerous. </p><p> The fourth type, of course, was the most deadly — these were fighters who had both formidable skill and powerful Aspects, as well as an arsenal of fearsome Memories at their disposal. Luckily, there weren't many such people around. </p><p> This guy was obviously an opponent of the second type, and relied too much on his bizarre Aspect. To defeat him, Sunny just had to think of a counter, and in this case, the counter was pretty obvious. </p><p> Since every wound made his enemy stronger, he just had to finish the bastard off in one strike. </p><p> And since the warrior in rusted armor neglected to truly develop his technique, that was not that hard to do. </p><p> After another explosion, Sunny increased the weight of the Mantle of the Underworld and withstood the shockwave, then made it as light a feather and dashed forward. He understood the essence of the enemy's style already, so it wasn't hard to predict his next move. </p><p> In fact, Sunny had manipulated the man into doing exactly what he wanted. </p><p> Once his opponent raised his sword to block a vicious slash, Sunny shifted his weight and suddenly changed the direction of the attack, sidestepping as he pushed his sword forward. The Soul Serpent scraped against the enemy's sword and slid effortlessly into the visor slit of the rusted helmet. </p><p> Immediately, Sunny dismissed the Shadow and jumped as far back as he could. R𝒆ad lat𝒆st ch𝒂pters on n𝒐v𝒆lbi𝒏(.)c𝒐m</p><p> He was just in time. </p><p> The body of the man in rusted armor shuddered… and then violently exploded, causing the whole courtyard to tremble. If Sunny was just a tiny bit slower, he would have been pulverized by the explosion, too, and his enemy would have avenged himself from beyond the grave. </p><p> Well... from beyond being eliminated from the tournament, in this case. </p><p> 'What kind of an Aspect is that?! Phew... I guess this is why Awakened are so dangerous. You just never know what kind of weird crap they are capable of…'</p><p> As the crowd exploded with applause, the voice of the Dreamscape announced: </p><p> "Challenger What? No, Wait! was eliminated." </p><p> Sunny, however, didn't pay it any attention. </p><p> Because almost at the same time, the Spell whispered into his ear: </p><p> [You have received a Memory.] </p><p> *** </p><p> A few moments later, Sunny was back in the black void, staring at the fake pattern of radiant strings with a perplexed expression. </p><p> 'Huh… that's crazy!' </p><p> He knew, of course, that it was possible to exchange Memories in the Dreamscape. This illusion was a mystical space created by a Saint's Aspect Ability, after all, and not an artificial VR simulation. </p><p> What he had not known, however, was that one could just receive a Memory out of nowhere, without the usual requirement of being in physical contact — even if that contact was illusory — with its master. However, if the Saint in question was responsible for delivering the rewards, then it sort of made sense. </p><p> More importantly, though… he had received a Memory! </p><p> His eyes gleamed. </p><p> Sunny was already eligible for several smaller prizes, most of them in the form of credits or soul shards. He wasn't going to bother receiving them, though — even if there was a way to do so without leaving a paper trail, Sunny didn't know of one. </p><p> The Memories, however… that was an entirely different situation! </p><p> Summoning the runes, he quickly read: </p><p> Memory: [Memory of Ice]. </p><p> 'Wait... that sounds familiar. Don't I have a [Memory of Fire] charm already? </p><p> Indeed, the Memory he received was eerily similar. It was another protective charm! </p><p> Memory Rank: Ascended. </p><p> Memory Tier: I. </p><p> Memory Type: Charm. </p><p> Memory Description: [...Even when the sun returned, they shivered and remembered the neverending winter.] </p><p> Memory Enchantments: [Bitter Cold.] </p><p> Enchantment Description: [This charm provides the wearer with moderate resistance to cold.] </p><p> A wide smile appeared on his face, hidden behind the black mask. </p><p> 'Now that… that is what I am talking about!'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_539.html">Previous Chapter</a><a class="navigationButton next" href="chapter_541.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

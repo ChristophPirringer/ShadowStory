@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 570</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 570 Thirst</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny looked at the stream of blood that was getting closer and closer to the cage, then glanced back at the door and waited, wondering if someone… or something… would burst through it and enter the cell. </p><p> But nothing did. After that first loud bang, everything stayed eerily quiet. Seconds passed, then minutes. Finally, he slowly turned away from the door and looked at Cassie. </p><p> "Do you smell it?" </p><p> She lingered for a moment, then nodded. </p><p> "...Blood." </p><p> Sunny remained motionless for a bit, then walked back to his usual place and sat down. His face was grim. After a while, he said in a dark tone: </p><p> "We are going to need to start rationing water." </p><p> Humans could survive for a long time without food, but water… water was much more precious. Without it, a healthy human could die in a matter of days. </p><p> And there were very few more agonizing ways to go. </p><p> Cassie turned her head, then asked somberly: </p><p> "Why? Do you think that they are going to just leave us here?" </p><p> Sunny opened his mouth to retorn that she was the one who could see the future. But in the end, he held his tongue. </p><p> "...Just in case." </p><p> They had one full waterskin left. As Awakened, they would also be able to last longer without water than mundane humans — especially Sunny, whose body was strengthened by three cores, Blood Weave, and his shadows. </p><p> But would that be long enough? </p><p> There was no way to know. </p><p> He closed his eyes and exhaled slowly, then tried to meditate. </p><p> Time crawled slowly. Their hunger grew, but no one came to bring them food. With their last connection to the outside world gone, it was impossible to tell what day it was. Sunny and Cassie remained in the barely illuminated darkness alone, waiting for something to happen, or slept while shivering from the cold. </p><p> It wasn't long before their water ran out. The waterskin wasn't that large, to begin with. </p><p> ...Then, came the thirst. </p><p> Sunny thought that he knew what madness felt like, but after spending several days — at least he thought that a few had passed — without drinking anything, he learned that there was a completely different realm of crazed delirium. </p><p> The feeling of thirst was absolutely maddening, torturous, and suffocating. His throat hurt as if it was being cut, his lips had dried and cracked, and so did his tongue. His head was full of pulsating pain, and his muscles were experiencing excruciating cramps. All he could think about was water, water, water… </p><p> The worst part of it all, however, was the fear. Fear that he was going to die in this cursed cage like a dog, forgotten and discarded. Maybe one day someone would open the heavy door, and find his desiccated corpse reaching hopelessly and pathetically toward it through the iron bars… </p><p> Sunny had tried everything he could think of to get out of the cage, but nothing he had done helped. The only result was that his condition worsened even further.</p><p> By then, his throat and mouth felt as though they were on fire, and his entire body ached terribly. He felt weak and lethargic, and his vision was starting to blur. Sunny spent most of his time staring at the orange flame of the oil lamp, because it was more or less the only thing he could see clearly. </p><p> Then, it disappeared, too. </p><p> The stone cell became even darker, with only the ghostly, dim glow of the runes illuminating the iron bars of the cage. </p><p> '...The oil ran out.' </p><p> Sunny closed his eyes. </p><p> Was it really hopeless? </p><p> No, he couldn't give up… he refused to… </p><p> In all this suffering and despair, the only thing that kept him somewhat sane was the fact that Cassie was right there with him, going through the same hell. At least… at least he wasn't alone. </p><p> Despite all the complicated emotions and the heavy burden of past sins, sharing his pain with someone had made if not bearable, then at least a little easier. Neither of them would have been able to endure the agony and the terror of not knowing whether they were going to live or die, the fear of the unknown, alone. But together, the two of them managed to persevere, somehow. Maybe just to not let the other see them break first… </p><p> Sunny didn't know how many days had passed since the flame of the oil lantern died out. Time lost its meaning a while ago. All he knew was the thirst, the pain, and the stubborn, spiteful will to hold on just a little bit longer. </p><p> …At some point, he opened his eyes in the darkness and stared at the blurry blue glow of the sorcerous runes. Then, he turned his head and looked at Cassie, who was sleeping in his arms. </p><p> There was a sound… a sound coming from behind the door. </p><p> Sunny wanted to tell Cassie to wake up, but his throat was so dry that no sound came out of it. All it did was bring him more pain. He gritted his teeth, then shook her gently, waited for her to open her eyes, and carefully placed a finger on her lips. </p><p> He wanted her to remain quiet. </p><p> The blind girl hesitated for a few moments, then nodded. Th/e most uptodat𝓮 n𝒐vels are published on n0velbj)n(.)co/m</p><p> They let go of each other and shakily rose to their feet. By that point, the faint sound became more clear… it was as though something sharp was scraping against stones as it was being dragged across them slowly. </p><p> Scrrrrish… scrrrrish… scrrrrrish… scrrrriiiiish... </p><p> The haunting, grating sound was drawing closer and closer. </p><p> Finally, it reached to just beyond the cell and stopped abruptly. Then, they heard another scrape, this one much smaller, and the click of the door's lock. </p><p> It opened, and Sunny saw a blurry silhouette standing at the threshold of the stone chamber. Half-blinded by the thirst, he could tell who, or what, it was. </p><p> ...But the smell of blood was back. </p><p> Only now, it was much, much stronger…</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_569.html">Previous Chapter</a><a class="navigationButton next" href="chapter_571.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 305</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 305 Trail Of Blood</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 305 Trail of Blood</p><p>Raising his hand, Sunny gave Aiko and Stev a signal to remain quiet. Then, with a frown, he commanded the shadow to abandon its hiding spot and find the Guards.</p><p>'They can't be near us… I would have heard them.'</p><p>Then where did the bastards go?</p><p>Soon, he had his answer.</p><p>The three Guards were in the corridor a hundred or so steps from Sunny's current position, just behind a corner. In a place where they shouldn't have been, since it was way off their previous route.</p><p>They were also dead.</p><p>Two had their skulls smashed in. Sunny did not know what weapon, tool, or limb was used to kill them, because their Memory armors had already disappeared. It had to have been something capable of piercing through steel, though, because the Guards had been wearing helmets the last time he saw them.</p><p>The third was even worse. His throat was torn, seemingly with terribly sharp fangs… to such degree that the young man's head was almost separated from his body. One would expect a sea of blood to come out of such a terrible wound, but in fact, there was surprisingly little of it on the floor.</p><p>However, the corpse of the Guard was unnaturally pale, as if devoid of blood completely.</p><p>'Curses…'</p><p>Sunny felt a cold shiver run through his body.</p><p>The shadow cautiously looked around, but didn't notice anyone else present on the scene of the gruesome slaughter.</p><p>Aiko and Stev were staring at Sunny with alarmed expressions. After waiting for several minutes, he finally relaxed a little and motioned for them to follow.</p><p>"What happened?"</p><p>He hesitated for a few seconds, then said in an even tone:</p><p>"The Blood Lord has just been here."</p><p>Their eyes widened.</p><p>"That fiend?! Then why aren't we running?!"</p><p>Sunny glanced at them with a calm expression.</p><p>"Don't worry, it's already gone."</p><p>Inside, however, he was anything but calm.</p><p>A creature capable of killing three Guards was not necesarrily something he would be scared of. One that managed to get past his shadow and slaughter them just a hundred steps away without making enough noise to attract his attention… that, on the other hand, was a reason for concern.</p><p>'Just what kind of an abomination is it?'</p><p>Sadly, the three of them had to pass the place where the Guards had been killed to reach their destionation. Soon, the smell of blood hit their nostrils, making Aiko and Stev turn pale.</p><p>The bodies of the Guards looked even more gruesome in person. Sunny frowned slightly, while Aiko and Stev had to struggle to keep the contents of their stomachs inside.</p><p>"Gods… poor bastards…"</p><p>Sunny did not say anything, looking around with a dark expression. He was hoping to notice something that his shadow had missed to give him a clue of what type of Nightmare Creature the Blood Lord was, exactly.</p><p>But there were no signs that anyone except for the three Guards had been in this corridor in a long time.</p><p>"Hey, Sunny? Can we please leave? This crap doesn't seem to bother you, but I… I mean, Stev seems to be really scared. Just imagine what is going to happen if he faints and falls. The whole Castle will hear, probably…"</p><p>Sunny hesitated for a little, then nodded.</p><p>Just before they left, however, he suddenly noticed something glint in the pool of blood. The shadow had not noticed it earlier because there was nothing to shine on the small object and make it reflect the light back.</p><p>Crouching, he reached out with his hand and picked up the bloodied piece of metal, then brought it close to his eyes to take a closer look.</p><p>Pressed between his fingers was an intricate silver earring in the shape of a flower blossom. It wasn't a charm Memory, though… just a simple piece of jewelry.</p><p>'What is that thing doing here?'</p><p>With a confused scowl, he lingered for a few moments and then stood up, turning away from the mangled corpses.</p><p>"Let's get out of here…"</p><p>***</p><p>Soon, they returned to the barricades creating the border of Changing Star's territory. The Sleepers standing watch were surprised to see Sunny come back with two strangers, but let them in without asking any questions.</p><p>Aiko raised an eyebrow.</p><p>"Aren't you guys going to inspect us? What if we're spies?"</p><p>The watchmen glanced at each other, and then one of them said:</p><p>"Usually, we would. But it's Sunny."</p><p>The petite young woman smiled.</p><p>"Oh! Is he in very high regard around here?"</p><p>The watchman gave a strange look, then coughed with a bit of embarrassment.</p><p>"Uh… it's not that. It's just that starting a conversation with him is, uh… well, you know. A headache."</p><p>Sunny stared at him with an offended expression.</p><p>"What's that supposed to mean?"</p><p>The watchman hurriedly shook his head.</p><p>"No, no. Nothing. Uh, I need to inspect the barricade. If you'll excuse me…"</p><p>With that, he made a hasty retreat.</p><p>'Did I scam him out of his boots or something?'</p><p>Shaking his head in bewilderment, Sunny turned away and led the two newcomers deeper into the stronghold, searching for Nephis.</p><p>She was alone in a spacious room. Changing Star sat on the floor, wrapping herself in her white cloak, and stared at the wall with a distant expression.</p><p>These days, Neph was a bit strange. She had always been aloof and hard to read, but now, her usually indifferent face had become completely motionless. Her grey eyes had always been calm, but now, they seemed to be especially cold. Almost… empty.</p><p>Sunny had no idea what was going on with her.</p><p>'Maybe she hasn't recovered from using her Aspect Ability to its full extent, still…'</p><p>Clearing his throat to attract her attention, Sunny gestured to the giant man and the tiny girl he brought.</p><p>"Hey, Neph. I've recruited these guys."</p><p>She tilted her head a little and didn't say anything.</p><p>Sunny smiled.</p><p>"You must remember Aiko. She was the one on whose behalf you had challenged that Pathfinder, Andel. And cut his head off."</p><p>Then, he glanced at Aiko and narrowed his eyes.</p><p>The petite girl hurriedly said:</p><p>"Oh, yes! Thank you, Lady Changing Star. That guy was… uh... a real menace."</p><p>Nephis slowly nodded and said evenly:</p><p>"...You're welcome."</p><p>Then, she looked at Stev.Ch𝒆ck out l𝒂t𝒆st 𝒏𝒐v𝒆l𝒔 on nov𝒆lbin(.)c𝒐m</p><p>"...And you are?"</p><p>A wide grin appeared on Sunny's face.</p><p>"Oh. This is Stev. Stev is a very special guy. You see… he has a hundred battle-ready Memories stored in his soul core."</p><p>With that, Sunny patted Stev on the shoulder and said:</p><p>"...Basically, he's going to solve our weapons problem."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_304.html">Previous Chapter</a><a class="navigationButton next" href="chapter_306.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

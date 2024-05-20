@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 816</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 816 Three Phases</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Master Jet gestured to the projection. </p><p> "All of Antarctica is divided into three parts. West Antarctica, East Antarctica, and the Antarctic Center." </p><p> West Antarctica was mostly submerged in water and consisted of a scattering of islands, some of them small, some of them large. East Antarctica was one large landmass that was peppered by numerous lakes, with a prominent mountain chain in the middle of it. The Antarctic Center was a long, narrow landmass that rested between the two, occupied almost entirely by tall mountains. </p><p> Soul Reaper continued: </p><p> "West Antarctica is mostly devoid of human population, so it presents little interest to us. The Antarctic Center is an administrative and technological hub of the quadrant, while East Antarctica is the largest and most densely populated region of the continent." </p><p> She paused for a moment, and then added somberly: </p><p> "The First Evacuation Army is going to set sail in two weeks. We will reach Antarctica two, maybe three weeks after that. By that time, the Chain of Nightmares would already be starting. Local garrisons are already experiencing an increased number of manifesting Gates, but the number will explode by the end of March. After that, it will only keep growing." </p><p> Master Jet stared at the projection for a bit, and then said calmly: Read latest 𝒏ov𝒆ls at n𝒐velbi𝒏(.)com</p><p> "No matter how many soldiers we send, we won't be able to contain the flood of Nightmare Creatures that enter through these Gates. This… is something that had never happened in history before. Even the great wars that the First Generation fought pale in comparison to the Chain of Nightmares. Don't forget that almost all abominations back then were of the Dormant Rank. We aren't that lucky." </p><p> She sighed, then leaned back and crossed her arms. </p><p> "According to our scientists and diviners, the mass of Gates is going to be of the Second Category and Third categories. That means Awakened, Fallen, and even Corrupted Nightmare Creatures, in numbers greater than anything we had seen. Of course, something even worse can happen. So… we are not going to try and contain them." </p><p> The faces of the Master slowly grew dim. Noticing it, Soul Reaper shook her head. </p><p> "There are better ways to achieve our objective. Once the army makes landfall, it will split into three parts, with each part pursuing a distinct objective during the first phase of the operation. One of the objectives is to turn a small number of select cities into fortified evacuation centers that can withstand the siege of Nightmare Creatures for months, or even years ahead." </p><p> Master Jet pointed at several point on the map, then continued: </p><p> "The second objective is to relocate all external human population to these centers, where they will wait for their turn to board the ships… neither the relocation nor the wait are going to be a short process. Finally, the third objective is to establish and maintain the evacuation corridors for the relocating citizens. Once everyone is safely behind the established perimeter of siege strongholds, the first phase of the operation will be considered to be complete." </p><p> Sunny tentatively raised a hand. </p><p> "Yes?" </p><p> He glanced at other Masters with a dubious expression, then asked: </p><p> "Why are we waiting for the disaster to strike before starting to evacuate people? Wouldn't it be easier to get at least some of them out right now?" </p><p> Soul Reaper gave him a rueful smile. </p><p> "That is because everyone was convinced that the event won't happen for at least a few more years. Our level of preparation is wholly inadequate, and there are no established means to start the evacuation prematurely. In short, the government was caught with its pants down. The deployment of the First Army is a messy and slapdash affair, which means that a lot more soldiers are going to die as the result. Make no mistake, though… this is the best we can do, considering the situation." </p><p> Sunny sighed, then nodded in understanding. </p><p> Master Jet glanced at him and continued: </p><p> "After the first phase of the operation is complete, the second one will commence. By then, the Second Evacuation Army should be already fully formed and arrive to reinforce the depleted First Army. This phase is simple… which is not to say easy. We will pull back all our forces to the siege capitals and hold them for as long as it takes to evacuate every civilian. After that, the third phase will result in a complete exodus of humans from Antarctica and the consequent heavy continental bombardment. The Southern Quadrant will cease to exist." </p><p> She took a poignant pause, then smiled darkly. </p><p> "That is the gist of the operation in broad strokes. Now, for details… as you must have already surmised from the name of our company, it is going to play a special role throughout all three phases of the evacuation. The First Irregular Company will not be tied to any existing battalion, regiment, or division. We will not be supporting or leading any of the grunt soldiers. Instead, we will act as elite irregulars." </p><p> Soul Reaper leaned forward and looked at them with her icy blue eyes. </p><p> "Each of you will be in charge of a cohort of some of the best Awakened warriors in the government employ. The cohorts will act semi-independently and respond to any overwhelming obstacle that threatens to slow down the evacuation. Whenever the mundane soldiers or their Awakened counterparts encounter a problem that they can't handle, we will be sent to resolve the situation through any means necessary." </p><p> The room suddenly became very cold, and so did Master Jet's expression. </p><p> "What it means is that we will be thrown into the most dire, bloody, and hopeless flashpoints of the entire operation on a consistent basis. Unlike regular soldiers who will most likely have time to rest and recover between battles, we will be enduring a constant succession of rapid combat deployments until the evacuation is completed… or until we all die. That is why the First Irregular Company was not only allocated seven Ascended, but also why these Ascended are the absolute best we have. Each of you is an elite among elites. Make that count." </p><p> She studied the faces of her subordinates, and then raised an eyebrow. </p><p> "Any questions?" </p><p> Master Winter suddenly raised a hand, revealing that she was not, in fact, asleep. </p><p> When she spoke, her voice was unexpectedly relaxed: </p><p> "What's our logistics situation? Is there going to be food, or are we going to spend months chewing on monster meat? You know… like usual…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_815.html">Previous Chapter</a><a class="navigationButton next" href="chapter_817.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

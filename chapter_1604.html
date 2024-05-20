@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1604</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1604 Brave New World</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1604 Brave New World</h4> <p> 1604 Brave New World </p><p> 'So, they are finally starting to move…' </p><p> Sunny let out a quiet sigh. Things were progressing according to his calculations, but at the same time, he felt that it was sometimes unpleasant to be right. </p><p> Many things had changed since Antarctica. But many things were also the same. </p><p> The balance of power was entirely different, for example. </p><p> Sunny had been born at the time when the three Great Clans were in charge of humanity, so for the longest time, he simply assumed that that was the natural order of things. But actually, although some Legacy Clans had always been more prominent than the others, the three great families — Valor, Song, and Night — only rose to their exalted status shortly before he was born. </p><p> And now, the status quo had changed again. Even though there were still nominally three Great Clans, in practice, only two remained. The House of Night had lost its competitive edge for a multitude of reasons, the main being that it lacked a Sovereign. </p><p> Without a Sovereign, the masters of the Stormsea could not bring millions of mundane humans into their area of influence and develop their Citadels into prosperous cities. They could not keep up with the exploding number of Awakened, Masters, and Saints the other two Great Clans now commanded, either. </p><p> In short, the House of Night had been relegated to the role of a supporting player in the great game between Valor and Song. </p><p> The role of the government was not the same, either. Now that the Sovereigns had revealed themselves and the exodus of humanity from the waking world had quietly begun, the writing was on the wall. As the force mainly responsible for maintaining the cradle of humanity, the government had no choice but to become obsolete. </p><p> Perhaps it was not going to happen in a decade, or even several decades, but their days were numbered. Unless the government changed, that was. </p><p> And so, it was changing, slowly developing its presence in the Dream Realm. Strangely enough, despite the bleak future, the government's power had actually grown in recent years. Although there were not a lot of Saints in its employ, three of those Saints belonged to the highest tier of Transcendents. There were countless Awakened and a large number of Masters remaining loyal to the army, as well. </p><p> So, the government had actually shortened the gap and was now almost as powerful as the House of Night. </p><p> It was nowhere near the two nascent kingdoms of the Dream Realm, though. </p><p> And those kingdoms — Sword Domain, and Song Domain — had changed the least. </p><p> The war between the two Great Clans was not being fought in the open, but it had never ended. The only thing preventing it from progressing to direct conflict was that the two Domains did not share a physical border. </p><p> Yet. </p><p> But, in fact, the territories of Song and Valor were dangerously close to each other. It was just that they were separated by a perilously dangerous Death Zone. That Death Zone was doomed to become the first battlefield of the inevitable open war between the two Dream Kingdoms. </p><p> ...It was also where Sunny had established his Citadel, right in the middle of this exceedingly important strategic region. And where his third avatar was currently hunting down anything stupid enough to challenge his rule. </p><p> His thinking was simple… </p><p> He had to put himself in an advantageous position for when the war inevitably started. </p><p> Because after three years of wandering the Dream Realm alone and slowly losing his mind, he realized that he didn't want to observe the end of the world, and the birth of a new one, from the sidelines. </p><p> He wanted to be right in the middle of everything, shaping the outcome to fit his will, and achieving his goals in the process. Discover 𝒏ew chapters at novelbi𝒏(.)co𝒎</p><p> Well, anyway… </p><p> That was the third avatar's problem. The second avatar was keeping an eye on Rain and cautiously exploring the hidden side of Ravenheart. </p><p> This Sunny, meanwhile, was simply running a shop. </p><p> And occasionally feeding gluttonous Saints. </p><p> "Hey there, Master Sunless. Can I ask you a question?" </p><p> Sunny looked away from his book and turned to Effie. </p><p> "You certainly can, Saint Athena." </p><p> Effie hesitated for a moment, then smiled mischievously. </p><p> "Is Sunless really your name? You know, I'm not saying that it sounds like something an eighth-grader would call himself… but I'm also not not saying that…" </p><p> He stared at her with a polite expression. </p><p> "...Didn't you name your son Dumpling?" </p><p> Effie flinched. </p><p> "W—what? No! Ling, his name is Ling! It's the name that belonged to a dear friend of mine!" </p><p> Sunny smiled and turned back to his book. </p><p> "My mom, you see, had a poetic soul." </p><p> He hesitated for a moment, and then added nonchalantly: </p><p> "Also, I never attended school. So I wouldn't even know what an eighth-grader would call himself…" </p><p> *** </p><p> Effie, Little Ling, and Little Ling's dad eventually went on their way, leaving a mountain of dirty dishes behind. Sunny used his avatar to wash them while resting on the porch and listening to the lively sounds of Bastion. </p><p> Although his shadow sense could reach far and wide, he didn't dare use it right under Anvil's nose. The King of Swords possessed unrivaled authority within his Domain, after all, and few things escaped his gaze. </p><p> Chances were, he would sense someone exploring his capital through unseen means. So, Sunny kept to himself. </p><p> Soon, the midday crowd arrived, and he spent a couple of hours in the kitchen cooking various lunches. That crowd disappeared, as well, leaving the Brilliant Emporium empty. </p><p> Sunny was drowning in a strange melancholy after meeting Effie. The time she had spent in his restaurant had felt very uplifting, but now that she was gone, only wistfulness remained. </p><p> It was his birthday, as well. But she didn't remember. No one did. Honestly, even he had almost forgotten about it himself. </p><p> What was the big deal, anyway? </p><p> Suppressing a sigh, Sunny closed his eyes and concentrated on his other avatars. That was another advantage of existing in several places simultaneously — he was almost never bored. </p><p> 'So, Nephis is coming…' </p><p> It was not unexpected, but happed sooner than he had thought. How long would it take her to find the Nameless Temple? Knowing Neph... two weeks, at most? </p><p> So, he had two weeks to mentally prepare himself. </p><p> That was probably enough time. </p><p> 'Rain needs better arrows, too...' </p><p> Time passed swiftly while he contemplated various matters. </p><p> Then, a new customer arrived. </p><p> This one, however, was not here for a meal, but rather for a Memory.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1603.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1605.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

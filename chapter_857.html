@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 857</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 857 Jade Beetle</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The woman standing in front of Sunny was tall and slender, with long hair that fell down in a gentle cascade of pale gold. Her posture was perfectly straight, and her cold face was dazzlingly beautiful. </p><p> Sky Tide was wearing a suit of light steel armor, with pauldrons and greaves decorated with stylized feathers. The gaze of her stern amber eyes was piercing and heavy, while her strange vertical pupils resembled that of a bird of prey. </p><p> Snowflakes swirled and danced in the air, as if trying to get closer to her. </p><p> Sunny was rather startled to see the familiar Transcendent. </p><p> "Saint Tyris? What... what are you doing here?" </p><p> Sky Tide glanced at him </p><p> "Master Sunless... it is good to see you again. I am glad to find you in good health. As for why I am here, isn't it obvious? I have come to hunt the beast." </p><p> He shifted awkwardly. </p><p> "No... uh... I meant why are you here, in Antarctica?" </p><p> She stared at him expressionlessly </p><p> "White Feather clan has been tasked with supporting the evacuation effort in the Southern Quadrant." </p><p> Oh... </p><p> Suddenly, a few things clicked into place. Back when Sky Tide had killed Saint Cormac to protect Sunny and Cassie, she told them that she would be punished by the great clan Valor. She had also told them that they would not dare to penalize her too severely. </p><p> It seemed that having the Chained Isles taken away was not enough of a punishment for the willful Saint. Valor had to make a gesture by sending a token force to Antarctica, and so, the White Feather clan had drawn the short straw. It seemed that they had lost their idyllic demesne and were banished to the cold reaches of the war-torn continent, at least for the time being. </p><p> Looking around, Sunny suppressed a sad sigh. The dark and inhospitable land surrounding them was a far cry from the empyrean beauty of the Sanctuary of Noctis. He felt a bit guilty about the whole thing. </p><p> Sky Tided did not seem to mind, though... or at least hid her displeasure perfectly. </p><p> Master Jet, meanwhile, looked at them with curiosity. </p><p> "Ah. I have forgotten that the two of you know each other. In any case, we are grateful for your assistance, Saint Tyris." </p><p> Sky Tide simply nodded. Soon, the gaze of her striking amber eyes drifted to the tall mountain looming above the ruined outpost. 𝑅ead new chapt𝒆rs on novel𝒃in(.)com</p><p> "What do we know about the enemy?" </p><p> Soul Reaper shook her head slightly. </p><p> "Not much..." </p><p> Then, she smiled and looked at the youngest member of the group. </p><p> "...Yet Sunny, do your thing," </p><p> *** </p><p> Do your thing... do your thing? What kind of request is that?" </p><p> As Sunny grumbled silently, his shadows nimbly scaled the slopes of the mountain. By now, the range of Shadow Control had exceeded a dozen kilometers, so it was not impossible for them to reach the peak. </p><p> There was hardly anyone better suited to spy on the Corrupted abomination. However... </p><p> Sunny grimaced as the Call of the Nightmare assaulted his mind. Now that he was observing a Category Three Gate, its subtle influence grew much stronger and harder to ignore. </p><p> There was a wide crack that had almost split the peak of the mountain in two. </p><p> The dark rift of the Gate pulsed inside the cavernous schism, and there was stone debris littering the immediate area around it. Many shards had rolled down the steep slopes, while a few giant boulders had even reached all the way down, smashing large parts of the outpost the Irregulars were currently hiding in and decimating the road that led to it. </p><p> Strangely, he did not notice the Nightmare Creatures immediately. </p><p> It was only after the creepy shadow, true to its name, crept closer that a sudden shiver ran through his body. Sunny noticed hundreds of shapes resting between the rocks. </p><p> The abominations were easy to miss because their carapaces were as white as the snow covering the top of the mountain, and had a texture that resembled rock. They looked like giant insects that were as large as adult humans. Some of them were Awakened, some were Fallen, and a few larger ones were even Corrupted. </p><p> None of them could compare to the enormous abomination hiding in the shadow of the shattered peak, however. With its smooth milky-white chitin and unmoving black eyes, the jade creature resembled an oversized, appalling, monstrous beetle. It was easily three times the size of the Rhino, with six mighty legs and terrifying mandibles that seemed powerful enough to crush heavily armored war platforms. </p><p> Looking at the motionless abomination. Sunny suddenly felt an eerie sense of foreboding </p><p> He glanced at Saint Tyris, Master Jet, and Winter with a dark expression. </p><p> " ...It's a Tyrant, alright. Large, thick armor. Resembles an insect. There are around five hundred drones under its command, many of them Fallen. I've noticed at least two dozen Corrupted lieutenants, as well." </p><p> He lingered for a moment, and then called out: </p><p> "Kimmy!" </p><p> The seer of his cohort activated her Aspect Ability, allowing him to see the swarm of stone beetles in a new light. </p><p> Studying their tough carapaces, Sunny slowly listed a few vulnerable points. then shifted his gaze to the Tyrant. </p><p> Unlike its minions, the giant white beetle did not seem to possess any pronounced weak spots. Sunny did not know whether the armor of the powerful creature was that good or whether Kim simply could not peer through the defenses of an enemy that outranked and outclassed her so much, but the result was the same. </p><p> Killing the Tyrant was not going to be easy. </p><p> He shared what little information he had been able to gather and glanced at the other officers with doubt. </p><p> "So... what do we do now? </p><p> Saint Tyris remained silent, but Master Jet smiled. </p><p> Her smile was dark and vicious. </p><p> "What else? We kill it." </p><p> Sunny blinked. </p><p> "How?" </p><p> Soul Reaper waited for a few moments, then looked at Sky Tide. </p><p> The Transcendent crossed her arms. </p><p> "I will handle the Tyrant. As long as it's bound to the ground, I can attack the creature with impunity. If one attack doesn't crack its shell, ten will. If ten attacks fail, a hundred will do the job?" </p><p> She looked at the Irregulars and frown; </p><p> "However, you will have to deal with its retinue. That task... is not going to be easy." </p><p> Winter snorted, and then suddenly laughed. </p><p> "Easy? What's that?"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_856.html">Previous Chapter</a><a class="navigationButton next" href="chapter_858.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

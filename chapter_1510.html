@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1510</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1510 Kings Resentment</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1510 King's Resentment</h4> <p> 1510 King's Resentment </p><p> Sunny could not even turn his head to take a better look at the humans that had appeared above the ruined throne room, standing on the edge of the collapsed sections of the dome. </p><p> At least he knew now that the army of Twilight was not gone. It was still out there, beyond the walls of the palace, fighting against the invading abominations. </p><p> Fighting against the Dread Lord and Soul Stealer. </p><p> 'Thank the dead gods…' </p><p> He had no hope that these few warriors would be able to defeat the dreadful dragon — if they had the ability, there would have been no need to plunge Twilight into the eternal trap of frozen time, to begin with. </p><p> But they could at least distract the Dread Lord for a few moments, which would give him an opportunity to somehow rid himself of the command… perhaps. Once Sunny was free and reunited with the other members of the cohort, they would join the defenders of the city and help them slay the Defiled Saints. </p><p> He was already planning his next actions when something strange happened. </p><p> The people who had climbed the dome of the palace jumped down into the throne room without hesitation. Which wasn't that strange in and of itself… except for the fact that not all of them were equally powerful. </p><p> The few Masters among them landed easily, ready to attack the next moment. The Awakened warriors were less graceful, crashing heavily on the marble floor. </p><p> Most frightening of all was that there were mundane humans among them, as well. The height of the dome was too great for them to survive the fall. They hit the floor with repulsive sounds, painting it with their blood. Dying senselessly. </p><p> 'What… what are they doing?' </p><p> Witnessing the dreadful scene, Sunny felt horrified. </p><p> Dozens of people were emotionlessly jumping to their deaths, not even hesitating before taking the fatal plunge. It was so appalling, so meaningless… </p><p> So inhuman. </p><p> His eyes widened as a terrible suspicion surfaced in his mind. </p><p> As those of the warriors who were strong enough to survive the jump dashed forward to attack their enemy, the harrowing dragon simply swiped his tail, pulverizing their bodies into puddles of blood. A crimson haze spread through the dim twilight of the great hall. </p><p> Sunny was suddenly nauseated. </p><p> 'Soul Stealer… those people… were taken by Soul Stealer…' </p><p> The strangeness that he had felt from the moment the cohort entered Twilight… the eerily emotionless faces of the defenders of the city… their cold, empty eyes… </p><p> The morbid revelations that Nephis had experienced moments before flooded Sunny's mind, forcing him to shudder — or at least try to. The Dread Lord's command held his body firmly in place. </p><p> 'Impossible, impossible…' </p><p> There were millions of people in Twilight. How could Soul Stealer have possessed them all? What kind of monster could do that? What kind of conscience could control millions of puppets, reflecting false copies of their souls? </p><p> He reeled, remembering the ghastly being they had seen in the mirror version of Twilight. </p><p> That being — the reflection of Soul Stealer's own twisted soul — had looked like a repulsive amalgamation of countless humans and Nightmare Creatures, all joined together into an abominable patchwork monster. </p><p> A demented, fractured monster like that probably could. </p><p> Sunny felt utter despair, but also a strong desire to curse. </p><p> 'That goddamn Mordret… even when he's on our side, he's still such a disaster!' </p><p> How could a person be such a bad omen? Whenever the Prince of Nothing appeared, something utterly terrible was bound to happen! </p><p> 'Calm down.' </p><p> There was no point in seething with anger at Mordret. There was no point in wondering how Soul Stealer could have devoured all of Twilight, or why he and the Dread Lord were fighting each other… none of that would help Sunny survive the current situation. </p><p> It was also not going to help him salvage that situation. </p><p> …But could it even be salvaged? Weren't all of them already doomed? The plan had been based on completely wrong information from the very start! </p><p> 'No… we can still win, somehow.' </p><p> There had to be a way. </p><p> Sunny felt sick to his stomach and frightened for Nephis and the rest of his companions, who were lost somewhere out there, on the streets of Twilight, surrounded by the numerous bodies of Soul Stealer. Especially Effie, who was much more vulnerable to the insidious powers of the mirror wraith than the rest of them. </p><p> But he could not do anything about that, at least not now. </p><p> In fact, Sunny had his own dire problem to deal with. </p><p> The Dread Lord might not have been as utterly horrific as Soul Stealer, but he was still a foe far more dreadful than words could describe. And dealing with him… was now up to Sunny. </p><p> No matter what else happened, the tyrant of Verge had to die. </p><p> 'I have to kill that fiend… I have to kill him, somehow.' </p><p> The Dread Lord had already dealt with the Soul Stealer puppets that had pursued him into the throne room, but more were pouring over the edge of the broken dome like morbid rain. </p><p> The two Plagues were fighting each other, which was good for the cohort. But their clash did not mean that Sunny and his companions would not be destroyed in the process… in fact, now that they were here in Verge, they had become alluring tools for the Defiled Saints. </p><p> The Dread Lord was, without a doubt, capable of using his authority to turn them into deadly weapons against Soul Stealer. Soul Stealer, meanwhile, could empower himself even further by taking their bodies. </p><p> 'Damn it all.' </p><p> The Dread Lord's authority… it was a manifestation of Kai's Ascended Ability. And Kai's Ascended Ability was a mental attack, of sorts. </p><p> Sunny already possessed a very high resistance to mental attacks, but that resistance was relative. It was enough, for example, to shrug off an order given to him by Kai — a fellow Master. But in front of a Defiled Saint, and one as immensely powerful as the Dread Lord, it had proved to be insufficient. </p><p> A complete immunity to mental attacks, however, was much less relative. In fact, it was closer to being absolute. </p><p> As fate would have it, Sunny possessed a Memory that could grant them just that… albeit at a cost. </p><p> Unable to move, he used the Shroud of Dusk to send Kai a mental message: </p><p> [Kai… listen to me carefully.] </p><p> His friend did not move — he was unable to — but his response arrived shortly: </p><p> [...I'm listening.] Visit n𝒐velbin(.)c𝒐m for 𝒏ew 𝒏ovels</p><p> Sunny took a deep breath. </p><p> [When I start moving, think of me as an enemy. Don't get close. It… will be dangerous.] </p><p> With that, he sent his essence into the Crown of Twilight. </p><p> [King's Resentment] Enchantment Description: "This Memory grants the wearer complete immunity to mind attacks, but plagues them with irresistible wrath instead." </p><p> The next moment, Sunny felt the invisible shackles holding him in place shattering. </p><p> …And at the same time, he felt a fury so vast that it couldn't be described with words shattering his mind. </p><p> His thoughts were incinerated by the terrible, mad, boundless ire. He lost awareness of who he was, what he had to do, what he hoped to achieve. All he knew was that he had to destroy, kill, hurt, annihilate… everything. Everyone. </p><p> All of them! </p><p> 'I'm… Lost… from Light…' </p><p> Some small vestige of his sanity remembered to utter his True Name, hoping that it would anchor his crumbling mind. But it didn't work. All it did was remind him of the tools he had at his disposal to visit utter devastation upon the world. </p><p> A low, bestial growl escaped from his mouth. </p><p> And then, a wicked smile appeared on his lips. </p><p> The Crown of Twilight… had another gift to give him. </p><p> A nearly endless amount of essence. Now that the defensive array was deactivated, nothing was draining his reserves anymore. It was all at his disposal… </p><p> Jumping forward, Sunny called upon the shadows, surrounding himself in a sea of them. </p><p> …Then, a giant serpent with black scales, clad in a fearsome onyx armor, emerged from the sea of shadows, murderous wrath burning in his mad eyes. Slithering across the ruined floor of Daeron's palace with stunning speed, the monstrous serpent created in his image lunged at the towering dragon and coiled himself around the winged horror's mighty body. </p><p> Without wasting a single moment, Sunny opened his terrifying maw and tried to sink his fangs into the Dread Lord's neck.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1509.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1511.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

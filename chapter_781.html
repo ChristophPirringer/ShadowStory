@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 781</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 781 The Brightest Light</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny shuddered, thinking that he was caught on fire... but then froze. Somehow, it did not seem like the white radiance was harming him at all. It just enveloped his body, making his skin shine with a suffused glow. </p><p> However, it was also not healing him. </p><p> Instead… </p><p> Sunny stared at Nephis with astonishment and asked in a low voice: </p><p> "What… what is happening?" </p><p> From the confused look on her face, she did not do whatever it was that had happened on purpose. Changing Star took an involuntary step back, removing her cool palm from his cheek, and briefly glanced at her hand. </p><p> The white glow was gone from it. </p><p> "I... I don't know." </p><p> Sunny opened his eyes wide and looked down on his shining body. Very strangely, he felt… </p><p> Empowered. </p><p> In fact, his condition was very similar to how he felt when one of his shadows was wrapped around him. His physical prowess seemed to have doubled. There were small differences, of course. The augmentation of Neph's flame seemed to be more furious and active, centered around strength and resilience. It also filled him with a soft, pleasant feeling of warmth. </p><p> What was more, it did not only affect his body. It reached into his soul, as well, igniting and enhancing it. The shadow essence flowing through his body became much more potent and vibrant, full of greater energy. </p><p> Sunny blinked. </p><p> Did Nephis just… augment him with her Aspect Ability? </p><p> "Since when can you augment other people?!" </p><p> Changing Star seemed to be as bewildered as he was, even though it did not show on her face. </p><p> "I can't! This… this was not supposed to happen. My Dormant Ability only evolved to include soul augmentation when I Ascended, it never evolved to be able to spread to other people!" </p><p> Sunny opened his mouth, then closed it again. Eventually, he hissed: </p><p> "Then how do you explain this?! I'm glowing!" </p><p> He waved his hand in the air, causing the shadows of the underground dojo to move and shift. </p><p> Then, a bizarre though entered his mind. </p><p> "Wait…" </p><p> Following his suspicion, Sunny lingered for a moment, and then commanded the gloomy shadow to wrap itself around Nephis. </p><p> The shadow did not even roll its eyes as it usually did when receiving an order. It eagerly slid forward and swiftly wrapped itself around the lithe, slender body of Changing Star. </p><p> Neph flinched. </p><p> "Huh?" </p><p> She studied her arms with wide eyes. Her ivory skin had turned grey, as if covered by dark film. Then, she made her hands into fists and frowned. Get latest 𝒏ovel ch𝒂pters on n𝒐velbjn(.)c/𝒐m</p><p> "I feel stronger..." </p><p> The two of them remained silent for a few moments, processing the implications of this unexpected discovery. Usually, Sunny felt a lot of negative emotions every time he thought about the Innate Ability of his Aspect, Shadow Bond, which tied him to Changing Star's will. </p><p> On this occasion, however, his curiosity and greed for power briefly overpowered his resentment. </p><p> If Shadow Bond allowed Nephis and him to augment each other to this degree… what else would they be capable of? </p><p> Neph seemed to come to the same conclusion. They glanced at each other, understanding the other's thoughts without having to say anything. </p><p> Sunny hesitated for a moment, then said: </p><p> "It causes you pain to use your Ability. We can stop now." </p><p> She slowly shook her head. </p><p> "No… no yet…" </p><p> With that, Sunny simply nodded and commanded the gloomy shadow to return and wrap itself around his body. At the same time, he ordered the other three to do the same. </p><p> Changing Star, meanwhile, concentrated for a moment, causing the white radiance suffusing his skin to grow many times more intense. </p><p> Sunny let out an audible gasp. </p><p> Four shadows made him five times more powerful. That he already knew. </p><p> Flames summoned by Nephis — who was a Tyrant — were more or less akin to five additional shadows. In theory, his physical prowess should have grown tenfold as the result. </p><p> What a stupendous augmentation! Combined with his might as a Master, his four cores, and the subtle but consequential physical enhancement he received from Blood Weave, Sunny should have become monstrously strong. </p><p> But in reality… </p><p> The effect was even great. </p><p> The shadows and the brilliant light seemed to resonate with each other, making the sum greater than its parts. Sunny turned into a silhouette shrouded in broiling darkness. That darkness, however, was permeated with blinding white light. The light made the darkness deeper, while the darkness made the light much more stark and radiant. </p><p> He looked like an abyssal spirit of the starlit void. </p><p> He felt… powerful. Immensely powerful. </p><p> Powerful enough to face a Saint in a fight. </p><p> He looked at the training sword grasped in his hand, and easily made the reinforced alloy shatter in his grip. He did not even have to exert a lot of his strength. </p><p> Deeply stunned, Sunny whispered: </p><p> "Scary…" </p><p> A few moments later, Nephis sighed and recalled her flames. Sunny allowed his shadow to slid back to the floor. </p><p> Changing Star looked at him and asked, her voice unsure: </p><p> "How did it feel?" </p><p> Sunny remained silent for a while. </p><p> Eventually, he forced out a pale smile and said: </p><p> "Like a dream…" </p><p> *** </p><p> They stayed in the dojo for the entire night, experimenting with the strange and frighteningly powerful application of their unnatural bond. There were many things they had to explore, even though it was too dangerous to test the limits of this new power here. </p><p> The last thing Sunny wanted was to completely wreck the foundation of his home. It wouldn't have been fun if the whole building suddenly collapsed… </p><p> Still, there were a lot of things that they have discovered. </p><p> First, both Sunny and Nephis could be enhanced by the white flames and the shadows. All of this might could be concentrated on one person, or shared between them in any proportion they chose. Mixing any light into the shadows or even one shadow into the radiant light made the end result more powerful. </p><p> Secondly, the same could be done to their Memories. Pouring all of their power into the Cruel Sight, for example, made it somewhere around fifteen times deadlier. This scale of enhancement went well beyond the confines of its Rank, making the somber spear as powerful as a Transcendent weapon. Applied to an armor, the augmentation was just as strong. </p><p> However, doing so would have been a bit wasteful. Memories had no souls, and as such, the part of Changing Star's flames that made a person's soul more active and resilient was wasted on them. </p><p> …It did, however, affect Shadows and Echoes. </p><p> Sunny and Nephis tested the full augmentation of their combined Aspects on Saint first, and then on the Echo of a six-armed Ascended Demon that Changing Star possessed. </p><p> The result was as frightening as what Sunny had experienced himself. </p><p> As the dawn painted the world in shades of pale violet and lilac, the pair was still cooped up in the underground dojo. Although neither spoke, their eyes were full of thought. </p><p> Both understood what their discovery meant. Each of them bore a Divine Aspect. Each was immensely powerful when compared to other Ascended. </p><p> When two bearers of Divine Aspects combined their power, however… </p><p> Imagining what they could do was indeed a bit scary. </p><p> After a while, Sunny glanced at his communicator and flinched. </p><p> "Crap! It's morning already! I am going to be late for my lecture!" </p><p> He looked at Nephis, suddenly realizing how tired and spent she looked. Using her Ability so much must not have been easy… </p><p> She simply nodded. </p><p> "You can go if you wish. I'll… I'll rest for a while." </p><p> Sunny hesitated for a moment, then nodded and used Shadow Step to jump to his closet on the second floor of the house. </p><p> A few minutes later, he was already running out of the door, wearing civilian clothes that Kai had helped him pick a while ago. </p><p> Changing Star was left alone.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_780.html">Previous Chapter</a><a class="navigationButton next" href="chapter_782.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

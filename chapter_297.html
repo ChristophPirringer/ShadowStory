@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 297</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 297 Red Flower</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 297 Red Flower</p><p>The red cloud enveloped Gunlaug, seeping through the crack in his helmet. A second too late to react, the Bright Lord reeled away… but not before inhaling the pollen of the nightmarish flower.</p><p>Sunny didn't know when and how Nephis had gotten it, but he knew that he wasn't mistaken — this was the pollen of the Blood Flower, the grisly parasitic blossom that he himself had the misfortune of inhaling once, a long time ago.</p><p>The memory of the bloodthirsty red flowers growing through his lungs sent shivers through Sunny's entire body. Back then, the only reason for why he had not become a host for the insidious Nightmare Creature was because of the Blood Weave. Without it, he would have been devoured from the inside in mere minutes.</p><p>…And now, the Bright Lord was going to fall to the same fate.</p><p>'She… she really did it…'</p><p>The rest of the Sleepers gathered in the great hall did not know that Gunlaug was already as good as dead, however. Including the tyrant himself.</p><p>Bending over in a fit of violent coughing, he growled:</p><p>"What? What have you done to me, bitch?!"</p><p>Nephis was still where he had dropped her, kneeling on the floor. Her armor was shattered and torn, with rivers of blood streaming down the cracked white metal. The brilliant radiance of her skin had been extinguished, but there were incandescent flames burning under it.</p><p>The horrible wounds on her chest were slowly closing, and the lacerations on her face were already gone, leaving it just as perfect as it had been before. That face, however, was bloodied and pale, contorted in an expression of terrible agony.VIsiT n0(v)eLb(i)(n).𝘤𝑜𝓂 for the best novel reading experience</p><p>In her eyes, however, there was dark malice.</p><p>A chorus of whispers rolled through the crowd when they witnessed the ghastly wounds healing themselves. Be it the members of the Host or the slum dwellers, all of them had two words on their lips:</p><p>"Immortal Flame!"</p><p>"Immortal Flame!"</p><p>And then someone shouted, their voice full of stunned awe:</p><p>"This… this is the blessing of the fire!"</p><p>Deaf to all of it, Changing Star moaned and slowly rose to her feet. Then, she struggled to look at the Bright Lord and said, her voice shaking from pain:</p><p>"I... I killed you."</p><p>Through the crack in the golden mask, Sunny saw Gunlaug's blue eye first narrow, and then suddenly open wide. In the next moment, the Bright Lord began coughing again.</p><p>This time, a suppressed scream escaped from his lips.</p><p>'...It's about to start.'</p><p>Sunny shifted a little, subtly positioning himself closer to Caster.</p><p>Gunlaug, meanwhile, staggered and groaned. There was blood dripping from beneath his broken mask.</p><p>Then, a shaky laugh resounded in the throne room of the ancient castle.</p><p>"Ah… did you really? What a… surprise…"</p><p>He dropped his battle axe, which then turned into a puddle of liquid gold and merged with the strange armor. He took a step toward Nephis, but then swayed and fell to one knee.</p><p>For a few moments, the Bright Lord remained motionless. Then, his body convulsed, more blood spilling through the cracks in the visor of his golden helmet. A muffled scream could be heard once again, full of torturous pain.</p><p>Hundreds of people were watching him, stunned, their eyes full of disbelief, anger, and terror.</p><p>The Bright Lord raised his head and glanced at Nephis, then hissed:</p><p>"What a… joke! I can't… can't die like this!"</p><p>Changing Star looked down on him, her face cold and motionless. There was no triumph or gloating in her eyes Freewebnᴏvel.cᴏm.</p><p>But there was also no mercy.</p><p>Turning away, she hesitated for a moment and then said, her voice strangely gentle:</p><p>"...Rest easy now. Your nightmare is over."</p><p>Gunlaug stared at her in disbelief, and then suddenly laughed. There was a disturbing, gurgling sound coming from somewhere deep in his throat, as though he was drowning in blood.</p><p>"Good… this is too good. Yours is… only starting, though…"</p><p>With that, he slowly rose and then turned away. Swaying, the Bright Lord took one step forward, then another.</p><p>The crowd watched silently as he arduously made his way to the steps that led to the throne of white marble and climbed them, blood spilling from the cracks in his helmet, his golden armor flowing and swirling around his body in a state that resembled panic.</p><p>Finally, Gunlaug reached the dais and fell on his throne, looking down on the great hall of the ancient castle with a strange, wistful expression. Then, he strained to say something, but became twisted in a violent coughing fit instead.</p><p>In the end, he just whispered a few almost inaudible words and leaned on the back of the throne, his body relaxing. Sunny was perhaps the only one who had heard him, due to the fact that his shadow was hiding in the darkness of the alcove all along.</p><p>"I... tried. In the beginning… I really did…"</p><p>This was what Gunlaug had whispered.</p><p>And then, he grew still.</p><p>The Bright Lord of the Dark City was dead.</p><p>Sunny knew it instantly because of the fact that the terrible psychic aura pressing him to the ground suddenly disappeared, letting all the people around him move and breathe free.</p><p>Knowing what was about to come, he glanced at the far end of the great hall one last time.</p><p>A corpse in golden armor was sitting on the throne, a beautiful red blossom appearing from the crack in his polished mask.</p><p>A few moments later, the armor suddenly shined with white light and then disintegrated into countless sparks, revealing the man who had ruled this cursed place for many years with an iron fist.</p><p>Gunlaug was surprisingly handsome. Even though his face was covered in blood, it was easy to tell. He had a short beard and long blond hair. One of his eyes was gone, eaten through by the Blood Flower, and the other was quickly turning glassy.</p><p>What surprised Sunny the most, though, was how young he looked. It was hard to imagine the Bright Lord as anything but powerful and ageless, but in fact, he was no older than twenty-seven. Somehow, Sunny had forgotten that fact.</p><p>'...Kids. All of us here are just lost kids.'</p><p>He didn't waste too much time thinking about that, though.</p><p>Because in the next few moment, Tessai, who had been staring at his dead lord with his usual morose expression, turned around and looked at the crowd of slum dwellers, then at the members of the Host.</p><p>The giant lingered for a second and then said, his deep, dark voice reverberating through the ancient hall:</p><p>"...What are you waiting for? Kill them all."</p><p>And then, everything descended into madness.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_296.html">Previous Chapter</a><a class="navigationButton next" href="chapter_298.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

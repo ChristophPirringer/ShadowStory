@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 159</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 159 Revelation</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 159 Revelation</h4> <p> Despite all his misgivings and unease, Sunny had never expected that this hunt was going to change everything. He was just going through the motions, somewhat on edge because of the scale of this joint operation, but also strangely reassured by the large number of hunters surrounding him. </p><p> The unusual hunting party left the outer settlement at noon, heading east, to the massive ruin of a collapsed lighthouse that was situated at the edge of the city. There were almost twenty of them gathered together, all carefully making their way through the deadly maze of narrow streets, with Effie serving as the chief pathfinder and Sunny helping her by scouting ahead. </p><p> The plan was as straightforward and simple as possible. However, nothing was really ever safe in the Dark City. Everyone was prepared for the worst. </p><p> And pretty soon, their fears came true. </p><p> Halfway to their destination, a sudden sound made Effie freeze in place. Raising a fist to signal everyone to stop, she peered into the fog, a dark and foreboding expression on her face. Feeling that something bad was about to happen, Sunny commanded his shadow to return and moved closer to Cassie. His hand was ready to grasp the hilt of the Midnight Shard out of the air. </p><p> For a few moments, everything was quiet. Then, Effie's pupils suddenly widened. </p><p> "Scatter!" </p><p> As soon as the word left her mouth, the experienced hunters dashed in different directions. Sunny himself grabbed Cassie and lunged to the side, dragging her along with him. </p><p> Then, something large and heavy crashed from above into the cobblestones where the Sleepers had been standing just a second ago. Luckily, most of them were already somewhere else due to Effie's timely warning. </p><p> However, a couple of people were a little late to react. Their screams drowned in the sickening sound of tearing flesh. </p><p> Sunny cursed. </p><p> His shadow was nowhere near yet, leaving him with no choice but to fight without its aid. He spun around, summoning the Midnight Shard… and froze for a fraction of a second, all blood draining from his face. </p><p> Out there in the middle of the street, a massive, winged creature was standing on the cracked cobblestones, its pale body and black feather stained by the blood of the unfortunate hunters. Its terrifying beak was open, revealing rows of sharp, needle-like fangs. </p><p> A Spire Messenger! </p><p> As Sunny watched, momentarily paralyzed by fear, a long red tongue snaked out of the creature's maw to lick the blood off its face. </p><p> 'Move!' </p><p> Shaking off the paralysis, Sunny gripped his sword and prepared to fight for his life. </p><p> …His and Cassie's. </p><p> After that, everything happened incredibly fast, but also felt like an eternity. The hunters had a simple choice to make: either separate into smaller groups and retreat into the ruins, risking encountering something equally as or even more terrifying, or stand their ground and try to drive the Fallen Beast away. Without having to discuss it, everyone chose the second option. </p><p> No matter how dangerous, a familiar enemy was always better than the unknown. </p><p> 'Unknown…' </p><p> The surviving hunters attacked the abomination with all they had. Even though their Memories had no chance of breaking through the skin of the terrible creature, each strike still hurt it. Those who had Aspect Abilities capable of dealing direct damage immediately used them, hoping to at least disorient the beast. </p><p> Of course, no Ability of a Sleeper could ever hope to wound a Fallen Beast. However, if their assault was ferocious enough, the Messenger could retreat to search for easier prey. </p><p> If it only made the abomination angrier, however, most of them were going to die. More than anything, trying to resist creatures of this rank was nothing but a gamble. </p><p> For several seconds, it wasn't clear which way the situation would turn. The Messenger easily shrugged off the rain of attacks and lashed out with its beak, piercing one of the hunters clean through despite the man's mighty build and heavy armor. Another was almost torn apart by terrifying talons, but at the last second, Caster managed to pull the young man away thanks to his incredible speed. </p><p> Sunny waited at the back, covering Cassie and praying that his shadow would come back in time to give him a chance of dealing damage to the damned creature. </p><p> …But in the end, it was Effie who dealt the decisive blow. </p><p> Summoning her weapon, she leaped forward. Sunny could see her lean, powerful muscles moving like wire ropes under the olive skin. As though turning into a spring, her whole body tensed, and then exploded with momentum. There was enough force behind her attack to split a mountain apart. </p><p> Miraculously, the tip of her weapon managed to break the pale hide on the Messenger's chest and stab deep, causing a stream of blood to shoot out. The creature screamed, and then lashed out with its powerful paws at the huntress. </p><p> A large round shield appeared on Effie's left hand. Digging the soles of her sandals into the ground, she leaned forward and received the terrifying blow. The cobblestones under her feet cracked, but the huntress remained standing. </p><p> Spitting a mouthful of blood, she grinned crazily and twisted her weapon, causing more damage and pain to the Messenger. </p><p> It seemed as if the Fallen Beast did not expect to meet such fierce resistance from a bunch of ants, not to mention actually being hurt by them. Letting out another scream, it waved its wings to send the Sleepers flying back, picked up the dead hunters, and jumped into the air. </p><p> Soon, the abomination turned into a dark spot in the skies. All that remained behind were puddles of blood, broken stones, and the moans of battered humans. </p><p> Somehow, they had survived… well, most of them. Discover new 𝒔tories at n𝒐velbin(.)c/o𝒎</p><p> Effie straightened, dismissed her shield, and glanced down. </p><p> "Damn. I think my arm is broken!" </p><p> With blood running down her chin, the huntress laughed and leaned on her weapon, visibly exhausted. </p><p> Sunny wanted to congratulate her on that awesome strike, but then, something registered in his mind. </p><p> Suddenly cold, he stared at Effie's weapon. He had never seen her fight before, so this was the first time Sunny saw what Memory the huntress used in battle. </p><p> It was a spear. An ancient, beautiful spear forged from bronze. </p><p> Something clicked in his mind, disparate pieces of information connecting together. </p><p> And then, everything exploded. </p><p> … Or at least it felt that way. </p><p> Because Sunny finally understood the future.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_158.html">Previous Chapter</a><a class="navigationButton next" href="chapter_160.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

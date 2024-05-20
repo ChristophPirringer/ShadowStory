@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1107</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1107 Spycraft</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Spying on the Saints of the great clans sounded like an interesting method of killing himself, but Sunny was willing to try. His Aspect was tailor-made for stealth and infiltration, after all - it was just that he had not used that side of its powers as often as he would have wished to. </p><p> Sunny could not say that he was truly a master of stealth, but he was also not an amateur. He had relied on staying hidden a lot throughout the years of being an Awakened, from the ruined streets of the Dark City to the airy expanse of the Chained Isles and the cold hellscape of East Antarctica. In these past two months, especially, he had tried to remain unseen as often as possible. </p><p> The duties of a military scout demanded it, and through that necessity, Sunny had been able to develop his mastery of all things clandestine a notch further. </p><p> ...A person could only rely on stealth that much, though. The most dire conflicts he tended to find himself in were almost all direct, violent confrontations. </p><p> Still, it was an exceptionally useful ability to have, and now, Sunny needed to exercise it to its fullest extent. He had been thinking about how exactly to approach that task for a long time now, and the conclusion was that he needed to be in several places at the same time to achieve the best result. </p><p> Thankfully, he was capable of doing just that... to a degree. </p><p> Sunny had five shadows now, and the range at which he could control them was quite large, exceeding twenty kilometers. Which meant that he could keep an eye on representatives of both Valor and Song, at least for the next few days - once they departed for different siege capitals, he would be forced to concentrate on only the former. </p><p> So, Sunny left himself with one shadow - otherwise, he would look really conspicuous - and sent the other four to spy on the champions of the great clans. </p><p> The naughty shadow, as the new guy, remained glued to his feet. The haughty shadow was following Morgan. The happy shadow was following Madoc. </p><p> The gloomy shadow had been sent to spy on Beastmaster, and lastly, the creepy shadow was assigned to Ascended Bast - the man whom Sunny suspected to be possessed by Mordret. </p><p> Keeping track of what all of them saw and heard put a bit of strain on his mind, but mostly, Sunny could manage the pressure - although it was hard not to appear absentminded and clumsy in his personal interactions. </p><p> Considering that Sunny was in charge of managing a lot of logistical tasks as the middleman between the forces of Valor and the government, that was proving to be a challenge. </p><p> But the hardest part, of course, was not being caught by the people he was trying to spy on. </p><p> Sunny was not nearly naive enough to think that the glorious great clans had no means of detecting his shadows. Even if his Aspect made them nearly imperceptible when hidden in darkness - or even absolutely imperceptible, for mundane humans - there were all kinds of Memories and exotic Aspects out there. </p><p> For example, the first time he had met Noctis, the sorcerer was instantly aware of the presence of a hidden shadow. And that was without even knowing who Sunny was - the great clans, on the contrary, were well aware of his capabilities. Visit n𝒐velbin(.)c𝒐m for 𝒏ew 𝒏ovels</p><p> They might not have known the exact details of his Aspect, but they certainly knew of his affinity to shadows, as well as the general shape of what he was capable of. Shadow users were rare, but not so rare as to be unfamiliar to the Domains - Shadow Blade Kurt had belonged to one of them, after all. </p><p> Therefore, it only made sense that the great clans would have countermeasures prepared, just in case. Sunny's goal was to overcome these countermeasures, or at least pierce through as many of them as he could and identify all the rest to stay away from them. </p><p> What helped him a lot in that task, surprisingly, was the experience of serving as a military scout. He had learned the basics of the necessary skills from Effie and the Dark City, as well as his own travels, and now developed them even further in the wilderness of East Antarctica. </p><p> Powerful Nightmare Creatures, much like powerful Awakened, had all kinds of strange abilities. So, the scouts had to learn a few strange rules - and a lot of odd tricks - to remain unseen by them. </p><p> For example, many creatures could feel a gaze directed at them, so Sunny had learned to never look straight at dangerous abominations, instead keeping them on the periphery of his vision. Other creatures could feel if someone was thinking about them, or hear if someone spoke their names aloud. So, Sunny had to learn how to keep his mind empty and choose his words... and thoughts... carefully. </p><p> There were a lot of tricks like that, but most importantly, one simply had to be smart and careful about it. Which was why, no matter how much he wanted to just go all out and listen to every word his marks said, Sunny took things slowly. </p><p> He kept his shadows at a safe distance at first, gradually getting closer and closer to the four Legacies. There was also a difference between how they acted in normal circumstances and how they acted when something important had to be discussed - the former was easier, while the latter could be nearly impossible to overhear. </p><p> Even Legacy Sleepers like Caster possessed Memories that could make it hard for anyone to listen in on important conversations - back in the Dark City, he had used one to create a cone of silence around the room where they talked. Someone like Morgan or Beastmaster, without a doubt, would have much more potent tools to prevent anyone from learning their secrets. </p><p> Sunny almost got caught a few times because of these measures. </p><p> For example, both Valor and Song used special Memories to create bubbles of evenly diffused, bright light while having meetings. Since the source of light was omnidirectional, and its brightness was perfectly the same, no shadow could exist within the bubble - a fact that he had learned the hard way, only avoiding a disaster thanks to his paranoia and caution. </p><p> And still, despite it all, Sunny managed to get closer and closer to Whispering Blade, Beastmaster, Morgan, and Bast. Although he was not able to infiltrate the most important meetings, he was still able to learn a lot, and piece together even more from small and seemingly unconnected pieces of information they let slip out. </p><p> He might not have managed to learn their most guarded secrets, yet. </p><p> But he did learn a few interesting things.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1106.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1108.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

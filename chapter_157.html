@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 157</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 157 Wind Of Change</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 157 Wind Of Change</h4> <p> After that day, things moved with a speed that left Sunny disoriented. It was as though he was being pulled forward by an overpowering current, helpless to slow down or change direction. Before he could react to one change, another would happen, making him feel like he was losing control. Everything was happening so fast that he found it difficult to adjust. </p><p> It was hard not to fear that, eventually, he would simply be left behind. </p><p> After that first hunt where Nephis had chosen to give most of the spoils away, she led them on several more. Not all of those hunts went as smoothly, but they did manage to return victorious, if a little battered. Every time, she paid Effie her share of the meat, took a small amount for them to consume, and gave the rest to the people of the outer settlement free of charge. </p><p> Because of how little their own share was, the group was forced to hunt every other day instead of once or twice a month. Sunny did not understand at all why they were taking on all that unnecessary risk. </p><p> Provided, he wasn't exposed to many risks himself. Apart from a couple of short battles where Neph and Caster ended up requiring some backup, he spent most of his time with Effie, serving as her scout and slowly learning the ins and outs of the Dark City from her. </p><p> With the well of knowledge that the unruly huntress possessed and his nimble shadow, the party rarely met anything they weren't ready to face. This gave them an incredible advantage over all other hunting parties of the outer settlement, and even some of Gunlaug's own. </p><p> Soon, their flawless and intense track record earned the cohort reputation and renown. They weren't seen as newcomers anymore. Instead, people considered them to be nothing short of the strongest hunters in the slum. Many even believed that Changing Star and her people were in no way inferior to the Hunters of the Bright Castle. </p><p> Nephis herself was known to be a fearsome fighter ever since her dramatic duel with Andel. Effie had the reputation as one of the outer settlement's best from a long time ago. Handsome and capable Caster quickly won respect and adoration thanks to his amiable personality, noble bearing, and skill. </p><p> The three of them were considered to be the core of the party, with Cassie and Sunny existing somewhere on the periphery. People loved Cassie because Neph had entrusted her with the responsibility of handing out the free meat… and also because it was nearly impossible not to love this sweet, exquisitely beautiful, and tragic girl. For most of the slum dwellers, she was the welcoming face of the cohort. </p><p> Sunny, on the other hand… no one really paid him any attention. With no valiant feats of vanquishing monsters of the Dark City under his belt, most considered him to be a mere support member of the party. Inconsequential at best… a charity case at worst. </p><p> If they even remembered his existence. </p><p> Sunny was simultaneously happy to live in obscurity and secretly infuriated by this lack of recognition. It was good that no one suspected how powerful he really was. And yet… watching everyone fall over themselves in Caster's presence while completely ignoring his own made Sunny want to kill something. Or someone. </p><p> Especially because, due to the tactical composition of the cohort, Nephis spend most of her time with the handsome Legacy. They seemed to work especially well together. </p><p> When this frustration threatened to overwhelm Sunny, he would go away, find a quiet corner, and train his katas until every muscle in his body hurt. Usually, the whistle of the Midnight Shard's blade cutting air was enough to calm him. He trained his swordsmanship day after day, finding strange comfort in it. At least this was something he could control. </p><p> …Of course, Sunny was never entirely relaxed. In fact, with each day, he grew more and more anxious. </p><p> Because other things were changing as well. </p><p> After each hunt, Changing Star would provide the dwellers of the slum with free food. At first, they treated her with distrust, then with gratitude, and finally with something akin to reverence. The strange light that Sunny had noticed in their eyes after that first time was slowly growing brighter and brighter. </p><p> Some people even started jokingly calling her "Saint Nephis", as though she was some sort of an angel. However, he felt that these words strangely contained less and less humor with each day. </p><p> It was really very creepy, not to mention dangerous. The more people looked at Neph like she was their personal savior, the more he feared how drastic Gunlaug's reaction would be. If history had shown anything, it was that kings never went easy on meddling messiahs. </p><p> And throughout all of that, the same question continued to torment Sunny. </p><p> Was all of this an accident, or had Nephis done it on purpose? </p><p> As time went by, more and more random people joined their group. They weren't hunters, just forlorn young men and women from the outer settlement who wanted to help. They tended to monster hides that the cohort brought back from the hunts, maintained various tools and gear that needed to be used, assisted Cassie with handing out food, and did other kinds of small but useful things. </p><p> Soon, the ramshackle lodge was full of them. Sunny didn't even know all of their names. It seemed as though every day, someone new would appear, acting as if they had always been a part of the group. What's worse, not all of them seemed to know who he was, either. No once and not twice, someone would smile at him and ask in a friendly tone: </p><p> "Are you new?" </p><p> …Of course, bastards never said the same thing to Caster. </p><p> Sunny felt like he was slowly becoming a stranger in his own home. The feeling was rather unpleasant, not to mention how perfectly it fit all his insecurities. </p><p> What's worse, these new people really made him uncomfortable. He wasn't really sure of whether they were Changing Star's helpers, or if they were her followers. </p><p> Were they loyal, or… devout? </p><p> …One night after a couple of weeks of this, he was suddenly woken by Cassie tugging on his sleeve. The blind girl was whispering: </p><p> "Sunny! Wake up!" </p><p> A moment later, he was already on his feet, ready to summon the Midnight Shard. A light coming from the other room told him that Neph was awake, too. </p><p> 'Gunlaug? Did someone betray us?' </p><p> "What's wrong?" </p><p> Cassie covered the candle she was holding in her hand and answered in a worried voice: </p><p> "Something… something is coming from the road. I've dreamt of it." </p><p> 'A Nightmare Creature…' </p><p> Knowing what had to be done, Sunny simply nodded, gripped her shoulder for reassurance, and walked over to meet Nephis. </p><p> Since their lodge was on the edge of the slum, right in front of the entrance of the ancient road, they had no choice but to fight. </p><p> That night, the three of them — Changing Star, Sunny, and Caster — battled a devil that had wandered up the hill and fought it off before it could reach the outer settlement. </p><p> When dawn came, terrified people walked out of their hovels on shaking legs and saw the horrible marks left on the white stones by the beast's claws, as well as puddles of blood, both human and that of a monster, steaming in the morning cold. </p><p> They also saw Changing Star leaning tiredly on her silver sword. </p><p> Sunny, who was sitting with his back against the wall of the lodge and breathing heavily, was looking at her, too. </p><p> …Back when he was describing to Nephis why Gunlaug could never be defeated, he had told her that every facet of life here was under his control: food, safety, hope, fear, even power itself. ReaD lat𝙚St chapters at nô(v)(𝒆)lbin.c/o/m Only</p><p> Now, Changing Star had given these people food. By protecting the outer settlement, she had given them safety. She had even given them hope. </p><p> There was also the fear that the inhabitants of the castle felt after Neph had easily beheaded one of their Pathfinders. </p><p> All that remained was power. </p><p> Finally, the question that pressed heavily on his mind had an answer. </p><p> No, none of this was a coincidence. Everything that had happened, from choosing the outermost building in the slum as their base to insisting on giving away the food for free, was part of Changing Star's strange but methodical plan. She knew what she was doing all along. </p><p> But why was she doing all this? What was her ultimate goal? </p><p> Uneasy, Sunny stared at Nephis and wondered about the future.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_156.html">Previous Chapter</a><a class="navigationButton next" href="chapter_158.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

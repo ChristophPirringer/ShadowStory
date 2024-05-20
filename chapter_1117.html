@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1117</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1117 Fell Titan</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> 'Well... that's new...' </p><p> Sunny had lived through many unthinkable disasters, managing to survive in the most dire and seemingly inescapable situations. The improbable tales of his close brushes with death could probably fill a book. </p><p> However, he had definitely never had a titan fall on his head. </p><p> 'What the hell is this?!' </p><p> The great scaled beast was plummeting to the ground, its body riddled with terrible wounds. One of its three long necks was severed, the other hung lifelessly, held by only a few threads of flesh. Of its wings, only one remained. A cloud of vile miasma trailed behind it like a harrowing cloak. Find the new𝒆st 𝒏ovels on n𝒐velbin(.)com</p><p> The creature was maybe two dozen seconds away from crashing into the ground. </p><p> Sunny froze for a moment, stunned by the frightening visage of the titan that had been cast down from the skies. He wasn't the only one - Nephis was looking up, too, and so were the soldiers. Even the Nightmare Creatures halted, raising their bestial heads to witness the fall of one of their lords. </p><p> 'Not good.' </p><p> Neph was the first to react. Her voice rolled across the battlefield, pulling the Awakened out of their shocked inaction. </p><p> "Pull back! Fighting Retreat! Move if you want to live!" </p><p> At the same time, she sent Sunny a mental message: </p><p> [Sunny... I am going to stall the horde to cover the retreat. You... you do as you wish.] </p><p> The meaning of her words was clear. What Neph meant to say was... </p><p> Help me. </p><p> But due to the nature of their bond, she couldn't. Because that would be an order. </p><p> Sunny hesitated. </p><p> Behind him, every second Awakened turned around and dashed back. Those who remained doubled their efforts to resist the flood of abominations, who had already recovered from their momentary passivity. </p><p> Once the soldiers who fell back ran for a few seconds, they turned around and assembled into a loose line. Then, it was the turn of those who had stayed behind to retreat. Like that, alternating between running and fighting, the Fire Keepers, the Wolves, and the Nightsingers started to move away from the perceived impact zone. </p><p> Of course, such a maneuver was perilous and had the potential to result in many casualties. Every time you turned your back on the enemy in a battle, you were risking your life, after all. But with the help of the experienced Fire Keepers and the three Masters who had joined the formation, the soldiers managed to preserve their lives through the hasty retreat. </p><p> Changing Star, meanwhile, moved forward. The ring of flame that raged around her changed, growing narrower. A few moments later, the fire seemed to be absorbed into her radiant figure. Clad in black armor and wreathed in blinding white flames, Nephis took a second step. </p><p> Sunny sighed. </p><p> 'Do as I wish, huh?' </p><p> What he wished to do today was make a suitable kind of impression. And the impression he was going for was that of someone who would never retreat from a trivial nuisance like a plummeting titan. </p><p> Opening the gate of the Shadow Lantern, he called forth all the shadows that were stored inside, and sent them forth. </p><p> In front of Sunny, a wall of shadows suddenly rose from the ground, blocking off a wide swath of the battlefield. The tide of Nightmare Creatures was momentarily stemmed. </p><p> At the same time, far to his left, Nephis unleashed her flames. The wrought fire that she had wrapped tightly around her armor and compressed into a furious mass of incinerating white radiance was suddenly devoid of the pressure of her control. It furiously exploded forward. </p><p> A deafening explosion rang out, and a crudely directed wave of white flame rolled from her staggering figure in a wide fan. It swallowed many ranks of Nightmare Creatures - some were torn to tiny pieces and turned to ash, crumbling into nothingness, some survived, receiving terrible and debilitating burns. </p><p> Together, Sunny and Nephis had managed to build a temporary dam that blocked the path of the abominations - half of the dam was the wall of shadows, the other was the wave of flames. </p><p> Of course, that dam would not last long, and both of them had spent the lion's share of their remaining essence to produce this wide-scale effect. The wall was already cracking, and the wave was already dying down. </p><p> But it was enough to buy the soldiers time to retreat. </p><p> And before their dam fully collapsed, the shadow of the falling colossus covered the ground. </p><p> 'Crap...' </p><p> Sunny felt the impact of the massive body before his vision registered it - that was because he suddenly found himself flying, the ground disappearing from beneath his feet. </p><p> As a violent tremor traveled through the battlefield, splitting the ground apart, he hit the dirt and rolled, sensing his skin burn. Sunny could feel a powerful gale assault him with furious force, but he was blinded by the cloud of the vile miasma that had covered everything around. </p><p> He realized that it was Sky Tide pushing the noxious cloud away from the army's formation. However, Sunny was too deep into the miasma. Even though he had stopped breathing and closed his eyes, he could still feel the deadly poison seep into his skin. </p><p> Marble Shell and Blood Weave were preventing his flesh from rotting and dissolving... for now. He did not know how long his defenses would last, though. The miasma flowing from within the body of the scaled beast was much more virulent and powerful than any toxin he had encountered before. </p><p> '...That's just great.' </p><p> Sunny summoned the Essence Pearl. As soon as the Memory manifested itself, he placed it in his mouth, regaining the ability to breathe without inhaling deadly poison. He still hesitated to open his eyes, though, perceiving the world through the shapes and movements of shadows. </p><p> The shadows were a mess. It was hard to tell what exactly was going on around him... all he could feel was a sea of Nightmare Creatures wailing in agony as their bodies were being dissolved by the miasma.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1116.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1118.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

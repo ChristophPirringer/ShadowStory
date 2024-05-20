@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 334</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 334 Silver Sword</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 334 Silver Sword</p><p>At first, Sunny wanted to shout to warn everyone, but after observing the silent figures for a few moments, he changed his mind.</p><p>Hidden in darkness, countless coral golems were staring mindlessly into the distance. They were very similar to the creatures he had fought to get to the Star Sigil, but also different.</p><p>Because they weren't copies of ancient heroes… just that of mundane people.</p><p>As such, they wouldn't be too dangerous. A single Sleeper could fight dozens with ease, let alone the experienced, powerful warriors of the Dreamer Army. More than that, the golems did not seem to be hostile.</p><p>Some of them stood motionlessly, while some aimlessly wandered about. These sad, empty things were even more lifeless than Echoes. He felt that they weren't really creatures, even. Just… physical manifestations of the Crimson Terror's madness, perhaps. A representation of its broken psyche and scattered thoughts.</p><p>He was sure that each of these golems represented one of the souls that had been sacrificed to the artificial sun and had once flowed through its vessel, becoming a part of it. Forever.</p><p>…There were thousands of them, and even more had to be hidden somewhere out of sight.</p><p>Lingering for a bit, Sunny informed Nephis of his discovery. She frowned and glanced into the darkness, then nodded.</p><p>"We will be careful."</p><p>Now that they had a better understanding of the ground level of the Crimson Spire, it became clear that the Gateway was not on it. To find it, the remains of the Dreamer Army were going to have to ascend higher.</p><p>There were no stairs or lifting mechanisms in sight, but luckily, many of the twisting coral pillars were wide enough for several people to walk on them, and not as steep as to make things too difficult. The Sleepers could use them to easily reach the next level.</p><p>…However, as soon as Sunny stepped forward, Neph suddenly pulled him back and shouted:</p><p>"Everyone, back!"</p><p>Just a moment later, a wide ray of blinding light fell from somewhere above and swiped across the interior of the Crimson Spire, annihilating the tranquil darkness.</p><p>It didn't take a genius to realize that the ray was imbued with the same soul-destroying property as the deadly beams of sunlight outside… only this one seemed much more powerful.</p><p>It was also different. Although its movements were erratic and strange, they were unmistakably aimed at the exhausted mass of human invaders and full of intent.</p><p> "Hide in the shadows!"</p><p>Swiftly, the Sleepers dove behind growths of coral and pressed themselves against them. A few unfortunate ones lingered for too long and were exposed to the light. They didn't scream or struggle, just fell down to the ground, their lives extinguished in a split moment.</p><p>The rest froze, consumed by tense fear.</p><p>Sunny found himself leaning against a slightly inclined pillar of coral, Nepth and Cassie by his side. Carefully looking out, he saw the deadly beam of light grow dim and dissipate. A moment later, however, several more fell from above, tearing the darkness apart.</p><p>But that was not all.</p><p>Guided by the light, the mass of coral golems suddenly surged forward, moving toward the place where the Dreamer Army was hiding. Their movements, which were aimless and mindless before, were now full of malevolent will.</p><p>'...Crap.'</p><p>Turning to Nephis, he summoned the Midnight Shard and asked:</p><p>"What now?"</p><p>She lingered for a bit, and then said evenly:</p><p>"Someone will have to attack the Crimson Terror directly to draw its attention away."</p><p>Sunny smiled, feeling a strong sense of deja vu.</p><p>"And who might that be?"</p><p>Changing Star sighed and took a step back, summoning her silver sword.Discover new 𝒔tories at n𝒐velbin(.)c/o𝒎</p><p>"...Me. It has to be me."</p><p>He frowned, feeling very reluctant to say his next words. But in the end, he still couldn't help but say them:</p><p>"Are you crazy? That's a Fallen Terror we're talking about!"</p><p>Nephis didn't answer, instead looking up, as though trying to discern the source of the blinding rays of annihilating light.</p><p>Sunny gritted his teeth and added:</p><p>"Alright, whatever. Say someone really needs to distract that thing. But why does it have to be you alone? Because you are the great daughter of the Immortal Flame clan? Don't tell me that you started to believe in your own bullcrap!"</p><p>Neph gave him a strange look and then shook her head.</p><p>"No. It can only be me because of my sword."</p><p>Sunny stared at the silver longsword, confused. A lifetime ago, after their first meeting on the Forgotten Shore, Nephis and Cassie had told him about their Memories. The sword in particular had an extremely rare enhancement…</p><p>"I am the only human on the Forgotten Shore who has a Memory that grants them a measure of protection against soul attacks. So I am the only one who can approach the Terror and survive."</p><p>It was hard to debate against logic. Still, Sunny was not done voicing his objections… only that Changing Star didn't give him a chance to.</p><p>Turning to Cassie, she took the blind girl by the hand and said:</p><p>"Cas. Give me your wing cloak."</p><p>A few seconds later, the transparent fabric of the Dark Wing appeared on her shoulder. Without wasting any time, she then looked at Sunny.</p><p>"Once I'm gone, lead the people to the Gateway. Make sure that everyone escapes."</p><p>With that, Nephis bent her knees, and then jumped with all her might. Supported by the enchanted cloak, she shot up with considerable speed, then pushed herself off the pillar of coral and flew into the darkness.</p><p>The ray of light swiped in her direction, but Changing Star somehow managed to dodge it, crashed into another coral growth, and launched herself off of it a moment before another annihilating beam of light had reached it.</p><p>With most rays now pursuing Nephis as she leaped from one coral pillar to another, ascending higher and higher, the Dreamer Army could once again move.</p><p>Gritting his teeth, Sunny glanced at the hundred frightened people and yelled:</p><p>"Follow me!"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_333.html">Previous Chapter</a><a class="navigationButton next" href="chapter_335.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 989</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 989 The Fall Of Falcon Scott 7</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Carrying the needle on his shoulder, Sunny chose to walk to his next destination. The thing was heavy enough that even a Master like him felt a bit of strain after a while, so he had to wrap himself in the shadows at some point. </p><p> People were giving him weird glances, but no one said anything - the Puppeteer's Shroud identified Sunny as an Awakened, and Awakened were known to do strange things on occasion. Sunny also found that mundane people often acted shy in front of him ever since he had become a Master, which pleasantly cut the number of awkward conversations he had to have. So, he just had to be careful not to hit anyone with the unwieldy needle by accident. </p><p> As he walked, Sunny decided to check on his runes out of boredom. </p><p> Shadow Fragments: [2471/4000]. </p><p> He smiled a little. </p><p> The siege of Falcon Scott might have been a terrible affair, but one thing it did not lack was enemies to kill. The rate at which he earned fragments increased a lot in the past three days. By now, the change made by each individual fragment was insignificant, but it added up. </p><p> He was now considerably stronger than he had been at the start of the Antarctica campaign, and the fifth core was not as unachievable as it had once seemed. Nephis was still far away from reaching Terror, too, which meant that he finally had a chance of catching up to her Class... at least for a short while. </p><p> 'Does it even matter now? In the end, both of us will either be titans, or dead.' </p><p> Nightmare was subjugating many dreams these days, as well. All in all, Sunny was in good shape. His cohort had been forged into one of the deadliest combat units on the continent, with each member honing their skills to a truly fearsome degree. </p><p> All that was left to propel him to an entirely new level of power was for Saint to emerge from her evolution. Maybe... just maybe... they would indeed manage to hold Falcon Scott for three weeks. </p><p> Sunny made way for a column of military vehicles and looked at the crowd of refugees around him. </p><p> 'Yeah... doubtful.' </p><p> With a sigh, he made a turn and approached one of the hastily erected dormitory towers. This one looked more substantial than most, but not by much. Looking up, he saw a vast expanse of glowing windows, with thousands and thousands of humans taking shelter from the cold within. </p><p> He glanced at the devil's needle, then awkwardly spun it and thrust the point deep into the ground. Taking it into the building would have been a hassle, and Sunny was sure that no one would steal it - the thing weighed more than any mundane human, or even a group of them, could carry away. </p><p> ...The problem, though, was that the needle was so sharp that it continued to sink into the frozen soil under its own weight. Sunny stared at it resentfully for a moment, then repeated the process, this time thrusting it into the ground with the dull end. </p><p> Finally satisfied, he walked to the entrance to the tower, where a lone civilian was shoveling snow away. As he was passing, the man flinched and stared at him with wide eyes. </p><p> Sunny sighed inwardly. </p><p> 'Am I really so scary?' </p><p> "Captain? Captain Sunless, is that you?" </p><p> Surprised, Sunny raised an eyebrow. </p><p> "Uh... yes? Technically, it's Major now. Do I know..." </p><p> Before he could finish the sentence, the civilian dropped the shovel and grabbed his hand, shaking it vigorously. Sunny froze. </p><p> 'What the hell is going on?' Visit nov3lb!n(.)c𝒐m for new 𝒏ov𝒆l𝒔</p><p> "It is you! Master Sunless, sir... my family and I are only alive because of you. After Erebus Field, I thought... ah, sorry... but you brought us all here. Thank you. Thank you so much!" </p><p> Sunny did not know how to behave in that situation, but thankfully, the civilian finally let go of his hand and hastily opened a small bag hanging on his belt. A moment later, Sunny found himself holding a carefully packed sandwich. </p><p> "Please take this! I know it's not much... but my wife made it herself. You probably don't get a lot of home-cooked food, standing there on the wall!" </p><p> Sunny wanted to return the sandwich to the man, but then lingered. The refugees were not starving, but he knew for a fact that most of the rations they had access to were no different from what he had been accustomed to in the outskirts. Getting the ingredients to make this simple sandwich must not have been easy... it was made with love and care. Which meant that this small, but sincere gift meant much more than it seemed. </p><p> He smiled slightly. </p><p> "Thank you. I'll enjoy it well." </p><p> The man seemed exceedingly happy to hear that and gingerly let Sunny go, picking up his shovel and returning to clearing away the snow while whistling a tune. </p><p> Walking inside the building, Sunny glanced at the sandwich and frowned a little. He did not really know how to feel about the strange encounter. On the one hand, it was nice to see a tangible result of his efforts. After the caravan reached Falcon Scott, the refugees were quickly processed and assigned to various dormitories, so Sunny had not seen any of them again. </p><p> On the other hand, the cheerful man was clearly deluding himself if he thought that Sunny had saved him and his family. All Sunny had done was postpone their deaths by a few weeks... they would only be truly saved once carried across the strait, to Eastern Antarctica. Until then, a sharp sword still hung above their necks. </p><p> '...All the more reason to hold the damn wall for as long as we can, then.' </p><p> Suddenly thoughtful, Sunny used an elevator to descend underground and approached a particular door. A few moments after he knocked, Beth opened it and gave him a long look. </p><p> "Oh. It's you." </p><p> He raised a hand with a wide grin. </p><p> "I brought sandwiches. Well... a sandwich." </p><p> She stepped aside to let him in and turned around. </p><p> "Professor! Your favorite Awakened is here!" </p><p> Sunny dismissed the boots of the Puppeteer's Shroud before coming inside. That small action made him feel strangely nostalgic. </p><p> 'Huh... civilian life. How come I barely remember what it is?'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_988.html">Previous Chapter</a><a class="navigationButton next" href="chapter_990.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

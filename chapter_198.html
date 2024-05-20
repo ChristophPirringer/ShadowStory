@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 198</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 198 Last Stand</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 198 Last Stand</p><p>Sunny sighed.</p><p>Of course, they had to cross the bridge. Why had he even bothered to ask?</p><p>'Great!'</p><p>At least the damn thing was empty of the skeletons. The path to the other side of the chasm was clear.</p><p>'What is clear is that I'm going to die!'</p><p>While Sunny was consumed by these unhappy ruminations, Effie and Caster quickly threw the few undead creatures remaining in front of them over the edge of the chasm. Finally safe from their constant attacks, most of the cohort took a chance to quickly catch their breaths.</p><p>Only Nephis and the Stone Saint were still fighting. In fact, the overwhelming pressure of the pursuing horde had grown so heavy that they were barely holding on.</p><p>Two figures — one shrouded in shadows, the other bathed in pure white light — were slowly buckling under the furious onslaught of the army of the dead.</p><p>Sunny gritted his teeth.</p><p>…If nothing changed, they were going to be the ones being thrown into the dark abyss very soon.</p><p>With a grim expression on his face, he glanced at Effie and said:</p><p>"Go."</p><p>Leaning on her spear, the huntress weakly shook her head.</p><p>"Someone will have to hold them off long enough for everyone to get to the other side. You should…"</p><p>Sunny interrupted her.</p><p>"I'll be the last one to cross. Don't worry… I have a plan."</p><p>A crazy plan. But what else was new?</p><p>Giving him a long look, Effie hesitated for a few seconds, then nodded.</p><p>"Alright. Stay alive, Sunny."</p><p>He quietly chuckled.</p><p>"Aww. I didn't know you cared."</p><p>She stared at him for a bit, and then calmly said:</p><p>"No, it's just that if you die, pretty soon I'll have to fight your scrawny corpse. So… don't do that. Okay?"</p><p>With that, Effie beckoned others to follow her and stepped on the rickety bridge.</p><p>Sunny blinked a couple of times, watched her go, then turned his back to the chasm and sighed.</p><p>'Right. What else did I expect?'</p><p>In any case, there was no way back now.</p><p>Brandishing the Midnight Shard, he dashed forward and joined Changing star and the Shadow Saint in their desperate fight.</p><p>Dispatching a couple of skeletons, Sunny briefly turned to Nephis and said:</p><p>"Retreat to the bridge. Saint and I will hold them off!"</p><p>ᰍaꪧda ᱅o᱇ꫀl Her eyes shone with white flames through the visor of the Starlight Legion Armor's helmet. A moment later, he heard a hoarse voice:</p><p>"Are you sure?"</p><p>He dodged the claws of an especially menacing monster, bashed it away with the pommel of the tachi, and yelled:</p><p>"Yes! But…"</p><p>Another undead creature fell to the Midnight Shard.</p><p>"...when you get to the other side, you need to destroy the supports of the bridge. Do you understand?"</p><p>Changing Star hesitated, almost missing the timing of her attack. Then, she asked:</p><p>"What about you?"</p><p>Sunny laughed.</p><p>"Don't worry about it. I have a way to get across!"</p><p>Neph didn't answer for a while. Finally, she simply said:</p><p>"Alright."</p><p>Not one to waste words, Changing Star didn't say anything else. When the opportunity presented itself, she silently retreated, letting Sunny take her place.</p><p>'Now… for the hardest part…'</p><p>With Nephis gone, all the monsters of the catacombs descended upon the Stone Saint and him. Sunny cursed, feeling that the tiniest mistake would spell his doom.</p><p>The onslaught of the undead horde was beyond anything he had expected. Desperately trying not to drown in the torrent of ferocious abominations, Sunny fought with everything he had left.L𝒂Test nov𝒆ls on (n)𝒐velbi𝒏(.)co𝒎</p><p>'Damn… it… all! How the hell was she able to hold this position for so long?!'</p><p>Not prone to heroic displays, Sunny used the Shadow as a meat shield… stone shield?... and hid behind her from time to time, emerging from the cover of the taciturn monster only to deliver a strike or two and disappear again. The two of them worked beautifully together, almost as if sharing one mind.</p><p>Well, what else did he expect? She was his Shadow, after all. And his shadow was currently wrapped around her stone body.</p><p>The armor of the menacing knight was still mostly intact. However, even it was battered and broken in several places. With a dark expression on his face, Sunny noticed a stream of ruby dust pouring from one of the breaches.</p><p>The Stone Saint was wounded.</p><p>'This needs to end fast…'</p><p>Feeling his own endurance running out, Sunny wanted nothing more than to fall to the ground and rest, even if it meant dying. But instead, he doubled the intensity of his attacks. There was no need to hold anything back and preserve his strength anymore. He just had to last for a bit more… a dozen seconds, at most…</p><p>But even a dozen seconds seemed like an impossible dream.</p><p>Impossible… he knew someone who was in the habit of making impossible things happen…</p><p>With a furious growl, Sunny cut another skeleton apart, received a glancing blow to his already wounded side, and stumbled back. The Shadow appeared in front of him, enduring a rain of attacks with the help of her already battered shield. Her feet slid on the stones, but the taciturn knight stubbornly held.</p><p>'Goddamit! When?!'<i> This chapter is updated by [ f r e e w e b n o v e l. c o m ]</i></p><p>As if answering his silent cry, and loud rattle followed by a thunderous boom informed him that the bridge had been brought down.</p><p>Now, there was nothing connecting the two sides of the terrifying chasm. Sunny was left alone against the horde of immortal monsters, with no way to retreat.</p><p>'Finally.'</p><p>Turning his back to the undead creatures, Sunny peered into the darkness. Seeing the cohort waiting for him on the other side of the dark abyss, he lingered for a moment, sighed, and ran to its edge.</p><p>The shadow slipped from the body of the Stone Saint and wrapped itself around his own. Suddenly weakened, the taciturn monster held the entire horde back by herself for a split second, and then dissolved into darkness, returning to the tranquil expanse of the Soul Sea.</p><p>With no obstacles to slow them down anymore, the flood of skeletons lunged forward. They were just a meter or two behind Sunny, stretching their deadly claws to tear him apart.</p><p>'Too close!'</p><p>Approaching the abyssal chasm, Sunny briefly glanced into the impenetrable darkness that filled it…</p><p>…And, without pausing even for a second, jumped off the edge.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_197.html">Previous Chapter</a><a class="navigationButton next" href="chapter_199.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1001</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1001 The Fall Of Falcon Scott 19</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny realized that he would not be able to do a lot in this fight... but then again, he did not have to. Right now, his role was to support Saint and let his Shadows do all the heavy lifting. </p><p> Maybe that was how he was supposed to fight every battle, really... but sadly, fate rarely gave him such opportunities. </p><p> In any case, there was one thing that he could do. Dismissing the Sin of Solace and the Dying Wish to get back a bit of essence, he summoned the Shadow Lantern instead. As soon as it manifested, Sunny tossed the Lantern in the direction where the towering Gate Guardian - a monstrous arachnid wielding six weapons carved of bone - advanced on Saint. </p><p> He did not have enough essence to sustain the divine Memory's enchantment for long, but he did have enough to open its gate, unleashing a swarm of shadows onto the battlefield. The darkness enveloping it grew even deeper than it had been before. </p><p> In the next moment, Sunny and Nightmare slammed into the crowd of the abominations. </p><p> 'Crap!' </p><p> The rest of the battle... was a hazy mayhem of violence. </p><p> Sunny struggled to remain atop his black steed, lamenting that there had not been enough time to saddle it. At some point, he simply slid to the ground, using Nightmare's body to shield himself from the enemies. Not trusting himself to wield a weapon that demanded strength in his weakened state, Sunny summoned the Moonlight Shard instead. </p><p> A beautiful chalice of white jade appeared in his other hand. Submerging the narrow blade of the ghostly stiletto into the black liquid, he used it to strike at the cracks in the enemy armor and finish off those abominations that Nightmare had wounded with his fangs, horns, and steel hooves. </p><p> At some point, other soldiers and Awakened joined the fight. More Nightmare Creatures emerged from the Gate, and more humans threw themselves into the meat grinder to stop the enemy from reaching the streets of the city. Their resistance was desperate and haphazard, but for now, at least, they held the tide of abominations back. </p><p> Beyond the wall, obscured by the hideous rift of the Nightmare Gate, the sky was painted white by lightning. </p><p> Sunny knew that they were going to win when the Spell whispered into his ear, its voice drowning out the sounds of the battle: </p><p> [You have slain a Corrupted Devil, Silkway Archon.] </p><p> [Your shadow grows stronger.] Your f𝒂vorite stories on 𝒏ov𝒆lb𝒊n(.)c𝒐m</p><p> Staggering back, he let out a relieved sigh and glanced in the direction where Saint had been fighting the Gate Guardian. </p><p> The creature lay sprawled on the ground, its limbs severed and its massive body cleaved apart. His Shadow was standing above it, her black blade already seeking another target. </p><p> Saint's armor was battered, and there were thin streams of fine ruby dust flowing from the breaches. However, wreathed in darkness, her body seemed to be healing already. Without ever slowing down, she shook the dark blood off her sword and dashed forward to face a new enemy. </p><p> ...With the Gate Guardian slain, the scales of battle slowly started to tip in favor of humans. Sunny was not of much use, but with Saint and Nightmare rampaging amidst the abominations, dealing with them was not an insurmountable task. </p><p> And then, almost abruptly... the battle was over. </p><p> Sunny leaned tiredly on a piece of rubble, observing the scene of utter slaughter. His armor was bloodied, but his body was nearly devoid of wounds - most had been healed by the Dying Wish, and the rest were repaired by the [Living Stone]. </p><p> Having a magical shell reinforcing his skin was very handy. </p><p> He still felt terrible, though... </p><p> Around him, Awakened and mundane soldiers were busy building improvised barricades around the Gate. The first wave of abominations might have been destroyed, but more could emerge from the rift at any moment. A few of them suddenly froze, staring at a menacing black figure that had emerged from the darkness into the dim light. </p><p> Saint's eyes burned with demonic crimson light, and her onyx armor was glistening, awash in the blood of the arachnid warriors. She looked both graceful and terrifying. </p><p> One of the soldiers raised his rifle with trembling hands, but the other suddenly shouted, his eyes wide: </p><p> "Mongrel! It's Lord Mongrel!" </p><p> A hum of voices soon rose above the barricade: </p><p> "Mongrel is in Falcon Scott!" </p><p> "He killed the Gate Guardian! It was him!" </p><p> "It's clearly a she, you idiot... thank you, Lady Mongrel!" </p><p> "We're saved!" </p><p> Ignoring them, Saint passed between the invigorated soldiers indifferently, the Broken Oath long dismissed. She approached Sunny and froze, looming above him like a beautiful monument of darkness. Her ruby eyes stared at him intently. </p><p> Unaccustomed to craning his neck to look at Saint, Sunny awkwardly cleared his throat. </p><p> "Uh... great job out there. You really saved my skin." </p><p> She lingered for a few moments, slowly raised her hand... </p><p> And poked him in the cheek with a finger. </p><p> Then, Saint tilted her head slightly, as if studying him. Her ruby eyes betrayed a hint of some unknown emotion, making Sunny blink. </p><p> 'What is happening?' </p><p> Without saying anything... of course... the taciturn Shadow then took a step back and turned away, looking at the Gate. </p><p> However, she seemed strangely pleased. </p><p> Sunny blinked a few more times, then rubbed his cheek. </p><p> 'Huh... alright?' </p><p> Was it because of the Marble Shell? </p><p> He shook his head, knowing that there was no time to waste pondering the weird occurrence. Maybe he imagined the whole thing... </p><p> "Anyway, I have to go. Stay here in case more Nightmare Creatures emerge, and don't let any of them escape into the city. I'll... leave Nightmare with you." </p><p> Sunny had to find out if the battle against the Devouring Cloud was over... whether there were more Gates that had opened within the city... how his men were doing... </p><p> Most importantly, he had to find Master Jet. </p><p> Leaving the gloomy shadow with Saint, he wrapped the other three around his body, grimaced, and started walking. Despite the fact that there were no physical wounds on his body, Sunny still felt hurt. Every step was a struggle. </p><p> But what else was new? </p><p> Whispering quiet curses, he summoned the Cruel Sight to use as a walking stick and headed deeper into the staging area.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1000.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1002.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 730</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 730 Dying Wish</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny watched the sun appear over the eastern horizon, his hearts growing cold. His vertical pupils narrowed, and his fists clenched. </p><p> The night… was over? Had it been that long, already? </p><p> He had lost the track of time during the vicious battle in the skies, but it seemed as though their desperate assault on the flying fleet had only taken a second. </p><p> But in reality, of course, it had not. </p><p> He slowly turned to Noctis, whose battered face had almost healed and was now calm and carefree again. The sorcerer was looking at the sky with a strangely neutral expression. </p><p> "Remind me… wasn't the plan to defeat Sevirax before dawn, when he was devoid of his vast and terrifying powers?" </p><p> The immortal sighed. </p><p> "Well, it's good to have a plan. However, plans rarely go as you want them to go." </p><p> Sunny gritted his teeth. </p><p> "So… what happens now? How are you going to deal with the dragon?" </p><p> Noctis shrugged. </p><p> "He must be really, really angry right now. After all, we just killed his brother — the only person Sevras still cares about in this world. Congratulations, by the way! I really did not expect you…" </p><p> Sunny interrupted him with a low growl. </p><p> "Get to the point! Now that the sun is rising, your powers will be diminished, while his will reach their peak. How are we going to survive?!" </p><p> The sorcerer remained silent for a few moments, then scratched the back of his head. </p><p> "I, uh… will come up with something?" </p><p> Sunny stared at him in disbelief. </p><p> "You are joking, right? Come on… you must have some devious trick up your sleeve! You have an incredible advantage, after all! You have the knife that can make him mortal, while he doesn't have yours. Should I give you the knives? You have never asked me for the damned knives! Wasn't that the reason you befriended me, in the first place?!" </p><p> Noctis looked at him for a while, then simply shook his head. </p><p> "No. No, that was not the reason, Sunless. In any case, giving me the knife won't do much good. I will still have to defeat Sevras, whether he becomes mortal or not. Either I subdue him and we can use the knife to finish the job, or he subdues me, and then there's no point. And... I really don't have any tricks left." </p><p> He smiled, and then added wistfully: </p><p> "Ah, except one." </p><p> Sunny exhaled with relief. </p><p> "Finally! What is it?" </p><p> The sorcerer turned to him with a smile. </p><p> "Why… it's you, Sunless! Of course. Did I not say that fate brought us together for a reason?" </p><p> Sunny stared at him, his expression slowly turning dark. L𝒂Test nov𝒆ls on (n)𝒐velbi𝒏(.)co𝒎</p><p> "You did… but what the hell do you mean?" </p><p> Noctis looked away, at the beautiful silhouette of the flying city. After a few moments, he said: </p><p> "No matter how my battle with Sevras goes, it will end near the Ivory Tower. One of us will fall… maybe it will be him, and maybe it will be me. However, that doesn't matter." </p><p> He sighed, and then glanced at Sunny. </p><p> "As long as one of us dies, there will be only one chain left. It won't hold Hope for long. So, Sunless, my dear friend…" </p><p> Noctis lingered for a moment, and then smiled. </p><p> "Should I lose... I want you to kill me. That is my desire." </p><p> The sorcerer looked at him, the smile disappearing from his face. Then, he said softly: </p><p> "That is the fate I spoke about. You are my death, Sunless. Didn't you know?" </p><p> Then, Noctis suddenly cleared his throat and awkwardly looked away. </p><p> "That is if I lose, of course! Don't, uh… don't kill me by mistake if I win. That would be very inconvenient… a bit funny, though…" </p><p> Sunny glared at him for a while, then faced the Ivory City and scoffed. </p><p> "I know… you'd better win, then!" </p><p> *** </p><p> As the moon disappeared and the sky slowly grew brighter, Noctis and the members of the cohort gathered together and silently watched the sun rise. </p><p> The five of them had just accomplished something truly impossible — they had battled an army and two immortal Trancendents under the dim light of the crimson moon, and won. </p><p> The army had retreated, the immortals were dead. And the five of them, somehow, were still alive. </p><p> And yet, none of them felt relieved or triumphant. </p><p> The incandescent disc of the sun was rising like the blade of a guillotine, ready to cut down their lives. </p><p> The sorcerer was sitting on the grass with his eyes closed, gathering his strength for the approaching fight with the Ivory Dragon and trying to recover from his wounds as much as he could. </p><p> Effie lay on the ground, too battered and tired to move. Cassie was tending to her wounds. </p><p> Kai was grimly counting the arrows he had managed to gather. His charred mask was gone, revealing his burned, disfigured face. </p><p> Sunny was standing a small distance away, looking at a small statuette that lay in the palm of his hand, connected to a thin chain. </p><p> The statuette was cast of iron and depicted a beautiful young woman wielding a spear in one hand and gripping a human heart in the other, her nakedness covered only by a beast hide tied around her thighs, her face lost in the shadows. </p><p> It was very similar to the statue of War God he had seen on his first day in the Nightmare, but different in one detail — there was blood flowing from the wound in the statuette's chest, as though the heart she was holding had once belonged to the young woman herself. </p><p> Her figure felt strangely familiar. </p><p> This was the Memory he had received for killing Solvane the second time. </p><p> The runes read: </p><p> Memory: [Dying Wish]. </p><p> Memory Rank: Transcendent. </p><p> Memory Tier: I. </p><p> Memory Type: Charm. </p><p> Memory Description: [A young woman once wished to be free, but could only find her freedom in death. She called upon it, and touched by her sincerity, death came. But instead of embracing it herself, the young woman delivered death to those who held her in chains.] </p><p> Memory Enchantments: [Death Wish]. </p><p> Enchantment Description: [Those who witness the wielder of this Memory are compelled; friends to be inspired, foes to seek the wielder out. The power of the Memory grows the more enemies they give the gift of death, and can be consumed to heal the wielder's wounds.] </p><p> Death Charge: [0/1000]. </p><p> Sunny hesitated for a bit, and then dismissed the charm with a sigh. </p><p> This new powerful Memory of his could be extremely useful, without a doubt, especially its ability to bring him back from the brink of death. However, he suspected that he would have to kill a thousand enemies to make that healing really worthwhile. </p><p> It was still a powerful ability to have, but not in the current situation. He would have to build the charm's charge up for a long time to make use of it. </p><p> For now, there was only one kill he was concerned about. </p><p> He was going to deliver the killing blow to either Noctis, or the Ivory Lord. </p><p> As if answering his thoughts, a sudden movement attracted his attention, out there in the Ivory City. </p><p> And then, a thundering roar split the world apart. </p><p> ...The dragon was coming.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_729.html">Previous Chapter</a><a class="navigationButton next" href="chapter_731.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

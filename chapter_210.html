@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 210</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 210 Shadow Of The Past</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div id="pf-8450-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "660f70227d1ca27afc9d2827", id: "pf-8450-1"})</script></div>
+<div></div>
+<p>Chapter 210 Shadow of the Past</p><p>'Technically dead? What does she mean?'</p><p>Sunny glanced at the others and saw that they, too, were confused. Everyone except for Caster, that is, who seemed like he knew something.</p><p>A few moments passed in tense silence, which was broken by Changing Star's sigh. Looking at them, she said evenly:</p><p>"My mother is one of the Hollow. She became Hollow while pregnant with me, actually. So I never really met her. Just her… body."VIsiT n0(v)eLb(i)(n).𝘤𝑜𝓂 for the best novel reading experience</p><p>Nephis grew silent. After a while, a strange smile appeared on her face.</p><p>"It's funny, really. When my grandmother was still alive, I made a point of treating that body as nothing but a corpse. But once she passed away and we were the only ones left… well. I found myself getting a bit confused."</p><p>Nephis shrugged and turned away once again.</p><p>"Anyway, before leaving for the First Nightmare, I used what little money there was left of our estate to buy her a VIP spot in a specialized Hollow care facility. They are treating her really well. But still… I don't like the idea of her being alone there. So when I return, that's what I'm going to do. Visit her."</p><p>No one said anything, heavily affected by her words.</p><p>Sunny stared at Changing Star, trying to imagine what it must have felt like, growing up in the company of your parent's soulless shell. With death staring at you through those empty eyes every day, always looming over you like a dark shadow... both of your past and your future.</p><p>Maybe that was a part of the reason why Neph hated the Spell so much.</p><p>Sensing the heaviness in the air, Changing Star glanced at them and smiled darkly.</p><p>"What? Is this your first time meeting a hollowborn? Well, I can't blame you. Creatures of my breed are pretty rare. In fact, even I have never met another one."</p><p>Then, she sighed and stretched her legs, moving them closer to the fire.</p><p>"So yeah, that and dye my hair. These are the things I would do in the real world first."</p><p>Sunny blinked.</p><p>"...Dye your hair?"</p><p>Nephis nodded.</p><p>'How is that a priority?'</p><p>Feeling that he was missing something, Sunny scratched his head and asked:</p><p>"Why?"</p><p>She glanced at him in surprise.</p><div id="pf-8886-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d36c95a2f0a704fff59", id: "pf-8886-1"})</script></div><p>"What do you mean, why? I'm not used to it, and it's weird. Do I need another reason?"</p><p>He stared at her with a perplexed expression. Noticing it, Changing Star frowned and asked with a tiny hint of amusement in her voice.</p><p>"Sunny… did you, perhaps, think that this is my natural hair color?"</p><p>He was silent for a while, then opened his mouth and closed it again.</p><p>"...It's not?"</p><p>Nephis looked at him for a while with a strange expression, and then suddenly exploded with laughter.</p><p>Her laugh was melodic, pure, and very pleasant to the ear. With regret, Sunny realized that he had never heard it before.</p><p>He wished that their lives were different, so that people could hear Nephis laugh more often. But they weren't, and would probably never be.</p><p>After a while, she glanced at him and smiled.</p><p>"Sunny, it's silver, for Spell's sake. Who has natural silver hair?"</p><p>Luckily, at that point, Kai suddenly came to his rescue:</p><p>"Actually, I thought that it's natural too. Ah… it suits you very well, Lady Nephis."</p><p>Changing Star turned to him with an expression of utter surprise. Then, she glanced at Effie with a silent question.</p><p>The huntress nodded. Free Web Novel</p><p>"Yeah, me too. I mean… who knows what you Legacies are even made of?"</p><p>Nephis blinked a couple of times, then shook her head in bewilderment.</p><p>"Well… no, it's not natural. It became like that after my First Nightmare."</p><p>Kai leaned forward with curiosity:</p><p>"Really? What color was your hair before?"</p><p>She shrugged.</p><p>"Black. A normal human color."</p><p>The charming archer stared at her, and then smiled:</p><p>"That would suit you very well too, Lady Nephis. Ah, I can just see it."</p><div id="pf-8887-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d55c95a2f0a704fff8b", id: "pf-8887-1"})</script></div><p>However, Sunny couldn't. The idea of Changing Star without her arresting, eye-catching silver hair simply could not fit into his head. Let alone the fact that she was a brunette! How was this even possible?</p><p>'That would look so wrong! Right?'</p><p>Well… as it turned out, life was full of surprises.</p><p>Today, he learned not one, but two entirely new things about the person he had thought he knew the best in the world.</p><p>Who would have guessed that this would happen?</p><p>'...There might be something else except for skimpy swimsuits to these beach episodes, huh?'</p><p>***</p><p>After that, they spent some time resting and lazily conversing with each other. However, pretty soon, people started to get restless from boredom.</p><p>To combat it somehow, Sunny suggested the idea of playing a sports game.</p><p>…His motives were not at all dictated by a secret desire to see a bunch of absolutely gorgeous young people jump around and wrestle with each while very lightly dressed. Nope, not one bit.</p><p>However, things didn't go as he had envisioned them. Pretty soon, Sunny found himself cursing as he was desperately pulling on the golden rope in a furious match of tug of war.</p><p>…Well, it was supposed to be furious. But what was actually transpiring was Effie casually holding the rope with one hand while the four of them — Sunny, Cassie, Kai and Caster — were trying to move her from the spot with no visible results whatsoever. After a while, the huntress simply pulled on the rope and sent their entire team to the ground.</p><p>'That's... that's cheating!'</p><p>With a satisfied grin, Effie walked over and towered above him, her arms akimbo. Looking down directly at Sunny, she smirked.</p><p>"Weak. When did you lose your spirit, shorty?"</p><p>Then, she winked and said in a mischievous tone:</p><p>"Back at the cathedral, you were able to perform better. Not to mention last longer…"</p><p>Sunny grew bright red and gritted his teeth:</p><p>"Shut up! People will misunderstand!"</p><p>The huntress looked at him with a shocked expression.</p><p>"Mis—misunderstand? What are you… oh!"</p><p>Then, she pretended to be horrified and covered her mouth with one hand.</p><p>"You… what kind of a degenerate are you?! Training! I meant while you were training!"</p><p>While Sunny was staring at her in utter disbelief, his mouth wide open, Effie snorted, then turned away and exploded with laughter. Shaking her head, the boisterous huntress giggled one last time and walked away.</p><p>'...No more sports games! Ever! That wretched troublemaker will win them all, anyway!'</p><p>He needed to teach himself how to come up with better ideas...</p>
+<div id="pf-8888-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d6bc95a2f0a704fffa3", id: "pf-8888-1"})</script></div>
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_209.html">Previous Chapter</a><a class="navigationButton next" href="chapter_211.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

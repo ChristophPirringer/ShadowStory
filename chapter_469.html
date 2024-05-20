@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 469</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 469 Fire Keepers</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 469 Fire Keepers</p><p>The Desecrated Grove was a large island, its surface overtaken almost entirely by a forest of twisted, charred, dead trees. The ground was covered by a thick layer of ash, which was often thrown into the air by the strong winds. Grey flakes rained down from the sky.</p><p>There were many Nightmare Creatures nesting in the dark forest, and although most of them were only of the Awakened Rank, one had to be careful to not get ambushed, surrounded, or stumble upon an especially ferocious abomination.</p><p>Sunny couldn't even begin to guess why Cassie would choose such a place to establish a camp.</p><p>However, he could already see the signs of human presence.</p><p>There were four chains connecting the Desecrated Grove to other islands, but the one he himself had used was the most convenient. Any sane leader would have chosen the same route, and even though the Crushing was capable of making anyone's path unpredictable, the other three were just too much of a risk.Follow 𝒏ewest stories at n𝒐velbin(.)com</p><p>That's why Sunny wasn't surprised to see human footprints leading toward the menacing wall of blackened dead trees, already mostly covered by a new layer of ash. There were also signs of a battle, with several misshapen carcasses laying on the ground and showing clear signs of their soul shards being removed.</p><p>Judging by the fact that they were only partially devoured by the scavenging Nightmare Creatures, Cassie's cohort must have passed through no more than a week ago.</p><p>Sighing, Sunny tied a piece of cloth around his mouth and nose, summoned the Cruel Sight, and started following the footprints.</p><p>Soon, he entered the ashen veil of the twisted forest. His ability to see through any shadow proved to be invaluable once again: if not for that gift, he would have been scared witless, expecting a sudden attack to come from the surrounding darkness at any moment.</p><p> With his sight, the Shadow Sense, and the ability to see all around himself with the help of one of the shadows, Sunny felt confident that nothing would be able to get close to him unnoticed… at least not on this comparatively tame island.</p><p>But that was the thing about the Dream Realm. Even creatures that were supposed to be easy to deal with could kill you in a second if you weren't careful enough. Tame or not, everywhere in this godforsaken world was a potential death trap.</p><p>As Sunny went deeper into the forest, he discovered more signs of Cassie's cohort passing through. There were marks left behind by violent skirmishes, as well as several abandoned campsites. It seemed as though the Fire Keepers had been taking their time, slowly exploring the path ahead and moving their camp further and further into the depth of the Desecrated Grove after clearing a long stretch of it.</p><p>'Why travel here all the way from the Night Temple? She had to cross the entire region, getting away from the Hollow Mountains, only to get stuck on an unexceptional island. I just don't get it.'</p><p>Sunny was clearly missing something…</p><p>With a slight frown, he turned into a shadow and glided through the darkness, covering much more distance with every minute than he had been on foot. He still preferred to be cautious, though, sending one of the shadows ahead and moving slow enough to be able to react in time if something unexpected happened.</p><p>After an hour or so, he finally found them.</p><p>Cassie and her cohort were camped at a secluded clearing that was around halfway to the heart of the island, dangerously far removed from the edge. If the Desecrated Grove entered the ascent phase, the time window for them to get back to the chain before the Crushing became deadly would be extremely narrow.</p><p>Since it was early morning, most of the members were asleep, with only two lookouts standing watch with torches in their hands. Sunny observed them for a few seconds from the shadows, and then sent his own forward.</p><p>He recognized both of the watchmen, since they had spent a lot of time together during the struggle for the throne of the Bright Castle, as fellow members of Neph's faction.</p><p>The Fire Keepers were comprised of about forty survivors of the Forgotten Shore — those who had decided against pledging their allegiance to the Legacy clans that wanted the recruit them, as well as the government, and had not become fully independent like Effie and Sunny had.</p><p>Although Cassie was their nominal leader, she didn't command the whole host herself. Instead, Neph's followers were divided into several cohorts, each operating in different regions of the Dream Realm. Fire Keepers were not a formal organization, but more of a loose alliance of people who shared similar beliefs and principles, the main being the hope that Changing Star was going to return alive one day.</p><p>…Sunny's shadow entered the circle of light created by one of the torches, glared at the lookout, and then waved at him.</p><p>The young man stared at it with wide eyes.</p><p>"What the hell?!"</p><p>The other swiftly turned, summoning her weapon.</p><p>"What is it?"</p><p>The first one remained silent for a moment, then sighed.</p><p>"Ah, crap…"</p><p>He massaged his temple, as if experiencing a headache.</p><p>"...I think it's Sunny."</p><p>***</p><p>There were eight people in Cassie's cohort, every one of them a familiar face.</p><p>…Well, Sunny more or less knew all of the survivors of the Forgotten Shore, had fought with them back to back, so that wasn't surprising. What did surprise him, though, was how warm they welcomed him.</p><p>Even if some were clearly displeased with having to wake up a bit early and warry of his entrepreneurial ambitions — which they had been amply subjected to during the war for the Bright Castle — they were still clearly happy to see Sunny. Soon, his shoulder began to hurt a little from all the friendly slaps it received.</p><p>"Would you look at that! Four months on these damned islands, and this is the first time we actually cross paths!"</p><p>"How have you been, Sunny?"</p><p>"Oh! I was so sad that we missed you in the Sanctuary. Glad you decided to visit!"</p><p>Sunny smiled weakly and responded to their greetings, feeling both strangely warm inside and extremely uncomfortable with all the attention.</p><p>Truth be told… he was glad to meet them again, too. He still couldn't quite believe that anyone had escaped the Forgotten Shore, let alone a whole hundred of young men and women, some of whom were in front of him right now.</p><p>After the greetings were done, he looked around and raised an eyebrow.</p><p>"Uh… sure, guys. Likewise. But where's Cassie?"</p><p>The Fire Keepers glanced at each other, then one of them smiled.</p><p>"Oh, right! You must be dying to see her."</p><p>'...Not exactly.'</p><p>The girl who spoke shook her head and turned toward a path leading somewhere away from the camp.</p><p>"Let's go. I'll take you."</p><p>…Not too far from the camp, a deep hole was dug near the roots of one of the dead trees. Beside it, with her back to him, stood a delicate girl with pale blond hair and an elegant rapier hanging in a scabbard on her belt.</p><p>Hearing their footsteps, Cassie turned around. A small smile appeared on her face.</p><p>"Sunny. You've made it..."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_468.html">Previous Chapter</a><a class="navigationButton next" href="chapter_470.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

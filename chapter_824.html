@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 824</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 824 Mysterious Master</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Nobody was sure who exactly the Ascended in charge of their new cohort was. Nevertheless, after briefly getting acquainted, the six Awakened couldn't help but wonder. </p><p> Quentin, the handsome warrior with a gallant demeanor, seemed thoughtful. </p><p> "Master Sunless… I don't think I have ever heard of him. There is no Ascended of that name among those who had been with the government for a long time, that I am sure of." </p><p> He lingered for a moment, and the added with slight reluctance: </p><p> "I did hear a few rumors, though." </p><p> Luster looked at him with a lively smile. </p><p> "Come on, then, don't leave us hanging!" </p><p> Quentin sighed, clearly uncomfortable to be participating in something that could be amounted to gossip. Eventually, however, his curiosity won over decorum: </p><p> "Well, it's not much. I just heard that Master Jet deliberately postponed the formation for the First Irregular Company to give this gentleman enough time to arrive. And that she personally recruited him." </p><p> Luster blinked a couple of times. If Soul Reaper had gone out of her way to make sure that the guy joined her unit, then he had to be a beast! </p><p> Belle confirmed his suspicion: </p><p> "I actually heard that Ascended Sunless is a real monster. A demon of a fighter with a wild, bloodthirsty streak. Apparently, he killed four hundred Awakened abominations… as a Sleeper. Some even say that he hunted down an ancient Fallen Devil before Awakening." </p><p> A strange silence settled in the training gymnasium. </p><p> Luster scoffed. </p><p> "Yeah, right… that's impossible." </p><p> Samara, who had remained mostly silent before that, suddenly spoke: </p><p> "My information is different. From what I've been told, he is a distinguished explorer and academic researcher. His published works are supposed to be available in the government database. They are very extensive exploration reports about dangerous regions of the Dream Realm and the Nightmare Creatures populating them." </p><p> That sounded more believable. Explorers of the Dream Realm might not have been the most renowned fighters, but they had to be capable to survive its wild expanse. It would make sense if Soul Reaper wanted to recruit a knowledgeable academic, since the other captains of the First Irregular Company already covered the combat prowess in spades. </p><p> Vandal, Mustang, Queen, Knight, and Pride were legends among the government soldiers. Their renown only paled in comparison to the dreaded Soul Reaper herself. </p><p> Kimmy suddenly moved and said in a faltering voice: </p><p> "I… uh… I heard that he is utterly mad. Some say that he actually comes from the Forgotten Shore, where he lived completely alone in the Dark City for a long time. They even say that Changing Star of the Immortal Flame clan once said that he was the only person he was afraid to fight. I mean… it's ridiculous, of course…" </p><p> Her voice gradually grew quieter and then trailed off. </p><p> After a short and somewhat awkward pause, the giant man, Dorn, spoke in a steady tone: </p><p> "Those are all just rumors. I only know that Ascended Sunless is relatively young… however, we don't need to guess. There is a lot that we can assume just from who he chose as the members of his cohort." Get the l𝒂test 𝒏𝒐v𝒆ls at 𝒏ovelbi𝒏(.)co𝒎</p><p> Luster craned his neck and looked at the intimidating strongman. </p><p> "Yeah? Like what?" </p><p> Dorn shrugged. </p><p> "Well, for one, our composition is quite telling. We have two offensive fighters, a healer, a ranged specialist, and two support specialists. The cohort seems to be well-rounded, but it lacks means to fulfill several key roles. We don't have a reliable scout, and our defense is comparatively subpar." </p><p> He paused for a moment, and then added: </p><p> "That suggests that Ascended Sunless is a utility specialist with a scouting Ability. Alternatively, he might be a defense-oriented fighter or simply a believer in an offense-centered military doctrine. He might also possess a powerful Echo that can serve as a defensive bulwark." </p><p> Dorn thought for a bit. </p><p> "What is especially interesting to me is that he deliberately chose Awakened with higher than usual mental resilience. He also neglected direct combat efficiency in favor of Aspects that possess sufficient longevity. The presence of Awakened Luster only confirms the fact that our commanding officer puts a lot of value in sustainability. All of that tells me that he has a very mature outlook on combat that is in direct contradiction to his young age." </p><p> Luster followed along, surprised that he had not come to these conclusions himself. </p><p> 'The big guy is wicked smart!' </p><p> He cleared his throat, then said: </p><p> "Well… he is a Master. Everyone says that the Second Nightmare is the game changer. Who knows what kind of crap he experienced there? Stuff like that can make a person mature real fast." </p><p> "Well said." </p><p> Luster nodded, pleased to receive a bit of praise, but then almost jumped. </p><p> 'Wait… who said that?!' </p><p> At some point, a seventh person had somehow appeared in the gymnasium without being noticed by any of them. He was of small stature, with flawless ivory skin, black hair, and unfathomable dark eyes. The guy was extremely young, and looked like a porcelain doll. In fact, he was kind of cute… in a strange, unsettling sort of way. </p><p> Luster frowned. </p><p> 'Who's that shorty?' </p><p> Then, realizing who was in front of him, he froze. </p><p> The new arrival smiled. </p><p> "Good morning, Awakened. I am Master Sunless. You can call me Captain Sunless, or simply Captain. From today forward, I will be your commanding officer." </p><p> He remained silent for a few moments. Then, his pleasant smile slowly turned strangely ominous. </p><p> Captain Sunless stared directly at the six of them and added: </p><p> "Yes, I killed four hundred Awakened abominations and hunted down a Fallen Devil as a Sleeper. Yes, I am a distinguished explorer and researcher whose published works are well-known in academic circles. And yes, I indeed come from the Forgotten Shore, where I lived in the Dark City completely alone and went… slightly… mad." </p><p> The frightening smile grew a little wider. </p><p> "But all of that is in the past. I am utterly sane now. I am not deranged at all. You truly have nothing to worry about!"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_823.html">Previous Chapter</a><a class="navigationButton next" href="chapter_825.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

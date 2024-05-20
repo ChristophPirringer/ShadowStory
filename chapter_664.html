@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 664</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 664 Basic Logic</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> A tense silence settled in the opulent residence of the mad sorcerer… who, meanwhile, was staring at Sunny with an indescribable expression on his pale, beautiful face. Noctis didn't seem happy at all despite finally learning the secret that he had been searching for all this time. </p><p> In that silence, Kai's hoarse voice suddenly resounded, full of polite curiosity: </p><p> "I am very sorry… but that glass knife you are talking about… why exactly do we need it?" </p><p> Both Sunny and Noctis turned to him. After an awkward pause, the immortal scratched the back of his head and answered: </p><p> "Ah… that thing, you see, is the only thing that can kill Sevras, the blessed of the Sun. And I really, really want to kill him." </p><p> Noticing a slight confusion on the archer's face, he thought for a moment, and then added: </p><p> "Right, these days people call him Sevirax, the Ivory Lord. You have heard of him, yes?" </p><p> Kai lingered for a bit, then looked down at his bandaged hands and said evenly: </p><p> "...Yes. You might say that I have." </p><p> He closed his eyes for a moment, and then smiled. </p><p> "In that case, we must retrieve the Glass Knife. And our friend. Lord Noctis… surely, there is something that we can do? You know a lot about that sect of theirs. Is there a way for you to enter the Temple of the Chalice, find both the knife and our friend, and bring them back to the Sanctuary?" </p><p> Noctis stared at him for a while, then shook his head. </p><p> "No, there is no way for me to invade the Temple. At least not without destroying it completely, which would doom that friend of yours along with the rest of the sect… sadly, that is also one of the places I can't infiltrate in disguise… uh, infiltrate it again, I mean…" </p><p> Sunny and Kai glanced at each other, and then, the archer cautiously asked: </p><p> "If that is the case… what if we infiltrate it, instead?" </p><p> The sorcerer stared at them with surprise, and then laughed: </p><p> "Sunless and Nightingale… what a strange pair you are! Do you not know fear? I have just told you how frightening the War Maidens are!" </p><p> Sunny smiled, showing his sharp fangs, and then shrugged. Kai shook his head and answered for both of them, saving him from having to do so: </p><p> "Oh, on the contrary. Both of us are actually very cowardly. But, Lord Noctis… you might not know this, but Sunless and I… we can be a bit frightening ourselves." </p><p> The immortal Transcendent gave them a dubious look, and then shook his head. </p><p> "Somehow, I believe it. But no, no, it doesn't matter! Even if you are willing, you can't get into the Temple of the Chalice. Only women are allowed inside, and not any women at that. They will only give passage to female warriors of utmost skill, those who are veiled in dread and the smell of numerous bloody battlefields… maybe with a couple of lowly servants, at best. You are both men, so it is useless to even try." </p><p> Sunny hesitated for a few moments, then sighed deeply and said: </p><p> "Actually… that won't be a problem." </p><p> Noctis blinked a couple of times and looked at him with confused amusement. </p><p> "Uh… how so? Sunless…" </p><p> The sorcerer gave him a strange look, and then asked with a mischievous smile: </p><p> "...Is there something I don't know about you?" </p><p> Sunny glanced at him darkly, scowled, and answered in a sharp tone: </p><p> "There's plenty! But that was not what I meant. I just have a female warrior of dreadful skill... at hand." </p><p> With that, he summoned Saint. Two ruby flames ignited in the depths of his shadow, and then the taciturn demon stepped out of it, wreathed in darkness. Her graceful figure appeared in the middle of the sorcerer's residence, and then the Shadow turned her head slightly, staring at the master of the place with cold indifference. </p><p> Noctis looked back at her, his eyes widening. His lips trembled. </p><p> "That… that…" </p><p> The sorcerer leaned forward, his expression frozen, and then suddenly clenched his fists with excitement: </p><p> "...That armor! The design! The fit! Oh, gods… who forged that masterpiece?! Sunless, please tell me!" </p><p> Saint tilted her head a little, while Sunny and Kai stared at the immortal Transcendent with inexorable expressions. After a few moments of dead silence, Sunny cleared his throat. </p><p> "Uh… actually, I am not sure. Prince of the Underworld, I think. Wait, haven't you seen me wearing a similar armor?" </p><p> Noctis glanced at him with confusion, then waved a hand dismissively: </p><p> "Ah, if I did, you must have not done it justice. This beauty, however… so it was Hope's little brother, huh? Who knew he had such impeccable taste!" Alll 𝒏𝒆west ch𝒂pt𝒆rs on no./v𝒆l𝒃i/n/(.)c𝒐m</p><p> Finally, the sorcerer became aware of his surroundings and moved his gaze up, staring right into Saint's ruby eyes. His smile widened, but then grew rather strange. He glanced at Sunny with confusion: </p><p> "Sunless… this is one of your Shadows, yes? How come she is more powerful than you? Oh, did you inherit this sublime creature from the Shadow Lord? That rogue… he had been hiding such a treasure from me all that time!" </p><p> Sunny did not like the way Noctis was looking at Saint one bit. In fact, he suddenly felt a very strong impulse to wipe the lecherous smile off the immortal's face… which would not have been very wise, considering who that immortal actually was… </p><p> He gritted his teeth. </p><p> "...No. If you must know, I've created her myself. And also, she can hear you. Have some manners, will you?" </p><p> Noctis froze, then flinched and suddenly turned very courteous. </p><p> "Uh… sorry…" </p><p> He glanced at Saint, then walked around her, studying the taciturn demon with a very serious expression. The Shadow didn't move, seemingly uncaring of his presence. Finally, the sorcerer returned to his previous spot and smiled. </p><p> "That Shadow of yours might indeed be allowed into the Temple of the Chalice. She has... a presence about her. Even I am impressed! The two of you will pose as her servants, I assume?" </p><p> Sunny and Kai looked at each other, then nodded. The sorcerer turned away, thinking, then said thoughtfully: </p><p> "That… might actually work. Once you are inside, you can find your friend and locate the Glass Knife. That will be extremely dangerous, but not impossible. If you succeed, I can ensure your safe escape… however…" </p><p> Noctis glanced at them, his expression growing somber. </p><p> "Sunless, Nightingale… if things go wrong inside the Temple of the Chalice, even I won't be able to save you. You will be on your own… so ask yourself seriously whether or not rescuing your friend is worth risking your lives over. You can make new friends, you know… but you can only die once." </p><p> Kai looked at the immortal sorcerer, and smiled: </p><p> "...It's worth it." </p><p> Sunny wasn't so quick to speak. After a while, he snorted and looked away. </p><p> "I don't make friends easily, so the ones I do have are extremely valuable. One has to protect their valuables, you know? That's just basic logic…" </p><p> He glanced at Noctis with a dark expression and added: </p><p> "Besides, who says that you can only die once? I have already died a hundred times, and that was just after meeting you… killing me is really a very troublesome endeavor…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_663.html">Previous Chapter</a><a class="navigationButton next" href="chapter_665.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

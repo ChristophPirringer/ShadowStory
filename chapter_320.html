@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 320</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 320 Siege Of The Crimson Spire 6</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<p>Chapter 320 Siege of the Crimson Spire (6)</p><p>"Draw! Aim! Endure!"</p><p>Just as Night shouted these words, Aiko tripped and fell. The bundle of arrows she was carrying in her arms scattered on the ground.</p><p>"Ouch…"</p><p>Picking herself up from the coral, she hurriedly gathered the arrows and dashed to the nearest archer, then placed them near his feet.</p><p>In this battle, the role of people like her — those who were too weak to fight and did not possess a useful Aspect — was simultaneously the most simple and the most chaotic. They were charged with supplying the Sleepers participating in the battle with everything they needed, be it arrows, crossbow bolts, stones for their slings, or anything else.</p><p>There were several teams of runners doing different things. Initially, she was supposed to help carry the wounded from the first and second lines to the makeshift hospital at the back of the formation. There, a few people with Aspect Abilities having to do with healing waited, ready to help. Her friend Stev was one of them.</p><p>…But as it turned out, there wasn't a lot of wounded in this battle. Most simply died on the spot. So she was left with nothing to do and ended up here, helping to supply the archers.</p><p>She had just brought two quivers to Night, and was on her way…</p><p>…Wait, how crazy was that?</p><p>Trying to catch her breath, Aiko glanced around and shivered.</p><p>'Crazy, this is crazy…'</p><p>The scene in front of her was just too bizarre to be true. Several hundred Sleepers were besieged by a horde of Nightmare Creatures on the ground, with another falling on them from above. All that in front of an ugly, endless tower of crimson coral. Surely, she was dreaming…</p><p>'Of course you are! This is the Dream Realm, you dimwit!'</p><p>And yet, the weirdest thing of all... was that she was stuck in all this craziness with none other than Night from Nightingale, the breathtakingly beautiful idol whose posters hung on the walls of most girls her age back home. Despite the fact that the two of them had known each other for more than a year and were even… uh… on friendly terms, this fact was the one that pushed the surrealism of the situation over the edge.</p><p>This was exactly the kind of weird dream a teenage girl like her would have.</p><p>Just as she thought about that, someone fell to the ground a few meters away from her. Turning her head to the sound of a muffled curse, Aiko saw Stev and another Sleeper carrying a crude stretcher. On it was a young woman, covered in blood and pale as a ghost, her leather armor torn apart and on the verge of dissipating.</p><p>A moment before, Stev's partner had tumbled down. It appeared as though he was wounded himself, albeit not too seriously. Running up to them, Aiko took over and helped the ample giant keep the stretcher even.</p><p>Carrying that weight with her tiny body was not easy, but she gritted her teeth and persevered.</p><p>Together, they hurried to the back of the formation.Get your 𝒇avorite 𝒏ovels at novelb𝒊n(.)com</p><p>On the way, they had to run past the desperate archers and the exhausted crews of the siege engines, who were slowly but surely running out of the massive lances to hurl at the rampaging horde.</p><p>From the look of it, things weren't going well for the Dreamer Army.</p><p>Down below, the first line was in the process of being completely eviscerated. Three islands of resistance still persisted in the sea of monsters, but Aiko didn't know how much longer those poor people would be able to hold. The second line was now entangled with the Nightmare Creatures, too. The initial plan had been for these two forces to switch positions to give the exhausted warriors time to rest, but now, it was never going to happen.</p><p>Up above, more and more corpses were falling on the invisible iron net. Despite that, the number of the flying abominations did not seem to diminish at all. The metal wires were groaning, having to carry more and more weight.</p><p>'Are we all going to die?'</p><p>Feeling cold dread spread through her body, Aiko trembled and involuntarily turned her head to the tallest point in the Dreamer Army camp. There, on a protruding mound of crimson coral, she saw three figures.</p><p>One was Saint Nephis herself. The other was her blind oracle. And the third…</p><p>'Wait… what is that guy doing there?!'</p><p>The third person was none other than Sunny, the strange young man who had gotten her into this mess to begin with.</p><p>After joining the Changing Star's faction, Aiko had quickly learned who the important people were and what positions they held in the Bright Lady's cohort. Everyone's role was clear and easy to understand.</p><p>…Except for Sunny.</p><p>What role that pale youth played was entirely unclear. People seemed to consider him a member of Lady Nephis's cohort, but Sunny himself always insisted that he was not. He was thought to be a competent fighter, but actually, no one had really seen him fight.</p><p>Most people just knew him for his tendency to keep to himself, ridiculous bragging, and carefree attitude. They simultaneously respected him for being Changing Star's scout and considered him mostly harmless.</p><p>However, Aiko did not think that Sunny was harmless. She had seen him appear from the shadows and kill the Guard who had been strangling her with one relaxed move, as though getting rid of an insect.</p><p>In her mind, Sunny was very mysterious. He was a wild card.</p><p>Seeing him with Lady Nephis now, she suddenly felt a tiny bit of hope.</p><p>Maybe Changing Star had a plan.</p><p>Maybe they were going to survive, after all…</p><p>"Aiko! Move your short legs faster, will you!"</p><p>Frowning at Stev's remark, she looked at the ground and concentrated on not slowing her giant friend down.</p><p>Soon, they reached the hospital and placed the stretcher on the makeshift table. Stev dashed to retrieve his tools…</p><p>But it was too late. The young girl on the stretcher was already dead.</p><p>Aiko remained motionless for a bit, staring at the ground. After a while, Stev cautiously touched her on the shoulder.</p><p>"Hey… are you okay, shorty?"</p><p>She wiped her face, then nodded.</p><p>"Yeah. I'm fine. Gotta run, though. Those… those arrows aren't going to carry themselves."</p><p>Stev lingered for a bit, then tried to smile.</p><p>"Alright. Uh... stay safe."</p><p>She smiled and nodded again.</p><p> "Yeah. You stay safe, too."</p><p>With that, Aiko turned around and ran out of the tent.</p><p>Outside, the battle was only growing more ferocious.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_319.html">Previous Chapter</a><a class="navigationButton next" href="chapter_321.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

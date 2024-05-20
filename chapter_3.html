@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 3</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 3 The Strings Of Fate</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 3 The Strings Of Fate</h4> <p> For a few minutes after that, Sunny was in a dark mood. But then he pulled himself out of it and inhaled deeply, trying to enjoy the fresh air. Indeed, air like that was hard to come by in the real world: micro dust and other pollutants made it rough and unpleasant, not to mention the general stench of the outskirts. In the better parts of the city, sophisticated filtration systems worked diligently — however, filtrated air tasted sterile and stagnant. Only the very rich had access to truly pleasant breathing. </p><p> And here he was, able to enjoy an unlimited amount of pristine, delicious air like a second-generation chaebol. </p><p> 'Truly, being chosen by the Spell has its benefits.' </p><p> If only there was no dreadful cold, his feet did not ache, and his wrists and back were not in agony! </p><p> The slave caravan slowly dragged itself up the mountain, with more and more slaves stumbling and periodically falling to the ground. A couple of times, those who could not walk anymore were taken off the chain and unceremoniously tossed off the road, down into the abyss that loomed to the left of it. Sunny watched them fall with a bit of compassion. </p><p> 'Poor fellows. Rest in peace, you pitiful souls.' DisCover 𝒖pdated novels on n(o)v/elbin(.)co𝒎</p><p> All in all, he was in good spirits. </p><p> It was a bit strange to feel good amidst this disaster of a Nightmare, but, thankfully, Sunny had time to prepare himself for this eventuality. When the symptoms of the Spell first appeared, he did not handle it well. Dying before you even turn seventeen was not something one could easily cope with. </p><p> But, in the end, it only took Sunny several days to come to terms with it. After visiting his parents' makeshift resting place — well, actually, since he was too poor to afford even the cheapest slot in the remembrance facility, it was just two lines carved into an old tree — and adding a third line for himself, Sunny suddenly became relaxed and carefree. </p><p> After all, he didn't have to worry about earning money, finding food, protecting himself and planning for the future anymore. Once the worst that could happen had already happened, what else was there to fear? </p><p> So, becoming a slave and slowly freezing to death was not that much of a shock. </p><p> Besides, he knew that cold would not kill him — simply because he had already seen what fate was awaiting the caravan further up the mountain. The picture of piled bones littering the ground was still fresh in his mind. Most likely, it was a pack of monsters that were going to do the caravan in… and by the look of it, the attack was going to take place in a matter of hours, not days. </p><p> So he still had a chance. </p><p> Using the opportunity, Sunny decided to take another look at his status and summoned the runes again. The last time he was too outraged by the Aspect and didn't study the Attributes well. While not as important as one's Aspect, the Attributes were often the deciding factor between life and death. They represented one's natural traits and affinities, sometimes even providing passive abilities and effects. </p><p> [Fated] Attribute Description: "The strings of fate wrap tightly around you. Unlikely events, both good and bad, are drawn by your presence. There are those who are blessed, and there are those who are cursed… but rarely both." </p><p> [Mark of Divinity] Attribute Description: "You bear a faint scent of divinity, as though someone briefly touched by it once, a long time ago." </p><p> [Child of Shadows] Attribute Description: "Shadows recognize you as one of their own." </p><p> 'Hmmm… Interesting.' </p><p> Sunny quickly recognized the first attribute, [Fated], as the main culprit of his predicament. At first glance, it seemed to indicate that he was destined for a certain fate — to die miserably and vanish without a trace, for example. But after reading the description, he realized that being fated actually just meant that improbable things had a higher chance of occurring when he was around. </p><p> 'I guess this is how I managed to receive one of the super rare useless Aspects — and a weird variant of it, at that!' </p><p> If [Fated] was his innate Attribute, then the other two came from the [Temple Slave] Aspect. [Mark of Divinity] was more a less straightforward — it was supposed to allow passage into certain sacred places inside the Dream Realm and enhance several types of sorcery. Since there were no sacred places in sight and Sunny's Aspect had nothing to do with sorcery, it was useless, too. </p><p> [Child of Shadows] was a stranger one. He had never heard of it and had no idea what it was supposed to do — at least not until the sun hid behind the mountain and the sky began to darken. To his surprise, Sunny found himself able to see perfectly in the darkness, as though it was still as bright as day. This ability alone was nothing to scoff at, and it was quite possible that shadows would reward him with some other, yet unknown, gifts. </p><p> 'Finally something good. I wonder if…' </p><p> "Stop the caravan! Prepare to camp!" </p><p> Following the head soldier's order, the slaves stopped and fell to the ground, shivering and exhausted. The small clearing where the road widened was somewhat protected from the wind by a protruding mass of rock, but it was still too cold to rest with ease. </p><p> The soldiers got busy herding the slaves into a tight circle, forcing them to share warmth, and lighting up a large bonfire in the center of the camp — although not before tending to their horses. The heavy wagon carrying food, water and other cargo, to which the main chain was firmly affixed, was pushed forward to block the wind. While looking around, Sunny noticed the young soldier from before watching the mountain with a complicated look on his face. </p><p> 'What a weirdo.' </p><p> Soon, the bonfire was blazing. The stronger slaves tried to find their way closer to the fire, while the weaker ones, like Sunny, were forced to sit at the outer end of the circle, with their backs freezing in the cold. Of course, any movement was encumbered by the fact that they were still shackled to the chain. That's why the familiar broad-shouldered slave ended up just where he started despite all of his efforts to get closer to the flame. </p><p> "Damn Imperials!" he hissed, clearly irritated. </p><p> The soldiers walked among the slaves, giving them water and food. Sunny, just like everybody else, received a few sips of icy water and a small piece of rock-hard, moldy bread. Despite its unappetizing look, he forced himself to eat the whole thing, just to be left as hungry as he was before. </p><p> By the looks of it, he wasn't the only one. </p><p> The shifty slave that had been walking behind him looked around in anguish. </p><p> "By all the gods, they used to feed me better even in the dungeons!" </p><p> He spat on the ground, desperate. </p><p> "And most of us innocent men in the dungeon were there waiting to visit the gallows, too!" </p><p> A few steps away from them, where the paved road ended and sharp rocks began, a scattering of bright-red berries were growing from the snow. Sunny had noticed them before, clustering here and there along the road, and even noted how pretty those resilient things looked contrasted against the white. The shifty slave's eyes glistened as he tried to crawl towards the berries on all fours. </p><p> "I would advise against eating those, friend." </p><p> It was the gentle-voiced slave again. Sunny turned around and finally saw him in the flesh for the first time. It was a tall man in his forties, lean and strangely handsome, with a dignified look of a scholar. How a man such as him ended up a slave was a mystery. Yet there he was. </p><p> "You and your advice again! What?! Why?!" </p><p> The scholar smiled apologetically. </p><p> "These berries are called Bloodbane. They grow in the places where human blood was spilled. That's why there's always a lot of them along the slave trade routes." </p><p> "So what?" </p><p> The older man sighed. </p><p> "Bloodbane is poisonous. A few berries might be enough to kill an adult man." </p><p> "Curses!" </p><p> The shifty slave flinched back and glared at the scholar. </p><p> Sunny did not pay them a lot of attention. </p><p> Because, while looking around, he finally recognized the site of the camp as the place where, in his vision at the start of the Nightmare, the bones of the slaves were buried under the snow. And he was willing to bet that whatever it was that killed them all was going to happen soon. </p><p> As if to answer his thoughts, a thundering noise rang from above. </p><p> And in the next second, something massive came crashing from the sky…</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_2.html">Previous Chapter</a><a class="navigationButton next" href="chapter_4.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1445</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1445 Inside The Tower</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1445 Inside the Tower</h4> <p> As soon as Sunny shut the gate behind them, the terrifying roar that had been approaching was cut off. A few moments later, the tower seemed to shake a little, as if something had crashed into its walls. </p><p> However, apart from a little dust that fell from the ceiling, nothing happened. They seemed to be safe. </p><p> ...From the threats outside, at least. </p><p> Letting out a sigh of relief, Sunny took a step back and looked around. </p><p> His eyes narrowed a little. </p><p> "Well, that... is unexpected." Fi𝒏d 𝒏ew upd𝒂t𝒆s on novel𝒃in(.)com</p><p> He had wondered about what the interior of Aletheia's Tower would look like a lot. In his mind, there were two possibilities... either it would be perfectly preserved and full of tantalizing knowledge, or serve as the lair for the most harrowing abomination yet. </p><p> The truth was that it was both and neither at the same time. </p><p> From what Sunny could tell, the interior of the tower had once been austere, but elegant. None of that elegance remained, however - at some point, a dreadful Nightmare Creature had made its way inside. </p><p> He was currently staring at that Nightmare Creature. </p><p> Its torso was hanging from the ceiling, terribly mutilated and seeping with black blood. The creature's revolting skull was crushed, and one of its arms was severed at the elbow. A vast and utterly disgusting puddle of blood, viscera, and brain matter covered most of the floor. </p><p> Looking at the corpse of the gargantuan, vaguely humanoid creature, Sunny couldn't help but feel a sense of deep, primal terror. </p><p> Aletheia's Tower had indeed become the lair of a dreadful abomination... </p><p> However, the abomination was dead. </p><p> Cassie was observing the corpse, too. She seemed unnerved. </p><p> After hesitating for a few moments, the blind girl said quietly: </p><p> "It's... it was a Great Tyrant." </p><p> Sunny gulped. </p><p> "Why... the hell... is there a Great Tyrant in our Third Nightmare, even? That has to be against the rules." </p><p> And why was there something capable of mutilating a Great Tyrant to such a degree here, as well? </p><p> What was that damned Spell thinking? </p><p> Shaking his head, Sunny studied their surroundings. Now that he had some time, he noticed signs of a terrible battle. Everything inside the tower had been obliterated, turning into piles of splinters and rubble. Here and there, the corpses of the Tyrant's minions could be seen, turned into bloody mush. </p><p> Was the thing that had killed them still inside? It had to be, considering the nature of the loop... </p><p> But then, why were the gates of the tower locked? Why was the enchantment intact? </p><p> How was it even possible? </p><p> Walking over to the puddle of the Tyrant's blood, Sunny knelt and touched it. His expression was troubled. </p><p> "It's cold." </p><p> The creature had not been killed recently. Had it been dead for as long as the loop existed? </p><p> He glanced at Cassie. </p><p> "What does your intuition tell you?" </p><p> She frowned. </p><p> "...To flee." </p><p> Then, the blind girl sighed and pointed up. </p><p> "There is danger, somewhere above us." </p><p> Sunny grimaced and rose to his feet. He considered summoning Nightmare back, but then decided against it. The black steed would not be able to move freely in the narrow confines of the tower, so... </p><p> It was up to him and Cassie to find out the truth. </p><p> "Well, I am not going to flee after dying so many damned times to get here." </p><p> She nodded. </p><p> "I agree." </p><p> Trying to stay away from the dreadful corpse, they found the stairs and cautiously ascended to the next floor of the tower. </p><p> In fact, it seemed that the clash between the Tyrant and whatever it was that had killed it had mostly taken place on the higher floors. Sunny could tell just by looking up - starting from the second floor, there were no ceilings anymore. Tall piles of stone debris were all around them. </p><p> It seemed that the Great Tyrant had crashed through the floors of many levels before finally ending up hanging dead from the ceiling of the first one. Sadly, most of the interior of the tower had been destroyed in the process. </p><p> Sunny glanced at Cassie, then sighed and started climbing. The blind girl followed by holding the hilt of the Quiet Dancer, which gently lifted her in the air. </p><p> They slowly ascended past the destroyed portion of the tower before finally arriving at the second-to-last level. Here, a chunk of the floor still remained, leading to a narrow staircase. The battle seemed to have never reached the last level, so the ceiling was intact. </p><p> Sunny could not tell what was above them... but he knew only the highest window of the tower was emanating light. So, the source of that light had to be on the last floor. </p><p> The source of the terrible danger Cassie felt was also there. </p><p> "Stay behind me." </p><p> Moving forward to protect the blind girl with his body, Sunny put his foot on the first step and started ascending the stairs. He felt wary and apprehensive... scared, even. After experiencing so many painful deaths, it was only natural for his body to be afraid of another one. Even if he understood that he would be brought back to life by the loop, his body didn't. </p><p> 'Let's just get it over with.' </p><p> Arriving in front of an engraved wooden door, Sunny hesitated for a moment, then sighed and opened it. </p><p> Bright light washed over him the next instant. </p><p> ...There was a faint smell of incense in the air. </p><p> Taking a step forward, Sunny shielded his eyes with a hand and extended his shadow sense forward. He had expected to find a dreadful abomination waiting for the inside... but, to his surprise, there was no movement at all. </p><p> Lowering his hand, he looked at the final floor of Aletheia's tower. </p><p> It consisted of one large chamber. There were lanterns floating in the air all around it, emanating a warm glow. A pleasant smell of incense permeated the air. </p><p> The interior of the chamber was perfectly intact. A few pieces of simple, but tasteful wooden furniture stood on the tiled floor. </p><p> "Sunny." </p><p> Cassie pointed to the far side of the spacious room. </p><p> There, a wide bed stood, surrounded by a half-transparent silk canopy. </p><p> And on that bed... </p><p> A beautiful woman in an archaic robe was laying, her chest rising and falling steadily. </p><p> She was fast asleep.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1444.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1446.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

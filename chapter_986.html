@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 986</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 986 The Fall Of Falcon Scott 4</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Saint Tyris waited for a few moments, then spoke again:"Some of you have already faced one of these monsters.Master Sunless over there has even survived encountering four out of five..." </p><p> Without prompting, everyone in the room turned to stare at him, their expressions varying from pity to astonishment. He even heard a few whispers:"Four? And he's still alive?""That kid must be cursed or something.""Devil's own luck, ha..." </p><p> Sunny cleared his throat."Ah, yes. Using this moment, I might as well sincerely thank Army Command for giving me the opportunity to complete my collection and get to know the Winter Beast, as well." </p><p> A wave of laughter spread through the room. </p><p> Sky Tide gave him a stern look."I'll mark you as a volunteer, then." </p><p> Before Sunny could protest, she continued:"The first target is a swarm entity known as the Devouring Cloud. Our diviners were able to determine that it is not a powerful Nightmare Creature, per se, but instead the remains of one. The Devouring Cloud was most likely a Fallen Terror, one that had its main consciousness destroyed at some point in the past. The swarm of its brood remains, however, and that is what we need to counter." </p><p> She glanced at the Irregulars."Master Winter, considering your proficiency in ranged and area-of-effect attacks, you will be in charge of bolstering the city defenses when it comes to deflecting aerial threats." </p><p> Winter nodded. After explaining a few more details, Saint Tyris continued:"The second target is a creature that was designated as the Heart of Darkness. Not a lot is known about it, except for the fact that it is composed of numerous insect-like drones, wielding powers connected to elemental darkness and possibly spatial distortion. The knowledge of this being was brought to us by the First Irregular Company." </p><p> That would be Sunny and the members of his cohort, who had been diligently reporting everything about the enemies the convoy encountered during their visits to the Dream Realm. </p><p> Sky Tide looked in the direction of the four Irregulars."The Heart of Darkness has been present in the Antarctic Center since before the Chain of Nightmares. Its Rank and Class are unknown, but the current theory is that the Irregulars disturbed the creature's evolution to titan... if so, we might have avoided an even bigger disaster. In any case, the people most suited to deal with that threat are..." </p><p> She named three unfamiliar First Army Ascended. Apparently, their Aspects would work well against a myriad of murderous, darkness-infused beetles. Sunny was happy to hear that he would not have to face the damned insects himself again. </p><p> ...If things went according to plan. </p><p> "The third target was designated as the Terror of LO49. Once again, its exact Rank and Class are unknown, although the creature is most likely to be a Corrupted Terror. It is responsible for destroying the battleship Ariadne, as well as massacring the garrison of the LO49 installation. Master Sunless is the only known survivor of the attack, so he is the best person to inform us about this threat." </p><p> Sunny lingered for a few moments, then shrugged."There's not much to tell. The bastard hides underwater and kills people by luring them into the ocean with immensely powerful mind manipulation. It also places a mind hex on everyone else to make them ignore the victims. That is the pattern of behavior that I witnessed, which is not to say that the creature does not have other means of attack. You can read the details in the reports we submitted." </p><p> He thought a little, and then added:"If there is one strange thing about that Terror, it is that it emerged from the Gate alone. It does not seem to have an entourage of weaker Nightmare Creatures to defend it, either, which might be a vulnerability. Oh... also, there has to be some kind of limitation to its ability to wipe out large groups of people. Otherwise, it would not have waited weeks to kill everyone at LO49." </p><p> Sky Tide nodded."Saint Bloodwave, Master Naeve. Since the creature appears to be aquatic in nature, it is going to be your responsibility to hunt it down. The Terror cannot be allowed to approach the city." </p><p> The emissaries of the House of Night simply nodded....Sunny hoped that they had enough mind-protection Memories. </p><p> Meanwhile, Saint Tyris turned to the image of the Winter Beast. A hint of contempt appeared on her beautiful face."The Winter Beast... was recently confirmed to be a Corrupted Titan. I can't kill it, but I will contain it. Dealing with the creature will be my responsibility." </p><p> Many of the people in the room paled at the mention of the creature's Rank. Master Roan especially seemed to have a grave expression. </p><p> Ignoring the somber mood, Sky Tide turned to the last image."Which leaves us with the Fallen Titan Goliath, the creature responsible for the obliteration of Erebus Field. Do note that, as of now, we have only experienced its physical might. The exact nature of Goliath's powers is still unclear, so... we do not know enough to determine how to destroy him." Your f𝒂vorite stories on 𝒏ov𝒆lb𝒊n(.)c𝒐m</p><p> The Masters grew silent, staring at the frightening image of a stone colossus walking across a desolate landscape. </p><p> ...In that silence, there was suddenly a calm voice:"I'll kill Goliath." </p><p> Everyone turned around, staring at Sunny with confused expressions. He smiled."What? The bastard owes me a new armor. Plus, I've never killed a titan before... should be an interesting experience." </p><p> Most of them shook their heads."This is not a good time for empty boasts, kid." </p><p> Sunny shrugged."As good a time as any." </p><p> Saint Tyris studied him for a few moments, then turned away."In any case..." </p><p> Before she could finish, though, several communicators in the room notified their owners about a received message. </p><p> Sunny raised an eyebrow. That was... unusual. Falcon Scott was still in the area of effect of the Winter Beast, so there was no network connection anywhere inside the city walls. </p><p> There was a powerful communication array, though, connected via a chain of special relays to Eastern Antarctica. </p><p> Its bandwidth was very limited and mostly monopolized by Army Command - Sunny had to spend a considerable sum of contribution points to receive a small quota, which allowed him to get in contact with Rain. </p><p> Still, the quota was small enough for him to have to count symbols when composing messages, and instead of a constant connection, data packets were uploaded and downloaded twice a day, according to a strict schedule. </p><p> He glanced at his own communicator to check time. It was around ten in the morning in the Northern Quadrant, which, translated to local time, would be... nowhere near the scheduled activation period of the array. </p><p> 'Interesting...' </p><p> Even more interesting were the people who received the message. There were only three of them - Sky Tide,Bloodwave... and Soul Reaper Jet. </p><p> Saint Tyris read the message and frowned slightly. The other Transcendent sighed, then briefly showed his communicator to Naeve and hid it. Master Jet glanced at the screen and showed no reaction whatsoever, remaining in her usual relaxed pose. </p><p> Sunny hesitated for a moment, then leaned toward her and asked quietly:"What was that about?" </p><p> Master Jet glanced at him and shrugged."A Saint died this morning in the Dream Realm, while heroically defending a Citadel from some vicious Nightmare Creature. One of Valor's." </p><p> Sunny was taken aback a little. Saints did not die too often... </p><p> "Some vicious Nightmare Creature, huh?" </p><p> Soul Reaper smiled a little. </p><p> "Yeah... things are going to accelerate a lot now. Not that it matters to us here. For now..."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_985.html">Previous Chapter</a><a class="navigationButton next" href="chapter_987.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 901</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 901 Degrees Of Danger</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Well, actually, it was black. Shrouded in the darkness of the long night, Sunny rode north through the wailing hurricane of snow. To his eyes, which could see through any shadows, the snow appeared as light-grey, bordering on white. </p><p> The way back was not long enough to deal with thoughts and emotions raging in his heart, but luckily, Sunny had too many worries about the future to drown in the regrets of the past. </p><p> '...Doesn't matter, anyway.' </p><p> Verne was dead, and everyone else was also dead. None of the people Sunny had come to know in the past weeks survived. Now, all he could do was make sure that his soldiers, Professor Obel, and Beth did not share their fate. </p><p> That was not going to be an easy task. </p><p> Soon, the wreckage of the old war machine appeared in view. Sunny dismissed Nightmare, walked into the rusted metal frame and lingered for a few moments in front of the Rhino. </p><p> Then, he opened the hatch and climbed inside. </p><p> Quentin, Samara, and Belle were keeping watch, each of them tense and ready for battle. Noticing him, the Irregulars sighed with relief. </p><p> "Captain. You're back." Discover new 𝒔tories at n𝒐velbin(.)c/o𝒎</p><p> Sunny nodded. </p><p> "Did anything happen in my absence?" </p><p> Quentin shook his head. </p><p> "There were no Nightmare Creatures yet. Professor Obel and Miss Beth were both exhausted, so they're sleeping. We settled the Professor in your quarters. I hope you do not mind." </p><p> He remained silent for a moment, then added with a hint of melancholy in his voice: </p><p> "...Of course, we are keeping an eye on them. In case one or both have become carriers of the Spell." </p><p> Sunny did not particularly care about the accommodations at that moment, so he simply nodded. The first point of Quentin's short report was the most important. </p><p> 'No Nightmare Creatures, yet..." </p><p> That could change at any point. </p><p> In fact, he had taken a risk by allowing his soldiers to sleep and leaving the Rhino, even if one of his shadows had stayed back to observe the surroundings and be a potential exit point of Shadow Step. </p><p> Out here in the wild expanse of the Antarctic Center, it was Nightmare Creature country now. Hordes of them moved through the mountains, many spilling down onto the coastal plain. </p><p> A transient swarm could have stumbled on the cohort's camp at any moment, so it was not secure. </p><p> But security was a thing of the past now. </p><p> Before, he had had choices that were safe, and choices that were dangerous. But after leaving the protection of LO49 and its thick walls, he could only choose between different degrees of danger. It was all about calculating the probable risk. </p><p> ...Even then, with his [Fated] Attribute, such calculations were more or less useless. </p><p> Grimacing, Sunny covered his face with a hand and then rubbed it. He was too tired and numb to care right now. He needed rest, too. </p><p> "Well. I am going to take a nap, then. Wake me up if there's movement outside." </p><p> Since his comfortable bed was currently occupied by Professor Obel, Sunny climbed into one of the free sleeping nooks and closed his eyes. </p><p> How risky was it to fall asleep right now? </p><p> Before letting his consciousness plunge into the comfortable embrace of darkness, he summoned Saint and ordered her to guard the Rhino from the shadows. </p><p> That was all Sunny could do... </p><p> *** </p><p> The night never ended, and morning never came. When Sunny woke up, the world was exactly the same as it had been before. The raging blizzard enveloped the world, obscuring the cold dark sky. He had been pulled out of his dreamless slumber by the wholesome of a sleeping pod opening nearby. </p><p> Opposite him, a panel on the wall of the Rhino slid away, revealing a sleeping niche hidden behind it. Dorn's massive figure could be seen inside. The giant man had drawn a short straw when they were assigned the transport vehicle, since standard pods were a little bit too small for his prodigious body. Watching him climbing out of one was slightly comical, every time. </p><p> Sunny did not smile, though. </p><p> Making Sure that his shadows and Saint did not perceive any threat, he left his niche. Soon, Luster and Kim woke up, too. </p><p> "Quentin, Belle, Samara - you turn." </p><p> The three Irregulars could not wait to get some long-awaited rest. Their exhaustion and desire to sleep were so overwhelming that they did not even linger to listen to the report that their colleagues had brought from the Dream Realm. A minute later, all three were gone into the sleeping pods. </p><p> Sunny studied Kim, Luster, and Dorn. They looked much better than they had yesterday. Even though one night of rest was not enough to remove all the accumulated fatigue, Awakened were resilient creatures. </p><p> Sunny, who had only slept a few hours, felt utterly broken instead of rested himself. However, that feeling would pass soon. </p><p> "So?" </p><p> His soldiers glanced at each other. After a few moments, Dorn was the first one to speak. </p><p> "It's not good, Captain." </p><p> ...This time, Sunny did smile. </p><p> "Wow. Who could have thought." </p><p> The giant man nodded awkwardly, and then started the report. </p><p> "From what we were able to find out, East Antarctica is still under human control, but the Antarctic Center... it's all a big mess." </p><p> His face darkened. </p><p> "The Saints were eventually able to kill one of the Titans, but two more remain. A chunk of the mountain chain was destroyed in the battle, too. But that's not the worst of it..." </p><p> Sunny let out a frustrated sigh. </p><p> "Tust come clean with it." </p><p> Dorn looked down. </p><p> "The siege capital that our division was supposed to establish... it is gone. Wiped out of the map completely. The survivors, whoever remains - both soldiers and civilians - are in the process of trying to retreat to other strongholds. There's no organized First Army force left from here to Mount Erebus, sir" </p><p> Sunny remained silent for a long time, a resentful expression appearing on his face. </p><p> 'Just like that.' </p><p> Their four hundred kilometers journey... seemed to have just turned into a thousand kilometers journey.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_900.html">Previous Chapter</a><a class="navigationButton next" href="chapter_902.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

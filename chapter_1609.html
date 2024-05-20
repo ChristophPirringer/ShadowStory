@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1609</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1609 Reclusive Saint</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1609 Reclusive Saint </h4> <p> 1609 Reclusive Saint </p><p> White flames danced across the bone plain, incinerating the vermilion grass and the swarms of tiny abominations that had just been born moments ago. Unbearable heat assaulted the cohort of the Fire Keepers, and the air was suddenly full of swirling ash. </p><p> The eyes of their lady burned in the haze like two cold stars. </p><p> "Mounts!" </p><p> A whirlwind of ethereal sparks surrounded the cohort, soon forming into eight bestial Echoes. Each of them was unique, but shared a common trait — most of these Echoes were not powerful enough to be of aid in a fierce battle. However, they were fast and could be ridden, serving the Fire Keepers as mounts. </p><p> Many Masters spent considerable time hunting down suitable types of Dormant Nightmare Creatures to procure such Echoes. The braver ones hunted Awakened abominations, while some lucky ones even had Ascended beasts as their steeds. </p><p> Nephis was the exception to the rule, since the steel stallion she had summoned was an artificial Echo created by the enchanters of the Great Clan Valor. </p><p> Being the adopted daughter of a Sovereign had its advantages, even if the royal gifts came with an insurmountable cost. </p><p> "Forward!" </p><p> The eight Echoes formed into a wedge and rushed across the burning plain, swiftly moving south. The sea of flames parted in front of them, and then rolled forward, protecting the flanks of the formation. </p><p> Nephis rode at the head of the wedge, looking ahead with a focused expression. Her sword had changed form, turning into a silver lance. The Fire Keepers were ready for battle, too — despite the wall of fire that surrounded them, no one dared to lower their guard. </p><p> And for a good reason. </p><p> Soom, Shakti and Erlas — the archers of the cohort — drew their bows and let enchanted arrows loose. There were larger shadows moving behind the wall of flame, surrounded by ash, since the inhabitants of Godgrave had had more time to be born and grow here. </p><p> From that moment, their advance turned into a tense and perilous affair. Nephis sustained the rolling curtain of flame, preventing the cohort from being consumed by the red grass, and led the charge. The Fire Keepers met whatever Nightmare Creature the Death Zone threw at them with calm coordination. </p><p> There were no Great abominations on the surface of the ancient skeleton, at least not that soon after the white sky had wiped the slate clean. So, it was well within their ability to handle the onslaught of newborn monstrosities. </p><p> Granted, the Fire Keepers were far more able than most Masters. </p><p> It was to the point that Nephis had time to think without having to concentrate entirely on the battle. </p><p> After a while, she thought silently: </p><p> [Cassie.] </p><p> A few moments later, Cassie's voice resounded in her head, as if the blind seer was there, by her side, whispering into her ear: </p><p> [Yes?] </p><p> Cassie's powers had changed and grown after Transcendence, as well. Her Dormant Ability now allowed the blind girl to learn more about the people and creatures she perceived. Her Awakened Ability allowed her to sense longer into the future. Her Ascended Ability not only allowed her to perceive the world through other people's senses, but also to communicate with those she had marked. </p><p> So, Cassie was like a spider waiting at the heart of a vast web. Even Nephis did not know how many people throughout the two worlds were serving as her eyes and ears… just that there were many, scattered around both the waking world and the Dream Realm. Some of the spies in the blind seer's network were willing agents, while others did not even know that they had been marked. 𝒂ll new st𝒐ries at novelbi𝒏(.)c𝒐m</p><p> The latter consumed more of Cassie's soul essence, sadly. </p><p> Regardless, her ability to gather information was an incredible boon to them. It was just that… </p><p> Nephis frowned slightly. </p><p> The nature of her friend's power had changed subtly after the Third Nightmare. From what Cassie had shared, it seemed like her ability to receive visions of the future was compromised, somehow, making them strange and chaotic. Cassie herself had begun to act strangely, sometimes, as well. </p><p> Nephis was concerned. </p><p> Turning her steel steed slightly to avoid a large crack in the white bone, she thought: </p><p> [Tell me about this Lord of Shadows again.] </p><p> The man she had been sent to negotiate with was more than a little mysterious. There were many more Saints in the world now, true… however, it was still strange for an independent Transcendent to exist out there, especially one whose origin and background were entirely unknown. </p><p> Not to mention one powerful enough to not only survive in the Godgrave, but also make it his home. </p><p> Cassie remained silent for a few moments. Then, her voice resounded once again, whispering into Neph's ear: </p><p> [Not much is known about him, really. What we do now comes from a dozen Sleepers who were unfortunate enough to be sent to Godgrave last year. They were all rescued by a mysterious Saint and brought to a Citadel under his control. The Saint did not speak with them much, and was rather aloof. In fact, some of them even describe him as sinister and frightening.] </p><p> Nephis had already heard all of this, of course. However, there was no harm in going over what they knew once more, just in case there was some hint she had missed. </p><p> After a momentary pause, Cassie continued: </p><p> [He has to be strong, considering where his Citadel is located. The Sleepers also confirmed that his Aspect has to do with shadows, and that he commands several powerful Echoes. Apart from that, there's very little information about him. Instead of allowing the Sleepers to place their anchors in his Citadel, the Lord of Shadows escorted them out of Godgrave and sent them on the path to one of Song's strongholds.] </p><p> Nephis frowned. </p><p> [So he might be friendly with Clan Song?] </p><p> Cassie lingered for a bit. </p><p> [Both Valor and Song have their eyes on Godgrave. Considering that it is most likely to become the main battlefield of their war, how can they not? So, understandably, both Domains are very interested in a powerful Saint dwelling in the depths of this deadly region. Actually, Valor is not the first clan to try recruiting the Lord of Shadows.] </p><p> Neph's gaze darkened. </p><p> [Is it true? That they sent…] </p><p> Cassie's answer came swiftly: </p><p> [Indeed, they sent Mordert… well, one of his bodies, at least. However, he failed to persuade the Lord of Shadows to swear allegiance to the Queen of Worms.] </p><p> If the Prince of Nothing had succeeded, Nephis would not have been sent to find the reclusive Saint. But how had he failed? </p><p> [It is strange, though, isn't it? I doubt that Mordret would have simply accepted a refusal. He would have definitely tried to consume that Saint if persuading him was impossible.] </p><p> Cassie's voice changed slightly: </p><p> [That is the most interesting part. It is not confirmed, of course… but, from what we managed to learn… Mordret was actually defeated. His vessel was destroyed.] </p><p> Nephis took a deep breath. </p><p> 'Is there really someone else capable of defeating that monster?' </p><p> She had once fought against Soul Stealer, after all. So, Nephis knew better than anyone what Saint Mordret was really capable of… in fact, that man was no less of a plague than Skinwalker, whom most of humanity lived in constant terror of. </p><p> If Lord of Shadows was really capable of fighting against the Prince of Nothing… </p><p> Neph's calm grey eyes gleamed coldly as she contemplated the future.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1608.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1610.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

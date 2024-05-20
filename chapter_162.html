@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 162</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 162 Lost From Light</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 162 Lost From Light</h4> <p> Pushing the knife into Harper's weak body, Sunny lunged forward. The flimsy wooden table flew aside and shattered into splinters once it hit the wall. With his other hand, he violently grabbed the young man's face and pressed him onto the floor, making sure that no sound would escape from his lips. </p><p> Harper's wide eyes were full of pain and terror, staring at Sunny with a silent, but deafening question. </p><p> …Why? </p><p> Feeling hot blood streaming down his hand, Sunny finally let the pain of the Flaw overwhelm him. </p><p> His whisper was hoarse and barely audible: </p><p> "Lost from Light! I am… Lost… Lost from Light…" </p><p> Harper's trembling fingers found his face and smeared it with blood, which then mixed with tears. He weakly tried to push Sunny away, but there was no strength in his arms anymore. </p><p> Biting his lips hard enough to break the skin, Sunny held the gaunt young man down and twisted the knife, praying for all of this to be over soon. </p><p> 'Don't look at me… please, don't look at me…' </p><p> Finally, Harper's terrified, accusing eyes grew still and lightless. Sunny could feel the beating of his heart stop through the thin fabric of the young man's robe. Making sure that Harper was, indeed, dead, he finally let go of the knife and crawled away. </p><p> 'Oh, gods…' </p><p> As though summoned by these words, the voice of the Spell whispered into his ear: </p><p> [You have slain Dreamer Harper.] </p><p> [Your shadow grows stronger.] </p><p> Contorted in a painful spasm, Sunny bent over and violently threw up. Then he weakly fell on the floor and tried to wipe his face, only to realize that he was spreading blood all over it. </p><p> 'I killed him. I just killed a real human...' </p><p> A strange stillness took hold of Sunny. Sitting on the cold stones, he stared at the corpse of the young man that he had just killed and struggled to form a cohesive thought. After a while, he finally succeeded: </p><p> 'Too much… oh, this is too much…' </p><p> All of this was too much for him. Why did he have to go through all of this? The slave caravan, the Forgotten Shore, Changing Star, and now Harper. What sin had he committed to have to go through this nightmare? Was he actually already dead, and imprisoned in the depths of hell? </p><p> '...Bullshit. He deserved it.' </p><p> Sunny gritted his teeth and forced himself to concentrate on that thought. </p><p> 'Why do you even feel guilty? The bastard was going to sell you out to Gunlaug. He knew that he was helping to kill you. And not just you alone. Neph, too. And Cassie.' </p><p> But no matter how hard he tried to convince himself that he had the right to kill Harper, deep down, he could not accept it. There were a million ways to deal with the timid, pitiful spy. No… there was another reason… </p><p> 'Come on now… there's no one else here. Why don't you be honest with yourself, for once? Just admit it. Don't you dare become a hypocrite.' </p><p> Sunny grimaced and ground his teeth against each other. </p><p> 'Say it!' </p><p> Reluctantly, he opened his mouth and whispered: </p><p> "I killed him because I wanted to survive. I killed him… because it was easy." </p><p> And just like that, he suddenly felt better. </p><p> What's the big deal? He was already a murderer, anyway. </p><p> He was planning to help Nephis kill hundreds of people. </p><p> Affected by the irony of the situation, Sunny barely stopped himself from laughing. </p><p> He didn't want to make too much noise. Breaking that table was already a mistake. What if someone comes to check on the commotion? </p><p> That would be bad. That would be embarrassing. </p><p> Right… what was he going to do with the body? </p><p> Instead of coming up with an answer, Sunny leaned forward and threw up again. </p><p> …When he sat straight after a while, the door of the hut was open. </p><p> And there, in the doorframe, his face pale, stood none other than Caster. </p><p> With a stunned expression on his face, the proud Legacy was taking in the sight. The broken table, the smell of alcohol in the air, the bloodied body with a knife sticking out of its chest, and disheveled Sunny kneeling on the floor, his hands and face smeared with fresh blood. </p><p> 'Oh, no!' </p><p> "This… this is not…" </p><p> However, no words came to his mind. No matter what he would say, the situation was not going to appear any better. </p><p> Looking him straight in the eyes, Caster asked with horror in his voice: </p><p> "Sunny… what did you do?" </p><p> *** </p><p> Sunny blinked and stared at the handsome young man. After a few moments, he opened his mouth and said: </p><p> "What do you think? I killed the bastard." Ch𝒆ck out l𝒂t𝒆st 𝒏𝒐v𝒆l𝒔 on nov𝒆lbin(.)c𝒐m</p><p> His voice was calm and nonchalant. It didn't matter how Sunny felt inside. In front of Caster, he couldn't show any weakness. </p><p> He didn't trust the proud scion of the Han Li clan one bit. There had always been something off about him. </p><p> So… if there was ever a time for acting, it was now. Especially because, unlike everyone else in the slum, Caster already knew that Sunny wasn't as useless as everyone believed. He had known it ever since that night when the three of them fought a devil together. </p><p> "Killed the… why did you kill him?!" Do you want to read more chapters ? Come to Panda-novel,com </p><p> Sunny stood up and shrugged. </p><p> "He was asking too many questions." </p><p> Caster opened his mind, stunned, then closed it again. After a few moments, he suddenly frowned: </p><p> "What kind of questions?" </p><p> It seemed as though he had realized something. </p><p> …Come to think of it, what was he even doing here? </p><p> "Oh, you know. Do I know Nephis well, what her Ability is, how did she get her True Name, stuff like that." </p><p> Without giving Caster the ability to react, Sunny wiped his hands with a bit of seaweed and added: </p><p> "Actually, this guy, Harper, was sent over to spy on us by Tessai. I caught him making a report to a Castle Guard officer this morning." </p><p> Caster remained silent for a while, then asked quietly: </p><p> "Do you have any proof of that?" </p><p> Sunny glared at him and raised an eyebrow. </p><p> "...Is my word not proof enough?" </p><p> A wild thought suddenly appeared in his mind. </p><p> 'Will I have to kill Caster, too?' </p><p> Would he even be able to, if it came to that? </p><p> Not likely. </p><p> "Why, you don't believe me?" </p><p> Bad, bad. The situation was really bad. Depending on Caster's next words, Sunny could find himself in a sea of trouble. And he was powerless to do anything about it. </p><p> Anxious and uneasy, he stared at Caster. </p><p> The proud Legacy lingered. After a while, he came inside and closed the door behind him. </p><p> "No, I believe you. Actually, I suspected this kid myself. That's why I came here after hearing that the two of you were seen going somewhere together. But, Sunny… the others… the others might not think the same." </p><p> He smelled the air and grimaced. </p><p> "I am sorry to say that, but you have a reputation for having a bad temper. With alcohol added into the mix and no proof to connect Harper to the Castle… you can see how this does not look good." </p><p> 'That piece of crap!' </p><p> Sunny scowled, trying to pretend that he was calm. He saw where this was going... </p><p> "So? What are you going to do?" </p><p> Caster gripped his shoulder. Then, in a serious and grave voice, he said: </p><p> "What else? I will help you conceal everything, of course. We are comrades, after all. But, Sunny… no one can ever know what you have done here. Especially Lady Nephis. This will be… this will be our secret. Alright?" </p><p> Saying that, he looked Sunny right in the eyes... and smiled.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_161.html">Previous Chapter</a><a class="navigationButton next" href="chapter_163.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

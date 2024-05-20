@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 280</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 280 One Last Job</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 280 One Last Job</p><p>Some time later, Sunny emerged from the ruins of the cathedral with a rucksack on his shoulder, took one last look back, and left.</p><p>Whatever his future was going to be, he doubted that he would come back here any time soon.</p><p>It was a bittersweet goodbye.</p><p>Cautiously walking through the familiar streets of the Dark City, where he knew every turn and every piece of rubble — in this district of it, at least — Sunny kept his guard up. Many things must have changed in the months he had been away traveling through the Labyrinth.</p><p>The Nightmare Creatures he knew and, more importantly, knew how to avoid might have wandered away or perished, and new horrors might have taken their place. He had to stay prudent and careful.</p><p>But still, his next and final goal was not that far away.</p><p>As he sneaked toward it, Sunny thought about the Weaver's Mask and the ways it could change his life. At first, he thought about simply never taking it off and walking around while delivering a deluge of lies. This way he would be safe from revealing his most guarded secret and becoming someone's slave, at least.</p><p>But after considering this seriously, he came to the conclusion that it was not the best decision in his current circumstances.</p><p>First of all, one couldn't be a part of any collective while lying all the time. Sunny had an unpleasant experience of being expelled from various groups for various reasons, and not being sincere and honest was one of the surest ways to make people want to avoid you at all cost… eventually, at least.</p><p>And no one was able to survive alone in the Dream Realm. Not in a way that a person would want to live, anyway.</p><p>Sunny knew a lot about this side of things, too.</p><p>But most importantly, he was not going to be able to keep this lying for long, anyway — not when dealing with people that already knew him. Kai and Cassie would notice the strange effect of the mask immediately: Kai because of his Ability to sense lies, Cassie because her Ability to see Attributes would suddenly stop working.</p><p>But others would catch on that something strange was going on with him pretty quickly, too, simply because of how drastic the change in his behavior would be. Especially Nephis, who knew him so well.</p><p>After that, they would inevitably have a lot of questions, and answering those questions — even with lies — would put him in more danger than he already was in.</p><p>So, sadly, Weaver's Mask was not a panacea to Sunny's current situation. At best, it would be able to help him avoid certain predicaments if used sparingly.T/his chapter is updat𝓮d by nov(ê(l)biin.co/m</p><p>But really, he didn't want anyone to know that he was in possession of that Memory at all. Sunny had to think of the future.</p><p>If he was lucky enough to survive the fall of the Bright Castle and return to the real world… that was where the black mask could create miracles for him. It would allow him to have a hidden persona that was in no way connected to an Awakened named Sunless, and as such, allow him to do and achieve things that would have been impossible or too dangerous to try as himself.</p><p>To that effect, no one could know that the strange black wooden mask was connected to him, not even people whom he… somewhat… trusted.</p><p>Both for his own good and theirs.</p><p>'It is such a pity, though.'</p><p>It was. Just imagining Caster's face if he were to ever learn about what type of treasure Sunny had somehow found this time was tempting enough to change his plans.</p><p>Caster…</p><p>Sunny's face darkened.</p><p>He had not forgotten about the promise Nephis had made him at the start of their journey to the Hollow Mountains. Tomorrow, he was finally going to learn what was the deal with the proud Legacy, and what exactly the relationship between Changing Star and him was.</p><p>…And how big were the chances of Sunny having to face Caster in battle.</p><p>Despite all his dislike for the handsome scion of the Han Li clan, Sunny was reluctant to actually fight him. No matter how much progress he had made to get ready for the bloody conclusion of this disastrous chapter of his life, Caster was still not someone to be taken lightly. He was a tremendously deadly opponent just based on what Sunny knew about him.</p><p>And there were secrets that the Legacy had been keeping, as well.</p><p>'That charm of his… what does it do?'</p><p>He was certain that he would defeat Caster if push came to shove. But the cost he would have to pay for that victory would be heavy... perhaps much more heavy than he was willing to pay.</p><p>Suddenly uneasy, Sunny silently shook his head and continued on his way.</p><p>As the sun began to roll toward the western horizon, he approached his goal — the ruins of an ancient library that stood lonesomely among the decimated buildings.</p><p>Back near the end of his lonely months of hunting monsters on the streets of the Dark City, Sunny had begun exploring this ruin for bits of information about the history of the Forgotten Shore. Because of his chance encounter with the Stone Saint, and then with Kai — which lead to him abandoning the ruins for a long expedition into the Labyrinth — he had never finished this project.</p><p>There was this one vast mosaic, in particular, that Sunny was interested in. It sprawled across the entire floor of the library's main hall and was mostly covered by rubble.</p><p>In the past, Sunny was not strong enough to move the rubble out of the way. He had been hoping to make the Stone Saint do it for him, but sadly, the Shadow was currently slumbering in the depths of his Shadow Core, evolving into whatever it was she was going to turn into.</p><p>Just to be sure, he checked one more time to see if the mysterious process was still going, and sighed in disappointment.</p><p>Luckily, he had grown much stronger himself during these months. Sunny was pretty sure that now, he would be able to clear the mosaic with his own two hands.</p><p>It was just going to be a lot of work.</p><p>Sending his shadow into the library to make sure that no abomination had made its nest there during his absence, Sunny entered its cool shadow of the ruin and sighed.</p><p>'...Better get started.'</p><p>Soon, the scraping sound of heavy boulders being moved could be heard under the partially collapsed roof of the ancient building.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_279.html">Previous Chapter</a><a class="navigationButton next" href="chapter_281.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

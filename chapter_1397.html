@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1397</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1397 Wishful Thinking</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1397 Wishful Thinking</h4> <p> Soon, the Chain Breaker was swallowed by the mist. The winds had grown stronger, making the folds of Sunny's nebulous mantle flutter. Feeling drops of water fall on his face, he sighed and looked at Cassie. </p><p> "Go." </p><p> She lingered for a moment, then rushed away to replace Nephis at the steering oar. Sunny was left alone on the bow, looking into the mist with a dark expression on his face. </p><p> 'Effie, Jet...'Both of them were still alive. They had to be. </p><p> But how could they? </p><p> The Third Nightmare was not easy to survive. And these two... they, of all people, would have found it impossible to cling to life while stranded for more than a year on an isolated island. </p><p> Jet could only exist by killing living beings to replenish her constantly dwindling essence, after all. Effie was a slave to inhuman hunger. Without access to a great amount of food, she would swiftly wither and die. </p><p> How many foes to kill could there have been on a hidden island, and how much food? </p><p> 'No... don't think about that.' </p><p> The crow Echo still existed, which meant at least one of them was still... </p><p> "That crow has always been a bit strange, though. Much too animated for a simple Echo. Perhaps it has something to do with Wake of Ruin... so who's to say that it can't exist without a Master?" </p><p> Sunny threw a dark glance at the Sin of Solace, who grinned in response. </p><p> "Admit it, they are both probably dead already. Ah, how sad... they were slowly starving to death while you were having fun with Nephis on the dark island. You really took it easy back then, at the beginning, didn't you?" </p><p> Sunny looked away and gritted his teeth. The sword wraith simply laughed. </p><p> "Come to think of it, your friend Kai is most likely dead, too. Even if the Nightmare Creatures did not kill him, Mordret surely did. He is probably walking around now, wearing Kai's corpse right as a luxury brand suit. Well... it's for the best. You have always been jealous of that guy, anyway. The insecure little wretch that you are." </p><p> The surface of the Great River was growing restless. The waves were already much taller than before, making the bow of the Chain Breaker sway. Feeling the deck rise and fall beneath him, Sunny closed his eyes for a moment. </p><p> "...That's not true. Kai has Anvil's charm - I gave it to him. Mordret can't possess someone wearing that charm." </p><p> The Sin of Solace stared at him for a few moments, a mocking smile on his lips. </p><p> "The charm, right... it protected Welthe really well, huh?" </p><p> Snarling, Sunny turned around and prepared to rebuke the apparition, but at that moment, a calm voice resounded from behind them: </p><p> "Are you talking to your sword again?" </p><p> He flinched and looked back. Neph's slender figure slowly revealed itself from the mist, two pristine white sparks burning in her cold grey eyes. He hesitated for a moment, then nodded silently. </p><p> Stopping once she reached him, Nephis looked into the mist and said, her voice even: </p><p> "I believe that they are all alive, too." </p><p> A bitter smile appeared on Sunny's lips. </p><p> "Sure... but it seems like wishful thinking, doesn't it?" </p><p> People were not immortal. He had lost enough comrades to know how ruthless this world they lived in was, so wasn't it a bit naive? To stubbornly cling to hope after Antarctica... </p><p> Nephis shook her head. </p><p> "On the contrary. I think there is a valid and logical reason to believe that all members of the cohort are not dead yet." </p><p> She put her hand on the hilt of her sword and said calmly: </p><p> "The Six Plagues exist. They are most likely the future versions of the six of you... therefore, none of you is likely to be dead in the present. Otherwise, their existence can't be explained." </p><p> Sunny hesitated for a moment, then nodded. </p><p> "That is... strangely reassuring, in a morbid kind of way. You can't die yet because you're destined to become a Defiled monster, huh? What a paradox." </p><p> Neph's logic assumed that the future was predetermined. If so, there was no way that Effie and Jet were gone. However, that also meant that there was no way for the six of them to avoid killing her and becoming the Six Plagues... which made this whole endeavor meaningless. </p><p> If the future was not predetermined, though, then the cohort could potentially write a different ending for themselves and the Nightmare. Yet it also meant that there was no reason to believe that the rest of the members were still alive. </p><p> Sunny knew that fate could hardly be changed... but he also knew that it did not govern every small occurrence and event. The details of what happened, and how it did, could be altered - it was just that the end result almost always remained the same. Sooner or later, all deviations were proven meaningless, failing to change the grand design of the future. </p><p> It was easier to change fate inside of a Nightmare, as well, due to its fragmented and isolated nature. Plus, the Great River was a strange place. </p><p> Who was to say that their fate wasn't to become the Six Plagues, only for their younger selves to slay them and conquer the Nightmare unscathed? </p><p> 'Ah. My head hurts.' </p><p> He rubbed his face. All this stuff - the paradoxical nature of the Great River, the unreliable future, the greater tapestry of fate - were too strange and irrational for a human mind to comprehend. The best they could do was just try to do their best at the moment and strive to reach the desired outcome, ignoring the confusing reality of the Tomb of Ariel as much as possible. </p><p> ...The winds were growing stronger. The branches of the sacred tree swayed, rustling worriedly. The swaying of the deck grew more pronounced. </p><p> A thick mist enveloped everything in sight. </p><p> "Hey, Sunny..." </p><p> He looked at Nephis, surprised by her strangely candid tone, and raised an eyebrow. </p><p> ...Knowing her, some ridiculous statement was about to follow. He was not going to be fooled into listening to her apologize for his projector twice. </p><p> But Nephis was perfectly earnest: </p><p> "There is nothing wrong with a bit of wishful thinking. We will find them both alive. I'm sure of it." Gêt the latest ch𝒂pters on n𝒐velbin(.)com</p><p> At that moment, the wind slammed into them like a ram, making both sway. </p><p> Raising a hand, Sunny caught Nephis and helped her steady herself. At the same time, he used the Feather of Truth trait of the Shell to increase his weight and ground himself more solidly on the deck. </p><p> The two of them remained silent for a few moments, looking into each other's eyes. Then, Sunny smiled. </p><p> "Alright, Neph... I'll believe you, this time."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1396.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1398.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

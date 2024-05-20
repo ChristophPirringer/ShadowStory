@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 574</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 574 Black Altar</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Before the gates of the temple, a large hall stood, submerged in darkness. The air was permeated with the smell of rot, and at least a dozen of eviscerated bodies lay on the cold stones, staring into nothingness with their empty eyes. </p><p> Sunny had long become accustomed to such sights, so he wasn't too bothered by it. The implication, however, left him feeling cold. </p><p> 'Damnation…' </p><p> He entered the hall, both Saint and the Serpent emerging silently from his shadows. Cassie followed, gripping the hilt of the Quiet Dancer so hard that her fingers turned white. </p><p> Sunny walked over to the nearest corpse, held his breath, and knelt beside it, studying its wounds. Then, with a grim expression, he moved over to the next one and did the same. </p><p> It took him some time to check on each of the slain Lost, and by the end, his eyes were full of darkness. </p><p> The blind girl remained silent for a few moments, then asked, her voice tense and trembling: </p><p> "...How did they die?" </p><p> He lingered for a second, then shook his head. </p><p> "Sword wounds." </p><p> Each of the fallen sentinels was killed with one precise, fatal strike. However, most of them were terribly mutilated and covered in multiple wounds — none of them lethal, but all aimed at inflicting the maximum amount of pain. </p><p> The killer, whoever it was, wanted his victims to suffer before they died. </p><p> Well… Sunny was pretty sure that he knew who the killer was. </p><p> Mordret. The man — or thing — that he had set free. </p><p> It seemed that the Prince of Nothing had a sadistic streak about him. </p><p> …But that wasn't the problem. </p><p> From everything that Sunny had learned before, he assumed that Mordret possessed a bizarre and powerful Aspect that allowed him to deal either mind or soul damage to other living beings. That made him extremely dangerous. </p><p> The prerequisite for this Ability seemed to be looking the prisoner of the Night Temple in the eyes… which was good, since both Sunny and Cassie could naturally counter it — Sunny by fighting with his eyes closed, Cassie by simply being blind. </p><p> However, these Lost had clearly died in a ferocious and bloody melee. That meant that, on top of everything else, Mordret was a fighter of incredible skill… skilled and powerful enough to not only kill a dozen experiences Awakened with a sword, but also to play with his victims before he did. </p><p> Just how was Sunny supposed to win against someone like that? </p><p> He sighed, then walked past the corpses and approached the gate. </p><p> Master Welthe had told them that the Citadel was sealed, and no one except for Saint Cormac would be able to open it. However… Sunny had to check for himself. </p><p> He wrapped all three shadows around his body and tried to push open the gates, but to no avail. The heavy doors didn't budge even when Saint joined him. None of the keys their jailers had carried were of any use, too… there wasn't even a keyhole to insert them. </p><p> Sunny looked beneath the surface of the gates, hoping to see the same type of primitive weave he had seen in the door of the Ebony Tower. But there was none. </p><p> "Curse it." </p><p> He gave the gates a good kick, then turned around and walked back to Cassie in frustration. </p><p> "...I guess we aren't getting out of here until the Saint arrives." </p><p> Which would happen in a week, at the earliest. </p><p> Would they even be able to survive that long? </p><p> The blind girl frowned, then asked with uncertainty: </p><p> "Where to, then?" </p><p> Sunny thought for a few seconds.</p><p> Since they were already stuck in this damned place… why not try and accomplish the task they had come here to complete, in the first place? T/his chapter is updat𝓮d by nov(ê(l)biin.co/m</p><p> "...Let's go check on the Gateway." </p><p> Perhaps the ivory knife was still there, somewhere. </p><p> Leaving the scene of the cruel massacre behind, the two of them headed deeper into the stone bowels of the Night Temple. </p><p> *** </p><p> It took them a long time to cross the outward ring and enter the central temple. The distance itself was not that considerable, but the bizarre interior of the cathedral was disorienting and sprawling, resembling a vast, convoluted maze of black stone. They also had to remain cautious and move slowly so as to not walk into an ambush. </p><p> The darkness, silence, and eerie emptiness of the deserted Citadel were slowly stretching their already tense nerves. Both Sunny and Cassie had not recovered from their ordeal completely, so they had to stop and rest a couple of times, drinking water and eating small amounts of synthpaste. </p><p> They also encountered more morbid remnants of the struggle that had been going on inside the Night Temple while they were slowly dying inside the cage — rotting corpses of the Lost, signs of bloodshed and destruction, as well as things that were too strange and vile to be explained by any kind of sane logic. </p><p> It was as though they were traveling through the workshop of a mad butcher. </p><p> With each minute that passed, Sunny grew more and more grim. </p><p> For the first time since this whole disaster started, he actually began to question the moral implications of what his actions had led to. Even if he had been an unwilling accomplice, Mordret only managed to escape because of him. </p><p> Had Sunny accidentally released an unspeakable evil upon the world? </p><p> He wasn't sure how to feel about that. On one hand, he didn't really care about the world… but on the other hand, Sunny didn't like to leave behind a mess without cleaning it up. It was just basic decency. </p><p> A bit conflicted, he sent the shadow ahead, made sure that everything was fine, and finally led Cassie into the grand hall of the Night Temple. </p><p> This place was both magnificent and uncanny. It was vast and full of darkness, reminding him of his home in the Dark City... the only difference was that this tenebrous cathedral was built upside down. </p><p> Far above them, the ceiling was flat and stretched into the distance. The floor, on the contrary, arched downward like a giant bowl, with load-bearing stone seams protruding from it like bridges and roads. The hall was silent and somber, and absolutely empty. </p><p> In its center, there was a wide stone platform. It was covered in rubble, large pieces of black obsidian laying in piles where the black altar had once stood. </p><p> 'They really destroyed it…' </p><p> Sunny stared at the shattered altar, still not quite believing that the Gateway was really obliterated. </p><p> What madness was this? </p><p> They lingered for a few moments, and then descended toward the platform. There, Sunny spent some time sifting through the rubble, hoping to find the ivory knife. </p><p> But it was nowhere to be found. All he found was broken obsidian, and pieces of Storm God's shattered statue. </p><p> Either the knife had never been there, to begin with, or Mordret had gotten to it first. </p><p> 'Curse it!' </p><p> Sunny turned the head of the statue, looked beneath it, and then stood up, staring into the empty eyes of the dead goddess with dark fury. </p><p> 'Damned liar… a prince of lies, that's who he is!' </p><p> As he was boiling with rage, Cassie suddenly took a step forward and touched him on the shoulder. </p><p> Then, she pointed toward the other end of the grand hall and whispered: </p><p> "I hear footsteps. Someone… someone is coming." </p><p> Sunny stared into the darkness, his hand itching to summon a weapon. His eyes gleamed dangerously. </p><p> "...Let them come."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_573.html">Previous Chapter</a><a class="navigationButton next" href="chapter_575.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

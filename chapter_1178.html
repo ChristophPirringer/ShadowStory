@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1178</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1178 Long Drive</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1178 Long Drive</h4> <p> Although both clans were assembling their armies with urgent haste, it was not an easy thing to move a military force across East Antarctica. The wilderness was infested with countless abominations, and Nightmare Gates were everywhere, making every route slow and dangerous. </p><p> Clan Valor was in a slightly better position because they had coincidentally pulled most of their forces together prior to Mordret's revelation, in order to destroy a migrating horde of Nightmare Creatures. Still, there were many warriors and assets that had been left behind in the siege capitals, who now had to join the main body of the great clan's contingent. </p><p> There was Saint Tyris, for example... the fact that Dire Fang had been able to join Silent Stalker in ambushing Whispering Blade proved that she alone was not enough to contain the enemy Transcendent, so there was no point in keeping her in a distant government siege capital. So, Sky Tide had been recalled, and was en route to join the war party. </p><p> There were other Squires and even Knights that had to be summoned, as well. Foll0w current novÊls on nov/3lb((in).(co/m)</p><p> So, for the first few days, progress had been slow. Most of the mundane personnel had been left behind, and now only the Awakened were following Morgan toward the fateful Nightmare Gate. Nevertheless, their number was too great to pass unnoticed, and so, skirmishes with Nightmare Creatures happened almost every hour. </p><p> Many of these skirmishes threatened to grow into something more serious if not resolved swiftly. In these cases, either Morgan's Echoes or one of the Saints joined the melee to prevent the small-scale confrontations from becoming dire battles. </p><p> Sunny was not required to participate in them, of course. Actually, he found himself in a somewhat awkward situation. </p><p> No one had really invited him to join the expedition, and his status was more vague than ever. Officially, he was the government's envoy whose duties concerned the cooperation between Clan Valor and the Evacuation Army. However, the great clan had more or less abandoned the pretense of being in the Southern Quadrant to help, and was acting against the government's interests. </p><p> So what was an envoy supposed to do in that situation, exactly? Why was he even needed? </p><p> Sunny did not have a good explanation, but luckily, no one asked. Whether it was because the warriors of Valor couldn't be bothered or simply did not care, he did not know... in any case, they mostly left him alone. </p><p> In fact, Sunny was basically ignored. Even Morgan seemed to have forgotten about his existence, which was not too surprising - she had much bigger issues to worry about than the whereabouts of a neutral government Ascended. </p><p> So, Sunny simply stayed in one of the APCs assigned to the Fire Keepers. The Fire Keepers themselves were gone, though - most of them had already entered the Seeds - so he had the vehicle all to himself. Nephis and Cassie would appear from time to time to catch a few hours of sleep, but other than that, he remained alone. </p><p> That gave him a lot of time to think. </p><p> Sitting in the pilot's seat and driving the APC across the hellish remains of Antarctica, which looked much more like a piece of the Dream Realm now than that of the waking world, he somberly considered the past. </p><p> It was funny, really. </p><p> Sunny had come to Antarctica to pursue his personal goals, not caring much about anything else. But now, he somehow ended up caring about the mission of the Evacuation Army enough to disregard his personal interests. </p><p> He used to mock selfless people, but now, he was ready to do something selfless at a great cost to himself. </p><p> Was it like that? No, not really. In the end, everything Sunny did was for himself. He was not trying to protect the refugees because it was the right thing to do or out of some kind of moral obligation. He was doing it simply because he wanted to. That was his desire. </p><p> He was just trying to fulfill his own desires. </p><p> Sunny had wanted to survive at all costs once, but then, it was not enough anymore. He had wanted to be strong once, but now, it was not enough anymore, either. </p><p> He had strength, but what was the point of having strength if he couldn't achieve what he wanted with it? </p><p> What Sunny really wanted now was to use his strength to shape the world in a way that suited his wishes. Shaping reality with strength... </p><p> That was power. </p><p> So, was he lusting for power now? </p><p> Controlling the APC, Sunny frowned. </p><p> Then what about freedom? </p><p> That had been his real goal all along, after all. Coming to Antarctica was a means to achieve that goal, but instead, he found himself bound to more people, more places, more things... he was more restricted now than he had ever been. </p><p> Before, what had restricted him were circumstances beyond his control. Now, he was bound by his own desires. </p><p> '...On second thought, it's not that funny.' </p><p> Sunny now understood better than ever why the Demon of Desire had been one of the most powerful among the daemons, second to none... except for Weaver. </p><p> But was it really a bad thing? </p><p> So what if he was compelled by the things he wanted? So what if he was bound to people, ideas, and values? </p><p> Maybe it was not a bad thing, after all... simply because he had chosen these bonds himself. </p><p> Sunny understood that, and yet, a small part of him rebelled against such thoughts. </p><p> That part still wanted to be unrestrained and not beholden to anything. </p><p> To be free. </p><p> ...That part had to take a backseat for now, though. </p><p> Because he had to finish what he had started. Even if it was futile, Sunny had to do his best to see the evacuation of the citizens of Antarctica through. </p><p> After that, well... he would see what else there was to do. </p><p> His dreams seemed more distant than ever, but strangely enough, Sunny found himself calm and determined. His mind was set. </p><p> Maybe that was the true conviction. </p><p> ...The thought made him uncomfortable.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1177.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1179.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

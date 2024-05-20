@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1601</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1601 Esteemed Guest</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1601 Esteemed Guest</h4> <p> 1601 Esteemed Guest </p><p> Sunny froze for a moment, then smiled politely. </p><p> "Ah. In that case, it seems I'll be busy in the kitchen soon." </p><p> His face did not betray any emotions, but he was a bit rattled on the inside. </p><p> 'What is up with today?' </p><p> He had wandered the Dream Realm alone for about three years after becoming a Saint, only returning to the embrace of civilization a year ago. So, the Brilliant Emporium had not been open for too long. In that time, Sunny had brushed sides with some members of the cohort, but it did not happen often. </p><p> And definitely not in any kind of meaningful way. </p><p> Which was how he preferred it. He was being contradictory in that desire, perhaps — after all, the very reason Sunny had chosen to open his shop in Bastion was because many of his old friends were here. Well… there was another reason, as well, but that was the deciding factor. </p><p> Still, while he could maintain a level of nonchalance while meeting people like Teacher Julius or the Irregulars, it was different with his former companions. Being close to them was both sweet and painful… but mostly painful. Which was why he both yearned to see them and preferred to avoid them at all costs. </p><p> Sunny knew that getting closer to the cohort members would only bring him anguish and torment. Nevertheless, he was sometimes tempted to abandon reason and ingratiate himself into their company once again. </p><p> Luckily, in the end, reason always won. </p><p> In any case… </p><p> Calm down. You brought this on yourself, anyway. </p><p> Not only was the Brilliant Emporium bound to attract the attention of local powerhouses eventually, but there was also Aiko. </p><p> There were less than a hundred survivors of the Forgotten Shore alive now, and she was one of them. Many of the Fire Keepers were on friendly terms with her, so they visited her place of work often. </p><p> Sadly, that did not translate into Memory sales — as the elite battle force led by Nephis, they not only had access to the best weapons and equipment the Great Clan Valor could supply them with, but also spent most of their time on calamitous battlefields, earning plenty of powerful Memories of their own. </p><p> …Kai and Effue were among Aiko's friends, too. That was how Sunny had established the partnership with the Beast Farm, in the first place. </p><p> He sighed and beckoned Little Ling's Dad. </p><p> Please come in. I'll pour you something cold and refreshing while you wait. </p><p> The two of them carried the ingredients into the kitchen, witnessing a peculiar scene. Little Ling was giggling as he jumped around like a rabbit, reaching his small hands toward Aiko. The petite girl, meanwhile, had sought refuge at high altitude and was floating near the ceiling with a distressed expression on her face. </p><p> Auntie! Auntie! Come down! </p><p> She threw a resentful glance at Sunny, sighed, and glided to the floor. Catching the little boy, Aiko nimbly spun him around and then patted him on the head. </p><p> Here, here. I'm down. How about we get you some ice cream, wolfie? Just… be a good boy! </p><p> The rascal immediately put on a subdued expression and looked at her with his huge eyes. </p><p> His entire being expressed nothing but well-behaved obedience. </p><p> "Little Ling is a good boy." </p><p> At the sound of his solemn voice, Aiko couldn't help but smile. </p><p> "Alright. Then, let's go…" </p><p> Soon, the little boy was sitting at one of the tables and happily swinging his legs in the air. In front of him was a bowl of ice cream, adorned with freshly cut strawberries… the ice cream was disappearing with a frightening speed. </p><p> His dad, meanwhile, was drinking a glass of cold lemonade as he watched the street through the window. </p><p> Sunny was looking at the contents of his icebox, wondering if there would be anything left for other customers after Effie was done plundering his cafe. </p><p> Soon, he heard the sound of the Silver Bell ringing, and an excited yelp: </p><p> "Mommyyyy!" All 𝒍𝒂test nov𝒆l𝒔 on novelb𝒊n(.)c𝒐m</p><p> Then, there was a sound akin to a torpedo hitting the hull of a warship, and the entire Marvelous Mimic shook. Dust spilled from the ceiling. </p><p> Letting out a sigh, Sunny turned around and left the kitchen. </p><p> Effie was perhaps the only person who could withstand the full force of Little Ling's excited pounce without being pushed back or reeling. She had easily caught the brat and raised him into a tight hug, laughing. The boy was hanging from his mom's tall body like a monkey. </p><p> "Hey there, dumpling. Missed me?" </p><p> "I'm not a dumpling! I'm a boy!" </p><p> "Alright, alright… but why are you so tasty?" </p><p> "Mooommy!" </p><p> As Effie pretended to bite Little Ling, he giggled happily and squirmed in her embrace. Sunny observed the scene while suppressing a smile. </p><p> Despite the flow of time, Effie had not changed at all. She was still the same tall, beautiful, and vibrant woman Sunny had met in the Dark City. Her athletic body was still brimming with boundless vigor and vitality, her perfect lean muscles rolling under the dewy olive skin. </p><p> Of course, there were changes, too. Effie had grown even more appealing, her Transcendent allure capable of bringing countless men to their knees. There was a subtle, but palpable presence about her, too… perhaps it had always been there, but now there was no mistaking it. </p><p> Wherever Effie went, the air brimmed with liveliness and energy. Everyone around her felt a certain primal intensity permeate their bodies, infusing them with stimulating, spirited force. </p><p> Such was the effect that Saint Raised by Wolves, one of the most famous and beloved warriors of humanity, had on people. </p><p> Carrying Little Ling, she walked over to where the nameless guy was sitting, hugged him with one hand, and kissed him on the cheek. Then, she looked at Aiko and grinned. </p><p> "Hey there, shorty! Gods, have you grown even tinier? I really can't… Aiko, you're so cute. Every time I see you, I just want to squeeze you and dress you up." </p><p> The petite girl frowned. </p><p> "There will be no more squeezing happening today, thank you very much." </p><p> Effie laughed. </p><p> "...That stupidly gorgeous boss of yours, as well! Ah, he's just like a porcelain doll. If I wasn't a married woman, I would have definitely tried dressing him up. Or, you know. Undressing him would be fine, too…" </p><p> Aiko's eyes widened, while Little Ling's Dad spat out his lemonade. </p><p> Effie's smile turned a little strange. She fluttered her lashes sheepishly, then coughed. </p><p> "Oh. He's standing right behind me, isn't he?" </p><p> One chapter today, three tomorrow.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1600.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1602.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

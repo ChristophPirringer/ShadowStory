@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 375</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 375 Separate Paths</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 375 Separate Paths</p><p>Sunny smiled and leaned back on his chair, then looked at his friends with curiosity.</p><p>There was a question he really wanted to ask, but tried not to up until now.</p><p>"...What's your second Ability, anyway?"</p><p>His words hung in the air for a few moments. Suddenly, Kai coughed with embarrassment and looked away. After a couple of seconds, he said in a strange tone:</p><p>"I, uh… can see really far now, when I want to. Even when there's no light. I am also supposed to be able to see through illusions and all forms of obfuscation, whatever that means. And… uh… I can also see through objects.</p><p>Sunny and Effie stared at him and asked almost simultaneously:</p><p>"Like, through walls?"</p><p>"Like, through clothes?"</p><p>Kai hid behind his glass, lingered for a bit, and then answered in a small voice:</p><p>"...Yes. But I would never!"</p><p> While Sunny tried to imagine why would Kai refuse to look through walls, Effie laughed out loud.</p><p>"I see, I see. What a great Ability!"</p><p>She shook her head, then turned to Sunny and asked:</p><p>"Hey, doofus. I bet you often wanted to stab me with something sharp. Wanna try?"</p><p>He frowned in confusion, then raised an eyebrow.</p><p>"No. Why would I stab you?"</p><p>Effie looked at him with expectation clearly written on her face, then sighed in disappointment when he didn't move.</p><p>"Ah, that's a shame. I wanted to demonstrate my second Ability to you. Basically, it makes my whole body invulnerable. Well… comparatively, of course. Skin of steel, that sort of deal. A very sweet comprehensive defense boost, if I do say so myself!"</p><p>Sunny blinked and looked at the gaunt young woman with a bit of awe. Indeed, that was a very powerful Ability. Combined with Effie's previous one, it turned her into an exceedingly formidable presence on the battlefield. As if she had not been a real menace already…</p><p>Effie glanced at him and asked curiously:</p><p>"Well, what about you?"</p><p>He shifted slightly.</p><p>"A very neat type of conditional short-distance teleportation. Kai can see through walls, I can go through walls… while you can just plow through them, I guess. In your usual barbarous fashion…"</p><p>Effie grinned.</p><p>"Plowing, huh? Interesting choice of words. I wonder if…"</p><p>Sunny hurriedly changed the subject.</p><p>"So, uh… what are your plans, guys? What Citadels are you going to?"</p><p>His sudden question changed the mood of the conversation. For a while, a strange silence settled among them. All three had contemplative, wistful expressions on their faces.</p><p>This situation was inevitable, really, but they tried to avoid the discussion for as long as possible. Mostly because it was both slightly awkward and slightly sad. Back on the Forgotten Shore, the three of them had forged a bond, and now, depending on their choices, that bond would most likely either weaken or break. The future was going to lead each on their own path, perhaps in opposite directions.</p><p>For better or worse, they were about to go their separate ways. Perhaps fate would bring them together again, one day... or perhaps not.</p><p>After a while, Effie sighed.</p><p>"I don't know, really. I have received invitations from both clan Valor and clan Song, but… you know me. I don't do well with authority. Plus, none of them have moved a finger to help me when I really needed it. Only now that I am a hot commodity are they all suddenly kind and friendly. Rubs me the wrong way, to be honest."</p><p>She looked at her wheelchair, then slumped in it tiredly.</p><p>"Anyway… I might take them up on the offer, or I might not. It depends on what the fastest way to get ready for the Second Nightmare would be. Maybe I'll have a better chance of becoming a Master soon if I stay independent and don't have to compete against the actual heirs for resources and attention."</p><p>After the Second Nightmare, one's spiritual body became their physical body. Reaching the rank of a Master would free Effie from her terrible disability, so Sunny understood her motivation perfectly.</p><p>Now he knew why she had said that for her, striving to conquer the Second Nightmare was the only way.</p><p>...Funnily enough, through no wish of his own, Sunny had ended up in a similar situation.</p><p>Kai remained silent for a few moments. Then, he too sighed.</p><p>"As for me… my agency has secured me a very good position in Bastion. So I'll be going there soon. I won't have to fight another Nightmare Creature for a long, long time. I guess. Maybe even never."</p><p>For someone who was speaking about being safe and comfortable for the rest of his life, he didn't sound too happy. There was a note of reluctance in his voice. Even… shame.</p><p>Sunny frowned.</p><p>"You drop that tone immediately, Kai. There's nothing wrong with living like a person should, not having to worry about being eaten every goddamn day. Don't even think about feeling bad about it. Got it?"</p><p>The charming young man smiled sadly and nodded.</p><p>"I do. Please forgive my ungratefulness. But what about you, Sunny?"</p><p>Sunny scratched the back of his head, then shrugged.</p><p>"Well… I am rich now. You won't believe it, guys, but as it turns out, scribbling a few words about the things you see in the Dream Realm can actually earn you money. And! I think I can weasel my way into receiving a salary from the Academy as a research assistant, whatever that means. So, uh… actually, I haven't decided on a particular Citadel yet. But I can pick pretty much any of them, since the government is being very friendly."</p><p>Both Effie and Kai stared at him with incredulous expressions, clearly trying to imagine Sunny as an academic, or even an Instructor. Then, both shook their head simultaneously.</p><p>"Can't imagine."</p><p>"Yeah, sound wrong."</p><p>"About the Citadels, though..."</p><p>"So which one are you going to choose?"</p><p>He thought for a bit, then shrugged.</p><p>"Don't know yet. But I can tell you a secret… something that very few people know or think about. A very wise man told me to base my choice on it."</p><p>Sunny lingered for a moment, then said seriously:Discover n𝒆w chapt𝒆rs 𝒐n no𝒗elbi𝒏(.)com</p><p>"Plumbing! The secret to a happy life is to find a Citadel with great plumbing…"</p><p>***</p><p>Soon, it was time to say goodbye. Their parting was both warm and bittersweet. After seeing Kai and Effie off, Sunny lingered outside for a bit, and then returned to his room on one of the underground levels of the hospital complex.</p><p>It was already evening, and his eyes were full of sand. With an irritated snarl, Sunny took one of the stimulant patches out of the pack and plastered it on his skin.</p><p>Immediately, a cold fire flowed through his veins. His heart accelerated, and his mind cleared. Sunny felt refreshed, energized, and ready to chew on mountains.</p><p>Of course, there was a price to pay for such a boost. It would be inevitably followed by a debilitating crash of the same magnitude. Unless he used another stimulant, that is, and then another, and another. Only with each new one, the duration of the effect would shorten, and the strain on his body would increase.</p><p>If he was a mundane human, his heart would have probably exploded just from one of these unassuming patches. The government didn't joke around with its military tech.</p><p>…But he wasn't ready to make a decision just yet. He had to do a few more things.</p><p>Like finally checking on his new Memory…</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_374.html">Previous Chapter</a><a class="navigationButton next" href="chapter_376.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

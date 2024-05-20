@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1003</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1003 The Fall Of Falcon Scott 21</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> "Hold, you wretches!" </p><p> A mass of Nightmare Creatures was advancing through a city street, mere meters away from slamming into a makeshift barricade formed by the hulking frames of firing MWPs. The surface of the road was broken and melted, and the ruins of the surrounding buildings were enveloped in flames. </p><p> Leaping off a slowly collapsing roof, Sunny plummeted down and landed between the abominations. The emerald blade of the Sin of Solace moved, sending fountains of blood into the air. He dashed sideways, dodging a stream of bullets, and groaned. </p><p> It was already the second week of the siege, but the damage done to his body and soul by the Nightmare Gate was slow to heal. Sunny shrugged off the pain and called upon the shadows, erecting a black wall of them to block off the street. </p><p> "Flamethrowers!" </p><p> The pilots of the MWPs did not stop firing their mass drivers, but long streams of orange-red fire shot from their wrists over the wall. Sunny danced between the flames, circulating his energy to activate the Underworld Armament. The effect of the Memory of Fire was enhanced, elevating his elemental resistance even higher. </p><p> The Nightmare Creatures were not that lucky. </p><p> While he dealt with the head of the swarm, Belle and Dorn attacked its tail from the flanks. A sharp sword and a heavy sledgehammer made short work of the frenzied abominations, and at the same time, charged tungsten rounds flashed from a nearby dormitory tower, slaying the most dangerous targets without fail. </p><p> Caught between the hammer and the anvil, the swarm swiftly melted. The last one to die was a hideous creature with hardy scales covering its reptilian body. Sunny simply struck the abomination with the edge of his palm, turning it as heavy as a boulder and as hard as stone. The reptile's skull shattered, disintegrating into a disgusting rain of blood and bone. </p><p> Even before the heavy body touched the ground, the Spell was already whispering: </p><p> [You have slain an Awakened Monster, Scaled Prowler.) </p><p> [You have received a Memory.) </p><p> His eyes glinted. </p><p> 'Another Memory!' </p><p> Wiping his hand with a revolted expression, Sunny looked around. Luster and Kim appeared on a nearby roof, signaling that none of the creatures escaped. He let out a sigh of relief. Visit novelbin(.)c𝒐m for updates</p><p> ...The situation was under control. </p><p> After the ill-fated battle with the Devouring Cloud, the pressure on the defenders of Falcon Scott had steadily increased. The fact that there was a giant breach in the wall did not help things one bit. Eventually, the defensive barrier had been broken through in two more places, forcing the First Army to evacuate civilians deeper into the city and create a secondary ring of defense on the empty streets. </p><p> The topography of the siege was not simple anymore. Humans still held the wall, deflecting most of the Nightmare Creatures from its height - but now, various sections of the great barrier were separated, almost turning into independent fortresses. A detachment of soldiers was tasked with defending the breaches from the ground. </p><p> They mostly managed to prevent the Nightmare Creatures from breaking through the barricades into the city, even if the rate of casualties among the ground crews was much higher. However, some monstrosities still reached the streets from time to time. </p><p> Sunny had just dealt with one of these invading swarms. </p><p> 'That's the fourth one today... not a good sign.' </p><p> He bent in a painful hacking fit, feeling a sickening weakness permeate his body once again. After a while, the coughing subsided, and Sunny remained motionless for a few moments, breathed hoarsely and waiting for the weakness to subside. </p><p> Soon, it was gone, and all that remained was a gnawing pain in his chest. </p><p> "Damnation..." </p><p> He straightened and glanced at his people, who were making their way through the burning carnage of the destroyed city street. Once they reached him - everyone except Samara, who was still in her sniper nest on top of the empty dormitory tower - Sunny glanced at Kim and asked: </p><p> "Any updates from Soul Reaper?" </p><p> She nodded. </p><p> 'Yes, sir. Master Dale pushed the enemy back, reclaiming control over Breach C. We are ordered to stand down and rest. Our next shift starts in sixteen hours." </p><p> Sunny tiredly rubbed his face. </p><p> "Sixteen hours, huh? Either Army Command is feeling generous, or they expect real trouble tomorrow. Well... all the more reason to make sure that we're fresh and full of essence. Signal Sam to come down and retreat to the barracks." </p><p> He studied his soldiers for a moment, making sure that none of them was wounded. Without... without a healer in the cohort, recovering between battles had become somewhat tricky, it demanded outside help, at least. </p><p> Fortunately, the members of the cohort were unscathed. He nodded, letting them go, and turned around. </p><p> The MWPs stood motionless, the incandescent barrels of their guns glowing in the gloom. The coolant liquid was dripping down, evaporation into clouds of haze. Some pilots had opened the cockpits, sitting on the doors of the hatches with tired expressions on their faces. They would retreat inside soon, chased back into the overheated war machines by smoke and the smell of charred corpses. </p><p> But, for now at least, the soldiers were enjoying the short moment of respite in the coldness of the neverending night. </p><p> Noticing Sunny, one of the pilots raised a hand and made it into a fist. Sunny returned the stalwart salute, and then silently walked away. </p><p> A few minutes later, he stumbled, grabbing a wall in a dark and isolated alley. The Divine Sword of Solace whispered, mocking him, but it was not too hard to suppress the hateful voice these days. Sunny rested for a few moments, and then took a step back. </p><p> Saint emerged from the shadows, as silent and menacing as ever. Nightmare joined her, moonlight glinting on his adamantine horns. </p><p> Sunny sighed and summoned the Overpriced Saddle. Fastening its straps on the black stallion, he glanced at the two Shadows and said: </p><p> "You know what to do. I'll return in sixteen hours... be cautious today. Chances are, we'll have to go all out tomorrow." </p><p> Saint nodded indifferently, then mounted the dark destrier and outstretched a hand. Sunny placed the hilt of the Divine Sword of Solace into it, at the same time sending two of his phantoms forth. Then, he watched the taciturn knight leave as she headed in the direction of the wall. </p><p> These days, the two of them worked in shifts. If the Devil of Antarctica was not defending Falcon Scott, the Guardian Angel of Antarctica did. </p><p> Millions of people had already been evacuated from the doomed city, but millions more remained. The siege capital could not be allowed to fall, yet. </p><p> Sunny coughed some more, uttered a quiet curse, and walked in the opposite direction of where Saint had left.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1002.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1004.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

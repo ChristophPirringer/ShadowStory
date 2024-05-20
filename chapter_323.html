@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 323</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 323 Siege Of The Crimson Spire 9</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 323 Siege of the Crimson Spire (9)</p><p>Sunny froze for a moment, captivated by the all-encompassing expanse of the cyclopean spire that towered above the entire world.</p><p>Almost at the same moment, the darkness behind him was suddenly annihilated by a blinding explosion of light. The noise of the battle changed, somehow growing even more intense. The howling of the nightmare horde grew louder, but also became slightly muffled, almost… anxious.</p><p>Changing Star had finally joined the fight.</p><p>A moment later, hundreds of human voices rose in a deafening battle cry, their spirit lifted, their crumbling resolve restored. With Nephis arriving on the battlefield, the balance of the whole battle shifted. The Nightmare Creatures surged to destroy the radiant figure, only to be obliterated by it. They almost seem to melt under the furious assault of the incandescent blade, turning into cinder and ash.</p><p>Neph's arrival brought a moment of relief to the exhausted warriors of the Dreamer Army. Instead of using it to catch their breaths and regroup, however, they chose to use this opportunity to launch into a ferocious attack, making the horde shudder and recoil.</p><p>…Sunny was not paying any attention to what was happening behind his back, though. His eyes were locked on the bridge of crimson coral that stretched across the vast whirlpool of black water, creating a path to the island on which the cursed Spire stood.</p><p>On it were countless abominations, each of them pushing, howling, fighting for their turn to taste soft human flesh.</p><p>However, the harrowing mass of them wasn't endless anymore. He could actually see the tail of the nightmare horde, with the distant half of the bridge being almost empty.</p><p>Not that it was going to make things easy for him. As soon as Sunny escaped from beneath the iron net, he became illuminated by the bright sunlight, with nowhere else to hide. Completely exposed.</p><p>The eyes of numerous monsters were already on him, bloodlust and hunger igniting in their depths. If he wanted to use the bridge, he was going to have to cut his way through the undulating mass of Nightmare Creatures.</p><p>'Saint.'</p><p>Answering his call, the marble demon appeared from the shadows, her ruby eyes burning with cold menace behind the visor of the onyx helmet. The taciturn knight stood silently on the shore of the rushing black water, gazing at the horde of monsters across its dark expanse.</p><p>Sunny took a few steps back and glanced at the mass of abominations who were already lunging in his direction.</p><p>'Here goes nothing…'</p><p>Dashing forward, he crossed the distance to the Saint… and jumped.</p><p>The Shadow raised her shield, allowing him to step on it, and then pushed away with all her incredible strength. Simultaneously, Sunny launched himself off this unlikely springboard and shot into the air.</p><p>The wind whistled in his ears.</p><p>Soaring above the mass of black water, and all the horrors that hid in its depths, he flew toward the Crimson Spire with terrible speed. The Dark Wing turned into a blur behind his back, making Sunny weightless, and thus prolonging this state of flight.</p><p>It was still not nearly enough to reach the island, however.</p><p>In a few short seconds, he crossed almost half of the wide surface of the dark whirlpool. But then, his momentum slowed, and soon, Sunny started to fall. Thanks to the transparent cloak, he didn't plunge straight down, instead gliding through the air, slowly approaching the seething black water.</p><p>He was never going to make it.</p><p>…But then, he was never planning to.</p><p>Twisting his body, Sunny hurled the Prowling Thorn at the crimson coral of the bridge. As soon as the heavy kunai bit into it, he forcefully pulled on the invisible string, changing the direction of his flight.</p><p>A few seconds later, Sunny landed on the bridge in a roll and jumped to his feet. Behind him, the tail end of the nightmare horde was still oblivious to his presence.</p><p>In front of him was a clear path to the Crimson Spire.</p><p>Dismissing the Dark Wing and summoning Shadow Saint back into his core, Sunny ran forward without wasting even a moment to look back.</p><p>***</p><p>Soon, the Crimson Spire eclipsed the whole sky. It seemed as though the world suddenly made a ninety-degree turn, the ground itself becoming vertical instead of horizontal. Even craning his neck, Sunny couldn't see the top of the ominous tower anymore.</p><p>It was as if the Dream Realm was like a box, and he had reached one of its walls. The edge of reality itself.</p><p>Throwing all unnecessary thoughts out of his head, Sunny rushed toward the Spire. His goal was almost in sight.</p><p>'Seven severed heads… guarding seven locks…'</p><p>This was what Cassie had told them a year ago, at the start of this cursed journey. Somewhere at the base of the Crimson Spire, there was a place where one could insert seven keys into seven locks to seal the curse of the all-consuming darkness underground once more, thus restoring the oath of the ancient heroes.</p><p>Shard Memories had given ChangingS Star's cohort these keys, and now, Sunny held all of them in his soul.</p><p>He just had to find the locks…</p><p>And very soon, he did.</p><p>Hidden behind a tall mound of crimson coral, a vast expanse of flat surface led all the way to the walls of the corrupted Spire. On it, arranged in a wide semi-circle, seven giant heads stared away from Sunny.Top 𝒏𝒐v𝒆l updates on nov𝒆lbin(.)com</p><p> Despite the fact that they were facing the other way, he recognized them immediately.</p><p>These were the stolen heads of the seven colossal statues that stood across the desolate hell of the Forgotten Shore, ones that had been torn off their shoulders by the Crimson Terror thousands of years ago and then brought here, to lay at the base of its citadel for all eternity.</p><p>The Lord, the Priestess, the Knight, the Hunter, the Builder, the Slayer, and the Stranger.</p><p>Their gazes were aimed at the gargantuan gates of the Spire.</p><p>And there, on those gates, the image of seven shining stars was engraved into the ancient stone.</p><p>Each star had a dark keyhole in its radiant center.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_322.html">Previous Chapter</a><a class="navigationButton next" href="chapter_324.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

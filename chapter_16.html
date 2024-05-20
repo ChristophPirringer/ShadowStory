@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 16</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 16 Rebirth</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div id="pf-8450-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "660f70227d1ca27afc9d2827", id: "pf-8450-1"})</script></div>
+<div></div>
+<h4>Chapter 16 Rebirth</h4> <p> Sunny felt something waking up inside of him. With a startled cry, he clutched his chest and stared into the darkness, trying to understand what was happening. The feeling was not painful or unpleasant, yet it was like nothing he had ever experienced. It was as though his soul was being shaken awake, infused with strange new energy. </p><p> However, that energy did not come from some outside source. Rather, it was coming from within, as though it had always been there, sleeping. </p><p> The energy filled every fiber of his being. Sunny felt his emotions becoming clearer and sharper. Then, his body began to change, too. He felt as though a miniature star was burning in the center of his chest: waves of heat were radiating from it, slowly reaching his stomach and shoulders, then his arms and legs, then his hands and feet. </p><p> Under that heat, his bones, muscles, organs and blood vessels were being rebuilt and revitalized. Sunny felt like he was being reborn. He was becoming stronger, faster, healthier. </p><p> It was euphoric. </p><p> With each second, his transformation was becoming more profound. New confidence settled in Sunny's heart. He was not a weak, frail street kid anymore. He was not as vulnerable against anyone who would wish to bully him as he was in the past. </p><p> With his powers awakened and his will tempered by the horrors of the First Nightmare, he was now someone you would not want to cross. </p><p> After some time had passed, the star burning in his chest finally cooled down. The heat was replaced with a soothing coldness. That coldness washed over Sunny's body, taking away all the aches and discomforts that had been accumulated there over the years. Then it moved up, reaching his brain and, finally, his eyes. </p><p> His vision strangely doubled. </p><p> He could still see the void populated by an endless pattern of stars. But he could also see something different. </p><p> A silent, calm dark sea illuminated by a lonely black sun. </p><p> From his previous knowledge, Sunny knew that this was his so-called Sea of Soul. But he also knew that it was supposed to look quite different. </p><p> For starters, it was supposed to be much more lively. The star hanging above — the visual representation of his soul core — was supposed to be burning with bright light, filling the Soul Sea with a warm, blinding shining. </p><p> However, Sunny's soul was dark and lightless. </p><p> 'That's strange.' </p><p> He took a look at the black sun. At a closer examination, it actually turned out to be transparent. It's just that with no other major source of light around, the star had appeared to be as dark as its surroundings. </p><div id="pf-8886-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d36c95a2f0a704fff59", id: "pf-8886-1"})</script></div><p> Also, no one wass supposed to be here except for him. It was his soul, after all! But Sunny had a nagging feeling that somewhere just beyond the periphery of his vision, hidden in the darkness, shapeless forms were constantly moving. No matter how he turned his head, he couldn't catch a clear glimpse of them. And yet the feeling would not go away. </p><p> Not wishing to waste any more time on this right now, Sunny turned back to the black sun and finally spotted two spheres of light orbiting around it, as though caught in the soul core's gravity well. A subtle smile appeared on his face. </p><p> These were his Memories: Silver Bell and Pupetter's Shroud. Later, there would be dozens of such spheres here. If he was lucky, he would even acquire an Echo or two! </p><p> The Spell's voice suddenly pulled him out of the Sea of Soul. </p><p> [Awakening Aspect Ability…] </p><p> 'This is it. The moment of truth,' Sunny thought. </p><p> Divine Aspect or not, his immediate future still depended on the first Aspect Ability he would receive. His role in the Dream Realm would be based on its characteristics. If it was a combat ability, he would be most useful on the frontlines of the bloody battles against the Nightmare Creatures. If it was tied to sorcery, he would likely become a powerful, but fragile ranged fighter. </p><p> If it was something having to do with utility, he would be a vitally important part of the behind-the-scenes workings of the Dream Realm. Utility Abilities were also extremely valued in the real world, where Awakened performed many tasks that kept it going. </p><p> If he was lucky, he could even become a healer. Healers were very rare, and as such, sought-after specialists. </p><p> [Aspect Ability acquired.] </p><p> [Aspect Ability Name: Shadow Control.] </p><p> Sunny hurriedly summoned the runes. He wanted to go to the description of his new ability right away, but then decided to give his overall information a look first. </p><p> Name: Sunless. </p><p> True Name: Lost from Light. </p><p> Rank: Dreamer. </p><p> Shadow Core: Dormant. </p><p> Shadow Fragments: [12/1000]. </p><p> 'What? What is that?' Follow 𝒏ewest stories at n𝒐velbin(.)com</p><div id="pf-8887-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d55c95a2f0a704fff8b", id: "pf-8887-1"})</script></div><p> Where the rank of his soul core was supposed to be written, a mysterious "Shadow Core" appeared instead. Sunny looked at it, blinking. He had never heard of anyone having a different kind of core before. Was he that unique? </p><p> This enigmatic shadow core would certainly explain why his Sea of Soul looked so strange. And also… He moved his eyes down, noticing the "Shadow Fragments" counter. Usually, there was supposed to be an indicator of the number of soul shards consumed. However, it was nowhere to be seen. </p><p> 'Do I… do I actually have a completely different progression path than all Awakened?' </p><p> The idea was as exciting as it was frightening. Not having to fight for resources with anybody else was an incredible advantage. Most of the human society in the Dream Realm was built around the acquisition of soul shards. If he had no need to gather them to evolve… not only would he be able to become more powerful with incredible speed, he would also be completely self-sufficient. </p><p> On the other hand, he had no idea how to acquire these shadow fragments. However, he had gotten twelve of them somehow already: so whatever it was that he had to do, he had already done it in the First Nightmare. </p><p> 'I'll have to explore this carefully.' </p><p> Satisfied with this decision, Sunny continued to study the runes. </p><p> Memories: [Silver Bell], [Puppeteer's Shroud]. </p><p> Echoes: — </p><p> Attributes: [Fated], [Mark of Divinity], [Child of Shadows]. </p><p> Aspect: [Shadow Slave]. </p><p> Aspect Rank: Divine. </p><p> Aspect Abilities: [Shadow Control]. </p><p> Aspect Ability Description: [Your shadow is more independent than most. It is an invaluable helper.] </p><p> 'What is that supposed to mean?' </p><p> Sunny held his breath and began to read the description again, but at that moment, a new set of runes appeared just below it. Simultaneously, the Spell's voice resounded in the black void. </p><p> [All power has a price.] </p><p> [You have received a Flaw.] </p><p> [Your Flaw is: …] </p><p> Sunny read the runes, and his eyes widened in horror. </p><p> 'Oh, no. No, no, no...'</p>
+<div id="pf-8888-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d6bc95a2f0a704fffa3", id: "pf-8888-1"})</script></div>
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_15.html">Previous Chapter</a><a class="navigationButton next" href="chapter_17.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

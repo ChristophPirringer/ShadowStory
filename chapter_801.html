@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 801</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 801 Distinguished Guests</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Five of them sat inside the sleek PTV, watching as the streets of the city flew by. Sunny was not the only one who had donned an extravagant suit. Kai was wearing an even more stylish attire, radiating so much grace and elegance that the interior of the moving vehicle seemed almost electrified. </p><p> Cassie had chosen a simple, but flattering gown of soft colors. Her bracelets and jewelry were picked to match the silver half-mask that she wore like a crown. The familiar blue-green cloak was draped around her shoulders. She was holding the Quiet Dancer by the scabbard, as if it was a cane. </p><p> Effie wore a white tunic with tasteful gold accents. There was a golden laurel resting on her head, with similar bracelets and anklets accentuating its sheen. With her olive skin and toned physique, she looked like an ancient goddess. The huntress seemed to be enjoying herself as she sipped champagne from a tall glass. </p><p> Nephis chose to wear a more practical attire, which was nevertheless equally splendid. Her knightly suit consisted of black trousers, a black doublet with silver embroidery, and a pristine white cape. The simple band of the Crown of Dawn accentuated the steely grey of her striking eyes. Her hands, clad in white gloves, rested calmly on her knees. </p><p> All of Sunny's worries about how pompous he looked in his expensive suit disappeared. Compared to the others, he looked almost underdressed. Updated 𝒏ov𝒆ls on 𝒏ov𝒆lbin(.)c𝒐m</p><p> Was there really any time to worry about appearances, anyway? </p><p> Looking at the members of the cohort, he hesitated for a moment, and then asked: </p><p> "Are you ready?" </p><p> Nephis glanced at him, then turned back to the window. </p><p> "...It's just a ball." </p><p> He stared at her for a moment, then grinned. Then, he laughed. </p><p> "Oh, indeed. Indeed…" </p><p> Soon, the PTV left public streets and entered the road that led to the stronghold of the Valor clan. Although their main seat of power was situated in the Dream Realm, safely protected by the great walls of the legendary Bastion, the family obviously maintained several prominent properties in the waking world. </p><p> This one resembled a hybrid between an embassy and a sprawling fortress. The complex took enough area in the center of the city to be considered a separate district and encompassed a multitude of buildings, most of them just a few storeys high. More floors, of course, were situated underground, where the bulk of activity took place. </p><p> The purpose of the buildings ranged from serving as residences for the members of the clan and retainers to training centers for the household troops, research facilities dedicated to various applications of spelltech, and everything in between. Just like Nephis had said, a Legacy clan was not just a handful of people united by a bloodline. It was a large organization that, in the case of Clan Valor, included thousands upon thousands of people from all walks of life. </p><p> The fortress also housed vaults where the sleeping pods of those Awakened who either belonged to or served the great clan were located, so security measures were nothing short of exaggerated. Sunny himself could see and feel plenty of sentries, both mundane and possessing greater powers. Judging by a slight frown that appeared on Kai's face, there were plenty more that he had failed to notice. </p><p> The complex was fully prepared to face any kind of attack, be it a manifestation of a Nightmare Gate or a sudden assault perpetrated by the forces of rival clans. On one hand, that made Sunny feel safe. On the other hand… escaping this stronghold would not be easy. </p><p> 'Let's hope I won't need to.' </p><p> Other than that, the aesthetics of the complex were very pleasing to the eye. There were plenty of trees and grass around, with architecture that did a great job of hiding the utilitarian and militaristic design of the sprawling fortress. In fact, if Sunny did not know any better, he would have thought that he was in the middle of a blissful garden district that was meant for people to relax in peace and tranquility. </p><p> Living here must have been very nice. </p><p> …Chances were, he would have an opportunity to experience that life rather soon. </p><p> 'Yeah, as if that would happen.' </p><p> Sunny glanced at Nephis and then turned away, his face darkening. </p><p> A few minutes later, their PTV approached the center of the complex, where a grand structure stood, illuminated by bright spotlights. He felt a bit of awe when he noticed that it was built of stone blocks similar to those that Bastion itself consisted of. This hinted at the fact that the stones were brought to the waking world from the Dream Realm. </p><p> Considering that only powerful Masters and Saints could transport matter between two worlds, the cost of the great hall was nothing short of astronomical. He could hardly imagine a more impressive and effective proclamation of wealth and power… the great clans really knew how to set the stage. </p><p> The walls of the hall were decorated by vermilion banners that stretched from its roof to the very ground, each bearing the image of an anvil pierced by a sword. A red carpet led from the grand stairs to the road where a row of similarly luxurious PTVs were parked, slowly moving as their distinguished passengers disembarked. </p><p> Neat rows of uniformed honor guards stood at the sides of the red carpet, forming a living corridor through which the guests had to walk before they reached the entrance. Everything about them screamed of discipline and power. These soldiers alone were enough to protect people invited to the ball from most dangers… </p><p> Not that the guests needed any protection. </p><p> Although there were a few high ranking mundane humans among them, most were either promising Awakened or Masters. There were even Saints here, which made Sunny feel rather uncomfortable. </p><p> If there was one group of people in the city he really wouldn't want to provoke, it were those attending the ball. </p><p> Sunny felt like a little fish being thrown in a tank full of hungry sharks. </p><p> He could probably fight off or at least escape from any one of these sharks. But all of them together? </p><p> 'Still… I'm not without sharp teeth myself…' </p><p> Finally, their PTV reached the vermilion carpet. </p><p> Sunny waited for the door to open, then sighed and stepped outside.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_800.html">Previous Chapter</a><a class="navigationButton next" href="chapter_802.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

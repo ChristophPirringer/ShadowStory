@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 978</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 978 Back Again</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The Rhino let out a disturbing, screeching sound and came to a shuddering stop. Sunny remained on the roof for a few moments, looking down with a grim expression on his face, then jumped down. Landing softly in the snow, he took a few steps away and studied his battered APC. </p><p> The mighty machine... had seen better days. </p><p> Its armored hull was littered with deep gouges and makeshift patches of scavenged alloy. The wedge-shaped ram at the front of the Rhino was deformed and painted dull red, its deployment mechanism irreparably damaged and stuck in the lowered position. </p><p> The six mighty wheels were still intact, but all the additional thrusters were either spent or destroyed. </p><p> What worried Sunny the most, though, were the sensitive internals of the APC. Despite the fact that Kim and Samara had been desperately trying to keep them from deteriorating completely, most of the systems were slowly dying. The Rhino had been put through too much abuse, and now, it seemed to be on the verge of failing. </p><p> A sad, bitter sigh escaped from Sunny's lips. </p><p> 'Damn it.' </p><p> ...Behind him, the rest of the caravan was in a similar condition. The column of dilapidated vehicles stretched for many kilometers, each showing some signs of battle damage and stress. Most vehicles had not suffered as much as the Rhino, which served as the vanguard machine, but then again, most of them were also not as shielded and robust as the custom APC of the Irregulars. </p><p> After studying the state of the caravan for a minute or two, Sunny turned around and walked forward. Passing between the massive shape of Abomination and the much smaller, but similarly fearsome shape of Blackie, he stopped and looked at the vast valley below. </p><p> As he did, the Crow landed on his shoulder. </p><p> Sunny and the three Echoes remained silent for a while. </p><p> The valley was covered in snow, but it could not hide the upturned soil and the signs of a devastating battle that must have raged here once. Craters and mounds of frozen earth littered the landscape, hinting at a heavy artillery bombardment. A ghastly mountain of charred bones towered near the slopes, and some distance away from it lay a graveyard of broken war machines. </p><p> Thousands upon thousands of Nightmare Creatures were moving through the snow. </p><p> Worse than that, thirteen active Gates ringed the valley, tearing reality apart. </p><p> "What a terrible place." </p><p> Sunny hesitated for a moment, then looked at Naeve, who had just reached the crest of the hill. The Nightwalker was looking down with a sour face, his broken arm still resting in a makeshift sling. He had been wounded in a random battle a few days ago and was yet to fully recover. </p><p> Sunny smiled. </p><p> "...Yeah. It was even more terrible when seven new Gates opened right when we tried to deal with the six that had already manifested, encircling the whole division. That was how Antarctica welcomed us, all that time ago." </p><p> Indeed, Sunny knew that valley well. It was where he had fought his first real battle in the Southern Quadrant, unleashing Saint to defend the mundane soldiers. Looking down, he could recognize the spots where he had slain the Gate Guardians, as well as the spot where the division had burned its dead before moving on. </p><p> Was he feeling... nostalgic? </p><p> Well, it did not matter, anyway. </p><p> What did matter was that the valley was only a day's travel away from Falcon Scott. </p><p> They had finally made it... almost. </p><p> In the end, it took the caravan two weeks to get here. June was almost over, but the long night of Antarctica still showed no sign of ending. The world was dark, as always, and full of abominable horrors, as always. Get latest 𝒏ovel ch𝒂pters on n𝒐velbjn(.)c/𝒐m</p><p> Nothing truly noteworthy had happened in these two weeks. It had just been a constant, grueling, arduous struggle to survive. Every kilometer they traversed had been a little bit harder than the previous one. The numerous skirmishes and battles they had fought all started to blend into one, at some point, and the names of soldiers and civilians Sunny had lost did, too. </p><p> All in all, few people died... comparatively. Considering the overall size of the caravan, the number of casualties was statistically insignificant. </p><p> But people were not statistics. </p><p> Sunny grimaced and looked away. </p><p> He might have brought most of the caravan this close to Falcon Scott in one piece, but the hardest part was still ahead of them. </p><p> Due to its nature as a place of a massive - and static - concentration of humans, the siege capital naturally attracted numerous Nightmare Creatures. It was constantly besieged by hordes of abominations, with more arriving from the south every day. </p><p> The caravan had to somehow break through that blockade to reach the city gates. </p><p> Fortunately, they did not have to do it alone. </p><p> Sunny had already contacted Army Command through the Dream Realm, reporting the date they would arrive in this valley. He was promised assistance and reinforcements, as well as a special envoy to help the refugees make it through safely. </p><p> The envoy was running late, though. </p><p> His shadows would have noticed anyone on the slopes of the mountains, and he did not see any humans in the valley. If someone really planned to make it to the other side and meet the caravan, Sunny had no idea how they were planning to fight their way through the sea of Nightmare Creatures below. </p><p> Glancing at Naeve, he frowned. </p><p> "...Where the hell is that envoy?" </p><p> Before the Nightwalker could answer, the Crow suddenly let out a nervous screech and hurriedly flew away. </p><p> In the next second, a massive shadow suddenly dove down from above, approaching the caravan with stunning speed. </p><p> Sunny was already drawing the string of his bow but paused at the last moment, looking at the landing creature with wide eyes. </p><p> Massive... powerful body that resembled that of a lion, mighty white wings, beautiful golden eyes of an eagle... </p><p> In front of him, proud and majestic, was a very familiar griffin.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_977.html">Previous Chapter</a><a class="navigationButton next" href="chapter_979.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

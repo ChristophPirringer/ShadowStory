@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 592</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 592 Soul Slayer</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny looked down on himself, evaluating his own state. </p><p> The wound in his chest was gone. However, it wasn't as though he was unscathed… his body, or at least this manifestation of it, seemed battered and beaten. However, it was also full of ferocious strength and vigor, as well as feeling light, as if a tremendous weight had been lifted off his shoulders just a few moments ago. </p><p> He didn't know how exactly this battle of the souls was supposed to work, but suspected that his current form was a representation of his spirit. He had endured a lot in these recent weeks, enough suffering and fear to crush someone with a lesser will… Sunny, however, had survived far worse, so his strength was not diminished by much. </p><p> He was still clad in the bleak steel of the Undying Chain, and holding his weapons. Three shadows lay at his feet, and he could feel the presence of the Soul Serpent nearby. His enemy, meanwhile, was alone and unarmed. </p><p> This was Sunny's soul, after all. Here, he was bound to have the ultimate advantage. </p><p> 'Let's see who will destroy whom, you bastard.' </p><p> With a smirk, Sunny commanded the shadows to rise and wrap themselves around his body. Instantly, his strength, speed, and resilience were enhanced manifold… </p><p> In the next moment, however, his expression froze. </p><p> Mordret looked at him, then smiled. As he did, six shadows descended upon him like a dark mantle, making the pressure that the Prince of Nothing exerted feel almost suffocating. </p><p> "...You didn't think that it would be that easy, did you?" </p><p> A split second later, he was beside Sunny, his fist crashing into the breastplate of the Undying Chain. As pain exploded through his body, Sunny flew back and fell onto the still water, sliding across it into the darkness. </p><p> 'What?' </p><p> Before he could even rise, Mordret was already upon him, his foot slamming into Sunny's ribs. Sunny yelped as he was thrown into the air, then felt another blow landing on his chest, pushing all air out of his lungs and sending him plummeting back down. </p><p> Knowing that he had to escape somehow, Sunny dove into the shadows and emerged from the darkness behind the Prince of Nothing, the blade of the Cruel Sight shooting forward. </p><p> However, it pierced nothing but air. </p><p> Mordret had turned into a shadow himself, and disappeared without a trace, his laughter echoing across the surface of the silent sea. </p><p> "Weak! Too weak…" </p><p> Something struck Sunny in the back, sending another explosion of pain rolling through the very core of his being. He groaned and tried to slash with the Midnight Shard, but the enemy was already gone. A moment later, he was kicked in the abdomen, then ruthlessly slammed across the face. </p><p> Mordret's fist felt like a sledgehammer… no, like a mountain descending. </p><p> Half-blinded and disoriented, Sunny fell to his knees, spitting blood. </p><p> 'What the… what the hell…' </p><p> This was not how he had imagined things going. The damned mirror fiend clearly had to weaken his prey before attacking… so, his victory was not set in stone. There was a way to defeat him, somehow, and since Sunny's spirit had not been broken, he had expected to be able to prevail. </p><p> However, the bastard was just too powerful… how was he supposed to resist such terrifying force?! </p><p> Worse than that, Mordret seemed to be able to mirror all of his powers… </p><p> "Bastard! Lost from Light, stop!" </p><p> The Prince of Nothing laughed again, then struck Sunny in the side of his head, almost blinding him. </p><p> "Sorry to say this, but that trick is not going to work… this is an entirely different situation, you know…" </p><p> Hurting and hoping to escape the next blow, Sunny turned into a shadow again. This time, however, he wasn't in a hurry to attack and remained incorporeal, thinking… </p><p> Before he could form a single thought, however, another shadow lunged at him from the darkness, and suddenly, he was in the throes of indescribable agony, his very soul damaged and cracked. With a stifled shriek, Sunny escaped the shadows and assumed his human form again, only to be ruthlessly struck down a moment later. </p><p> He fall on his back and desperately gulped for air, but his lungs seemed to be paralyzed. All he could do was try to block the next blow, only for it to fail and another wave of pain spread through his body. </p><p> 'Goddamit!' </p><p> Sunny used Shadow Step to disengage, but his enemy simply followed. He deflected one strike, almost managing to cut Mordret's forearm open, but the mirror fiend was just too fast, strong, and skilled. </p><p> No matter how hard Sunny fought, it was all useless. No matter what strategy he tried to implement, Mordret saw right through it. Fighting against the Prince of Nothing was like fighting against death itself — he was terrifying, inevitable, and final. Top 𝒏𝒐v𝒆l updates on nov𝒆lbin(.)com</p><p> There was no escape… </p><p> But Sunny was not going to give up. At this point, he wasn't even sure that he knew how. </p><p> He gritted his teeth, endured the pain, and fought.<novelnext> pany, at least…" </novelnext></p><p> The mirror fiend chuckled nervously, then slowly brandished the reflection of the Cruel Sight. </p><p> In the next moment, the horde of shadows surged forward, descending upon him like an avalanche of darkness. </p><p> And Mordret suddenly… </p><p> Vanished without a trace, as if he had never existed.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_591.html">Previous Chapter</a><a class="navigationButton next" href="chapter_593.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

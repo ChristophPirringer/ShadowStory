@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 203</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 203 Corpse Eater</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 203 Corpse Eater </h4> <p> Glistening in the dim twilight of the underground chamber, an enormous leech was attached to his forearm. The creature was about a meter long, its slimy skin slightly translucent and red as dried blood. </p><p> It was indescribably repulsive. </p><p> …What's worse, though, was that its sucker had effortlessly broken through the leather vambrace of the Puppeteer's Shroud and sunk deep into Sunny's arm, splitting open his skin and muscles. </p><p> Currently, the leech was gorging on his blood, its belly slowly ballooning as crimson fluid rushed into it with frightening speed. </p><p> 'Ah… ah… aaaah!' </p><p> With a sense of disgust and horror, Sunny slammed his fist into the spongy flesh of the revolting monster. Augmented with the power of shadows, his punch was powerful enough to easily break a human skull. </p><p> The abhorrent slug, however, did not even react to it. It just continued sucking out his blood. All Sunny achieved was sending a wave of pain rolling through his body. </p><p> 'Not good…' </p><p> Instantly summoning the Midnight Shard, he enhanced its edge with the help of the shadow and hacked at the leech, putting all his strength behind the strike. The blade of the tachi was as sharp as a razor, and with the augmentation provided by shadow, it… </p><p> …Slid helplessly off the leech's skin, not leaving even a scratch on it. The slug wasn't affected at all. It was still drinking his blood, consuming a dangerous amount of it with each second. </p><p> Sunny stared at the disgusting creature, dumbfounded. His body was already starting to suffer from blood loss, a sickening weakness slowly spreading through it. There wasn't much time left until it would cause him to lose consciousness. </p><p> And then, inevitably, die. </p><p> 'Think, think…' </p><p> The leech had broken through his tier-five awakened armor without any effort. It was immune to the damage done by the Midnight Shard, which had never failed to cut down any monster he faced before. This could only mean one thing. </p><p> The damn slug was a Fallen Beast. </p><p> Sunny blinked in disbelief. </p><p> 'That thing is a Fallen One? Are you kidding me?' </p><p> If this was true, then nothing he could do would harm the leech. Maybe if he was at the very peak of his rank, there would be a chance. But with his core mostly empty and his Aspect Ability focused on versatility as opposed to pure might, like Effie's, there was none. </p><p> The gap between their ranks was just too wide. </p><p> …Stone Saint could probably wound it. But it would take several seconds for the taciturn monster to appear and take action. Seconds that Sunny didn't have. By the time she was able to do anything, he would already be dead, either sucked dry by the abominable slug or crushed to death by the Lord of the Dead. </p><p> That left Sunny with only one option. If he couldn't get rid of the leech… </p><p> He was going to have to cut off his arm. </p><p> Maybe Nephis would be able to grow him a new one. </p><p> Or not. In any case, he had to do it in order to survive... </p><p> Raising the tachi over his head, Sunny gritted his teeth and hesitated for a moment. Despite understanding that this was the only way, he was still struggling with the idea of crippling himself so terribly. </p><p> 'Don't think! If you want to live, just do it!' </p><p> With a desperate resolve, he forcefully brought the Midnight Shard down… but then stopped it at the last second. The sharp blade hovered mere centimeters away from his skin. </p><p> This was not due to the lack of determination, but because Sunny noticed a subtle change happening to the leech. </p><p> Its belly, which had been expanding rapidly as his blood filled it, stopped ballooning at some point. Now, strange spasms were running through it. </p><p> 'What the…' </p><p> In the next moment, the vile creature suddenly convulsed. Letting go of his arm, it dropped to the ground and writhed in agony. Through the translucent film of its skin, Sunny could see the innards of the giant slug bursting open. It was as though it was being torn from within by some invisible force. </p><p> No, not a force… it was being killed by his blood. The damn leech got poisoned by it. </p><p> …It seemed that Blood Weave was far more odd and tenacious of an Attribute than he had thought. </p><p> A second later, the whole body of the Fallen Beast simply ruptured, spilling blood everywhere. Sunny stared at it with a blank expression. </p><p> Bringing him out of the daze, the voice of the Spell whispered: </p><p> [You have slain a Fallen Beast, Corpse Eater.] </p><p> [Your shadow grows stronger.] </p><p> 'Huh.' </p><p> [You have received a Memory.] </p><p> As his eyes grew wide, Sunny shook off his astonishment and lunged forward. He still had to escape from this damn place. </p><p> Grabbing the bloodied soul shard from the eviscerated remains of the abominable leech, he turned around and sprinted to the golden rope. </p><p> Dodging a bone tentacle that burst from the body of the gargantuan tyrant to pursue him, Sunny rolled on the ground, jumped over a pile of broken bones, and finally reached his destination. </p><p> As soon as he grabbed the rope, it began contracting, bringing him out of the underground chamber. </p><p> When Sunny was nearly reaching the hand of the stone goddess, a deafening roar thundered from below, washing over his body in an almost palpable wave. </p><p> The Lord of the Dead was finally awake. </p><p> But it was already too late. His prey had escaped. </p><p> *** </p><p> Climbing out of the mud, Sunny fell to his knees, and then tiredly lowered himself to the ground. The breath was escaping from his lungs with laborious, raspy sounds. </p><p> Weak. He felt so weak. And tired. </p><p> But it was so good to see the sun again… </p><p> The wounds he had received in the catacombs had finally caught up with Sunny. With adrenaline gone, he was now in a sea of pain. A quiet groan escaped from his lips. </p><p> 'That... that was not fun.' </p><p> While Sunny was contemplating this, a shadow fell over him. Looking up, he saw Nephis glaring at him with a dark expression. She was bloodied and battered, with a deep frown contorting the graceful lines of her usually calm face. </p><p> "...What?" </p><p> Kneeling beside Sunny, Changing Star grimaced and said: </p><p> "Are you insane? Why did you do that?" </p><p> He tried to chuckle, but ended up twisting in an excruciating coughing fit. When Sunny was finally able to breathe again, he said weakly: </p><p> "Yes, no? Maybe. I don't know. I just… saw something shiny." </p><p> With that, he opened his fist and showed Changing Star the glowing crystal of the ascended soul shard he had scavenged from the corpse of the vile blood-sucking leech. </p><p> She stared at it for a few moments, and then sighed. </p><p> Without saying anything else, Nephis placed her cool hands on his chest and closed her eyes. Visit nov𝒆lbin(.)c𝒐m for the l𝒂test updates</p><p> A moment later, the purifying white flame spread through his body like a warm embrace, repairing any damage done to it. </p><p> Even knowing how much pain this cost her, Sunny couldn't help but be happy to feel its touch again. </p><p> Soon, his pain disappeared. </p><p> With his head cleared of the fog, he realized that they had done it. </p><p> They had successfully escaped the Dark City. </p><p> Who knew it would be so hard?</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_202.html">Previous Chapter</a><a class="navigationButton next" href="chapter_204.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

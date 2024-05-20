@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 124</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 124 Desolation</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 124 Desolation</h4> <p> Soon, they were standing beneath the impregnable stone walls of the mysterious city. Behind them, the great chasm of the vast crater stretched to the horizon. </p><p> Somewhere ahead, the lone human citadel in this loathsome region of the Dream Realm awaited. It promised to deliver them from this dark place and bring them home. </p><p> Sunny really couldn't wait to be finally done with this nightmare. </p><p> The city wall was built from massive slabs of grey granite. Still wet from the cold touch of the cursed sea, the ancient weathered stones looked almost black. Despite the thousands of years that passed since the mysterious builders of the wall had disappeared into the fog of time, it still looked monumental and unassailable. </p><p> The joints between the granite slabs were barely wide enough to insert a narrow blade. </p><p> Looking up, Sunny tried to guess the height of the wall. It had to be sixty meters tall, at least — twice as high as the Awakened Academy defense barrier, which was constructed with the help of both modern technology and various Aspect Abilities. </p><p> For a few moments, he wondered about the people who had erected this wall, the city behind it, and the giant statues that still stood lonesomely on the desolate shores of this cursed land. Their creations had withstood the onslaught of darkness and time, but the creators were gone. Who had they been? What terrible fate had befallen the citizens of the ruined city? </p><p> But then, Sunny angrily shook his head. These mysteries had nothing to do with him anymore. He was going home, never to return to this awful pit of horror and despair. Let someone else solve them. </p><p> After a short rest, they decided that it would be easier to climb the wall instead of circling it in search of an entrance. Even if they were to find a gate, there was no guarantee that it would be open. </p><p> Climbing the wet granite was not an easy task, but they somehow managed. When there was nothing to use as a hold, Sunny and Nephis resorted to using their swords by inserting them into the joints between the slabs. A few unpleasant cuts later, they found the right rhythm and made quick progress. </p><p> Enhanced by the consumed soul shards and shadow fragments, as well as the ruthless training regimen of the neverending battle for survival, their bodies were full of strength and endurance. Both of them were at the peak of human physical ability. Pretty soon, they had reached be top of the massive wall and climbed over its edge. </p><p> Without even needing to catch his breath, Sunny hungrily crawled forward, jumped to his feet, and gazed down. </p><p> In the ensuing silence, he could hear the sound of the golden rope scratching against stone. However, his heart was beating louder. ReaD lat𝙚St chapters at nô(v)(𝒆)lbin.c/o/m Only</p><p> Soon, Nephis and Cassie joined him. </p><p> The blind girl grasped his shoulder and asked, her voice bright and full of hope: </p><p> "Sunny? What do you see?" </p><p> He licked his lips. </p><p> Beneath them, an expansive city lay in ruins. The beautiful stone buildings were broken and shattered, many of them turned into mere piles of rubble. There were no people walking along the wide streets, no clamor of voices to drive away the silence. Under the cold grey sky, the ruined city looked dead and mournful. </p><p> It was impossible to say what terrible disaster had happened here, but it was clear that it was not natural. Many of the collapsed houses were blackened by fire, with claw marks cut into the still-standing fragments of walls. Here and there, monstrous bones of ancient horrors protruded from the ground, telling tales of desperate battles that must have had taken place on these streets once, a long time ago. </p><p> Looking closer, Sunny felt cold sweat running down his back. There were strange shapes moving through the rubble, and even more hiding in the shadows. Seeing them filled him with an icy sense of dread. </p><p> The ruined city was teeming with Nightmare Creatures. </p><p> "There is… a vast, ruined city built of weathered stone. And there are numerous monsters wandering its streets. Just like you said there would be." </p><p> The tall city wall they were standing on was as wide as a road. It stretched endlessly in both directions, enclosing the vast ruins into a strangely perfect circle. Every so often, there were towers built into its impenetrable granite body, serving as bastions against potential enemies. </p><p> Who would have thought that one day this great barrier would serve not to repel the horrible monsters, but to keep the true horrors imprisoned inside? </p><p> But Sunny wasn't that interested in the wall. He wasn't even too interested in the monsters. Instead, his eyes were drawn to the tall hill towering above the ruins. On that hill… </p><p> "There is a magnificent castle standing on a hill in the middle of the ruins. It looks like… like something out of a legend. Its walls are built from radiant white stone, with tall towers and majestic spires piercing the sky. It stands above the city like a... a symbol of hope, the only thing in this hell that seems to be untouched by the darkness and… and…" </p><p> A wide smile appeared on Cassie's face. </p><p> "Yes! This is the castle I saw!" </p><p> However, Sunny didn't hear her. Just as he was describing the splendor of the bright castle to the blind girl, his gaze accidentally slid behind it. </p><p> Now, all he could see was the dark silhouette of a cyclopean tower that loomed above the world like an unholy spear made out of solidified blood. As soon as Sunny saw it, his heart was gripped by an unexplainable fear. </p><p> This was the Crimson Spire. </p><p> The feeling of horror it emanated was enough to make him never wish to gaze at it again. And yet, he wasn't able to look away. </p><p> By his side, Nephis was staring at it too, her thoughts a mystery. There was a tense, dark expression on her face. After a few seconds had passed, Changing Star was finally able to compose herself and turned away. </p><p> Looking in the direction of the castle, she frowned and said: </p><p> "The final stretch of the way to the citadel might be extremely dangerous. We must not hurry. Let's find a way down first…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_123.html">Previous Chapter</a><a class="navigationButton next" href="chapter_125.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

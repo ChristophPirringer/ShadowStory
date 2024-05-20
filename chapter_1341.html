@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1341</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1341 Learning The Hard Way</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div id="pf-8450-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "660f70227d1ca27afc9d2827", id: "pf-8450-1"})</script></div>
+<div></div>
+<h4>Chapter 1341 Learning the Hard Way</h4> <p> Sunny was more of a copycat than an actual sorcerer. Most of his repertoire consisted of recreating the weaves of various enchantments he had gleaned from his own Memories, not creating those of his own. </p><p> Of course, even that was already a stunning achievement. Armed with nothing but his intelligence and a bit of intuition granted to him by Blood Weave - as well as the ability to see weaves, in the first place - he taught himself the most fundamental principles of sorcery. The wondrous sorcery of the Demon of Fate, which very few beings had ever been able to wield. </p><p> At this point, Sunny had barely taken the first step away from blindly copying the spellweaves, tentatively trying to disassemble and modify them to serve his whims. The Siege Souvenir, a unique Memory he had created to slay the Fallen Titan Goliath, was the result of these attempts. </p><p> But Sunny was still a mere novice, all things considered. He was leagues away from true sorcerers... like the mysterious being who had created the Estuary Key, for example. That weave was simply beyond his imagination. He couldn't even imagine how long it would take him to reach the same transcendent level of mastery. A few hundred years, perhaps? A millennium? </p><p> So, Sunny had no illusions about his achievements. They were rather astonishing when compared to other modern Awakened, but that was only because most of those Awakened knew absolutely nothing about sorcery. In the grand scheme of things, his skill was negligible. </p><p> ...Or so he thought before taking a look at the weave of Ananke's mantle. </p><p> 'Huh? Wait... what is going on...' </p><p> The tapestry of ethereal strings shone in the darkness, laid bare in front of his altered eyes. It was much simpler than the infinitely complex weaves created by the Spell, but still... wasn't he comprehending it a little bit too fast? It was almost like an open book. </p><p> 'That part of the pattern is responsible for enhancing durability, that one has something to do with fire... ah, it's making the mantle inflammable. That one makes it waterproof. Then what do these strings do? Hmm. Looks familiar. Right! If I scale the size and complexity of this part by... a lot... it would be similar to a fragment of [Living Stone]. The basic structure is the same. Which is also the basic structure of the universal restorative trait of all Memories. So it's self-repair, then...' </p><p> Sunny opened his eyes wide and leaned back. </p><div id="pf-8886-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d36c95a2f0a704fff59", id: "pf-8886-1"})</script></div><p> "...What the hell?" </p><p> How was he suddenly so good at reading weaves? Before, he could only feel a slight inkling of understanding about the nature of certain enchantments, but now, he was somehow able to see the intent behind various sections of the ethereal tapestry almost clearly. Despite it being a completely unfamiliar way of weaving. </p><p> It just looked very... understandable. </p><p> Sunny blinked a couple of times. </p><p> 'Don't tell me...' </p><p> A sudden guess appeared in his mind. He gave the black mantle a dubious look, then let out a small laugh. </p><p> 'I'll be damned.' </p><p> The weaves the Spell created were infinitely ingenious and near perfect, and as a result, they were all unimaginably complex and intricate. It was to such a degree that Sunny had to spend weeks studying the simplest ones, and even that was only due to his better-than-average memory and innate talent. </p><p> He had been bashing his head against this daedal wall for about two years now, and for every grain of knowledge he gained, there were a hundred he failed to decipher and comprehend. </p><p> The weave of Ananke's mantle was also elaborate enough to make a person dizzy, but it was nowhere near the complexity of the tapestries the Spell created. And so... it seemed that after being tempered by the latter, Sunny had grown skilled enough to more or less discern the general flow of the former. </p><p> It was as though he had been learning to read by perusing an abstruse epic poem without ever even laying eyes on an alphabet book. The weave of the mantle, meanwhile, was not primitive enough to be called an alphabet, but it was something that a middle schooler would be able to read. </p><div id="pf-8887-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d55c95a2f0a704fff8b", id: "pf-8887-1"})</script></div><p> And after braving the weaves of the Spell, Sunny had learned enough to be considered one such middle schooler. </p><p> He covered his face with his palm and remained motionless for a while. </p><p> 'Right... it's just like being sent to the Forgotten Shore. After returning from there, we were also constantly bewildered by how weak normal Awakened seemed. Greater obstacles forge greater strength. As long as you can actually survive them, of course, which most of us didn't.' </p><p> He was both the survivor of the Forgotten Shore and of learning sorcery by studying the Spell at work. As such, the work of actual weavers was like... strangely accessible. Check new 𝒏ovel ch𝒂pters at nov𝒆lbin(.)com</p><p> Sunny shook his head, then calmed down and looked back to Ananke's mantle. </p><p> 'Right. This is great news, then. Not only will I be able to understand its enchantments faster, I will also be able to use them as a replacement for a text book and propel my weaving forward. Hopefully, I mean... it's still not exactly an alphabet book.' </p><p> He spent the rest of the day studying the odd weave. It was not simple by any means, but after suffering the appalling complexity of the immaculate weaves created by the Spell, Sunny almost enjoyed the process. </p><p> In the end, he realized that the black mantle was not that mysterious of an item. </p><p> The masks the priests wore were the true treasures, while their attire was mostly meant to serve a practical purpose. It was still a precious heirloom, of course... the fabric itself seemed to be a Transcendent material, very similar to the Night Silk from which Noctis had once sewn him a garment. In fact, it might have been the very same silk. </p><p> It was fashioned in a way that obfuscated the wearer's physical features, and enchanted to be supremely durable, stealthy, and enduring... all qualities that the persecuted priests of the Nightmare Spell would have needed in their perilous journeys. </p><p> A perfect attire for heretical evangelists who often found themselves being hated and hunted by the people they were trying to convert. </p><p> ...Or an ill-fated Awakened who often found himself having to deal with all kinds of unspeakable horrors. </p><p> Sunny hesitated for a while, then summoned Weaver's Needle and got to work modifying the weave of the nebulous black mantle. Black threads joined the ethereal strings of soul essence. </p><p> By the time the seven suns drowned in the water and the Great River shone with iridescent radiance, he lowered his hands and heard the Spell whispering into his ear: </p><p> [You have received a Memory, Ananke's Mantle.]</p>
+<div id="pf-8888-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d6bc95a2f0a704fffa3", id: "pf-8888-1"})</script></div>
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1340.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1342.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 747</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 747 Invisible Scars</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Usually, it would have taken Kai a lot longer to fly across the city to reach the tranquil terrace district… not that he would have. But today, the famous idol neglected his habit of staying low and out of sight. It seemed that his speed increased tremendously, as well, because ten minutes later, he was already at Sunny's door. </p><p> Maybe because of that, there was no crowd of paparazzi following him. </p><p> As they waited for Cassie, Effie rummaged through the empty refrigerator, then walked away from it with a disappointed sigh. </p><p> "There's no food!" </p><p> Sunny, who was evaluating the damage the boisterous huntress had done to the guest bedroom, glanced at her darkly. </p><p> "We've been gone for months. What did you expect?" </p><p> Effie made a sad face, then shrugged. </p><p> "But I'm hungry!" </p><p> Sunny let out an exasperated breath. </p><p> "...I have some synthpaste, if you want." </p><p> She shuddered and opened her mouth to retort, but at that moment, there was a knock on the door. If not for the haughty shadow standing guard outside — reluctantly, of course, since mundane tasks such as this were grossly beneath it — Sunny would have tensed up. </p><p> However, he already knew that it was Cassie. </p><p> The blind girl walked inside, froze for a moment, then raised a deliciously smelling package. </p><p> "...I brought food." </p><p> Effie threw a quick glance at Kai and grinned: </p><p> "See! Someone has some sense…" </p><p> She did not stare at the archer for long, though. </p><p> Kai had always been ridiculously charming, but after becoming a Master, his looks assumed an almost hypnotizing quality. It was easy to get distracted if one stared at him for too long. </p><p> In fact, every one of them became much better looking, albeit to a different degree. After studying Kai and Cassie for a bit, Sunny couldn't help but shake his head ruefully, a stunned expression on his face. He finally understood why Master Jet had called herself average when they first met, at least as far as Ascended went. </p><p> Still… it felt wrong to put the word average in one sentence with someone like her. Jet possessed an intangible quality that no one he had ever met was able to match. The four of them were Masters too, now, but they were far away from matching her arresting presence. </p><p> And Sunny himself? </p><p> He wasn't sure that he qualified to be considered a flower boy, as Soul Reaper had once predicted, but even he couldn't call himself unassuming anymore. The scrawny kid from the outskirts was gone. Instead, a young man with porcelain skin and striking black eyes took his place. </p><p> Deep in their darkness, visible only to Sunny himself, golden threads of Weaver's forbidden legacy glowed with the flame of divinity. </p><p> …The four of them settled around the table and shared a silent meal. </p><p> Despite the fact that they should have been exhilarated by their triumph over the Nightmare, none of the four seemed too joyous… well, except for Effie, who couldn't stop grinning and stealing glances at her pristine, vigorous body. The huntress was overflowing with giddiness. </p><p> The other free, however, just felt… hurt, tired, and empty. </p><p> And why wouldn't they be? Inside the Nightmare, there was no time for weakness. They had to carry on no matter how deep the wounds dealt to their souls cut. Now that the danger had passed and the members of the cohort were back in the real world, all those invisible scars were starting to make their presence known. </p><p> The slaughterhouse of the Red Colosseum, the nightmares, the assault on the Ivory City… all of it was slowly coming back to haunt Sunny. </p><p> The others had their share of demons to quell, no doubt. </p><p> After a while, Kai poured himself a cup of tea, looked at Sunny, and asked with uncertainty: </p><p> "So… what happened? I don't remember much after being swallowed by Sevirax." </p><p> Effie dropped her fork and stared at the archer with a stunned expression. </p><p> "Swallowed… what? You were swallowed by the dragon?" </p><p> Kai smiled with embarrassment: </p><p> "Oh… not really. I just, sort of… jumped into his mouth. Because I didn't know how else to kill him." </p><p> The Effie blinked a few times, but didn't say anything. She even forgot about her food for a moment. </p><p> Sunny looked down, then sighed. </p><p> "Nothing really happened. I managed to stall the… the fifth challenger for a while. He fell for my deception because he had assumed that I would not trust anyone with the knives, I think. After you killed the dragon, there was no real reason for him to stay. He left to salvage at least some rewards before the Nightmare ended, and I crossed to the Ivory Island." </p><p> He grew quiet for a few moments, and then added: </p><p> "When Sevras died, one of the two remaining chains that held it in place broke. Then… then the other one did, too. The Tower rose into the sky, and as it did, the force holding the islands afloat shifted, creating the Crushing. That is how Chained Isles came to be. Hope escaped, and the Nightmare ended." </p><p> A somber silence settled over the table. After a while, Cassie asked: </p><p> "So… so Lord Noctis fell, too?" Visit nov3lb!n(.)c𝒐m for new 𝒏ov𝒆l𝒔</p><p> Sunny slowly nodded. </p><p> "Yes. He asked me to give him the Obsidian Knife, and broke the last chain himself." </p><p> Effie sighed, then glanced at the cup of tea in front of her. </p><p> "Damn it. I wish we had something stronger to drink, in his honor. Some wine, maybe. Noctis, he was a devious, wicked, two-faced lunatic. But he was also… great. In more than one sense. You know?" </p><p> She smiled wistfully, and then shook her head: </p><p> "Isn't it strange? Mourning a figment of the Spell. They weren't real, after all." </p><p> Sunny looked down, knowing that Effie was not only talking about Noctis. </p><p> Then, the corners of his mouth curled upward. </p><p> He raised his cup of tea and smiled. </p><p> "...Actually, I think that enjoying some tea is what he would have wanted us to do. That was his plan, you know? Win a war against the immortal Saints, defy the gods, release the Demon of Desire from her prison… and then have a cup of tea." </p><p> Sunny took a sip, and then let out a satisfied sigh. </p><p> "So, let's relax and do exactly that. We deserved this much, at least... don't you think?"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_746.html">Previous Chapter</a><a class="navigationButton next" href="chapter_748.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

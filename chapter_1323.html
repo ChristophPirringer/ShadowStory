@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1323</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1323 Time Storm</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1323 Time Storm</h4> <p> As the winds turned violent and the surface of the Great River grew restless, Ananke gave them a few simple instructions. There was not much to say, really - she would be responsible for steering the ketch, protecting it against the ravages of distorted time, and preventing it from turning over. While they had to scoop up the water that would inevitably get inside and throw it back overboard. </p><p> The three of them also used sturdy ropes to tie themselves to the ketch. If the boat did overturn... hopefully, they would not be pulled into the depths of the underwater storm immediately. </p><p> Sunny was not sure what would happen if Ananke failed to keep their boat above the waves, though, so he didn't feel too hopeful. </p><p> "Prepare yourselves." </p><p> The voice of the young priestess was grave, which created a strange dissonance with her adolescent appearance. </p><p> "Once we enter the storm, we won't be free of it for several days. It will be hard to endure the strain, even for Ascended like you, my Lord and Lady. Conserve your stamina. And essence, too." </p><p> She lingered for a few moments, and then added quietly: Followw new 𝒄hapters at nov(e)l/bin/(.)com</p><p> "All kinds of things can happen... but fate will guide us. Have faith!" </p><p> Sunny gritted his teeth. </p><p> If there was one thing he did not have, and never wished to possess, it was faith. The only thing he believed in was the strength of his arms and the resilience of his spirit. But Ananke was different. If faith in Weaver could help her cope with the cruel truth of the world... then he didn't have the heart to diminish it with his words. </p><p> So, he remained silent. </p><p> 'Let's survive this.' </p><p> Looking at the wooden dipper he had been given, Sunny sighed. </p><p> Who knew that he would miss traveling inside the giant alloy coffins of the House of Night one day? </p><p> The wall of darkness, meanwhile, was approaching. </p><p> The winds were growing more and more violent, their howls drowning out all other sounds. The current of the Great River had turned fast and erratic, carrying the ketch forward with frightening speed. Tall waves rose and fell, and the wooden boat rose and fell with them, strong impacts reverberating through his bones. </p><p> 'Several days of this, huh?' </p><p> Sunny finally understood why Ananke had said that enduring the storm would not be easy even for the inhumanly strong and resilient Ascended like them. </p><p> Plus... it was not a mundane storm, either. </p><p> Eventually, the ketch plunged into a thick mist. A few moments before it did, the light of the seven suns suddenly grew strange and distorted, as if someone had covered the sky with a muddy prism. </p><p> Sunny's hair stood on end. He experienced a very eerie and uncomfortable sensation... a sensation of the laws of the world coming undone around him, maybe. Time, which had always been a constant, did not feel solid and reliable anymore. </p><p> Instead, it was wild and chaotic, playing strange games with his perception. Even the shadows surrounding him were fragmented and twisted, stretched endlessly or moving in an impossible manner. </p><p> It was rather... maddening. He felt nauseated. </p><p> And apart from this bizarre sense of wrongness, the ketch was being thrown around like a toy by the waves. His body was being jerked from side to side, up and down, experiencing moments of weightlessness and rough impacts. The winds were battering him, throwing streams of water at his face. </p><p> The roaring of the storm was deafening. </p><p> Blinded by the furiously swirling mist and the drops of water flying into his eyes, Sunny instantly felt miserable. </p><p> And afraid. </p><p> People had always been frightened in the face of raging nature. But here, it was not even nature - instead, the storm surrounding them was entirely unnatural. </p><p> It was just as harrowing, still. </p><p> ...And it was only growing stronger. They were only at the outer boundary of the unnatural disaster. </p><p> As Sunny wondered how they were going to survive several days of this torture - if the ketch wasn't destroyed sooner, at that - he heard Ananke through the cacophony of the raging storm. The Names she had spoken were unfamiliar, and judging by the strain in her voice, they were not something the young priestess could easily use, or invoked often. </p><p> Nevertheless, after she spoke these Words, the nauseating distortion of the time storm seemed to have subsided a little. The ketch was still climbing the tall waves and plummeting from them, and the winds were still as violent as they had been a moment before... but the physical hardship of enduring their ruthless assault was at least tolerable. </p><p> It was as though an invisible bubble of more stable time appeared around the small ketch, keeping the worst of the chaos away. </p><p> Sunny turned his head to look at the young priestess. </p><p> Ananke was holding the steering oar with both hands, looking into the mist with a focused expression. Her youthful face was pale, but her azure eyes were full of stalwart determination. She controlled the ketch with a skill born from hundreds of years of living on the Great River, somehow guiding it through the towering waves and chaotic currents. </p><p> Then, he glanced at Nephis. </p><p> Her eyes were burning with white flame, the light fabric of her tunic fluttering in the wind. </p><p> Finally, Sunny looked down and let out a heavy breath. </p><p> Bending down, he scooped up the first portion of water and tossed it into the mist. </p><p> His hand trembled for a moment. </p><p> Were they really going to live through this? </p><p> Sunny had lived through a great deal of things, many of which no one had any business surviving. He had often imagined his death, as well. </p><p> In his imagination, that death always came at the hand of a powerful Nightmare Creature... or a similarly powerful human. Sometimes, he imagined dying of old age in a comfortable bed, too. </p><p> One thing Sunny very rarely imagined, if ever, was being killed by a dumb, mindless force of nature. Perhaps it was vain, considering the kinds of environments he often ended up in... but still, he was unwilling to succumb to something so senseless. </p><p> 'I survived a fight with a Great Beast, damn it...' </p><p> Was he going to die because of a weird storm? </p><p> 'Like hell I will.' </p><p> Not to mention that there were the lives of Nephis and Ananke to consider, too. </p><p> ...Encouraging himself like this, Sunny endured another wave and scooped more water from the wet deck. </p><p> The mist swirled and boiled around them, and the small ketch was being pulled deeper and deeper into the storm.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1322.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1324.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

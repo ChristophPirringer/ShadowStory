@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 391</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 391 Dreamscape</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 391 Dreamscape</p><p>Dreamscape was a place that was neither real nor a part of the Dream Realm, but instead existed somewhere in between. It was created and maintained by a combination of advanced modern technology and a very special Aspect Ability that a certain Master — now already a Saint — possessed. Their power had to do with illusions, and so, that was what Dreamscape was.</p><p>A massive illusion that countless people could share.</p><p>However, that illusion was not entirely malleable, and functioned according to a set of absolute rules. It reflected reality instead of being a complete replacement for it. As the result, a person entering it was bound by the same laws that existed in the real world.</p><p>And since one of those laws was the Nightmare Spell, a person's Aspect, Abilities, Memories, and Echoes would function in the illusion the same way they functioned outside of it, with one important difference. One couldn't be hurt, wounded, or killed in the Dreamscape. Neither Memories nor Echoes could be destroyed.</p><p>Which meant that Awakened were able to battle each other there without having to risk their lives and keep the destructive force of their duels out of the real world. This application was the primary use of the Dreamscape… well, in a sense.</p><p>At the dawn of it, the Dreamscape was mostly used by the Legacy Clans and the government to train elite Awakened that served them, but it was quickly deemed as only being marginally useful. While such training could facilitate safe duels between the human carriers of the Spell, its simulation of the Nightmare Creatures was not that close to reality. The illusory monsters lacked the will and mind of actual abominations, after all.</p><p>So, the Dreamscape had failed to become a successful training tool and was thus largely abandoned.</p><p>It had, however, unexpectedly found incredible success in the entertainment segment.</p><p>Those Awakened that were not part of elite strike forces deemed it to be very engaging, useful… and fun. The duels in the Dreamscape became very popular, and that popularity simply exploded once the company behind it came up with the idea to integrate a broadcast function into the simulation pods, thus making these duels available to a much broader audience — the mundane humans.</p><p>Today, Dreamscape was a whole industry with both amateur and professional leagues, famous celebrities, and passionate fan clubs. There was even a version of it for non-Awakened, with its own set of environments and adventures that allowed people to experience a facsimile of what it meant to travel across the Dream Realm while battling Nightmare Creatures.</p><p>Sunny, however, wasn't interested in the fame, glory, and money that becoming a renowned Dreamscape champion could bring him. No matter how lucrative, it was just a toy, at the end of the day.</p><p>He was, nevertheless, extremely interested in that toy for three very important reasons.</p><p>The first reason was the anonymity that Dreamscape offered. It was all but impossible to track a person entering the illusion if they didn't wish to be tracked, which was very much to his liking.</p><p>The second reason was Shadow Dance. Sunny needed to fight against a multitude of opponents skilled in wielding different weapons and using various styles to sharpen his battle art and make it — as well as the Soul Serpent — stronger. In a sense, he needed to create a library of mirrored styles to enrich his own.</p><p>Was there a better place to find thousands upon thousands of Awakened who were willing and ready to cross blades with him? All without having to risk his life, to boot.</p><p>The third reason was rather unexpected. In fact, Sunny had stumbled upon it by pure accident.</p><p>Back when he had just arrived on the Chained Isles, he secretly tested the Mantle of the Underworld in battles against several Nightmare Creatures. The onyx armor had turned out to be even more remarkable than he had anticipated, so he easily hunted down several abominations. And yet, one creature had managed to escape from him after being thoroughly defeated, mostly because of the approaching Crushing.</p><p>That was when he discovered how the [Prince of the Underworld] enchantment really worked. Its description said that the onyx armor grew stronger according to the number of opponents its wielder defeated… and it did exactly that. The enchantment didn't care whether the opponent lived or died, all that mattered to it was that the enemy lost.</p><p>After the Nightmare Creature Sunny had beaten escaped, the counter of the enchantment still changed from [1215/6000] to [1216/6000].</p><p>He tested it in a battle with another abomination, bringing it to the door of death and then walking away without delivering the last blow. The counter went to [1217/6000].</p><p>So, Sunny hoped to kill two birds with one stone in the Dreamscape — to both elevate his technique and satiate the requirements of the [Prince of the Underworld] with a constant stream of victories.</p><p>Now that he had finally bought his own home and gained access to a sufficiently secure simulation pod, the chance to do so was finally in his grasp.</p><p>...But first, he needed to send Lanard away.</p><p>The two of them returned to the ground floor. The short man looked around and asked with a somewhat forced smile:</p><p>"I… I hope that everything was to your liking, sir?"</p><p>Trying not to show how weird it was for him to be addressed as "sir", still, Sunny gave him a curt nod and answered evenly:</p><p>"Yes. It will do."</p><p>Lanard hesitated for a few moments, then said:</p><p>"Good. Great! Ahem… would you like to subscribe to our active security service? Many Awakened find it beneficial to have a dedicated security… team… guarding… uh…"</p><p>The short man started to give him an obviously practiced sales pitch, but under Sunny's indifferent gaze, his voice grew quieter and quieter, until eventually disappearing completely.</p><p>Sunny smiled slightly.All 𝒍𝒂test nov𝒆l𝒔 on novelb𝒊n(.)c𝒐m</p><p>"I would not, Lanard. Do you really presume to be able to guard… me?"</p><p>Lanard gulped, then shook his head.</p><p>"Ha! Ha-ha. No, of course not. What I was thinking about, even? Please forgive me, sir."</p><p>He looked away, then hurried to change the subject:</p><p> "In any case, as you can see, the interior is rather empty. We left space for your to fit your… ahem… things. If you don't mind me asking, when are the movers arriving?"</p><p>Sunny stared at him, then shrugged.</p><p>"They're not. I don't own a lot of... things."</p><p>By which he meant that the clothes on his back and the stuff in his pockets were the total sum of his worldly possessions.</p><p>Lanard sighed, then nodded:</p><p>"How profound. Indeed, people these days are too preoccupied with material possessions. They define themselves through the ownership of things, not noticing that those things actually own them. I envy your wisdom, sir."</p><p>'...What on earth is that guy going on about?'</p><p>Sunny stared at Lanard's tailored suit and antique watch with hidden envy. Those had to be expensive…</p><p>The short man caught the direction of his gaze, and blushed with embarrassment.</p><p>"Anyway! If no one is coming, then we can conclude the deal right here and now. I wouldn't want to… take too much of your precious time!"</p><p>They signed a few documents. All payments had been made in advance, so this was just a formality... but, despite that, completing this meaningless ritual made Sunny feel a deep and powerful emotion.</p><p>In a few minutes, Lanard was gone, leaving him alone in his new home.</p><p>The first home he had in many, many years.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_390.html">Previous Chapter</a><a class="navigationButton next" href="chapter_392.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

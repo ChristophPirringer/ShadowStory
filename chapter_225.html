@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 225</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 225 On The Shoulders Of Giants</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 225 On the Shoulders of Giants</p><p>Once they climbed all the way to the broad shoulders of the statue and found a suitable place to make camp, everyone looked down without having to say anything.</p><p>Far below them, the giant nest was still aflame. The cables that constituted it were melting and turning into rivers of liquid metal, flowing down from the edges into the vast abyss of the canyon.</p><p>The turbulent black waters were rising from below to meet them. When the two streams met — one lightless, the other incandescent — billowing columns of hot vapor shot into the air. For a few moments, it seemed as though light and darkness were on equal footing.</p><p>But then the cursed sea rose from the depths of the canyon in a surge and washed away the brightness of melting iron away. The flood of blackness crashed into the burning nest, dousing it.</p><p>A minute a so later, the white flames were gone. The surface of the dark sea continued to rise, as though nothing had ever happened.</p><p>Sunny sighed and turned to Nephis.</p><p>Now that they had reached their goal, it was time to face the real danger. With a grim expression on his face, he asked:</p><p>"So… now what?"</p><p>He knew the general concept of how she was planning to reach the southern edges of the Forgotten Shore in a short time, but not the details.</p><p>Changing Star glanced at him, lingered for a moment, and then said:</p><p>"We arrived at the canyon faster than I expected. There are still two days left before we can act. So, make yourself at home. We'll rest tomorrow and start preparing for it the next day."</p><p>Sunny smiled.</p><p>Rest… that sounded swell.</p><p>Plus, he wasn't really looking forward to making use of the "fast and comparatively safe" method of traveling through the Labyrinth that Nephis had talked about.</p><p>In fact, he would rather never have to use it at all.</p><p>***</p><p>Just like that, the cohort found itself with nothing to do for the next two days. Before leaving the Dark City, Changing Star had anticipated that various things could slow them down and padded the schedule of the expedition with extra time.</p><p>Who knew that they would actually make it to the broken bridge so fast?</p><p>In any case, Sunny wasn't complaining. He had a lot to do and think about.</p><p>For example, the mysterious connection between his tachi, Effie's spear, and the headless statues that stood around the Forgotten Shore.</p><p>The statues represented the seven valiant heroes that had made an oath to return light to this cursed land thousands of years ago. Sunny had seen three of them by now: the knight, the graceful woman, and now this mighty warrior.</p><p>Did every statue have a connection with a specific Memory? If so, what was that connection and why was Nephis so reluctant to share this information with everyone?</p><p>Well… it wasn't like he and Changing Star were very close now. Sunny had drawn a clear line to denote the nature of their relationship himself. He insisted that he was not a true member of the cohort, but merely a hired specialist.</p><p>Why would she share her secret with him?</p><p>This was a logical conclusion, but Sunny couldn't help but feel a bit resentful.</p><p>Despite the fact that he was her first partner, now, the situation had changed. Nephis had other people to rely on… like Caster.</p><p>So why would she say that Sunny was the only person she trusted on the Forgotten Shore except for Cassie, and then hide her technique from Caster?Visjt n𝒐velbin(.)c𝒐m for new updates</p><p>Everything felt so complicated.</p><p>In any case, there was an invisible line drawn between the core members of the hunting party and the outsiders — Sunny and Kai.</p><p>No one consciously avoided them, but it was clear that the line existed. When all was said and done, the four true members of the cohort preferred each other's company. That's why Sunny and Kai ended up spending a lot of time together, chatting about this and that and generally having a nice time.</p><p>Honestly, Sunny couldn't complain. As far as companions went, the charming archer was not the worst option.</p><p>Plus, their conversations were extremely entertaining.</p><p>Kai had a lot of fun stories about his life as a celebrity, while Sunny had plenty of macabre anecdotes about his life in the outskirts.</p><p>Their life experiences were so vastly different that it was almost as if they were from different worlds. As a result, both felt like they were listening to fictional stories about some strange and fantastical land that they had never heard about before.</p><p>Sunny spent the rest of his time training with the sword, trying to turn Shadow Dance from an ethereal concept into a practical set of core principles. The progress was painfully slow, but now there was progress, at least.</p><p>He was having so much trouble because his chosen battle style was so strange and elusive. Unlike most styles, which started with certain movements and steps, this one was supposed to imitate any movement and any step instead of introducing its own.</p><p>So it was more about the state of mind and the flexibility of his physical behavior. Sunny had to create a set of training exercises that would allow his body and muscle memory to become capable of adapting to any style and turn pliable like a shadow.</p><p>On the first day of trying, his whole body ached. Despite his incredible physical shape and experience with tough training, Sunny ended up straining the muscles that he didn't even know he had, and force those that he did know about to behave in a way that was utterly different from what they were used to.</p><p>Actually, his previous training was even detrimental to the whole process. He had to make himself unlearn a lot of things to allow for this strange style to take root in his very bones. Thankfully, the foundation of his technique was Changing Star's flowing style, which itself was designed for maximum adaptability.</p><p>If Sunny learned another style or was further into mastering any existing technique, this would have been ten times harder, if not impossible.</p><p>…Needless to say, his exercises were in no way similar to the beautiful and graceful dance he had seen in his dream. In fact, from the side, Sunny must have looked as though he was having a seizure. He caught more than one amused stare while practicing.</p><p>It didn't matter.</p><p>The only thing that mattered was that he was slowly pushing himself toward mastering the basics of Shadow Dance... and, hopefully, receiving his first Relic.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_224.html">Previous Chapter</a><a class="navigationButton next" href="chapter_226.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

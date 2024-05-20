@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1071</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1071 Familiar Role</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> 1071 Familiar Role </p><p> Nephis stared at Sunny for a couple moments, then briefly glanced at her apron and quietly cleared her throat. </p><p> "Right." </p><p> She turned around and got back to stirring the rice. A couple seconds later, site added without looking back: </p><p> "You'll have to wait for a couple more minutes. And... welcome back, Sunny. Did you make it out of the Antarctic Center alright?" </p><p> Sunny wondered how much Changing Star knew about the situation in the Southern Quadrant as he followed Cassie, Effie, and Kai to sit behind a dining table. Settling on a wooden chair... which was far inferior to his own Shadow Chair... he sighed. </p><p> "I wouldn't call it "alright". But yes, I made it out. I'm already inside a siege capital in East Antarctica." </p><p> Neph's shoulder moved slightly. </p><p> "...That's good." </p><p> Effie grabbed a few cans of something sugary and refreshing, then pushed one toward Sunny. </p><p> "Kai and I spent a whole month in transit, aboard those giant ships. We were in the first batch of the Second Army to arrive, so we've been in East Antarctica for about a week. Gods... I thought the ocean was bad, but Antarctica! I havenever seen that many Nightmare Creatures in my life, not even here in the Dream Realm. It's like the two worlds switched places." </p><p> Kai nodded southerly. </p><p> "Indeed. Even though there are secure evacuation corridors between the inland siege capitals and the harbor strongholds, we had to fight a couple battles just to reach our designated sector. Luckily, there were no casualties." </p><p> The Second Army was twice the size of the First Army, so it was going to take two trips for the naval convoys to bring all of it to the Southern Quadrant. Both Effie and Kai were in the first wave of reinforcements, which was why they had made landfall around the time Sunny himself reached East Antarctica. </p><p> Sunny looked at them, wondering. East Antarctica was a large place, and it was not a given that their paths would cross until the end of the operation... he really hoped that they would, though. </p><p> Effie shook her head. </p><p> "Enough about us! What happened to you? You... you look a bit different. Sunny." </p><p> He did indeed look slightly different because of the Marble Shell. However, Sunny knew that that was not what Effie meant. Fi𝒏d 𝒏ew upd𝒂t𝒆s on novel𝒃in(.)com</p><p> He sighed and took a sip from the cart she had given him. </p><p> "Well... as you know. I was assigned to the First Irregular Company. In the first month after our contingent of the army made it to the Antarctic Center, things were. more or less fine. The field army split into seven divisions, with one remaining in the city of l-'alcon Scott, while six others moved south to establish six more siege capitals." </p><p> Sunny paused. </p><p> "I was assigned to the southernmost siege capital, and then went on a mission to retrieve a VIP from a remote research station. That was when everything went from bad to worse. The Chain of Nightmares had gone into overdrive. and three whole titans spawned in the Antarctic Center... including an especially troublesome Corrupted one." </p><p> It took a lot to keep his voice from shaking at the mention of the Winter Beast. The others looked at him intently, and Sunny sighed. </p><p> "I ended up stuck in that research station for about a month, waiting to be evacuated by a battleship. However, the ship never arrived, and everyone in the settlement was eventually eviscerated by a powerful Terror. My people and I were the only ones to survive. We were in a bit of a predicament, though, because by that point, reaching the nearest siege capital was more easily said than done." </p><p> He leaned back, remembering L049 and the start of the calamitous march north. His face darkened. </p><p> "And then we leamed that the nearest siege capital had actually already been destroyed. So I had to go to the second nearest one, picking up a few refugees in the process that was when I got trapped in that weird tunnel. Thanks for helping me out, by the way." </p><p> He forced out a smile, looking at Nephis and Cassie. Cassie shook her head. </p><p> "Of course. We were quite surprised! The way you delivered the message was very original, to say the least. And, tit... very you! Hopefully, the little kernel of insight I gleaned was of some help." </p><p> Sunny chuckled. </p><p> "It helped. I still don't know what that thing in the tunnel was, but we managed to escape from it... for a time. Sadly, the second nearest siege capital also ended up being destroyed, and so, I had to lead the train of refugees all the way back to Falcon Scott. That was... a hell of a journey. ???????????????????????????????????. But what happened next was even worse. We held the last siege capital for close to three weeks, and in that time, about ninety percent of civilians were evacuated to East Antarctica." </p><p> After saying that, he remained silent for a while. Eventually, Sunny grimaced. </p><p> "The remaining ten percent, though, all died. As did millions of people in the other destroyed siege capitals. Saint Tyris-you know her had been holding back that Comupted Titan I mentioned. Once she was defeated, the titan swept in and killed everyone. The whole field army was wiped out. I am hard to kill, so I survived... well, and here I am." </p><p> A somber silence settled in the brightly lit hall. Nephis and Cassie did not speak, probably not mowing what to say, and neither did Effie and Kal. The latter two were especially grim, because they were now in Antarctica, too. </p><p> So many people had died, and what had happened to Sunny could very easily happen to the two of them, as well. </p><p> Eventually, Kai sighed. </p><p> "I'm so sorry, Sunny. You've been through a lot." </p><p> Sunny closed his eyes for a moment. The heart-wrenching memories of the Antarctic Center clawed at his heart, making him want to surrender to a dark and boundless emotion. </p><p> ... With a smile, he shook his head. </p><p> "We've all been through a lot. On the Forgotten Shore and in our Second Nightmares, we've been through hell after hell. But... it did really feel different, this time. Maybe because I was responsible for other people, and maybe because it was happening right here on Earth, not in some distant place." </p><p> With that, Sunny glanced at Effie and Kai, then said, trying to cheer them up: </p><p> "You don't have to worry too much, though. Now that the operation is in its second phase, things will calm down a little. East Antarctica is in a much better spot than the Antarctic Center... there are more soldiers, more Awakened, more Saints, and much fewer obstacles in the way. Sure, it's going to be a tough campaign, and unexpected variables are bound to emerge... but I feel like the worst part is over. With some luck, we will all manage." </p><p> He smiled, then secretly threw a glance at Nephis. </p><p> She was now a part of one of those unexpected variables. Would Neph have something to say to him? As if feeling his gaze, Changing Star turned around and walked their way, soon placing plates of fragrant rice and vegetables in front of each member of the cohort. </p><p> Her apron had disappeared at some point in the past few minutes. </p><p> Sitting down, Nephis pushed the plate with the biggest portion toward Sunny, which caused Effie to stare at her indignantly </p><p> Neph coughed. </p><p> "What? Eat, everyone... before it gets cold..." </p><p> They turned their attention to the food, and for a while, Sunny felt delightfully at peace. </p><p> It was so strange... he had gone through so much, and had changed so much, but now that he was back with his friends, it was so easy to slide into a familiar role-to smile and laugh as if he was the same old Sunny. It felt natural, even if a small, hidden comer of his heart remained dark and cold, untouched by the peaceful warmth of their reunion. </p><p> Still, it wasn't a bad feeling. </p><p> Allowing himself to relax, Sunny concentrated on the food. It had been along time since he got to eat something Nephis had cooked. </p><p> The fried rice, with vegetables was, indeed, much better than military rations. </p><p> It was delicious.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1070.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1072.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

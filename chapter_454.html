@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 454</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 454 Hope</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 454 Hope</p><p>The fifth level of the Ebony Tower had almost killed Sunny.</p><p>It was completely empty, its black walls drowning in darkness and unadorned. There was no dust, no ruined pieces of furniture, tools, or strange metal devices. Not even lanterns.</p><p>There were, however, countless runes carved into the walls themselves. And almost all of those runes were of the kind that radiated a sickening, dire sensation that made one feel as though their mind was breaking apart.</p><p>The same mysterious runes that the Spell used to describe the Unknown, and that Sunny had seen written on the floor by the prisoner of the small cell that was hidden under the ruined cathedral in the Dark City.</p><p>Back then, looking at them dealt a heavy blow to Sunny, but he persisted and was eventually able to read a single phrase that the prisoner had written, unlike everything else, in a familiar script…</p><p>Hail Weaver, Demon of Fate. Firstborn of the -unknown-...</p><p>On the second to last level of the Ebony Tower, however, there were much more of the terrible runes. And most of the seemed far more intense, far more... powerful.</p><p>When Sunny had first set foot into the dark hall, he yelped and jumped back, then rolled down the spiraling stairs all the way back to the shrine of the Storm God.</p><p>…Good thing his bones were now much more hardy.</p><p>Eventually, however, he had returned to the hall of runes.</p><p>Sunny knew that looking at the vile writings could destroy his sanity, maybe even outright kill him, so he had done so with his eyes closed and while leaving the shadows behind, so that they, too, could not see the ancient walls.</p><p>Even then, he felt a terrible pressure constantly assaulting his mind.</p><p>He was not going to leave without learning at least something from this chamber of secrets.</p><p>Where else would he ever be able to study writing left behind by an actual daemon?</p><p>So, he tried to limit the scope of what he saw and glance at the obsidian walls, one little section at a time.</p><p>The experience was nothing short of horrid, but at least tolerable.</p><p>…And only when Sunny summoned Weaver's Mask was he able to look at the portions of the hall without feeling like passing out or falling down in a fit of convulsions.</p><p>The forbidden runes turned less dreadful, but did not give up their secrets. He didn't know their language, after all. The Spell, too, either refused or failed to translate them.</p><p>His exploration, however, was not for naught. Because, while slowly moving around the dark hall, he discovered something extremely valuable.</p><p>It was... a map.RE𝒂d updated st𝒐ries at n/𝒐vel/bin(.)com</p><p>Or rather, a strange semblance of one.</p><p>Both the runes and the images constituting the map were cut into the stone, their lines smooth and deep. Sunny did not know what tool the Prince of the Underworld had wielded to leave these markings behind, but imagined him simply using his nail to cut into the indestructible stone that even divine fire couldn't destroy.</p><p>At the center of the map, jagged mountains were depicted, shrouded by mist. Directly south of them, an island with a familiar silhouette of a graceful pagoda floated above flames. Even further south, separated from the mountains by a vast emptiness, was a mighty castle.</p><p>Far to the west, a snowy peak stood near a fuming volcano, and nestled between them was an arched bridge. To the south-west, a strange ship floated on ghostly waves. Sout-east of the mountains, divided from them by a long stretch of nothingness, a perfectly symmetrical pyramid was cut into the obsidian wall.</p><p>And lastly, to the north, further away than any other image, above all of them, was… a familiar shape. A fearsome mask stared at Sunny, crowned with three horns.</p><p>…Weaver's Mask.</p><p>The map was strange, however, because the areas she depicted seemed... disconnected, somehow. There were no borders, no terrain, no measure of distance between them. The ideas of north, south, east, and west were only something Sunny had assigned to the map out of habit. Truly, it could have been the exact opposite, or impossible to apply to the logic of the map altogether.</p><p>But at the same time, it fit with the geography of the Dream Realm as he knew it, somewhat.</p><p>Each of the images had an inscription near them, written in a runic language that Sunny had trouble understanding. It was similar to the one used by the Spell, but also different enough to make translation either impossible or difficult.</p><p>But even without reading the inscriptions. he easily guessed what the images meant.</p><p>The mountains depicted in the center of the map were, of course, the Hollow Mountains. Even if the image itself was only familiar, their closeness to the Ivory Tower cemented that conclusion. The Ivory tower, of course, represented the Chained Isles.</p><p>The castle to the south had to be Bastion. Although Sunny had never seen it with his own two eyes, he knew its silhouette and appearance from childhood, just like any other human in the real world. Its likeness was the stage for countless dramas, movies, and webtoons, after all. Similarly, he recognized the great stone bridge nestled between a snowy peak and a raging volcano — it was the road to Ravenheart, the great Citadel ruled by clan Song.</p><p>Knowing the position of Bastion and Ravenheart, it wasn't hard to surmise that the ship sailing on the ghostly waves represented the Stormsea, where the citadel of the third great clan, House of Night, was located.</p><p>Sunny had no idea what the pyramid to the east represented. The seventh image, however, was rather clear… it meant Weaver. By knowing who it described, he was also able to translate the inscription near the depiction of the mask…</p><p>It read:</p><p>"Fate."</p><p>There was another symbol near it, though, which meant something akin to a question mark, an inquiry. So, actually, it was "Fate?". Basically, even the Prince of the Underworld had no idea where his eldest sibling lived.</p><p>…And this was what the images were, in Sunny's mind. They represented the seven daemons, or rather, their domains.</p><p>Which was nothing short of tantalizing in and of itself, but also meant several things.</p><p>Firstly, that the three great clans had inherited their Citadels from three daemons… or at least built their strongholds in the regions of the Dream Realm where daemons had once dwelt.</p><p>Secondly, that the Underworld, most likely, was situated beneath the Hollow Mountains. This Death Zone was the very dark and cavernous domain to which the Prince of the Underworld had retreated after his conflict with the Goddes of the Black Skies.</p><p>And lastly… that the ruler of the beautiful and prosperous land that had invoked the wrath of Sun God and doomed their kingdom to destruction — and eventual transformation into the Chained Isles — was a daemon, as well.</p><p>Coincidentally, the inscription cut into the stone near the image of the Ivory Tower was the only one after that of Weaver's that Sunny was able to translate, since the runes closely resembled those usually used by the Spell.</p><p>It was "Desire".</p><p>The other meaning of the runes, however, was… hope.</p><p>The Ivory Tower had once belonged… to the Demon of Hope.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_453.html">Previous Chapter</a><a class="navigationButton next" href="chapter_455.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

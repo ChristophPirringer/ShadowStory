@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 275</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 275 Secrets Of The Ruined Temple</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 275 Secrets of the Ruined Temple</p><p>As soon as the dawn came, bringing with it the mournful sound of retreating waves, Nephis and her cohort left the ruined cathedral.</p><p>Sunny remained alone, standing on the edge between the darkness of the old temple and the light of the new day.</p><p>Lingering in the ornate doorway, he remained motionless for a while and watched as the artificial sun rose into the bleak grey skies above the cursed city. After months spent in the company of other humans, being by himself once again felt strange… just like it had felt strange to be with other people after all the time he had spent on his own here before that.</p><p>Turning around, Sunny returned into the darkness.</p><p>The grand hall of the ruined cathedral was peaceful and quiet. Without the menacing steel guardian, there was no one here to disturb the silence anymore. Even the darkness that populated the corners was empty and docile now, not at all the living entity it had been once.</p><p>…It felt sort of lonesome.</p><p>Freely walking through the echoing expanse of the magnificent hall, Sunny looked around, taking in the sight of the cathedral that had sheltered in the past from a new perspective. Despite spending so much time here, he had never seen it like this — in the same way the inhabitants of the Dark City must have seen it all those years ago. Sunny had only looked down on the hall from the height of one of the ancient temple's support beams.</p><p>It looked majestic.</p><p>But it was also not safe anymore.</p><p>With the Black Knight dead, no one was left to defend the cathedral from the Nightmare Creatures that would want to claim it as their nest. So Sunny couldn't stay here for long.</p><p>Not that he had the luxury of that choice anymore.</p><p>Throwing one last look at the beautiful dark hall, Sunny sighed and began climbing the statue of the nameless goddess.</p><p>***</p><p>Back in the hidden chamber, it was once again utterly dark. Sunny hesitated for a bit and began collecting his belongings.</p><p>It didn't take him long.Get your 𝒇avorite 𝒏ovels at novelb𝒊n(.)com</p><p>Growing attached to material things was pointless on the Forgotten Shore. There was no way to take them with him to the real world, after all — if he was even going to survive that long.</p><p>But he still felt sad leaving all of his spoils behind. Back in the real world, Sunny never had a home like this, nor a lot of stuff to call his own. He had dreamed of enjoying a lavish lifestyle after becoming an Awakened, but got stuck in this hell instead. This spacious room he called his home was a form of consolation.</p><p>But now he had to leave.</p><p>In the end, he only took the bare necessities and then tidied the place up, wishing to leave it clean and orderly despite knowing that there was little chance of anyone stumbling on this place again.</p><p>After everything was done, Sunny glanced at the tranquil room and hesitated for a bit.</p><p>Then, he walked over to the wall where he had once scratched countless lines into the stone to count the days and summoned the Prowling Thorn.</p><p>He wanted to leave a mark of his presence here. Something to tell that he had lived in this hidden chamber, in the ancient ruined cathedral, in the Dark City, on the Forgotten Shore…</p><p>In this world. A small mark to witness that he had been here, had struggled here, and then left to fight for a chance to escape.</p><p>Sunny wanted to come up with some profound words, but nothing came to mind. He wasn't really a profound person, anyway.</p><p>What he really wanted to carve into the wall was his True Name. But even now, the paranoia stopped him. What if someone would come here one day and read it out loud? What a funny disaster that would be.</p><p>Finally, he raised the kunai a carved something beneath the lines that marked the days he had spent living in the ruined cathedral.</p><p>Then, Sunny turned around and walked away.</p><p>There were two runes left on the wall behind him.</p><p>One meaning sun.</p><p>The other meaning loss.</p><p>***</p><p>There were two things Sunny wanted to accomplish before tomorrow morning. One was in the ruins of a library that he had never finished exploring, and the other one was right here in the ruined cathedral.</p><p>Returning to the grand hall with his rucksack on his shoulder, Sunny walked past the statue of the nameless goddess and dove into one of the doors leading into the temple's inner sanctum.</p><p>He had never been there before, kept away by the living darkness and the Black Knight.</p><p>But now that the devil was gone, Sunny was finally going to see what was hidden inside.</p><p>Walking through the rooms and corridors that the priests and priestesses had once used, he looked around and didn't notice anything of interest. Everything was pretty much destroyed and ruined, with only a few mundane things remaining untouched.</p><p>There was nothing here at all — at least that was what others would think.</p><p>Sunny, however, suddenly stopped in front of a certain wall and tilted his head.</p><p>There was nothing special about that wall, at least nothing that could be seen. But he could feel a heavy mass of shadows hiding behind it, as though there was a hollow space there.</p><p>After searching for a while, he found a hidden lever and pressed it.</p><p>Or at least he tried. The ancient mechanism had rusted through and disintegrated over the thousands of years of neglect, of course.</p><p>With a sigh, Sunny summoned the Midnight Shard, looked closer at the hollow wall, and inserted the tachi into the seam between its moving parts. Then, he unceremoniously used the unbreakable blade as a lever and pushed with all his inhuman strength.</p><p>With a terrible scraping sound, a part of the wall slid away. The air rushed past Sunny, entering the dark mouth of a narrow corridor.</p><p>Behind it, a set of stone stairs led down.</p><p>Deep down underground.</p><p>With a resentful grimace, Sunny flourished the Midnight Shard to shake off the dust that clung to it, put it on his shoulder, and entered the secret passage.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_274.html">Previous Chapter</a><a class="navigationButton next" href="chapter_276.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

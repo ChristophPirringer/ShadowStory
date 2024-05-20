@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 670</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 670 With Kid Gloves</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Because of Effie's easygoing personality and affable attitude, it was easy to forget just how fearsome of a warrior she was. </p><p> Out of all the members of the cohort, she had survived on the Forgotten Shore the longest… she had done so while hunting down Nightmare Creatures on the cursed streets of the Dark City all alone, as well. Mostly because anyone willing to help her would have been disposed of by the ruler of the Bright Castle, who had been scorned by her rejection. </p><p> The fact that the young huntress had never bowed to his demands despite the black mark placed on her only went to show how unyielding her will really was. </p><p> Her Aspect made Effie a perfect instrument of war. While not as drastic as the dire, but narrow speed augmentation Caster had possessed, it was still great and wondrous. More importantly, it was an all-around enhancement — speed, strength, agility, endurance, resilience… every facet of her physicality was elevated to an inhuman level. </p><p> Sunny knew of her abilities better than most, since Effie had taught him how to wield a spear. However, due to the fact that their lessons had taken place in the real world, where the huntress was bound to a wheelchair, he never experienced her full strength in a fight himself. </p><p> Until now. </p><p> 'Crap… that really hurt…' </p><p> Before, Sunny had hoped that their strength would be more or less equal, considering that he was augmented by three shadows. However, it was not even close… that one blow almost shattered his body into pieces. That was only made more bizarre by the fact that it had been delivered by a scrawny child. </p><p> Maybe if he had an additional shadow, or two... </p><p> Sunny had become much more powerful, but Effie had grown much stronger after the Forgotten Shore, as well. Her core was now fully saturated… more than that, while Sunny had been surviving in the Red Colosseum, she had survived a hell of her own, it seemed. Get the l𝒂test 𝒏𝒐v𝒆ls at 𝒏ovelbi𝒏(.)co𝒎</p><p> Being tortured, taught, and tempered by the cult that had created Solvane, of all people. </p><p> Sunny spat some blood, gritted his teeth, and slowly stood up. </p><p> 'This is… not good…' </p><p> The little girl glanced at him with surprise and tilted her head a little. </p><p> "Huh… still alive? Damn… tough bastard…" </p><p> He thought of taking out the emerald amulet once again, but Effie gave him no time. A split second later, she was already upon him, her leg flying through the air toward his ribcage. </p><p> Sunny had no time to think about anything. He didn't want to hurt his friend, but he also didn't want to die. And getting hit by this bruised, wild, monstrous girl was going to kill him soon enough, no doubt… </p><p> 'I need to slow her down.' </p><p> Even if his ribs survived Effie's wicked kick due to Bone Weave, the organs protected by them were not that resilient. The shock would surely rupture something important… </p><p> Gritting his teeth, Sunny thrust one of his lower hands forward, putting the sharp blade of the dagger in the path of Effie's small, bony, and bruised leg. She was going to have to rethink that attack or risk having her calf cut wide open. </p><p> Unless… she was using her second Aspect Ability, of course. </p><p> 'Curse it a…' </p><p> The dagger slid off the girl's skin without leaving even a scratch on it, as though it was made out of tempered steel. Luckily, Sunny had expected this outcome and was already dodging out of the way. </p><p> Effie's shin hit the pillar instead of his side, sending a rain of large stone chunks and sharp shards flying through the air. Before Sunny could regain his balance, the next attack came… and then the next, and the next, and the next… </p><p> Unable to seriously hurt the girl, he had no choice but to retreat under the onslaught of deadly strikes, receiving several glancing blows that left him reeling and in pain. The scrawny girl was very small, but made up for it by being incredibly nimble and swift. The little imp was so wily and fast, in fact, that it almost felt as though she was in several places at the same time. </p><p> "Stop running, big guy! Let us… let us finish this quickly… I am hella hungry, you know!" </p><p> 'Argh… would you slow down for a second, you devil child!' </p><p> Sunny growled with unrestrained fury and brought the greatsword down, creating some space between himself and the advancing girl. He felt very, very... very frustrated. </p><p> All he had to do, for now, was to let Effie know who he was. That was not very hard to do… there were many ways, really. He could use one of his shadows, or summon a familiar Memory… if only she gave him a damned moment to breathe and think! </p><p> The problem was that Effie did not. She was also not fighting in any style Sunny was familiar with. He knew her usual technique pretty well, but this assault had nothing in common with it. In fact, her current ferocious style was leagues beyond what the huntress had been capable of in the past, both in terms of purpose and lethality. </p><p> It was sort of… breathtaking. Even when performed by a scrawny child. </p><p> A Memory… a Memory was the easiest option, since summoning one took only a thought and several seconds. However, that was also the worst option, because doing so would reveal his ability to summon things out of thin air to the Maidens. He and Kai had not gone through the trouble of appearing unarmed just to give that advantage away immediately. </p><p> 'Think, you fool!' </p><p> There had to be a better way... </p><p> Sunny deflected another devastating kick and took a step back, then froze for a split second… and threw his buckler away. </p><p> The thing was hideously bent by now, anyway. </p><p> With one of his hands now free, he made it into a fist, sent it flying forward… </p><p> And extended his middle finger with a vicious snarl. </p><p> Effie, who was already preparing to launch another attack, blinked a couple of times, then looked up at the towering demon with confusion. </p><p> "...Huh?" </p><p> 'Finally!' </p><p> Using Effie's momentary confusion, Sunny lowered his hand and mimed grabbing the rim of a wheel and moving it forward and backward, as if pushing a wheelchair. </p><p> The little girl frowned, then lunged forward and delivered a crushing strike, but this time, her movements were a bit slower, allowing him to easily dodge out of the way... purposefully so. </p><p> Making sure that Effie could see his hand, he attacked with the greatsword while simultaneously making a fist again and pretending to have an arm wrestling match with an invisible opponent. </p><p> The little girl swatted the sword away with her naked forearm, and then, her bloodred eyes suddenly widened. </p><p> She craned her neck and stared at the towering demon with an inexorable expression, then blurted out in a soft, childish voice: </p><p> "D—doofus?!" </p><p> 'Thank god... took you long enough.' </p><p> Sunny pretended to attack her with the dagger, then dodged a similarly half-hearted kick, and gave the little girl a short nod. </p><p> Effie's face trembled, and then, she whispered: </p><p> "Why… why the Spell are you so damn tall?!"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_669.html">Previous Chapter</a><a class="navigationButton next" href="chapter_671.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

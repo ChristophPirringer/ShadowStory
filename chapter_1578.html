@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1578</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1578 Lost Shadow</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1578 Lost Shadow</h4> <p> 1578 Lost Shadow </p><p> Sunny remained silent for a while, still blind. His expression was somber, and there was an irritated twist to his lips. </p><p> 'When did I figure it out?' </p><p> He grimaced. </p><p> "Just now, really." </p><p> Which was rather embarrassing. </p><p> Sunny hesitated for a moment, then shrugged. </p><p> "Well, can you blame me? Sure, I should have known much sooner. But there were so many things happening all at once… so, it took me some time to put the dots together." </p><p> He raised the Guiding Light and put it on his shoulder, still unable to see the radiance of the sacred staff. </p><p> "I mean, it is rather obvious in hindsight. Cassie was sent into the body of Dusk of Fallen Grace. Jet and Effie were sent into the bodies of two River Nomads. Kai and Mordret were sent into the bodies of two Riverborn warriors in Twilight. But what about me and Nephis? Who were the people that we replaced? And what were they doing so far upstream, in the distant future, way further than even Weave?" </p><p> He shook his head. </p><p> "I really should have understood it when we found the Chain Breaker. But I was so overwhelmed by how bizarre everything in the Tomb of Ariel was that I let it rest with the rest of the unresolved mysteries. And even as those mysteries were solved one after another, that one remained buried under the pile of startling revelations. I just sort of assumed that someone in the past — Noctis, maybe — had visited the pyramid, leaving their imprint in the Great River." </p><p> Sunny tiredly rubbed his face and smiled. </p><p> "But it was the opposite, wasn't it? It was not someone from the past. It was someone from the future. It was Nephis and me. We are going to return to the Tomb of Ariel one day, right? Not the illusion of it conjured inside this Nightmare, but the real deal. And just like Daeron had left his imprint to exist in the Nightmare, so will we. So… the bodies the two of us took. They have always been our own bodies. The roles we took are of ourselves." </p><p> The voice remained silent for a while, then scoffed. </p><p> Right. I remember now. Yes, we should have figured it out much sooner. </p><p> Sunny gritted his teeth. </p><p> I must say, though… it's a bit unfair. The Spell gave us our own roles, but made us mere Ascended. The two of you must be much more powerful, no? To brave the Nightmare Desert and enter the real pyramid. So, what are you? A Saint? </p><p> The voice remained silent for longer now, then sighed. </p><p> Yeah… a Saint. </p><p> Sunny frowned, judging how long the pause before the answer had been. </p><p> Bastard… did you just summon Weaver's Mask?! </p><p> The voice laughed. </p><p> Did I? No, I absolutely did not. Trust me, I'm telling the truth... I'm the most honest person in the world, after all. Two worlds, even. </p><p> Did he summon it or not? </p><p> Was this future version of Sunny really a Saint? No, like hell he was… a mere Saint would not have been able to turn the shadows against Sunny so easily, and neither would his voice possess such an harrowing power to it. </p><p> Sunny shivered. </p><p> "You… you're a Sovereign? Damnation, what the hell?! After everything we experienced in this damned place, why would you go and challenge another Nightmare?! Are you that tired of living?" </p><p> The voice did not respond for a while. Then, his answer came, calm and insidious: </p><p> "I am not a Sovereign, though." </p><p> Then, it added, its tone devoid of any emotion: </p><p> "Nor am I alive. I'm not even a human, really. Just a phantom of a lost shadow, conjured by the Spell. Ah, but this Estuary is a strange place. Time does not exist here, and so, everything exists here simultaneously. Even though you have already taken my role, here we are, having a chance to meet each other." </p><p> Sunny shivered. </p><p> Meeting his future self was already shocking enough, especially considering how terrifying the power of that version of him was. It felt no less oppressive, and even much more so, than the power of the Great Nightmare Creatures that had torn their way into the waking world during the Battle of the Black Skull. </p><p> But why was that guy hiding in the darkness? </p><p> Why wasn't he showing his face? </p><p> Come to think of it… why was Sunny unable to sense a human body anywhere in the shadows? Follow 𝒏ewest stories at n𝒐velbin(.)com</p><p> And what did his future version mean by saying that he was neither human nor alive? </p><p> At this point, it was impossible to tell if the voice was lying or telling the truth. Whether he was wearing Weaver's Mask or not. All of it… </p><p> Left Sunny quite unsettled. </p><p> He cleared his throat. </p><p> "So… that's great, then. You can tell me everything about the future, how to deal with all my problems better, and how not to end up in the same sorry state as you." </p><p> The voice remained silent. </p><p> Sunny lingered. </p><p> "Right? Come on. Start talking." </p><p> There was no answer for a while. </p><p> Then, the voice said in a dark tone: </p><p> "I don't think I will. You know how it goes… knowledge of the future will just make that future happen faster, and all that. Haven't you been burned by trying to exploit Cas and her visions enough times already?" </p><p> The future version of Sunny laughed. </p><p> "Yeah, yeah. I know what you want to say. Frustrating, isn't it? I remember cursing my future self with all kinds of nasty words at that point, in my mind. No, it really is strange, to be that annoying future self now!" </p><p> His joyless laughter died down, and Sunny was once again surrounded by chilling silence. </p><p> After a few moments, the voice spoke again: </p><p> "It's of no use, anyway. Aren't you here to become banished from fate? If you do go further and your wish comes true… there's no telling what your future will hold." </p><p> The voice grew harder to hear, as if the two of them were being slowly separated by a great distance. </p><p> "Still, I ask of you. Turn back. Do not go further. You… are not ready for what lies ahead." </p><p> Sunny remained silent for a while. </p><p> Eventually... </p><p> He scoffed. </p><p> "If you truly are the future version of myself, then you already know my answer." </p><p> Turn back? Abandon his chance of breaking the shackles of fate and the slave collar wrapped around his neck? </p><p> Never. He would rather die a thousand deaths. </p><p> "I refuse." </p><p> His voice was resolute. </p><p> There was a distant, dejected sigh. </p><p> Then, the voice resounded once again, barely audible: </p><p> "You stubborn fool… well, as expected. Go on, then. Hurry up! This Nightmare won't last much longer." </p><p> And just like that, the voice disappeared, leaving Sunny alone in the cave. The shadows embraced him again, and his ability to see in the dark returned. </p><p> 'Damn traitors...' </p><p> The radiance of the Guiding Light pointed forward again. </p><p> He took a shaky breath, trying to compose himself. </p><p> "What… an insufferable bastard." </p><p> What was up with his future self and his attitude? Was it really necessary to laugh and chuckle at everything Sunny said? And did he really have to keep all the knowledge of what was about to come a secret?! </p><p> The voice did say one thing, though… </p><p> It was that the Nightmare was about to end. </p><p> Cursing under his breath, Sunny rushed forward. </p><p> 'That guy... gave me the creeps. He was a bit scary, though. Which meant that I will be, too. That... is good news? Right?' </p><p> He had no time to ponder that eerie conversation right now, and was in no mood to, either. There would be time for that later, but right now... his freedom awaited. </p><p> He crossed the cave and followed the Guiding Light into another tunnel, venturing deeper and deeper into the dark mountain. </p><p> And then, finally… </p><p> He reached its very heart. </p><p> Entering a dark cavern, Sunny stumbled and came to a halt. </p><p> The cavern was vast enough that he could not see its ceiling, its walls drowning in darkness. Its floor was covered in shallow water, and at a distance, a small island rose from the glossy surface. </p><p> There was a beautiful tree growing in the middle of the island. And, nestled beneath its branches… </p><p> Sunny's eyes widened. </p><p> 'What? What is this… why?' </p><p> …An unadorned stone sarcophagus stood, its lid covered by withered leaves.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1577.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1579.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

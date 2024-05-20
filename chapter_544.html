@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 544</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 544 Glory To The Victor</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Something was very, very wrong with this duel. He had noticed it almost instantly, but couldn't do anything to prevent the whole fight from going sideways. In fact, although it seemed as though he was holding his own and even advancing on the regal Queen, Sunny was actually scrambling to save his life every second. </p><p> This woman was just too weird! </p><p> There was something wrong with her shadow… not the harrowing, unnatural kind of wrong that he had felt before in the Dream Realm, but a very mundane kind of wrong which, nevertheless, threw him for a lop. </p><p> It was as though there was a slight disconnect between how the shadow moved and how the woman casting it moved. More than that, although Sunny watched Queen Bee's movements and footwork carefully to predict her next attacks and react to them, each time, he was ending up being slightly mistaken. </p><p> Even if he misplaced his sword by a centimeter, it was already enough to mess up the whole cadence of the fight and allow his enemy to bypass his defenses. </p><p> 'How is she doing this?!' </p><p> He had to find the answer very soon, because every second that passed could potentially lead to his loss. </p><p> Sunny tried to deflect an incoming thrust, but missed by a few millimeters once again. As the result, the swift estoc slid past the blade of the Soul Serpent and stung him in the chest, sending a tremor running through his entire body. The Mantle of the Underworld protected him, but Sunny wasn't deceived. </p><p> Queen Bee was just measuring him, learning his patterns just like he was learning hers. When she achieved a sufficient level of understanding, the next attack would pierce his neck instead of ricocheting off his armor. </p><p> 'Like hell…' </p><p> Gritting his teeth, he suddenly changed his style, summoning the domineering technique of Dar of the Maharana clan and applying it to the odachi. He was already losing to the slender estoc in speed, so turning the Soul Serpent into a heavy great mace was not the best choice. So, Sunny just made adjustments to the battle style on the fly. </p><p> But just as he shifted to another style… Queen Bee did the same, suddenly transforming her technique into a completely new one! </p><p> 'Damn!' </p><p> They continued to fight, moving swiftly across the arena as their swords clashed against each other. Sunny was still at a disadvantage, which was only growing larger and larger as the seconds passed. Both fighters were proficient in various styles and could switch from one to another almost instantly, which made the duel especially thrilling. </p><p> The audience was going crazy. </p><p> ...Sunny was going crazy, too, but for an entirely different reason. </p><p> 'Think, think…' </p><p> Facing an enemy like this was a golden opportunity to enhance his comprehension of the Shadow Dance. But to do that, he first had to understand what exactly Queen Bee was doing! </p><p> Why was her shadow behaving so strangely? Why was he always mistaken when judging the precise placement of her attacks? </p><p> At some point, Sunny almost slid on the damn rose petals that littered the arena and only barely managed to keep his balance, dodging the tip of the estoc at the last second. </p><p> 'Curses! Damned things! Whose bright idea was it to fill the damned arena with trash?!' </p><p> In fact, it was a miracle that neither of the two duelists had suffered from this treacherous footing already! </p><p> 'A miracle… wait... a miracle?' </p><p> Dodging another lethal strike, he shifted from balanced technique to defense and glanced at Queen Bee's feet again. </p><p> From start to finish, she had not been bothered by the rose petals once. R𝒆ad lat𝒆st ch𝒂pters on n𝒐v𝒆lbi𝒏(.)c𝒐m</p><p> And now that he paid attention to it… </p><p> His eyes widened. </p><p> '...Am I seeing things?'</p><p> No, he wasn't. </p><p> Not only did his graceful opponent avoid losing her footing on the slippery petals, but… none of them were also crushed under her armored boots. </p><p> It was almost as if she was always hovering a few millimeters above the ground without actually touching it. </p><p> No, not almost… that was exactly what was happening! </p><p> Such a small difference was very hard to notice, but it explained why the angle of how Queen Bee's shadow hit the ground was ever so slightly wrong, and why Sunny was always misjudging her attacks a tiny bit. </p><p> A few millimeters was a very minuscule amount, but in a battle as precise and calculated as theirs, it made for a huge difference. </p><p> 'Hell…' </p><p> Was he right? </p><p> There was only one way to find out… </p><p> Sunny continued to fight for a few seconds, thinking carefully. He didn't correct his mistake, knowing that giving away his new understanding of Queen Bee's Aspect Ability… if it was an Ability… would be a wrong move. </p><p> Instead, he had to construct a trap and end the fight with it. </p><p> …But trapping someone as skilled and talented as his current opponent was not easy. In fact, deceiving someone who had clarity was a very tall task. </p><p> Luckily, Sunny was a skilled fighter himself. But better yet, he was an even more talented deceiver. So, he continued to pretend and prepare his ambush, all the while greedily absorbing his enemy's technique. Now that he knew the secret, he could see it much more clearly. </p><p> At some point in the duel, Mongrel seemed to finally make a mistake. He once again misjudged Queen Bee's intention and threw his blade too low, allowing the estoc to slide above it and flash toward his throat. </p><p> However, it never hit its mark. Instead of piercing Mongrel's neck, the slender blade simply left a deep cut on his skin… because at the last moment, the demonic swordsman moved ever so slightly to his left, and then almost instantly dashed forward. </p><p> The dark odachi hissed as it cut the air, and the figure in black armor moved past the graceful woman in light armor, stopping a couple of steps behind her. </p><p> Feeling a stinging pain radiating from the shallow wound on his neck, Sunny sighed and lowered the Soul Serpent. </p><p> Behind him, Queen Bee swayed lightly, and then fell into a torrent of white sparks. </p><p> For a couple of seconds, the magnificent courtyard was silent. </p><p> And then, it became filled with deafening cheers from the crowd. </p><p> Sunny looked at the celebrating spectators, breathing heavily. </p><p> 'Did I… did I really do it? Did I win?' </p><p> As if to answer his thought, the voice of the Dreascape announced: </p><p> "Challenger Queen Bee was eliminated. Glory to the victor! The champion of the annual Dream Tournament is…" </p><p> However, the pleasant voice was drowned by the chanting of the crowd: </p><p> "...Mongrel! Mongrel! Mongrel!"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_543.html">Previous Chapter</a><a class="navigationButton next" href="chapter_545.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

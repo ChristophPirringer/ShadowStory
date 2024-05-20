@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 813</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 813 First Evacuation Army</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Master Jet led him to an armored military PTV that stood a few meters away from the crowded platform. It seemed that vehicle access to this part of the station was heavily restricted, but she paid it no attention. Apparently, her rank and status tramped some of the rules. </p><p> The PTV itself was very different from the civilian models Sunny was accustomed to, as well as the heavier police cruiser he had ridden on occasion in the past. It was much more robust and angular, weighted down by several layers of composite armor, and entirely grounded. Even if the vehicle possessed limited levitation ability, it was perfectly capable of traversing natural terrain on its own. </p><p> As they entered the cabin, towering humanoid loader robots moved in to unload cargo from the train, piloted by servicemen who could be seen in the open cockpits. The crude exoskeleton platforms were devoid of armor and failed to reach the smoothness of motion, scale, and sophistication of their military siblings, but were more than enough to perform various labor-intensive utility tasks. </p><p> The PTV roared to life, startling Sunny. It seemed that the distinctions from civilian models were even more pronounced below the surface. The systems propelling the vehicle forward were entirely different, producing much more noise and vibrations, but also raw power. The PTV shot forward, narrowly avoiding several barriers before reaching the primitive cement road that led to the port. </p><p> As they came closer and closer to the naval fortress, Sunny was able to study the swarm of activity boiling all around it. </p><p> Currently, the port became a staging ground for a much greater force than it was designed to accommodate. Thousands upon thousands of government servants and soldiers were busy with frantic preparations for the approaching deployment. </p><p> Numerous recently assembled prefab buildings stood in neat squares, some meant to provide the personnel of the First Evacuation Army with a temporary place to live, some serving as storage depots, production hubs, training facilities, field hospitals, and so on. </p><p> A lot of heavy machinery was constantly moving between these squares, either transporting cargo or participation in the disassembly of various structures. Despite the impressive scope of the military camp, its makeshift and transient nature was apparent to the naked eye. The army was already busy deconstructing many of the buildings in order to move their components to the holds of the forty battleships. </p><p> Thousands of humans swarmed the camp like ants. Sunny saw a lot of non-combatant servicemen hurrying to accomplish their tasks, as well as plenty of soldiers busy with training exercises and drills. Some of them were Awakened, but most were mundane humans. </p><p> There were all types of specialist units in view — engineering corps, mechanized infantry that moved around in fearsome exoskeleton armor suits, artillery vehicle operators, and many more that Sunny could not name. He even saw several mobile war platforms that resembled giant cyclops forged of metal, ranging from six to ten meters in height. These humanoid robots and their pilots left an especially strong impression on him. </p><p> They were nothing like the primitive loaders he had seen a few minutes ago. Even though Sunny knew that these machines were built and operated by humans, he couldn't shake off the feeling that he was looking at hulking Nightmare Creatures. </p><p> Slowly, the scale and scope of the upcoming operation started to dawn on him. Sure, he had known the approximate numbers for a long time… but knowing and seeing were two different things. </p><p> Sunny lingered for a few moments, then asked in a slightly hoarse voice: </p><p> "...You said that there would be several such convoys?" </p><p> Master Jet nodded as she easily controlled the PTV: </p><p> "Yes. Four, for now. Two will sail from the Northern Quadrant, one from both the Eastern and the Western. Each will transport around a hundred thousand soldiers to Antarctica in the coming month. That will also include around twenty thousand Awakened, and fifty or so Masters." </p><p> She paused, and then added: </p><p> "If the mobilization goes well, we will eventually have at least sixty thousand Awakened and anywhere between a hundred and three hundred Masters participating in the evacuation efforts." </p><p> Sunny took a deep breath. </p><p> These numbers… while the amount of mundane humans being sent to Antarctica was much more immense, it were the latter two that gave him pause. Sixty thousand might not have seemed like much, but it meant that a quarter of all Awakened in the world was going to be concentrated on one continent… and that was without even counting those who had already been based in the Southern Quadrant. </p><p> The number of Masters was even more unbelievable. Three hundred was more than a half of all Ascended alive today! The government was truly pulling out all the stops. </p><p> Such might. </p><p> pǎпdǎ Й?νê1,сòМ ...But was it going to be enough? </p><p> Sending so many Awakened to war would also inevitably leave the other three Quadrants with less protection, and their inhabitants more exposed to the vagaries of the Nightmare Spell. The pressure on the existing infrastructure was bound to increase dramatically after the flood of refugees reached the strongholds of humanity, too. </p><p> 'It is... all such a mess.' </p><p> Looking at the thousands of people moving around the temporary camp, Sunny couldn't help but wonder how many of them would be coming back. </p><p> …He had no choice but to wonder if he himself would survive, as well. </p><p> Even though the members of the First Evacuation Army seemed trained and disciplined, he could see hints of fear and uncertainty hidden deep in their eyes. These people might have been dedicated and professional soldiers, but none of them had ever faced the kind of threat they were going to throw themselves against, soon. Explore 𝒖ptod𝒂te stories at no𝒗elbin(.)c𝒐m</p><p> Funnily enough, Sunny — despite his young age and lack of a service record — had come much closer to this kind of warfare and was much better prepared to withstand its horrors than most members of this hastily assembled army. </p><p> Finally, he felt something that he had not felt even once since learning about the approaching disaster. </p><p> The weight of responsibility slowly settled on his shoulders. </p><p> Sunny sighed, and then mentally shook it off. </p><p> 'What nonsense is this?' </p><p> He looked at Master Jet, lingered for a moment, and then asked: </p><p> "So… when do I get a dapper uniform?"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_812.html">Previous Chapter</a><a class="navigationButton next" href="chapter_814.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

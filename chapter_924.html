@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 924</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 924 Wear And Tear</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The convoy moved forward in the darkness. Climbing the slopes of icy mountains and navigating the complicated network of old, forgotten concrete roads, they traveled north in a desperate hope to survive the calamity of the Chain of Nightmares. </p><p> A day after the battle on the frozen lake, the convoy reached a derelict meteorological station and made camp. Military vehicles were arranged in a circle, with turrets facing out. Food was cooked and distributed to the refugees, and tired people settled in the half-collapsed buildings to sleep and rest. </p><p> Sunny used that time to make his plans of coating the bullets of mundane soldiers with poison come to fruition. The process had turned out to be harder than expected, but they managed to find a solution in the end. The task of handling the Bitter Cusp was entrusted to the convoy's lone Sleeper, whose green snakeskin armor imbued the young man with a high enough resistance to toxins. Updated 𝒏ov𝒆ls on 𝒏ov𝒆lbin(.)c𝒐m</p><p> ...The old woman who had been going through her own First Nightmare quietly passed away during that night. The fact that her body did not turn into a frenzied abomination proved that she had passed the trial of the Spell. However, it seemed that her weary soul was unable to form a stable core, and so, it collapsed, turning the woman Hollow. </p><p> Sunny took the dark responsibility of disposing of the body upon himself. In the morning, they held a somber funeral under the eerie lights of the aurora, and then dove back into the bitter cold of the twisting roads. </p><p> The small column of vehicles continued to struggle against the rough terrain and the dreadful conditions of the polar night as it slowly ventured deeper into the mountains. In the next few days, they had to fight against several more packs of prowling Nightmare Creatures, but none of them were as large and threatening as the two swarms the Irregulars had eradicated before. </p><p> The battle readiness of the convoy had increased due to Sunny's efforts and a bit of luck. The two new Echoes served as forward scouts and provided invaluable support in combat. The Ascended one, Abomination, was especially fearsome. The Sleeper Belle was mentoring was growing into his power, too, and his core was well on its way to being fully saturated. </p><p> The mundane soldiers were now capable of dealing with weaker Nightmare Creatures thanks to the Bitter Cusp. Saint was slowly growing stronger as her wounds healed and the </p><p> [Echoing Silence] enchantment of the Stifled Scream continued to accumulate power, little by little. </p><p> To the people of the convoy, things appeared to be looking up. </p><p> ...However, Sunny knew that it was just an illusion. </p><p> In truth, their situation was becoming direr with each day. </p><p> The further north they moved, the more Nightmare Creatures there were. Navigating between powerful swarms of them was getting harder and harder, and so was avoiding the truly overwhelming hordes. The amount of small skirmishes the Irregulars and their Echoes had to fight was growing in both frequency and ferocity. For now, they were handling the pressure fine, but their fatigue continued to mount, while their physical condition deteriorated. </p><p> Small scrapes and injuries they received were bound to add up, sooner or later. Their reserves of essence were also getting closer and closer to not having enough time to replenish between fights, even with Luster's help. </p><p> Additionally, the deeper they went into the mountains, the more signs of destruction caused by the earthquake they encountered. Many roads were completely destroyed by rockfalls or buried under countless tons of glacial ice. Increasingly often, the Rhino could not handle clearing the path through the roads that remained. </p><p> All of that meant that there were more and more enemies around, with less and less suitable paths to take. Sunny felt like a noose was being drawn tighter around his neck with each day. </p><p> As a result, he had to lead the convoy forward using more risky routes. A few times, the civilian transports were very close to falling off the crumbling roads and plummeting into the deep gorges below, or being destroyed by falling debris. He had to leave the Rhino and use shadow chains to secure the vehicles, shield them, or pull them to safety with his own two hands. </p><p> He even had to resort to coming close to the abandoned tunnels that pierced the mountains here and there, promising convenient shortcuts and shelter from the chilling wind. </p><p> However, just looking at the dark portals of their hungrily open maws made Sunny shiver. Driving past the old tunnels filled him with a sense of deep, gnawing unease. </p><p> 'No goddamn way...' </p><p> The condition of the transports was also getting worse and worse. The rougher of a path he chose, the faster they broke down. Samara and Kim had to administer hasty field repairs more than a few times, but there was only so much they could do. </p><p> The engines of the vehicles stalled. Their wheels got stuck in the deep snow. The heating elements malfunctioned and filled the interiors with acrid smoke. The batteries cracked and leaked because of being both overheated and exposed to terrible cold. </p><p> There was no end to the problems Sunny had to solve. </p><p> 'Damnation...' </p><p> Sitting in front of a screen in the command suite of the Rhino, he stared at the map. Sunny had just finished updating it with the information his shadows had brought back from a lengthy scouting mission. </p><p> Many lines had been crossed out, and many red marks shifted position, drawing a narrow net around the convoy. </p><p> In the absence of the black bodysuit, he was back to wearing the Puppeteer's Shroud outside of combat. His old and reliable armor possessed an enchantment called [Doubtless], but ironically, he was full of doubts. </p><p> 'Just how am I supposed to..' </p><p> At that moment, one of the transports behind the Rhino came to a screeching halt. The lights illuminating its interior went out, signaling a serious malfunction. The rest of the vehicles were forced to stop, too. </p><p> Sunny looked down and sighed. </p><p> '...What now?' </p><p> Standing up, he stretched, massaged his tired shoulders, and left the APC through the main hatch. </p><p> Darkness and bitter cold welcomed him, and the cutting wind immediately tried to suck all warmth out of his body. Walking through the light snowfall, Sunny headed to the back of the convoy. Saint's silent figure gazed at him from the roof of the Rhino, where she stood with a bow in her hands. </p><p> Looking up, Sunny found that the stars to the east appeared a bit hazy, as if veiled by something. A resentful frown appeared on his face. </p><p> 'Don't tell me... is the blizzard picking up again?' </p><p> This was grave news.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_923.html">Previous Chapter</a><a class="navigationButton next" href="chapter_925.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

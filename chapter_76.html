@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 76</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 76 The Abyss</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 76 The Abyss</h4> <p> Beyond the western edge of the Ashen Barrow, the landscape of the Forgotten Shore was not at all like what Sunny had expected — and hoped — to see. </p><p> On this side of the island, the slope was much steeper. At the spot where it was supposed to end, the familiar sight of the flat wasteland was nowhere to be seen. Instead, the ground continued to slope downward at a less drastic, but still considerably sharp angle. </p><p> It continued far into the distance. In fact, the whole island appeared to be standing on the edge of a colossal depression in the earth, one that stretched as far as the eye could see. With its edges slightly curved, it resembled a giant crater left behind by an unimaginable impact. </p><p> From what Sunny was able to observe, the crater's diameter could only be calculated in hundreds of kilometers. The roots of the giant tree, which could be seen protruding from the soil far below, seemed like tiny blades of grass in comparison to the sheer size of the abyssal chasm's wall. </p><p> It was like the whole world was tilted on its side, making Sunny's head spin. </p><p> In short, there were no more high natural features to the west of them. The only way forward was to go down, with no hope of finding shelter from the crushing torrents of the dark sea. </p><p> Which meant that there was no way forward at all. Their journey to the west had come to an end. </p><p> And with it, all hope of finding a gateway to the real world was lost. </p><p> Sunny stared at the desolate landscape, feeling rage and disbelief clawing at his heart. He just couldn't believe that all their struggles were for nothing. But the proof was right in front of him, real and undeniable. </p><p> 'Damn it! Damn it all!' </p><p> He tried to think of some cunning way to solve the situation, but there was nothing his imagination could come up with. The dark sea with all its horrors drowned the world every night, and the only way to escape it was to climb high enough before the sunset. With no heights anywhere in sight, what could he do? </p><p> Sunny glanced at Nephis, who seemed to be even more crestfallen than him. Her face had turned into an icy mask, a dark look full of bitterness and resentment in her eyes. He opened his mouth, trying to come up with something to say, but no words came to his mind. </p><p> In the end, they both remained silent until the distant rumble announced the return of the dark see. </p><p> Deep in the colossal crater, dark torrents appeared from beyond the horizon, rushing to fill it to the brim. A little bit stunned, Sunny watched as the water level rapidly rose, finally turning the endless chasm into a vast sea of black. Then, it began to overflow, sending an unstoppable flood of water into the wasteland. Flowing past the Ashen Barrow, it rushed inland, crushing against the coral of the crimson labyrinth. </p><p> Soon, the whole world was covered in seething black water. </p><p> Sunny licked his dry lips and turned to Nephis. After a short pause, he said in a raspy voice: </p><p> "I think we found the source of the dark sea." </p><p> She lingered, watching the last rays of sunshine slowly disappear from the sky, then turned to him with a grim expression on her face. </p><p> "...Let's head back." </p><p> *** </p><p> All three of them felt lost and heartbroken because of the terrible discovery. Cassie in particular seemed to be utterly shocked. </p><p> "It doesn't make sense, it just doesn't," she mumbled on their way to camp. "How could it be?" </p><p> Gripping Sunny's shoulder, she quickened her step and asked: </p><p> "Are you sure that there's nothing higher than the sea level out there? Are you absolutely sure?" </p><p> He sighed, feeling his mood turning even darker than before. </p><p> "Yes. We looked quite thoroughly. The whole land just goes down, down, and down. It stretches to the horizon, as far as we could see, in all directions except for the east. The Ashen Barrow is right on the edge." </p><p> The blind girl shook her head: </p><p> "But how could it be? I've seen that we had reached the castle! There must be a way!" </p><p> Sunny remained silent, not knowing how to answer. If there really was a way, he had no idea about it. </p><p> After a few seconds, Nephis answered instead of him: </p><p> "We will try to come up with something tomorrow. Worst… worst-case scenario, we'll have to go around the whole thing." </p><p> Sunny trembled at the thought. A journey like that would take months. To circle around the colossal crater, they would have to cover many times more distance than they had in the prior weeks, each day bringing the risk of stumbling onto something beyond their ability to resist. </p><p> And each night bringing the risk of something stumbling onto them… </p><p> The chances of surviving several months in this hellish place were nothing if not abyssal. </p><p> 'Ha, ha. Abyssal...' </p><p> With a grimace, he tried to not think of the worst-case scenario. The darkness of the falling night was not the best environment for scary thoughts. </p><p> 'Tomorrow. We'll rest, recharge, and think of something tomorrow. It is just like Cassie said… since she saw us entering the castle, there must be a way.' </p><p> They reached their temporary camp just before the sun had completely disappeared. Lying on the makeshift bed of fallen leaves, Sunny tiredly closed his eyes and thought: </p><p> 'I hope I won't see any dreams today.' </p><p> Then, he slightly frowned. </p><p> 'Dreams? Since when am I capable of dreaming in this place? Oh, right… there was that one dream… or was it a memory? What was it about again… huh, I can't seem to remember…' </p><p> With that thought disappearing from his mind, he fell asleep. </p><p> *** </p><p> In the morning, the mood between the three of them was pretty somber. No one seemed to want to talk or do anything, aimlessly staring at the ground or the rustling leaves of the great tree. </p><p> In addition to the blow of yesterday's revelation, they were also hungry. The corpse of the Carapace Demon was starting to look more and more appealing, at least to Sunny. However, he was still not at the point of breaking his promise to Cassie. </p><p> Finally, Nephis broke the silence. Standing up, she looked up with grim resolution and said: </p><p> "I'm going to climb to the top of the tree and take a look around. Maybe I'll notice something that we missed from up high." </p><p> Sunny stared at the giant tree, suddenly feeling incredibly small. It was truly enormous. The Ashen Barrow itself was already much taller than the giant knight's statue and every other shelter they had seen, and the tree almost dwarfed it in size. Climbing all the way up would take a lot of time and effort. </p><p> But maybe she would really be able to notice something from that incredible height. </p><p> He scratched the back of his head and said: </p><p> "Alright. But be careful. Keep an eye on the sky. If you notice those winged abominations again, come back down." </p><p> Changing Star gave him a nod and headed for the tree. Without turning her head, she calmly said as a farewell: </p><p> "Take care of Cassie while I'm gone. It shouldn't be more than a few hours." </p><p> Sunny waved a hand and watch her walk away. Then, he tried to think of something to do. </p><p> On a usual day, he would have already started his morning training. But today, he was too hungry. </p><p> 'Come on. Hunger is not an excuse. Do you think you'll always have a full stomach before a battle? No! So get up and train. Don't you want to try how the Midnight Shard feels in your hand?' </p><p> With a sigh, Sunny got up. </p><p> He trained for an hour, enjoying the swift and reliable feeling of his new sword. The long tachi was truly incredible. It was light, maneuverable, and unrelenting. Its edge sang as it cut the air. Sunny already felt as though it was a part of him. </p><p> His movements were fluid and measured, almost elegant. </p><p> After the training session was over, he decided to do something useful. </p><p> Walking over to the Carapace Demon's corpse, Sunny spent some time prying the soul shard out of it. In the end, he gathered all three of the crystals with some effort and stashed them into the seaweed rucksack. </p><p> What to do now? </p><p> After a bit of pondering, he suddenly got an idea and tried to find the place from his memory — the one where the Carapace Demon had dropped the transcendent soul shard into the sand. That shard had been brought to the Ashen Barrow by the subservient centurion and would be a real treat for Neph or Cassie. </p><p> He quickly found the right spot. However, no matter how hard Sunny looked, he couldn't find the alluring crystal. In the process, a couple more hours had passed by. </p><p> 'Stange. It was quite large. Where could it be?' </p><p> He was determined to continue the search. But, at that moment, the shadow that he had left with Cassie noticed movement in the branches of the great tree. </p><p> Nephis was back. </p><p> Sunny walked back to the camp, thinking about what she had found. Was there hope for them after all? Or was there only more bad news? </p><p> By the time he returned, Neph and Cassie were sitting on the ground with relaxed expressions on their faces. </p><p> 'She saw something?' Sunny thought, suddenly excited. </p><p> But in the next second, his eyes widened. </p><p> The two girls were holding something in their hands, their lips painted red. They were... eating. </p><p> They were eating the fruits of the great tree.Find 𝒏ew chapters on n𝒐velbi𝒏(.)com</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_75.html">Previous Chapter</a><a class="navigationButton next" href="chapter_77.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

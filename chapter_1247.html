@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1247</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1247 Fear Itself</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1247 Fear Itself</h4> <p> The Dark Shaper was a Transcendent Memory of the Fourth Tier that Nephis had gained in Antarctica. It was one of the few she had chosen to keep - the rest either went to the Fire Keepers or were sold to acquire various equipment and resources. </p><p> Being the leader of a group of elite Awakened was not cheap. Even with the support of Clan Valor, Neph had to work hard to provide her followers with the best... everything. Perhaps it was a part of the King of Swords testing her competency, or perhaps the great clan simply didn't care to spend too much on the survivors of the Forgotten Shore before they proved themselves. </p><p> In any case, Nephis had decided to keep the Dark Shaper for herself. </p><p> The reason she had decided to hold on to the stone mallet was both because of its power and because its description mentioned the Demon of Dread. </p><p> The Dark Shaper looked more like a tool than a weapon. It had a handle of dark polished wood inlaid with dull silver. The hammerhead was fashioned out of perfectly black stone - which looked and felt rather familiar. </p><p> Sunny was almost certain that it was the same stone that the Tomb of Ariel had been built of. </p><p> The stone mallet's enchantments had to do with sculpting and changing the shape of things. Disturbingly, these things were not limited to stone, metal, and wood... if one wished, they could also shape flesh and bone, sculpting all kinds of nightmarish creations. The sinister Corrupted Devil Nephis had killed to receive the Dark Shaper was similarly revolting. </p><p> It was indeed a Memory worthy of being graced with the name of the Demon of Dread in its description. </p><p> And speaking of the description... </p><p> At first, Sunny simply studied the shimmering runes, finding them rather interesting. </p><p> They read: </p><p> Memory: [Dark Shaper]. </p><p> Memory Rank: Transcendent. </p><p> Memory Tier: IV. </p><p> Memory Type: Tool. </p><p> Memory Description: [When the unholy titan took a step, everyone cowered in fear. Only Ariel, the Demon of Dread, remained standing - he did not feel fear, for he was fear itself. Taking a step forward, he challenged the unholy titan, and the two battled under the azure sky. Their battle was fierce, their battle was fearsome. Their battle was a hint of the doom that would come. </p><p> The unholy titan possessed an indestructible stone body and was invulnerable to all harm. As they fought, the land was shattered and the sky split apart. The Demon of Dread received many harrowing wounds, but the terrible titan remained wholly unscathed. Its stone body became incandescent from the heat, shining brighter than the fiery sun. ReaD lat𝙚St chapters at nô(v)(𝒆)lbin.c/o/m Only</p><p> That was when the Demon of Dread whispered something to his enemy, and then cast the titan into the depths of the ocean. </p><p> When the incandescent titan plunged into the cool water, the ocean turned into searing vapor and was scattered by the winds. The stone flesh of the titan instantly cooled, causing a tiny crack to appear on its heart - that tiny spot was the only part of the creature that had not been tempered, and was also its only flaw. </p><p> As Ariel watched coldly, the titan bellowed in agony. After one heartbeat, cracks appeared on its indestructible body. After two heartbeats, blood flowed from its wounds like a river. After three heartbeats, its body started to crumble into numerous shards. </p><p> And on the seventh heartbeat, its heart shattered, turning into dust. </p><p> That was how the unholy stone titan was destroyed. </p><p> Following the end of the battle, the Demon of Dread created a mystical river out of the titan's blood, and built a pyramid out of its stone flesh. The pyramid stood where the ocean had once been, and...] </p><p> The description ended. </p><p> It was after he finished reading that Sunny's eyes widened as an unbelievable guess appeared in his mind. </p><p> 'Wait. No. No way...' </p><p> The tale of Ariel's battle with an Unholy Titan was indeed very interesting, not the least because it seemed as though the Demon of Dread had won due to a single whisper. More than that, it hinted at the answers to several questions that Sunny had been curious about. For example, who or what was the progenitor of the Minor Shard of the Stone Titan - Goliath. Or how the Nightmare Desert had come into existence... </p><p> But these precious pieces of knowledge were not what caused such a reaction from Sunny. What drew his attention was the abrupt end of the description. </p><p> Didn't it seem... incomplete? </p><p> As if there was another part of it missing. </p><p> ...Coincidentally, he knew of another description that seemed like a fragment of a larger whole. </p><p> Frowning, Sunny summoned his own runes and found the name of the Stifled Scream. Concentrating on it, he read: </p><p> Memory Description: [...a great river was contained within it, flowing endlessly from the future into the past. When doom came, many entered to seek shelter from it, and many had come to seek the truth. That was because the Great River existed outside time, and so, it was said that a dreadful secret was hidden at its estuary. Few of those capable dared to approach it, and none of those who had returned.] </p><p> He remained motionless for a few moments, then mentally put the two descriptions together. </p><p> 'Following the end of the battle, the Demon of Dread created a mystical river out of the titan's blood, and built a pyramid out of its stone flesh. The pyramid stood where the ocean had once been... a great river was contained within it... flowing endlessly from the future into the past?' </p><p> His hands trembled. </p><p> Unable to speak, Sunny turned his head slightly and stared at Nephis. </p><p> A few moments later, she noticed his gaze and raised an eyebrow. </p><p> "What?" </p><p> He lingered for a while, and then said hesitantly: </p><p> "That... I am really not sure... but I think I understand where we are now." </p><p> Then, Sunny looked at the narrow strip of the sky above them and added in a hushed voice: </p><p> "Neph, this might sound crazy... but I think that we are inside the black pyramid..."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1246.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1248.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

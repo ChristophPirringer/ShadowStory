@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 977</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 977 Through The Blizzard</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<p> Eventually, Sunny climbed out of the sleeping niche and went about the business of managing the caravan. They had made it far into the mountains and were already moving north, toward their true goal. </p><p> The blizzard was still raging, reducing visibility to almost zero. The landscape was as grim and foreboding as ever. </p><p> Surrounding areas needed to be scouted, maps needed to be updated, reports needed to be received, and a hundred other things demanded his attention. </p><p> Before getting down to it, Sunny spared a few moments to stare at the grey fabric and lusterless black leather of the Puppeteer's Shroud. </p><p> Who could have thought that he would be reduced to seriously using it again, after all that time? </p><p> 'It sure is much more comfortable than walking around in a full plate of steel armor. Ah, the old me had it good...' </p><p> Actually, not really. </p><p> Sunny was ready to climb to the roof of the Rhino when he noticed Beth staring at him with a strange expression. He lingered for a moment. </p><p> "What?" </p><p> She blinked a couple of times, then pulled her gaze away. </p><p> "No, no... nothing..." </p><p> Sunny frowned. </p><p> "Just say it, will you?" </p><p> Beth remained silent for a second, then asked hesitantly: </p><p> "Are you... uh... are you wearing makeup?" </p><p> This time, it was his turn to stare. </p><p> "...What? No! Why would you think that?" </p><p> The young woman gave him a dubious look and shook her head. </p><p> "You just look a little different, that's all." </p><p> Sunny grinned. </p><p> "Oh. I naturally have the complexion of a marble statue, no makeup involved. Didn't you know?" </p><p> Beth turned away with a sigh and mumbled under her nose: </p><p> "Damned Awakened... how is this fair?" </p><p> Suppressing a chuckle, Sunny dissipated into the shadows and appeared on top of the Rhino, sighing as the bone-chilling wind smashed into his chest. </p><p> Surprisingly, though... he was not that cold. His passive resistance to the elements was already making itself known. </p><p> Without wasting any time, Sunny made himself heavier for better stability, summoned the Memory of Ice, and wrapped the shadow he kept with himself around his body, simultaneously circulating essence to double the enhancement granted to the charm. </p><p> A couple of seconds later, he felt even more comfortable. Sunny still sensed a slight chill, but it was in no way bothersome. Additionally, the winds were powerless against him. It was as if Sunny had turned into a small cliff. </p><p> Huh. </p><p> Summoning Morgan's Warbow, he sat down on the roof and closed his eyes. </p><p> 'I can get used to this...' </p><p> Their journey to Falcon Scott continued. Traversing the abomination-infested expanse of the Antarctic Center was still hard and dangerous, but with Naeve assisting Sunny in defending the caravan, things became a little bit easier. </p><p> The two Masters rarely saw each other, communicating mostly over the chain of relays in the military vehicles. Sunny was stationed at the head of the column, while Naeve stayed in the rear to provide the best possible defensive coverage. </p><p> Mostly, they only met face-to-face during the rare stops and when an especially dire threat demanded both of them to fight side by side to vanquish it. Going into battle with the Nightwalker was both comfortable and effective. </p><p> 'Ah. Finally, a professional...' </p><p> Naeve was an extremely skilled warrior, using a long bone harpoon and a net woven out of unnaturally durable threads to herd and decimate Nightmare Creatures. </p><p> It was obvious that he was not entirely comfortable fighting on land, and his Aspect powers seemed to be under severe restriction, though, so the scion of the House of Night mostly supported Sunny and made it easier for him to kill their enemies. </p><p> Which was more than welcome. </p><p> Naeve was also more cautious than most Masters tended to be. Not overly so, but enough for Sunny to notice the difference between the two of them. It was understandable... after all, the Nightwalker had a family to come back to. He carried more than one life on his shoulders. </p><p> That perspective was a bit new to Sunny, and made him think about things that he had never considered before. </p><p> Other than that, things were going... as expected. The caravan continued to grow, several more groups of Erebus Field survivors joining it. By then, Sunny was secretly starting to thank the gods that Naeve's ship had suffered catastrophic damage. Without the additional supplies looted from its holds, he would have to deal with a supply shortage pretty soon. </p><p> As it was, though, he had enough to feed everyone and arm those who could and knew how to fight, for now. </p><p> Sunny was curious to see if anyone else would notice his subtle change, but in the end, the only other person other than Beth who showed any reaction was Kim. At some point, she gave him a very weird look and hastily turned away without asking anything. </p><p> Kim was able to see vulnerabilities in everything she looked at, after all, and Sunny had recently become much less vulnerable. No wonder she was surprised. </p><p> 'Great. What bizarre stories are they going to come up with now?' </p><p> Hopefully, Belle would not be giving him weird looks again... </p><p> The Crow also noticed that something about Sunny had changed. The Echo landed on his shoulder, stared at him with curiosity for a few moments, and then suddenly tried to peck him in the neck. After that, the bird let out a startled caw. </p><p> Ston! Ston! </p><p> Then, it flew away and stayed in the air for a while. </p><p> Being pecked by an Awakened Monster was not a pleasant experience, but the Shell did not show any sign of giving in to the sharp beak. Overall, Sunny was very satisfied by the strange incident. </p><p> ...The tumultuous march north continued. </p><p> Swarms of Nightmare Creatures were slaughtered. </p><p> More soldiers died. </p><p> More refugees died, too. </p><p> With thousands and thousands of them cooped up in the moving vehicles, it was inevitable that some would succumb to the Spell. Despite all Sunny's efforts to make sure that new Aspirants were found and isolated in time, there had been a couple instances where the security measures failed. </p><p> The results were bloody. </p><p> Sunny was shaken by the loss of civilian lives, but in the grand scheme of things, they were just drops in the ocean. An entire metropolis had been erased off the map just a few days ago, and that was simply one instance of the inconceivable carnage and destruction reigning over the Southern Quadrant. 𝑅ead latest ch𝒂pters at n𝒐velbi𝒏(.)co/m</p><p> Sunny was growing really tired of watching people die. </p><p> He also knew that the death toll would not stop growing anytime soon.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_976.html">Previous Chapter</a><a class="navigationButton next" href="chapter_978.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

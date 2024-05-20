@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 557</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 557 Night Temple</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Cassie chose her next words carefully: </p><p> "Despite the fact that the Hollow Mountains were designated as a Death Zone, it seems that clan Valor still has ambitions of exploring them. Perhaps that is why Night Temple exists, and why a Saint is stationed there." </p><p> Sunny frowned. Even Kai and Effie seemed to be perplexed. </p><p> "...I thought Sky Tide was the only Saint on the Chained Isles." </p><p> The blind girl shook her head. </p><p> "No, there is another. Saint Cormac. He oversees the Citadel and ventures into the mist of the Hollow Mountains from time to time... as though searching for something. In fact, that was how I was able to receive permission to anchor myself and my cohort in the Night Temple. In exchange, I was meant to use my Aspect to aid him in the exploration. But nothing much came of it." </p><p> Sunny thought for a bit, then said: </p><p> "So far, everything sounds reasonable?" </p><p> Cassie nodded, then shifted uncomfortably. </p><p> "Yeah. But there are just too many strange things about that Citadel, ones that have nothing to do with the Saint and his mission. For one, there are just too many Awakened there — around a hundred, I think. That is much more than is needed to support one Saint. However, the most eerie part is not their number, but who those Awakened are." </p><p> She hesitated, then said somberly: </p><p> "With the exception of two Masters who serve as Saint Cormac's lieutenants, all of them are… Lost." </p><p> Sunny perked up. </p><p> What Cassie had told them was, indeed, strange… and more than a little bit disturbing. There weren't that many Lost among the Awakened, so why would a hundred of them be gathered together in a remote and isolated Citadel? T/his chapter is updat𝓮d by nov(ê(l)biin.co/m</p><p> But that wasn't the reason why Sunny was suddenly excited. Leaning forward a bit, he asked: </p><p> "Oh, yeah? Is there one called Mordret?" </p><p> Cassie thought for a few moments, then shook her head. </p><p> "...I don't know. We weren't really allowed to interact with the Lost while living in the Night Temple. You see, the whole Citadel is separated into three areas. The outward ring is where we were given a space to establish a base. We were forbidden from entering the temple itself, unless escorted by one of the Masters. That is where the Lost live and the Gateway is situated." </p><p> She suddenly fell silent, and then added in a darker tone: </p><p> "...But there is another area inside the temple, too. One that even the Lost aren't allowed to enter. The Inner Sanctum. One time, while we were entering the Gateway, I felt the doors of the Sanctum open, and accidentally glimpsed the people guarding it." </p><p> The blind girl shivered. </p><p> "Or at least, they seemed like people. But they weren't. They were all Echoes… human Echoes." </p><p> Sunny scowled. </p><p> 'What the hell?' </p><p> One human Echo was creepy enough, but many? What exactly were they guarding that actual humans couldn't? </p><p> No… that wasn't important. Clan Valor could keep its secrets. He just needed to get the knife from the altar. </p><p> "So… what about an altar? Have you perceived an ivory knife lying on it?" </p><p> Cassie lingered for a few moments, then shrugged. </p><p> "The Gateway in the Night Temple is different from the one in the Sanctuary. You don't need to touch the altar to activate it. So I've only felt the altar from afar… it is indeed cut from a slab of black stone, from what others told me. There is a statue of a veiled woman holding a star and a bolt of lightning behind it. Other than that, I can't say." </p><p> Sunny sighed, a bit disappointed. </p><p> 'Well, doesn't matter. I'm sure it's there… the problem is to convince the representatives of clan Valor to let me approach the altar. Or even sneak to it when no one is looking." </p><p> "Do you think you'll be able to convince them to let me inside?"</p><p> The blind girl nodded, but there was a bit of uncertainty on her face. </p><p> "I think there won't be a problem. Although I wasn't able to help Saint Cormac a lot, we parted on good terms. However… that whole place is very mysterious. I am reasonably sure that they will at least allow us to anchor ourselves to the Gateway, but…" </p><p> Sunny didn't like the sound of that. </p><p> "But what?" </p><p> Cassie sighed. </p><p> "Performing a ritual over the altar is another matter entirely. They can also simply refuse to let us in. I doubt that this will happen, but just in case, we should be prepared — the day we leave the Sanctuary might be the last time we'll have access to a Gateway before the Second Nightmare is over." </p><p> Sunny grimaced. </p><p> Although he hated to admit it, she was right. It was best to prepare for the worst… he had a few things to do in the next few days, then. </p><p> "Alright. Then we will leave in two days. Make your preparations, and I will make mine." </p><p> Cassie nodded and fell quiet. </p><p> In that silence, a strange sound could be heard. Sunny turned around and saw Effie noisily devouring the leftovers of their recent dinner. Noticing that he was staring at her, the huntress froze. </p><p> "...What? You guys were busy, and I was hungry." </p><p> He covered his eyes for a moment, then shook his head. </p><p> 'This woman...' </p><p> Speaking of preparations, he had to do something right now. </p><p> "Hey, Kai. Come here and give me your hand." </p><p> Kai looked at him with a silent question, but didn't ask anything. He stood up and walked over, then stretched one hand over with a smile. </p><p> Sunny put one finger on it and sent two Memories away with a regretful sigh — the Blackhorn Bow and the Full Quiver. Effie was well-equipped with powerful Memories from her time on the Forgotten Shore and from the months she had spent hunting as an Awakened, but the charming archer lacked good armaments. </p><p> Even though it pained Sunny to let go of two Ascended Memories, he knew that this was for the best. It was going to give Kai an opportunity to grow stronger in the next month and be better prepared for the Nightmare… plus, he still had Morgan's Warbow and the Strike of Thunder. </p><p> Kai frowned in confusion, then stared into emptiness, clearly reading the runes. Then, an excited light ignited in his eyes. </p><p> "Oh… thank you, Sunny!" </p><p> Sunny scowled. </p><p> "Now, don't get me wrong! This is not a gift. I am lending them to you… lending, you understand? Brilliant Emporium is a respectable business, not a charity! I'll be expecting a full repayment or an exchange of equal value. In the future. Got it?" </p><p> Kai beamed and looked at him with a wide smile. </p><p> "Aww. That's so sweet..." </p><p> Sunny's scowl deepened. </p><p> 'Sweet? What does he mean, sweat?! What's wrong with this idiot… I just told him that he's now in debt…' </p><p> The sun was already rising, and that meant that they had to part ways. Each had a lot of things to do. </p><p> When everyone left, Sunny stared at the table full of empty plates for a while, and then sighed. </p><p> Somehow, he felt that they won't be able to have a nice dinner like this for a while.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_556.html">Previous Chapter</a><a class="navigationButton next" href="chapter_558.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

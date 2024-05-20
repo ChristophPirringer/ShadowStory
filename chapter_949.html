@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 949</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 949 Moving Slaughterhouse</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> As soon as the Strike of Thunder flashed through the darkness of the polar night and burst into blinding arcs of electricity, decimating the center of the swarm, Sunny spoke into his communication device: </p><p> "Wedge formation!" </p><p> He had created a rift in the middle of the mass of Nightmare Creatures, but it was not enough to clear a path through the blockade. There was the flanking force spilling from the mountains to worry about, too. </p><p> The abominations were already dashing toward the convoy, bits of broken cement flying from beneath their sharp claws. The fastest and strongest one, however, suddenly collapsed, a golden arrow piercing its throat. </p><p> Behind the Rhino, two military vehicles and two civilian transports accelerated and left the column, assuming positions on both sides of the convoy. From above, it would have looked like a wedge with the APC taking the point, while the other four vehicles formed its wings. </p><p> The purpose of that formation was very simple - with the massive shape of the Rhino not blocking their view of the road anymore, both the military vehicles and the Awakened on the roofs of the two civilian transports were free to target the swiftly approaching swarm. </p><p> Samara's rifle thundered, and Kim's carbine cracked, sending a rain of bullets into the mass of abominations. Two turrets joined the fray, clearing a path for the convoy to charge through. Sunny continued to let loose arrow after arrow, as well, taking down the most threatening of Nightmare Creatures. </p><p> Just a few moments before the column reached the swarm, the four vehicles veered back and returned to their positions, hiding behind the bulk of the speeding Rhino. </p><p> 'Here we go...' </p><p> The ram of the APC plunged into the mass of bodies, both dead and alive, with a violent shudder. Pieces of flesh flew aside as it cleaved a bloody trail through the mob of Nightmare Creatures, allowing the rest of the convoy to follow. They made it through, even if just barely... </p><p> However, all was not well. </p><p> More than a few abominations managed to lunge at the lead vehicles from the sides. Two or three were clinging to the front of the Rhino, and several more had crashed into the Belle's and Dorn's civilian transports. Their claws were already tearing into the alloy. </p><p> The more heavily armored Rhino received a few ugly scars, but was still holding. Sunny swiftly drew his bow, finishing off the unwanted passengers. Behind him, Belle dashed toward the edge of the transport's roof and struck down with his hatchet, severing the abomination's limb before it had a chance to rip through the makeshift plate of armor and allow the beast to climb inside. </p><p> There was a Nightmare Creature on the other side of the transport, but its body had been caught by the spikes welded along the frame of the civilian vehicle, so it did not manage to rip through the hull before one of Dorn's javelins took it down. </p><p> The giant man himself dealt with an abomination that had leaped at his transports by pulling it down mid-jump with his Aspect Ability. The creature hit the cement surface of the road instead of crushing into the side of the vehicle, and was promptly crushed by its wheels. </p><p> The weight of the transport loaded with close to a hundred people was not enough to kill an Awakened monster, however, so although it was severely injured, the abomination still tried to get up. Before it could, the next transport rolled over it, and then the next, ending the creature's life in a string of sickening crunches. </p><p> Just a few moments after crashing into the swarm, the convoy was through. </p><p> The turrets of the military vehicles instantly turned around, unleashing a barrage of bullets at the fastest of pursuing Nightmare Creatures. Samara's tungsten rounds and Sunny's arrows took care of the most resilient of the enemies, while Kim was hurriedly reloading her carbine. The nameless Sleeper had almost emptied his quiver, so he was busy summoning the spent arrows back. </p><p> The thinned out swarm was falling behind... </p><p> But there were already new enemies appearing from the darkness ahead. </p><p> Letting out a frustrated sigh, Sunny spun to face north again and drew his bow. </p><p> 'This is going to get old, fast...' </p><p> Surrounded by bloodshed, the convoy continued to devour kilometers as it sped across the wide highway. The battle never really stopped, instead stretching into one continuous, moving slaughterhouse. Even if there had not been too many Nightmare Creatures near the coast at the start, the lights and noise of the charging column mixed with the smell of fresh blood, attracting more and more of them from the mountains. </p><p> All that ever changed was the intensity of combat. </p><p> Sometimes the defenders of the convoy only had to repel disorganized mobs of strugglers, killing them off before the abominations could launch an attack on the vehicles. Sometimes a true swarm would appear to block off the road, forcing them to fight their way through while sustaining minor damage and desperately trying to prevent anything from getting to the refugees. </p><p> Despite it all, the vehicles were in a good enough shape to remain operational... for now. Visit n𝒐velb𝒊n(.)c𝒐m for l𝒂test 𝒏𝒐vels</p><p> The Rhino was covered in scars, and its ram - as well as the whole front section - had turned slick with blood, making it look like an infernal machine of morbid carnage. The civilian transports had chunks of flesh stuck on their spikes, with deep grooves left behind by the claws of abominations decorating their sides. The barrels of the turrets on the military vehicles were glowing red, steaming as the chilling darkness of the polar night cooled them down. </p><p> The people were starting to get tired, but, prepared to give it their all to reach the destination, continued to perform their duties with stalwart determination. </p><p> The highway itself was changing, as well. The further north they moved, the more Nightmare Creatures and the more signs of sustained damage there were. Wide cracks appeared in the concrete, and the column had to maneuver around broken vehicles and carcasses of massive abominations from time to time - the latter picked clean to the bone by other monsters. </p><p> Killing the enemies before they reached the column was getting harder and harder because of these obstacles. At some point, Sunny tensed as he noticed an especially troublesome obstruction blocking off the road ahead. His face darkened. </p><p> 'What now?'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_948.html">Previous Chapter</a><a class="navigationButton next" href="chapter_950.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

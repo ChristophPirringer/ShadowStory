@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1042</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1042 The Fall Of Falcon Scott 60</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> 1042 The Fall of Falcon Scott (60) </p><p> For a few moments, no one moved. Sunny was considering how to deal with the Scavenger, while the Scavenger was probably considering how to deal with Sunny, now that the ambush had partially failed. </p><p> ...Or maybe the damn thing was simply enjoying seeing him squirm. Who could tell what was happening in that abominable head? </p><p> A hundred thoughts flew through Sunny's mind. No matter how he looked at it, the situation did not look good. He had no doubt that he and his two Shadows were more than enough to kill the Scavenger... after all, plenty of Corrupted abominations had fallen by his hand. But would they be able to kill him fast enough? </p><p> The wretched creature was strong, and extremely slippery. Fighting someone who could teleport all over the place was a real nightmare... belatedly, Sunny felt pity for all the poor bastards whom he had killed in the past. They must have all died full of frustration. </p><p> 'Serves them right...' </p><p> Once Army Command set off the explosives below the city, Saint would probably be able to survive the conflagration, just like Bloodwave had said he would. Nightmare and Sunny had a chance to escape unscathed, too, if they managed to find a shadow deep enough to protect them. </p><p> His soldiers, however, would not. They were not Saints, or even Ascended. Neither did they possess Aspects capable of saving them from the destruction. Not to mention that Luster was gravely injured and losing a lot of blood... as an Awakened, he would not bleed out immediately, but getting him to a medic, or better yet an actual healer, was an urgent priority. </p><p> The problem was that Sunny was not confident in his ability to protect the cohort if they chose to retreat. Once again, an enemy who could step through shadows was simply too mobile and unpredictable... guarding a bunch of vulnerable targets from a Corrupted Devil who could appear at any moment, from any side, was a tall task. </p><p> 'Damn it! Damn it! Not only did the bastard get a chunk of my flesh, he even became an utter menace because of it!' </p><p> They could not remain and fight, and they could not retreat. </p><p> Did the bastard actually know that everything around them was about to blow up? Or had he just been lucky to catch Sunny at the worst possible moment? </p><p> If he had, that was some luck... </p><p> The Scavenger tilted his head a little, as though challenging Sunny to come and get him. The tip of his curved saber lowered slightly, ready to lash out. </p><p> Sunny glared at him for a moment, then cursed silently and threw an order over his shoulder, his tone calm and steady: </p><p> "Kim... take Luster, climb onto my horse, and get the hell out of here. Get him help. The rest, retreat on foot. Saint will protect you." </p><p> Luster, who had been staring at his missing legs with a confused expression, looked up at the sound of his voice and asked shakily: </p><p> "Wha... what a—about you, Captain?" </p><p> Sunny grinned. </p><p> "I'll keep our friend here company. Don't worry... I did not survive Goliath and the Heart of Darkness to die to this little wretch today. Go!" </p><p> Kim was already dragging the young man toward Nightmare, her face pale and full of desperate determination. The Scavenger spared them a glance, then stared back at Sunny. </p><p> His mouth opened... and a hoarse, grating voice suddenly came out of it: Followw new 𝒄hapters at nov(e)l/bin/(.)com</p><p> "Die, today. Little... wretch." </p><p> Then, an ugly, gasping sound assaulted Sunny's ears. </p><p> The bastard was actually laughing. </p><p> Sunny frowned. He couldn't care less if the abomination wished to mock him, but nevertheless, his heart suddenly turned cold. Nightmare Creatures capable of speech were extremely rare... and all of them were extremely terrifying. </p><p> He could attest to that fact himself. </p><p> Sunny had already been uneasy, but now, his caution doubled. The Scavenger was dangerous. The little wretch had been abnormal from the very start. He was gaining power too fast, growing too explosively. Of course, Antarctica was a perfect place for a creature like that to gorge on the corpses of powerful monsters, but still... </p><p> Sunny's intuition was telling him that fighting the abomination alone would be a dire, dreadful mistake. </p><p> But he had no better choice. </p><p> He sighed with resignation. </p><p> 'I guess my luck is just complete, utter crap today.' </p><p> All that remained was Sunny, the Scavenger, and the shadows. </p><p> 10:09 </p><p> Goliath, the Heart of Darkness, fighting his way back through the boundless Nightmare Creatures, and now this. </p><p> Sunny was hurt, tired, and miserable. </p><p> So much so, in fact, that he was getting a bit angry. </p><p> 'Fine... fine, let's do this, you rotten piece of trash...' </p><p> There was a perfectly fine Nightmare Creature here to vent his anger. </p><p> Sunny had already failed to kill the Scavenger twice. Today, fate generously gave him a chance to finish the job, and he was not going to let it slip from his hands. </p><p> The Scavenger was strangely unreasonable in his hate-fueled pursuit, following Sunny all the way from LO49 across the hellscape of the Antarctic Center. </p><p> Well, Sunny could be an unreasonable person himself. </p><p> In fact, he was very tired of being reasonable all the time. </p><p> 'Enough is enough...' </p><p> A dark, slightly mad light ignited in his eyes. </p><p> Behind him, Kim pushed Luster onto Nightmare's back, then jumped up herself. The black steed instantly shot forward, moving across the empty road with incredible speed. Belle, Dorn, and Samara followed, protected by Saint. </p><p> All that remained was Sunny, the Scavenger, and the shadows. </p><p> ...And tons of explosives somewhere beneath their feet. </p><p> The menacing black abomination moved, trying to dissipate into the shadows, but before it could, the shadows around it suddenly surged, shooting forward like sharp spikes. </p><p> The spikes shattered against the creature's bone armor, but they did slow him down for a split second. </p><p> And that was all that Sunny needed. </p><p> Emerging from the darkness in front of the Scavenger, he kicked him in the chest. With a deafening boom, the creature was sent flying back, but managed to land on his feet. The black tusk whistled, tearing through the air, and collided against the white jade of the Sin of Solace. </p><p> Sunny felt his hand tremble from the force of the blow, and smiled. </p><p> 'Good, good... don't you die too easily...'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1041.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1043.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

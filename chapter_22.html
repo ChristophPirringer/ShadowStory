@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 22</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 22 Corpse Corner</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 22 Corpse Corner</h4> <p> Satisfied with his performance, Sunny walked back to the deserted corner of the hall. He felt people looking at him with mockery, contempt and pity. No one seemed to be willing to stay close to him. It was just as well: he didn't want to be bothered anyway. </p><p> Still, weren't their reactions a bit exaggerated? It's not like he was carrying an infectious disease. Well, except for the Spell. But it wasn't really a disease, which everyone here should have known already. </p><p> Finally, he extricated himself from the crowd and reached the corner. For some reason, Sleepers were unwilling to approach it: currently, there was only one girl sitting quietly on the bench. Sunny gave her a look. </p><p> The quiet girl was delicate, demure and very pretty. Her clothes were tidy and neat. They weren't very expensive, but still rather tasteful. With her pale blond hair, big blue eyes and exquisite face, she looked like a beautiful porcelain doll. </p><p> She was subtly breathtaking. </p><p> However, there was something wrong with her. Sunny frowned, trying to understand what exactly about the girl made him uncomfortable. After a while, he realized that her empty, expressionless stare was reminding him of Mountain King. </p><p> Startled, Sunny understood that the girl was blind. It took him a couple of seconds to compose himself. </p><p> 'What a shame.' </p><p> A bit disheartened, he carefully sat on the opposite end of the bench. </p><p> The girl wouldn't have survived the First Nightmare if she had been blind prior to entering the Spell. Which meant that she lost her sight as the result of the Appraisal. </p><p> It was her Flaw. </p><p> Suddenly, Sunny felt very apprehensive. A cold sensation spread through his chest. </p><p> 'And I thought my Flaw was bad.' </p><p> No matter what Aspect Ability the blind girl had received in exchange for her sight, it was effectively a death sentence. A blind person had no chances of surviving in the Dream Realm, at least not with a dormant core. In some sense, the girl was already dead. </p><p> She was effectively a walking corpse. </p><p> Feeling extremely disturbed, Sunny turned away and studied the crowd of Sleepers. Now he understood why people were trying to avoid this corner: the girl was surrounded by an invisible, but almost palpable aura of death. </p><p> Sleepers usually weren't very superstitious, but anyone would feel uncomfortable in her company. </p><p> Armed with this knowledge, Sunny suddenly saw a pattern in how the young people in the hall were grouped. Instinctively, they all tried to stand close to those of their own circumstance. </p><p> At the far end of the hall, closest to the stage, were one or two small groups. People in these groups were distinct from the rest of Sleepers. They were all confident, calm and had an air of readiness. These were the Legacies: they were trained for the Spell since birth and had the highest chances of survival. Caster especially stood out from the rest. </p><p> Next to them was a larger number of expensively dressed young people. They were lively and excited, and only a little nervous. They were the scions of rich and high-ranking citizens. Their training was pretty good since such families had ample funds to hire private tutors — even Awakened ones. Their chances of survival weren't bad. </p><p> Then there was the largest part of the crowd, which consisted of kids from middle-class families. They might not have had the privilege of training under Awakened tutors, but their education wasn't bad. The government spent a lot of effort to put all the necessary knowledge and skills into the school curriculum, preparing potential Sleepers in advance. </p><p> Some of them might have received additional training in private. To survive, these Sleepers would need to put in a valiant effort, and also have a bit of luck. But it wasn't improbable. Consequently, they were tense and nervous. </p><p> And lastly, there was Sunny and the blind girl. The corpses. From the point of view of other Sleepers in the hall, their chances of survival were close to zero. 𝑅ead latest ch𝒂pters at n𝒐velbi𝒏(.)co/m</p><p> 'How charming.' </p><p> This was how the young Sleepers had subconsciously divided themselves. The only exception from this rule was the silver-haired girl, who stood alone and apart from everyone, seemingly indifferent to tension and nervousness that permeated the air. She was leaning against a wall with her eyes closed, still listening to music. </p><p> But regardless of their group and level of training, everyone was already tired of waiting. </p><p> 'When will the damn induction ceremony start?' Sunny thought, irritated. </p><p> As though answering his thoughts, a tall man in a dark blue uniform appeared on the stage. Not only was he tall, he was actually almost a giant. Sunny even wondered if the man's mother had sinned with a bear… </p><p> Of course, it was impossible — bears had gone extinct long before the Spell even appeared. But he once saw pictures in a book, and they looked sort of similar. </p><p> 'A bear-like Nightmare Creature, then.' </p><p> The giant man had wide shoulders, an athletic build and a gorgeous brown beard. His eyes were calm and serious. After reaching the center of the stage, he gave Sleepers a long look. When his gaze reached the deserted corner, Sunny suddenly felt nervous. </p><p> 'Uh… I sure hope he doesn't have a telepathic Ability. Otherwise, he might separate me from a limb or two on behalf of his mother.' </p><p> The man didn't pay Sunny a lot of attention and returned his gaze to the front rows of the crowd. Finally, he said in a deep, reverberating voice: </p><p> "I am Awakened Rock. Sleepers, welcome to the Academy." </p><p> Everyone listened without making a sound. </p><p> "In less than a month, you will be summoned to the Dream Realm. Some of you might think that you are well prepared. You're wrong. The Spell is merciless and cunning. The moment Awakened begin to think too much of themselves, they die. I've seen countless Sleepers like you lose their lives. I've also seen experienced Masters lose theirs. Even Saints are not assured to survive." </p><p> 'Thanks for the encouragement,' Sunny thought sarcastically. </p><p> "In the following four weeks, we will do everything in our power to increase your chances of survival. You will receive training from the best instructors in the world. However, don't be misled by their fame: in the end, whether you return from the Dream Realm alive depends only on one person — you. The responsibility to survive is yours, and yours alone. " </p><p> Except for the Legacies, Sleepers were looking at each other with growing fear in their eyes. Awakened Rock continued: </p><p> "You are not children anymore. It's a shame, because you ought to be. But the Spell has decided otherwise. You have been to the First Nightmare, so you already know what it's like. Your parents, your teachers and your friends can't help you anymore…" </p><p> 'Haven't had any of those in a long time.' </p><p> While listening to Rock's speech, Sunny couldn't help but feel a little excluded. It was all old news to him. However, he understood the instructor's purpose: he had to make young Sleepers afraid, because fear was the only thing that would keep them alive. </p><p> Finally, the speech got to the important part. Awakened Rock paused, giving kids listening to him a few moments to digest his words. Then, with a short nod, he continued: </p><p> "Now we will talk about the difference between Nightmares and the Dream Realm…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_21.html">Previous Chapter</a><a class="navigationButton next" href="chapter_23.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

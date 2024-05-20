@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 189</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 189 Sunnys Brilliant Emporium</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 189 Sunny's Brilliant Emporium</h4> <p> The expressions on the faces of Casper, Effie and Kai were simply priceless. Sunny had to stop himself from laughing out loud. </p><p> …His shadow, however, did not. Luckily, it had no vocal cords, so all it could do was hold its stomach and shudder silently. </p><p> 'Hey, you! Behave yourself!' </p><p> Meanwhile, Nephis just looked at him. The corner of her mouth slightly curled upward. </p><p> After a while, Caster was finally able to answer: </p><p> "Just a fallen devil? Did you say j…" </p><p> However, Changing Star interrupted him. Glancing at the cathedral, she simply shrugged and said: </p><p> "This is acceptable." </p><p> Everyone became silent. They simply stared at Neph with bewildered expressions. </p><p> With some satisfaction, Sunny nodded and said: </p><p> "Don't be so quick to judge. We won't be going into that battle unprepared. I spent months studying the bastard. I know his every ability, every trick, and every weakness. More than that… if you can't even handle someone like him, how are you going to challenge Gunalug? Isn't that what this expedition is all about?" </p><p> Actually, he debated for a long time whether he should demand that they attack the Black Knight now or after the expedition was over. In the end, he decided that they were all too weak to face the devil… for now. But after months spent in the Labyrinth, things were bound to change. </p><p> There were more Nightmare Creatures out there, and most of them were not impossible to kill. By the end of the expedition, every member of the cohort was going to have much more soul essence in their cores than they had now. They would also have a wider arsenal of Memories at their disposal. </p><p> More importantly, they would have time to hone and perfect their teamwork. If they wanted to have a chance in a fight against the Black Knight, this was the most important part. </p><p> Nephis nodded. </p><p> "Sunny is right. It's not like it's impossible to kill a Fallen creature. In fact, both Gemma and Tessai had done so in the past, not to mention Gunlaug himself. It just takes a lot of preparation and a little bit of luck. By the end of this, we should be able to take on a single devil and win, provided that we learn its secrets in advance." </p><p> Sunny smiled. </p><p> "Exactly! Oh, right. Speaking of preparations…" </p><p> While everyone was looking at him with confusion… well, except Cassie, of course… he took the rucksack off his shoulders and placed it on the ground. Then, he opened it, revealing the soft shine of numerous soul shards. </p><p> "Welcome to Sunny's Brilliant Emporium! This here is around fifty soul shards, each of them of the Awakened rank. Since we will be venturing into the Labyrinth, I've decided to give you guys an opportunity to empower yourself a bit before facing the terrible dangers of that ghastly place. Of course, I'll give you a family discount…"Pa nda </p><p> Novel He had emptied his treasure chest before leaving the hidden chamber. Currently, all of his remaining shards were inside the rucksack. </p><p> Of course, he hadn't done so out of the kindness of his heart. </p><p> Sunny never had any money and so, understandably, didn't know a lot about how to handle it. But one thing he did know was that rich folk never allowed their riches to sit idly. Even money had to work to create more money once it fell into the hands of the wealthy. </p><p> In the language of rich people, this was called an investment. </p><p> By investing his shards into the cohort, Sunny was increasing his own chances of making it back alive. No matter how hard he thought, he couldn't imagine a worthier cause. </p><p> Plus, he wasn't going to just give the shards away for free. </p><p> "The rules of the emporium are rather simple. You give me Memories, I give you shards. I don't care about how powerful or useful the Memories are. In fact, the worse, the better! Any useless junk you have gathering dust in your Soul Sea will do. If you don't have any — no problem. You can just promise to give me a Memory in the future, once you receive one in the Labyrinth." </p><p> He smiled at the members of Neph's cohort. </p><p> "Not bad, right? No need to thank me, really…" </p><p> Kai stared at the shards, then raised his eyes and looked at Sunny: </p><p> "Sunny… buddy… please forgive my bluntness, but why do you need all these Memories?" </p><p> What a good question. Sunny grinned. </p><p> "Uh, you see… how should I put this? Let's just say that there's a beauty I know who just can't get enough of them. If you know what I mean..." 𝒩ew 𝒏ovels upd𝒂tes on nov𝒆lbi𝒏(.)com</p><p> Saying that, he winked at the pretty archer. With a strange expression, Kai turned away and shook his head. </p><p> However, after this performance, no one else asked any questions. </p><p> In the end, Sunny was able to exchange his shards for five Memories. Nephis distributed the shards between the five members of the cohort, with each of them getting ten. </p><p> This was a boon equal to slaying ten awakened beasts. After absorbing the shards, all five of them were going to receive a significant boost to their power. </p><p> As far as deadly expeditions went, this was the best start possible. </p><p> Without wasting any time, Neph, Cassie, Effie, Kai and Caster absorbed the soul essence from the shards. </p><p> While they were busy doing that, Sunny silently dove into the Soul Sea and fed the Memories he had received to the Stone Saint. </p><p> [...Stone Saint has grown stronger.] </p><p> [...Stone Saint has grown stronger.] </p><p> [...Stone Saint has grown stronger.] </p><p> Satisfied, he summoned the runes and glanced at them. </p><p> Shadow: Stone Saint. </p><p> Shadow Fragments: [27/200]. </p><p> Then, he looked at his own. </p><p> Name: Sunless. </p><p> True Name: Lost from Light. </p><p> Rank: Dreamer. </p><p> Shadow Core: Dormant. </p><p> Shadow Fragments: [318/1000]. </p><p> …Not bad. </p><p> Looking south, he smiled darkly and wondered… </p><p> How much would these numbers increase by the time he returned to the Dark City? It had to be by a lot. </p><p> When everyone was done absorbing their shards and getting accustomed to the changes caused by the sudden influx of soul essence, the cohort was ready to move out. </p><p> The six of them headed south, cautiously traversing the cursed city. </p><p> Nephis was walking in the front of the party, her stark black and white plate armor contrasted sharply against the grey stones of the ancient ruins. A step behind her and to the right was Caster, clad in a polished scale mail that glistened in the morning light like the skin of a silver dragon. To her left was tall and powerful Effie, clad in the archaic bronze armor with a white chiton beneath. </p><p> A few steps away, wearing his elegant lamellar armor made out of burnished brown leather, walked Kai. On his back, there was a quiver full of heavy arrows. Cassie was walking beside him, her light tunic and bright cloak just the same as before. However, now there was a sheath with a graceful rapier attached to her belt. </p><p> At the very back, with an unhappy expression on his face, was a pale young man with messy black hair and a ragged light armor made out of dark-grey fabric and black, lusterless leather. He was periodically lowering his gaze and grimacing, as though unaccustomed to being in the sun. </p><p> Of course, it was Sunny. </p><p> Their journey to the edges of the Forgotten Shore had begun.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_188.html">Previous Chapter</a><a class="navigationButton next" href="chapter_190.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

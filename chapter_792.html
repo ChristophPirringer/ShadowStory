@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 792</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 792 Blind Spot</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Effie smiled, then gestured at the dancing crowd and added: </p><p> "After they return from the Dream Realm, most Awakened spend at least a part of their day training to raise their usefulness to the Citadel and increase their chances of survival. Some have important jobs to perform in the waking world, as well. Our infrastructure runs on spelltech, after all." </p><p> She shook her head. </p><p> "But other than that, here's plenty of time to live and have fun. It doesn't have to be all work, without stop… some might even say that not having any other interests is detrimental." </p><p> The huntress looked at them and shrugged. </p><p> "I mean, how can you be motivated to fight for this world if you never experience all the nice things that it has to offer? Maybe that is why your counselor told you to participate in mundane human activities, Neph. Awakened and especially Masters like us need to anchor ourselves to humanity, somehow. But there's no Gateways here." </p><p> Sunny took a sniff of the strange sparkling liquid in his glass, then carefully tasted it. This champagne, or whatever it was called, was way too expensive for him to pass the chance of getting his money's worth out of it. Well… he wasn't paying today, but still. It was a matter of principle! </p><p> Of course, Sunny had sworn off alcohol, but with him being a Master now, there was no way for him to get drunk unless he wanted to. Not because of mundane drinks like this one, anyway. Unless he consciously willed otherwise, his body was going to treat alcohol as a weak poison and resist it. </p><p> 'Tastes… sweet. But also bitter. Very refreshing, though. How strange!' </p><p> Effie's words made him thoughtful. She was not entirely wrong… Sunny himself felt a bit ambivalent about the waking world, which had not been kind to him in the past. He only liked it better than the Dream Realm because it was safer and had nice things, like delicious food, comfortable furniture, and network dramas. </p><p> Also, Rain was here. </p><p> But what if an Awakened was indifferent to all those things? Would they even feel compelled to do anything to protect the waking world? What was going to stop them from abandoning the mundane completely after they became a Master or a Saint? </p><p> Or a Sovereign? </p><p> Nephis, meanwhile, continued to study the dance hall. After a while, she said: </p><p> "There might be many Awakened here, but how prepared are they to fight against a flood of Nightmare Creatures? It takes a lot of courage to face an opening Gate. Out of those who are courageous, how many are competent enough to make a difference? Not everyone is like Mongrel. Very few can stand their ground and fight." </p><p> Effie gave her a strange look. </p><p> "Huh? Have you been watching a lot of videos on the network, princess? You are quoting Mongrel now?" </p><p> Changing Star shrugged. </p><p> "I just find him admirable." </p><p> The huntress suddenly grinned and said in a conspiratorial tone: </p><p> "Neph… do you maybe have a crush on Lord Mongrel?" </p><p> Sunny almost spat out his champagne. He turned slightly and threw a murderous glance at Effie. </p><p> Nephis, however, remained nonchalant. She showed no reaction, and simply said: </p><p> "I just appreciate his skill and his integrity. At first, I was merely attracted by how beautiful his swordsmanship is. Flowing, unpredictable. Supremely adaptable. I watched a few of his duels, as well as his performances in the Dream Tournament. His dedication, versatility, and... domineering attitude... left a deep impression on me." </p><p> Changing Star shook her head. </p><p> "But those were just games. It was only when I stumbled on a clip of Mongrel single-handedly stalling several waves of Nightmare Creatures in front of a Gate that I truly grew to appreciate his character. In my opinion, he is what a true Awakened should strive to be. Someone who is not resigned to bowing down to the Spell, and is determined to resist it instead. His will, mastery of combat, and wisdom are commendable. It warms my heart to know that there are warriors like him out there." </p><p> Sunny gripped his glass and forced out an awkward smile: </p><p> "Hey… let's not go overboard about that Mongrel guy, shall we? He's not that great. I mean, he was not really alone at that Gate, there were other Awakened helping him. As for all that wisdom stuff, I am willing to bet that he did not mean any of the crap he said…" </p><p> Nephis looked at him with surprise. </p><p> "I disagree. I think that Mongrel deserves all the praise. He is truly remarkable!" </p><p> Effie, meanwhile, were looking at them with a grin. </p><p> Sunny suddenly got a bad feeling. </p><p> Before he could say something, however, the huntress leaned forward and whispered into Neph's ear: 𝒂ll new st𝒐ries at novelbi𝒏(.)c𝒐m</p><p> "You do know that Sunny is Mongrel, right?" </p><p> Sunny choked on his champagne. The exquisite glass cracked slightly in his hand. </p><p> Nephis froze. </p><p> Her face remained still as ever. However, despite the dim lighting of the night club, he could swear there was a hint of pink slowly appearing on her cheeks. Was she... blushing? </p><p> 'Damned Effie! I'll kill her!' </p><p> Changing Star remained silent for a while, then said in her usual even tone: </p><p> "...Of course. I definitely knew that." </p><p> She straightened her back, and then added: </p><p> "I was just commenting on his perceived accomplishments. Now, if you'll excuse me… I need to visit the restroom." </p><p> She glanced at Sunny and Effie with a deadpan expression, then turned around and walked away. Her pace was calm and steady. Not rushed at all. </p><p> Effie waited for a few moments, then threw her head back and exploded in laughter. </p><p> "Oh, gods… "doesn't make any sense", "so inefficient"… I can't with these two!" </p><p> Sunny glared at her with murder in his eyes. He remained silent for a few moments, then said softly: </p><p> "Hey, Effie?" </p><p> She looked at him with a wide grin. </p><p> "What, doofus?" </p><p> He sighed, then rotated his shoulders a few times. </p><p> "Do you have a will?" </p><p> The huntress blinked a couple of times. </p><p> "Sure. I made one before the Second Nightmare. Why?" </p><p> Sunny looked at her and smiled politely. </p><p> "Oh, no reason. No reason at all…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_791.html">Previous Chapter</a><a class="navigationButton next" href="chapter_793.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1173</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1173 Red Herring</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> 1173 Red Herring </p><p> Sunny was watching the battleship move across the tumultuous surface of the ocean. </p><p> But, of course, he was watching other things at the same time as well. </p><p> His shadows were spread throughout the port fortress, absorbing all kinds of information. </p><p> One was hidden in the barrel of an overheated rail gun, watching Nightmare Creatures laying siege to the walls of the stronghold. A deathly downpour of projectiles, both mundane and magical, was falling on the surging mass of attacking abominations. Figures of Knights could be seen within the horde, moving to eliminate the most dangerous targets. Saint Gilead was also there, clad in a suit of lustrous armor, facing the Nightmare Creatures like a bastion of immovable courage and steel. It was a familiar scene. </p><p> Another shadow was with the refugees who were nervously waiting for their turn to board the ships. The sounds of the battle were too oppressive to talk freely, but they couldn't help but whisper, sharing their fears and hopes. Sunny listened carefully, assessing the changes in the mood of the civilians, as well as how they perceived the conflict. </p><p> From time to time, he managed to learn something interesting from the rumors spreading among the refugees. </p><p> A third shadow was with Nephis, who had entered the field hospital beneath the fortress wall some time ago. She was kneeling in front of a bloodied stretcher, holding her hands above the terrible wounds covering the body of a mundane soldier. A soft radiance emanated from beneath her skin, and the wounds of the young man were swiftly closing. Her face was motionless and pale. </p><p> There were many people behind her who had been in the throes of suffering not too long ago, but were now healthy and whole. They were looking at her with eyes in which indescribable relief mixed with awe and reverence in equal measure. </p><p> The fourth shadow was with Sunny himself. </p><p> And, of course, the fifth shadow was slowly making its way into the sealed chamber where Morgan had gone a dozen or so minutes ago. Usually, Sunny would not risk getting that close to the Princess of War when she really wanted to keep her conversations private... </p><p> But today was a special day. </p><p> It was not because the main force of Clan Valor had left their designated siege capitals and assembled in this pot fortress to give battle to a large horde of migrating Nightmare Creatures — things like that happened from time to time, when it was more advantageous to deal with the threat sooner rather than later. </p><p> No… it was because today, Saint Madoc had returned from his clandestine mission in the territory of Clan Song. </p><p> To this day, Sunny was not sure whether Ascended Bast was truly the current vessel of Mordret, one of his reflections, or simply a diversion meant to sow confusion among his enemies. At times, Sunny had felt certain that the bleak man was none other than the Prince of Nothing, but he still harbored some doubt. </p><p> Whispering Blade was going to dispel his doubts once and for all. </p><p> The shadow did not manage to enter the sealed room — doing so would have alerted Morgan about its presence — but it did manage to slither into a service duct running above it, and peek inside through the small gap in the ceiling insulation. </p><p> Sunny frowned as he watched the ocean, noticing a disaffectionate expression on Saint Madoc's face. </p><p> The fearsome Transcendent was talking, his voice even: "...waiting for me. It was a trap from the very beginning. Which would not have been too inconvenient if Ascended Bast was, indeed, the abomination. However, he was not. I confirmed it." </p><p> Morgan leaned back and sighed. "Still. It couldn't be helped. We had to eliminate the possibility." </p><p> She lingered for a few moments, then asked: "How serious was the trap?" </p><p> A faint smile appeared on Saint Madoc's face. Throwing a quick glance at the young woman, he chuckled. "You don't have to worry about this old man, Morgan. Silent Stalker and Dire Fang were there… I could not leave without saying a proper goodbye, though, so they'll have a few new scars to brag about." </p><p> Many kilometers away, Sunny tilted his head a little. 'Such arrogance…' </p><p> However, was it really arrogance if Madoc was powerful enough to back up his words, and lethal enough to make each of them count? </p><p> Regardless of that, one question remained. If Ascended Bast had nothing to do with Mordret, then where the hell was that bastard, really? </p><p> In the sealed room, Morgan echoed his thoughts: "The situation is… problematic, then. None of the divinations managed to pinpoint his location. Either Queen Ki was generous enough to bestow that person with a truly powerful obscuring Memory, or he has some means of avoiding our gaze of his own. It is strange, though. How could a mere Master achieve such a thing?" </p><p> Madoc frowned. "We weren't able to confirm his Ascended Ability. Maybe it has something to do with that… you can't forget what Rank his Aspect is, Morgan." </p><p> Not paying attention to a dark expression on his niece's face, Whispering Blade added: "He might be closer than we think, too. These strange attacks we suffered recently — weren't our diviners strangely unable to ascertain anything about them? It can't be a coincidence." Discover n𝒆w chapt𝒆rs 𝒐n no𝒗elbi𝒏(.)com</p><p> Morgan remained silent for a while, then shook her head. "There is some correlation, but the pattern doesn't fit. More than that, the countermeasures we have in place to confirm the identities of our Ascended showed no anomalies. We can't check every refugee, mundane soldier, and Awakened, of course…" </p><p> Madoc thought for a few moments. "What about that government brute, Ascended Sunless?" </p><p> A slight smile appeared on Morgan's face. "Who do you take me for? He was the first one I checked. We have studied him thoroughly after the Night Temple incident, as well. Ascended Sunless is certainly not ordinary — his SS designation, service record, and age should attest to that — but he is definitely himself, and not that abomination's vessel." </p><p> Sunny frowned. Valor seemed to possess some kind of tool capable of determining whether one was possessed by Mordret or not, even if its function seemed to be limited to a small number of people. Nevertheless, he had been one of the people they checked… when the hell had that happened? He had not even noticed anything. </p><p> Back in the sealed room, Morgan frowned. "...So where is the creature hiding?" </p><p> At that moment, the door suddenly opened, and someone walked inside. Both Morgan and Madoc looked at the newcomer with surprise. "Cassia? How… bold of you, to come here without invitation." </p><p> The Princess of War smiled dangerously. At the same time, Madoc raised an eyebrow. "You'd better have a good explanation for this interruption, young lady." </p><p> Cassie lingered for a few moments, appearing somewhat nervous. Then, she said in a tense voice: "There is a message for you. I think you should come outside…" </p><p> . </p><p> Occasionally missing content, please report errors in time.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1172.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1174.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

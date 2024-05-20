@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1465</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1465 Rendezvous</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1465 Rendezvous</h4> <p> Sunny remained motionless for a while, looking around. </p><p> The bottom of the lake was dry now, revealing the towering remains of the ancient Nightmare Creatures. Well... relatively dry. Although most of the water had been drained into the dark abyss, large puddles of it still remained here and there. </p><p> The remains of the abominations were still glistening with moisture, as well. Which meant that countless invisible horrors were still crawling all over their surface. He was not going to feed Fiend with these abandoned treasures any time soon. </p><p> 'Damnation.' </p><p> Sunny's shell was still being eroded, as well. Luckily, the rate at which it was dissolving had decreased drastically. By now, he would be able to climb out of the empty lake and discard his ragged diving suit without being eaten alive. </p><p> Looking up, he saw the mist slowly flowing down the slopes of the former lake. Very soon, it was going to shroud everything here, just like everywhere else on the island. Turning slightly, Sunny stared at the corpse of the giant winged creature and fought the temptation to try and fish the soul shards out of it. </p><p> But no, there was no time, and the corpse still gave him a sense of danger... there had to be countless invisible creatures permeating it, after all. Even if the dead abomination was not the original source of the contamination, it was without a doubt being slowly devoured from the inside by it. </p><p> Finally, Sunny glanced at the slope of the lakeshore. </p><p> There, not obscured by the crimson water anymore, several dark openings were revealed, each a few meters in diameter. Those were the aqueducts that used to feed water into the moat of Aletheia's Tower. </p><p> Now that the lake had been drained... the moat would soon run dry, as well, dealing the first blow to the system of enchantments maintaining the time loop. Which meant that Sunny's mission here was accomplished. </p><p> He hesitated for a few moments, then threw one last glance at the darkness hiding beneath the island. Struggling against the sudden sense of vertigo, Sunny walked to where the lid of the sluice gate was laying on the wet stone, gathered his strength, and threw it back in place with a grunt. </p><p> The massive steel circle fell back into the metal ring with a loud ringing sound, obscuring the lightless abyss. Immediately, Sunny felt a little calmer. </p><p> 'I should hurry up.' </p><p> His essence was running dry, and there was still some time left until dusk. </p><p> He dashed to the shore, mentally reviewing his performance. In retrospect, he could have saved himself some trouble by exploring the bottom of the lake as a shadow first, then returning to the shore, safely forming the Shadow Shell away from the deadly crimson water, and using Shadow Step to return to the gate. </p><p> But he had not known if there were unknown dangers hiding in the lake. Provided the information he had possessed at the time... his strategy might not have been optimal, but it had been the safest. </p><p> 'I succeeded, didn't I?' </p><p> Climbing onto the shore, Sunny dismissed the Mantle, and then used Shadow Step to escape from inside the damaged Shadowspawn Shell. The towering figure of the four-armed fiend remained standing in the mist like a hollow statue. </p><p> Appearing a safe distance away, near Effie, Sunny shivered and summoned his clothes back. Finally, he allowed the Shadow Shell to dissolve into nothingness. </p><p> The huntress gave him a long look. </p><p> "So, you just... flushed the entire lake?" </p><p> Sunny smiled weakly. </p><p> "I guess you can say that." </p><p> Then, he looked at the sea of mist one last time and turned away. </p><p> "In any case, our job here is done. Next, we need to rendezvous with Nephis, Cassie, and Jet." </p><p> Climbing into Nightmare's saddle, he hid his expression and sighed quietly. </p><p> Diving into the blood lake had been dangerous... but what Cassie had to do in the overgrown shrine was much more dangerous by far. </p><p> 'I hope they are alright.' </p><p> Aletheia's Island was strangely peaceful. Most of the Nightmare Creatures had left their usual haunts, attracted by the havoc that the dead army had wreaked on the southern shore. Of course, the risen corpses had all been destroyed by now, and the dreadful abominations were on their way back north. </p><p> Nevertheless, Sunny and Effie had a narrow window of time to slip to the rendezvous point without meeting any obstacles. </p><p> Eventually, they reached the maw of the wide chasm that had given Sunny so much trouble in the past. Dismissing Nightmare and the Covetous coffer, he led Effie to its edge, and helped her glide to the bottom with the help of the Dark Wing. </p><p> Down there, the rocks walls of the chasm were emanating searing heat, and the stench of burned chitin was almost unbearable. The charred corpses of the revolting millipedes crunched under their feet like autumn leaves and crumbled into ash. Despite the fact that Sunny was used to this scene, he still felt nauseated. </p><p> Effie looked sickened, as well. Covering her nose, she asked: </p><p> "What the hell happened here?" </p><p> Sunny forced out a smile. </p><p> "Nephis happened." </p><p> The huntress stared at him for a moment, then coughed, understanding. </p><p> The two of them made their way into the deeper part of the canyon, trying not to look around. Soon, they saw a dim light ahead. Alll 𝒏𝒆west ch𝒂pt𝒆rs on no./v𝒆l𝒃i/n/(.)c𝒐m</p><p> Sunny tensed when he recognized the soft radiance of the Guiding Light, but then let out a sigh of relief. </p><p> Five figures were there, in the shadow of a large rock outcropping. One was standing, one was sprawled on the ground, and three were sitting tiredly, their backs leaning against the rocks. </p><p> Saint was the one standing. Her onyx armor seemed strangely brittle and dull, but there were not many cracks on it, as well as very little ruby dust smeared across its surface. Fiend was the one sprawled on the ground... the infernal flames burning in his eyes were much dimmer than usual, but there was no damage on his black silver armor. </p><p> In any case, he was alive. </p><p> Nephis, Cassie, and Jet were in one piece, too. They seemed pale and strangely listless, but there were no terrible wounds on their bodies, nor was there much blood on their clothes. </p><p> They had pulled through.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1464.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1466.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

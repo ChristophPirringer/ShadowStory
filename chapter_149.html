@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 149</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 149 Dark Diver</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 149 Dark Diver</h4> <p> Sunny was silent for a while, then sighed: </p><p> "Do you remember how Effie told us that he might as well be considered immortal? Well, she wasn't wrong. Apart from the fact that Gunlaug has probably absorbed more Soul Essence and has more experience fighting both Nightmare Creature and Awakened than anyone else on the Forgotten Shore… there's more to him than that." </p><p> Nephis frowned. </p><p> "Is his Aspect Ability uniquely powerful?" </p><p> Sunny shook his head. </p><p> "His Aspect Ability is that he is able to breathe and move with incredible speed underwater. But it is connected to what I am about to tell you." </p><p> He hesitated. </p><p> "You see, Gunlaug came to the Dark City around eight years ago. Since his Ability was of no use in the ruins, he quickly became an outcast. From what I was able to learn, things were even darker in the Castle back then. Strength decided everything, and anyone without strength wasn't even considered to be human." </p><p> Sunny shuddered. He could imagine it vividly. </p><p> This was, by far, the most cruel and bloody time in the history of the Bright Castle. Right after the last member of the original cohort to conquer the ancient stronghold had perished and before Gunlaug took control, things balanced at the edge of madness for a while. </p><p> Say what you want about the bastard, but at least he kept the humans here from turning into animals… completely. </p><p> Sunny continued: </p><p> "But Gunlaug, he turned out to be mad even by those standards. Because he actually began to hunt in the dark sea." </p><p> Changing Star blinked. </p><p> "What?" </p><p> He nodded. </p><p> "Yes. At dusk, he would dive from the city wall into the black water to scavenge the soul shards from the monsters of the Labyrinth that were crushed by the flood, racing against the approaching horrors of the depths. And at dawn, he would dive into the retreating sea to scavenge meat from the remains of creatures that the dwellers of the depths had killed and left behind." </p><p> Nephis silently stared at him. They had met the abominable existences that hid beneath the black surface of the cursed sea twice, and each of these harrowing meetings had left scars on their souls and minds. To do so twice a day, every day… Gunlaug was indeed a madman. </p><p> But he was also somewhat of a mad genius. </p><p> Sunny took a deep breath. </p><p> "And this is how he turned from a desperate outcast into the Bright Lord. One day, Gunlaug was pulled away by a current and, once the sea disappeared, stumbled onto a mortally wounded, dying leviathan. The creature was still alive, but just barely. Knowing that the carrion eaters of the Labyrinth will soon come to feast on it, Gunlaug began cutting the meat of the creature's bones with his knife." </p><p> He paused, then said in a strangely dark voice: </p><p> "By chance, the leviathan happened to die from its terrible wounds at that exact moment. And since Gunlaug's blade was the last thing to cut it, the Spell happened to attribute the kill to him. And that kill… that kill happened to give him a Memory. A wondrous golden armor that no human weapon can even scratch." </p><p> No one really knew a lot about the dwellers of the depths, but Sunny and Nephis had once witnessed two carapace centurions retrieve two Transcendent souls shards from the carcass of one of them. Which meant that Gunlaug's armor-type Memory was at least three ranks above the soul cores of every human on the Forgotten Shore. </p><p> Almost every weapon-type Memory they possessed was either of Dormant or Awakened rank. Even if someone managed to kill a Fallen creature and acquire an Ascended weapon from it, the weapon would most likely still be ineffective against the Transcendent armor. And since that damn armor didn't have any openings… </p><p> Basically, Gunlaug was invincible. </p><p> Sunny sighed. </p><p> "With that armor, he returned to the Dark City, gathered a few supporters, killed everyone who stood in his way, and took control of the Castle. No one was able to threaten his reign ever since. And all those who tried… well. Their skulls are out there for everyone to see, swinging on chains above the gates of the castle." </p><p> Nephis remained silent for a long time, staring at the floor. She seemed to be a bit disheartened. Finally, she asked: </p><p> "What traits does the armor possess?" </p><p> He shrugged. Discover 𝒏ew chapters at novelbi𝒏(.)co𝒎</p><p> "Who knows? It's not like anyone who had the opportunity to learn that lived to tell the tale. The only thing widely known about the golden armor is that it is made out of some strange liquid metal and that it emanates a field of crushing psychic pressure. But even that is not entirely true. Actually, it only affects those who look at their reflection in the visor. Cassie wasn't affected at all." </p><p> The blind girl raised an eyebrow, only now learning that everyone except for her always felt incredibly oppressed in Gunlaug's presence. For once, her terrible Flaw gave her an advantage. </p><p> It had also allowed Sunny to learn a valuable secret. But he had no time to be happy about it. </p><p> The most important part of this conversation was drawing close. He had to convince Changing Star to abandon any idea of going against Gunlaug. Otherwise, all three of them were going to end up dead. </p><p> Sunny looked at her and asked in a carefully neutral tone: </p><p> "So, what do you think?" </p><p> Changing Star was quiet for a while, then suddenly said: </p><p> "I have also learned something while you were gone." </p><p> Sunny frowned slightly. Was she trying to avoid this conversation? Feeling heavy and uncertain, he asked: </p><p> "Really? What is it?" </p><p> However, in the next second, he had forgotten all about his previous worries. Because Nephis looked him right in the eyes and said: </p><p> "There is a Gateway here, after all." </p><p> Something exploded in Sunny's mind. </p><p> 'What… there is… there is a Gateway?' </p><p> Stunned, he stared at Neph with wide eyes. </p><p> How could this be? Why hadn't anyone ever mentioned it? No, it didn't make any sense. If there was a Gateway, why would people just stay in the Dark City? Why were both Effie and Caster so adamant that there was no way out? </p><p> A familiar dark feeling of unease settled in his heart. </p><p> Trying to compose himself, Sunny slowly said: </p><p> "Then why… why hasn't anyone left? Where is it?" </p><p> Nephis looked at the window, remained silent for a few moments, and then answered in a flat tone: </p><p> "Where do you think? It's in the Crimson Spire, of course."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_148.html">Previous Chapter</a><a class="navigationButton next" href="chapter_150.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

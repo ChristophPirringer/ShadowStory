@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 795</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 795 Moment Of Peace</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> To Sunny's absolute shock… nothing really happened for the rest of the night. There was no deadly brawl that forced the cohort to intervene, no emissary of the great clans arrived to crash the party, no Gate opened right in front of the club. He had been fully prepared for something to go terribly wrong, but in the end, nothing did. </p><p> 'How odd!' </p><p> The five Masters simply had a good time listening to loud music, being served delicious drinks and food, and enjoying each other's company. Sunny did not know if this outing was helping Nephis in a way that she had hoped it would, but he found it unexpectedly relaxing. Spending quality time with good friends was what normal humans were supposed to enjoy, after all. </p><p> However... he had never had such an opportunity as a mundane. Sunny had never really fit into any of the groups he had tried to become a part of in the outskirts. He had always existed on their periphery before being expelled from them, as if something about him caused a subconscious rejection. </p><p> He did not really know what had changed. Maybe it were the people he was with, or maybe it were the circumstances that had brought them together. Most likely, it was Sunny himself that had become different. In any case, for the first time in his life, he felt safe and secure about his place. He felt as if he truly belonged with these people. </p><p> That did not mean that they were connected at the hip, of course. In fact, the members of the cohort had plenty of differences and underlying conflicts that had the potential to push them away from each other. Even the phrase itself was not exactly accurate… at this point, they were not really members of a distinct cohort anymore. </p><p> Even if all five chose to pursue the same goal together — which was rather improbable — Masters rarely operated in groups. They were too rare and powerful for such an arrangement. Most Ascended acted independently, only gathering together to face especially terrible threats. </p><p> But that was alright. This was how mature relationships were supposed to work. Sunny and his friends did not have to spend every waking minute together to preserve their bond. It was deep and tempered enough to remain strong even if each of them walked their separate path from now on. </p><p> Still… the prospect of separation made Sunny feel wistful. He would have preferred for the five of them to stay together, at least in some capacity. However, the future was too obscure. Until the fateful ball, it was hard to say in which direction their lives would go. </p><p> That was why this rare moment was so precious. </p><p> Throwing all serious thoughts out of his mind, Sunny relaxed and tried to enjoy it as much as he could. </p><p> Who knew when they would have a chance to spend such a peaceful evening together again… if ever. </p><p> *** </p><p> Steel was once again striking against steel in the underground dojo. </p><p> Well… alloy was striking against alloy, to be more precise. </p><p> For once, Sunny was not suffering on the receiving end of Changing Star's assault. The slender young woman was actually sitting on top of his inactive sleeping pod with her eyes closed, meditating as she controlled the soul essence rushing through her body. </p><p> Instead, Sunny was defending himself against earnest, but amateurish attacks delivered by Rain. </p><p> 'What a nice change of pace…' </p><p> The teenage girl was trying her best to get through his defense, but even when Sunny drastically toned down his speed and strength, her efforts were simply not enough. Despite her hard work, outstanding talent, and the swift improvement she had made, Rain was like an open book for him. </p><p> Of course, he couldn't expect much from a mundane teenager. Still… her performance today was far from stellar. </p><p> Sunny frowned. </p><p> "Concentrate! You are distracted!" </p><p> Rain gritted her teeth and tried, but her mind was obviously elsewhere. A few minutes later, he was forced to command her to stop and stared at his pupil without dissatisfaction. </p><p> "Are you going to take it seriously or not? What is wrong with you today?" </p><p> Sunny knew that he had lucked out with his student. Unlike most teenagers, Rain had never given him any trouble with regard to her diligence and motivation. It was only natural for her to try and slack off eventually… but he had already gotten used to his sister giving it her all during their lessons. Now, nothing short of excellence would do! </p><p> Rain breathed heavily, then threw a furtive glance at the alcove containing the sleeping pod and the Dreamscape pod. He cheeks turned slighltly red. </p><p> "Sorry… I just… I can't! Lady Changing Star is here!" </p><p> Sunny scowled. </p><p> "What about her?" </p><p> The teenage girl looked at him with embarrassment and then said in a small voice: </p><p> "You don't get it... she's watching…" </p><p> Sunny blinked a couple of times and then stared at her in confusion. </p><p> "Her eyes are closed! And anyway… you can't fight properly because someone is watching? Are you kidding me? Do you think that battles happen in private or something?" </p><p> Rain shook her head. </p><p> "It's not just someone! It's the Changing Star! She is… she is… you know! Famous!" Discover 𝒏ew chapters at novelbi𝒏(.)co𝒎</p><p> Sunny scratched the back of his head. </p><p> "I am famous too, you know. But look at Nephis. She is somewhat of my number one fan, as it turns out… yet she is practicing diligently, without letting anything distract her. She is not starstruck at all!" </p><p> The teenage girl shook her head again. </p><p> "It's different! I know that you are a big deal. I am also used to seeing Effie and Lady Cassia. Even… even Night. But Lady Nephis is on a whole other level. She's not just a celebrity… she actually matters! She is one of the most… the mostest people!" </p><p> Sunny glared at his little sister. </p><p> 'Actually matters? Ouch.' </p><p> He sighed, then lowered his alloy stick and summoned the Endless Spring. </p><p> "I guess we're going to have a different kind of lesson today." </p><p> Sunny put a hand on Rain's shoulder and pointed at Nephis. </p><p> "You're a smart kid, Rain. Your father works for the government. You should be able to separate truth from propaganda. Sure, Neph is an extraordinary individual, and she achieved a lot of incredible things. But she is just a human. All that stuff that is clouding your head is just an illusion that other humans created to shove an uplifting narrative down the population's throat. You can't be that gullible and believe in things that aren't real." </p><p> The teenage girl remained silent for a bit, then frowned. </p><p> "But... these things are real. Whether they are true or not, people believe in them. So they're real."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_794.html">Previous Chapter</a><a class="navigationButton next" href="chapter_796.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

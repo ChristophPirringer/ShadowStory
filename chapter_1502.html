@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1502</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1502 Flawed Reflection</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1502 Flawed Reflection</h4> <p> Nephis remained silent for a few moments, then shook her hand and gripped the hilt of her sword. Sparks of white flame were still dancing in her beautiful grey eyes. "I am not suggesting it rashly. We have already faced two of the Six Plagues, so we know how fearsome they are…" </p><p> Mordret looked at her in surprise. "Wait… you did?" </p><p> She nodded. "Yes. There were unique circumstances that allowed us to exploit their Flaws. As a result, Undying Slaughter killed Devouring Beast, and was then finished off by the five of us. She had been greatly weakened… and still, we barely managed to survive that battle." </p><p> Nephis glanced at Sunny. Then, a hint of a smile appeared on her lips. Glancing at Mordret, she said: </p><p> "Oh, and Sunny personally erased the Mad Prince from existence… so thoroughly that there's not even a corpse left. So, the Six Plagues are now down to Three." </p><p> Sunny stared at her incredulously. Everything she had said was technically true… the Mad Prince had, indeed, been erased from existence by Sunny — because Sunny was the Mad Prince. There had not been a corpse left by the transition, either. But why did it sound so… so… misleading and outrageous! 'Did she just… steal a page from my book?' </p><p> Was it really the right time to tease him?! </p><p> Nephis, meanwhile, ignored the amused smile on Mordret's lips and continued: </p><p> "In any case, I am not underestimating the threat posed by the Dread Lord and Soul Stealer. I would not have suggested facing them directly in other circumstances — at least not without being able to thoroughly prepare a battlefield of our choosing. But the situation is different here, in Twilight. Here, we'll have an army of allies on our side. This might very well be the best chance of slaying these monsters we'll ever have. One I am unwilling to pass by." </p><p> She remained silent for a few moments, then sighed. </p><p> "However, I will not force anyone to follow this plan. You'll have to decide for yourself." </p><p> As soon as she was done talking, Mordret smiled brightly. "Why, I think that it is a great plan! Lady Changing Star, you are truly wise… your exalted reputation is very well deserved, it seems. How wonderful." </p><p> His smile was perfectly sincere, but Sunny knew the bastard well enough to guess what he was really thinking. Something like… </p><p> 'It's just a shame that I'll have to gruesomely kill you in the future. Well… since it's inevitable, I might as well try to enjoy the process, when the day comes…' </p><p> Sunny's eyes darkened. He stared at Mordret for a bit, then spat through gritted teeth: </p><p> "I don't mind killing Soul Stealer… oh, and the Dread Lord… either." </p><p> Jet simply shrugged. "We'll only ever challenge a Third Nightmare once. Might as well do it right." </p><p> Effie was the last to speak. Holding her belly, she hesitated for a bit, then smiled. </p><p> "I mean, we're not really going to leave Kai in this pit, are we? Let's come up with a good plan and crush those bastards. Or, if we can't, let's grab Kai and run away in the chaos. I'm sure we can manage that, at least." </p><p> Finally, all eyes settled on Nephis. She nodded solemnly and looked at Mordret. Her face was motionless, with only the white flames dancing in the depths of her striking grey eyes. "See, Lord Mordret… we are willing to help you escape Twilight. However, there is a condition." </p><p> He raised an eyebrow. "Oh? Do tell what you have in mind." </p><p> She remained silent for a while, studying him, then said in an even tone: </p><p> "As I already mentioned, we were able to slay Undying Slaughter. However, it wasn't because we were more powerful than her. Instead, it was because we managed to exploit her Flaw — since the Plagues are Defiled versions of ourselves, the knowledge of their Flaws is the best weapon we possess." </p><p> Nephis crossed her arms and added, her expression somber: </p><p> "Sadly, the Dread Lord does not possess a Flaw that we can exploit. That already robs us of our main advantage. As for Soul Stealer… we simply don't know what his Flaw is. Only you know that. So, if you want our help, you'll have to share that knowledge. At least in case it can help us defeat him." </p><p> Mordret looked at them with a pleasant smile. Then, he laughed. "You want to know what my Flaw is? How daring! Should I help you tie a noose around my neck, while we're at it?" </p><p> Nephis did not respond, simply staring at him with her radiant eyes. Slowly, the smile disappeared from Mordret's face. He sighed, then shook his head with a reluctant expression. "Forget it. Soul Stealer's Flaw cannot help you kill him, anyway. Because… it's not here." Confused, Sunny gave him a long look. </p><p> "What do you mean, it's not here?" </p><p> Mordret shrugged. "I mean just that. My Flaw is not here, in the Nightmare. I didn't bring it along… it would be quite foolish to carry something that dangerous around, wouldn't it?" </p><p> His expression was a bit dejected, as if he was not happy about having to share even that little piece of information with them. Visit n𝒐velbin(.)c𝒐m for 𝒏ew 𝒏ovels</p><p> Sunny, meanwhile, was stunned. 'What? What kind of Flaw can be carried around or left behind? Does it exist outside Mordret?' </p><p> He had never heard about a Flaw like that. </p><p> …But then again, he had never heard about someone like the Prince of Nothing. Divine Aspects were both extremely rare and bizarre, so who was to say that Mordret's Flaw wasn't just as odd? </p><p> Nephis sighed. "...So how do we kill him?" </p><p> Mordret grimaced. </p><p> "Kill him… is not going to be easy. As you might know, I am famously hard to kill." </p><p> He hesitated for a moment, then pointed to Sunny: </p><p> "Soul Stealer won't die if you destroy his physical body. He might not even die if you destroy his soul. To truly get rid of him, we'll need to destroy his reflection. And there are only two ways to achieve that." </p><p> The Prince of Nothing paused, then reluctantly shared the secret of how he could be killed: </p><p> "First is to defeat him in a soul battle when he tries to take possession of your body. Of all of us here, Sunless has the best chance of accomplishing something like that… perhaps Changing Star, as well. Followed by me. With all due respect, the rest of you don't stand a chance." </p><p> Effie and Jet shrugged in unison. "None taken." </p><p> Cassie, who had remained silent before, finally spoke: </p><p> "What is the second way?" </p><p> Mordret nodded. "The second way is to destroy his physical body while there are no other bodies around, and no reflections for him to flee into, either. Needless to say, that way is not very feasible. So, we'll have to somehow lure him into the soul of either Sunless, Lady Nephis, or me." </p><p> His face suddenly grew dim. </p><p> "...Mind you, even I don't know what Soul Stealer's Transformation Ability is. So, he might give us a nasty surprise. In fact, I'm pretty sure that he will." </p><p> Sunny smiled darkly. "That's alright. We are full of surprises, as well." </p><p> 'Not the least of which is that the Mad Prince is supporting us from beyond the grave. He knew that I would receive the Crown of Twilight. He also knew that I'd come to see Wind Flower and learn about its connection to the defensive array of this city. The mad bastard had most likely trapped the Dread Lord and Soul Stealer in frozen time himself, while I'll be the one to release them. Surely, all of it is not a coincidence.' </p><p> Nephis nodded. "Let us share information. After learning everything you know about Twilight, we will come up with a plan and prepare." </p><p> A strange, faint smile appeared on her lips. "And then, we will make sure that the Three Plagues are no more, and only Torment remains. We will win."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1501.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1503.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

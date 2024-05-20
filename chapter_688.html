@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 688</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 688 Big Decision</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<p> No one spoke for a while, before Effie finally broke the silence: </p><p> "...I mean, it is not much of a choice, is it? Sure, going against three immortal Saints does not seem like a picnic. But we already know that they had been defeated in the end, somehow, so it is not impossible to do. And we don't even know what the alternative is. How do we ensure that Hope doesn't escape her prison? Kill Noctis? That would only delay the inevitable, since this whole damned place is already on the verge of collapse because of her influence. That Hope… she is scary…" </p><p> She hesitated for a moment, then asked with a bit of confusion: </p><p> "To be honest, I am not even sure what she is. What kind of a demon is powerful enough to drive a whole region mad? Is she Unholy?" </p><p> Sunny sighed, then massaged his temples. </p><p> "...No. If anything, she is Divine. She is also not a demon… she is a daemon. Daemons were… lesser deities, of sorts, who are said to have created themselves. They appeared out of nowhere, possessing powers that were similar to those of the gods, but different. The Spell has a weird tendency to never mention the word "daemon", though… for some reason. In any case, it seems that the gods and the daemons eventually had a big, terrible war… and Hope's imprisonment and escape were a prelude to that war, I think." </p><p> Effie listened to him without any particular expression, then said listlessly. </p><p> "Oh, well in that case... that just proves my point! Trying to keep a thing like her in chains… ah, doesn't killing three immortal Saint suddenly seem easy, in comparison?" </p><p> Kai moved slightly, and then, his hoarse voice suddenly resounded in the stone room: </p><p> "I think we are looking at it wrong. The question is not what should we do… it is what should be done, don't you think? Yes, there is no particular way in which a Nightmare has to be resolved… but that doesn't mean that some resolutions cannot be right, and some cannot be wrong. This land has been turned into hell by Hope, who is trying to escape her chains. Until she is released, that will not change." </p><p> He leaned forward, frowned, and added somberly: </p><p> "The Red Colosseum, the Ivory City… and all across the ruins of her kingdom, madness reigns, turning humans into wicked perversions of themselves. Sure, we can win by prolonging it. But should we? Would we be at peace with such a conclusion? You can call me naive, but I think that although the Spell does not dictate what the challengers do in the Nightmare, it still matters why we do it. We are still responsible for our actions, and their consequences. So, I think that we need to do what is right." </p><p> Sunny glanced at him and then asked, his voice harsh: </p><p> "Whose to say what is right? How do you know that by releasing Hope, we won't be dooming everyone living here to an instant death? A thousand years in chains… personally, I would have been a bit angry..." </p><p> Kai lingered for a moment, then shook his head. </p><p> "You are right, I might not know what is right. But I do know what is wrong. And what I saw here was deeply, deeply wrong." </p><p> Sunny stared at him for a bit, then shrugged. </p><p> "Well, it's not like I disagree. In fact, I hate this place with a passion. I don't really care if Hope simply kills everyone, either… as far as I'm concerned, the bastards deserve it." </p><p> He waited for a few moments, then turned to Cassie. </p><p> "What about you? You've been terribly quiet." </p><p> The blind young woman hesitated for a while, then spoke evenly: </p><p> "I am… willing to do whatever you decide. I'll trust your judgment, Sunny." </p><p> He frowned, studying her face with a dark expression. </p><p> "Why? You don't have an opinion?" </p><p> Cassie remained silent for a bit, then simply shook her head. </p><p> 'Damnation.' </p><p> He knew, of course, why the blind girl was reluctant to speak. She must have seen something… a glimpse of the future that she did not want to share, knowing that it would affect their thinking, possibly informing the very event she wanted to happen… or wished to avoid. </p><p> Her own opinion was already compromised by that knowledge, and so, Cassie had decided to remove herself from the decision completely. It seemed as though she had grown wary of her visions, and the consequences of acting on them, after the Forgotten Shore. </p><p> 'Damned oracles...' </p><p> Sunny sighed, then glanced at Effie and Kai. </p><p> "Well, then there is not much to discuss. The two of you are keen to join Noctis, and... I guess I am too. He might be a madman, but at least he is a madman we know. And, uh… I also sort of like the guy. Despite the fact that he is a dishonest, lying, conniving, crazy, dastardly cheat. No one is perfect, you know?" The sourc𝗲 of this content no/v(𝒆l)bi((n))</p><p> Effie giggled. </p><p> "Wow, it's almost as if he's reminding me of someone. Huh, now who might that be…" </p><p> Then, she grinned at Sunny and asked: </p><p> "That's settled, then. So… should we go and deliver the good news to that dastardly cheat? You know… about how he doesn't need to kill us and put our souls into home appliances?" </p><p> She seemed like she was ready to go, but Sunny stopped her with a hesitant gesture. </p><p> This next part… he had thought about it a lot, not knowing if it was the right thing to do, or a giant mistake. He was still not sure, but had a feeling that the decision he had made in the end was a correct one. </p><p> At least it felt that way. </p><p> In any case, there was no going back... </p><p> Sunny remained silent for a bit, and then glanced at his friends with a tense expression. </p><p> "Before we do… there is something I need to tell you." </p><p> Effie and Kai stared at him with slight surprise written on their faces, while Cassie's eyebrows suddenly flew up. </p><p> She already knew what was about to happen, of course. </p><p> Kai looked at him and smiled. </p><p> "Oh? What is it?" </p><p> Sunny sighed, turned away, then faced them and shrugged. </p><p> "Ah, it's nothing too serious. Just… well… to tell you the truth…" </p><p> He gripped the emerald amulet tighter, and said: </p><p> "My Flaw is that I can't lie. I have a True Name, which I received in my First Nightmare. My Aspect is of the Divine Rank. I have three Soul Cores… uh, actually, Shadow Cores… which technically makes me a demon. Hence this ugly body. I have already unlocked my Aspect's Legacy. I inherited the lineage of one of the seven daemons. Oh, and also… how do I say this... I might be Lord Mongrel? Sorry about that one, Kai…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_687.html">Previous Chapter</a><a class="navigationButton next" href="chapter_689.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

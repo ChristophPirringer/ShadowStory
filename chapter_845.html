@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 845</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 845 Ranged Specialists</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> [You have slain a Fallen Devil, Defiled Witness.] </p><p> [Your shadow grows stronger.] </p><p> [You have received a Memory…] </p><p> A swarm of fearsome Nightmare Creatures flowed up the slope of the small mountain valley, rushing toward the crest of the road, where a handful of Awakened warriors were preparing to make their stand. The eyeless abominations were moving with ferocious determination, covering many meters with each stride as viscous saliva streamed from their terrifying maws. </p><p> To their right was the slope of the mountain, while to their left was a canyon that grew deeper and deeper as the road climbed up. </p><p> Standing at the top of the hill, Quentin, Belle, Dorn, and Luster studied the approaching avalanche of monsters with grim apprehension. Lowering the enchanted sledgehammer off his shoulder, the striker of the melee vanguard glanced at his comrades and spoke in a reserved tone: </p><p> "What do you think?" </p><p> Belle readied his sword and smiled. </p><p> "This… is going to be fun. If we survive, I won't have to be embarrassed about sleeping through the last one anymore!" </p><p> Quentin silently shook his head, while Luster, who stood behind the three, closed his eyes for a moment. </p><p> "Crazy bastard…" </p><p> The swordsman simply laughed. </p><p> At that moment, they heard a subtle electric whine, and then a loud crack of a highly compressed sonic boom. A moment later, the head of a hulking abomination that towered above the rest of the swarm exploded into bloody chunks. The massive carcass toppled over like a marionette that had its strings cut, instantly turning into a lifeless heap of twitching meat. </p><p> …Standing on the roof of the Rhino, Sunny drew his bow and let an arrow fly. </p><p> "Keep aiming for their foreheads, Samara. Take down as many Fallen as you can before the enemy reaches the two hundred meters mark, then switch to explosive ammunition and concentrate on the front rows of the Awakened abominations. We must break their momentum." </p><p> Hidden between large rocks higher up the slope, the deadly sharpshooter recharged her coilgun as she poured a steady flow of essence into an armor-piercing tungsten slug. </p><p> "Understood." </p><p> A heartbeat later, the rifle whined again, and another abomination fell to the ground. At the same time, a black arrow pierced the head of an especially frightening creature. This time, the effect was not as drastic, but the eyeless horror was killed just the same. </p><p> Drawing the unbending warbow once more, Sunny briefly frowned.  </p><p> 'Too slow…' </p><p> They had barely two dozen seconds left before the swarm reached the melee vanguard. That was not nearly enough to kill all the remaining Fallen abominations, and then there were the two hundred and forty Awakened ones left, as well. </p><p> Sunny and Samara would just had to do their best. Follow 𝒏ew stories at n𝒐velbin(.)com</p><p> Standing by his side, Kim nervously grasped the grip of her carbine and checked its magazine, which was loaded with bullets that seemed to glow slightly in the dim twilight. Each had been charged by Samara prior to the battle... sadly, the supply of this powerful rounds was limited. The bullets slowly lost their charge as time went by, so the cohort could not hoard them. </p><p> …Black arrows rained from the sky, reaping one life after another. Head after head exploded, turning the cracked asphalt on the mountain road slick with blood. A fearsome Nightmare Creatures fell almost every second as the number of the Fallen abominations slowly dwindled. </p><p> At some point, Samara shifted her aim to the mass of the rabid eyeless beasts. Her eyes shone with ethereal light as a different kind of bullet escaped from the thick barrel of the Gauss rifle with a thunderous roar. </p><p> In the next moment, a powerful explosion tore through the front row of the rushing swarm. A dozen abominations were instantly ripped apart. Chunks of mangled flesh flew into the air in a cloud of bloody haze. Sharp shards of broken bones pelted the surrounding creatures like shrapnel, wounding and maiming them. </p><p> Almost instantly after the disfigured corpses fell to the ground, the sound of another thunderous explosion rolled over the mountains, and then another. Two more bloody rifts appeared in the mass of the frenzied abominations. Now that Samara didn't have to aim, her rate of fire increased. </p><p> However, so did her consumption of soul essence. </p><p> "That's enough. Conserve your essence and switch back to priority targets." </p><p> Sunny felled another Fallen creature and drew the black bow again. However, this time, a different arrow appeared on its string. </p><p> Instead of wood and metal, it seemed to be made of pure lightning. </p><p> Just a couple of seconds before the first Nightmare Creatures reached the crest of the hill, a furious bolt of lightning fell from above. Augmented by the Death Dealer enchantment and two of Sunny's shadows, the Strike of Thunder instantly turned the abomination it hit into a cloud of swiftly dissipating ash. Then, powerful currents of electricity arced to the nearest beasts, spreading through the swarm in a destructive chain reaction. </p><p> Because the monsters were so close to each other, the lightning spread far and wide. It grew weaker with each jump, but still, the damage it dealt was devastating. Sunny failed to count how many abominations he had killed, but it had to be several dozens, at least. Even more were burned and wounded to various degrees. </p><p> …But he wasn't done yet. </p><p> A moment after the lightning chained through the swarm, the shadows cast by large rocks suddenly surged forward and shot into the air, turning into long, vicious spikes. The Nightmare Creatures that had tried to leave the road and climb higher were either pierced or blocked by them, turning the slope of the mountain into a macabre forest of impaled bodies. </p><p> With the deadly spikes blocking the slope and the deep canyon on the other side, the swarm had no other choice than to attack along the narrow line of the road. Funneled that way and with their momentum broken, the abominations that had jumped over the corpses of their slain kin failed to overwhelm the melee vanguard of the cohort in one fell swoop. </p><p> As Qunetin stepped forward and received the first attack on his shield, the true battle started.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_844.html">Previous Chapter</a><a class="navigationButton next" href="chapter_846.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 576</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 576 Lnner Sanctum</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The Lost entered the inner sanctum of the Night Temple — its very heart — and bolted the heavy doors behind them. As soon as they did, a field of glowing runes flashed for a moment on the dark wooden surface, and then disappeared without a trace. </p><p> Sunny glanced at the door with a frown, but didn't say anything. </p><p> Cassie had never been to this part of the Citadel, so neither of them had any information about what was inside. The area was not too large, but right below them was the main bell tower of the cathedral, which was taller and wider than the other six belfries. </p><p> The two Masters led their people through somber corridors to a spacious hall that seemed to serve as their current stronghold. There were guards keeping watch in front of the entrance, crates with food and water, a fireplace keeping the cold at bay, and makeshift bedding for people to sleep on. </p><p> Just from looking at the number of cots, Sunny understood that not everyone had returned from their latest hunt... or whatever it was that the sentinels had tried to accomplish. </p><p> All in all, twenty-three Lost remained, some of them heavily wounded. With Pierce, Welthe, and the two of them, there were less than thirty humans left to oppose the mad prince. That meant that in several weeks, Mordret had eviscerated more than two-thirds of the temple's defenders. </p><p> Remembering how confident Master Welthe had been in their ability to contain the prisoner at the start of all this, Sunny couldn't help but shake his head. </p><p> ...Mordret turned out to be more lethal and terrifying than even his jailers had expected. </p><p> The wounded were quickly tended to, and the Lost fell on their cots, dead tired. A few went through the familiar motions of maintaining the camp — cooking food, distributing water, and doing other miscellaneous tasks. Everything was performed swiftly and with trained precision, proving once more how experienced and professional these people were. Th/e most uptodat𝓮 n𝒐vels are published on n0velbj)n(.)co/m</p><p> They were obviously fatigued, both mentally and physically, but not nearly as beaten and unsteady as Sunny had thought. Their spirits were not broken... perhaps because only those with the strongest wills had survived. </p><p> He also couldn't help but notice that there was not a single reflective surface in the whole of the inner sanctum. The Lost wore either armor made out of leather or dull steel that didn't give off reflections, and even made sure to store and drink water from opaque containers, not letting a single drop fall to the floor. </p><p> After a while, the familiar female sentinel approached them and said: </p><p> "Sir and Lady wish to see you." </p><p> Sunny and Cassie were led to a separate room, where Pierce and Welthe were waiting for them behind a wide round table. Both of their expressions were grim. </p><p> Welthe gestured to a couple of chairs and, after waiting for a few moments, said: </p><p> "The two of you will follow simple rules. From now on, you are under our command. You will follow any order either Sir Pierce or I give you. You will not use any Memory or item that can be used as a mirror inside the inner sanctum… or outside of it, if you wish to live. You will not conspire against your fellow soldiers or tell a single soul about what you have seen here in the Night Temple. If you disagree, leave right now." </p><p> Sunny and Cassie glanced at each other, but remained seated. </p><p> Welthe nodded, then looked at Sunny. </p><p> "Awakened Sunless… please, describe how you came in possession of that piece of a broken mirror. This time, in detail." </p><p> Pierce suddenly leaned forward and growled:</p><p> "And don't even think about lying to us, boy! You won't like the result!" </p><p> Sunny pretended to look at him with a bit of fear. </p><p> 'I couldn't lie even if I wanted to, you fool…' </p><p> He told the tale of how he had encountered the Mirror Beast on the Reckoning Island and almost lost his life to the strange creature. </p><p> Knowing that he had to give up at least some valuable information, as well as explain how he had managed to defeat such a dangerous abomination, he shared the detail about using the flaw of his own Aspect against the Reflection — while not mentioning what that Flaw was exactly, of course. </p><p> After, both Masters were silent for a while. Finally, Welthe spoke, her voice solemn: </p><p> "So one of his Reflections managed to escape, after all. To think that it had been so close all this time…" </p><p> Sunny hesitated, then cautiously asked: </p><p> "I am sorry… but what was this piece of mirror, exactly? If it was so dangerous, why… why was I even allowed to bring it inside?" </p><p> Pierce clenched his fists and stared at him with fury. Then, he uttered through gritted teeth: </p><p> "...The inspection was meant to prevent mundane mirrors from being brought into the Citadel. No one could have expected that there was one more fragment out there, somewhere. If we knew… you would have been killed as soon as you set foot on the Chained Isles. As for what that fragment was, it's not for you to know." </p><p> Sunny shivered slightly, realizing how big of a target he had drawn on himself by picking up the inconspicuous piece of mirror. No wonder Saint Tyris had warned him to never speak of visiting the Reckoning Island to anyone… </p><p> While he was thinking that, Cassie finally spoke. </p><p> "With all due respect, Sir Pierce… we have the right to know. Or rather, we need to. How are we supposed to fight against the threat if we don't know what it is? What, exactly, have we unleashed? What kind of a creature is capable of causing so much death and destruction?" </p><p> The Master opened his mouth to spat a cold response, but Welthe spoke first, her voice calm: </p><p> "...She is right, Pierce. They need to know, if they are to be useful. " </p><p> She sighed, then looked away and remained silent for a while. Then, Welthe grimaced, rubbed her face, and said, her voice somber and grave: </p><p> "The creature that you have unleashed… that monster... is Mordret of Valor. The Prince of War…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_575.html">Previous Chapter</a><a class="navigationButton next" href="chapter_577.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

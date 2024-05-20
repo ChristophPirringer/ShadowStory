@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 591</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 591 Sea Of Soul</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny found himself in the tranquil darkness of his Soul Sea. </p><p> It seemed as empty and silent as usual… the three black suns burned with dark flames above him, arranged in a perfect triangle. Small spheres of light — his Memories — floated between them like dying stars. The silent waters were vast and motionless, and some distance away, just beyond the periphery of his vision, the rows of lifeless shadows stood, unmoving. </p><p> However, this time something was different. </p><p> Sunny did not remember entering the Soul Sea, or even wishing to do so. More than that, he couldn't perceive the real world at all. Usually, visiting this place resulted in a strange split of his consciousness, with one part of it exploring the depths of his soul, while the other remained aware of his actual surroundings. It was akin to imagining a landscape… doing so did not turn you blind and deaf. </p><p> But now, he was here and only here, as nothing existed outside of this dark and silent sea. </p><p> Come to think of it, it was a lonely and frightening place. Untethered from the real world and surrounded by nothing except for deathly silence, Sunny did not feel as calm and comfortable as he usually would. </p><p> …And he wasn't really alone in the darkness. </p><p> "What a strange soul you have…" </p><p> Hearing those words, Sunny flinched, then turned around. </p><p> The voice that had spoken them did not belong to Welthe. It was familiar and pleasant, just like it had been in the lightless abyss of the Sky Below… Mordret was speaking with hi real voice once again. All 𝒍𝒂test nov𝒆l𝒔 on novelb𝒊n(.)c𝒐m</p><p> The Prince of Nothing stood some distance away, looking up with a curious smile on his face. Now, for the first time, Sunny saw how he must have looked before his true body was destroyed. </p><p> Mordret was tall and slender, with pale skin and raven-black hair. He seemed to be in his twenties, older than Kai and Effie by a couple of years. His face was sharp and thin… not exactly handsome, but at the same time charming and strangely beautiful. His most striking feature, though, were his eyes, which didn't seem to possess a color of their own, and instead reflected the world back on itself like two pools of liquid silver. </p><p> Currently, they were as dark and lightless as the endless abyss of the void. </p><p> Mordret was dressed in a simple tunic, its fabric long devoid of any color. He wore no armor, and didn't seem to bear any weapon. However, Sunny could feel immense pressure radiating from his slender figure, and knew that he was in mortal danger. </p><p> What surprised him, however, was that Mordret's face seemed familiar. In fact… he looked exactly like a slightly older, male version of Morgan of Valor. The resemblance was too striking to be a coincidence. It could only be shared by siblings… </p><p> And there was another thing that Sunny saw which made him tense and apprehensive. </p><p> All around the Prince of Nothing, he could see a pale golden glow. The same kind of beautiful radiance that hid in his own blood, and surrounded Nephis… the light of divinity. </p><p> 'Curses…' </p><p> Mordret studied the three cores of Sunny's soul curiously, then looked at him with a friendly smile. </p><p> "I have never seen anything like it. How kind it was of you to invite me inside, Sunless! I really do wonder what your little friend was thinking, though… does she, perhaps, think that you will be able to resist me?" </p><p> Sunny stared at the invader somberly, then shrugged. </p><p> "How would I know what she is thinking? Trying to understand an oracle is a fool's errand, you know." </p><p> Mordret chuckled. </p><p> "Ah, wiser words have never been said. Well, I guess we will find out soon…" </p><p> Sunny shifted slightly, then asked, his voice gloomy:<novelnext> bination for someone who wishes to escape a Saint, don't you think?" </novelnext></p><p> He took another step forward and continued: </p><p> "I also have never met or heard of anyone else who possesses a Divine Aspect. Imagine my surprise when I found out that you were just like me. And that thing you have… I am very curious to find out what it is that allowed you to make me blind, back in the Ebony Tower. Such a powerful anti-divination artifact will make my life much, much easier… so, you see, although I am not too happy about it, taking you as a vessel is a regretful, but inevitable choice I had to make." </p><p> Sunny narrowed his eyes, trying to understand what Mordret was talking about. Making him blind… back in the Ebony Tower? Sunny had worn Weaver's Mask to read the harrowing runes on the fifth level of the stronghold of the ruler of the Underworld. Was that what the mirror fiend meant? </p><p> So the Mask had been able to hide Sunny from his spying, as well… and more than that, the Mirror Beast had not managed to glimpse its secrets. So, Mordret did not know what it was, just that there was something in Sunny's possession that could prevent him from being tracked and seen by otherworldly means. </p><p> …When he narrowed his eyes, though, something else happened. </p><p> Sunny didn't expect it, so he almost lost his composure. He had not known that he possessed such an ability, but it seemed that the evolution of the Blood Weave had enhanced his eyes, as well. </p><p> Suddenly, he was able to peer beneath the surface of Mordret's soul, just like he was able to peer beneath the surface of Memories and Echoes to study their weaves. </p><p> And what he saw there made him tremble. </p><p> 'Crap...' </p><p> As a living soul, the Prince of Nothing did not possess a spellweave, of course. However, what he did possess were soul cores… six of them… </p><p> Mordret was a Terror. </p><p> And that Terror was getting closer and closer to Sunny. </p><p> "...to tell you the truth, Sunless, your body fits me so perfectly that I even thought, for a second, that the old man had sent you to me as a gift. Gods know he has a lot to apologize for… to think that he had nothing to do with it, and all of this was just a coincidence! That funny Attribute of yours is really something, isn't it?" </p><p> Sunny gritted his teeth, and then said in a grim tone: </p><p> "That is really wonderful. I am very glad for you, pal. However… what exactly happens now? You don't really expect me to just surrender my body to you, right?" </p><p> Here in the Soul Sea, Sunny wasn't bound by his Flaw, since his words were nothing more than thoughts. It was actually a bit of a relief. </p><p> Mordret stopped, now just a few steps away from him, and smiled. </p><p> "Now? Why, what else… now, I am going to destroy your soul, of course…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_590.html">Previous Chapter</a><a class="navigationButton next" href="chapter_592.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

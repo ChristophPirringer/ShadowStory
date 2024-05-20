@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1213</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1213 Search Rescue</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1213 Search &amp; Rescue</h4> <p> Kai looked a bit tired and dehydrated, but other than that, he seemed fine. His Transcendent armor had originated from a fire-breathing dragon, after all — out of all them, he was probably capable of dealing with the lethal heat of the Nightmare Desert best. </p><p> Looking at his friend, Sunny felt profound relief. </p><p> He knew, of course, that the government force had been caught between the three Gates as well. They had not participated in the battle, and were protected by a Saint — so, their chances of escaping into the Dream Realm unscathed had been high. </p><p> However, knowing and seeing were two different things. Now that Sunny saw Kai, a huge burden had been lifted from his heart. </p><p> It was a bit bizarre, of course, to be happy about a friend becoming trapped in a Death Zone with very little hope of ever returning to the waking world… but considering the situation, one had to count their blessings. </p><p> Sunny exhaled slowly. </p><p> "Kai… you really know how to make an entrance, don't you? Where's Effie?" </p><p> The archer smiled. </p><p> "She's fine. We are with a sizable group of survivors… many people have entered the desert near each other and naturally bonded together. My farsight and flight Abilities make me the best person to search for survivors, so I've been scouring the desert. It's really fortunate that I stumbled on you first thing in the morning! Nephis, Seishan, Colonel Jet. It's good to see you all safe and sound." </p><p> '...Makes sense.' </p><p> Kai's Ability to see things from a ridiculous distance, and even peer straight through solid matter, made him uniquely suited for search and rescue missions… not to mention that he could traverse great distances swiftly with his extremely fast flight Ability. </p><p> Still, the archer must have fought more than one flying abomination and risked his life on several occasions to make sure that as many humans as possible survived. </p><p> 'How very... Kai of him!' </p><p> Neph and Jet greeted the handsome young man warmly… even Seishan, who was usually reserved, spared him a small smile. </p><p> It was strange for Sunny to see someone interact with representatives of Clan Valor, Clan Song, and the government without making any distinction. But then again, Kai had no part in the conflict between the great clans. </p><p> More than that, even though Sunny kept forgetting it, the archer was the only member of Neph's cohort who had spent a considerable amount of time living in the Bright Castle under Gunlaug's rule. While it was doubtful that Kai and Seishan had interacted a lot — their stations were too different — it was certain that they knew each other much better than the rest of them knew the daughter of Ki Song. </p><p> Kai was also close to several of her Handmaidens, so it was not unusual to see her treat him with friendliness. </p><p> At that moment, Seishan asked: </p><p> "The group of survivors… are there Saints among you?" </p><p> Although she tried to keep her voice emotionless, it was obvious that she wanted to know the fate of her sisters. </p><p> Kai's expression turned a little bleak. </p><p> He shook his head. </p><p> "Saint Cor was with us. He is the reason the group exists — without him, most of us would have perished in the sands. He was also the one who found a reliable shelter for us to survive the nights. However, after ensuring our basic safety, he took as many Ascended as he could and left for the waking world… East Antarctica must be in the throes of a terrible crisis, and his presence there is paramount. We… we all understood." </p><p> Kai sighed. </p><p> "Other than that, we have not seen another Saint. Sir Madoc and Dire Fang perished on the battlefield, as for the other four… they have to be somewhere near, unless they too chose to return." </p><p> Seishan's beautiful eyes lost some of their glimmer. She nodded silently and grew quiet. </p><p> Jet, meanwhile, looked away and grimaced. </p><p> "That's the old man for you… he always has his priorities straight." </p><p> It was hard to tell whether Wake of Ruin's ruthlessly logical decision to abandon the survivors and return to where he could save the most lives gladdened or disappointed her. The two shared a close relationship, so it was not impossible to imagine that Soul Reaper had hoped to receive Saint Cor's help, or at least consideration. </p><p> Then again, Jet was not a person who relied on others to solve her problems. Perhaps she was simply happy to know that Wake of Ruin survived. </p><p> Sunny had more pressing questions to ask, though. </p><p> "Have you encountered the creature?" Top 𝒏𝒐v𝒆l updates on nov𝒆lbin(.)com</p><p> Kai frowned in confusion. </p><p> "The creature? We have encountered many creatures. Which one are you talking about?" </p><p> Sunny and Nephis exchanged a glance. </p><p> "...There's a Great abomination hunting the survivors in the desert. It can possess dead bodies, and it is also smart enough to perfectly imitate human behavior — we barely survived encountering it." </p><p> Kai paled a little. </p><p> "Gods! In that case, I have to inform the others as soon as possible. Sadly, I have not only found survivors… I've found a few bodies, as well, some of them not too far from our camp. Luckily, none of them seemed to be moving. We have not faced that horror yet." </p><p> He frowned, then raised an eyebrow. </p><p> "What? Why are you looking at me like that, Sunny?" </p><p> Sunny lingered for a few long moments and let out a heavy sigh. </p><p> were facing." </p><p> "You might not have faced it yet, true." </p><p> Nephis added evenly: </p><p> "...Or you might have faced it already. You just didn't know what you were facing." </p><p> Kai's expression grew ugly. </p><p> Sunny looked at the boundless expanse of pristine white dunes. </p><p> "It is really hard to tell that thing apart from real humans. So… how many survivors are in your group? How many of them had been with you from the very start, and how many joined recently?" </p><p> Feeling a cold shiver run down his spine, he hesitated for a few moments, and then asked: </p><p> "How many people did Wake of Ruin take with him back to the waking world?"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1212.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1214.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

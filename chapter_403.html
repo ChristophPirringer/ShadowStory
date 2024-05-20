@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 403</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 403 Sky Tide</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 403 Sky Tide</p><p>Master Roan grew silent for a few moments, then smiled after noticing Sunny's troubled expression:</p><p>"The heavenly chains near the Sanctuary are all fine, though. So you have nothing to worry about."</p><p>'That's not what I am worried about…'</p><p>Sunny had already received a piece of valuable information that could help him find the mysterious treasure. But he wanted to know more…</p><p>Before he could ask another question, however, a sudden shadow shrouded the pavilion, the stone chateau, and the expanse of weathered stone surrounding it — as though a cloud moved across the sun, hiding it.</p><p>The sleeping griffin stirred and raised its head, its vertical pupils narrowing.</p><p>Just a moment later, the shadow disappeared as suddenly as it had appeared. Simultaneously, a strange sound reached Sunny's ears — it was as though a thousand wings rustled as they cut the air.</p><p>Then, a woman was suddenly standing at the edge of the stone ring, her silhouette outlined against the rising sun by a bright halo.</p><p>It seemed as though she had always been there, but Sunny could swear that there was no one near them just a second ago.</p><p>'Oh…'</p><p>The woman was tall and slender, her posture straight like an arrow. She was wearing a light steel armor, its pauldrons and greaves decorated with white feathers. Her long blond hair was fluttering in the wind like a cascade of pale gold.</p><p>When she turned around, Sunny saw two piercing amber eyes staring at him, and shivered. Her face was cold and stunningly beautiful, more akin to that of a goddess than of a human being.</p><p>…The woman's pupils were narrow and vertical, exactly like those of the mighty griffin.</p><p>The ruler of the Sanctuary had returned home.</p><p>'Crap!'</p><p>With a shudder, Sunny forced himself to look away and hurriedly bowed.</p><p>This was his second time meeting Tyris of the White Feather clan, also known by her True Name, Sky Tide… one of the few Saints of the human race, the demigod in charge of the Chained Island.</p><p>Just by virtue of existing, the Saint exerted a strange influence on everything that surrounded her. It was not oppressive, like the dreadful aura of Gunlaug's golden armor, just… different. As if the world itself was reacting to her. The blades of grass seemed to bent slightly toward her, the winds sang subtly lower as she approached, and even sunlight appeared to become a bit brighter in her presence.</p><p>Master Roan shifted and rose from his seat.</p><p>"Good morning, sunshine!"</p><p>Sunny flinched.</p><p>'Uh… what?'</p><p>It took him a couple of seconds to realize that the fearless griffin rider was addressing his wife, and not him.</p><p>'Sunshine… sunshine?!'</p><p>Is that how he addressed a Saint?!</p><p>'Well, she is his wife, after all. I guess?'</p><p>Once he thought about it, everything made sense. But still, the idea of addressing a Transcendent as "sunshine" seemed very weird, for some reason.</p><p>Sunny cautiously looked up and saw a wide smile on Roan's face. Saint Tyris herself, however, was as cold as ever.</p><p>"Good morning, Ro."</p><p>Even her voice was cold and heavy, like the howl of an approaching storm.</p><p>Turning her head slightly, Saint Tyris looked at Sunny with a silent question.</p><p>…Countless poets would have been ruined if they saw the elegant curve of her eyebrow.</p><p>'Huh… wow... wait, what am I thinking about?'</p><p>Master Roan patted Sunny on the shoulder and said:</p><p>"Awakened Sunless visited to tell me about a demon he encountered on the Iron Hand Island. It was a Chain Worm… already dead, fortunately. Still, we should explore the nearby island. Don't you think?"</p><p>Saint Tyris lingered for a few moments, then shook her head.</p><p>"No need. The only failing chain on the Isles is far away from the Sanctuary, connecting Shipwreck Island to the Twisted Rock. This is where the Chain Worm came from. I just saw it myself."</p><p>She turned away, then sighed slightly.</p><p>"Of course, we will have to prepare. All islands are connected, after all. After the Twisted Rock falls, its demise will echo through the entire region. Many islands will shift, causing changes to the severity of the Crushing on others. The migrations patterns of the Nightmare Creatures will be affected, too."</p><p>'I should probably get going.'</p><p>Sunny cleared his throat, then said awkwardly:</p><p>'Uh… it's been an honor to meet you again, Lady Tyris. I… uh… shall take my leave, then.'</p><p>Sky Tide nodded indifferently, then said:</p><p>"Thank you for informing us of your finding, Awakened Sunless."</p><p>He nodded, then rose from his seat and cautiously took a few steps away.</p><p>When Sunny was almost out of the pavilion, however, the cold voice of the Saint stopped him:</p><p>"Wait."</p><p>He turned around and forced out a smile:</p><p>"Yes? How can I help you?"</p><p>Tyris looked at him for a few moments, then said in a calm, emotionless tone:</p><p>"You come from the Forgotten Shore, if I am not mistaken."</p><p>Sunny nodded.</p><p>"Yeah. What about it?"</p><p>The beautiful Saint lingered for a second, then asked:</p><p>"Song of the Fallen... do you know her?"</p><p>'Cassie? Why bring her up?'</p><p>Sunny smiled.</p><p>"Yes. We've met. Why?"</p><p>Saint Tyris looked at him for a few moments, then said:</p><p>"Good. Song of the Fallen will be visiting the Sanctuary soon. She will be glad to see a familiar face, I think."</p><p>With that, Sky Tide turned away, letting Sunny know that he was free to go.</p><p>He hesitated for a second, then walked away.</p><p>As soon as neither Master Roan nor Saint Tyris could see his face, a dark expression appeared on it.</p><p>'Coming to visit… what the hell is she coming here for?'Alll 𝒏𝒆west ch𝒂pt𝒆rs on no./v𝒆l𝒃i/n/(.)c𝒐m</p><p>***</p><p>Indeed, just like Sunny, Cassie had chosen Chained Isles as the region to anchor herself to. Their reason was most likely also the same — the proximity of the Isles to the Hollow Mountains.</p><p>Luckily, she was not a resident of the Sanctuary. Sunny had no idea how the blind girl had managed it, but she somehow convinced clan Valor to let her and her cohort anchor themselves to the second human Citadel in the region, the Night Temple.</p><p>While Sanctuary was closer to the southern border of the region, Night Temple was situated far to the north, almost on the outskirts of the misty Death Zone.</p><p>For that reason, the two of them had been comfortably separated and had not seen each other even once in the past months.</p><p>But now, that was about to change.</p><p>Exiting the White Feather residence, Sunny grimaced.</p><p>'Glad to see a familiar face? Hell. I doubt it…'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_402.html">Previous Chapter</a><a class="navigationButton next" href="chapter_404.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

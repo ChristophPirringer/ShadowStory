@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 960</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 960 Erebus Field</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> About an hour later, Sunny reached the spot where the convoy was supposed to leave the highway and turn inland, scaling the mountains once again to eventually reach Erebus Field. </p><p> Of all the siege capitals in the Antarctic Center, only the first and the largest one - Falcon Scott - was situated near water. Even then, the actual port was a separate and solitary fortress, connected to the city above it by a network of industrial elevators. The rest of the human strongholds were built away from the ocean, on the outskirts of the mountains. </p><p> So, the last stretch of the way was going to take the convoy away from the coast... if they continued on the route Sunny had planned for them, of course. </p><p> He had killed a few more Nightmare creatures while trying to catch up with his men, and the corpses he had encountered seemed fresher as of late. From what Sunny could tell, the column was not too far ahead of him now. If he was lucky, he might even be able to rejoin the convoy before reaching Erebus Field. </p><p> The siege capital had to be surrounded by a ring of active battle engagements, so Sunny really hoped to accompany the refugees through that mess. </p><p> 'No time to waste, then.' </p><p> He commanded Nightmare to turn east. Not long after they started to ascend the mountains, the snowfall seemed to pick up, making it harder to see. </p><p> There was something strange about that snow, though. </p><p> 'What is this smell?' </p><p> Frowning, Sunny raised a hand and caught a few snowflakes on his palm. While he could see in the dark, differentiating colors that way was not his strongest suit. Sunny could instantly tell that something was wrong, though, because the white snowflakes did not contrast against the onyx metal of his gauntlet nearly as much as they should have. </p><p> In fact, they were not white at all. </p><p> He tilted his head a little, then smeared the snowflakes across his palm. What was left behind was a trail of black soot. </p><p> '...It's ash.' </p><p> Looking up at the sky, he scowled. The strong snowfall was no snowfall at all. Instead, it was raining ash. Countless grey flakes fell from high above, dancing in the wind as they slowly obscured the world in a thick fog. </p><p> 'That can't be good.' </p><p> Full of bad premonitions, Sunny sent Nightmare into a gallop. </p><p> They moved deeper into the mountains, following the twisted road. By now, Blood Weave had mostly dealt with the toxin, and his wounds were already healing. His essence was slowly being replenished, as well, so overall, Sunny was in relatively good shape. Not enough to face something truly dreadful yet, but well on the way. </p><p> 'Where the hell is my convoy?' </p><p> Just as he thought that, the scouting shadows noticed something ahead. Just short of the highest point of the nearest mountain pass, protected from the wind by tall cliffs, a group of battered vehicles was parked in a circle, with tired soldiers standing guard around it. He noticed Belle sitting on the roof of one of the transport, holding a sword in his hand. </p><p> A sense of profound relief grasped Sunny's heart. </p><p> '...They're fine!' </p><p> He let out a heavy breath, and asked Nightmare to go faster. </p><p> A few minutes later, the figure of an infernal rider clad in fearsome black armor entered the circle of light surrounding the parked convoy. The soldiers flinched and raised their rifles, aiming at the frightening apparition. </p><p> Sunny raised a hand. </p><p> "Don't shoot, bastards! What the hell is this, a mutiny?!" </p><p> The soldiers blinked a couple of times, staring at him with wide eyes. Then, someone yelled: </p><p> "It's the Captain! He's back!" </p><p> "Thank the gods!" </p><p> "Someone, tell the Devils!" </p><p> There was no need to inform the Irregulars, though. Belle was the first one to notice him, and just a few moments later, the whole cohort emerged from the camp to meet him. </p><p> Sunny jumped off the back of Nightmare, patted the stallion on the shoulder, and then dismissed him. Then, he turned to his people. </p><p> Kim was the first one to speak: </p><p> "Captain! You're alive! I... I mean, of course, you are. That rock of yours would have disappeared if you died..." </p><p> Luster grinned. </p><p> "See, I told you!" </p><p> Quentin glanced at him, then nodded with a smile. </p><p> "We shouldn't have doubted the Captain, indeed. But, to be honest, sir... none of us believed that you would manage to stop a Fallen Titan, let alone live to tell the tale. All by yourself, no less. That is simply incredible! How did you even survive?" </p><p> Sunny stared at him blankly for a few moments, then said evenly: </p><p> "I didn't." </p><p> As the members of the cohort looked at him with wide eyes, he scratched the back of his head and added: </p><p> "...Being dead was not all it's cracked up to be, though, so I walked it off. Anyway, I found the empty transport on the highway. What the hell happened?" </p><p> The Irregulars glanced at each other. Dorn sighed, then pointed to the convoy. </p><p> "It broke down in the middle of the road, sir. We had to stop and transfer the refugees to the other three vehicles. The abominations did not let us do it in peace, of course... it was a hell of a fight, but in the end, we managed to get everyone loaded up safely, broke through the crowd of Nightmare Creatures, and fled. We... lost a couple of soldiers, but none of the civilians were seriously hurt." </p><p> Sunny let out a heavy sigh. </p><p> 'So, more people died.' </p><p> He closed his eyes for a moment. </p><p> "What is the situation now, then?" </p><p> Dorn's face darkened. </p><p> "The remaining transports are in bad shape and severely overloaded, sir. I don't think that they'll be able to travel for much longer." </p><p> That was to be expected. Sunny waved a hand. </p><p> "Are they going to make it to Erebus Field, at least? And, by the way, why did you stop? Is there a large number of Nightmare Creatures between us and the city gate?" </p><p> None of the members of the cohort answered... which was strange in and of itself. </p><p> What made Sunny really anxious, though, were the fallen expressions on their faces. </p><p> "...What?" </p><p> Dorn remained silent for a bit, then turned his head in the direction of the mountain pass. </p><p> "It would be easier if we just showed you, sir." </p><p> They walked through the camp, and then crested the slope of the pass. From there, Sunny had a clear view of Erebus field, which was supposed to be half a dozen kilometers further north. </p><p> ...Supposed to. </p><p> With a frozen expression, Sunny looked through the falling ash at the dreadful sight below. His sunken eyes were hidden by deep, dark shadows. </p><p> 'Curse it all.' </p><p> Erebus Field... was no more.VIsiT n0(v)eLb(i)(n).𝘤𝑜𝓂 for the best novel reading experience</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_959.html">Previous Chapter</a><a class="navigationButton next" href="chapter_961.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

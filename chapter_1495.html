@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1495</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1495 Still Water</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1495 Still Water</h4> <p> Sunny had begun the Nightmare under the pure azure sky. Then, he traveled to Fallen Grace, which was bathed in the crimson light of an eternal sunset. Now, he finally reached the waters where the soft twilight of nascent dawn suffused the world with a gentle glow. The flowing waters of the Great River were like a calm mirror that reflected the dreamlike palette of the vibrant morning sky. As such, it seemed as though the graceful vessel was sailing on heaven itself. It was a beautiful sight that soothed the soul and took one's breath away… if not for the dangers that lurked beneath the splendor of the wondrous current. Cassie had long used the Guiding Light to point the way to Kai... the fact that the sacred staff still responded to his True Name filled Sunny's heart with hope. It meant that his friend was still alive, at least. </p><p> Now, they were traveling downstream in search of the lost city of Twilight, where the charming archer was stranded. The problem was that instead of distancing itself from the Edge, the Chain Breaker was instead drawing closer and closer to it. So, they had to be wary not only of the Nightmare Creatures hiding beneath the waves, but also of the current itself. The closer they were to the Edge, the more violent the currents became, trying to pull the ship into the endless waterfall. Even now, a few days of sailing away from it, it was almost impossible to keep the Chain Breaker on course. In the end, Cassie had given up on struggling against the current and raised the flying ship into the air. </p><p> They were staying low to the water, flying along its surface, to avoid being attacked from above — or at least have more time to react if an attack came. </p><p> Of course, such a strategy also left them more vulnerable to the enemies lurking below the water. But after witnessing the dreadful swarm of monstrous butterflies, Sunny was extremely wary of the boundless expanse of the dim sky. Days slowly passed. Sunny continued to advance in his endeavor to turn the Covetous Coffer into an Echo. Gradually, though, his mind drifted away from that riddle, turning somber and grave. His companions wore similar expressions. It was as though they were sensing the approach of a violent storm… a storm of blood, perhaps. Of a battle that was going to test the very essence of their resolve, and maybe find it lacking. </p><p> Slowly but surely, the idle conversations ceased. The sounds of laughter that used to echo above the deck of the Chain Breaker disappeared, replaced by grim silence. An oppressive tension settled on the deck of the graceful vessel. </p><p> Nevertheless, everyone remained calm and collected, preparing for battle with cold determination. </p><p> 'Ah. I can smell it…' </p><p> The blood was yet to spill, but its scent had already permeated the air. Strangely enough, very few Nightmare Creatures attacked their ship — perhaps because even abominations struggled to stay alive this close to the Edge. As the days went by, however, their numbers dwindled even further, until none remained at all. That was definitely both strange and worrisome. No place in the Tomb of Ariel was supposed to be safe, and since even Nightmare Creatures were reluctant to venture into these waters, humans like them had to be wary, as well. </p><p> …On the seventh day, they finally saw something rising from above the surface of the river. As the Chain Breaker drew closer, and they could see the massive object more clearly, Sunny frowned. It was the carcass of an abominable leviathan, its body covered by a pale carapace. The flesh of the Nightmare Creature had long rotten away, leaving behind only an empty husk. A forest of arrows was rising from the cracked shell, and there were broken harpoons floating in the water around it. </p><p> There were gaping holes littering the carapace, as well, as if someone had torn through it with sharp teeth, ripping out huge chunks of flesh in the process. </p><p> Sunny thought that he recognized the marks left behind by those monstrous fangs. Your favorite 𝒏ovels at novelbin(.)com</p><p> '...Did Daeron kill this abomination?' </p><p> It would make sense, considering that they were close to his city. There was something eerie about the dead Nightmare Creature, though… </p><p> 'Why is it still here?' </p><p> This close to the Edge, a powerful current pulled everything into the abyss. Judging by the look of the carcass, the abomination had been slain countless years ago. And yet, it still remained, somehow floating in place. Even the broken harpoons surrounding it had not been carried away by the water. As he frowned, Nephis spoke to Cassie, her voice carrying a hint of unease: </p><p> "Don't approach." </p><p> The blind seer gently pushed the steering oar, sending the Chain Breaker around the massive carcass. Jet studied it silently for a few moments, then asked: </p><p> "What do you think happened here?" </p><p> Sunny pursed his lips. "It must have been killed by the Twilight people, before the city was lost. I am not sure why it remains in this strange state, though." </p><p> They were going to find out sooner or later. </p><p> Leaving the troubling carcass behind, they continued to follow the Guiding Light. </p><p> It wasn't long before they encountered more signs of the past battle. There were more dead Nightmare Creatures, each more terrifying than the previous one. All kinds of horrors seemed to have attacked Twilight once, a long time ago, only to be slain by the warriors of Daeron's city. And these were only the ones who had resisted the pull of the current, for some reason. Who knew how many dreadful abominations really participated in the harrowing siege? </p><p> The corpses were littered with all kinds of wounds. Some had been delivered by crafted weapons, some were clearly delivered by powerful Memories. Some seemed to have been dealt to the Nightmare Creatures by the Serpent King himself, or perhaps one of the Saints in his service. They also saw fields of flotsam left behind by shattered ships. The sight of floating debris was both sorrowful and ominous. After traveling across the ancient battlefield for several days, they saw relatively intact ships, as well. They were different both from the alloy behemoths of the waking world and the graceful wooden ships of the River People. Their frames were built of wood, but the hulls were plated with armor crafted from bone, shell, and hide from corrupted leviathans. Most were severely damaged, tilted, with gaping breaches in their hulls. Their masts were broken, and the plates of armor covering their sides bore terrible scars. Some were scorched, some seemed to have been partially dissolved by some unknown liquid. In other words… these broken ships looked no different from the corpses of the Nightmare Creatures their crew had fought against. Dead, abandoned, and forgotten. </p><p> If there was one thing in common between all of them, though, it was that there was not a living soul aboard. Only bones wearing shredded armor. Everything was dead and silent… even the waters of the Great River grew strangely still, the current almost disappearing. Watching the current stop made Sunny feel a deep sense of unease. He had seen the ceaseless flow of the Great River halt only once… all those months ago, in the eye of the time storm. Witnessing something similar happening near Twilight made Sunny wary. 'Just what the hell happened here?'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1494.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1496.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

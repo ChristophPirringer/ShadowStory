@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 437</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 437 Nothing Nothing Nothing</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<p>Chapter 437 Nothing, Nothing, Nothing</p><p>Sunny sat silently for a few moments, thinking.</p><p>'Sun God…'</p><p>So, the ruler of this land had angered the gods, and one of them struck down her kingdom. He could just imagine it — a vast pillar of incandescent white flame falling from the skies, piercing the ground and causing the whole region to fracture, its fragments falling into the searing inferno of the divine flame one after another.</p><p>Well… not all of them had fallen.</p><p>He glanced up, wondering if the Chained Isles were created to save the citizens of the destroyed kingdom from annihilation. If so… that prideful ruler must have been not so simple herself.</p><p>Who would be powerful enough to dare resist the wrath of the gods?</p><p>And what had that being done to provoke it?</p><p>But more importantly…</p><p>How the hell did the voice of the void knew so much about it?</p><p>A subtly suspicious expression appeared on his face.</p><p>"...Really? This is very interesting. And how exactly do you know all this?"</p><p>Sunny hesitated, and then cautiously added:</p><p>"Did you, perhaps, have something to do with that prideful ruler?"</p><p>The voice was silent for a moment, and then suddenly exploded with sincere laughter.</p><p>"Oh my! I wish! Wouldn't that be grand… but no, I am just an Awakened who had studied the Chained Isles, probably the same way that you have studied them in your travels. The ruins here are all but destroyed by the endless cycle of the Crushing, but if one knows where to look, there are still some answers left to find."</p><p>Sunny smiled.</p><p>"True. But I am actually a research assistant for the Wilderness Survival faculty of the Academy, and yet I have never seen any of the information you possess in the database. With the level of access that I have, that is very strange, isn't it?"</p><p>The voice chuckled.</p><p>"How am I supposed to report my findings to the Academy? I can't even leave the Dream Realm."</p><p>Sunny blinked.</p><p>That… actually made a lot of sense. Sort of. Lost or not, an Awakened still had to survive somehow in the Dream Realm, so they were bound to live in one of the Citadels. Probably. So, it wasn't like they had no contact at all with the real world, even if it was only through the other inhabitants of their Citadel.</p><p>Unless the owner of the voice was not a usual Lost. Or was lying to Sunny...</p><p>Or was just a figment of his imagination.</p><p>He frowned.</p><p>"...By the way, where are you, exactly? I haven't heard a voice like yours anywhere in the Sanctuary. And I have spoken to most of the Awakened there at least once."</p><p>The voice lingered for a while, then answered:</p><p>"I am not in the Sanctuary."</p><p>What was that supposed to mean? There was another Citadel on the Chained Isles, the Night Temple. But only those serving Valor were allowed to anchor there. Well… excluding Cassie and her cohort.</p><p>Did the owner of the voice have something to do with the great clan Valor? Sunny raised an eyebrow.</p><p>"Are you from the Night Temple, then?"</p><p>…But there was no response.</p><p>It seemed that the mysterious young man Sunny had been speaking with — if he was even real — had once again reached his limit, thus ending their conversation.</p><p>Sunny sighed.</p><p>"I swear to gods, this is even more annoying than when Effie leaves me on read!"</p><p>Who knew that a voice of the void could be more irritating than someone who had been almost literally raised by wild wolves?</p><p>"No manners! No decorum..."</p><p>***</p><p>Soon, Sunny regretted not asking the voice necessary questions. He would have to be more strategic with his words in the future...</p><p>"Survive heavenly fire… survive heavenly fire…"</p><p>Sunny glanced at the stars and felt that they had drawn even closer.</p><p>How was he supposed to withstand the searing heat of the divine flame?</p><p>Could that flame burn shadows?</p><p>He didn't really have an answer, but felt that it would be at least damaging to him, even in his shadow form.</p><p>And then, there was a more looming problem. The voice said that it would take Sunny a few weeks to reach the layer of the abyss containing the false stars, which meant that he was going to be… very, very hungry by the time he did.</p><p>Humans could survive a surprising amount of time without any food, but it would take a heavy toll on his body. Sunny had no idea what he was going to find on the other end of the golden String of Fate, but doubted that it would be a warm welcome.</p><p>He had to be ready to confront danger, and becoming starved and weak was not really an option.</p><p>Sunny lingered for a while, then stared down, at the lid of the treasure chest.</p><p>Was he really going to have to eat… that?</p><p>Even his shadows seemed disgusted by the idea.</p><p>But hey… food was food.</p><p>'Right?'</p><p>With a sigh, Sunny summoned the Covetous Coffer, took out his last meal out, and looked at it with regret.</p><p>"Tonight… we feast!"</p><p>'...Tomorrow, we mourn. And barf. Probably.'</p><p>***</p><p>A few days later, the stars were visibly brighter than they had been before. The sight of the black void littered with shimmering lights would have been beautiful if not for the terrible danger they represented.</p><p>Sunny was sitting in the center of the plummeting treasure chest with an extremely miserable expression on his face. It was deathly pale, and his chin was covered with drying black blood.</p><p>Raising a piece of raw devil meat to his mouth, he tore a piece of it with his teeth, and forced himself to chew.</p><p>'Disgusting… this is so disgusting… who knew I would miss the taste of synthpaste one day? Maybe I should just starve, after all!'</p><p>As soon as he thought that, the void suddenly spoke again:</p><p>"Oh, gods! You are actually eating that!"</p><p>Sunny stared into the darkness with hatred, swallowed the piece of mimic meat, and said evenly:</p><p>"Sure. Want a bite?"</p><p>The voice hesitated for several seconds, then asked:</p><p>"You're eating it raw?"</p><p>Sunny gritted his teeth.</p><p>"Of course I am eating it raw, you fool! How else am I supposed to eat it? I don't exactly have a kitchen here!"</p><p>Then, with a furious determination, he tore another piece of meat and chewed on it. As it turned out, his face had not reached its maximum paleness before. Now, it seemed not only white, but also a little green.</p><p>The void sighed. Then, it asked curiously:</p><p>"Are you not afraid of poisoning yourself?"</p><p>Sunny snarled.</p><p>"...I have a strong stomach."</p><p>He had, indeed, considered the possibility of catching a severe case of food poisoning from eating the corrupted meat of the vile devil. As an Awakened, however, his digestive system was much stroтger than that of mundane humans. And on top of that, there was Blood Weave. So, he judged that his chances of dying from eating the mimic were rather low.</p><p>…Now matter how poetic it would have been. Choking to death on the flesh of a devil you killed would be, too...</p><p>'How funny.'</p><p>Sunny swallowed the disgusting meat and took a sip from the Endless Spring.</p><p>A few moments later, the voice asked:</p><p>"Have you thought of a way to survive the divine flames?"</p><p>He stared at his broken arm, then shrugged.</p><p>"I considered a few."</p><p>The voice seemed to be pleased to hear that.Discover n𝒆w chapt𝒆rs 𝒐n no𝒗elbi𝒏(.)com</p><p>"Good. I have thought about it, as well…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_436.html">Previous Chapter</a><a class="navigationButton next" href="chapter_438.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 529</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 529 Secret Lair</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<p> The dojo was rather large and submerged in absolute darkness. Sunny gave the home a command, and immediately, bright light chased the darkness away, revealing the floor, walls, and ceiling that were covered by heavy plates of armored ceramic alloy. </p><p> Some of the plates already had cracks in them, which Sunny was painfully aware of… after all, those cracks had appeared as the result of Saint repeatedly slamming him against the floor. Simply looking at them made Sunny ache all over. </p><p> 'I'm going to have to replace a few soon…' </p><p> He exited the elevator and walked over to a stand where various practice weapons were kept. These weapons were made out of reinforced synthetic materials to withstand the intensity of Awakened training, and had cost him a fortune. Sadly, Sunny had never even touched them, since training with the real deal was far more effective. </p><p> 'Hm…' </p><p> Behind him, Rain walked into the dojo and looked around with curiosity. This space looked dark and mysterious, like a lair of a mythical monster. </p><p> "Do you come here a lot?" </p><p> Sunny gave her a short look. </p><p> "Of course, I do. This is where I sleep." </p><p> She was slightly surprised, but then seemed to understand the meaning of his answer. </p><p> For mundane humans, such a shelter would only be useful if a Gate opened nearby. But Awakened were more or less defenseless while in the Dream Realm. They needed the protection an underground bunker could provide much more, since their empty bodies could be easily destroyed when the spirit wandered away. </p><p> Her gaze traveled to the steel sarcophagus of the sleeping pod, and then moved past it. Suddenly, Rain's eyes brightened. </p><p> "Wow! Is that a Dreamscape pod?" </p><p> Sunny hesitated, surprised by her strong reaction. </p><p> "Uh… sure. Why?" ReaD lat𝙚St chapters at nô(v)(𝒆)lbin.c/o/m Only</p><p> 'My super expensive sleeping pod is much more impressive! Why is she so fascinated by that silly thing?' </p><p> The teenage girl walked over to the alcove with the two machines and studied one of them with excited curiosity. The luxurious, state-of-the-art sarcophagus received zero attention. </p><p> "Do you play often?" </p><p> He rolled his eyes, then shrugged. </p><p> "From time to time, I guess? When I have time. Dueling other Awakened helps with my own training." </p><p> Rain sighed with envy. </p><p> "That's cool. Some of my classmates have personal Dreamscape pods, too. They play the version for mundane humans, of course, but it still sounds amazing." </p><p> Sunny smiled. </p><p> "What, do you want to play?" </p><p> Rain looked at the pod for a few moments, then slowly shook her head. When she spoke, her voice sounded too mature for her age: </p><p> "No… not really. It's only fun with friends." </p><p> He frowned a little, then asked in a neutral tone: </p><p> "Why, don't you have any friends?" </p><p> The teenage girl sighed, then turned away from the capsule. </p><p> "No. I used to have a lot in my previous school, but after dad got me a spot in this one… uh, I just study and go home. People there are not... very friendly." </p><p> 'That's one way to put it…' </p><p> Sunny looked at her, then smiled widely. </p><p> "Well, friends are overrated anyway! I never had any growing up, and look at me. Have I not turned out just fine?" </p><p> She did look at him, doubt clearly written on her face. </p><p> "Yeah… but…" </p><p> Sunny raised an eyebrow. </p><p> "But what?" </p><p> Rain lingered for a few moments, then asked curiously: </p><p> "Don't you have a girlfriend?" </p><p> Sunny blinked. </p><p> 'Huh?' </p><p> "Wait… what? What girlfriend? Don't tell me that you think that Effie and I…" </p><p> Rain giggled. </p><p> "Actually, I did think that at the start. So I asked Effie, and she told me that you already have a girlfriend."</p><p> Sunny's eye twitched. </p><p> 'Damn Effie! I'm really going to kill her… better yet, I'll make Saint kill her! How many times will she repeat that stupid joke about us before realizing that it isn't funny? It wasn't funny the first time, and it's certainly not funny the hundredth!' </p><p> …He opened his mouth to retort angrily. However, Rain's next word made him fall silent. </p><p> "She said that you bring her flowers every week, and even visit her mom from time to time. I think it's very sweet." </p><p> Sunny froze, staring at the teenage girl with a heavy expression. Feeling that his reaction was a bit strange, Rain frowned. </p><p> "Uh… did I say something wrong?" </p><p> He lingered for a few moments, then turned away. </p><p> "No. Effie just likes to run her mouth sometimes. She shouldn't have told you that." </p><p> Not quite understanding what was happening, but feeling dark undertones in his voice, the teenage girl awkwardly smiled. </p><p> "Oh, did I just get Effie in trouble?" </p><p> Staring at the practice weapons, Sunny sighed. </p><p> "...No. It's just that… there is indeed a girl I bring flowers to when I can. But she isn't my girlfriend." </p><p> Rain glanced at him in confusion. </p><p> "But… uh… why do you bring her flowers, then?" </p><p> Sunny turned around and looked at her darkly. Rain suddenly shivered, realizing that she had never seen Sunny acting this… cold. </p><p> A few moments later, he said evenly: </p><p> "It's because I made it out of the Dream Realm, and she did not. Do you understand?" </p><p> The teenage girl thought for a few moments, then paled a little, and nodded. </p><p> Sunny shook his head. </p><p> "I don't think you do. And hopefully, you never will." </p><p> With that, he took a round shield and a straight practice sword off the wall, closed his eye for a moment, and then forced an easygoing smile to appear on his face. </p><p> "...Anyway, here's what you'll be training with from now on. They might be a bit heavy for you, but the weight will help you condition your body. What do you think?" </p><p> Still feeling a bit awkward, Rain took the weapons, weighed them in her hands, and cleared her throat. </p><p> "Uh… actually, I prefer ranged weapons. That's what I've been mostly using in school." </p><p> Sunny shook his head. </p><p> "Ranged weapons are wonderful, and you should definitely know how to use them. But they stop being wonderful as soon as a Nightmare Creature gets close to you, and believe me, they will. So you should learn melee combat first" </p><p> Rain looked at him with a bit of stubbornness. </p><p> "But Night from Nightingale is an archer, and he is a hero who has a True Name." </p><p> 'Oh, gods… don't tell me that my little sister is his fangirl, too! Damned Kai... just you wait...' </p><p> Sunny stared at the teenage girl for a few moments, his expression unreadable. After a while, he said in a strange tone: </p><p> "Night from Nightingale can fly. Can you? In any case, learn how to use a sword first. If you do, I'll get him to personally teach you how to shoot a bow. How about that?" </p><p> Rain laughed. </p><p> "Yeah… sure! Why don't you invite him for dinner as well, while you're at it?" </p><p> After that, she covered her mouth with a palm and laughed even louder. </p><p> Sunny sighed heavily, then shook his head. </p><p> 'This child… she's hopeless, isn't she?' </p><p> He waited until Rain stopped laughing, and then said sternly: </p><p> "Before we start, though, I am going to ask you a question." </p><p> She looked at him, turning back into her serious, studious self. </p><p> "Yeah?" </p><p> Sunny lingered for a few moments, and then asked: </p><p> "...What do you think the essence of combat is?"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_528.html">Previous Chapter</a><a class="navigationButton next" href="chapter_530.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

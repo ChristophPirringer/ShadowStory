@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1615</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1615</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> There was movement in the darkness. </p><p> Nephis could not see it, but she felt the shadows that drowned the great hall of the ancient temple shift and surge, as if celebrating the arrival of their master. The Fire Keepers behind her tensed, looking up with somber expressions. </p><p> Thud. </p><p> A heavy sound resounded, followed by another. It seemed that someone was descending from an unseen dais, the weight of their unhurried footsteps echoing in the lightless hall like an ill omen. </p><p> Suddenly, the enchanted lanterns ignited with bright radiance, chasing away the darkness. As if they were finally allowed to shine. </p><p> As soon as they did, a dark figure stepped into the light, the shadows shrouding it like a mantle. </p><p> Even Nephis, who rarely felt fear, sensed a slight chill at the sight of the Lord of Shadows. She didn't quite know why. </p><p> The man in front of her was as elusive as his voice. His figure was encased in a fearsome onyx armor, its polished surface glistening like black glass. His features were hidden behind a mask of a fierce demon, nothing but darkness dwelling in the narrow slits of its eyes... as if there was no human face behind the mask, and no human flesh beneath the intricate black armor. </p><p> Just a formless shadow. </p><p> Strangely enough, Nephis could not say how tall the man was, exactly. But it felt as if he dwarfed everyone in the ancient temple, looking down at them with cold, malevolent arrogance. </p><p> ...He was unarmed. </p><p> Nephis studied the Lord of Shadows calmly. </p><p> [Cassie?] </p><p> The blind seer answered after a moment of silence: </p><p> [I can see him through your eyes. But I still can't sense him. It's like there's nothing but emptiness where a man should be.] </p><p> Nephis felt a bit dejected. It seemed that she had grown too used to enjoying the amazing boon of having Cassie serve as her eyes and ears. The great advantage of information superiority had spoiled her... this time, though, she would not be able to know what her opponent's Attributes, Abilities, and hidden cards were in advance. </p><p> Well, it was for the best, then, that Shadow had offered to duel her and the Fire Keepers. She would learn what he was capable of firsthand. </p><p> Showing no emotion, she looked at the fearsome Saint and took several unhurried steps back. At the same time, the Fire Keepers moved forward, facing him. </p><p> The Lord of Shadows tilted his head a little. "What? You are not going to fight, Changing Star?" His cold voice sounded almost... disappointed. Nephis shook her head. </p><p> "You've challenged all of us, haven't you? But... I don't draw my sword for just anyone. Prove yourself first, Lord Shadow." </p><p> The unnerving black mask stared at her for a few moments, and then the elusive voice resounded once again, full of cold indifference: </p><p> "No matter. You, there... come all at once." </p><p> As he said these words, the Lord of Shadows raised a hand. The darkness flowed from the floor, assuming a long and sinister shape. A few moments later, a great odachi formed from the shadows, its curving blade so black that it seemed to devour light. </p><p> Disturbed, the Fire Keepers moved forward. </p><p> *** </p><p> Seven Fire Keepers... </p><p> Sunny remained calm, but he also felt a little tense. Of course, there was no question that he could crush a cohort of Masters without breaking a sweat, no matter how seasoned and talented they were. </p><p> But, how could he put it... </p><p> He might have allowed himself to be carried away, a little, while acting out the role of the cold and mysterious Lord of Shadows. Not only had he promised to avoid using his Aspect, but he also set a ridiculous condition for his loss. </p><p> Defeating the enemy was easy, but doing so while not receiving a single scratch on his armor was not. </p><p> Of course, Sunny had no intention of winning, to begin with. He just wanted to put on a good show and lose gracefully, thus laying the necessary groundwork for infiltrating the war machine of the Sword Domain. </p><p> However, the person he needed to impress was Nephis. And now, he had to deal with the Fire Keepers first to cross swords with her. </p><p> 'Should I cheat?' </p><p> He considered the idea for a moment, then discarded it. That would not be any fun. </p><p> Sunny studied the seven Masters that were surrounding him. Shim, Shakti, Kaor, Sid, Gorn, Gantry, and Erlas. </p><p> He knew them well. </p><p> Shim, a young man wielding a shield and a spear, was the healer who led the cohort. Strangely enough, he was also the most skilled and lethal warrior among them — that was because, back on the Forgotten Shore, he had been one of Gemma's Pathfinders. An elite who had survived countless hunts in the Dark City. </p><p> Gorn, Gantry, and Erlas had been among the Hunters of the Bright Castle. </p><p> Gorn was tall, immensely strong, and possessed an Aspect that allowed him to manifest an additional pair of hands, preferring to use two greatswords in battle. Gantry usually fought with a heavy battle axe, and was able to sharpen his weapons with his Aspect Ability. Erlas was a skilled archer capable of enhancing the resilience and stamina of his allies. </p><p> Sid, a young woman with dirty blonde hair, had been a hunter in the outer settlement. The fact that she had survived there was a testament to her skill and tenacity, and her Aspect greatly augmented her physical strength in short, but devastating bursts. She was armed with a sword and a shield. </p><p> Finally, there were Shakti and Kaor. Both had been Artisans in the Bright Castle, possessing potent Utility Aspects — Shakti's had to do with plants, while Kaor's had to do with carpentry. The former was a deadly archer, as well, while the latter was a jack-of-all-trades who usually guarded the rear of the cohort. </p><p> All seven were elites even among Masters, and their ability to work together was second to none. Discover 𝒏ew chapters at novelbi𝒏(.)co𝒎</p><p> Placing the odachi that he had manifested from the shadows on his shoulder, Sunny smiled behind his mask </p><p> 'This... is going to be fun.'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1614.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1616.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

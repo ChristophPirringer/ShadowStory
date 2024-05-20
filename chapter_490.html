@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 490</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 490 Break Point</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Six minutes. </p><p> That was how long Sunny managed to hold on until things really went from bad to terrible. </p><p> By then, the ground in front of the Gate was littered with piles of corpses, their blood flowing down the pavement like a crimson stream. He had lost count of how many dormant abominations he had slain, how many ancient hunters he had sliced apart. Despite how strong and fearsome the primeval wraiths were, their assault had broken against the impenetrable barrier of his blade, his Aspect, and his will. </p><p> Sunny paid a price, though. Fi𝒏d 𝒏ew upd𝒂t𝒆s on novel𝒃in(.)com</p><p> By now, his muscles were burning, and he had to force the air in and out of his struggling lungs. The Mantle of the Underworld held, but his body beneath the black stonelike metal was beaten and battered. The armor itself was covered in blood and dented slightly in several places. </p><p> Those dents did not come from the hunters, though. </p><p> During the third wave, new Nightmare Creatures emerged from the darkness of the Gate… among them were larger beasts, more terrifying than the hounds Sunny had been slaughtering. </p><p> And their masters. </p><p> The demons of the mysterious Barrow were similar to the desiccated huntsmen, but much taller, stronger, and better equipped. They wielded masterfully crafted flint weapons and armors made out of rotten leather and bone, their empty eyes burning with hungry red flames. </p><p> What's worse, they really knew how to use their stone spears and swords. </p><p> Met with the strange, ferocious, and deviously lethal battle style of the primeval demons, Sunny was sent for a loop. This was like nothing he had ever experienced before. They fought with the straightforward, yet insidious resolve of cunning apex predators, with the evil will to kill through any means necessary, always following the most efficient and barbarously cruel path to dominance. </p><p> It should not have worked, but it did. </p><p> The dents on Sunny's armor could attest to it. </p><p> Well… he shouldn't have been surprised. If these ancient wraiths came from people similar to his own world's prehistoric humans, then they were the most devastating of predators, ruthless killers on a planetary scale. </p><p> From what little Sunny knew about history, ancient humans had spread across the whole planet like a plague, eviscerating whole types of living creatures — including all other nascent branches of the human kind — in one fell avalanche. With their flint weapons and the knowledge of fire, they became nothing less than the cause and perpetrators of the sixth mass extinction, equal to the likes of massive asteroids and climate shifts despite their puny size and lifespan. </p><p> …He was kind of starting to miss the carapace legion. </p><p> In any case, Sunny somehow managed to kill these terrifying fighters — a few of them, at least — too. More than that, he reached into the very essence of Shadow Dance and greedily absorbed every nuance of their primeval and ferocious fighting style, and then reflected it back at the waves of Nightmare Creatures, bringing his already terrifying dance of death to a truly chilling level of brutality. </p><p> The Blood Blossom had long ago reached its limit. </p><p> Minutes passed, and despite the fact that Sunny was battered and growing dangerously tired, his reserves of shadow essence swiftly diminishing, for a few moments, he felt as though he had things under control. </p><p> That maybe… just maybe… he was going to stand his ground for the whole thirteen minutes. </p><p> And then, he realized that he would not. </p><p> As the sixth minute came to an end, a furious bellow shook the world, and something massive lunged at him from the darkness of the Gate. The barrier of corpses he had built in front of it exploded, and a giant beast — twice as tall as Sunny as weighing at least twenty times more — emerged from it in a cloud of blood and bone fragments, two empty eye sockets full of ghostly red flame. </p><p> Sunny stared at it with wide eyes.</p><p> The creature resembled a giant bison, its black fur mottled and rotten, a ridge of long, scarlet bone spikes piercing the hide along the spine. The head of the monstrosity was crowned with two jagged, bloodred horns. </p><p> 'A Fallen… that thing is Fallen!' </p><p> The bison was also different from the hounds and larger beasts he had been fighting against, since it — just like the ancient hunters — was itself a wraith. A corpse reanimated by the malevolent spirit of red flame. </p><p> 'Crap!' </p><p> Sunny hurriedly commanded the [Feather of Truth] to make his armor as heavy as possible and lowered his stance, knowing full well that he couldn't allow that thing to get past him. </p><p> In the next moment, two thousand kilograms of rotting flesh and sharp horns crashed into him at full speed. </p><p> 'Cr…' </p><p> For a split second, everything became dark. </p><p> …Then, Sunny found himself bouncing off the asphalt and then rolling across it at a terrible speed, up until the moment a wall of a building stopped him and exploded, shards of cement flying into the air. </p><p> 'Not... good…' </p><p> Disoriented, he shook his head, feeling drops of blood seep under Weaver's Mask, and then used the Shadow Serpent to help himself stand up. Then, he looked toward the Gate through the red mist clouding his sight. </p><p> The massive wraith was approaching the six terrified Awakened. Its speed, however, was slow, and its steps staggered. </p><p> There was a big hole in its forehead where the thick, adamantine bones of the skull were shattered and cracked, bits of bloody pulp spilling out of it and falling to the ground. </p><p> Just before the impact, Sunny had brought his armored fist down on it, summoning the Moonlight Shard at the last moment. </p><p> His plan was to pierce the big bastard's brain, but because of the violent force and momentum of their collision, he ended up doing that, and then punching a hole through the creature's forehead with his spiked gauntlet. </p><p> Sunny's thoughts were slow and astray, but he was already starting to regain his senses. </p><p> 'I have a concussion, I think…' </p><p> Failing to breach the last few meters to the six Awakened, the bison stopped and swayed. Its legs suddenly caved, and it toppled over, sending a tremor running through the ground. </p><p> …A flood of abominations was already rushing into the breach it had created, though. </p><p> Into the empty space where Sunny had been. </p><p> Still disoriented, Sunny staggered, then raised the Soul Serpent weakly. </p><p> 'Bad. This is really, really bad…'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_489.html">Previous Chapter</a><a class="navigationButton next" href="chapter_491.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

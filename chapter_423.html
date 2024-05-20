@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 423</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 423 Risk And Reward</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 423 Risk and Reward</p><p>'Not good…'</p><p>The vine wasn't as large as some of the ones Sunny had seen back on the ancient ship, but it was still as thick as a man's arm, with curved black thorns protruding from its glistening surface.</p><p>The vine brought the sickeningly sweet smell with it.</p><p>Sunny hacked at it with the Cruel Sight, but barely managed to break the vine's skin. As a fine aerosol of aromatic juice shot into the air, the damned thing moved.</p><p>His eyes widened.</p><p>The vine easily shredded the leather boot of the Puppeteer's Shroud, as if the Awakened armor of the fifth Tier was made out of tissue paper. Before the sharp thorns could saw off his foot, however, Sunny cursed and brought the Cruel Sight down once more, this time augmenting the silver blade with both of his shadows.</p><p>The shortsword hacked through the vine, severing the stretch of it that was wrapped around Sunny's leg. The rest of it didn't like being cut one bit: surging forward, it aimed at his torso. Several more appeared from beneath the most at shot at Sunny, too.</p><p>However, now that nothing was holding him, he could finally use Shadow Step again. Before the vines reached his body, Sunny turned into a shadow. Safe and sound in their tranquil embrace of the darkness… for now, at least… he slid a few meters away and stared at the struggling abomination.</p><p>The creature was entangled by several thick vines, which moved across its body, leaving bloody trails on it. Sparks flew as the black thorns scraped fruitlessly across the adamantine surface of the wooden chest, though. It seemed to be much tougher that the rest of the creature's body.</p><p>The monstrosity gathered its limbs underneath it, then pushed with all its might, trying to stand up. An angry shriek escaped from its maw.</p><p>The vines were trying to hold it down, but either they were much weaker here, far away from the wreck, or the abomination was much stronger than Sunny had thought. It raised to its knees, then lashed out with its talons, ripping two of the vines apart.</p><p>Suddenly liberated, the monstrosity crawled from underneath the remaining vines, and then dashed toward the edge of the island on all fours.</p><p>Sunny hissed.</p><p>'Crap!'</p><p>Why couldn't it just lay still and die?!</p><p>He escaped the shadow and ran after the unreasonably swift abomination… but it was too late.</p><p>Just a few moments later, the bizarre creature reached the very edge of the island and jumped off of it without slowing even for a moment. The lid of the chest clicked close as it plummeted down.</p><p>"What the hell!"</p><p>Sunny reached the edge a few seconds later and froze as he looked down.</p><p>A grim expression appeared on his face.</p><p>***</p><p>Some distance below, a gargantuan heavenly chain escaped from the mouth of a stone structure similar to the one Sunny had seen on the other side of the island. This one was slightly different, though, mainly because both of the massive stone pillars had broken and collapsed a long time ago.</p><p>…The chain itself was different, too.</p><p>Sunny had never seen such a thing on the Chained Isles. It seemed… sick, somehow. Weakened. The chain was covered in rust, its iron links dim and lifeless, robbed of their usual sense of indestructible stability.</p><p>This one was rather long, stretching for good ten kilometers or so into the distance. Because the Shipwreck Island continued to descend, it was slightly angled upward. Sunny could see a relatively small isle on the other end of the chain, far into the distance.</p><p>…And everywhere in between, grotesque Chain Worms were crawling all other the weakened heavenly chain.</p><p>Not that Sunny saw them alive, he understood that he had underestimated just how disturbing these creatures were. With their long serpentine tails, human-like torsos, and long muzzles that brimmed with dagger-like fangs, the demons looked like misshapen maggots devouring the dying chain.</p><p>…Or maybe it was already dead, and they were simply feasting on its corpse.</p><p>Some were thin like the one Sunny had seen before, some engorged on the rusty iron and bloated beyond any reasonable measure, towering above the damaged chain like small hills of flesh. The scales on the latter ones looked like they were now made out of steel, and shined as they reflected the sunlight. Those who had not satiated their hunger yet were much thinner and flew around, resembling giant metal dragonflies.</p><p>'...Crap.'Visjt n𝒐velbin(.)c𝒐m for new updates</p><p>The damned chest creature landed directly on the rusted heavenly chain, gathered its long limbs, and dashed away from the Shipwreck Island, swaying dangerously as it went. From time to time, it fell to all fours and launched itself into the air, jumping from one link to another.</p><p>It wasn't long before the bizarre abomination encountered a Chain Worm. The winged creature lunged at it… only to be kicked in the muzzle and have one of its wings ruthlessly torn apart.</p><p>The chest creature tossed the maimed Chain Worm back toward the island, where its body was suddenly grabbed by a long root that lazily extended from the darkness of the Dark Side, then disappeared from view.</p><p>The abomination took in the terrible sight, giggled, then turned around, and continued running away.</p><p>Sunny hesitated.</p><p>His prize was getting away. But…</p><p>The small island he could see in the distance had to be the Twisted Rock — the isle directly bordering the Tear. There would be no more land to escape to if he went there.</p><p>And the only chain that connected Twisted Rock to the Chained Isles was currently being devoured by the demonic Worms. It didn't seem to be on the verge of collapse just yet, however… how would Sunny know? It's not like he had seen a heavenly chain break before.</p><p>Perhaps it was time to give up on his pursuit and turn back.</p><p>He lingered on the very edge of the island, sensing brown vines crawling closer and closer.</p><p>Risk it all or retreat and lose the chance to get his hands on the miraculous treasure forever? Nephis was about to become a devil in just a few days…</p><p>No matter what decision he was going to make, he had to make it right now.</p><p>In the end, Sunny had to silence his avarice and consider the situation objectively. Going after the bizarre abomination posed a huge risk… but it also promised a huge reward.</p><p>In the end, what made him decide was not greed, emotions, or even rational thought. It was his intuition.</p><p>For whatever reason, Sunny felt a strong aversion to the idea of turning back. It was as though Twisted Rock exerted an invisible pull on him, drawing him closer. He had never experienced something like this, at least not to this degree.</p><p>He knew that his intuition was not a simple thing. It was connected to the [Fated] Attribute and the special properties his eyes had inherited from Weaver. Somehow, Sunny was capable of perceiving the trembling of the strings of fate around him, from time to time.</p><p>Considering how strong his intuition was pushing him toward the Twisted Rock, something out there had to be of utmost importance to his fate, or at least have a connection to it.</p><p>'...Fine. Let's get those coins!'</p><p>With a grim expression, Sunny summoned the Dark Wing and dove into the empty abyss of the skies.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_422.html">Previous Chapter</a><a class="navigationButton next" href="chapter_424.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

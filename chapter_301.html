@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 301</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 301 Heirs To The Throne</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 301 Heirs to the Throne</p><p>As Sunny sat on the cold stones, wiping blood off his face and wincing from pain, the whole castle shook slightly, and dust fell from the ceiling of the wide corridor. Looking up, he frowned slightly, then turned to Harus and indifferently cut a strip of cloth from the hunchback's garments.</p><p>The corpse didn't mind.</p><p>Tying the cloth around his head to stop the blood from streaming into his eyes, Sunny sighed and summoned the runes.</p><p>Shadow Fragments: [956/1000].</p><p>"Such an injustice…"𝒩ew st𝒐ries at n𝒐velbin(.)co𝒎</p><p>His battle with Harus was one of the toughest he had experienced on the Forgotten Shore, but all he got from it was one measly shadow fragment. This was one of the lamentable quirks of the Shadow Slave Aspect — it didn't differentiate between humans and Nightmare Creatures at all. From its point of view, Harus was nothing but a dormant beast.</p><p>…Or maybe it was a blessing in disguise.</p><p>"Killing humans is a really unlucrative business," Sunny said with regret and glanced in the direction of the throne room, where the terrible battle still raged on.</p><p>Several hundred humans driven insane by fury and bloodlust could create a lot of destruction in a very short amount of time. Several hundred powerful Sleepers, each in possession of an Aspect Ability, were so much worse. Add the Echoes in the mix, and Sunny shuddered to imagine what was going on back in the great hall right now.</p><p>The number of lives being extinguished every second up there must have been immense. The members of the Host, the followers of Changing Star, and everyone unlucky enough to exist on the Forgotten Shore today were dying by the score. Blood was flowing like a river in the halls of the Bright Castle… just like Cassie had predicted all those months ago.</p><p>Just like Sunny had feared it would.</p><p>What was Nephis thinking?</p><p>Her ambition had never been to become the ruler of the Dark City. Wrestling the control over the ancient castle from Gunlaug had always been just a means to an end. Her true goal had always been in the Crimson Spire.</p><p>…Where the Terror of the Forgotten Shore dwelt.</p><p>From that point of view, this massacre was such a waste. Of potential soldiers, of countless Memories, of every other potential resource she was going to need to reach the Gateway.</p><p>But then, was it really?</p><p>After all, the rest of humanity was not bound by the strangeness of the divine Aspect Sunny possessed. When one Awakened killed another, they received a vast portion of the soul essence their enemy had accumulated. A lot of it simply disappeared, but what remained was more than enough.</p><p>The Crimson Spire was not a place one could conquer with cannon fodder. So really, Nephis did not need a thousand weak humans. What she really needed was a few hundred powerful, battle-tested fighters.</p><p>What was happening in the Bright Castle right now was not a waste.</p><p>It was consolidation.</p><p>Sunny sighed and rose to his feet, summoning the Midnight Shard from the darkness of his soul.</p><p>It was time to rejoin the battle.</p><p>***</p><p>In the end, almost two hundred people perished on that day. Despite all that death, the battle ended in a bitter draw.</p><p>And the main reason for this were only three people: Nephis, Tessai, and Gemma.</p><p>No matter how powerful and skilled the rest of the Sleepers participating in the battle were, no one stood a chance in a fight against either one of these three. Not even Caster, who by then many had believed to be one of the strongest fighters in all of Dark City due to his incredible skill, powerful Aspect, and noble background.</p><p>When the proud Legacy clashed against the leader of the Hunters, his enchanted jian quickly found its way into Gemma's heart. However, to everyone's horror, the tall man did not even blink after receiving the mortal wound. And just a few short moments later, it magically closed, not leaving even a scar behind.</p><p>No matter how many times Caster had cut or pierced the body of the fearsome Hunter, Gemma's flesh simply restored itself. It was as though the proud Legacy was cutting water.</p><p>Gemma's Aspect Ability made him nearly immortal, while his incredible skill, cunning, and might made him a herald of death.</p><p>Tessai was equally as formidable. His powerful Aspect Ability was tied to cold and ice. It allowed him to both make his skin hard as stone and debilitate his enemies, turning their movements slow and stiff. What was worse, it countered Neph's flames to a large degree.</p><p>Eventually, when the death toll became too large, all three gave their followers a command to retreat.</p><p>By the end of the day, the new Lord of the Bright Castle was still not decided. The castle itself became divided between three warring factions, led by the three contenders to the throne.</p><p>The largest and strongest faction, one with the most fighters and most Memories to arm them, was formed by the alliance between Tessai and the leader of Handmaidens, Seishan. Together, the Guards and the Handmaidens became a force that the other two factions could not challenge openly. They held the northern and western parts of the Castle, where most of the strategic and easily defendable areas of it were situated.</p><p>The second faction was led by Gemma and Kido, the chief Artisan. While the two of them had fewer fighters than both other factions, each of these fighters was worth a dozen. They were the Hunters, the most experienced and formidable Sleepers in all of the Dark City. Although the territory this faction held was not large, it was of utmost importance, since they controlled the only reliable source of food and water in the Bright Castle.</p><p>The last faction belonged to Nephis alone. She controlled the southern part of the Castle, where its main gate was situated, as well as the outer settlement, to where many of the previous inhabitants of the ancient citadel had fled in hope of finding shelter.</p><p>However, they quickly realized that there was no more safety anywhere in the Dark City.</p><p>With Gunlaug gone, all order disappeared. No one went on hunts to bring back food, no one manned the walls to drive the Nightmare Creatures away, no one was there to stop the crime and violence that blossomed in darkness off anarchy.</p><p>And things weren't going to change until a new Lord usurped the white throne.</p><p>The bloody struggle for the crown had begun.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_300.html">Previous Chapter</a><a class="navigationButton next" href="chapter_302.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

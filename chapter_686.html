@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 686</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 686 Creature Of The Fog</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> It was getting late, and darkness crawled into the stone room, drowning its corners in shadows. Cassie sat motionlessly, the graceful lines of her beautiful face contorted by a deep scowl. Then, a heavy sigh escaped from her lips. </p><p> "It started soon after I entered the Nightmare, but no one paid it much attention at first. There were just strange rumors that reached the temple, resembling scary stories that people like to tell each other when the sun is gone and darkness envelops the world. Rumors of a pleasant voice that came from the fog." </p><p> She gritted her teeth for a moment. </p><p> "Perhaps if my lady's affliction was not as severe, we could have done something then. After all, in this world, scary stories often come true. And this one was more ominous than the rest, because it had to do with the fog. The Night Temple stands at the boundary of the Hollow Mountains, after all… and of the mist that shrouds them. But she was distant and uncaring, and so, we have grown aloof, too." </p><p> Cassie somberly shook her head, then continued, her low, deep voice enveloping the room and her three listeners: </p><p> "As time went by, the rumors started to change. They grew more menacing and dire, telling tales of people who listened to the fog and disappeared without a trace. At that point, the Eyeless grew concerned, suspecting that a corrupted creature had found its way into their land. Many of them possessed a high affinity to revelation, after all, and they could feel it... unease, threat, danger. So, a priestess was sent to investigate, escorted by a squad of experienced Awakened soldiers. And at the same time, it was decided that a divination will be performed." </p><p> She lingered for a moment. </p><p> "The divination showed no result, and the priestess… she failed to return with useful clues. In fact, she did not return at all. She and her escort disappeared without a trace, as though they had never existed. Just like the people from the rumors… only, by then, no one thought of them as mere rumors anymore." Follow the latest novels 𝒐𝒏 n𝒐velbin(.)com</p><p> The blind young woman shivered, then said in an even voice: </p><p> "Finally, we became alarmed. The army was summoned, and many hunting parties were sent out to find the creature. Mundane soldiers, Awakened warriors, Ascended champions, the Eyeless… everyone was determined to catch the abomination. But despite all our efforts, we failed… how could we catch the fog?" </p><p> Cassie's face darkened. </p><p> "And all the while, people continued to disappear. First one or two at a time, then scores of them, and then, one day… we found a whole village that stood empty, not a sign of its inhabitants in sight. Everyone there — every man, woman, and child — was taken by the fog." </p><p> She grew silent for a few moments, then added grimly: </p><p> "And then, hunting parties started to disappear, too. Powerful, experienced soldiers... we even lost an Ascended. The worst part, however, was that there was no pattern to the creature's movements… at least none that we could recognize. It could attack a settlement far to the west one day, and then suddenly take someone far to the east the next. It was almost as if it could be in several places at the same time. Because of that, we couldn't throw all our forces into one location and corner it on a single island. And so, we constructed a trap for it… all we needed was a lure, and I volunteered to become one." </p><p> The blind young woman shook her head. </p><p> "...Of course, back then, I didn't know that the fiend of the fog was far more cunning and devious than any Nightmare Creature I have ever faced. But I found out… found out very soon. Because that was when I met him again. And as soon as I did, I realized that what we thought of as a trap for the fiend was, instead, a trap that the Prince of War lured us in instead." </p><p> Cassie gritted her teeth. </p><p> "Because while our forces were concentrated to form the encirclement, most of the northern reach remained unprotected. And so, left without defenders, one of the towns was taken by the fog. A thousand souls, gone. Slaughtered…" </p><p> A deep scowl appeared on Sunny's face. He leaned forward, piercing her with an intense gaze: </p><p> "What? How? If he was engaged in a battle with the forces of the Night Temple, how did the bastard simultaneously attack the settlement?" </p><p> She lingered for a while, then said with a hint of uncertainty: </p><p> "That… Mordret, he was not how he had been in the future. He had grown… weaker, somehow. As if he did not possess six soul cores anymore. But, instead, there were five strange creatures helping him — like the lesser versions of the one you had killed on the Reckoning island. While we fought the prince himself, the five creatures attacked the town that we had left unprotected, slaughtering every human who lived there." </p><p> Sunny leaned back, stunned. </p><p> "...What?" </p><p> 'Five of them… five Reflections? Did he tear his soul apart to create them, granting each a single soul core?' </p><p> Suddenly, a frightening thought entered his mind. </p><p> 'No… no, this can't be!' </p><p> Divine Aspect holders like Mordret and him followed a slightly different path than the rest of the Awakened. Unlike those with Aspects of a lesser Rank, they could create seven soul cores by absorbing fragments — whether of souls or shadows, didn't matter. But there was still a limit to the number of cores they could create, and to grow more powerful after that, they had to challenge Nightmares like everyone else. So, Mordret's slaughter did not make any sense. He had already been a Terror in the future, after all. </p><p> …Creatures, however, followed a path that was different entirely, and almost reversed. By absorbing fragments, they did not create new soul cores. Instead, they rose in Rank — like Saint, for example, who had to consume shadow fragments from Memories in order to Ascend. </p><p> If Mordret's Reflections were the same as Saint… if they only needed a certain quantity of fragments to rank up... then there was no limit to how many fragments they could devour, and no end to their growth, not until they reached the mythical Divine Rank. </p><p> So if the Prince of Nothing sacrificed five of his six soul cores to create five Awakened Beasts… </p><p> ...Then what was their Rank now, after consuming thousands upon thousands of souls?</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_685.html">Previous Chapter</a><a class="navigationButton next" href="chapter_687.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

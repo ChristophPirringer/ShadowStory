@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 859</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 859 Summit</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The Corrupted Tyrant and Sky Tide were of the same Rank, but there was an abyss of four entire Classes separating them. Nevertheless, Saint Tyris had been confident in her ability of defeating the perverse creature. </p><p> ... As long as it was bound to the ground. That was what she had told them. </p><p> Watching the giant insect spread its four translucent wings and soar into the somber sky, both grotesque and eerily beautiful at the same time. Sunny froze for a moment. Then, he looked back down. </p><p> Nothing ever went according to plan. That was just the reality of things, and the Irregulars had been prepared to face unforeseen circumstances from the very start. Saint Tyris was going to have to manage, somehow, on her own... the rest of them had their own trial to face. </p><p> He couldn't spare attention to the titanic battle happening above. </p><p> Hundreds of Nightmare Creatures were bearing down upon the three cohorts of Irregulars like an avalanche. Contracted into balls of white chitin, the soldiers of the stone hive were rolling down the mountain slope with tremendous speed, all their vulnerable spots safely protected. Their advance could be easily seen in the light of Winter's radiant arrow. </p><p> Among them were Awakened, Fallen, and even Corrupted abominations. Beasts, Monsters, Demons, and even Devils. The air this close to the summit of the mountain was cold and thin, and unlike the previous battle, humans held an unfavorable position below the enemy. </p><p> Worse still, Sunny had yet to recover from yesterday's exertion. He had barely half of his essence left. Saint and Nightmare were mending themselves in the dark flames of his soul after the clash with the powerful Gate Guardian. Things... weren't looking good. </p><p> 'Whatever. More fragments for me...!' </p><p> As he thought that, Winter sent a second arrow into the sky. It disappeared into the darkness and then seemed to explode into a thousand brilliant shards. 𝑅ead new chapt𝒆rs on novel𝒃in(.)com</p><p> Her Aspect... was a strange one. From what Sunny knew, it combined some sort of powerful combat augmentation with an affinity to revelation. Winter was both a warrior and a seer. </p><p> As a result, she never missed. That was not an exaggeration, just a frightening and bizarre fact. She had literally never missed a shot since becoming an Awakened. </p><p> It did not matter what weapon Winter used, be it a bow, a sling, a throwing dagger, or simply a rock. They always struck true. Of course, simply being able to hit the target did not always mean victory. </p><p> What made her truly formidable was an extensive arsenal of enchanted arrows that she had accumulated over the years. </p><p> Master Winter was basically a walking artillery unit. </p><p> As the thousand brilliant shards rained from the sky, each revealed itself to look like a small silver arrow. They bit into the mass of rolling abominations, shredding their carapaces and finding their way through the smallest cracks in the chitin armor. Instantly, fetid blue lymph flowed onto the snow-covered rocks. </p><p> A moment later, another arrow was already nocked on the string of Winter's bow, with several more already manifesting themselves from a whirlwind of sparks. Each appeared exactly as the previous one was sent flying. Shooting the bow with unnatural speed, she unleashed a squall of death on the mass of descending Nightmare Creatures. </p><p> Every arrow was unique, but absolutely deadly. </p><p> Studying the nimble, calculated, and lethal movements of the older Master, Sunny couldn't help but sigh. </p><p> "So that's what a professional looks like..." </p><p> He had a long way to go if he hoped to reach this realm of archery. </p><p> Soon, the other ranged fighters among the Irregulars joined the fray. Almost all members of Winter's own cohort were sharpshooters of some kind, so it easily outshone the rest in this phase of the battle, reaping dozens of abominable lives. Often, the Awakened marksmen aimed at the breaches in the white carapaces that the rain of arrows summoned by Winter had created. </p><p> As blue runes ignited on the silver limbs of her bow, she grinned: </p><p> "Show them hell! Whoever kills the most gets a hug, haha!" </p><p> The information about the weak spots of the stone hive soldiers that Kim and Sunny had provided also helped. Soon, he heard a familiar electric whine and saw a powerful explosion bloom among the abominations, ripping a few of them apart. </p><p> Samara was adding her prodigal firepower to the deadly onslaught of the ranged specialists. </p><p> Sunny, however, restrained himself from using a bow. In this battle, he needed to conserve his essence as much as possible. Plus, he was meant to play a different role. </p><p> The tide of abominations was almost upon them... </p><p> "Sunny!" </p><p> He turned around and saw Master Jet running at him. Her short raven black hair was dancing in the wind, and her eyes were burning with chilling blue light. There was a light armor of black leather wrapped tightly around her body, and a familiar dark glaive trailing behind her. </p><p> Lowering himself slightly, he interlocked his fingers and offered his hands to her as a step. As soon as Soul Reaper's foot landed in this cradle, he strained his muscles and threw her into the air. </p><p> Augmented by three shadows, his strength was nothing short of monstrous. Boosted by Sunny, Jet flew forward as if she was an arrow herself. </p><p> The somber glaive flashed, cutting... no, passing through the body of one of the Corrupted abominations before it could even react. The creature rolled forward with tremendous speed for a few more moments, but then suddenly convulsed, unfurled its massive body, and came to a shuddering stop. Its white carapace was perfectly whole, with not even a smallest crack on it... and yet, the massive beast was dead. </p><p> As Soul Reaper landed slid on the icy rocks, hundreds of abominations attacked the line of Irregulars and the swift human who had managed to kill one of their leaders. The massive balls of white chitin instantly unfurled into terrifying insect-like abominations and lunged at their victims, their sharp mandibles clicking and their segmented legs scraping against the stones. </p><p> Master Jet was already moving, dodging numerous attacks as she dashed toward the next Corrupted target. </p><p> Looking at her, Sunny blinked. </p><p> "Fast..." </p><p> Then, he had no more time to think.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_858.html">Previous Chapter</a><a class="navigationButton next" href="chapter_860.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

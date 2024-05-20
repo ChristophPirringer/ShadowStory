@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1115</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1115 Creatures Of Light And Darkness</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Focusing solely on causing as much devastation as possible, Sunny slaughtered the Nightmare Creatures. The power of the fully augmented shadow fiend shell was staggering... that power was so great, in fact, that getting drunk on it was simply too easy. </p><p> However, he did not. His savage butchery was just for show... even though Sunny had allowed himself to gleefully dive into the battle frenzy, the core of his mind remained cold and clear. The more abominations he slayed, the more somber that part of his consciousness became. </p><p> 'What the hell is Morgan doing?' </p><p> The Fire Keepers were supposed to hinder the advance of the Nightmare Creatures until reinforcements were pulled out from other parts of the battlefield to repair the breach in the army's formation. They had done that, already... but the reinforcements never arrived. </p><p> Had another crisis prevented Morgan from sending more companies to replace them? ...Or was something else at play? </p><p> Sunny did not know, and he had no time to care. He might have made it look as though cutting through numerous abominations was effortless for him, and in fact brought him nothing but vicious joy, but it was really not an easy task. </p><p> He was strong, fast, and immensely skilled. His armor and weapons were outstanding, too... however, there were just too many enemies pressing down on the five Masters as their soldiers. The horde of Nightmare Creatures truly seemed endless. </p><p> Even if most of these abominable creatures were not strong enough to threaten Sunny, and easy to kill, the sheer number of them posed a threat. His task was not just to withstand the flood of monsters, but to cut through it, breaking its momentum. </p><p> And that... was a perilous task. Sunny had to watch his every step, and keep the next dozen steps in mind. Otherwise, it would be too easy to end up in a situation where there was no next step to take. </p><p> Granted, he could carve his way out of many situations that would have doomed a different Ascended. But still, Sunny had to be careful about where he moved and what he did. </p><p> The others were struggling with the same issue. Kai had it the easiest, since his speed and the ability to fly made maneuvering around the battlefield almost a non-issue. Nephis had some breathing room, too, because her flames could clear out the space around her. </p><p> Sunny, Effie, and Jet were starting to struggle, though. Chances were, they would have to retreat back into the formation of the Awakened soon - once that happened, the formation itself would come under much more strain. </p><p> '...Not yet, though.' </p><p> He was not done playing the role of a dark slayer, yet. </p><p> Nestled within the embrace of shadows, Sunny gritted his teeth and continued to fight. This... this was good, really. He had missed that feeling, the feeling of giving it your all and fighting with your very life on the line. </p><p> Back in the Antarctic Center, he had always been like a detached observer. He had played the role of a person who was just as desperate and frightened as everyone else around him, but that was a lie. He wasn't. Sunny had just allowed himself to lose himself in the role. </p><p> In truth, he had rarely been in true danger in the past few months. It had always been the lives of others that he desperately wanted to preserve, not his own. The times when Sunny found himself in mortal danger in Antarctica had been few, and the forces aligned against him back then were too insurmountable to fight. All he could do was escape. </p><p> Even the Winter Beast... his own life had not been at risk until the very end. </p><p> It was the same now. However, Sunny had tricked himself into feeling that it wasn't. </p><p> And so, he killed the Nightmare Creatures. </p><p> He killed as many as there were. </p><p> He slayed the weaker abominations with ease, almost in passing - his towering figure seemed to move with the vicious, blood-chilling grace of a natural killer. Red mist and howls of agony surrounded him like a dark mantle. </p><p> The stronger abominations took some time to bring down, but they inevitably fell, as well. There were too few beings in Antarctica that could withstand his strength, his skill, and the perfect sharpness of the Sin of Solace. The only creatures here that could give Sunny pause were the Devils, simply because their powers were varied and unpredictable. </p><p> But, by now, there were enough tools in his toolbox to handle most of these threats. It was just a matter of identifying the strengths of the enemy, and finding a way to turn that strength into a weakness. </p><p> Everyone and everything fell under his blade. Slowly, a mound of corpses grew in front of Sunny, forming a natural barrier against the advancing horde. At first, he was pleased by the additional protection the morbid palisade presented. </p><p> But once the mound grew tall enough, the Nightmare Creatures started lunging at Sunny from above. That... was not ideal... </p><p> However, Sunny continued to fight. </p><p> Even when the immovable Effie was pushed back and forced to rejoin the formation, he still remained just where he was, performing his brutal dance of death. Even when relentless Soul Reaper cursed through gritted teeth and retreated, he continued to kill. Even when nimble Kai soared high into the sky, dismissing his sword to summon a bow, he still refused to take a step back. </p><p> In the end, there were just the two of them left in front of the formation - Sunny and Nephis. One was like an angel surrounded by white radiance and light, the other like a demon shrouded in darkness and shadows. </p><p> Both fought with cold, ruthless, unflinching resolve to obliterate the enemy at any cost... it was almost as if they were competing to see who could slay more. </p><p> Sunny did his damnedest to be the one to win that competition. </p><p> At some point, fighting an especially powerful abomination, he felt the shadow shell start to come undone. Without hesitation, Sunny dismissed the Mantle and summoned back the Graceless Dusk. Then, he allowed the form of the shadowspawn to dissipate and lunged from its crumbling carapace at the enemy. </p><p> The Sin of Solace flashed, and at the same time, the scorpion tail of the Nightmare Creature shot forward. It pierced the impervious silk of his tunic, and his stonelike skin, as well, plunging deep into his flesh. </p><p> Grimacing, Sunny beheaded the mantichora, then pushed himself off its harrowing sting and used the fully charged Dying Wish to heal his wounds. </p><p> Then, as if nothing had happened, he continued to kill. </p><p> He had grown weaker without the support of the shadow fiend shell, but also nimbler and much harder to pin down. His jade sword never stopped reaping lives. Find upd𝒂ted 𝒏ovels on n𝒐velbin(.)co/m</p><p> Now that Sunny was wearing the Graceless Dusk again, though, there were a few more things he could do. </p><p> Glancing in the direction where Nightmare Creature seemed to disappear into white radiance one after another, without a trace, Sunny hesitated for a moment, and then activated the Blessing of Dusk. </p><p> And then said in relaxed, leisurely tone: </p><p> [Hey, Neph... how's it going?]</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1114.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1116.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

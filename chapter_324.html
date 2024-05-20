@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 324</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 324 Siege Of The Crimson Spire 10</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 324 Siege of the Crimson Spire (10)</p><p>Summoning Saint to stand side by side with him once again, Sunny glanced at the gates of the Spire, grimaced, and jumped down from the mound of coral.</p><p>'I don't like this at all…'</p><p>Out there on the island, it was quiet. Too quiet.</p><p>Even though all the Nightmare Creatures were now behind him, slowly devouring the Dreamer Army, the open space pierced by the gazes of the severed heads of stone colossus was too ominous and foreboding to not spell trouble.</p><p>But Sunny was done being afraid a long time ago.</p><p>'You fear me, instead.'</p><p>Walking forward, he passed between the giant heads and entered the empty space in front of the cyclopean gates. Feeling as though someone was staring at his back, Sunny shivered and approached the seven locks.</p><p> Halfway to the gates, he stopped, hesitated for a moment and then looked back, at stone heads.</p><p>This was the first time he saw the faces of the seven heroes.</p><p>The face of the Lord was noble and dignified, the face of the Priestess — beautiful and gentle. The Slayer was arrogant and cold, her lips twisted in a crooked grin. The Stranger wore a helmet, darkness nesting in the crack of its visor.</p><p>'...People. They were just people.'</p><p>Turning away, Sunny sighed, then shook his head in dejection.</p><p>'I won't judge you for what you have done. But I hope… I really that we will be able to do better.'</p><p>With that, he took another step forward… and froze.</p><p>Something had changed on the stretch of land between him and the gates of the Crimson Spire. A cold wind suddenly howled, throwing bits of coral into the air.</p><p>Those pieces of did not fall down. Instead, more and more of the crimson shards flew up, slowly forming into seven twisted silhouettes.</p><p>Sunny cursed and outstretched his hand, summoning the Midnight Shard into it.</p><p>A few seconds later, seven golems of crimson coral stood in front of him and Saint, blocking the path to the star sigil. He recognized their shapes.</p><p>The armored figure of the Knight. The slender figure of the Slayer. The graceful figure of the Priestess…</p><p>Vile, corrupted facsimiles of the seven heroes slowly moved, raising their weapons to point at him. Their movements were crude and inhuman, but radiated a sense of terrible, profane power. Despite their outward appearance, he felt that these creatures were desecrating the memory of the ancient heroes instead of manifesting it.</p><p>Sunny grinned and walked toward the coral golems, the blade of his sword pointed downward.</p><p>"Seven of you? Do you really think this will be enough to stop me?"</p><p>His dark eyes gleamed, turning cold and ruthless.</p><p>"...Well then, fools, come and get me!"</p><p>With that, he dashed forward and raised the Midnight Shard.</p><p>Before Sunny could strike, however, the Stranger appeared in front of him as though out of nowhere and put his round shield in the path of the austere tachi. Hitting it felt like hitting a mountain.</p><p>Sunny's eyes widened.</p><p>'Fast…'</p><p>A fraction of a second later, he noticed a beak of a war hammer flying toward his temple with terrible speed. Gritting his teeth, Sunny shifted and blocked it with the blade of the Midnight Shard.</p><p>As a painful shockwave rolled through his body, he was thrown backward and slid on the red coral, then groaned and spat a mouthful of blood.</p><p>'Damn it! How are they so strong?!'</p><p>Looking up, he saw seven tall figures approaching him with steady, inevitable malice. Each of the golems was powerful enough to rip an entire cohort of Sleepers to pieces.</p><p>To his side, Saint raised her shield and hit its rim twice with the blade of her sword.</p><p>'Whatever. Let's do this!'</p><p>***</p><p>Back across the whirlpool of black water, the Dreamer Army was still furiously resisting the horde of Nightmare Creatures. By now, all of the monsters had left the coral bridge and descended upon the Sleepers, consumed by the mad desire for human flesh.</p><p>There was no distinction between the first and the second line now. All those still alive were engulfed by the bloody chaos of the slaughter, desperately trying to survive in the midst of absolute chaos.</p><p>Changing Star was at the center of the terrible bloodshed, shining like a radiant sun. She fought alone, because no one else could survive the devastating pressure that the horde exerted in the zealous attempts to extinguish that light. Any human that tried to approach and help her was immediately torn to pieces.</p><p>Indifferent to everything, Nephis moved like a furious deity, eviscerating one abomination after another. All around her, burning corpses littered the ground, their cursed blood boiling and evaporating into the air. Not only was her presence relieving the pressure from the rest of the Sleepers, but they also found strength in it.</p><p>As long as Changing Star fought for their salvation, how could they give up? As long as her light was there to banish the darkness, how could they lose hope?</p><p>That was why no monster had managed to break through the remnants of the first two lines and reach the archers.</p><p>Standing on the slippery surface of the crimson coral, Kai gazed at the terrible scene of the massacre below him, and then raised his face to the sky.</p><p>Instead of the sky, however, he saw the dark mass of bleeding corpses carpeting the iron net. His face paled, light disappearing from his eyes.</p><p>As the last officer of the Dreamer Army to not engaged in the melee, he was the only one who could see the bigger picture.</p><p>He was the only one who knew that the iron net was mere minutes away from breaking.</p><p>When it did, the mass of sharp iron wires and all the crushing weight of countless dead monsters was going to fall on the remains of the human formation, spelling their doom.</p><p>Someone had to do something…</p><p>And that someone was him.</p><p>Kai blinked, then closed his eyes for a moment.</p><p>'Of course. I am the only one who can.'</p><p>Nothing could stop the collapse of the iron net. But the manner in which it collapsed could be controlled. All they had to do was to cut it at a suitable spot, allowing for the mass of dead Nightmare Creatures to fall down without burying the fighting humans beneath it.</p><p>And who could cut the iron wires beside a person capable of flying?</p><p>The only problem was that once the net was cut… nothing was going to stop the five Spire Messengers from entering through the breach.</p><p>He was going to have to lead them away from the battlefield, too.𝒂ll new st𝒐ries at novelbi𝒏(.)c𝒐m</p><p>'...Yes. Yes, this is what I have to do.'</p><p>Dismissing his heavy bow, Kai stared at the ground for a few moments. An elegant falcata slowly appeared in his hand.</p><p>And then, with an expression of dark resolve appearing on his face, he pushed himself off the crimson coral and flew to the strained iron net.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_323.html">Previous Chapter</a><a class="navigationButton next" href="chapter_325.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 414</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 414 Mystery Of The Dark Mirror</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 414 Mystery of the Dark Mirror</p><p>Sunny stared at the ground, confused.</p><p>'What just happened?'</p><p>Why did the Spell call that thing and Ascended Reflection? What was a Reflection? And why was it Ascended instead of Fallen?</p><p>How could a Nightmare Creature be Ascended?</p><p>He frowned.</p><p>'...Was it not a Nightmare Creature? How is that possible?'</p><p>The apparition was definitely not a human, so what else could it be if not one of the Dream Realm's abominations?</p><p>And one more thing…</p><p>The Spell did not say that his shadow had grown stronger, did it?</p><p>To make sure, Sunny checked the number of his shadow fragments. Just as he had suspected, it didn't change. He even dove into the Soul Sea, and saw that there was no new shadow among the rows of the creatures he had slain.ALL new 𝒄hapters 𝒐n nov(𝒆)lbin(.)com</p><p>'This is very, very strange.'</p><p>What the hell had he just killed?</p><p>With a deep frown on his face, Sunny bent down and cautiously picked up the jagged mirror shard that the apparition had left behind. No matter how he looked at it, the shard resembled a perfectly mundane piece of glass, with a thin layer of silver painted over its reverse side. The only strange thing about it was that no matter how Sunny turned the shard, it refused to reflect anything except for an impenetrable veil of darkness.</p><p>There was also an inscription on its reverse.</p><p>Sunny's frown deepened when he realized that the inscription was not made with runes… instead, what he saw were the familiar letters of the human alphabet. They were clumsy and awkward, as if written by a child's hand.</p><p>There was only one word written on the mirror shard:</p><p>"Beastie"</p><p>'...What the hell is that supposed to mean?'</p><p>The mystery of the Mirror Beast was so strange that for a time, Sunny even forgot about the burning pain in his side.</p><p>Eventually, he whispered:</p><p>"...An Echo?"</p><p>Echoes did not possess souls, so he expected that slaying one would not reward him with any shadow fragments, just like what had happened after Mirror Beast's death.</p><p>The apparition, however, was obviously not an Echo. It was too independent, sentient, and had too much... individuality to be a simple copy of a dead Nightmare Creature. Not to mention that it had been ruling the Reckoning for the past few years, with no human master in sight.</p><p>There was, however, a type of being that it resembled.</p><p>Sunny threw a dark look at the remains of a tree that had been shattered by Saint's body.</p><p>…In many ways, the strange Reflection resembled a Shadow.</p><p> Was the Mirror Beast a type of Echo created by someone's Aspect? Its creator must have been incredibly powerful, then. If so, where were they? What had happened to them, and why was their Reflection wandering the Chained Isles in a feral state?</p><p>There were no answers.</p><p>It was just a theory, anyway. Sunny had no proof whatsoever to substantiate it.</p><p>Maybe his new Memory would give him some answers…</p><p>He was about to summon the runes, but a sudden pulse of pain reminded him that he was, in fact, still wounded. With a hiss, Sunny clutched at his side and looked around, searching for shelter.</p><p>He was going to have to tend to his wounds... and rest after the fight with Mirror Beast. The Memory could wait until after he wasn't bleeding so much…</p><p>Wrapping the strange mirror shard in a piece of fabric and placing it into his pack, Sunny used some of his last remaining reserve of shadow essence to step through the shadows and appear near the rocky hill in the center of the island. His shadow had noticed a shallow cave there, which was situated — obviously — behind the foaming wall of the picturesque waterfall.</p><p>Walking on a narrow stone ledge that led behind the waterfall, Sunny checked that the cave was empty, and then entered its cool shade.</p><p>***</p><p>The cave wasn't very big, but due to its location and hidden nature, there was no better shelter on the entire island. Rather happy with this discovery, Sunny groaned and lowered himself to the ground.</p><p>Sending Saint to keep watch outside, he dismissed the Puppeteer's Shroud, then opened his pack and took out a small box containing several thin needles and a span of silk thread.</p><p>Staring at the needles with a deadpan expression, Sunny sighed.</p><p>'I hate this part.'</p><p>Due to his Awakened body and the nature of Blood Weave, Sunny could recover from most injuries much faster than any mundane human, or even one of his peers, would be able to. However, if he wanted to be able to travel again by tomorrow, he still had to take measures.</p><p>With another sigh, the threaded one of the needles, gritted his teeth, and began suturing the edges of the long cut on his side together. The process was not very pleasant, to say the least, so the cave was full of the sounds of heavy breathing and suppressed curses for a while.</p><p>Finally, Sunny was done. Washing the dried blood off his body with the help of the Endless Spring, he grimaced and looked around.</p><p>Now that he had time to take a better look at the cave, he noticed that it had, apparently, been used as shelter by another human at some point in the past. There was a circle of stones built to contain a fire, with a bunch of firewood arranged neatly by its side. By now, the wood had long rotten, letting Sunny know that the cave remained empty for many years.</p><p>There was a pack much like his own laying on the cold stones near the firepit. He limped toward it and took a look inside.</p><p>There was nothing of particular interest there — just the usual supplies a traveling Awakened would take with them on a long expedition, most of them ruined by the humidity inside the cave and the passage of time. He did, however, retrieved a rolled-up map and studied it for some time.</p><p>The map had been drawn on a piece of monster hide, so the humid air did it no favors. Most of it was unreadable, with only a few small pieces remaining intact. Sunny judged that the person who had left it behind was much more knowledgeable about the Chained Isles than he was… sadly, none of that knowledge had been preserved.</p><p>The only legible word he could easily read was written near the edge of the Tear. It read:</p><p>"...Hope?"</p><p>Sunny sighed.</p><p>The stranger whose map he was studying had most likely been killed by the Mirror Beast. For a moment, he entertained the idea that the map had actually been left behind by the creator of the strange Reflection, but that theory made little sense. Why would such a powerful person leave not only his things, but also his creation behind?</p><p>Putting the map back into the rotted pack, Sunny glanced at the firepit and said after a long pause:</p><p>"I'm sorry that your hopes had been for naught… whoever you were. Now, your nightmare is over."</p><p>With that, he hesitated for a few moments, and then finally summoned the runes.</p><p>It was time to take a look at the Memory he had received for slaying the terrifying creature that the Spell had called the Mirror Beast.</p><p>A few seconds later, Sunny's eyes widened.</p><p>'Weapon! It is a weapon…'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_413.html">Previous Chapter</a><a class="navigationButton next" href="chapter_415.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

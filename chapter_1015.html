@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1015</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1015 The Fall Of Falcon Scott 33</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> 1015 The Fall of Falcon Scott (33) </p><p> The deeper Bloodwave descended into the vast, boundless, dark abyss of the ocean, the more disturbed Sunny felt — and he had already been deeply uncomfortable before taking the plunge into the shallows. There was nothing but emptiness and oppressive darkness both above and below them, stretching endlessly into the unknown. </p><p> Even though Sunny could see through the water, unlike how it had been in the impenetrable darkness of the cursed sea of the Forgotten Shore, he was still distressed. The depths of the ocean were not a place meant for humans... they were its opposite. Coming here voluntarily was nothing but pure madness. </p><p> 'I might have misunderstood the Nightwalkers. They are all lunatics...' </p><p> He shifted slightly and glanced at Naeve, who was holding tightly to the fin of the monstrous killer whale. The currents battered them, and the pressure was slowly growing unbearable. The scion of the House of Night was not exactly calm, but his unease was caused by the prospect of fighting a Corrupted Terror, not the watery abyss itself. </p><p> Strangely, Sunny's feelings were reversed. The Terror of LO49 was a harrowing foe, indeed, but he had faced plenty of those. The ocean, on the other hand, was an alien, unfamiliar, and fundamentally hostile space. It was abysmal in the purest sense of the word. </p><p> Grimacing, Sunny pulled himself closer to Bloodwave's fin and waited. </p><p> He did not know what exact means the Saint was using to track the hidden Terror. There was some pattern to his movements, but Sunny wasn't sure what it was. Sometimes, it felt as though the great predator was choosing the direction at random, but one thing remained constant — they were always moving deeper into the darkness. </p><p> Naeve had not spoken to him again, but there was also no reason to. Sunny briefly considered summoning the Extraordinary Rock to relay his thoughts, but then discarded that idea. He had nothing useful to say, and making too much noise could attract unwanted attention. </p><p> Who knew what horrors hid in the dark depths, beside the Terror? </p><p> At some point, he felt a coughing fit rising from somewhere in his lungs and nearly panicked. The last thing Sunny wanted was to drown because of the residual trauma caused by brushing against a Nightmare Gate. He gritted his teeth and concentrated on suppressing the cough, forgetting even his fear of the ocean in the process. </p><p> That was why he almost missed the moment when the Terror finally revealed itself. </p><p> ...Hidden in the depths of the lightless abyss, an eerily beautiful creature floated in the vast and silent darkness. </p><p> Feeling a slight tremor run through the enormous body of the giant killer whale and hearing its booming heartbeat change pace, Sunny looked into the distance. He shivered. </p><p> From a distance, the Terror looked akin to a strange, ghostly flower... a lily, perhaps, or a white lotus. Its pallid petals flowed and danced slowly in the darkness, some stretching for hundreds of meters into the empty abyss, some swirling around the small nebulous shape hidden in their center. </p><p> The sight of it was both breathtakingly beautiful and deeply terrifying. The wide ribbons of white looked both like the petals of a flower... and like the long tentacles of an ethereal creature, too alien to be described with words. </p><p> When they got closer, however, Sunny discovered that they were neither petals nor pale flesh... instead, he thought that he was looking at long stretches of white, flowing cloth. He did not know if he was right, or how it even made sense. </p><p> And that was not what Sunny was preoccupied with at the moment, either. </p><p> There were other shapes surrounding the ghostly white blossom, hundreds of them. Drowned bodies surrounded it like a morbid barrier — humans, Nightmare Creatures, and things he could not name. They floated silently around the Terror, unmoving, their empty eyes staring blindly into the darkness. Some had cloth petals wrapped around them like a burial shroud. </p><p> The eerie scene made him shudder. The otherworldly beauty of it all only made the visage more appalling. There was a powerful presence emanating from the mass of billowing white cloth... one of utter horror and malice. </p><p> Sunny felt that presence overwhelm him, making it impossible to look away from the Terror, but also unbearable to witness it. He felt mesmerized, frozen, and paralyzed. </p><p> ...That feeling was broken by another presence, though. Suddenly, the darkness around them seemed to become tinted red, and he felt a deep fury rising from within him. Sunny recognized that fury as something that was not his own, but instead belonged to someone else... </p><p> Bloodwave. </p><p> The Saint of Night was incensed, and whatever fear they might have felt was washed away by the murderous rage of the great predator. </p><p> It almost seemed as though the cloth petals trembled slightly. </p><p> In the next moment, the hundreds of drowned creatures all came alive, their hollow eyes turning to stare at them. Sunny uttered a silent curse and freed the Sin of Solace from its makeshift scabbard with his free hand. </p><p> 'Here we go, then...' </p><p> He felt Bloodwave's body move, and then a furious roar spread through the water like a fearless battle cry. The force of it was almost physical in nature, moving through the dark abyss like a devastating shockwave. </p><p> The monstrous killer whale surged forward, and with him, the ocean itself came alive. Powerful currents assaulted the pallid flower, throwing its ghastly defenders away. The crimson hue of the water became more apparent, and wherever it spread, Bloodwave seemed to gain even more speed, even more might. Visit novelbin(.)c𝒐m for updates</p><p> At the same time, the cloth petals exploded with motion, unfurling like long limbs, grabbing the thralls, and throwing them forward. </p><p> By Sunny's side, Naeve glanced at him and outstretched a hand, a bone harpoon appearing in it. The Nightwalker smiled, indigo lights dancing in his eyes. </p><p> "It's time!" </p><p> With that, he pushed himself off the fin and shot forward with incredible speed. </p><p> A moment later, Bloodwave crashed into the moving barrier of hollow-eyed thralls.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1014.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1016.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

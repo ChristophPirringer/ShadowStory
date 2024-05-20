@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 470</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 470 Come Winter</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<p>Chapter 470 Come Winter</p><p>Cassie had changed since the last time they met.</p><p>Her hair was longer, and there was a strange silver half-mask covering her eyes, its surface blind and intricately engraved. It matched the polished steel of the armor she was wearing on top of a midnight blue coat, comprised of a short cuirass, vambraces, greaves, and a segmented pauldron.</p><p>The Quiet Dancer hung on her belt, but there was also a long dagger opposite it, its guard twisting upward.</p><p>What changed most of all, however, was her demeanor. The blind girl seemed… much older, somehow. Firmer, poised, but also weary. As if pressed down upon by the weight of years.</p><p>'What? What years? She's younger than me!'</p><p>Sunny struggled a little, then pretended to smile, too, for the benefit of the young Fire Keeper who no doubt expected a warm reunion.</p><p>No one knew what had happened between them, after all.</p><p>"Yeah. I received your note… cryptic as it was. And here I am. In the flesh."</p><p>The girl who had led him to Cassie glanced at them, then made an excuse and went back to the camp, tactfully deciding to remove herself from what she thought was going to be an emotional meeting of two old friends.</p><p>…Former friends, really.</p><p>Sunny hesitated a little, then asked:</p><p>"So… how have you been?"</p><p>Cassie sighed, then turned back to the excavated roots of the charred tree.</p><p>After a while, she spoke:</p><p>"Not so good, actually."</p><p>Her voice sounded distant.</p><p>"We… we have tried to venture into the Hollow Mountains, as you must know. But it was hopeless. That place is pure death, for anyone who dares set foot into the mist. We hoped to find a way back to the Forgotten Shore. In the end, however, we were lucky to simply escape alive."</p><p>Cassie remained silent for a bit, then asked:</p><p>"What about you?"</p><p>Sunny grinned:Visit novelbin(.)c𝒐m for updates</p><p>"Me? Oh, I've never been better…"</p><p>With that, he summoned the Covetous Coffer, fished out some fresh, fragrant fruit from it, and sat down on a nearby stump. Taking a big bite out of a juicy peach, he chewed it with gusto, and then glanced at the blind girl.</p><p>"Oh, sorry. I only brought enough for one."</p><p>…Yes, Sunny knew that he was being ridiculously petty. But so what? Pettiness was his middle name. Figuratively speaking.</p><p>"So, you failed to return to the Forgotten Shore, and now… what are you doing, exactly? Why are you digging up trees in this vile forest?"</p><p>Cassie smiled a little, then answered evenly:</p><p>"...I am looking for something."</p><p>Then, she turned away from the hole and faced him.</p><p>"Yes, I told the White Feather clan that you will return alive. No, I did not see a vision of where you were, and what you did in the past month."</p><p>Sunny stared at her with a dark expression:</p><p>'What is this?! She can read minds now?!'</p><p>"...And no, I can't read minds. If you must know, my Second Ability allows me to sense what will happen in the next few seconds. That's why I can walk around without a cane, and knew what you were going to say."</p><p>He grimaced.</p><p>'That's… going to be very annoying, I think.'</p><p>Sunny looked at Cassie, reevaluating her armor and weapons. With an Ability like that, she might have become a very formidable fighter. Or not. He didn't really understand how it worked, to tell the truth.</p><p>So, he asked curiously:</p><p>"Does that mean that you can see now?"</p><p>Cassie shook her head.</p><p>"No… not exactly. But if I want to take a step forward, and sense falling into a ravine, I can walk around it instead. If I sense being pierced by a sword, I can try to deflect it. And if I sense being asked a question, I can answer it."</p><p>He thought for a bit, then said:</p><p>"So, what is my next question?"</p><p>The blind girl simply shook her head.</p><p>"I don't need to waste soul essence to guess. You want to know how I knew that you will come back to the Sanctuary in one piece."</p><p>Sunny finished his fruit, threw the pit into the hole, then smiled:</p><p>"Indeed. If you did not spy on my recent adventures, then how did you know that I wasn't going to die?"</p><p>Cassie lingered for a bit, then turned away. After a while, she said:</p><p>"It's still spring."</p><p>He scowled.</p><p>"What does that have to do with anything? You knew that I would be fine because it's spring?"</p><p>Cassie smiled.</p><p>"Yes. I knew that you wouldn't die. Because, you see…"</p><p>She paused for a moment, and then said calmly:</p><p>"...I already saw you die, in winter. Both of us, actually."</p><p>***</p><p>After Cassie dropped that bomb, Sunny simply stared at her for a whole minute, his eyes wide and the words refusing to come out of his mouth. Finally, he gritted his teeth and hissed:</p><p>"What the hell?! You saw us die?!"</p><p>Cassie sighed, then gave him a simple nod.</p><p>"Yes."</p><p>Sunny growled.</p><p>"Elaborate!"</p><p>The blind girl hesitated for a little while, then asked evenly:</p><p>"Are you sure you want to know? You've seen what happened the last time I shared my vision with someone, and tried to challenge fate."</p><p>A dark, resentful expression appeared on Sunny's face. With his voice full of anger, he spat:</p><p>"Who cares?! Tell me what you saw this instant!"</p><p>Cassie sighed and turned to face him.</p><p>"Alright. But remember… remember what happened to the three of us, before. How we tried to deceive fate, but were played by fate instead."</p><p>She grew quiet for a moment, and then said:</p><p>"This is what I saw: there was a crumbling island falling into the Sky Below, and the two of us — bloodied, mangled, and weak — falling down with it. It was snowing. Above us, a giant bird flew, wreathed in thunderclouds. It was fighting a terrifying black wyvern, their blood falling down like rain. Then the darkness swallowed us… and we were gone."</p><p>Cassie looked down, then added solemnly:</p><p>"That was how we died."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_469.html">Previous Chapter</a><a class="navigationButton next" href="chapter_471.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

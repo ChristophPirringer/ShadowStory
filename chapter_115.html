@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 115</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 115 Nightingale</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 115 Nightingale</h4> <p> Sunny could really understand how bad the situation looked from the perspective of the young man with a beautiful voice. </p><p> The only thing that could be worse than approaching a terrifying dark well while thinking that there's an ancient and utterly evil creature hiding inside was to actually be locked inside that terrifying dark well while thinking that some abominable thing was looking down on you from above. </p><p> At least Sunny had a chance to escape if things were to turn really bad. The poor guy in the well literally had nowhere to run. </p><p> Of course, there was still the possibility that all of this was just a cunning act performed by some incredibly horrifying monster. Sunny had to keep that in mind while exploring the other theory. </p><p> 'So… if he is indeed a human, how do I make him believe that I'm not a monster?' </p><p> That wasn't a very simple task for Sunny. He had never been good at communicating with people in the first place, and three months of complete isolation did not make things any better. In fact, they had made everything worse. </p><p> Now, even Sunny sometimes felt uncomfortable when talking to himself. </p><p> 'Uh… what would Cassie say?' </p><p> He cleared his throat. </p><p> "Are you a… human? I am too. I am a human, too. We are both… humans." </p><p> 'Great job, idiot!' </p><p> After that abhorrent attempt, Sunny wouldn't be even surprised to find out that he was not, in fact, a human. Who talks like that? </p><p> The young man in the well grew silent. Then, he silently said: </p><p> "Yeah, it's definitely all over for me. Oh, well. I had a good run, I guess…" </p><p> Sunny sighed heavily. </p><p> "Stop panicking, you idiot! I really am a human!" </p><p> The owner of the charming voice laughed: </p><p> "Please forgive me if I don't believe you." </p><p> He was using respectful honorifics, as though recognizing Sunny as an elder. Which was logical, given that he believed him to be an eldritch horror. An eldritch horror would technically count as an elder, all things considered. </p><p> Sunny groaned inwardly. </p><p> "Why are you using honorifics? I bet I'm younger than you." </p><p> The young man imprisoned in the well hesitated. </p><p> "Wait, you really are a human?" </p><p> Sunny smiled with excitement, feeling that he was making progress. </p><p> "Yes. I really am." </p><p> The voice returned a dozen seconds later: </p><p> "How come you're here alone and in the middle of the night? You also don't seem to have any source of light with you. Please don't get angry, sir monster, but that's not exactly something a human would be able to do. Maybe you should work on your story a bit more next time you venture out to devour innocent souls? Just a, well, a piece of friendly advice." </p><p> Sunny sighed. </p><p> "Very funny. I'm able to walk around the city at night because my Aspect allows me to hide in the darkness. I can also see through it, too. How did you end up in this well, anyway?" 𝒩ew updates 𝒂t n𝒐velbi𝒏(.)com</p><p> The young man lingered before answering. </p><p> "How does one usually end up in these situations? A bunch of thugs decided to shake me down for my Memories. I politely refused, and here we are. They've been keeping me here for a couple of weeks, trying all kinds of methods to get me to transfer the Memories to them. But I must say, their attempts were very clumsy. In terms of knowing how to terrorize people, these fellows are not even anywhere near the laziest of sasaengs." </p><p> Sunny didn't know what a sasaeng was, so he just assumed that it was some kind of a horribly malevolent Nightmare Creature. The rest of the story was somewhat easy to believe. Of course, it would take a very special kind of fool to choose the ruins, of all places, to keep a prisoner, but thugs were not known for their intelligence. </p><p> Plus, their plan seemed to have worked pretty well right until the moment they had the misfortune of stumbling onto Sunny. </p><p> Well… now he knew what this whole thing was about. Just some tiresome human business. </p><p> 'How disappointing.' </p><p> Nephis and Cassie were also not in any sort of danger, at least not with regard to this mess. The mystery was solved. He had wasted a whole night on this nonsense. </p><p> "I see. Well… goodbye." </p><p> With an annoyed sigh, Sunny turned around and began to walk away. However, the owner of the beautiful voice stopped him: </p><p> "Wait! Wait! Are you… are you really human?" </p><p> Sunny grimaced. </p><p> "I am! I've told you already!" </p><p> The young man imprisoned in the well hurriedly asked: </p><p> "Can you maybe get me out of here? Those guys are not coming back tonight, I think. If you help me escape, I'll make it worth your while!" </p><p> Sunny scratched the back of his head, then frowned: </p><p> "In what way?" </p><p> After a short pause, the charming voice returned again, this time somewhat hesitant: </p><p> "Well, you might not know this, but I am quite a rich person. I have a whole stash of soul shards back in the castle. Some might even say that I have a small fortune. Half of it is yours if you get me out of this pit. That's ten shards, at least!" </p><p> Sunny suddenly got an idea. Of course, he did not need the ten shards that the young man was offering. The fact that he had these shards, though… that was potentially very useful. </p><p> If he wanted to avoid unnecessary attention when buying Memories with his hoard of soul shards, he would need a suitable proxy. A Sleeper with a lot of shards of his own, one that was indebted to Sunny no less, was a perfect candidate. </p><p> He smiled. </p><p> "Do people know that you have a fortune?" </p><p> The young man answered, a bit of surprise in his voice. </p><p> "Do they… know? Yeah, I guess they do. I am known to spend a lot from time to time. On entertainment, as well as, uh... some other things. I'm a patron of arts, one can say." </p><p> 'Perfect… so no one would be surprised if he suddenly begins to spend shards on Memories.' </p><p> However, there was a small problem. Sunny could remove the grate, but he had no way of helping the poor guy climb out of that unimaginably deep well. Even if he was to use the Prowling Thorn, he doubted that the invisible string would reach that far. Its maximum length was not that impressive. </p><p> And he certainly was not going to climb into the creepy well himself. </p><p> Plus, he still held a bit of suspicion about the charming young man's identity. He was almost certain that he was human… but the remaining tiny bit of doubt was enough to make his paranoia ring the alarm. </p><p> After hesitating for a bit, Sunny said: </p><p> "What's your name?" </p><p> The melodic voice answered: </p><p> "It's Kai." </p><p> Sunny sighed. </p><p> "Well, Kai, I don't know how to tell you this… but unless you can fly, I won't be able to help you escape." </p><p> The young man grew quiet. After a long pause permeated with deathly silence, he then said in a strange tone: </p><p> "...I can." </p><p> Sunny blinked. </p><p> "What?" </p><p> Did he hear wrong? No, that was unlikely. </p><p> …Maybe Kai was just willing to say anything in his desperation to escape. </p><p> The prisoner of the well chuckled. </p><p> "I can fly. That's my Aspect Ability."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_114.html">Previous Chapter</a><a class="navigationButton next" href="chapter_116.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

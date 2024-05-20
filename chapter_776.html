@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 776</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 776 The Enemy Of My Enemy</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The omurice disappeared from the plates with a speed that made Sunny a bit full of himself. He smiled proudly, and then looked at Nephis: </p><p> "So, what do you think about the mess we're in?" </p><p> She put down her utensils, looked at the empty plate with a hint of regret, and then asked: </p><p> "That Mordret… the Rank of his Aspect is the same as ours?" </p><p> Sunny nodded, prompting her to frown. While she thought, he reluctantly added: </p><p> "He is also older and more powerful than us, and possesses more knowledge than anyone in the waking world should have. Other than that, he is… actually, I don't know what he is, I just feel that something is very wrong with that guy. Regardless, he is dead set on destroying Clan Valor. It is just hard to tell how he is going to go about accomplishing that goal." DiScover 𝒏𝒆w stori𝒆s on no𝒗/e/lbin(.)com</p><p> Changing Star remained silent for a few moments, then said evenly: </p><p> "He is going to search for allies." </p><p> Sunny's expression grew a little darker. </p><p> "Mordret is not exactly a team player." </p><p> Nephis slowly shook her head. </p><p> "It doesn't matter. No matter how powerful he has become, it won't be enough to reach his goals. The… the enemy is too strong. Their power is too absolute." </p><p> She did not say it, but from the grim expression on her face, Sunny could guess what Changing Star was thinking about. That she was in the exact same position. </p><p> Which did not bode well… </p><p> He grimaced. </p><p> "So… do you think that we should expect to find the bastard on our doorstep one day? The enemy of my enemy, and all that." </p><p> Sunny was not looking forward to meeting Mordret again, let alone getting entangled with him in any shape or form. As far as he was concerned, the Prince of Nothing would bring nothing but trouble. </p><p> Nephis frowned, then said with uncertainty: </p><p> "No… I doubt it." </p><p> Well, if she was right, that was a relief. </p><p> At that moment, Cassie deactivated her communicator and turned to face them. </p><p> "The Fire Keepers have reached the Immortal Flame manor. They are putting on a show to make it seem like there are all kinds of activity going on inside. Hopefully, that is going to make most people think that you are there with them. You should not be bothered by anyone here, for a while." </p><p> She paused for a moment, then sighed. </p><p> "But that is not going to last long. Maybe a week… the rest of us should not linger, as well. It would be strange if Kai, Effie, and I are not seen at the manor. We will leave shortly and join the Fire Keepers." </p><p> Which would leave Sunny and Nephis alone... </p><p> He did not know how to feel about that. </p><p> Effie, meanwhile, glanced at the empty plates and said in a petulant tone: </p><p> "I live here as well, you know!" </p><p> Cassie turned to her with a deadpan expression. </p><p> "Not for the next week, you don't." </p><p> As the huntress let out a sigh, the blind girl hesitated for a few seconds, and then said: </p><p> "I am also in contact with the government representatives and Clan Valor. They understand the pressure you are facing so soon after you return, so they are willing to be… patient. For now. That will buy you a short buffer before they come knocking. Be ready to receive some requests for public appearances and so on in a week or two, as well as demands to resume the negotiations. We can stall for a time, but not forever." </p><p> Nephis looked at her calmly, then asked: </p><p> "What about Song and Night?" </p><p> Cassie frowned. </p><p> "Clan Song might try to get involved in the negotiations, but I don't expect them to be too forceful. They are in a more advantageous position than Valor right now, after all. As for the House of Night… they are remaining strangely passive these days, for some reason. Maybe they just know that they have less to offer than the other two great clans, and don't want to bother." </p><p> Sunny had a different explanation for why the Nightwalkers had less time to participate in the schemes of the two greater clans, but chose to remain silent. The information provided to him by Master Jet had been shared in confidence. Even if he wanted to, he couldn't go around spreading it. </p><p> The blind girl sighed, then rose from her seat. </p><p> "Try to rest well during this week, Neph. Don't neglect your recovery. We know that you are strong… but no one is truly infallible. Perhaps none of us has experienced as much pain as you had in these past few years, but we faced our share. Some more than others…" </p><p> She briefly faced Sunny, then turned away and lowered her head. </p><p> "So, we understand how precarious it is to go on as if nothing happened without giving the old wounds a chance to heal. Don't be stubborn and have some pity on yourself, for a change." </p><p> Nephis looked at her. After a few moments, a pale smile appeared on her face. </p><p> "You don't have to lecture me, Cas. You are overestimating my resolve. I am more than willing to rest for a while. Happy, even." </p><p> The words rest and happy hardly fit in the image of Changing Star they were accustomed to, but no one said anything. An ordeal like the one she had gone through was bound to change anyone, even someone as determined and unflinching as Nephis. </p><p> Cassie smiled, and then addressed Effie and Kai: </p><p> "Let's go, then. There's a lot of work to be done at the manor. We need to renovate it a little and make some adjustments to convert it into a proper clan headquarters." </p><p> Soon, they said their goodbyes and left. The PTV came online and swiftly disappeared from view. </p><p> Sunny and Nephis were left alone in the cozy grey house. </p><p> He hesitated for a bit, and then looked at her with a bit of awkwardness. </p><p> "Well… make yourself at home, I guess. Actually, let me give you a tour…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_775.html">Previous Chapter</a><a class="navigationButton next" href="chapter_777.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

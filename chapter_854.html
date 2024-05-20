@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 854</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 854 Perfect Alibi</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> 'What a day…' </p><p> Sunny tiredly dragged his body back to the Rhino, wincing in disgust at all the bodies littering the ground. Why did Nightmare Creatures have to be so ugly? </p><p> 'Why, do you prefer to be surrounded by pretty corpses? That would probably be even worse.' </p><p> War was ugly, and maybe… just maybe… it was actually a redeeming quality. </p><p> His soldiers followed him, just as exhausted. No one was seriously wounded, which was the best result Sunny could have hoped for. However, they were in no mood to speak. </p><p> Other fighters of the First Army, however, felt differently. </p><p> A buzz of voices surrounded them. The division was in the process of regrouping after the unexpectedly strenuous confrontation with not one, but two entire hordes of abominations. The logistics of the whole process were pure hell, which was only made worse by the strong interference produced by the Gates. </p><p> The Gates… in the immediate area around the human force, separated merely by a few kilometers each, there were now fifteen of them. Seven had opened at some point in the past, and eight more opened simultaneously just a few hours ago. </p><p> The idea of something like that happening would have seemed preposterous before, but with the Chain of Nightmares descending upon the Southern Quadrant, nothing was impossible anymore. </p><p> Sunny shook his head. At least he collected plenty of fragments today, as well as earning himself some reputation. Anyone who had seen him fight had to be impressed. </p><p> And why wouldn't they be? Sunny had personally slain three Gate Guardians today. </p><p> There was one problem, though… </p><p> As he walked through the battlefield, he couldn't help but overhear bits and pieces of various conversations. </p><p> "Damn… these Irregualrs are no joke. Have you seen their captain? The man is a demon! I heard… no, I saw him tear the head off a Fallen Devil's body with his bare hands!" </p><p> "Wait, really? Although, now that I look at him... it's easy to believe. That giant guy with a sledgehammer, right?" </p><p> "No, you idiot. The pale kid… you know, the one who looks like a haunted vintage doll…" </p><p> "Man, who cares about some captain?! Haven't you heard?!" </p><p> "...Heard what?" </p><p> "That Gate behind us, do you know who cleared it? It was Mongrel! Lord Mongrel himself!" </p><p> "No way! He's in Antarctica?!" </p><p> Sunny blinked. </p><p> '...What?' </p><p> The more he listened to what the soldiers were talking about, the more he heard the damned nickname. </p><p> Mongrel, Mongrel, Mongrel… </p><p> 'Are they all insane?!' </p><p> Sure, Saint's armor looked somewhat similar to the Mantle of the Underworld, but everything else was different! Firstly, and most importantly, she was clearly a woman while he was obviously a man. Secondly, his Shadow wore her closed helmet instead of Weaver's Mask! </p><p> Who could mistake one for another? </p><p> After thinking about it for a bit, however, Sunny came to a disturbing conclusion. </p><p> He knew what Weaver's Mask could do and why he wore it. People, however, did not. To them, the fearsome mask was just another Memory, so it was perfectly natural that Mongrel would don a helmet instead of it before going into battle. </p><p> Additionally, he doubted that anyone had gotten a good look at Saint. She was moving incredibly fast while galloping to the rear of the human formation, and then dove into a mass of Nightmare Creatures without ever slowing down. </p><p> Whatever recording remained had to be of terrible quality, considering the disrupting effect of the Gates. </p><p> And speaking of recordings… </p><p> As soon as they reached the Rhino, Sunny connected his communicator to the vehicle's powerful communications suite and accessed the network. </p><p> Almost immediately, the sensational titles of several recent articles attracted his attention: </p><p> "A Humble Hero! After eschewing the allure of fame and avoiding the limelight for almost two years, renowned swordsman Mongrel appears in Antarctica to save fifteen thousand soldiers from certain doom!" </p><p> "Guardian Angel of Humanity: true to his word, Long Mongrel, who once proclaimed that he was just a human, courageously puts his life at risk to protect the human race!" </p><p> "Exclusive footage of Lord Mongrel vanquishing a Fallen Tyrant!" </p><p> "Lord Mongrel confirmed to be… a lady!" </p><p> Sunny silently covered his face with a hand. </p><p> 'Gods… that was fast.' </p><p> The government propaganda machine must have decided that Lord Mongrel, whoever he might be, was a good tool to prop up the current recruitment efforts. A somewhat hot celebrity appearing on the battlefield was a good tool to inspire more people to enlist. Discover n𝒆w chapt𝒆rs 𝒐n no𝒗elbi𝒏(.)com</p><p> His face turned a little bitter. </p><p> 'I killed three whole Gate Guardians, dammit! Three! Saint only killed one, and even then, it was with the help of Nightmare. Why is no one speaking about me?' </p><p> Even the soldiers of his division seemed to have completely forgotten about Sunny's contributions once the news of Mongrel appearing during the battle spread. </p><p> Not that Sunny wanted to be recognized for anything… in fact, he vastly preferred being a complete unknown. </p><p> But still! </p><p> With a sigh, he looked up the recordings uploaded to the network. Just as he had expected, the quality was terrible. Saint looked like a blurry black silhouette with no definable features. What little the government allowed to be shown did not paint a clear picture of her clash against the Nightmare Creatures. It just looked like a mess of movement accompanied by a litany of bestial howls. </p><p> However, that only added fuel to the collective imagination of people who had watched the video! He read a few of the discussions and closed his eyes for a moment, holding back a groan. </p><p> 'What is this crap?' </p><p> From what people were saying, it seemed as if Mongrel single-handedly eradicated several thousands of Nightmare Creatures while actual soldiers helplessly stood back and applauded. </p><p> Suddenly, Sunny let out a small laugh. </p><p> Before unleashing Saint, he had been worried that people would connect the dots and realize that he was Mongrel… </p><p> Reality, however, turned out to be the exact opposite. Thousands of humans had witnessed him fight at the front of the formation, while at the same time, thousands more had seen someone who they mistakenly assumed to be Mongrel fight at the back. </p><p> The two couldn't possibly be the same! </p><p> The action that could have potentially revealed his secret… had become a perfect alibi instead. </p><p> Sunny sighed, and then shook his head in bewilderment. </p><p> 'Well… that's something, I guess…'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_853.html">Previous Chapter</a><a class="navigationButton next" href="chapter_855.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

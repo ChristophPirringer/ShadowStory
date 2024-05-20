@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 919</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 919 Defying Gravity</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Flying down the slope of the mountain, Sunny left the shadows and did something that would have usually been considered a very stupid move in a battle - he leaped into the air, soaring high above the ravine, and then plummeting down. </p><p> Experienced warriors all knew that performing a jump in combat had no benefit, and instead left one open to a potentially lethal attack. Worst of all, the jumper had nothing to use as support, so dodging or changing direction to avoid the strike was all but impossible. It even prevented one from performing a truly powerful attack, since power was born from the ground beneath the soles of one's feet and traveled all the way up through their body, to the tip of their blade. </p><p> However, desperate times demanded desperate measures. </p><p> Falling, Sunny strained his muscles and drew his bow. Even that was much harder in the air, but he managed somehow. </p><p> As wind whistled in his ears and the ground rushed toward him with frightening speed, he opened the floodgates of essence and activated two enchantments. </p><p> One was [Death Dealer] of Morgan's Warbow. </p><p> The other was [Feather of Truth] of the Mantle of the Underworld. </p><p> ...Below, Saint was desperately fighting three Corrupted abominations. Her armor was covered by a net of cracks, and fine ruby dust was flowing through several of the breaches. </p><p> The enemy was on the verge of overwhelming the stalwart knight. </p><p> But then, an arrow that seemed to be forged out of pale gold flashed through the air and struck one of the tall Nightmare Creatures in the shoulder. The force carried by it was so great that his dark armor exploded into shards, and the arrow's sharp broadhead sunk into the flesh beneath. </p><p> No, more than that... </p><p> The abomination's whole arm was cleanly severed, taking a big chunk of the shoulder with it. Dark blood splattered on the snow as the Corrupted was thrown off balance, staggering back. The sight of it was both gruesome and spectacularly morbid. Updated 𝒏ov𝒆ls on 𝒏ov𝒆lbin(.)c𝒐m</p><p> ...And a moment later, Sunny landed on another Voiceless like a cannonball. There was no sophistication in this attack... he had simply turned himself into a living, breathing torpedo. </p><p> Making the Mantle of the Underworld weigh several tons with the help of the [Feather of Truth] and enlisting the help of gravity, he fell from high above and crashed right on top of a Corrupted Demon assaulting Saint. </p><p> The result was... earth-shattering. </p><p> The towering abomination was not exactly flattened, but it did topple like a house of cards, its armor bending and breaking. Both of them hit the ground with a deafening bang, Sunny on top. Something snapped with a nauseating crunch. The stones beneath them violently cracked, and a cloud of snow was thrown into the air by the shockwave. </p><p> Sunny was tossed aside and bounced off the ground before coming to a halting stop. If not for the Bone Weave, his neck would have been twisted at an unnatural angle... </p><p> '...' </p><p> But he was seemingly alive, and even in one piece. </p><p> '...Ouch.' </p><p> Just like that, in less than a second, two of the three Corrupted abominations were severely wounded and debilitated. However... </p><p> That was just the opening act of Sunny's arrival. Luckily, what came next did not require his active participation. It was a good thing, too... since he was not capable of doing anything at the moment. He needed a second or two to come back to his senses. </p><p> ...Maybe three. </p><p> Two shadows burst from his body. One of them wrapped itself around Saint, while the second one flew toward Nightmare. </p><p> The next moment, Saint's armor shone with dark radiance, and the ruby flames of her eyes slightly changed hew. Although Sunny was momentarily stunned, she was not. More than that, she did not waste even a split second, using the opening he had created for her to instantly launch a ruthless attack. </p><p> Radiating a sense of newfound power, the taciturn demon exploded forward. Before the disoriented Nightmare Creatures could react, she descended upon the Voiceless that Sunny had sent crashing into the ground. The Sin of Solace flashed, sliding through the wide crack in the damaged armor and piercing the demon's heart, then emerged from his back in a rain of blood. </p><p> As Sunny was struggling to stand up, the Spell whispered: </p><p> [You have slain a Corrupted Demon, Voiceless Prelate. ] </p><p> [Your shadow grows stronger.] </p><p> [You have received a Memory...] </p><p> That was all he needed to hear to regain his bearings and shrug off the disorientation. The world had stopped spinning. Everything hurt, but... what else was new? </p><p> The Cruel Sight was already weaving itself from a tenebrous mist, a second or two away from manifesting into reality. </p><p> Sadly, he did not have those seconds. </p><p> A black hand was already stretching toward him, its grasp promising nothing but suffering and death. Ghostly blue light was swirling beneath the inky skin. </p><p> Instead of Sunny's throat, the hand was met by the blade of the Moonlight Shard. The long stiletto pierced the palm of the abomination and then twisted, tearing it open. The ghostly light flowed out of the wound, clinging to the transparent blade, but failed to do any damage to it. </p><p> The cadence of the battle had drastically changed. </p><p> Before, Saint was fighting alone against three Corrupted abominations. Now, only two of them remained, and one was missing an arm, bleeding profusely from the terrible wound. </p><p> She was also not alone anymore. Sunny was by her side. </p><p> And the two of them... </p><p> Sunny pitted the fools who would choose to oppose them. </p><p> The Corrupted were strong and menacing, but they lacked the skill and tenacity of the Master and his Shadow. They also lacked a crucial quality - the ability to fight as one, seamlessly cooperating to achieve the result that was larger and more lethal than the sum of its parts. </p><p> Sunny and Saint, though... they had that quality in spades. They knew each other so well that there was no need for trivial things like words between them. Sunny did not even have to use Shadow Dance to understand his loyal demon's combat will perfectly. She was his Shadow, after all, and also one of the masters from whom he had learned the most. </p><p> Fighting back to back with Saint... ah, he had missed that feeling. She had been forced to act independently by the circumstances as of late, so they rarely received opportunities to enter battle together. </p><p> 'Let's kill these wretches fast and go help Nightmare...' </p><p> Brandishing the Cruel Sight and the Sin of Solace, the two of them faced the towering Corrupted. </p><p> They wasted no time to attack.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_918.html">Previous Chapter</a><a class="navigationButton next" href="chapter_920.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

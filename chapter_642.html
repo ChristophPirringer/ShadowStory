@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 642</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 642 Rude Awakening</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Bloodied and crazed, Lost from Light dragged his body across a vast plane of weathered stone, his sword scraping on the black rocks. Behind him, the shattered remains of a warship were being consumed by fire, painting the darkness of the night with an angry orange glow. </p><p> …In front of him, some distance away, a beautiful black steed stood on shaky legs, red foam falling from his mouth. The eyes of the tenebrous beast shone with a dreadful crimson light, but behind the boundless fury and hate, a deep sense of exhaustion hid there, mixed with confusion, resentment, and pain. </p><p> Lost from Light grinned. </p><p> "What... what are you waiting for? Come here! Come and take me, wretch!" </p><p> The stallion breathed heavily, streams of searing steam escaping from his nostrils. He snorted with anger, then lunged forward, lowering his head to skewer the enemy with sharp horns. His steel hooves rang sonorously, causing swarms of red sparks to fly off the ancient stone, and his black mane waved in the wind like a stream of pure darkness. </p><p> They clashed beneath the empty night sky… </p><p> And then, Lost from Light died. </p><p> …Or so he thought. </p><p> Instead of dissolving into darkness and being reborn into a new nightmare, he fell to the ground, causing the whole world to shudder. </p><p> 'What is this? Am I finally done for?' </p><p> He thought that he saw strange tears appear in the very fabric of reality... </p><p> And then, reality crumbled like a vast black veil. Everything around him — the stone island, the burning debris of the broken ship, even the lightless black sky — rippled and swayed, as a silk curtain that was being crumbled by an invisible, giant hand. A moment later, torn and broken, that curtain fell apart. </p><p> …It was a magnificent sight, to see a whole world disintegrating right before your eyes. </p><p> Some time later, Lost from Light found himself in a boundless darkness, surrounded by pure nothingness. His pain was no more… in fact, he didn't even seem to possess a body. Instead, he had turned into a formless shadow, with three orbs of black fire burning furiously in its depths. </p><p> Lost from Light laughed. </p><p> "What happened? Don't tell me… don't tell me that you ran out of nightmares, beast! Oh, what will you do now?!" </p><p> Instead of a response, something moved in front of him… behind him… all around him. </p><p> Out there in the darkness, there was another shadow. But this one… this one was deeper, vaster, and much more ancient. </p><p> It was full of malevolence and hatred. </p><p> As his voice echoed in the nothingness, the vast shadow suddenly surged forward, enveloping him. </p><p> And then… </p><p> Lost from Light… Sunny… woke up. </p><p> *** </p><p> Sunny rolled out of the bed, clutching at his chest. His gauntlet scraped against the onyx metal of the Mantle of the Underworld, and in the next second, he fell onto the cold stone floor, looking around wildly, his eyes full of confusion and fear. </p><p> "W—where am I? Another nightmare?" </p><p> He saw a terrifying snake coiled in a corner, pale moonlight glistening on its stygian scales, and a graceful knight in black armor standing guard at the door. For a moment, Sunny panicked, but then remembered who they were. </p><p> '...Saint? Soul Serpent?' </p><p> And then, he remembered who he was. </p><p> His pupils widened. </p><p> "I'm… awake." </p><p> The fragmented memories of the countless nightmares drowned his mind, each one more harrowing than the other. Some of them were already fading away, like dreams usually did… but some remained, almost as vivid and vibrant — and terrible — as when he had lived them. </p><p> Sunny shuddered and let out a stifled shriek. </p><p> For a few moments, his sense of self grew fragile, the madness of his nightmare self clashing against his actual being. But then, the real him, the one that was an Awakened fighter instead of a nameless being locked inside a neverending wheel of torturous nightmares, won over and absorbed the other… somehow. </p><p> It was a proper mess. </p><p> But Sunny had no time to pay a lot of attention to the chaotic and, without a doubt, dire process of his different divergent selves melding together. T/his chapter is updat𝓮d by nov(ê(l)biin.co/m</p><p> Because, as soon as he fell to the floor, he heard the painfully familiar sound... loud, threatening... drawing closer and closer. </p><p> The ringing of steel hooves on cold stone. </p><p> 'How…what…' </p><p> He was too disoriented and shell-shocked to gather his thoughts and understand what was happening. </p><p> He knew only one thing for sure. </p><p> ...The damned horse was coming! </p><p> Saint suddenly raised her shield and stared at the door, while the Soul Serpent silently blended with the shadows. </p><p> Sunny was already trying to stand up, a desperate thought trying to form in his mind: </p><p> 'Memory… I need to summon a Memory… I need a weapon…' </p><p> But he didn't get a chance to. </p><p> Just a moment later, the wall of the chamber suddenly exploded into a flood of stone shrapnel, and two furious crimson eyes appeared in the darkness behind it. </p><p> The black stallion… the Awakened Terror that had once been Shadow Lord's steed and companion… galloped into the chamber right through the stone wall and rammed into Sunny without slowing down one bit. </p><p> In the short moment before that happened, Sunny got a chance to get a good look at him. The creature appeared exactly as it had in the nightmares. </p><p> The stallion was tall and graceful, his coat as black as night and his eyes burning with menacing crimson light. Lean muscles rolled under his skin with each movement, making it glisten with dark luster. His hooves seemed to be forged out of somber adamantine metal, as were his curved horns and sharp, terrifying fangs. </p><p> The tenebrous steed seemed to be surrounded by shadows, his silhouette cloaked in their dark mantle. He was as beautiful as he was terrifying… </p><p> More importantly, the Terror was heading right for Sunny, with cold hatred burning in his dreadful eyes. </p><p> A split second later, the stallion rammed him at full speed. </p><p> 'Argh!' </p><p> The black horns failed to pierce the stonelike metal of the Mantle of the Underworld, but Sunny felt as though he was hit by a speeding train. His armored body was raised into the air and flung backward. </p><p> The courser carried him forward on the sharp horns, and a moment later, rammed into the other wall of the room, shattering it with Sunny's back. </p><p> Sunny felt another terrifying impact, and his vision momentarily went black. </p><p> …Surrounded by a cloud of stone debris, the two of them — the demon and the Terror — fell out of the jagged breach in the keep's outer wall and into the cool night air, plummeting down from the height of the abandoned castle's main tower. </p><p> 'Damned horse... why can't you just die?!'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_641.html">Previous Chapter</a><a class="navigationButton next" href="chapter_643.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

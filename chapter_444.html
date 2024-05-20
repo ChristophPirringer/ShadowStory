@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 444</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 444 Obsidian Tower</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 444 Obsidian Tower</p><p>Sunny stood naked on the rocky surface of the dark island. He grimaced and looked at his body, which was a map of burns — some more severe than others — then summoned the Puppeteer's Shroud.</p><p>Not wishing for the soft fabric to touch the worst of his wounds, he left it the way it had been during the latter stages of his journey through the Sky Below, with the leather elements gone and the upper garment undone and tied around his waist.</p><p>This time, his body was wrapped in shadows and appeared black, as if cut from the same obsidian that the dark island consisted of. The coils of the Soul Serpent seemed to shimmer as the essence flowed through them.</p><p>A moment later, Saint stepped from behind him and moved forward, summoning the Midnight Shard as she walked. Knowing how badly his soul was damaged, Sunny decided to keep the Broken Oath locked away for a while, so the Shadow was not surrounded by the destructive aura anymore.</p><p>He was also not in any shape to fight himself, at least not very effectively, and that was why the austere tachi was currently in the hands of the taciturn demon. If push came to shove, Sunny would either use the Moonlight Shard or command the Soul Serpent to assume the odachi form.</p><p>With a heavy sigh, he summoned the Endless Spring and greedily drank the cold water from it, then leaned forward and poured some on his head. After that, he finally felt like a human once again.</p><p>…All in all, things weren't that bad. He was alive and in one piece, suffering from neither thirst nor hunger.</p><p>Here on the dark island, the air was pleasantly warm. Bright stars burned in the empty void high above, making for a beautiful view. Right in front of them, the graceful silhouette of the Obsidian Tower rose from the ground like a black rift in reality.</p><p>It turned out to be much larger than Sunny had thought, but nowhere near the scale of the Crimson Spire. That cursed thing seemed to be too gargantuan to even exist, while the ancient pagoda was more or less fit to have been built for humans. Well… maybe for extremely tall humans. Or... tiny giants?</p><p>As Sunny studied the Obsidian Tower, Saint tilted her head and stared at the black pagoda, too, her ruby eyes reflecting some strange emotion. Was it… recognition?</p><p>Why would his Shadow recognize a tower hidden in the depths of the abyss below the Chained Islands?</p><p>'Strange…'</p><p>Sunny frowned, then dismissed the Endless Spring. He remained motionless for a few moments, then slowly headed toward the tall pagoda. Saint followed.</p><p>As they walked across the island, Sunny had time to look at the various ruins left on its surface.</p><p>It was hard to determine what they had been once, but Sunny got the feeling that he wasn't looking at the remains of buildings. More like… structures? Devices? Their purpose was now impossible to determine, but whatever it had been, he doubted that anyone could have ever lived inside.</p><p>The closest he could get to putting his feeling in words was that these ruins reminded him most of the bowels of the underground factory his mom had worked in when he was little. Even though the factory was much larger and built of alloy instead of cut blocks of obsidian, not to mention being much more advanced, the sensation was the same.</p><p>'...Just what was the purpose of this island? Who lived here? Who built that strange tower?'</p><p>The closer Sunny got to the Obsidian Tower, the more he was impressed by its graceful beauty. Even though the pagoda was hidden in the depths of the Sky Below, where very few creatures would have ever seen it, the unknown builder spent time to ensure that it replicated the magnificence of its Ivory counterpart perfectly.</p><p>It would have been breathtaking if it wasn't so… menacing.</p><p>Surrounded by nothing but emptiness and silence, the Obsidian Tower appeared ominous just by virtue of existing.</p><p>'I am not… not scared at all.'</p><p>He did, however, was thinking about one thing in particular…</p><p>Which tower was really the replica, and which one was the original?</p><p>The beautiful white pagoda that flowed high above the Chained Isles, or the menacing black one that hid in the darkness below?</p><p>Maybe he was going to find out…</p><p>Soon, Sunny and Saint approached the tall gates of the Obsidian Tower. Nothing attacked them, and no frightening sound came from inside, announcing that something that dwelled beyond the black gates was awakening in hunger. The pagoda was silent, just like the rest of the dark island.</p><p>The strange thing, though, was that Sunny could not feel any shadows on the other side of the massive door. Not because there weren't any, but because the walls of the tower seemed to shield the interior from his Shadow Sense.</p><p>A cold shiver ran down his spine.</p><p>'I have never encountered anything like this before. Have I?'</p><p>He hesitated, then approached the black door, summoned the Moonlight Shard, and scratched its surface. A layer of black dust fell down, revealing a much harder, and even blacker surface beneath.</p><p>Sunny raised an eyebrow.</p><p>'...Soot?'</p><p>The entire pagoda was covered in a thick layer of soot. He stood motionlessly for a bit, trying to understand what meaning was there in this fact, then simply shrugged and studied the ancient gate.</p><p>The problem he was facing… was that the gate didn't have a handle to open. Neither did it have a keyhole, a bell to ring, or a knocker to announce his arrival.</p><p>'How the hell am I supposed to open it?'</p><p>Without Shadow Sense, he couldn't use Shadow Step to simply appear inside. So, for the moment, Sunny was stuck.</p><p>'It would be very, very funny to travel all this way only to find out that I can't open a damn door. Right?'</p><p>Slightly embarrassed, he looked at Saint and asked:</p><p>"Any ideas?"</p><p>He didn't really expect an answer from the taciturn demon, but to his surprise, the Shadow stared at him for a few moments, and then lowered her sword.</p><p>Then, she raised one hand and pointed to her eye.</p><p>Sunny observed all of that in complete bewilderment, then blinked a couple of times.</p><p>'Eye? What does she mean?'</p><p>Then, an idea came into his mind.Get the l𝒂test 𝒏𝒐v𝒆ls at 𝒏ovelbi𝒏(.)co𝒎</p><p>Turning back to the door, he put one hand on it, and then shifted his gaze in a similar manner he did when looking beneath the surface of Memories to look at their spellweave.</p><p>And there, beneath the obsidian surface of the tower's gate, he saw it.</p><p>A weave.</p><p>It wasn't the weave of ethereal threads he was used to seeing, though. Instead, it was a much cruder and more primitive version of it, created from very physical diamond strings that stretched beneath the stone surface, creating a beautiful, but simple pattern.</p><p>Sunny had only seen this type of weave one time before.</p><p>Inside Saint herself.</p><p>Back when she was just an Echo, he had noticed it hidden behind the radiant pattern of the spellweave. He had thought that it was what made the stone warriors alive, in the first place.</p><p>That it was created by the last child of the Unknown in the cavernous halls of his dark domain…</p><p>And that it might have been the precursor of the Spell itself, or maybe an imitation of it.</p><p>Was this tower built by the Lord of the Underworld too, then?</p><p>…Sunny hesitated for a moment, then moved his hand to a particularly bright nod of the diamond weave and sent a small amount of shadow essence into it.</p><p>For a moment, nothing happened.</p><p>And then, the gates of the Obsidian Tower opened.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_443.html">Previous Chapter</a><a class="navigationButton next" href="chapter_445.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

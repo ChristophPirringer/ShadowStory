@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 786</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 786 Lifeline</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Soon, two bowls of delicious steaming ramen were on the table in front of them. Sunny had never invited anyone to taste his ramen, but he was quite pleased with the result. </p><p> His past of only eating synthpaste seemed so distant that he did not even want to remember it. </p><p> Both dug in and finished their portions in record time. Sunny drank the last of the fragrant broth and let out a delighted sigh. Nephis acted more reserved, but he could feel that she was very satisfied, too. </p><p> Putting the bowl away, Changing Star smiled slightly and looked at him. A hesitant expression appeared on her face. </p><p> A few moments later, she suddenly said: </p><p> "Be that as it may… while I was lost and wandering the Dream Realm, slowly forgetting what it felt like to be human… there was one thing I clung to that reminded me that all my prior life had not been just a dream. Do you know what it was?" </p><p> Sunny thought for a bit, then shrugged. </p><p> "I don't know. A Memory? Your sword, Dreamblade?" </p><p> She lingered for a few moments, then slowly shook her head. </p><p> "No. It was… you." </p><p> Sunny froze and stared at her with surprise. </p><p> "Huh?" </p><p> Nephis smiled slightly. </p><p> "Your runes. Although I could not know what was happening to you, Cassie, and the others, I could still feel connected to you through the runes. I could see that you were still out there, alive, and doing incredible things. The new Memories you received told me a little about what kind of enemies you fought. The speed at which your Aspect Legacy progressed told me how hard you were working to sharpen your battle skill. As long as I saw the runes, I knew that I had not imagined the past... and did not feel as alone." Get latest 𝒏ovel ch𝒂pters on n𝒐velbjn(.)c/𝒐m</p><p> She shifted, and then added: </p><p> "When I was bored, I liked to imagine what exactly happened to give you a sudden influx of fragments, what the Nightmare Creature that gifted you a Memory looked like, how you defeated it. Things… things like that. Oh… and I was bored often. While my journey was often full of hardship and dread, it could also be terribly monotonous sometimes. So… that was pretty much the only way I could entertain myself." </p><p> Changing Star looked at him, lingered for a moment, and then said: </p><p> "I know it was not really something that you did consciously. Still. I wanted to say… thank you. You helped me a lot, Sunny. You made it easier for me to keep going. I won't forget that." </p><p> He stared at her, suddenly uncomfortable. Then, he looked away in embarrassment and cleared his throat. </p><p> "Are... are you sure that you have not received counseling already? I mean, that doesn't sound like you. Very… uh… enlightened. Anyway… you're welcome, I guess." </p><p> Nephis smiled, and did not respond. </p><p> Sunny remained silent for a bit, and then forced himself to say: </p><p> "...Actually, I spent a lot of time staring at your runes, as well." </p><p> He looked at the floor. </p><p> "Granted, I was not exactly going crazy from isolation like you. Well… except for a short stretch of falling into a bottomless abyss all alone, I guess. But, the point is… to be honest, I was... I am... unsatisfied with the fact that you are so far ahead of me. Every time you gained a soul fragment, it urged me to try and get two. The stronger you grew, the more I wanted to become stronger, as well. A large part of those things I gained… was because of you. I guess you, too, kept me going. In a sense." </p><p> He fell silent, and then glanced at Nephis with a slightly bitter expression: </p><p> "Of course, no matter how hard I tried, I had never managed to catch up to you. Every time, I fell short. It did not feel nice at all. But it also forced me to try harder, I guess." </p><p> She studied his face for a few moments, and then shook her head. </p><p> "It is much easier for me to gain soul fragments. You know that. Even though I am still ahead, I suspect that you have fought, and slain, much more Nightmare Creatures than I have. In fact, I know you did." </p><p> Sunny smiled. </p><p> "Who cares? It's not a competition where you get rewarded for the effort. Only the result matters. In the end, a person is either strong, or they are weak. The stronger ones will always trample those who are weaker. Isn't that how the world works?" </p><p> Nephis looked down, then slowly shook her head. </p><p> "You are wrong. I think. Results matter, yes… but it's not like how you got there doesn't. Every victory you achieve teaches you a lesson. Every defeat you suffer teaches you even more. I guess it all depends on what you call strength." </p><p> Sunny grimaced. </p><p> "Well, let me ask you a question. Can you say that I am stronger than you?" </p><p> Changing Star stared at him with an even expression. Several seconds passed by, but she remained silent. </p><p> A dark grin appeared on Sunny's face. He sighed, and then collected the empty bowls to clean them. </p><p> "Effie doesn't seem to think that I am. According to her, I lack conviction. I don't even really know what conviction is and where does one find it, but even I can't honestly say that I am stronger than you. That should tell you something, considering... you know, my clear conscience." </p><p> Nephis lingered for a few moments, and then suddenly said in calm tone: </p><p> "You are stronger than you think you are." </p><p> Sunny put the bowls into the sink and turned on the water. </p><p> Standing with his back to her, he stayed quiet for a while. After some time, he started to wash the dishes and said: </p><p> "...Your counseling session is about to start. You should hurry." </p><p> She looked at his back for a few moments, then silently stood up and went away. </p><p> Sunny was left alone in the kitchen. He finished washing the bowls, put them on the drying rack, and wiped his hands with a towel. </p><p> Then, he glanced in the direction of the guest room, shook his head, and scoffed. </p><p> "Ah, who cares? Apparently, I am incredible…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_785.html">Previous Chapter</a><a class="navigationButton next" href="chapter_787.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

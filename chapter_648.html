@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 648</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 648 With Good Intentions</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div id="pf-8450-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "660f70227d1ca27afc9d2827", id: "pf-8450-1"})</script></div>
+<div></div>
+<p> A few minutes later, Sunny was staring at a table full of all kinds of delicious food. The table was situated on the upper deck of the flying ship, allowing for a breathtaking view of the shattered Kingdom of Hope below. </p><p> Being that high up in the sky, he couldn't help but feel a deep sense of discomfort. The fear of the Crushing was already deeply ingrained into his bones… however, the terrible curse that dictated the lives of everyone on the Chained Isles did not exist yet. He had nothing to worry about. </p><p> Or rather, he did not have to worry about that particular danger. There were plenty of other existential threats surrounding him, however. </p><p> The food had been served by obedient wooden dolls wearing tasteful silk liveries. Sunny was pretty sure that each of the animated mannequins had been a living creature once, their souls torn from their bodies and placed into the dolls by the person sitting across from him. </p><p> Taking a sip of a cooled wine, the person in question smiled brilliantly and gestured at the food. </p><p> "Come, Sunless! Enjoy." </p><p> Sunny hesitated for a bit, then reached out to put a few portions of several mouth-watering dishes onto his plate. He was careful not to touch the emerald amulet that lay in front of him, knowing that doing so would reveal all his thoughts to the damned sorcerer. </p><p> That thing… was maybe the greatest danger he faced. While the ability to communicate with people was something he had been thinking about from the first day of entering the Nightmare, sharing his every thought was not something Sunny was ready to deal with yet. </p><p> His Flaw had been constraining what he was able to say for a long time now, so his mind was a kind of safe haven for Sunny. For that reason, he had developed a tendency to run wild with his thoughts… revealing them all to a mad sorcerer was not a very great idea. </p><p> Noctis watched him eat with a carefree smile, then said in a friendly tone: </p><p> "By the way, great job killing that nasty horse! What a feat! What a gallant deed! Truly, vanquishing it was an exploit worthy of being sung about. But, Sunless…" </p><p> The sorcerer hesitated for a moment, then leaned forward and asked with a bit of exasperated desperation in his voice: </p><p> "Please tell me, why... why, for the love of the gods, did you kill the horse?!" </p><p> Sunny, who was taking a sip of cold water, spat it all out. </p><p> Coughing, he stared at Noctis with murderous fury burning in his bestial black eyes, then ground his fangs and put his palm on the emerald amulet. </p><div id="pf-8886-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d36c95a2f0a704fff59", id: "pf-8886-1"})</script></div><p> "...What the hell do you mean, why did I kill the horse?! You were the one who sent me into his damned lair! The horse was this close to becoming the end of me, what else was I supposed to do?!" Read latest 𝒏ov𝒆ls at n𝒐velbi𝒏(.)com</p><p> Then, he clenched his four fists and growled. </p><p> "The nerve of this bastard!" </p><p> Sunny, of course, meant for that last thought to remain unsaid, but sadly, one of his fists was still touching the enchanted amulet. </p><p> Noctis looked at him, blinked a few times, and then flung his hands into the air. </p><p> "I never meant for you to fight it! Do I look like an idiot? That horse destroyed hundreds of creatures much scarier than you, why would I send a mere demon to battle it?!" </p><p> Sunny opened his mouth, then closed it, then opened it again. Finally, he hissed: </p><p> "Yes. I don't know. Why did you send me into the fortress?" </p><p> The sorcerer gulped down his of wine, remained silent for a bit, then let out a bitter sigh. </p><p> "Oh, well… you know… I just thought that since you are both shadow creatures, it might have liked you. Didn't you know each other back when your master was still around?" </p><p> Sunny looked at the beautiful immortal for a few moments, then trembled slightly and covered his face with two hands. </p><p> 'That damn fool…' </p><p> This time, he was careful to not touch the amulet while thinking that. </p><p> The worst part of all of it… was that Noctis was not entirely unfounded in thinking that the black steed would not attack Sunny. The body he was currently inhabiting had, indeed, been acquainted with the stallion centuries ago, back when their Lord had been alive. </p><p> The problem was that Sunny had replaced the four-armed demon, and thus had no memory of knowing the black courser, while the courser himself had gone mad during the hundreds of years of solitude and only recognized his old companion seconds before death, when his madness receded for a few short moments. </p><p> So, all that horror, all the pain and torment he had gone through in the nightmares… was the result of a tragic and cruel twist of fate. It was just a series of wicked and disastrous coincidences, nothing more, and nothing less. </p><div id="pf-8887-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d55c95a2f0a704fff8b", id: "pf-8887-1"})</script></div><p> Sunny let out a low growl. </p><p> '...Forget it. It doesn't matter, anyway. Not now, and not anymore. The important part is… Noctis might look like an eccentric idiot, but he is anything but. If he wanted me to reunite with Shadow Lord's steed, there was a reason for that. What does he really want?' </p><p> He hesitated, then placed his hand back onto the amulet. </p><p> "...Why did you want me to meet that thing?" </p><p> The sorcerer remained silent for a bit, then smiled charmingly. </p><p> "Oh, right. By any chance… before you killed it… has Nightmare shared anything with you? The location of a certain glass knife, for example?" </p><p> Sunny snorted. </p><p> "Ah. So that's what all of this is about." </p><p> He took a bite out of a loaf of delicious freshly baked bread, chewed it unhurriedly, thinking about nothing at all, and then responded in a calm tone: </p><p> "Sure, there is something that I learned. Why?" </p><p> Noctis cleared his throat, glanced at the scenery, then back at Sunny. Finally, he said with a bit of visibly forced indifference. </p><p> "Oh? Well… would you mind sharing?" </p><p> Sunny stared at him for a bit, then grinned. </p><p> …With his bestial face and two rows of sharp fangs, that grin looked truly frightening. </p><p> "Would I mind, huh? That depends. Why do you want that knife?" </p><p> Noctis smiled with his usual carefree attitude, then waved his hand dismissively. </p><p> "Ah, it's nothing much. A small thing, really… you see, I just want to gather the knives, start a war against both the Ivory City and the Red Colosseum, kill all of the Chain Lords, defy the Lord of Light, break the will of gods, and release the Demon of Desire out of her prison. And then maybe have a cup of tea. </p><p> The sorcerer grew silent for a moment, and then added thoughtfully: </p><p> "Actually, on second thought, maybe I'll have the tea first…"</p>
+<div id="pf-8888-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d6bc95a2f0a704fffa3", id: "pf-8888-1"})</script></div>
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_647.html">Previous Chapter</a><a class="navigationButton next" href="chapter_649.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

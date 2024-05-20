@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1105</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1105 Step By Step</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The strategy meeting dragged on. The emissaries of the great clans seemed to be well aware of the situation on the infected continent - in fact, they seemed to have a clearer picture of what was going on than even Sunny did - but their understanding of the nuances of the Antarctica campaign was purely theoretical in nature. </p><p> Only Sky Tide and Dire Fang possessed practical knowledge of what it meant to fight against the land that was slowly being devoured by a tide of nightmares. The others were going to have to catch up, fast. </p><p> Still, they were not inexperienced people. Whispering Blade especially was a veteran of many wars - he had led the Knights of Valor into plenty of untamed regions of the Dream Realm, spending years in lengthy and harrowing campaigns of subjugation to expand the borders of human territory in that inhospitable world. </p><p> From that perspective, it was easy to understand why Anvil had chosen his brother to helm the conquest of the Tomb of Ariel. </p><p> Beastmaster was at least a decade younger than Saint Madoc, but she seemed no less of a seasoned tactician. Her exalted reputation had not appeared out of nowhere, after all. The lands controlled by the Song clan might not have expanded as dramatically as those ruled by Valor in the past two decades, but every region they did conquer had been a much more dire hell to surmount. </p><p> The tantalizing Saint was surprisingly soft-spoken and cordial. Sunny had expected her to be arrogant, aloof, and unapproachable, but she was actually quite easygoing. Her husky voice was pleasant on the ear, and her red lips were quick to twist into a small, but bright smile. </p><p> That smile was absolutely beguiling. </p><p> Seishan was actually not that much younger than Beastmaster. Even though she was not a Saint, she had spent more time braving the horrors of the Dream Realm than most Transcendents - a decade of surviving on the Forgotten Shore made her more than qualified to participate in this meeting. </p><p> The same went for Nephis. She might not have remained there as long, but her singular achievement of surviving close to two years of solitude in one of the most dire regions of the Dream Realm, eventually escaping it through a Nightmare Seed, earned her some respect from everyone present in the strategy room. </p><p> As for Morgan... no one except for Madoc knew much about her achievements and experiences, but they also did not really doubt her competence. Her mind was as sharp as her eyes, and her knowledge of warfare and strategy seemed almost supernatural. </p><p> The blood of War God flowed through her veins, after all. Sunny wouldn't be surprised if the Princess of Valor ended up being the most talented strategist among them. </p><p> So, each of them was more than capable of absorbing the new information about the perils and nuances of the Chain of Nightmares at a staggering speed. </p><p> ...Except for the unassuming bleak man, who had been introduced as Ascended Bast. Even his name was dull and unmemorable. </p><p> From what had been told about him, Ascended Bast was simply a retainer of the great clan Song. He was a part of their advance party because of a rare and useful Utility Aspect. Find the new𝒆st 𝒏ovels on n𝒐velbin(.)com</p><p> No one bought that explanation, though. </p><p> Sunny and Jet had been relegated to the role of silent observers, but even they spoke up from time to time, answering questions or sharing their personal experiences of fighting on the frontline. Bast, however, had not said a single word from the start of the meeting, remaining placidly in a corner and watching the proceedings with relaxed, aloof calmness. </p><p> '...Like a cat playing with a mouse.' </p><p> Sunny had never seen a cat, but he had met a few rats in the outskirts. As far as vermin went, rats were pretty scary... so a creature that made a hobby out of hunting and torturing them must have been really terrifying. </p><p> Still, there was a limit to how much he could stare at the bleak Master. </p><p> The discussion Wake of Ruin was having with the emissaries of the great clans was not that interesting, either. Sure, many important things were being talked about, but Sunny knew most of them. The rest, he could absorb by allocating a small part of his mind to the task, which was only made easier by the [Blessing of Mind]. </p><p> Eventually, his eyes settled on Nephis. </p><p> Sunny lingered for a while, then asked her through the mental link: </p><p> [What are you planning to do?] </p><p> He knew what the great clans wanted. He knew what the government wanted. He definitely knew what the Nightmare Creatures wanted, and he even somewhat knew what he himself wanted. </p><p> Changing Star, however, was a mystery. Her endgame was absolutely clear, but here and now? Sunny was not sure what Nephis wanted to get out of Antarctica. </p><p> She glanced at him briefly, then seemingly turned her attention back to the discussion of which force would be responsible for which area of East Antarctica. </p><p> Her response came a few moments later, and was very simple: </p><p> [...Survive.] </p><p> Sunny tilted his head a little. </p><p> [Quite a sober answer, coming from you. Where is the real Nephis and what have you done to her?] </p><p> The corner of her mouth twitched upward. That small change was so subtle that he doubted anyone except for him noticed it. </p><p> Neph lingered for a while. Eventually, she spoke - or rather, thought - in her usual even tone: </p><p> [Sunny... don't you think that life is pretty strange?] </p><p> Sunny blinked. </p><p> 'What has gotten into her?' </p><p> He wasn't used to hearing such questions from Nephis. </p><p> [Yeah, sure. Why?] </p><p> She maintained her poised appearance, pretending to pay attention to the conversation about the disposition of clan forces, as she answered: </p><p> [You've been through a lot in these past six months. The time before that must seem like a lifetime ago, for you. But for me... when I wake up, I still think that I am in the Nightmare, sometimes. For me, it feels like I was lost in the Dream Realm just yesterday.] </p><p> Changing Star paused, then continued after a few short moments: </p><p> [But I am not. I am a member of clan Valor now, I have a Citadel of my own, and dozens of Awakened are ready to follow my orders. That... was yesterday. Today, I am in the Southern Quadrant, preparing to wage war both on countless Nightmare Creatures and on the best of clan Song. Beastmaster is here, smiling at me politely. Whispering Blade is also here, watching my every move. All of it... it's a bit overwhelming.] </p><p> She turned her head and looked at him, her clear grey eyes looking a little... burdened. </p><p> [So, my plan is to take it one step at a time. One little step after another, until all my enemies are dead. And that is why... my first step is to survive.] </p><p> Nephis shook her head, then looked back to the map of East Antarctica, which was currently being carved between Valor, Song, and the government. </p><p> A few moments later, her voice resounded in his head once again, this time tinged with a hint of amusement. </p><p> [...Why, do you think that surviving this mayhem will be easy? It won't.]</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1104.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1106.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

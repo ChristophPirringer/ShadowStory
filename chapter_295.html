@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 295</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 295 The Duel</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<p>Chapter 295 The Duel</p><p>The breastplate of Neph's armor cracked from the force of Gunlaug's blow and there was blood streaming from beneath her helmet, but that didn't slow Changing Star one bit.</p><p>Jumping forward to meet the Bright Lord's assault, she dodged the blade of the battle axe, twisted, and tried to deliver a strike of her own. A furious clangor of metal exploded in the silence of the great hall, both fighters moving with incredible speed, precision, and skill.</p><p>In a span of several seconds, they exchanged numerous blows, but each was either deflected, dodged, or blocked. This terrifying clash was not at all like Sunny had imagined. There was nothing elegant, graceful, or elevated about it — all there was was barbarous violence and cruel brutality, each of the fighters doing everything in their power to break, cripple and kill their opponent.</p><p>Their voices sounded like that of wild beasts, partially from the incredible strain of the duel, but also to let out the suffocating bloodlust and murderous intent that were drowning their minds.</p><p>That was not to say that any one of them had lost control of their thoughts and actions. Both were cold-blooded killers and knew how to remain calm in the throes of the most terrible rage.</p><p>A few seconds later, Gunlaug and Nephis disengaged and staggered away from each other, letting the spectators draw in shaky breaths.</p><p>The Bright Lord's golden armor was pristine and unscathed. Nephis, however, had several bloody cuts on her body, the black material encompassing it torn and ripped. Another crack appeared on one of her pauldrons. She glanced at it briefly and then indifferently turned back to watch her enemy.</p><p>Everyone in the throne room, in one way or another, was thinking about the same thing, a cold and sickening feeling slowly spreading through their chests. How would they fare in such a fight themselves? The answer was simple — they would have been long dead, eviscerated in mere seconds by one of these awesome fighters.</p><p>Everyone felt death breathing down their necks.</p><p>Among all the people watching their fight, however, there were two who observed Changing Star's every move with a special kind of attention. They were Sunny and Caster.</p><p>Their reasons were studying how Nephis fought were entirely different, but also almost the same.ALL new 𝒄hapters 𝒐n nov(𝒆)lbin(.)com</p><p>…Just a second of rest, and the two fighters lunged at each other once again. This time, however, their behavior was different.</p><p>The first clash was just a test to gauge what the enemy was capable of. Now, they were not holding anything back, throwing everything they had at the enemy.</p><p>At least that was how it seemed.</p><p>Changing Star's sword suddenly flashed with brilliant radiance. Removing one hand from the hilt, she grasped the incandescent blade with her armored gauntlet at the middle to better control its tip and raised it to shoulder level. With Gunlaug's ability to change the length of his weapon at will and almost impregnable armor, this grip was more advantageous.</p><p>The Bright Lord absorbed the battle axe back into his armor. Then, two straight blades grew out of his forearms, creating weapons that resembled long, heavy punching daggers.</p><p>They clashed once again, this time with even more fury. The people pressing themselves into the walls of the throne room trembled.</p><p>Nephis seemed to abandon a lot of her defense, willing to take much bigger risks to obliterate the enemy. The reach of her sword was much shorter now, but the silver blade also grew much more agile and unpredictable. Gunlaug's daggers were a true menace to resist, however. They flew at her from all sides, either in tandem or in a staggered rhythm, making it hard for the young woman to predict and deflect each blow.</p><p>But she wasn't trying to.</p><p>Changing Star seemed willing to receive many shallow wounds to get a chance to land a strike on her opponent. More bloody lacerations appeared on her body, the Starlight Legion Armor barely holding together.</p><p>But she achieved her goal, in the end.</p><p>Catching one of Gunlaug's daggers between the blade of her sword and her body, she forcefully twisted the sword sideways and caused him to turn his torso. Then, Nephis sidestepped and suddenly appeared behind the Bright Lord, with a fraction of a second left before he could turn around and defend himself.</p><p>Her incandescent sword finished its arc high above her head, and, changing back to the standard grip, she brought it down with all her strength on Gunlaug's shoulder.</p><p>The radiant white blade flashed through the air and bit into the golden armor.</p><p>...And then, it slid fruitlessly off its bright surface, not leaving even a scratch on it.</p><p>'Damn it all!'</p><p>In the next moment, Gunlaug threw the sword to the side with one arm and delivered a terrifying blow with the other, his dagger aimed at Neph's face. She managed to turn her head at the last moment, avoiding instant death, but was still caught by the enemy's fist.</p><p>The impact was so strong that Changing Star was thrown backward several meters. The helmet had shattered completely, revealing a pale, bloodied face, with bits of metal piercing the skin. She rolled several times and came to a stop, then rose to her feet with some effort. The white flames dimmed a little, and there was a dark, disoriented emotion in her eyes.</p><p>The gem of the Dawn Shard shone gently right above them, illuminating Neph's wounded face.</p><p>A moment later, she dismissed what little remained of the helmet and stared at Gunlaug with resentment, blood running from the cuts on her cheeks.</p><p>The Bright Lord laughed and made a step toward Changing Star, his voice echoing under the roof of the great hall like a death sentence.</p><p>"What? That was all?"</p><p>Nephis did not answer. Instead, she placed both hands on the blade of her sword, holding it with its hilt and crossguard up, like a makeshift mace.</p><p>The radiance of the silver sword spread to encompass all of it.</p><p>But it didn't stop there.</p><p>Sunny opened his eyes wide.</p><p>'What?!'</p><p>The furious white flames spread from the sword to Changing Star's hands, her arms, and then devoured her figure completely.</p><p>But they weren't burning in the white, cracked metal of the Starlight Legion Armor.</p><p>Instead, the brilliant radiance was emanating from her skin.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_294.html">Previous Chapter</a><a class="navigationButton next" href="chapter_296.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

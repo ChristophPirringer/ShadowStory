@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 763</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 763 Dangerous Questions</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> They were walking past a painfully familiar building when the realization that the complicated dance of negotiating with the great clan had already begun hit him. </p><p> As his face grew a little dim, Sunny lingered for a moment and then gestured at the building: </p><p> "This is the hospital complex of the Academy. It is one of the best medical institutions humanity has to offer, combining state-of-the-art tech with ingenious spelltech, as well as employing many Awakened with actual healing Aspects. This is also where Sleepers enter the sleeping pods to venture into the Dream Realm. I myself spent about a year in one of them." </p><p> He paused, and then added: </p><p> "This is where many of the Hollow are kept, as well." </p><p> Morgan looked at the alloy walls of the complex. A few moments later, she suddenly asked: </p><p> "This is also where Changing Star of the Immortal Flame clan is currently being kept, isn't it?" </p><p> Did Sunny imagine it, or was her voice suddenly a bit more cutting? </p><p> He frowned. </p><p> "She is not Hollow. But yes. Oh, by the way… can we cut the crap?" </p><p> Morgon looked at him with a cold smile. </p><p> "...What do you mean?" </p><p> Sunny met her intimidating gaze without flinching. If he wanted, his dark eyes could be as cold and oppressive as hers. </p><p> In fact, the complete absence of fear or apprehension in their black depths was perhaps more frightening. </p><p> "I doubt that you are really interested in sightseeing. Let's not waste time." </p><p> Morgan studied him for a moment, then chuckled. </p><p> "As you wish, Master Sunless. Let us get the formalities out of the way first, then." </p><p> She pierced him with a sharp gaze and asked: </p><p> "Did you come to the Night Temple with the intent to set its prisoner free?" </p><p> Sunny knew that the daughter of Valor had to have plenty of Memories on her to discern whether the answers provided to her were true or not. Not that he could lie even if he wanted to… </p><p> He looked at her with a deep scowl and uttered through gritted teeth: </p><p> "Of course not! If I knew, I would have stayed as far away from your damned Citadel as possible. I didn't even know that it was a prison, let alone had plans of breaking the bastard free." </p><p> Morgan lingered for a moment, then turned to Cassie: </p><p> "What about you, Song of the Fallen?" </p><p> The blind girl's face grew dark. </p><p> "You have no reason to trust our motives, true, but at least don't disrespect our intelligence. If we really wanted to set that monster free, we would have found a way to do so without getting stuck inside the trap with him, don't you think? Both Sunny and I only escaped that disaster alive because of Saint Tyris. If she had not happened to be nearby, we'd be dead… or worse." </p><p> Morgan tilted her head a little, then suddenly smiled. </p><p> "Alright! I believe you. Still… intentional or not, the two of you caused great harm to clan Valor." </p><p> Sunny inwardly sighed. </p><p> Just like that, the hardest part of the negotiations seemed to be over. Now, the long and arduous process of bargaining was about to begin. The end result was still very much unclear. </p><p> Sunny and Cassie had to withstand the pressure and exert some in return. Aside from deciding their own fates, they also had to secure the release of the captured Fire Keepers, as well as negotiate other favorable terms. </p><p> That… was not going to be easy, especially against someone like Morgan. The most important part was to make sure that they would be the ones setting the tone and cadence of the negotiation, as opposed to following what their opponent said. </p><p> They had to go on the offensive. </p><p> He forced out a confident smile. </p><p> "Can we not do that? Assigning blame is fun and all, but let's be honest… clan Valor needs us more than we need clan Valor." </p><p> Morgan raised an eyebrow. </p><p> "Do we? What makes you say that?" Explore 𝒖ptod𝒂te stories at no𝒗elbin(.)c𝒐m</p><p> Sunny shrugged. </p><p> "We might not have helped that maniac escape, but that doesn't mean that he did not have help… or that he is not trying to find help as we speak. In fact, he might be having an identical negotiation with one of your enemies right now. He doesn't have fifty of the most talented Awakened of this generation backing him, though." </p><p> Morgan's eyes grew even colder than before, making him shiver a little. </p><p> "Oh? What do you think about that, Song of the Fallen?" </p><p> She turned to Cassie, but strangely, the blind girl was not there. </p><p> At some point, she seemed to have fallen behind. Cassie was standing a few meters away from them, still facing the hospital complex. </p><p> She was as pale as a ghost. </p><p> As a dark premonition suddenly grasped his heart, Sunny quickly stepped toward her and asked, his voice ringing with tension: </p><p> "Cassie? What is it? What's wrong?" </p><p> The blind girl remained silent for a few moments. Her hand suddenly moved, as if trying to find the pommel of the Quiet Dancer. </p><p> Then, still facing the hospital, she opened her mouth and whispered: </p><p> "Fire…" </p><p> …In the next moment, the ground beneath their feet quaked. </p><p> *** </p><p> Deep underground, in a heavily protected room, a sleeping pod was glowing softly in the darkness. </p><p> Inside, a young woman with silver hair slept, her face pale and still. </p><p> Then, however, her eyes suddenly began to move beneath the eyelids, as if she was experiencing a terrible nightmare. A strange heat suffused the air. </p><p> A split second later, something flashed. </p><p> The room was instantly engulfed in furious flames. </p><p> The armored door flew off its hinges and melted in the air, turning into a spray of liquid metal. The reinforced alloy walls cracked. The sleeping pod was violently torn to pieces. </p><p> The force of the explosion was so dreadful that a destructive shockwave rolled through the whole level, causing incredible damage. Loud alarms screamed, and as the lights went off, emergency lamps ignited, drowning the burning corridors in a dim red glare. </p><p> That light was almost instantly outshined by the angry glow of the spreading fire, however. </p><p> …In just a couple of seconds, the most protected level of the hospital complex was utterly devastated.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_762.html">Previous Chapter</a><a class="navigationButton next" href="chapter_764.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 954</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 954 Only Darkness</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Because of how close they were to an active Gate, the internal communications barely worked across the convoy. However, Sunny had been prepared for something like that. </p><p> Translating his thoughts to the Extraordinary Rock, he sent a short message to Luster:"No matter what happens, continue forward and don't slow down. I'll catch up with the convoy later."'...Hopefully.' </p><p> He shot past the column of vehicles, heading in an entirely wrong direction. What kind of madman would be riding toward a Fallen Titan? Sunny only had enough time to notice frightened expressions on the faces of the Irregulars, who stared at his flashing silhouette in shock, and then the convoy was somewhere behind him. Getting further and further away. </p><p> The towering shape of Goliath, on the other hand, was drawing closer. Looking at the approaching titan, Sunny shivered. </p><p> 'Can I kill a titan?' </p><p> He was honestly not sure. One thing he did know, though, was that he wouldn't be able to kill this particular titan. </p><p> If Sunny had time to study Goliath, learn his weaknesses, and prepare, then things might have been different. But Army Command knew very little about the stone monstrosity, and so, he knew even less. If the two of them fought to the death, there was no question of who would end up dying. </p><p> Luckily, Sunny did not have to make a heroic last stand. He was no hero and had no plans of being killed any time soon. And so, his goal was not to destroy the colossal creature... he just wanted to slow the big bastard down. </p><p> If the convoy was given time to get away, there was a good chance that Goliath would not follow them. A bit further north, a long stretch of the highway was built under overhanging cliffs, so the giant's enormous size would become a hindrance. Unless Goliath was ready to smash through many kilometers of solid rock or dive back into the ocean, he was going to have trouble keeping up with the swift vehicles. </p><p> And even if he was ready to wreck the whole mountain range, that would also slow him down. </p><p> A few minutes... Sunny just had to buy the convoy a few minutes. </p><p> '...How the hell do I stop a titan for a few minutes, though?' </p><p> Nightmare stopped in the middle of the road, dwarfed by the nearing silhouette of Goliath. Sunny stared at the stone giant, shivering as he felt the inhuman gaze fall on him in return. The weight of it was almost palpable, pressing him down like an echo of the Crushing. </p><p> There was a stretch of the quaking highway left between them, but with the creature's colossal height, it was going to be covered in just a few steps. </p><p> Sunny took a deep breath, and then forced his wildly beating heart to calm down. </p><p> Jumping off his steed, he walked a small distance forward and stopped, his face full of defiant spitefulness. </p><p> "You really shouldn't have done this during the night, blockhead..." </p><p> With that, he sent his essence forward. </p><p> On the slopes of the mountains and on the dark ribbon of the ocean shore, the mass of shadows moved, coming to life. Then, a thick black chain shot from the darkness, wrapping itself around one of the titan's arms. </p><p> It was followed by another, and another. Dozens of dark chains flew from the ground, the mountain slope, and the edge of the coast, shackling Goliath's arms and legs. Sunny was utterly focused, his eyes drowned by deep shadow. His essence surged and flowed like a tide, saturating the deep darkness of the polar night. </p><p> He was burning through all of it without looking back, knowing that nothing but would be enough for the impossible task. </p><p> ...Fortunately, if there was one thing he knew all about, it was chains - both literal and metaphorical. He might have not learned how to escape every chain just yet, but he had learned about being bound a long time ago. </p><p> At first, Goliath did not seem burdened by the shadow chains at all. He continued moving forward, dragging them along. He did not even show a sign of noticing them. </p><p> However, Sunny was not done. A crooked grin appeared on his pale face, and suddenly, it seemed as though the night itself had come to life. Countless chains shot toward the towering titan, binding his limbs. </p><p> Where there were dozens, there were now hundreds. Sunny felt as if his brain was on fire, and wasn't quite sure how he was managing to keep this many manifested shadows shaped, tangible, and strong at the same time. </p><p> But he was doing it, and more than that, new chains appeared from the darkness every second. Goliath looked like he was carrying a forest of them on his body, anchored to the ground so thoroughly that, finally... </p><p> The titan's march slowed down. </p><p> Just a little bit at first, but then more and more. The towering monstrosity lowered his torso and pushed forward, a hint of irritation appearing in his bearing. But the more he pushed forward, the more the chains held him back. </p><p> And there were new ones appearing every moment, wrapping themselves around him like snakes. </p><p> In the end, the titan came to a stop just a few dozen meters away from Sunny, less than a step, bent low and utterly immobilized. The shadow chains groaned, cracking as if on the verge of snapping, but held. </p><p> From the side, it looked as if the giant was trying to kneel in front of a defiant ant. </p><p> Sunny let out a shaky breath, and then swayed slightly, feeling drops of blood falling from his nose. His essence was disappearing at a terrible rate. At this point, he wouldn't be able to sustain the hundreds of shadow chains for long... but no matter how much time that was going to buy, it was already enough. </p><p> ...Probably. </p><p> His mind was somewhat hazy. </p><p> I think I overdid it this time...' </p><p> And when had the whispers of the Sin of Solace gotten so loud? </p><p> Right now, Sunny felt like he could make out what they were saying. </p><p> No... he definitely could. </p><p> The cursed sword whispered into his ear, its voice indistinguishable from his own. It only said one word: </p><p> "Useless." </p><p> Sunny's eyes widened slightly. </p><p> In the next moment, dozens of chains wrapped around one of Goliath's legs snapped with a deafening crack. </p><p> 'Oh.' </p><p> The titan's foot shot forward with astonishing speed and smashed into Sunny with the weight of a mountain. </p><p> There was the howling of the wind and indescribable pain, but mercifully, it did not last long. </p><p> Then, there was only darkness. Follow 𝒏ewest stories at n𝒐velbin(.)com</p><p> </p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_953.html">Previous Chapter</a><a class="navigationButton next" href="chapter_955.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

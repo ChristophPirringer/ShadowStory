@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 166</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 166 Light And Shadows</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 166 Light And Shadows</h4> <p> Changing Star frowned. There was a hint of surprise visible in her cold, grey eyes. </p><p> "My… goal? Isn't it obvious?" </p><p> She gestured to the slum that surrounded them and the magnificent castle towering above it. </p><p> "I'm trying to help these people. What else?" </p><p> Sunny sighed. </p><p> Then, turning his face away, he asked: </p><p> "Hey, have I ever told you about my sister?" </p><p> Nephis blinked. </p><p> "No. Why bring this up all of the sudden?" </p><p> He smiled wistfully. </p><p> "I just was reminded of her recently, so I thought I'd share. You see… our parents died when we were little. She got adopted, but I ended up on the streets. Life wasn't really sweet for me. In fact, it was nothing but unsavory and bitter. So, young as I was, I simply imagined that it was the same for her. That's why I got obsessed with the idea of finding her. I had this fantasy in my head, you know, of saving and protecting her. Becoming a family again." </p><p> Sunny grimaced. </p><p> "But how could a penniless undesirable like me find anyone? You know how the city databases are. Even if they're functional, unsealing anything requires you to be a citizen, and one of a considerable rank, too. However, I was ready to do anything to accomplish my goal. So, I saved up money. A street kid can't earn much, but even then, I saved up as much as I could." </p><p> A dark expression appeared on his face. </p><p> "Even if I had almost nothing to eat, I would keep putting away the pathetic amount of credits I had earned through doing all kinds of horrid crap. And after four or five years of this, by the time I was nearly seventeen, I finally had enough to hire a private investigator." </p><p> He smiled. </p><p> "You see, there was this detective who sometimes hired us nobodies to gather information for him. His services weren't cheap, but I trusted him. Or in him, at least. So I gave all my money to that guy and told him to find my sister. And you know what? He did. One day, about a month after we made the deal, he gave me a piece of paper with an address written on it. So I went there." </p><p> Nephis hesitated for a few moments, then asked in a quiet voice: </p><p> "So what happened? Did you meet your sister?" </p><p> Sunny rubbed his face, glanced at the sky, and said: </p><p> "Sort of. I actually met her near the tram terminal. Only at that time, I didn't recognize her. You see, despite my lofty ideas of being her savior, I couldn't even really remember what she looked like. There was this girl, around twelve years old, wearing a tidy school uniform. She was walking in the same direction as me. I only realized that it was her after she entered the house from the address." </p><p> He was silent for a while, then continued, his voice strangely emotionless: </p><p> "It was already dark. I think it was raining. The house was situated in a really nice district. They actually had the whole house to themselves. Just one family living in it, can you imagine? Well, I guess you can. Anyway… there was even a lawn. And a window… a big window that shined light outside. Watching them through that window was almost like watching a television show." </p><p> Sunny remembered the splendor of it, his own embarrassing astonishment, and tried to smile. However, he failed. </p><p> "Standing in the shadows just outside the edge of that light, I observed her family for a while. She had parents who loved her and treated her well. She had real food, and enough of it to never go hungry. She had pretty clothes and expensive textbooks. She even had cute younger siblings. They were all smiling, laughing, and having a great time together." </p><p> Neph looked at him and asked: </p><p> "So what did you do?" </p><p> Sunny didn't answer immediately. Instead, he remembered how he just stood there, watching those happy people. How he looked down at his own frail body, his dirty and ragged clothes, the bruises on his bloodied knuckles. And realized how utterly out of place he was in that picture. </p><p> After years of dreaming of finding his sister and saving her, he was faced with the simple fact that she… she never really needed him. She probably didn't even remember that he existed. More than that, returning into her life would not bring anything good to her. He didn't have anything pleasant or beneficial to offer. He could only make things worse. 𝑅ead latest ch𝒂pters at n𝒐velbi𝒏(.)co/m</p><p> [Do you want to read more chapters ? Come to Panda-novel,com] Out there on that dark and rainy night, while Sunny was standing in the shadows, something in his heart was extinguished forever. Something inside him died. </p><p> No matter what kind of situation he would find himself in after this, nothing would really compare to the darkness he felt in that single moment. </p><p> After remaining motionless for a long time, he slowly backed away, turned around, and walked into the darkness. </p><p> …A few days after that, he began showing the first symptoms of being infected by the Nightmare Spell. </p><p> And the rest was history. </p><p> Shaking off the unpleasant memories, Sunny pretended to be carefree and shrugged. </p><p> "I did the only selfless thing that I have ever done. I turned around and went away. Do you know why?" </p><p> Nephis slowly shook her head. </p><p> Sunny grinned, the anger finally finding its way into his eyes. </p><p> "Because even a cretin like me was able to realize that the person he wanted to save didn't need his saving. So please tell me, Neph, why is it that you, with all your intelligence and clarity, can't seem to do the same?" </p><p> She stared at him, a deep frown appearing on her face. </p><p> "Are you implying that I lied about my intention to help these people? If so, you are wrong." </p><p> Sunny clenched his fists. Before he could stop himself, words flew out of his mouth. </p><p> …No. To be completely honest with himself, he had to admit that he simply did not want to stop them. He was too exhausted, hurting, and shaken to keep playing this game with Neph. It was time to bring everything to light. </p><p> Maybe then, he would be able to regain clarity. </p><p> Glaring at Changing Star, Sunny spat: </p><p> "...Fuck you, Neph." </p><p> She blinked. </p><p> "What?" </p><p> He smiled crookedly. </p><p> "I said go fuck yourself with that bullshit… Saint Nephis. You might have fooled everyone else, but I know you. I know you better than anyone else. So I don't buy your whole savior act even for a second." </p><p> Sunny repeated her gesture, pointing at the surrounding hovels. </p><p> "Help these people? Please! What are you going to help them with? Help them turn into corpses? You and I both know how this ends. Cassie already told us. Fire and rivers of blood, right? Is this what you're planning?" </p><p> Nephis stared at him, a dark expression written on her ivory face. Her cold grey eyes weren't calm anymore. Finally, there was a burning emotion in them. Was it… confusion? Pain? Disappointment? </p><p> She opened her mouth, then closed it again. Then, Changing Star slowly shook her head. </p><p> Finally, she seemed to find the right words. Looking Sunny right in the eyes, she slightly raised her chin and said: </p><p> "...Fine. You got me."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_165.html">Previous Chapter</a><a class="navigationButton next" href="chapter_167.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

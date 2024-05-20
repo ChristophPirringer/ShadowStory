@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 353</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 353 Light Bringer</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 353: Light Bringer</p><p>The runes shimmered in the tranquil darkness of the silent sea.</p><p>Name: Nephis.</p><p>True Name: Changing Star.</p><p>Just as Sunny had suspected, that True Name hid many meanings. It didn't describe a star that was always changing, but instead a star that caused change. However, there were a lot of words for change in the runic language, each hiding a unique meaning.</p><p>The one used here meant a cataclysmic change that brought ruin and disaster; sometimes bad and sometimes good, but always cruel and calamitous, wreathed in misfortune.</p><p>So, in a sense, Nephis was neither a Star of Change nor a Star of Ruin, but both; the two went hand in hand, inseparable, destined to bring both salvation and damnation to those touched by her light.</p><p>…Just like what had happened to the doomed Dreamers of the Dark City.</p><p>The Spell was really good at giving names, it seemed.</p><p>Thinking of his own True Name somberly, Sunny read further:</p><p>Rank: Dreamer.</p><p>Class: Demon.</p><p>Soul Cores: [3/7].</p><p>Soul Fragments: [2749/3000].</p><p>He stared at the last two strings, a dark expression written on his face.</p><p>'So this… this is how far ahead of me you are.'</p><p>Then, with a heavy sigh, he looked away.</p><p>Many events of the past few months made sense now. During the fight against Gunlaug, Nephis had already been a Dormant Monster — just like he was right now, a Dreamer in possession of two Cores. It was because she had known that killing the Bright Lord would push her toward the third that she asked him to prevent Caster from attacking her in that moment of weakness.</p><p>…And in the time since, Changing Star had almost reached the fourth.</p><p>'How was she so fast?'</p><p>Sunny had made a conscious choice to avoid saturating his core during the civil war in the Bright Castle. In hindsight, this decision had turned out to be a wrong one… or maybe not. If he had collected all thousand shadow fragments back then, he might have been dead already, killed by one of Tessai's Guards or a Nightmare Creature while completely incapacitated by the formation of the second Shadow Core.</p><p>Hell, he would have been crushed to death by a piece of falling granite if not for the [Soul Conduit] suppressing the process at the best possible moment.</p><p>…Just as always, terrible misfortune had come together with incredible luck.</p><p>But even if he had come to possess the Monster Core back then, he would have never managed to create a third, let alone get this close to the fourth one.</p><p>It was because Nephis had one big advantage over him in the matter of collecting essence.</p><p>Like every Awakened except for Sunny, she received a certain portion of the enemy's accumulated soul essence when killing a fellow human, while he received only a single shadow fragment… or a few, at best, if the enemy was of the higher Rank than him. Which hadn't happened yet, but was inevitably going to, considering his luck.</p><p>The war against Tessai and Gemma must have been a true feast for Changing Star. Especially when slaying those experienced members of the Host that had long saturated their cores themselves.</p><p>She was always on the frontline, after all. Fighting, killing, leading her followers…</p><p>Sunny grimly stared into the darkness for a while, then slowly turned back to the runes. His eyes slid lower…</p><p>Memories: [Dream Blade], [Starlight Legion Armor], [Dawn Shard], [Dark Wing], [Nameless Sun]...</p><p>There were a few utility Memories, too, including [Evertwine] — the golden rope he knew so well. But Sunny did not pay them a lot of attention. His sight was attracted to the Nameless Sun. What was that Memory and why hadn't he seen or heard of it before?</p><p>Memory: [Nameless Sun].</p><p>Memory Rank: Ascended.</p><p>Memory Tier: VI.</p><p>Memory Type: Weapon.</p><p>Memory Description: [For a long time, the Nameless Sun suffered in solitude, longing for all the things that were lost. Only when she lost that longing, too, was the Crimson Terror of the Forgotten Shore finally born.]</p><p>His eyes narrowed.</p><p>'So… she received a Memory after killing the Vessel, after all.'</p><p>An Ascended weapon of the sixth tier… Sunny wished that he could see its weave and learn what enchantments that terrible Memory held. Whatever they were, however, the Nameless Sun was bound to be extremely powerful.</p><p>But was it enough to help Nephis survive in the ruthless hellscape of the Dream Realm? He did not know.</p><p>Frowning, Sunny continued to read the runes.</p><p>Echoes: —</p><p>Attributes: [Dreamspawn], [Nephilim], [Flame of Divinity], [The Fire].</p><p>[Dreamspawn] Attribute Description: "You are born of two worlds, belonging to both, but welcomed in neither. Your soul exists on the edge between nightmare and reality."𝒩ew 𝒏ovels upd𝒂tes on nov𝒆lbi𝒏(.)com</p><p>[Nephilim] Attribute Description: "There once were terrible creatures born of an unholy union between the divine and the profane. Nephilim were the most beautiful, and the most harrowing of them all."</p><p>[Flame of Divinity] Attribute Description: "Your soul is aflame with the light of divinity."</p><p>[The Fire] Attribute Description: "You have inherited the lineage of Sun God."</p><p>He hesitated for a bit, studying Neph's Attributes.</p><p>'So that's how it is…'</p><p>Sunny had always wondered what was her innate Attribute — the one that was at the center of all the rest, the core of her being, just like his [Fated] trait. He often thought that it was tied to drive, battle prowess, or will.</p><p>But it was not.</p><p>Instead, Neph's innate Attribute was called [Dreamspawn] and tied to her nature as a child of a Hollow mother. In a sense, she was connected to the Dream Realm — and the Nightmare Spell — from before she had even been born.</p><p>Her core trait was duality.</p><p>If his guess was correct, that duality was further expressed after Nephis had conquered her First Nightmare and received her Aspect, as well as a new Attribute — [Nephilim]. Once again, it described a half-blood creature: half divine, half profane.</p><p>Half deific, half… Unknown?</p><p>Suddenly, he remembered how Changing Star had stopped and stared at the depiction of a radiant being engraved into the walls of the ancient mine below the Hollow Mountains.</p><p>Was that creature one of the nephilim? Or a fallen angel, from whom nephilim were supposed to be born? After all, the similarity between that creature and her own powers was hard to deny.</p><p>And then there was the last Attribute, [The Fire].</p><p>Sunny rubbed his face.</p><p>A Lineage Attribute, somewhat similar to his own Blood Weave. Finally, the meaning behind that word became clear: Lineage Memories akin to the [Drop of Ichor] were able to impart Awakened with unique Attributes that, unlike the usual ones, seemed to be hereditary. They could be passed down through a bloodline, and at least one of the great Legacy clans — the almost destroyed Immortal Flame — possessed one.</p><p>Did all great Legacy clans — like Song or Valor — possessed one, too? Was that what allowed them to rise to the very top of humanity and claim their place as great clans, in the first place?</p><p>'Those bastards have so many secrets.'</p><p>Sunny also couldn't help but notice a slight difference between [Blood Weave] and [The Fire]. While the latter was described simply as "lineage", the former was described as a "forbidden lineage".</p><p>What exactly made Blood Weave forbidden? Was it because it didn't come from a proper deity like Sun God, but from mysterious Weaver, who was a daemon? Had no one except for gods been allowed to leave behind a Lineage?</p><p>The Blood Weave was also described as a "partial" lineage, while The Fire was not.</p><p>"Questions, questions…'</p><p>With a sigh, Sunny turned to the runes once again.</p><p>Aspect: [Light Bringer].</p><p>Aspect Rank: Divine.</p><p>Aspect Description: [You are a creature of light that was banished and doomed to exist in the darkness. You bring radiance and warmth to wherever you go, but with it comes indescribable longing.]</p><p>Aspect Ability: [Soul Flame].</p><p>Ability Description: [Your soul burns with the purest of flames. That flame can both restore and destroy, and is both a blessing and a curse.]</p><p>Innate Ability: [Halfbreed.]</p><p>Ability Descriptions: [You can directly absorb a portion of the soul essence of any Nightmare Creature destroyed by your flames, as well as of any human.]</p><p>Flaw: [Pristine Soul].</p><p>Flaw Description: [You must suffer to use your power.]</p><p>Sunny dismissed the runes and was motionless for a while, thinking.</p><p>The name of the Aspect, Light Bringer, could be translated in several ways. The first rune could mean both light and fire, and the second meant either to bring or to bear, depending on context. So it could have been Fire Bearer as well, not that it made any difference.</p><p>The rest he had already known or suspected, so it didn't surprise him much. Only the strange Innate Ability, Halbreed, was somewhat new. Nephis had mentioned once that she was capable of doing something like that, but without sharing any details.</p><p>It was also funny that the name of her Flaw was Pristine Soul, while his was Clear Conscience. What a pair they were, one lost from light, the other the source of it.</p><p>…One a master, the other a slave.</p><p>He gritted his teeth and closed his eyes for a second.</p><p>What else was there to note?</p><p>The [Soul Conduit] Attribute was gone. It seemed that the artificial sun or the Crimson Spire itself had sustained too much damage and collapsed, thus removing it. He had escaped just in time.</p><p>'I guess there's not a lot of secrets left between us now.'</p><p>Sunny was sure that there was a new rune that Nephis could summon, one reading "Slave". Just like he now had access to all the information about her, she was going to learn everything about him.</p><p>The unique nature of his cores, the shadow fragments, the true identity of the Marble Saint, the Weaver's Mask… she was going to know it all.</p><p>That could potentially complicate…</p><p>Before he could finish that thought, however, the Spell spoke again, its voice filling the black void with melodious whispers:</p><p>[The Second Seal is broken.]</p><p>[Awakening dormant powers…]</p><p>'Oh, crap! I almost forgot!'</p><p>Sunny stared into the void with wide eyes.</p><p>He was about to Awaken.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_352.html">Previous Chapter</a><a class="navigationButton next" href="chapter_354.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

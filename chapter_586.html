@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 586</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 586 Cold Steel</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny used everything he had, moving with unimaginable speed, agility, and precision. Both shadow essence and the tenacious blood of Weaver flowed through his body, supplying his muscles with the strength and endurance necessary to perform with such an inhuman level of effort. </p><p> His mind was aflame, devouring information about his surroundings and the enemy's movements, making lightning-fast decisions, trying to predict countless probable eventualities, and simultaneously studying the sophisticated battle style of the battle-hardened Master. </p><p> …And despite all that, he was barely surviving Pierce's unrelenting assault. Every moment, he was just a split second away from death. </p><p> The knight of Valor was just too powerful, skilled, and overbearing. His cold eyes were full of calculating ruthlessness and dark, iron killing intent. They were calm and focused, like that of an experienced predator stalking helpless prey. </p><p> That prey, unfortunately, was Sunny. </p><p> 'Damnation!' </p><p> Nothing he had experienced could have prepared him for this. Sunny had fought many opponents that were stronger and faster than him, but he had never been this outmatched in terms of sheer power, at least not in a fight against a human… who, unlike most Nightmare Creatures, also possessed a keen mind, devious cunning, and martial skill that were the greatest weapons of his kind. </p><p> Maybe only Morgan of Valor… but she had held back, and theirs had not really been a battle to the death. </p><p> Sunny and Pierce clashed on the bloodied stones, their weapons flashing through the air fast enough to leave afterimages behind. The clangor of metal filled the somber hall, mixing with the furious sounds of battle coming from their left. </p><p> There, two different storms of metal raged violently, one centered around Mordret and Welthe, the other from where his Shadows fought the Echoes of the fearsome Master. </p><p> Sunny had no time to look that way, but he could hear the constant ringing of blades landing on Saint's shield. There were so many blows that their sounds almost merged into one dreadful, uninterrupted litany of steel. He had not heard the Spell yet, so he knew that none of the Echoes had been destroyed. </p><p> The Shadows were in one piece, as well…even if he didn't know whether or not they were whole, damaged, or dying. </p><p> He deflected another strike of Pierce's swift longsword, then whipped the butt of the Cruel Sight forward, hoping to catch the enemy in the face. Helmet or not, such a strike was bound to deliver some damage… </p><p> Pierce received the blow calmly… and didn't even flinch. Instead, he lunged forward and rammed into Sunny with his shoulder, sending him flying back. </p><p> 'Curse that bastard! Is he made of stone or what?!' </p><p> Sunny twisted in the air and landed on his feet, tasting blood in his mouth. That shoulder bash was powerful enough to shatter a stone wall. </p><p> His tempered bones had not shattered, though. </p><p> Gritting his teeth, he immediately shifted, dodging a powerful thrust, and brought his spear down on the enemy. </p><p> 'Fine… this is fine… the longer I survive, the better I understand his style… the better I understand his style, the longer I'll survive…' </p><p> The two of them fought ferociously, neither showing any sign of doubt, hesitation, or weakness. Yes, Sunny was younger and less powerful… but he was skilled and experienced, too. He was ruthless a cunning, too. </p><p> He was a killer himself. </p><p> Pierce had managed to land several debilitating blows, rattling his entire body. The Undying Chain held, but beneath it, Sunny was bruised and battered. </p><p> However, he had been able to break through the knight's defense and deliver a few strikes of his own. The results were less than ideal, though. Even when he succeeded in thrusting the tip of the Cruel Sight through a crack in the enemy's armor, it was like trying to cut through a monster's hide. He only managed to burn the bastard a little, and make a few drops of blood roll down… </p><p> Why was divine flame not as destructive as it should have been? What was wrong with this monster?! </p><p> Pierce pushed him away, briefly glanced at the shallow wound, and grinned darkly, not showing any indication of being bothered by it. </p><p> "...Is this all you can do? Not enough… not nearly enough, little rat." All 𝒍𝒂test nov𝒆l𝒔 on novelb𝒊n(.)c𝒐m</p><p> Sunny growled.</p><p> "Shut your mouth! You suddenly have time to waste breath?!" </p><p> With that, he attacked again, this time switching the enchantment of the mirror blade from incandescent flame to invisible, insidious soul damage. </p><p> Pierce snarled and deflected the blow without too much effort. </p><p> …It was almost time, though. </p><p> When the Master decided to speak, without doubt aiming to distract and agitate the opponent, Sunny had a split second to steal a glance at how his Shadows were doing. </p><p> The Serpent was on the verge of destroying one of the Echoes, and had already wounded another. </p><p> Saint was doing worse. Faced with six opponents, she couldn't launch a successful attack. Some of the Echoes surrounding her were severely wounded, but none seemed to be close to death. </p><p> That was not her task, though. </p><p> Actually, Sunny preferred that she didn't eliminate any of the Echoes. He wanted them all in one piece, constantly attacking the taciturn knight. </p><p> Landing more and more blows on her shield. </p><p> The Patient Avenger… </p><p> By now, its surface was glowing with an angry orange light, as if there were furious flames burning beneath the cold steel. And there were, in a sense. </p><p> A string of runes surfaced in his memory: </p><p> [Cold Steel] Enchantment Description: "This shield can store a portion of impact damage it receives to augment another weapon of its wielder or unleash an immolating wave of fire." </p><p> Well… by now, the Patient Avenger received more than enough impact damage to unleash an ocean of flame. A few more strikes, and it was going to overload, sending all that fire outward. </p><p> Just as Sunny thought that, two more strikes landed on the shield, and the angry orange glow turned brighter, slowly turning incandescent white. </p><p> Currently, Saint was wielding the Blood Blossom charm, as well. With all the dismembered corpses lying around, its enchantment had long reached its limit, augmenting all the Memories the Shadow wielded with rampant strength. </p><p> Sunny blocked Pierce's strike and slid back, his hands trembling from the force of it. </p><p> At the same time, Saint spun and deflected two more swords with her shield. Its surface was almost entirely white now. </p><p> 'Almost there… d—damn...' </p><p> Sunny gave a mental command, and the shadow that had been augmenting Saint flowed from the graceful demon's body onto the furiously shining shield. </p><p> Another blow landed on the Patient Avenger. </p><p> Saint braced, putting her shoulder behind it. </p><p> 'Crap!' </p><p> …And in the next moment, a terrifying explosion rattled the entirety of the inner sanctum.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_585.html">Previous Chapter</a><a class="navigationButton next" href="chapter_587.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

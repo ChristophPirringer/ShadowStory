@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 973</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 973 Mutual Rescue</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Naeve stared at him in bewilderment for a few moments, then glanced at the column of military vehicles that stretched far. </p><p> "You are the commanding officer? Things must have changed, then... not that I'm complaining! It's actually great to see a familiar face. I just thought that you were supposed to be in charge of a single cohort of elite Awakened." </p><p> Sunny sighed. </p><p> "Yeah, well... the situation is a mess, so I ended up being in charge of an entire battalion instead. As well as around twelve thousand refugees. Anyway, thanks for the rescue... I really owe you one, Naeve. That battle could have turned ugly without your ship's support." </p><p> He studied the gargantuan shape of the beached vessel, finally recognizing it as the battleship that had delivered his cohort to Antarctica several months ago. Or what was left of it, rather. </p><p> "Ah, yes, the rescue... truth be told, it is us who need to be rescued. As you can see, the ship is not exactly in great shape, and the crew - the ones who are still alive - are not in any way prepared for a long landbound march across Antarctica. We are only truly capable at sea, and even then..." </p><p> He glanced at the mangled remains of the fearsome vessel. </p><p> "...ah, the sea turned out to be more capable than us, in the end. In any case, your caravan is pretty much our best hope. So... do you maybe have space in these vehicles for a few thousand shipwrecked sailors? Give or take." </p><p> Sunny stared at him for a few moments, then smiled. </p><p> "Sure, no problem. That can be arranged. There's a lot of useful stuff left in those cargo holds, I assume? Come with me, and we can discuss the details. How the hell did your ship end up here, anyway? Wasn't the convoy supposed to be coursing between Falcon Scott and the Northern Quadrant?" </p><p> As it turned out, Naeve's vessel was one of those that, like Ariadne, had been reassigned to patrol and relocation duty after the situation in the Antarctic Center worsened with the appearance of hostile titans. His last orders were to scout and secure the stretch of the coastal highway between Erebus Field and the northern parts of the landmass, probably for the upcoming exodus of the First Army to Falcon Scott. </p><p> Sadly, Erebus Field had been destroyed, and the battleship met an adversary that was a little bit too tough for it. In the end, they had managed to kill the monstrous jellyfish, whose corpse eventually washed up on the shore, but not before sustaining catastrophic damage. With no friendly port nearby, the vessel drifted along the coast for a while before encountering Sunny's caravan. </p><p> Sunny spared Naeve a grim look. </p><p> "...I was actually supposed to be evacuated from the southernmost tip of the region by a vessel called Ariadne. It was destroyed, too, leaving me stranded there. What was Army Command thinking, separating individual battleships from the convoy? Wasn't it obvious that it would be too dangerous for them to sail alone?" </p><p> The tall Nightwalker sighed somberly. </p><p> "Not as obvious as you might think. The coastal waters are not usually that dangerous, when compared to the true deep sea. Or at least they used to be safer. There were risks involved, of course, but that is a given when you are desperate. Still... we might have underestimated how much influence the Chain of Nightmare would exert on the ocean." </p><p> 'Makes sense, I guess.' </p><p> Sunny was not surprised that Army Command had chosen to send the divisions spread across the Antarctic Center some naval support. Logistically, it was a risky, but somewhat necessary decision, considering that the Winter Beast had shut down the entire communication network across the landmass. </p><p> And it was not like Naeve's battleship had been immediately sunk. The fearsome vessel operated along the coast for close to two months before stumbling on the abominable jellyfish and suffering a Pyrrhic victory that led to its demise. 𝒩ew 𝒏ovels upd𝒂tes on nov𝒆lbi𝒏(.)com</p><p> If anything, Sunny was more surprised that the House of Night had agreed to play ball. Since when were the great clans so altruistic? </p><p> 'That's a conversation for later... </p><p> For now, both Naeve and Sunny had a lot to do. The structure of the caravan had to be reorganized to make room for the surviving sailors, the sailors themselves had to disembark and reach land, the maimed battleship had to be scoured for anything that could be useful for the long journey to Falcon Scott. </p><p> All of that required time, which meant that the column would remain static for a while. A proper defensive perimeter had to be established, guard duty shifts had to be set, refugees needed to be fed and cared for. Sunny might have as well given an order to make camp, but he was extremely reluctant to remain on the coast for an entire night. </p><p> So, all these things had to happen fast. </p><p> Luckily, he was not the only Master defending the caravan anymore. Even though most of Naeve's powers seemed to have to do with water, he was still an Ascended... more than that, he was an Ascended from a great clan. The Nightwalker was an absolute elite among fighters, with long years of battle experience under his belt and a vast arsenal of powerful Memories stored in his soul. </p><p> Having someone like that by his side made Sunny feel much more confident in their chances of reaching Falcon Scott in one piece. </p><p> 'But, coming back to a vast arsenal of Memories...' </p><p> Sunny looked at Naeve with a strange expression on his face. </p><p> The handsome man noticed it and raised an eyebrow in confusion. </p><p> "Uh... yes? Did you want something, Sunless?" </p><p> Sunny lingered for a few moments, then smiled. </p><p> "As a matter of fact, I do. Say, Naeve... you Nightwalkers are all about naval combat, right? You wouldn't happen to have a Memory or two that can help a land rat like me do well in water, would you? You know... things like breathing under it, swimming like a torpedo, and so on. Because, if you do... I am willing to trade. No, actually, I am really, really willing to trade. I all but swore to never get close to water without a Memory like that, you see." </p><p> "Well... actually, I do have something like that, yes. What do you want to trade for?" </p><p> Sunny hesitated, then pointed at a young man who just happened to walk by them at that moment. </p><p> "See that guy? His name is Luster. He's a very valuable Awakened. A top-notch talent! Do you want me to trade him to you?" </p><p> The Nightwalker coughed. </p><p> "Uh... I am pretty sure that Army Command would not be happy if you sold me one of your subordinates, Sunless." </p><p> Sunny remained silent for a moment, then sighed. </p><p> "That's true. A pity..."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_972.html">Previous Chapter</a><a class="navigationButton next" href="chapter_974.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

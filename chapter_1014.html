@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1014</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1014 The Fall Of Falcon Scott 32</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<p> 1014 The Fall of Falcon Scott (32) </p><p> Sunny had seen Bloodwave in his bestial form once from afar, but up close, the Saint of Night was much more terrifying. </p><p> The creature he had transformed into looked somewhat like a killer whale, its hide black and white, the lines of its body smooth and predatory. However, it was much, much larger than any mundane beast had any right to be. </p><p> There was a patchwork of ugly scars covering its hide, and steel armor encasing its long fins, edges sharp like blades. Its enormous eyes glowed in the darkness of the ocean with blue light, full of willpower and intelligence. </p><p> Even knowing that the giant killer whale was actually a human, Sunny couldn't help but feel tense in front of the great predator. DisCover 𝒖pdated novels on n(o)v/elbin(.)co𝒎</p><p> Since the beginning of the siege of Falcon Scott, Bloodwave had rarely shown himself — he mostly remained underwater, protecting the anchored ships and fighting those Nightmare Creatures that would try to attack the city from the depths. </p><p> Army Command did not dare leave the port fortress and the vulnerable vessels without a defender... </p><p> And yet, today, that was exactly what had to happen. </p><p> While Sunny stared at the mighty Saint, Naeve glided forward and then hovered in front of the killer whale's snout, keeping himself in place with barely noticeable movements of his arms and legs. The tall Master looked tiny beside the giant creature. </p><p> 'Huh...' </p><p> Sunny realized that he did not know how to communicate with others underwater. He couldn't really speak, or even open his mouth — unless he wanted to lose the Essence Pearl and suffocate. There was probably a system of signs one could learn, but he had not done that in advance. </p><p> The world was silent. </p><p> Not, not quite... actually, the ocean was full of sounds. They were just strange and muffled, reverberating through his bones as if he was hearing them with his entire body. The noise of the battle above was like a low, all-encompassing, distant roar. Sunny knew that sound was supposed to propagate very far in the water, but had no tools to distinguish and interpret what he heard. </p><p> Nevertheless, the Nightwalkers seemed to possess some method of sharing information. A few moments after Naeve approached Bloodwave, the killer whale shifted slightly, staring into the depths of the ocean. His pupils narrowed. </p><p> Then, a strange thing happened. The eyes of the great predator remained clear and blue, but the water itself seemed suddenly tinted dark crimson around them. Sunny felt extremely uncomfortable, as if Blood Weave did not like what was happening at all. </p><p> Then, the sensation passed as swiftly as it had appeared, and the ocean was normal once again. </p><p> Naeve turned around and beckoned for him to come closer. Struggling against the instinctual fear of large predators, Sunny swam toward the monstrous killer whale. Once he got close, there was suddenly a familiar voice in his ears: </p><p> "My uncle agrees. We have to kill the Terror." </p><p> Sunny stared at the Nightwalker silently. Naeve tilted his head a little. </p><p> "Oh... you can't speak. Well, there's nothing to discuss, anyway — all the available information about the creature was already given to us by Tyris of White Feather. We can only attack the Terror and do our best. How is your resistance against mind attacks?" </p><p> ·?θm Sunny made a fist and raised his thumb... he doubted that any Master had better mental defenses than him. Plus, he was already inoculated against the Terror's hex. </p><p> The Nightwalker nodded. </p><p> "Good. Taking our Awakened into the depths would just mean giving the creature more puppets to control. The three of us will have to hunt alone. Once we discover the Terror, Bloodwave will lead the charge, while our task will be to support him... maybe we'll even survive, who knows. Are you ready?" </p><p> Sunny shrugged, which was an awkward thing to do underwater. </p><p> "Then follow me." </p><p> Naeve swam even closer to the great beast, gliding parallel to Bloodwave's back. Reaching the dorsal fin that stood tall like the mast of a ship, he grabbed onto a small depression in the armor encasing it, and gestured for Sunny to do the same. </p><p> 'Great... 1 am going to ride a damned Saint into the depths of a damned ocean...' </p><p> Cursing his fate, Sunny followed the Nightwalker's example and latched himself to the killer whale's fin like some sort of hitchhiker fish. He could feel a vast, powerful heartbeat somewhere below him, and a mighty presence that was beyond all mundane senses. </p><p> Naeve's voice resounded once again in his ears: </p><p> "Don't let go. Well... unless you feel like the pressure is too great for you to handle. I don't know how deep the Terror hides, and how deep you can dive. Sorry, Sunless... you'll have to learn how to traverse the abyss fast, and on your own." </p><p> Before Sunny could think of an answer — even though he could not relay it — Bloodwave suddenly moved. His great body lunged forward with stunning speed, and a powerful current almost threw Sunny off the fin. He grabbed tighter to the steel armor, feeling how strange it was, to be able to breathe freely despite the rushing water. Naeve stretched a hand to support him, but then brought it back, seeing that there was no need. </p><p> 'This is... this is...' </p><p> Riding a giant killer whale into the dark depths of the ocean was perhaps not the strangest journey Sunny had made, but it was definitely up there with the weirdest of them, especially considering that the whale was actually a Saint of the great clan Night. The whole situation would have been comically surreal, if it wasn't so dreadful. </p><p> A terrible enemy waited for them at the end of this journey. </p><p> Bloodwave journeyed away from the shore, submerging deeper and deeper into the watery abyss. The world around them was ruthlessly cold and absolutely lightless, eerily similar to the Sky Below of the Chained Isles... but much more frightening. </p><p> In fact, that was not the only similarity. The deeper they went, the more Sunny felt as if something was pressing down on him. It was as if a titanic slab of stone was weighing on his body, making it harder to move and breathe. The feeling was not dissimilar to the torturous force of the Crushing, and thinking of that analogy made him very, very uneasy. </p><p> The Crushing was capable of killing even Saints, after all. </p><p> He tried to control his breathing. </p><p> 'No mundane ocean can kill a Saint. And in terms of sturdiness, I'm not that far from one...' </p><p> Down and down they went.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1013.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1015.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

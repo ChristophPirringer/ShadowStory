@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1267</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1267 Candlelight</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<h4>Chapter 1267 Candlelight</h4> <p> Sunny and Nephis scrambled in an attempt to find a hiding spot… but there was no need. </p><p> Their first thought was that the dreadful butterfly had won the battle against the Azure Serpent. If that was the case, then their fates would be sealed. However, a moment later, a deafening roar shook the world, pushing them to the ground. </p><p> Turning to the stormy waters of the Great River, they saw a familiar creature rising to the surface. </p><p> The serpent was looking the worse for wear, with countless deep lacerations covering its mighty body. Streams of scarlet blood were flowing down its azure scales, and its giant eyes seemed even more deranged than usual. Flames of indescribable, murderous malice were burning in their cloudy depths — but, for once, that malice was not directed at the two humans. </p><p> Instead, it was aimed at the battered butterfly. </p><p> Now that Sunny and Nephis had a few moments to observe the Great Monster in detail, they noticed that it was in a sorry state, too. One of its six legs was missing, and there was an ugly tear on one of its beautiful wings. Its body looked strangely disheveled, and although none of the white scales covering it were missing, many of them were covered with thin cracks. </p><p> The Great Monster was retreating. </p><p> Sunny froze, momentarily stunned. Even though he had hoped that the Azure Serpent would win the battle against the much stronger Nightmare Creature, he could not quite believe that it actually happened. </p><p> 'Old snake… just what damned kind of abomination are you?' </p><p> It was already miraculous for a Great Beast to defeat a Great Monster. Two of them, though? While not impossible, it was certainly abnormal. Even if the monstrous butterfly was an aerial creature, and was thus at a disadvantage while fighting underwater, the tenacity of the Azure Serpent was confounding. </p><p> Sunny stared at the bloodied leviathan somberly. As if sensing his gaze, the serpent lowered its snout and glared back at him. </p><p> Crimson water was flowing out of its slightly opened maw. </p><p> He shivered. </p><p> '...It's no mere Beast.' </p><p> Indeed, he should have known. His luck wasn't good enough to stumble on just any Great Beast. No, it surely had to be some kind of unique and singular existence… a damn monarch among all Beasts. [Fated] wouldn't have it any other way. </p><p> Maybe it was no coincidence that the Azure Serpent had come from much further upstream than the other two abominations. Read latest 𝒏ov𝒆ls at n𝒐velbi𝒏(.)com</p><p> 'Ah, curse it.' </p><p> Sunny felt conflicted. On the one hand, he should be ecstatic about the fact that the harrowing butterfly was retreating. On the other hand, the ancient river serpent seemed much more dangerous now. </p><p> The butterfly, meanwhile, was swiftly rising higher and higher. </p><p> …However, it didn't leave. </p><p> Instead of disappearing into the distance, the Great Monster turned into a black dot once again and started to slowly circle the island from above. It looked like the creature was not giving up on the carcass of the Black Turtle, just recovering its strength and biding its time to make another attempt. </p><p> The Azure Serpent threw one last hateful glance at it, and then dove into the water with an angry hiss. Soon, the island shook slightly, hinting that the abomination was devouring more of the turtle's meat, perhaps to restore its power. </p><p> The tumultuous water slowly calmed down. </p><p> Left in the sudden silence, Sunny and Nephis stared at the vast expanse of the Great River in exhaustion. After a while, he slowly exhaled. </p><p> "I guess… it seems we survived." </p><p> She nodded slowly. </p><p> "Yeah. I'll… I'll go find a deep pond." </p><p> Sunny blinked a couple of times </p><p> 'Huh?' </p><p> What was she talking about? </p><p> "A pond? Why?" </p><p> He looked at her in confusion, prompting Nephis to sigh. </p><p> "...Why do you think? We just took a bath in a river of blood. I want to wash myself, of course." </p><p> Sunny tilted his head, only now realizing how nasty Nephis looked. </p><p> Well… he was no better. </p><p> A sly smile appeared on his lips. Suddenly feeling mischievous, Sunny asked: </p><p> "Can I join?" </p><p> She was already turning away. </p><p> "No. Go find your own pond… if you want." </p><p> He laughed. </p><p> "Wait, wait! What if I drown? Those fissures are very deep, you know!" </p><p> Nephis scoffed. </p><p> "If you do drown, maybe take the meat out of that storage Memory first. It will be sad if it just disappears, after everything we went through…" </p><p> Sunny watched her go. The silver anklets were singing a quiet melody as they bounced with each graceful step. </p><p> Eventually, he shook his head in dejection. </p><p> "Does she only care about the meat? How heartless…" </p><p> *** </p><p> Later that day, when the seven suns had already plunged into the water, Sunny and Nephis were back in their makeshift camp at the bottom of the deep fissure. </p><p> By now, it didn't look as desolate and barren as it had before. There was a fire pit assembled from the black rocks. The Shadow Chair and the Covetous Coffer, back to its usual size, were standing nearby. Neph's sleeping bag was laying on one side of the pit, while Sunny had gathered soft moss to serve as bedding on the other, using the Overpriced Saddle as a pillow. </p><p> Imp was sprawled on the ground, still digesting the huge amount of tarnished silver he had devoured. Saint was standing guard above, and Nightmare was hiding in the shadows. </p><p> Currently, the camp was illuminated by a softly glowing lantern, and a delicious fragrance of roasting meat was spreading through the air. Nephis was preparing a late supper over the coals. Not only that, but she had also gone all out, for some reason, using an inventive mix of spices to thoroughly marinate the meat before placing it above the glowing embers. </p><p> Both of them had washed the stench of blood off their bodies, and were now preparing for sleep, feeling refreshed. Before that, however, they were going to finally satiate the gnawing hunger. </p><p> In that moment, the lethally dangerous trip into the carcass of the Black Turtle they had undertaken seemed well worth it. </p><p> Finally done, Nephis placed a generous chunk of meat on a plate and handed it to Sunny. In the last moment, though, she suddenly retracted her hand and hesitated. </p><p> "...Can you wait a moment?" </p><p> Sunny felt warm and relaxed, so he didn't mind waiting. </p><p> "Sure." </p><p> He watched her across the glowing embers with peaceful idleness. Nephis seemed to be looking for something. A few moments later, she found a splinter of the synthetic firebrick they had used to light the fire, and thrust it into the meat. Then, she touched it with the tip of her finger, and a wisp of white flame ignited at the top of the small stick. </p><p> Sunny received the strange dish with a confused look. </p><p> "Uh… what is this?" </p><p> A faint smile appeared on Neph's face. </p><p> "A candle." </p><p> He hesitated for a few moments, then scratched the back of his head. </p><p> "...Why?" </p><p> She leaned back and shrugged softly. </p><p> "I'm not quite sure how many days it has been since the start of the Nightmare. But… the battle happened at the end of November, and we spent around a week in the desert. So, it should be middle to late December now." </p><p> Sunny frowned. </p><p> "And?" </p><p> Nephis sighed and shook her head. </p><p> "It means that it has to be winter solstice back in the real world. It's your birthday, Sunny." </p><p> He stared at her in astonishment. </p><p> 'Wait… she's right…' </p><p> Sunny had forgotten all about it. It was winter solstice, or at least close to it. Out there in the waking world, an army of Sleepers was entering the Dream Realm for the first time — if Antarctica still stood, that is. </p><p> It was also his birthday. He was turning twenty-one. </p><p> 'Huh…' </p><p> He tilted his head a little. </p><p> 'Twenty-one… I didn't really think I'd make it so far. Good job, Sunny.' </p><p> He looked at the burning stick, not noticing the bright smile that appeared on his lips. </p><p> Nephis leaned forward a little. </p><p> "If I were you, I would hurry up… and make a wish!" </p><p> 'Wish? Wish, wish…' </p><p> Hidden by shadows, Sunny's smile grew brittle and strained.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1266.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1268.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

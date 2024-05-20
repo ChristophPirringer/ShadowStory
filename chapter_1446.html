@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1446</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1446 Wind Flower</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1446 Wind Flower</h4> <p> Both Sunny and Cassie froze, bewildered by the strange scene. </p><p> 'Surely, I'm seeing things.' </p><p> This was Wind Flower, a misty hell where harrowing abominations and Defiled Saints were imprisoned, not even knowing that they were. A place that slowly devoured the souls of Great Nightmare Creatures until there was nothing left but empty husks. The abandoned stronghold of an ancient Seeker who had left to challenge the Estuary. </p><p> How could there be someone sleeping soundly in its very heart? </p><p> Sunny suppressed the desire to pinch himself. </p><p> ...He also suppressed the desire to pinch Cassie. </p><p> "Hey... you see what I see, right?" </p><p> As soon as he spoke, Sunny suddenly felt a wave of fear wash over him and covered his mouth with a hand. Shaking off his bewilderment, he reminded himself where they were, and why they had come here. </p><p> Cassie had said that there was a source of terrible danger at the top of Aletheia's Tower... but there was only this sleeping woman. Which meant that she was that source. </p><p> What if his voice woke her up? </p><p> The blind girl nodded slowly and answered in a whisper: </p><p> "I do." </p><p> Sunny lingered for a few moments. </p><p> "Is this... Aletheia?" </p><p> Indeed, that would be the most rational guess. They were standing in the tower built by Aletheia of the Nine, after all. So who else could it be? </p><p> Cassie shook her head. </p><p> "It... shouldn't be. The Seeker who lived on this island is said to have left it a long, long time ago. Before the Defilement was even born. Of course, the information I received from the people of Fallen Grace might be wrong..." </p><p> She frowned. </p><p> "But it is said that only the Serpent King has been able to come to Wind Flower and return alive. I... honestly don't see how any human could have survived this place, let alone how they would have ended up sleeping peacefully at the top floor of this tower." </p><p> Sunny studied the figure of the sleeping woman tensely, then rubbed his face tiredly. </p><p> "Then who the hell is she?" </p><p> The blind girl remained silent for a while. </p><p> Eventually, though, she answered: </p><p> "Actually, I have a theory." </p><p> Cassie hesitated for a moment, then said: </p><p> "I think... I think she is Wind Flower." </p><p> Sunny stared at her in confusion. </p><p> "What do you mean? She is a personification of this island?" </p><p> The blind girl shook her head. </p><p> "No... remember, nobody knows where the name Wind Flower came from. However, I noticed something strange about the Guiding Light. It continued pointing to the center of the island even after we landed, right?" </p><p> Sunny nodded. </p><p> Cassie sighed. </p><p> "I was also able to make it point to you, Neph, and Effie. But not Jet. I puzzled over how it worked for a long time... and after a while, I started to suspect that it's because Jet doesn't have a True Name. Or at least I don't know what her True Name is." </p><p> Indeed, Soul Reaper was simply Jet's nickname, not her True Name. Actually, even Sunny did not know if she had one. </p><p> The blind girl, meanwhile, continued: </p><p> "I got that idea, actually, after we saw Devouring Beast. The Guiding Light only points to Effie, and not her. That is strange, considering that they are the same person. Only... I think that once somebody becomes Corrupted, their very nature start to change. So, they lose their True Name, or maybe it changes as well." </p><p> She studied the walls of the spacious chamber and said: </p><p> "I think that if we had the Guiding Light and asked it to point us to Wind Flower... it would have pointed directly at this woman." </p><p> Sunny frowned, then asked quietly: </p><p> "Alright. Let's say that you are correct... still, the question remains. Who the hell is this Wind Flower?" </p><p> Cassie suddenly coughed and looked away in embarrassment. </p><p> "That, uh... I don't know." </p><p> He stared at her in confusion. </p><p> 'Then why the hell did she go on and on about the Guiding Light, True Names, and all that? We are exactly where we started this conversation!' </p><p> Shaking his head, he took a deep breath and asked: </p><p> "So... what do we do now? We wanted to come here to find a way to escape Wind Flower... Aletheia's Island... whatever this place is actually called. Do we just wake her up and hope that she's not some terrifying Defiled abomination?" </p><p> Cassie shook her head. </p><p> "She's not Defiled. She is a Transcendent human... a Saint." </p><p> Sunny raised an eyebrow. </p><p> "How do you know?" </p><p> The blind girl raised an eyebrow. </p><p> "How do you not know? I used my Dormant Ability to read her runes. You can do... whatever it is you do to look inside people." </p><p> He blinked a couple of times. </p><p> Right... he could do that. </p><p> Shifting his perception, he peered into the soul of the sleeping woman. She had a single radiant core, its brightness similar in intensity to that of a fully saturated Transcendent soul core. </p><p> However... </p><p> His expression dimmed. </p><p> At the very heart of the beautiful radiance, almost unnoticeable... there was a tiny seed of encroaching darkness. It was small and insignificant, for now. But Sunny knew that it would grow. </p><p> Because that was how Corruption was. It spread and consumed everything, until there was nothing pure left. </p><p> The woman might not be Defiled yet, but she was going to be soon. </p><p> '...She won't, though.' </p><p> The thought appeared in Sunny's mind almost on its own. He contemplated its meaning for a few moments, then tilted his head slightly. Read latest 𝒏ov𝒆ls at n𝒐velbi𝒏(.)com</p><p> 'Right. She won't.' </p><p> For as long as the woman remained on Aletheia's Island, inside the loop, she was not going to be Corrupted - if she could hold out for a single day. At the end of the day, the time would rewind itself, and whatever progress the vile darkness had made would be erased. </p><p> Therefore... </p><p> For her, this island was like a sanctuary. </p><p> Was that why she was here? It had to be. </p><p> Sunny sighed, then looked at Cassie and hesitated for a moment. </p><p> "So... are we really going to wake her up?" </p><p> The blind girl shrugged. </p><p> "What's the worst that can happen?" </p><p> Sunny stared at her with wide eyes. </p><p> "What? Why on Earth would you say that?! You of all people should know not to..." </p><p> He suddenly fell silent, afraid that his furious whisper would wake up the sleeping woman. </p><p> However, he did not have to worry. </p><p> She remained peacefully asleep. </p><p> In fact, nothing they did seemed to wake her up. By the time the revolution ended, it had become apparent that the mysterious woman's slumber was not a natural one. </p><p> Instead, it seemed... eternal.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1445.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1447.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

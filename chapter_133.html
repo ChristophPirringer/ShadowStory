@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 133</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 133 Farewell</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<h4>Chapter 133 Farewell</h4> <p> Nephis held the shimmering crystals, looking at them with a heavy expression. Sunny was also staring at the shards, his head full of dark thoughts. </p><p> The remnants of shattered souls glowed softly in the dim twilight of dusk. </p><p> Around them, the inhabitants of the outer settlement were hurrying to get inside their pitiful hovels before the coming of night. The sun was already hidden behind the cyclopean silhouette of the Crimson Spire, drowning the world in its eerie shadow. The air was full of fear and worry. </p><p> He grimaced. </p><p> "What are you thinking about?" Nêw 𝒄hapters will be fully updated at nov(𝒆)l/bin(.)com</p><p> Changing Star sighed and looked up. Her ivory face was harsh and thoughtful. She remained silent for a while, and then said in her usual calm tone: </p><p> "We need to split up." </p><p> Sunny couldn't help but laugh. </p><p> "You do know what usually happens when people split up in these kinds of situations, right?" </p><p> She stared at him with no humor in her cold, grey eyes. </p><p> "This is not a drama, Sunny. We have the means to provide two of us with food and shelter for a week. There's no reason to pass on this opportunity." </p><p> Cassie turned to her, a confused expression on her face. </p><p> "But… but what about the third?" </p><p> An uncomfortable silence hung between them, broken only by the whistling wind. Sunny looked at the blind girl, then at Nephis, and finally glanced at himself. Which one of them was going to remain hungry in the bitter cold while the other two would be eating their fill in the comfortable safety of the castle? </p><p> He thought that he had an inkling. </p><p> 'What else did I expect?' </p><p> It was less than ten minutes since they reached the human civilization — well, whatever passed for one in this loathsome purgatory — and the tentative connection that had been established between them in the crucible of the Labyrinth was already coming apart at the seams. </p><p> Just as he had expected, the nature of their relationship was going to change now that they weren't essentially the last three people in the whole wide world, with no one else to rely on but each other. Was it strong enough to endure without that desperate need? He wasn't sure. </p><p> Throughout his whole life, Sunny had never managed to last long in any group. He didn't know if this time was going to be any different. </p><p> Just as his insecurity threatened to break out of control, Nephis sighed and handed him the soul shards. </p><p> "Here. Take Cassie inside." </p><p> He stared at her hand, then looked up sharply. </p><p> A strange storm of emotions erupted in his heart. There was surprise, joy, concern… but at the same time, irrationally, a dark sense of shame and resentment. Not knowing how to deal with all these feelings, he scowled and asked: </p><p> "Why me?" </p><p> Changing Star simply raised an eyebrow. Shaking his head, Sunny offered her a crooked smile and added: </p><p> "Don't get me wrong, I'm not refusing. I'm just curious why are you so kind all of a sudden. Is it out of some misguided sense of nobility?" </p><p> Nephis looked at him for a while, and then said with indifference: </p><p> "I have never been noble. I have never been kind." </p><p> He blinked, struggling with the desire to pinch Neph and make sure that she was awake. Had she met herself? If she wasn't noble, then who was? </p><p> Meanwhile, Changing Star shrugged and looked away. </p><p> "It is simply the best choice. Right now, we need information the most. With the help of the shadow, you will be able to learn much more about what is going on in the castle than I ever would. While you are gathering information inside, I will do the same here. We will meet in a week, share our findings, and decide what to do next." </p><p> Sunny just stared at her. Did Neph just… reveal herself to be as cynically pragmatical as he was? Once again, he felt a weird mix of emotions. He was simultaneously elated and hurt by her lack of sentiment. </p><p> However, the fact that she simply assumed that they were going to continue working together, as though it was a given, had not avoided his attention. For some reason, this small detail gave Sunny a warm feeling. </p><p> Nephis looked at him and added: </p><p> "Besides, the terms of our trade have come to an end. Your promise was to give up on your share of spoils on the way to the castle. Well, here we are. That stone creature was your kill, so these shards are yours by right." </p><p> 'Trade? What trade?' </p><p> Oh, yeah… the trade he had made with Changing Star to get her to teach him swordsmanship and hide the fact that he had no way to absorb soul shards. He has almost forgotten about it. </p><p> But she didn't. </p><p> Now that Sunny had been reminded of its existence and realized that it was over, he felt a sudden pang of regret. It was as though one of the few strings that connected them together had been suddenly severed. </p><p> With a sigh, he took the soul shards from her hand and gripped them tightly. </p><p> "Alright. Then… I'll meet you in a week, I guess." </p><p> Sunny opened his mouth, wishing to say something else, but then just turned away. Stepping aside, he gave the girls some privacy to say their goodbyes. Soon, Cassie's delicate hand found his shoulder. </p><p> Sunny glanced at the blind girl, remained silent for a bit, and then asked: </p><p> "Are you ready?" </p><p> She hesitated before answering. When she did, there was a hint of sadness in her voice: </p><p> "Yes." </p><p> With that, they walked away and left Nephis behind, standing alone in the surging darkness of the descending night. </p><p> *** </p><p> Guiding the blind girl, Sunny approached the grand stairs that led to the ornate gates of the magnificent marble castle. Out here, there was nothing but the howling of the wind and the encroaching veil of darkness. It seemed as though the dwellers of the slum were not allowed to build their hovels on the wide stretch of stone that separated the marble steps from the outer settlement. </p><p> "Be careful, there are steps ahead." </p><p> After warning Cassie, he sensed a cold feeling grasp his heart. For some reason, it felt as though once he stepped on these stairs, there would be no way back. </p><p> Gritting his teeth, Sunny took a step forward and began his ascent to the castle. </p><p> Soon, they approached the apex and stopped in front of a couple of unfriendly guards. </p><p> Both of the young men barring their way wore armor-type Memories and wielded their weapons in the open, as though trying to warn anyone approaching to not test their patience. They looked at Sunny without even trying to hide their disdain. </p><p> "What do you want, rat?" </p><p> Sunny hesitated, then held out the soul shards. </p><p> One of the guards glanced at them and grinned. </p><p> "Well, would you look at that. The rat has brought us a present." </p><p> Chuckling, he took the glimmering crystals and waved a hand. </p><p> "Come on in. Someone will meet you inside." </p><p> Struggling to not glare at the armed Sleepers with murder in his eyes, Sunny forced out a pale smile and cautiously walked past them. </p><p> Then, looking up at the dozens of human skulls swinging above them on rusty chains, he sighed darkly and led Cassie through the gates of the castle.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_132.html">Previous Chapter</a><a class="navigationButton next" href="chapter_134.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 238</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 238 Lnto The Storm</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 238 lnto the Storm</p><p>A stray drop of rain fell on Sunny's cheek. The howling of the wind grew louder. A moment later, the whole world suddenly darkened, and he was assaulted by a furious gale. The water pelted him in the face, drowning the curse Sunny was about to yell.</p><p>'D—damn!'</p><p>The storm descended on them with terrifying violence. The corpses of repulsive locusts that were left on the platform suddenly moved. Then, picked up by the wind, they were thrown off the neck of the steadily walking colossus, disappearing into the darkness. Their black blood was washed away by the torrent of rain.</p><p>A blinding flash of lightning pierced the veil of clouds, followed by a deafening thunderclap.</p><p>As the stone became slippery and wet, Sunny felt his body being forcefully pushed away from its surface by the gale. Gripping the Stone Saint tighter, he gasped and grimaced. Pain pierced his damaged lungs.</p><p>'Worst… worst amusement ride ever…'</p><p>Fortunately, the heavy Shadow was not moved by the tremendous pressure of the hurricane. Firmly planting herself on the surface of the platform, she turned her torso and lowered a shoulder, cutting the wind with her solid stone body.</p><p>To her side, Nephis, Caster, and Effie were desperately holding on against the assault of the hurricane. With some effort, they were also able to resist it.</p><p>But the worst was still to come.</p><p>Hidden from the sun, the dark sea was rising from the depths. Sunny could hear the deep rumbling of the black water rushing through the twisting passages of the Labyrinth and washing over the mounds of crimson coral. Soon, the stone giant was walking through it, creating a furious whirlpool with each step of his gargantuan feet.</p><p>Another lightning tore the skies apart, illuminating the world made of nothing but wind, water, and darkness. Hit by an especially violent gust of wind, the Stone Saint slid a few centimeters back and sent Sunny's heart into a momentary panic.</p><p>The stone giant walked forward.</p><p>After a while, the black water covered his knees, then his abdomen, then his chest. Following a long and torturous span of time spent holding onto the Shadow and enduring the onslaught of the storm, Sunny saw the raging waves flowing over the broken battlements on the shoulder of the ancient statue.</p><p>His face became grim.</p><p>During the previous night, the dark sea had not risen high enough to reach the stone platform they were sheltering on. However, with how high the waves were, things were bound to change.</p><p>As though answering his thoughts, a massive wave crashed into the neck of the colossus, washing over the platform. The members of the cohort were hit by a wall of blackness and instantly drenched from head to toe in salty seawater.</p><p>Luckily, no one was washed away… for now.Fi𝒏d 𝒏ew upd𝒂t𝒆s on novel𝒃in(.)com</p><p>The howling wind, the furious onslaught of rain, the constant flashes of lightning and the violent cacophony of thunderclaps were already enough to instill in them the feeling that the whole world was about to split apart and crumble. With the dark waves rising to strike at the stone platform over and over again, the situation became truly disastrous.</p><p>And yet, they held on. Minute after minute, against all odds, the six humans clung to the ancient stone, refusing to be taken away by the raging tempest. Sunny didn't know how much time had passed or how far the stone giant had walked into the depths of the storm, but there was no sign of it growing weaker.</p><p>In fact, it was only becoming more ferocious and terrible.</p><p>However, this wasn't even what he was really afraid of. His true fear hid not in the skies that had gone mad, but in the lightless depths of the cursed sea.</p><p>And soon, inevitably, his worst fears came true.</p><p>With a harrowing sense of premonition, Sunny suddenly lowered his head and gazed down, as though trying to see through the mass of ancient stone. Deep beneath them, he felt a gargantuan shadow rising from the depths.</p><p>…One of the unspeakable terrors of the dark sea was crawling from whatever abyss that had spawned it to face the marching colossus.</p><p>'Curse it all…'</p><p>Looking up, Sunny saw Kai desperately clinging to the Stone Saint beside him. For once, the archer did not seem dazzling. He was just wet, pale, and scared out of his wits.</p><p>Behind him, Nephis was kneeling on the stones, gripping the hilt of her silver sword, her fingers white and bloodless.</p><p>Straining his hurting lungs, Sunny yelled:</p><p>"Be! Ready! The dwe…"</p><p>However, before he could finish, her eyes suddenly grew wide.</p><p>Swiftly turning around, Sunny saw a gargantuan tentacle slowly rising from the seething waves. Illuminated by a flash of lightning, it looked like a tall, grotesque black tower. It pierced the skies and froze for a moment, looming over the ancient colossus.</p><p>…Feeling his heart skip a bit, Sunny realized that he knew the sight of it. This was the same gigantic black tentacle he saw on his first night on the Forgotten Shore, the one that had effortlessly pulled the enormous monstrous shark under the waves and tore it in halves like a little fish.</p><p>The abomination that even Corrupted Nightmare Creatures were afraid of.</p><p>…Falling from above, the gargantuan tentacle crashed on the moving statue and coiled itself around its neck.</p><p>'Oh no!'</p><p>***</p><p>Before Sunny could react, the gigantic tentacle was already wrapped around the neck of the colossus. Its bulbous flesh suddenly contracted, as though trying to strange the stone giant.</p><p>…And pull him beneath the waves.</p><p>Without ever slowing down, the ancient statue continued to walk forward. Then, in a roar of falling water, its colossal hand rose from the depths of the cursed sea and grabbed onto the tentacle.</p><p>Grasping it in his stone fist, the colossus lingered for a moment… and easily tore the tentacle apart.</p><p>Sunny's eyes widened.</p><p>One part of the gigantic black tentacle convulsed and slid off the neck of the ancient colossus, falling into the raging waves. The other part stubbornly tried to coil around his arm, but was pushed away by the stone palm and disappeared back into the depths of the cursed sea.</p><p>For a few moments, the black water was silent.</p><p>'Oh... gods!'</p><p>…And then, the whole surface of it suddenly exploded into the skies.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_237.html">Previous Chapter</a><a class="navigationButton next" href="chapter_239.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

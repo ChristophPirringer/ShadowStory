@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 667</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 667 Temple Of The Chalice</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The Glass Knife contained the string of fate that belonged to Sevirax, the Chain Lord of the Ivory City. It was his death, which the War Maidens had received from the Saint of Shadows hundreds of years ago. </p><p> Now, two Shadows came back to retrieve it. </p><p> Sunny suspected that none of the sect members that had been alive all those centuries ago lived still, including the particular Maiden to whom Shadow Lord had sent the Glass Knife before taking his own life. As such, none would remember the four-armed demon who had delivered it… most likely. </p><p> And yet, the current disciples of the cult had to know what was being kept in their temple, and how it got there. So, there was a chance that they will just hand it over to the original owners… no matter how slim. </p><p> If not, they would allow Saint and her entourage inside, at least. </p><p> That was Sunny's hope, and judging by the fact that the Maidens did not immediately attack after hearing Kai's provocative statement, his calculations were not wrong. </p><p> The tall woman who had spoken to them grew still as soon as the Glass Knife was mentioned, a somber expression appearing on her face. She studied Saint's motionless figure, then said coldly, her raspy voice growing slightly hoarse: </p><p> "...So the day has come. How fortunate we are, to witness it! Someone finally dares to challenge the Red Sect for the ownership of the ancient relic. Who knew that I would witness this children's story come true?" </p><p> She smiled darkly, then tilted her head, no humor in her sharp, grey eyes. </p><p> "...However, you are wrong, Shadow. The Glass Blade does not belong to you, or any of your kin. It had been entrusted to our foremother, who passed on the duty of protecting it to her wards, and through them, to us." </p><p> The woman lingered, then sighed. </p><p> "However, it is not my place… to put you in yours. Come, demoness. Let me welcome you to the Temple of the Chalice!" </p><p> With that, the War Maidens slowly lowered their weapons, and then followed their leader as she turned to walk on the path through the graveyard of swords. Surrounded by them, Saint, Sunny, and Kai had no choice but to walk forward. After a few moments, the taciturn demon gracefully jumped down from Nightmare's back, who then dissipated into shadows and returned to Sunny's soul. </p><p> Despite the fact that the beautiful female warriors had sheathed their swords, their hostility remained aimed at the three strangers, and their gazes were still as sharp and dangerous as steel blades. </p><p> 'What an unfriendly bunch…' </p><p> Sunny sighed inwardly, and then looked around through his shadows, paying attention to the countless swords thrust into the ground all around them. Somehow, he felt that each of these weapons had a history… a violent story of battle and bloodshed that ended in death. Perhaps some of these blades had once belonged to the War Maidens of the past, but most must have been wielded by those warriors slain by the members of the sect. </p><p> …There were really, really many swords thrust into the ground around the stone temple. </p><p> Soon, they approached the gates of the magnificent structure and were led inside. Sunny was somewhat familiar with the interior of the ancient shrine, but it was hard to bring together two pictures that lived in his mind — one of a desolate ruin, the other of the austere, but formidable and perfectly maintained temple fortress. </p><p> They were ushered into a spacious entrance hall, where Saint followed his command and stopped, as though unwilling to go further. </p><p> The tall Maiden with grey eyes glanced at her and smiled coldly. </p><p> "...Wait here, demoness. I will inform the elders of your arrival. And you challenge." </p><p> *** </p><p> Saint stood with the blade of the Soul Serpent resting on her shoulder, motionless like a beautiful statue cut of black onyx. Her presence was aloof and indifferent, as though the three of them were not surrounded from all sides by fearsome warriors, with no way to escape. </p><p> The tall Maiden left, but the rest of the sentinels remained, surrounding them in a wide circle. Their faces were calm, but their eyes remained sharp, steady hands laying on the hilts of their swords. </p><p> Under their gazes, Sunny didn't dare to send one of his shadows to scout around the temple… however, he also didn't need to. Instead, he listened to the sounds surrounding them with curiosity. </p><p> The Temple of the Chalice seemed silent, but somewhere far away, a repeating sound could be heard… the sound of something blunt hitting flesh, over and over again, and an occasional rattle of chains. Disturbed, he frowned slightly, and then glanced at Kai. </p><p> The archer stood on the other side of Saint, his face hidden in the shadow of a deep hood. His pose seemed both polite and relaxed, however, Sunny could feel a strange tension hidden behind this casual stance. </p><p> He frowned, and then moved his hand slightly, attracting his friend's attention. </p><p> Kai lingered for a moment, then spoke in the language of the waking world without turning his head: Alll 𝒏𝒆west ch𝒂pt𝒆rs on no./v𝒆l𝒃i/n/(.)c𝒐m</p><p> "...Yes, I found it." </p><p> Why would Sunny need to use his shadows to explore the temple if he had Nightingale by his side? Kai's Awakened Ability, after all, allowed him to see far and wide, and even peer through solid objects. Very few things could hide from his gaze. </p><p> So, his task was to locate one of the two things they were looking for — the Glass Knife. </p><p> And just in a few minutes, he had already succeeded. </p><p> Kai, however, did not seem too happy. </p><p> "Sunny… uh… I think we might have a slight problem." </p><p> 'Damnation...' </p><p> Sunny scowled, not liking the tone of his friend's voice one bit. He turned his head slightly, glaring at the young man in the wooden mask. </p><p> The archer sighed. </p><p> "You see… in the center of the temple, there is a large hall. And in the center of that hall stands a giant stone chalice. The chalice… is filled to the brim with raging white flame. That fire is just like the fires that burn in the Sky Below. In fact, I am pretty sure that one of those orbs of divine flame is somehow contained within it." </p><p> He lingered for a moment, and then added grimly: </p><p> "The Glass Knife is on the bottom of the chalice. Right in the middle of the annihilating divine flame…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_666.html">Previous Chapter</a><a class="navigationButton next" href="chapter_668.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

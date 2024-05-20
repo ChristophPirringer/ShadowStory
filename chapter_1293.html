@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1293</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1293 Defilement</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1293 Defilement</h4> <p> Ananke's weathered, wrinkly face grew dark. The old woman lingered for a while before saying: </p><p> "The other name for the Defilement is Corruption... a special kind of Corruption that appeared on the Great River and then spread from downstream like a plague. Or rather, was spread." </p><p> Nephis leaned forward a little: </p><p> "Spread... from downstream?" </p><p> The old woman nodded heavily. </p><p> "Yes. It is because the Defilement... its origin is the Estuary." </p><p> Her cloudy eyes grew distant. </p><p> "The Seekers were always trying to reach the Estuary, traveling further and further downstream. But none of them succeeded in finding it. Eventually, they built a city of their own in the far reaches of the past - a city called Verge. Its grandeur could compete with the bustling prosperity of the large cities ruled by the sybils, and from there, they continued their search. Until, eventually... one of them really managed to enter the Estuary." </p><p> The old woman gripped the steering oar as she looked at the vast expanse of the Great River, then continued dully: </p><p> "However, what he found there was not the truth, but Corruption. Or perhaps it was the truth that he found that corrupted him. That Seeker became the first of the Defiled, and he brought the Defilement back with him to the Verge. The city of Seekers was consumed by the Defilement, and those consumed by it became twisted and monstrous. They spread from there like a plague, bringing a great calamity to the River People." </p><p> Ananke grew silent, breathing heavily. </p><p> Sunny was scowling deeply. </p><p> 'So that was what happened...' </p><p> The hideous truth that the Demon of Dread had hidden in the heart of the Black Pyramid... the first person who learned it was consumed by Corruption as a result. Not only that, but he also infected the rest of the Seekers with it, destroying - or rather, transforming - an entire city into a nightmarish source of the spreading Corruption. Of the Defilement. </p><p> ...Just what kind of secret had Ariel buried at the dawn of time? </p><p> More importantly, was that what Daeron of the Twilight Sea had tried to achieve? Storm the corrupted city of Verge and slay the first witness to the harrowing truth, who was the root of the Defilement? </p><p> If so, their task would be a dreadful one. </p><p> Nephis seemed to be thinking the same. After pondering for a while, she asked: </p><p> "What happened next?" </p><p> Ananke shifted on her bench, then sighed. </p><p> "Because of the Defilement, the peaceful waters of the Great River became plagued by the Corrupted. The most powerful of them come from the furthest reaches of the past, downstream... as well as from the terrible emptiness of the future, where you have come from, my Lord and Lady. The River People found themselves trapped between the harrowing past and the doomed future, with nowhere to escape. Of course, they fought against the Defilement and resisted for a while." </p><p> She looked away and said bitterly: </p><p> "...But they also fought among themselves. That was how we were chased away and forced to escape upstream, braving terrible dangers. Eventually, we lost all contact with those who had exiled us. The last we heard was that many of the sybils had succumbed to the Defilement, and that many of their cities had fallen. Even Twilight, the city of the Serpent King, had been lost. Now... it is the dusk of the River People. Soon, there won't be any of us left at all." </p><p> Sunny felt that he understood what had happened with the people who escaped the end of the world by entering the Tomb of Ariel... most of them had either died or been Corrupted, and the rest would soon follow. That was the fate of the Great River civilization. </p><p> So, there were two ways to resolve the conflict of the Nightmare. </p><p> They had to either help the destruction of that civilization, or turn the tide by eliminating the source of the spreading Defilement. The latter, of course, would receive much higher praise from the Spell, since it would differ drastically from fate. </p><p> He also noted the mention of Twilight... which, as it turned out, was the name of the city King Daeron and his vassals had built. Another interesting point was that Fallen Grace, the city ruled by the last sybil, was situated in the region of the Great River that had already mostly succumbed to the Defilement. Perhaps it was the last human stronghold remaining in the Tomb of Ariel. </p><p> 'And another thing...' </p><p> Ananke had said that there were two places inside the Tomb of Ariel that were much more dreadful and dangerous than all the rest - the far reaches of the future upstream, and the far reaches of the past downstream. </p><p> His luck was incredible, as always. Not only had Sunny entered the Great River in one of these harrowing places, but he also seemed destined to journey into the other. </p><p> 'Great. Simply great...' </p><p> What Sunny paid most attention to, however, was a simple question... just how was the Defilement spreading? He did not know a lot about Corruption, but it didn't seem like something that could just happen. </p><p> Even Skinwalker could not infect humans with Corruption - instead, it could only infect them with itself. Did the Defilement have a similar nature? He did not think that it did - if all the Nightmare Creatures in the Tomb of Ariel were vessels of the same entity, the first Seeker, they wouldn't be fighting each other. </p><p> That was an important distinction. </p><p> Looking at Ananke, he asked in a dark tone: </p><p> .cοm </p><p> "Grandmother, do you know how the Defilement spreads?" </p><p> The old woman shook her head. Ne/w novel chapt𝒆rs are published on no/vel(/bin(.)co/m</p><p> "I am sorry, my Lord. I do not... in truth, I've only met a true Defiled once. Weave is situated too far upstream, so while we had to battle Corrupted creatures of the future often, no one from the Verge has ever reached us." </p><p> Nephis frowned. </p><p> "Except for that one Defiled?" </p><p> Ananken nodded. </p><p> "...Yes." </p><p> The water was sparkling under the sunlight, and the ketch was flying across the waves, traveling further and further into the past. Nephis hesitated for a moment, and then asked: </p><p> "What happened when the Defiled appeared?" </p><p> The old woman did not answer for a while. Eventually, she raised her head and smiled bitterly. </p><p> "The day he appeared... was the day Weave was destroyed." </p><p> Her words traveled somberly across the surface of the water, soon disappearing into the wind.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1292.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1294.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

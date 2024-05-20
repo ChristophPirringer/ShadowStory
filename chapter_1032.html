@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1032</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1032 The Fall Of Falcon Scott 50</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> 1032 The Fall of Falcon Scott (50) </p><p> The colossal, headless body of Goliath tilted forward, and then started to fall. Because of its enormous size, it seemed as though the giant's corpse slowly floated through the air instead of crashing down in an obliterating avalanche of stone. </p><p> However, hundreds of Nightmare Creatures below were already panicking as they tried to flee and escape being crushed to death. </p><p> Sunny froze, momentarily stunned. </p><p> '...What just happened?' </p><p> He... he had killed the damned bastard? How? That was not what was supposed to happen! </p><p> Sunny had poured countless hours into creating the Siege Souvenir and making sure that Saint would Transcend in time. However, he had never expected to slay the Fallen Titan with one strike. A titan was a titan! They were not supposed to die so easily. </p><p> The plan was for the javelin to shatter the stone carapace on the chest of the giant, creating a path toward his heart. Master Jet was supposed to enter the breach and destroy Goliath's soul cores from within, while Sunny and Saint would attack from the outside. Together, they were meant to slowly bring the giant down... and maybe even survive the process. </p><p> When the titan had revealed his incandescent eye and started melting the city wall, Sunny was forced to switch targets and command Saint to aim for the eye instead. He had never thought that Goliath would be killed by that single strike. </p><p> ...Was that eye the titan's Achilles heel? </p><p> Kim had not noticed a pronounced vulnerability after they encountered the giant on the coastal highway, though. Maybe her powers were not enough to see it? Or was the vulnerability only exposed when Goliath revealed his inner, hidden eye? </p><p> In any case, the titan... the titan was undoubtedly dead. Get your 𝒇avorite 𝒏ovels at novelb𝒊n(.)com</p><p> Sunny had killed him. </p><p> For a moment, a dark glee ignited in his heart. </p><p> 'That's for Erebus Field, you foul bastard... and for me, too. That is payback for almost killing me...' </p><p> But then, his glee disappeared. By all accounts, Sunny should have felt exhilarated — he had killed a titan, after all! But instead of joy, he felt chills running down his spine. </p><p> Suddenly tense, Sunny looked around. The armaments of the defensive barrier were all but destroyed, and the wall itself was damaged and deformed. A few sections had collapsed entirely, but most still stood. </p><p> The defenders had suffered heavy losses, especially among the pilots burned to death with their MWPs. Many soldiers had lost their rifles, and the outer layers of their powered armor suits were severely damaged. However, there were still enough of them alive to continue the fight... maybe. </p><p> Luckily, most Awakened had managed to dismiss their steel Memories, saving them from being destroyed, and were now summoning them back. </p><p> Everyone was still in utter shock, mesmerized by the sight of the slowly toppling colossus. </p><p> Something was wrong, though. Very, very wrong. </p><p> ...Goliath should not have died that easily, or that fast. </p><p> Master Jet, who had been hanging outside the wall, ready to push herself forward to follow the plan and attack the titan, climbed back and looked at him, a rare expression of bewilderment written on her face. </p><p> "Sunny, what the hell... how?" </p><p> He did not answer, staring past her at the falling mountain. </p><p> 'I killed him. I did...' </p><p> Even before the body fell, wide cracks appeared all across it. Chunks of stone were splintering off and falling down. From the distance, it almost looked as if the giant... was been diseased, his skin covered by sores and ulcers. </p><p> And the cracks. Behind some of them, instead of solid stone, there was nothing but darkness. As if parts of the titan's body had been hollowed out long before the battle. </p><p> Moments before the massive corpse crashed into the ground, Sunny's eyes widened. </p><p> 'Curse it!' </p><p> In the next second, the colossal mass of stone collided against the earth, making the whole world shake. Enormous clouds of snow, dirt, and debris rose into the air, and countless Nightmare Creatures were crushed under the obliterating weight. A thunderous roar rolled over the killing field, and shards of stone shot outward like bullets, decimating even more abominations. </p><p> One more section of the wall collapsed. </p><p> However, that was not what Sunny was looking at. His gaze was locked on the massive corpse itself. </p><p> When Goliath's body hit the ground, large portions of it cracked like the shell of a rotten egg. And from within... </p><p> A tide of darkness flowed, eviscerating the few wounded Nightmare Creatures that still clung to life and stretching toward the broken city wall like black tentacles. </p><p> 'The Heart of Darkness...' </p><p> The river of black beetles had mysteriously disappeared some days ago, and almost at the same time, Goliath's speed had decreased. </p><p> The beetles liked to tunnel through mountains and devour mighty creatures from within. The Fallen Titan had been like a walking mountain himself, and mighty beyond belief as well. Someone should have guessed that the giant might have been parasitized by the legion of the tiny, dreadful creatures. But no one had. </p><p> It was so clear... in hindsight. Sunny himself had been too blinded by the threat of the titan to consider such a possibility. His preconceived notions of what constituted power, and his personal animosity against the stone giant, resulted in a ruinous case of tunnel vision. </p><p> 'Damn it!' </p><p> He glanced at the city defenses once again, realizing that almost everything that could have been used against vast swarms of tiny vermin had been destroyed by Goliath. The First Army had been prepared to face one overwhelming enemy, not myriads of dangerous, but comparatively weak creatures. </p><p> He looked at Jet, his lips trembling. </p><p> "Bloodwave..." </p><p> She frowned. </p><p> "What?" </p><p> Sunny grabbed the Soul Reaper by the shoulders and barked: </p><p> "Bloodwave! Summon Bloodwave here! He's our best hope of stopping the Heart of Darkness!" </p><p> She hesitated for a short moment, then looked beyond the wall and hissed an explicit curse. Then, Jet took a step back and started summoning a Memory that was supposed to give the fearsome Saint a signal to abandon his duty of protecting the ships and join the battle. </p><p> Sunny, meanwhile, was already moving, calling upon a few Memories of his own. </p><p> He had no idea how they would be able to handle both the vast horde of Nightmare Creatures that had come with Goliath and the tide of black beetles with the defensive barrier ruined and barely holding. </p><p> The wall was severely damaged, and many of the soldiers had either died or were rendered helpless, their weapons destroyed. </p><p> ...And yet, they had no other choice but to fight, and claw the victory out of fate's grasp somehow. </p><p> There was simply nowhere to retreat.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1031.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1033.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

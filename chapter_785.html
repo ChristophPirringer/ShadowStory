@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 785</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 785 Solitude</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> As Sunny bitterly explored the damage done to his entertainment system by the strange… malfunction… Nephis silently watched him from her stool. </p><p> "Doesn't make sense… gone, the projector is completely gone... it was so expensive!" </p><p> After a while, he turned to Changing Star with a miserable expression and opened his mouth, then frowned in confusion. </p><p> "Wait… is that my shirt?" </p><p> Neph shifted a little and then said, her voice even: </p><p> "I don't have any clothes." </p><p> Sunny stared at her for a few moments, then waved a hand and looked away, forgetting what he was going to say. </p><p> "Never mind. You can keep it. We can also order a delivery of anything else you need. I am an incredibly rich entrepreneur, you know!" </p><p> He paused, then added with a bit of embarrassment: </p><p> "Well, I used to be rich, anyway. These days, I pretty much spend everything on… research." </p><p> She tilted her head a little, then suddenly said: </p><p> "...The girl you're tutoring visited." </p><p> 'What?!' </p><p> Pretending to be nonchalant, Sunny glanced at Nephis and answered in a neutral tone: </p><p> "Oh? Strange. We weren't supposed to have any lessons until a few days from now." </p><p> Neph remained silent for a few moments, then looked away with a smile: </p><p> ? "She is a bright kid. I'm glad you are teaching her." </p><p> He studied her expression with a frown. </p><p> 'What' up with that smile?' </p><p> Finally, Sunny shrugged. </p><p> "Well, money is money. My lessons aren't cheap." </p><p> After that, he sighed, threw the destroyed projector out of his mind, and walked into the kitchen. </p><p> "Are you hungry? I can cook something up. My culinary skills have improved a lot, you know! As you should have already noticed…" </p><p> It was a strange thing. Back on the Forgotten Shore, Nephis had always been the one in charge of feeding the cohort. Now, their roles seemed to have reversed, in more ways than one. </p><p> She deactivated her communicator and said neutrally: </p><p> "I could eat. Thank you." </p><p> Then, Changing Star frowned slightly and added: </p><p> "Oh, but I don't have a lot of time. There is a… a consultation with the government psychiatrist I need to attend shortly. By remote, of course." </p><p> Sunny stared at her for a while, then shook his head. </p><p> 'This is so weird…' </p><p> Deciding to prepare something that did not demand a lot of time to make, he took out a pack of ramen, some vegetables, a piece of natural meat, and a pair of eggs. </p><p> "I never thought that I would hear something like that from you, of all people. A... psychiatrist, really?" </p><p> He started the process of cooking ramen, and added: </p><p> "...Was it really that bad?" </p><p> Changing Star sighed and looked down. After a while, she suddenly said: </p><p> "No. It wasn't too bad." </p><p> Her voice sounded distant, and a bit strange. </p><p> "In fact, out there in the Dream Realm, I felt…" </p><p> Nephis inhaled deeply, and then looked at him somberly: </p><p> "...Happy." </p><p> Sunny almost dropped the cooking pot. Of all the answers out there, he had not expected to hear that one. Looking at Nephis with an incredulous expression, he asked: </p><p> "What? Did you say happy?" </p><p> She sighed, and nodded. </p><p> "I know that it sound strange. And yes, traveling through that hell alone was excruciating, terrible, and hard. Many times, I did not think that I would survive. Other times, I wanted to die. There was so much pain, so much hunger, so much thirst. So much cold, so much unbearable heat. So much… silence." </p><p> A wistful expression slowly settled on her face. </p><p> "But it was also so... simple. So liberating. All I had to do was walk, fight, kill. Survive. There was no space for unnecessary thoughts. No burdens I had to carry. No complicated feelings, no responsibility. I did not have to remember where I came from, and where I was headed. I did not have to a part of… anything. It was just me against the Nightmare Creatures. And the Dream Realm itself." </p><p> He listened silently, trying to imagine what living like that would feel like. Well… he didn't have to try too hard. Had he not experienced something similar while living alone in the ruined cathedral of the Dark City? Yes, he had not been entirely himself back then, but… </p><p> But he was also the happiest he had ever been, perhaps. There was a bliss in giving up on everything except for the things he needed to survive. Even if the things he was giving up on were his sanity, his future, and his very humanity… </p><p> Granted, his isolation had only lasted for several months instead of years, and the environment had not been as dire. </p><p> What would have happened to him if he had not abandoned the cathedral to join Changing Star's ill-fated crusade? </p><p> She looked down and added evenly: </p><p> "I have never felt truly connected to the rest of humanity. I was always… a bit of a stranger, I guess. Out there in the Dream Realm, with only Nightmare Creatures surrounding me, that connection grew even more ethereal. Sometimes, I even felt like everything except for that desolate purgatory had been just a fleeting dream… a strange illusion that I had imagined. The Dream Realm… it seemed much more real. It seemed like a place where I belonged. With other monsters like me…" </p><p> She sighed, then looked at him and added: </p><p> "So, that's why I agreed to the offer to receive counseling. It is not because I feel fragile and on the verge of breaking apart. It's just that… I'm afraid to lose what little humanity I have left. I never had a lot, to begin with." </p><p> After Neph was done speaking, Sunny stared at her for some time, then shook his head. </p><p> 'I don't think I have ever heard Neph speak so much…' </p><p> Placing ramen in the boiling water, he glanced at her with a frown. </p><p> "Well… if you put it like that, I guess a little counseling would do you good. However… I can tell you right now and without a shadow of a doubt that you are not a Nightmare Creature. You're a human through and through. Believe me, I would know." Upd𝒂ted chapters 𝒐n n𝒐velbin(.)com</p><p> A pale smile appeared on Changing Star's face. </p><p> "Thank you for saying that." </p><p> Sunny looked at her with an amused expression, and then smiled: </p><p> "I don't think you understand. I am not saying this because I consider you a human, or because I feel like you are a human. Or because I believe that you are a human. It's just a fact." </p><p> He pointed to his eye. </p><p> "I have special eyes, remember? From that Attribute of mine. I have seen what people look like, and what Nightmare Creatures look like inside." </p><p> He peered into Neph's soul and grimaced, almost blinded by the brilliant radiance of five flaming, incandescent suns that burned inside of it. There was no sign of the vile darkness that dwelled in the souls of the corrupted abominations. </p><p> Cracking an egg on the edge of the pan, he looked at her and scoffed. </p><p> "...You don't look anything like a Nightmare Creature, that's all."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_784.html">Previous Chapter</a><a class="navigationButton next" href="chapter_786.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

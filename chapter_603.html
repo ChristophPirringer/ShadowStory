@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 603</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 603 Menagerie Of Monsters</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny stared at the menagerie of monsters for a bit, getting used to the fact that his eyesight was different now, too. His eyes seemed to be much keener and were naturally able to see in utter darkness — as opposed to being gifted this trait by his Aspect — but had trouble differentiating colors. </p><p> The world was basically black and white, or rather consisted of various shades of grey, similar to how he used to see the world through shadows. His sense of smell was also enhanced, overloading his mind with an avalanche of new information. It was hard to concentrate on any one thing, let alone make sense of all this mess. </p><p> 'Ah, who cares. Let's just get out of here.' </p><p> Just like in the Night Temple, the cage limited his shadow sense. However, this one did not sap him of shadow essence, which was a pleasant surprise. </p><p> Sunny's joy was short-lived, however. </p><p> As soon as he tried to Shadow Step away, he realized that he couldn't teleport through the iron bars. What's more, even his shadows couldn't slide through them, as though there was an invisible barrier blocking their way. </p><p> Sunny gritted his teeth, and felt a sharp pain as his fangs sunk into the soft flesh inside his mouth. He tried to curse, and produced a furious growl instead. After that, he simply remained motionless for a bit, staring at the other prisoners of the dungeon with gloomy resentment. </p><p> 'Curse it all.' </p><p> Finally, he shook his head and awkwardly knelt at the bottom of the cage, grasping the iron bars with all four of his hands. Moving twice the amount he had possessed previously was a bit of a challenge, but he did manage after a couple of attempts. </p><p> 'Fine. There are other methods… I'll melt this whole damned cage, if necessary.' </p><p> He stretched one hand through the bars, and summoned the Cruel Sight. </p><p> And then… nothing happened. </p><p> The only thing that changed was that his steel collar turned a little colder for a moment. </p><p> Sunny frowned, his black eyes growing even darker, then tried again. </p><p> The somber weapon did not appear. There was no tenebrous mist shrouding his hand, and no feeling of a small portion of his shadow essence disappearing to grant the Memory a physical shape. </p><p> Feeling unease, Sunny lingered for a second, and then tried to summon the Midnight Shard. </p><p> Once more, his collar grew colder for a moment, and nothing happened. </p><p> 'What… what is going on…' </p><p> One after another, Sunny tried to manifest all of his Memories, to the same result. His Memories refused to appear, and not even a single spark of ethereal light ignited in the darkness of the dungeon. It was almost… as if they were all gone. Stolen. </p><p> Even Weaver's Mask… </p><p> Panicking, he hurriedly summoned the runes, hoping to see that he was wrong, that the list of his Memories did not turn empty. </p><p> 'No, no, no, no, no!' </p><p> But… </p><p> The familiar shimmering runes did not appear. There was nothing in the air in front of him, just cold and dark emptiness. </p><p> 'Wait… what?' </p><p> Sunny called the runes forth again and again, but they were inexplicably gone. His collar was now as cold as ice. </p><p> 'Can't be!' </p><p> It was almost as if… </p><p> As if he was completely cut off from the Spell. </p><p> When the realization hit him, Sunny leaned heavily on the bars of the cage and remained motionless for a while, utterly stunned. </p><p> What kind of a Nightmare was that?<novelnext> </novelnext> </p><p> How was it even possible to lose connection to the Spell? </p><p> Spell! It was the Spell, damn it! The terrifying, almighty Spell! </p><p> Who could snatch an Awakened away from it? </p><p> He wasn't even able to enter his Soul Sea… </p><p> The scale and scope of this tectonic change simply failed to fit into his mind. Sunny had spent so long living with the Spell that he almost didn't remember what existing without it felt like. It was as though an integral part of his being was suddenly taken away, leaving him hollow and incomplete. </p><p> 'I don't understand…' </p><p> …He was still trying to cope with this new reality when heavy footsteps suddenly resounded in the ghastly dungeon. Raising his head, Sunny saw a giant of a man walking between the hanging cages, his powerful figure radiating a sense of vast, solemn strength. The man was wearing a worn leather armor and a tattered red robe, its edges frayed and torn. </p><p> On his back, a barbarous curved blade hung, wide and heavy enough to split any abomination in half, and on his belt, heavy chains rattled with each step. </p><p> The giant's face was hidden beneath a hood, but Sunny didn't need to see it to know that he was looking at an Ascended. </p><p> And that Ascended was walking straight to his cage. Visjt n𝒐velbin(.)c𝒐m for new updates</p><p> 'Now is my chance! But, uh… to do what, exactly?' </p><p> Sunny was not accustomed to his new monstrous body, and was devoid of the ability to summon Memories. He was unarmed and defenseless. He didn't even know if his Aspect still worked. </p><p> What was he supposed to do? Try to fight a Master with his bare fists… claws, or whatever… or wait and see what happens? </p><p> In the end, the cautious part of his mind won. </p><p> Sunny silently stared as the man in the red robe approached the cage, glanced at him, and then somehow made the iron bars disappear without a trace. </p><p> One moment they were there, and the next, they were gone, throwing Sunny to the ground. </p><p> The giant cruelly slammed his massive fist into Sunny's head, and before he had a chance to shrug off the disorientation, a thick chain was already fastened to his collar. </p><p> Then, Sunny was dragged somewhere, sliding across the dirty floor as the collar dug painfully into his neck. </p><p> Not too long after that, bright sunlight suddenly blinded him. A sharp pain pierced his black eyes, and a moment later, Sunny was thrown ruthlessly to the ground, landing on it in a graceless heap. Still unable to see, he felt the chain being removed from his collar. </p><p> Slowly, his eyes adjusted to the light, and even though his vision was not as good as it had been in the darkness, Sunny was able to see that he was sprawled on the stone floor of a circular arena. </p><p> All around him, rows of seats rose, cut from pristine white stone to form a vast amphitheater. The theater was not crowded, and yet there were a lot of humans seated in it, looking down at him with joy and excitement. They were dressed in simple tunics and other kinds of archaic garments, most of them of some shade of red. </p><p> The arena itself was not white like the rest of the amphitheater… instead, it was dull red, too. </p><p> Or rather, it might have been pristine once, but now, its stone surface had absorbed too much blood and changed color. </p><p> Sunny looked up and saw another monster being let off its chain some distance away. </p><p> A cold shiver ran down his spine. </p><p> …Yes, he was a slave again. </p><p> But it seemed that, this time, fate had made him a very different kind of slave. </p><p> 'Wait… don't tell me…' </p><p> As the crowd of spectators cheered, the other monster roared, spun around… and fixed its bloodthirsty eyes on Sunny. </p><p> 'It's a damned colosseum!'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_602.html">Previous Chapter</a><a class="navigationButton next" href="chapter_604.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

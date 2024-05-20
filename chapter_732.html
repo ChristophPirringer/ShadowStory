@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 732</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 732 Sevras</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> As the battle between the Ivory Dragon and the Beast of Twilight grew more and more devastating, Sunny raced across the heavenly chain and approached the walls of the Ivory City. Up above, Sevras and Noctis continued to rip each other apart, their fury terrible enough to shatter the sky. </p><p> Effie was in no condition to fight, and Cassie had exhausted all of her soul essence. She was had been battered during her escape from the falling ship, as well, so the two of them stayed behind, taking care of each over. </p><p> There were only two members of their small cohort still capable of diving into the battle — Sunny and Kai. Each had their own task, and had gone their own way to complete it. </p><p> From now on and maybe until the very end of the Nightmare, Sunny would be on his own. </p><p> Summoning the Dark Wing, he pushed his way to the top of the city wall and remained there for a moment, hiding in the shadow of a graceful guard tower. </p><p> The Ivory City lay beneath him, bathed in sunlight. It was as beautiful as he had remembered… even more so, up close. </p><p> The graceful buildings were constructed of pristine white stone, with vibrant green vines crawling up their walls. Here and there, sparkling water murmured as it flowed through carved channels. Incredible aerial bridges and arching aqueducts connected dozens of flying islands together. </p><p> Now that the sun had risen, thousands upon thousands of people poured onto the streets. All of them looked healthy and beautiful, their tan, dewy skin covered by white garments. Sunny could imagine Elyas growing up happily in this beautiful place… </p><p> In this paradise built on blood. </p><p> Right now, every person in the Ivory City was looking up at the sky, fear and awe mixing on their faces. With eyes burning with zeal, all of them were whispering prayers. </p><p> "May the Sun shine upon you, Lord Sevirax…" </p><p> "Bless us, Ivory Dragon…" </p><p> "...Protect us!" </p><p> "Protect us!" </p><p> Their prayers rose like a sea, battering into the crazed dragon that roared in sorrow and pain as the ruthless light bit into him again and again, drawing blood and driving him even deeper into the madness. </p><p> Suddenly, Sunny shivered. </p><p> He remembered what Noctis had told him once about the noble, valiant, and wise Sevras, the Ivory Lord. That he was both the sanest of them all, and the closest to utter madness. </p><p> Sevras had resisted Hope longer than any other Chain Lord… but it was precisely for that reason that he was the most susceptible to her poison. Due to his uncompromising resilience, he had maintained most of his sanity intact, and so, had never had a chance to build up a tolerance for the insidious influence of the Demon of Desire over the ages. Visjt n𝒐velbin(.)c𝒐m for new updates</p><p> Now that the death of Sun Prince pushed him over the edge, everything that Sevras had been stalwartly keeping suppressed broke out of control and flooded his mind in an instant. Hundreds of years of harrowing struggle, crashing into the bastion of his sanity all at once. </p><p> …Noctis had also said that the Ivory Lord both loved and hated his people. That they were a burden that weighed heavily on his soul, one which he could not escape due to his sense of duty. That they had bound the dragon to themselves with their faith, their devotion, their trust, and their dependency. </p><p> Looking down, Sunny saw a wide square directly under the section of the wall he was hiding at. It was crowded with thousands of people, all staring at the sky with faith and hope shining in their eyes. </p><p> Slowly, another image appeared in front of his eyes. The visage of the Twisted Rock as it had been in the future… </p><p> All of its surface had been nothing but an uneven expanse of dark stone. That stone, however, had looked really strange. It was as if once, a long time ago, it had been melted by unimaginable heat and then solidified again, creating strange shapes and swirls. </p><p> Here and there, blackened bones had protruded from the molten stone, telling the tale of countless humans and beasts who had drowned in that scorching inferno. The sight of them was eerie and disturbing, like something torn from the actual hell. </p><p> …He paled. </p><p> Below him, the citizens of the Ivory City prayed: </p><p> "Protect us!" </p><p> "Protect us!" </p><p> In the next moment, the dragon roared as he received an especially painful wound, beads of crimson blood rolling down his ivory scales. </p><p> Losing the last crumbs of sense, he twisted in the air to better see his enemy, and breathed out a torrent of immolating flame. </p><p> However, his enemy was too cunning. Noctis had positioned himself between the dragon and the crowded streets, hoping to use the city below as a shield… or maybe hoping to taunt Sevras into destroying it. </p><p> His cruel trap had worked. The stream of pale light danced out of the way of the river of fire, which fell down and engulfed the square a moment later. </p><p> Sunny staggered back. </p><p> In an instant, thousands of people were burned to death, their flesh turning to ash. The square became a scorching inferno, with even the stone itself melting and turning into incandescent lava. Cries of pain and horror filled the air. Some of the people survived and tried to flee, but the fire was everywhere around them. There was no escape… </p><p> …This was the response the Ivory Lord sent to their prayers. </p><p> Horrified, Sevirax froze in the air and looked down, shock swirling in his radiant, bestial eyes. </p><p> Sunny could practically see an internal struggle that happened in the muddled mind of the magnificent dragon. </p><p> For a short moment, the light of reason grew brighter in his eyes. </p><p> And then, it became fully extinguished. </p><p> Not caring anymore and longing for freedom, the dragon let out another furious roar, and then breathed out a powerful stream of fire, destroying a small part of the hateful enemy, but also drowning several streets of the Ivory City in flames. </p><p> Sunny stared at the slaughter, petriefied, but then shook his paralysis off. </p><p> It did not matter how vile and tragic the fate of the Ivory Dragon, and his city, had turned out to be… </p><p> All that matters was that he now had to get through the burning hell below, himself. </p><p> With a low growl, Sunny summoned the Memory of Fire into the Mantle of the Underworld and jumped down. </p><p> There was not much time left...</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_731.html">Previous Chapter</a><a class="navigationButton next" href="chapter_733.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

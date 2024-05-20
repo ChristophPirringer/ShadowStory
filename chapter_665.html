@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 665</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 665 Preparations</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> After their conversation with Noctis was done, Sunny and Kai left the sorcerer alone. The immortal needed some time to make preparations, so they had a few hours left before the archer's treatment was going to begin. </p><p> After that, they were not going to see each other again until it was over, which would take at least a week. </p><p> Walking through the beautiful garden of the Sanctuary, Kai remained silent for a bit, and then said with a smile: </p><p> "Well… I think that went well." </p><p> Sunny glanced at him with a dark expression. </p><p> "You think?" </p><p> The archer shrugged, then frowned a little. The bandages covering his disfigured face moved, revealing a confused expression. </p><p> "Did it not?" </p><p> Sunny shook his head. </p><p> "No. We have been swindled, actually. Think about it… I wanted to get three things out of Noctis in exchange for revealing the location of the Glass Knife to him. Heal you, rescue Effie, and receive his enchanted coins. Not only did he force the secret out of me without even lifting a finger, he even fooled us into retrieving the knife in his stead… while thinking that it was our own idea, no less." </p><p> He grimaced, then let out a heavy sigh. </p><p> "...Scary. He is a cunning trickster, and my own mind seems to be dulled by the curse of Hope. Still… all is well. Noctis will heal your body, nothing else matters." </p><p> Kai frowned when Sunny mentioned Hope's influence, but didn't ask anything, revealing that he had made the discovery himself. After a while, he said: </p><p> "When you put it like that, I do feel a bit foolish. But, Sunny… if you knew that we are being swindled, why didn't you try to drive a harder bargain?" </p><p> Sunny shrugged. </p><p> "There was no point to. I did not expect him to honor all three of my requests, anyway… two of them were just for show. While those coins of his are useful, I can do without them. As for rescuing Effie, that is our own task. I would not have entrusted it to an outsider, especially an ancient Transcendent with mysterious motives." </p><p> He remained silent for a few moments, and then added: </p><p> "We will have to ally ourselves with at least one of the Chain Lords in order to conquer this Nightmare, but becoming dependent on someone else's strength is a slippery slope. In the end, we can only put trust in our own efforts." </p><p> Kai tilted his head a little. </p><p> "So… those two requests were just bait, and your real intention had only been to get Noctis to heal me? </p><p> Lost in thought, Sunny simply nodded. </p><p> The archer smiled, then mumbled under his nose: </p><p> "I wonder who swindled whom, then…" </p><p> They reached their corner of the garden in silence and sat down on the grass. There was so much Sunny wanted to tell Kai, and so much he wanted to ask. He was sure that Kai felt the same. </p><p> But without even having to say anything, both of them decided to remain silent. They had already shared some things about their experiences in the Nightmare, and as for details… that was going to have to wait until the cohort was back together. </p><p> Even knowing that it was foolish, they both held on to the feeling that by postponing this conversation, they were somehow increasing the chances of the other two members joining them unharmed. </p><p> After a while, Kai asked: </p><p> "Do you… do you think that she is alright? Effie? From what Noctis said, that sect is incredibly ancient, formidable, and cruel. If Effie was sent into the body of a disciple, with her temper… I hate to admit it, but I am afraid for her. Plus, none of the maidens is allowed to leave that Temple alive. How are we going to take her away?" </p><p> Sunny remained silent for a few moments, then shook his head. </p><p> "Effie is more resilient than any of us. Don't forget, she survived in the Dark City far longer than you or I… completely alone. She held the line during the siege of the Spire and survived that, too. Effie will be fine. The War Maidens are not as formidable as you might think, either. After all, the Temple of the Chalice is destroyed in the future, and all of them are dead. I've seen the bones myself…" </p><p> His face grew somber when he remembered the furious wraiths whom he had slain to create his third core. Who could have known that the ruin he had already explored and the Temple of the Chalice were one and the same? Judging by the destruction that reigned over the ancient temple in the future, someone was going to obliterate the fearsome sect between then and now. The War Maidens weren't invincible. </p><p> Kai sighed. </p><p> "...What about Cassie? There is no sign of her. She is… she is not like the rest of us. Her combat skill is commendable, but her Aspect is not tailored toward direct confrontation. And with how terrible her Flaw is…" </p><p> He grew silent, reluctant to finish the thought. </p><p> Sunny grinned. </p><p> "Cassie? She is the last person you should be worried about. Believe me, she is doing fine. Probably better than any of us." </p><p> …At least, that was what Sunny wanted to believe. His Flaw did not prevent him from saying those words aloud, so he must have been convinced that the statement was true to some degree, at least. </p><p> However, that didn't stop his hearts from growing cold and heavy. </p><p> He sighed, and then added in a grim tone: </p><p> "Who you should really be worried about is our fifth… friend." </p><p> Kai frowned and looked at him with a dark expression. </p><p> "It has to be that person… right? The prince of Valor?" </p><p> Sunny hesitated, then nodded. </p><p> "That is what I believe, as well." </p><p> The archer gritted his teeth and turned away. </p><p> "...It doesn't matter. Here in the Nightmare, all of us are allies. Are we not?" </p><p> Sunny looked down, his black eyes growing even darker. </p><p> After a while, he said: Discover n𝒆w chapt𝒆rs 𝒐n no𝒗elbi𝒏(.)com</p><p> "We are meant to be. However, that doesn't mean that we have to be." </p><p> He sighed, and then looked at the people going about their lives in the distance. </p><p> "Mordret is… unpredictable. And dangerous. I don't know what his goals are, but in this Nightmare, his power would have grown considerably. Don't forget that he was the one who discovered this Seed, in the first place… and that wasn't by accident. He was searching for it on purpose. He is after something…" </p><p> Sunny grew silent for a few moments, and then added, his voice turning grim: </p><p> "Plus, there was already something wrong with Mordret in the waking world. Who knows what effect Hope had on him? If he had truly gone insane…" </p><p> He shuddered. </p><p> "...Then the immortal Saints might end up not being our biggest problem." </p><p> With that, Sunny stood up and summoned the vambrace of the Puppeteer's Shroud, then glanced at Kai with a strange glint in his eyes. </p><p> "Anyway, since we have a few hours left before Noctis straps you to a table and does Spell knows what to your body... how about you show me how to properly use a bow? While you still can... uh, while there's a chance, I mean..."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_664.html">Previous Chapter</a><a class="navigationButton next" href="chapter_666.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

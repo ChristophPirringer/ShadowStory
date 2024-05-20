@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 428</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 428 Covetous Coffer</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 428 Covetous Coffer</p><p>Despite the torturous burden of the Crushing, Sunny couldn't help but feel jubilant. Not only did he receive eight shadow fragments and a powerful Memory, he had also defeated a Fallen Devil all by himself, without even Saint providing him any help.</p><p>The Black Knight, too, had been a Fallen Devil. So killing one solo meant a lot to Sunny. It was a poignant milestone that made him feel like all his hard work and all the vile things he had gone through were not for nothing. He was accomplishing his goal.</p><p>Growing stronger.</p><p>…Of course, the Mordant Mimic was not as terrifying of a foe in battle as the guardian of the ruined cathedral had been. One was a creature that seemed to have been created solely for combat, while the other mostly relied on deceit and ambushing its prey to achieve victory. And yet, the chest fiend was by no means an easy foe. If anything, its devilish nature only made it that much more dangerous.</p><p>'Argh!'</p><p>As the Twisted Rock rose higher, the Crushing struck at Sunny with even more dreadful force, making his mirth dissipate in a wave of miserable suffering. A muffled groan escaped from his lips.</p><p>'Endure… just endure a bit more… this hell is going to end soon.'</p><p>For now, he had no choice but to keep suffering, wait, and stare at the distant silhouette of the Ivory Tower.</p><p>The beautiful pagoda seemed so close now that he could almost imagine himself reaching out and encompassing it in his fist.</p><p>With nothing else to do, Sunny summoned the runes and found the familiar cluster out of habit:</p><p>Shadow Fragments: [223/2000].</p><p>'I wonder how many coins are in that damned chest…'</p><p>Would he be able to create the third core with their help?</p><p>Shifting his gaze, Sunny found the runes describing his Memories. A new one was now shown at the end of the list.</p><p>His eyes glistened slightly as he concentrated on it and read the description:All 𝒍𝒂test nov𝒆l𝒔 on novelb𝒊n(.)c𝒐m</p><p>Memory: [Covetous Coffer].</p><p>Memory Rank: Ascended.</p><p>Memory Tier: IV.</p><p>'Huh…'</p><p>Sunny really couldn't believe his fortune. This was the second Ascended Memory of the fourth tier that he had acquired in a span of just a few days. Even without considering the main boon of the expedition — the miraculous coins — this journey had already proved to be incredibly fruitful.</p><p>But what kind of a Memory would the bizarre carnivorous chest leave behind?</p><p>Curious, he read on.</p><p>Memory Type: Tool.</p><p>'A utility Memory!'</p><p>While not as showy as armors and weapons, utility Memories were the foundation of every Awakened's arsenal. Take Sunny, for example — some of his most precious Memories were tools. Endless Spring, Ordinary Rock, Silver Bell… even Weaver's Mask.</p><p>Excited, he tried to forget about the obliterating pressure of the Crushing and concentrate on the runes.</p><p>Memory Description: ["You are very strange!" said Noctis. Why was his new friend so deathly afraid of chests? Why was he so timid and pale? "Don't be afraid, these are just my treasure chests. They won't bite. Well... except for this one. This one will eat you alive."]</p><p>Sunny blinked.</p><p>'That… is interesting.'</p><p>So Noctis of the Sanctuary of Noctis was a person, after all. What's more, he or she had apparently been in possession of several treasure chests, including one that could eat people alive.</p><p>Had the Mordant Mimic once been a pet of this Noctis? If so…</p><p>What kind of a person would keep a Fallen Devil as a pet?</p><p>Suddenly full of dread, Sunny continued to read.</p><p>Memory Enchantments: [Mendacious Coffer], [Capacious Chest], [Locomotive Chifonnier], [Lurid Trunk].</p><p>Sunny stared at the runes with a deadpan expression.</p><p>'What… do all these words… even mean?'</p><p>Struggling to understand the names of the enchantments, he wondered if the Spell was having a stroke and shifted his gaze to the descriptions.</p><p>[Mendacious Coffer] Enchantment Description: "This Memory can mimic the form of any inanimate object. The size and intricacy of the simulacrum are dependent on the wielder's Soul Core capacity."</p><p>'Makes sense. I am sure that the Mimic only assumed the form of a chest, instead of being born… created?... as one. I wonder what kind of a shape I can currently manage, though.'</p><p>He studied the runes again:</p><p>[Capacious Chest] Enchantment Description: "This Memory is bigger on the inside. It can be summoned and dismissed while storing inanimate items. The size of the storage space, as well as the maximum weight of stored items, are dependent on the wielder's Soul Core capacity."</p><p>Sunny suppressed the desire to grin.</p><p>'Yes!'</p><p>This was exactly what he needed right now. This enchantment solved the exact problem he was facing — the need to carry all the gold coins away before Twisted Rock was destroyed. Once again, luck was on his side!</p><p>But that wasn't all. The ability to store items in the Covetous Coffer, and then store the Coffer in his Soul Sea, opened up a sea of possibilities. In a sense, it was just like Effie's incredible bag, but better — the bag had to be carried around if there was anything inside of it, while the Coffer could be stashed away until needed.</p><p>And if so… could Sunny bring items from the Dream Realm to the real world with its help? He couldn't wait to find out.</p><p>Thinking of all the money he would make, Sunny turned his attention to the remaining enchantments:</p><p>[Locomotive Chiffonnier] Enchantment Description: [This Memory can move around and follow its wielder.]</p><p>'...Nice! That will solve the problem of having to carry all the items if I store too much inside. They are still going to weigh a ton, after all.'</p><p>[Lurid Trunk] Enchantment Description: "This Memory will protect itself against potential thieves. By eating them."</p><p>Sunny blinked.</p><p>'That is... a bit scary. I better remain on the good side of this bizarre Memory, huh?'</p><p>Overall, he was incredibly happy with the Covetous Coffer. This new utility Memory of his was simply fantastic! Not only was it capable of solving his current predicament, it would also make his future ventures into the Dream Realm much more comfortable and efficient. Not to mention the possibility of being able to bring soul shards into the real world with its help, and selling them there at a high price…</p><p>Soul shards meant money, and money meant being able to purchase Memories. With more Memories at his disposal, Sunny would be able to bring Saint to two hundred shadow fragments faster... which would hopefully make the two of them vastly more powerful.</p><p>Now, he just had to survive the Crushing.</p><p>…He was almost ready to give up and turn into a shadow when the heavenly chain finally drew taut, stopping the rise of the Twisted Rock. One more deafening rattle rolled through the air, and then, everything grew quiet.</p><p>The Crushing was at its peak now. Sunny was hurting terribly, but still able to withstand it. He just had to endure until the island entered the descent phase, and the pressure would slowly start to reduce.</p><p>Sunny strained his chest and drew in a hoarse breath.</p><p>'Thank gods…'</p><p>However, before he could feel any relief, the whole island suddenly shuddered, and a strange piercing noise assaulted his ears.</p><p>It sounded... it sounded like the sound of metal being torn apart.</p><p>Sunny's pupils widened.</p><p>'What… was that?!'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_427.html">Previous Chapter</a><a class="navigationButton next" href="chapter_429.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

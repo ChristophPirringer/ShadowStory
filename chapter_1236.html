@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1236</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1236 Great River</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1236 Great River</h4> <p> "Be careful of what you wish for." </p><p> Sunny considered these words despite feeling that thinking about them too hard was, perhaps, not too wise. The aura of madness radiating from the carvings was just too intense to ignore. </p><p> The sight of the thousands of runes carved into the underside of his makeshift raft was more than a little bit ominous. However, he was not very concerned about how urgent and demented they looked. </p><p> What really made him wary were the symbols themselves. There were familiar runes, and unfamiliar symbols, too... although Sunny had extensively studied the various known languages of the Dream Realm, he could easily admit that there might have been writing systems that he had never seen. Even if it was a little strange that they were not only completely unknown to him, but also bore no passing resemblance to any of the ones he had brushed against before. </p><p> However, how could there be the letters of human language here? That was what really disturbed him. </p><p> '...Have someone from the Evacuation Army entered this Nightmare already?' </p><p> But no, that made no sense. The chances of an Awakened from his world entering the same Nightmare, finding the exact same piece of flotsam, and carving words from a dozen different languages - some of which even a researcher like Sunny had never stumbled upon, let alone mastered - into the wood before disappearing without a trace were infinitely small. Not to mention that the markings did not seem fresh. They seemed like they had been made a long, long time ago. </p><p> So... what the hell was the meaning of this? In fact, what the hell was the meaning of this entire Nightmare? There had been no vision of reversed time when Sunny entered it. There were apparently millions of challengers who had entered it before him. There was no desert, no pyramid. Instead, there were the seven suns and a seemingly boundless expanse of water that sparkled under their light. None of it made any sense at all. Even his shadows looked perplexed. </p><p> With a quiet groan, Sunny rubbed his temples and glanced at the Sin of Solace. </p><p> "What do you think about all this?" </p><p> The pale apparition looked at him with a smile. </p><p> "I am a part of you, so you should already be aware. No?" </p><p> Recognizing his own words, Sunny sighed and turned away. </p><p> "...Bastard." </p><p> The Sin of Solace laughed. </p><p> Sunny remained motionless for a while, trying not to look at the runes. Then, he studied the seven suns for some time. </p><p> 'There's a lot of weirdness going on, and there's a lot of things that I don't know. So, let's think about what I do know.' </p><p> He was floating on a piece of wood in the middle of a vast body of water. However, that body itself was strange - it was seemingly as large as an ocean, with no land in sight, but composed of clear freshwater. All that water also seemed to be moving, flowing in a certain direction. </p><p> Freshwater and a uniform current... if Sunny disregarded the unimaginable scope, then wouldn't that make this place a river? A river that was greater than the vastest of seas, but still a river. </p><p> So... did he know of any rivers like that? Sunny shifted slightly. </p><p> 'In fact... I do know about a river that was described as great.' A river that existed outside of time and flowed endlessly from the future into the past... the Great River. It was mentioned in the description of the Stifled Scream. There was also a hint of a dreadful secret being hidden in its estuary. Coincidentally - or maybe not - an estuary of some sort was also mentioned in the description of the Shroud of Graceless Dusk. According to it, the sybils had reached the Tomb of Ariel and embraced the Estuary after the voices of the gods grew silent. That was how they had fallen. </p><p> If the Estuary that the sybils had embraced was the estuary of the Great River, where a dreadful secret was hidden, then... The Great River and the Tomb of Ariel were obviously connected. But how? Why would the Spell send Sunny into the waters of the Great River after touching one of the building blocks of the black pyramid? And if this was indeed the Great River... then was he actually floating into the past right now? </p><p> Sunny remained motionless for a while, staring at the sparkling water and the seven radiant suns. </p><p> 'Ah. My head hurts.' </p><p> He was pretty certain that he was right, and this was indeed the Great River that existed outside of time. That would explain why the vision of Ariel's Tomb had been interrupted and why he had not seen the usual reversal of time at the start of the Nightmare. Probably? However, he still had no idea what being on the Great River meant, and what the Nightmare had to do with it. </p><p> An uncomfortable thought suddenly appeared in his mind. </p><p> '...I won't leave the Nightmare in the past if I take too long to conquer it, right?' </p><p> It would be really awkward if the current of the Great River took him so far into the past that he appeared in the prehistoric time of the waking world, where there were no Nightmare Creatures, but plenty of dinosaurs instead. Then again, this river was supposed to exist outside of time. So it was just as likely that, should he survive the Nightmare, he would return to the waking world at the exact same moment that he had left it. </p><p> 'Come to think of it...' If this Nightmare had a strange relationship with the flow of time, then it could possibly explain how thirteen million challengers - way more than there were Awakened in the waking world - had ended up inside of it. Maybe they had entered, entered, and would enter the Nightmare at various points in time before Sunny was alive, during his life, and long after he was dead. </p><p> That was a very confusing and incredibly troublesome thought, though... Because it meant that in all that time, none of them had managed to conquer the Nightmare. Sunny shivered. </p><p> 'I'm just guessing, though. I might be completely wrong about the whole thing. In fact, it's most likely that I am.' </p><p> He still needed more information. Although Sunny had a very good memory and could easily remember the descriptions mentioning the Great River, he still decided to summon the runed and take another look at them. </p><p> The shimmering symbols appeared in the air in front of him. </p><p> Name: Sunless. </p><p> True Name: Lost from Light. </p><p> Rank: Ascended. </p><p> Class: Tyrant. </p><p> Shadow Cores: [5/7]. </p><p> Shadow Fragments: [1236/5000]. </p><p> Memories: [Silver Bell], [Puppeteer's Shroud], [Midnight Shard]... </p><p> He searched for the runes of the Stifled Scream, but then froze. A strange expression appeared on Sunny's face. </p><p> '...What?' </p><p> At the end of the long list of his Memories... There was a string of runes that had not been there before.Check new 𝒏ovel ch𝒂pters at nov𝒆lbin(.)com</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1235.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1237.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

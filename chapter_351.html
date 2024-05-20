@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 351</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 351 Once Again</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<p>Chapter 351 Once Again</p><p>Once again, Sunny found himself in the endless space between dream of reality. All around him, there was nothing but a boundless black void, which was illuminated by a myriad of bright stars. Between those stars, countless strings of silver light were woven into a beautiful and inconceivably complex pattern.</p><p>Once again, he felt as though he had glimpsed the inner workings of the Spell. Was it just an illusion, or was he able to see more now? It was almost as if his eyes were now able to discern a hint of meaning behind the unimaginable, titanic brilliance of the ethereal weave.</p><p>…He had the eyes of Weaver now, after all.</p><p>With a pained moan, Sunny forced himself to look away from the strings of silver light. The magnitude of the secret hidden in this cosmic pattern was so immense that just thinking about it could drive him mad. The Forgotten Shore had taught him an important lesson, and it was that one had to be careful about what they looked upon.</p><p>Some things were not meant to be seen by humans.</p><p>…Not to mention that he had other things to think about.</p><p>"Curse it! Curse it all! Curse all of you!"</p><p>His voice disappeared into the darkness, full of indescribable fury, bitterness, and sorrow. No one was there to hear it… except for the Spell, which chose to tactfully remain silent.</p><p>Breathing heavily, Sunny clenched his fists and closed his eyes.</p><p>He didn't know what brought him more rage and pain — the fact that he had lost Neph, or the fact that his secret had been revealed. Both were too bitter to swallow.</p><p>All that time, all that suffering… and for what? He had outsmarted and defeated so many powerful enemies, only for his True Name to be discovered by an ungrateful, weak, blind girl?!</p><p>After everything he had done for her...</p><p>Cassie's betrayal, perhaps, had hurt him the most.</p><p>"Curse her…"</p><p>Once again, he was a slave. He made a full circle and returned exactly to where he had started. In shackles. Only instead of nameless slavers, Nephis had become his master now.</p><p>Nephis…</p><p>Sunny gritted his teeth and groaned, a storm of conflicting emotions tearing his heart apart.</p><p>'Why did she have to do it… why…'</p><p>The pain of losing her, the hope of finding her again… was just as strong and overwhelming as the hope that she would die and disappear forever in the unforgiving hell of the Dream Realm, so that they would never have to meet again.</p><p>So that he would be free.</p><p>He clawed at his face, not knowing how to process this conflagration of feelings. For someone who had spent most of his life alone, not caring for anything, this was all just too much.</p><p>Luckily, time in this boundless void was a strange concept, so he had an eternity to try and come to terms with his new reality. The Spell kept silent, as though giving him a chance to do just that.</p><p>After a while — maybe hours, or maybe days, or maybe just a single second — Sunny sighed.</p><p>Some time later, he opened his mouth and whispered:</p><p>"...I won."</p><p>He had survived. Who could have thought?</p><p>Slightly more than a year ago, he was thrown into a region of the Dream Realm that no human had ever escaped, and now, he was not only returning to reality, but aslo doing so as one of the most powerful Sleepers in the history of the human race.Get the l𝒂test 𝒏𝒐vels on novelbin(.)c/om</p><p>Maybe even the strongest one.</p><p>…Or the second strongest.</p><p>He had survived countless horrors, crossed a cursed sea on a boat made of demon bones, slew hundreds of Nightmare Creatures, gained experience and scars worthy of a lifetime, touched the hidden knowledge of the gods, saw a tyrant die and a new one be crowned, banished an ancient curse into the darkness of oblivion and watched as a sun died.</p><p>And now, he was about to become an Awakened. An elite among elites, a person at the very top of society, one with access to the best food, the most wealth, the highest forms of prestige. The highest… everything.</p><p>All his dreams were going to come true.</p><p>All his suffering would now be rewarded.</p><p>"I will not be sad, I will not be bitter, I will not be angry. Who should I?"</p><p>Had he gone through this nightmare to be left heartbroken on the other side? No. He had earned this joy, this delight, this triumph...</p><p>And he was going to enjoy it.</p><p>Slowly, a shaky smile appeared on Sunny's face. At first, he had to force himself, but after a while, the smile became sincere.</p><p> "That's right. Victory is supposed to be sweet. So, let's see… what should I start with?"</p><p>As if answering him, the Spell finally spoke. Its voice sounded a little strange, as if it was continuing a sentence after being interrupted:</p><p>[...Your shadow is overflowing with power.]</p><p>[Your shadow is taking shape.]</p><p>Suddenly, Sunny felt his soul begin to radiate a strange heat once again.</p><p>'Crap…'</p><p>[Your shadow is complete.]</p><p>Something inside of him exploded, drowning his whole being with indescribably suffering. With a startled yelp, Sunny fell down.</p><p>***</p><p>'How come… how come I end up on my ass every time I come to this place…'</p><p>The first time Sunny had appeared in the void, he was so shocked to discover the Divine Rank of his Aspect that his legs buckled. And now, due to the painful transformation happening to his soul, he ended up in the same situation again.</p><p>Because he had left the Crimson Spire, the [Soul Conduit] Attribute was gone. And without its interference, the strange process that had begun due to the saturation of the Shadow Core was finally able to continue.</p><p>It was just as painful as Sunny remembered.</p><p>Gritting his teeth to prevent himself from screaming, Sunny tried to endure that terrible agony. He was no stranger to physical pain, but this was something different. It came from the soul itself, and for that reason, was so much worse.</p><p>'Argh, damn it all!'</p><p>However, it was still not nearly as bad as the chilling torture he had gone through after consuming the drop of Weaver's blood, or the nightmare he had endured after meeting the Black Knight for the first time.</p><p>And it didn't last as long.</p><p>After a while, the pain lessened, and then finally disappeared, leaving him feeling refreshed and whole again.</p><p>Sunny carefully stood up and looked down, checking to see if he was still in one piece.</p><p>He felt… stronger. Much, much stronger.</p><p>Stronger, faster, more resilient. Very much so.</p><p>He felt so powerful, in fact, that for a moment Sunny even entertained the idea that he had subconsciously commanded his shadow to wrap itself around his body, and was now enjoying the effect of its augmentation.</p><p>To make sure that this wasn't the case, he habitually glance down to check on the shadow.</p><p>…And froze.</p><p>'What… the hell?'</p><p>The shadow was not wrapped around his body. It was where it was supposed to be, on the unseen surface Sunny was standing on, somehow visible despite the darkness of the black void.</p><p>But it wasn't alone.</p><p>Two identical shadows were currently staring back at Sunny.</p><p>One seemed sulking and morose, and the other appeared to be joyful and friendly.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_350.html">Previous Chapter</a><a class="navigationButton next" href="chapter_352.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

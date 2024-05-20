@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1303</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1303 The Great And Terrible Lord Sunless</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1303 The Great and Terrible Lord Sunless</h4> <p> Eventually, they ran out of food. Ananke's wooden box was now completely empty - except for the plates and cups that Sunny had washed and carefully placed back. There was not even wine left, despite the fact that neither he nor Nephis were fond of alcohol, diluted or not. </p><p> The old woman seemed stricken by guilt at the lack of things to feed them... Although she was not that old anymore. </p><p> Ananke looked to be in her sixties now. Her figure remained small and gaunt, but her back was as straight as an arrow. The cataracts disappeared from her eyes, revealing their original piercing blue color. The thin white hair of the elderly priestess turned grey and full, and although her tan skin was still mapped with wrinkles, it was not brittle and transparent anymore. </p><p> Her frailness and fragility were gone, replaced by wiry tenacity. Overall, she resembled quite a healthy old woman now. </p><p> ...That old woman was currently pacing the wooden deck, crushed. </p><p> "Oh, no. Oh, what a blunder. I should have prepared more..." </p><p> Sunny and Nephis looked at each other in confusion. After a few moments of silence, Neph cleared her throat and said: </p><p> "Grandm... Ananke. You don't have to worry about us. Sunny and I... we are both used to hunger and hardship. This is nothing." </p><p> The old priestess looked at them silently. </p><p> "But you are Children of Weaver. How can I..." </p><p> Nephis shook her head. </p><p> "How do you think Children of Weaver live?" </p><p> Ananke fell silent, then said hesitantly: </p><p> "I don't know." </p><p> Sunny sighed and leaned on the side of the ketch with a smile. </p><p> "That one once spent two years traveling through desolate hells all alone. I recently led numerous refugees across three thousand kilometers of abomination-infested mountains in bitter winter. We are used to storming the strongholds of dreadful horrors, clashing with titans, and surviving all kinds of unspeakable things. Hell... that one time, Nephis destroyed an entire sun. So believe her when she says that going a few days without food is nothing." </p><p> The old woman stared at them silently for a while, her eyes wide. Finally, she took a deep breath. </p><p> "Your glory rivals that of the Serpent King, my Lord and Lady... no wonder, no wonder..." </p><p> Sunny raised an eyebrow. </p><p> "Serpent King?" </p><p> Ananke nodded with a distracted expression on her face. </p><p> "Yes... Daeron, the King of Twilight. We never met him or his people, but rumors of his deeds reached even Weave." </p><p> Sunny scratched the back of his head. </p><p> "Oh? I met him, though." </p><p> The old woman froze. </p><p> "My Lord... you met the Serpent King?" </p><p> He nodded, slightly embarrassed. </p><p> "Yeah..." </p><p> Then, Sunny looked away and added: </p><p> "...I killed him." </p><p> Ananke's blue eyes widened, prompting him to hurriedly add: </p><p> "Ah, but he was already corrupted! It's not like I just killed him for no reason." </p><p> The old woman remained silent for a while, then quietly sighed. </p><p> "...Fish. I am going to catch some fish. We will be arriving at Weave soon, but still. My Lord and Lady shouldn't suffer hunger while in my care." </p><p> With that, she turned away from them with a determined expression... which failed to hide a look of pure amazement. </p><p> Sunny chuckled quietly and closed his eyes, enjoying the warmth of the seven suns on his face. After a few moments, though, he opened them again and glanced at Ananke with curiosity. </p><p> He still wasn't sure how exactly one went about catching fish in the Great River. </p><p> As it turned out... Ananke had a very strange idea of what fish was. </p><p> First, she opened a hatch and produced several items from beneath the storage space beneath the deck - a large ceramic bottle, a bundled rope with a jagged hook attached to it, a set of heavy stone weights, and a scattering of softly shining soul shards, which were all stored in a transparent waterskin that seemed to be made from a swim bladder. </p><p> Then, she grabbed the bottle and climbed onto the helmsman bench, looking at the water from above. When Ananke opened the ceramic vessel, the stench of blood spread through the air. </p><p> The bottle was, indeed, full of blood. </p><p> The old woman whispered several words, which Sunny couldn't really make out despite hearing them clearly. At the same time, the ketch suddenly started to slow down, and a subtle, imperceptible change spread through the world. He suddenly did not feel as safe as he had before. </p><p> 'Our concealment is broken.' </p><p> As Sunny tensed, Ananke poured the blood into the water and outstretched one of her hands. A whirlwind of sparks appeared around it, and soon, a long harpoon manifested itself into existence. </p><p> Rising the harpoon above her head, the old woman inhaled deeply, and then spoke one more word aloud. </p><p> In the next moment, it was as though an invisible and intangible shockwave spread outward from the ketch. Sunny did not know what its purpose was, but he felt something stir deep within his soul. </p><p> The thick blood dissolved in the water, causing it to turn red. Then, as if responding to a call... a swift shadow shot toward the ketch from the deep. </p><p> 'Crap!' </p><p> Sunny scrambled to his feet, but before he could do anything, Ananke's wiry arm whipped forward, and her harpoon tore through the air with a fierce whistle. It plunged into the water and disappeared from view. </p><p> ...A minute later, the old woman dragged the corpse of a Fallen Nightmare Creature onto the deck. The abomination was not too large, with a grotesquely deformed body and flesh that resembled a sponge. </p><p> Sunny shivered in disgust. </p><p> "We are going to it... that?" </p><p> The old woman shook her head. </p><p> "No, my Lord. This is simply the bait." </p><p> She summoned a curved knife and skillfully sliced the carcass of the creature open. Its blood refilled the ceramic bottle, while its soul shard joined the others in the transparent waterskin. </p><p> Finally, Ananke lodged the jagged hook in the abomination's flesh, attached the stone weights to it, and pushed the bladder of soul shards inside. Everything was done neatly, with practiced speed and precision, as if she had performed these actions a thousand times before. Visit nov𝒆lbin(.)c𝒐m for the l𝒂test updates</p><p> Sunny and Nephis watched her silently. </p><p> Eventually, he rolled his shoulders and asked: </p><p> "Uh. If this is the bait... then what exactly are we catching?"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1302.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1304.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

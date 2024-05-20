@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1409</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1409 Covering The Tracks</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1409 Covering the Tracks</h4> <p> Sunny did not guide Nightmare directly back to the Chain Breaker. He had managed to follow Jet's bloody trail, after all, so Undying Slaughter would most likely be able to, as well. Since Sunny did not want to lead her to Nephis and Cassie, he had to cover their tracks first. </p><p> The problem was, he didn't really know how to do it. Tracking was one of the basic skills taught during the Wilderness Survival course, which obviously covered covering the tracks as well. But... he needed to know the capabilities of the enemy to know how to hide from them, and Undying Slaughter was still largely a mystery. </p><p> Remembering the line of footprints leading to the edge of the island, Sunny hesitated for a few moments, then turned his steed to the left. They were still moving in the general direction of the cliffs, but to a point far removed from the stone steps. </p><p> With winds whistling in his ears, Sunny raised his voice slightly: </p><p> "Where's Effie?" </p><p> There was a lot he had to ask and tell Jet, but this question was the most important. He both dreaded and couldn't wait to hear the answer. </p><p> She remained silent for a moment, probably wondering how he knew that the two of them had been together, then said in a stifled tone: </p><p> "...I'm not sure. We were separated in the vortex." </p><p> Sunny's expression fell. He gritted his teeth, then forced himself to calm down. </p><p> 'It's alright.' </p><p> It was better than alright, really. Judging from Jet's words, Effie was most likely still alive. The loop had even conveniently solved the dire problem of her Flaw. Here on Wind Flower, he would never starve to death. </p><p> Sunny hesitated for a moment. </p><p> '...Can this be why Undying Slaughter is here, too?' </p><p> The mist wraith possessed the same Flaw as Jet, which meant that she had to kill in order to survive. That might have been fine back when the forces of the Defilement were besieging the cities of the sybils. But now that these cities were gone, what was there for Undying Slaughter to... slaughter? </p><p> "Sunny, I need to warn you. I'm being pursued by..." </p><p> Jet's voice was pained and hoarse. The corner of his mouth twitched. </p><p> "I know. Let's talk later... for now, hold on tight." </p><p> Just then, Nightmare reached the border of the forest. Escaping the line of tall trees, the black stallion rushed across the narrow strip of empty land between the forest and the edge of the cliffs. His hooves left a line of prints in the soft moss. </p><p> Reaching the very edge, the dark destrier did not slow down at all. Instead, he accelerated even more... and leapt forward, soaring high into the air above the hidden chasm of the dark abyss. </p><p> Jet let out a stunned yelp. </p><p> Dismissing the Shadow, Sunny spun, grabbed onto her, and summoned the Dark Wing. Before the momentum of Nightmare's leap fully dissipated, the translucent cloak manifested on his back and turned into a blur. The two of them glided down slowly, moving along the surface of the weathered black rock. </p><p> Sunny felt his arm, which supported Jet's back, become soaked in blood. His expression darkened. He had not noticed before, but there were more wounds on her body than he thought. Gêt the latest ch𝒂pters on n𝒐velbin(.)com</p><p> Soul Reaper grimaced, enduring the pain, and then said with a bit of dark amusement: </p><p> "You... really know how to make a girl squeal, don't you, Sunny?" </p><p> He froze for a moment, mortified. A terrible despair grasped his heart with icy claws. </p><p> 'No, no... it can't be!' </p><p> He knew this feeling. </p><p> Had Jet... spent too much time with Effie? </p><p> Had she been corrupted by that vulgar, foulmouthed lecher?! </p><p> 'Damn it all!' </p><p> Uttering a quiet curse, he adjusted the direction of their flight and answered through gritted teeth: </p><p> "I... guess." </p><p> Despite her pained expression, Soul Reaper let out a laugh. </p><p> They were rather far away from the misty beach, so it took a while to glide back to it. Sunny had to approach the cliffs and push them up a few times, afraid that they'll fall beneath the island. However, the wall of black rock gave away eventually, and they entered the familiar bay. </p><p> Landing on the white sand, Sunny put Jet down and supported her. His gaze was a bit worried. </p><p> "Can you walk?" </p><p> She nodded. </p><p> "It's alright. That thing didn't get me too bad. So, I'll... live." </p><p> Jet grinned. </p><p> She was not going to bleed to death, anyway... in the worst case, she would just revert to a more corpse-like state. Sunny studied her for a few moments, then nodded. </p><p> "Let's go, then. Our ship is not far from here." </p><p> They walked into the fog. </p><p> Soon after, they were in the main cargo hold of the Chain Breaker. The air here smelled of blood, but Jet looked much better - even though Nephis had not recovered enough essence to use her healing powers yet, both she and Cassie possessed Memories capable of treating small wounds. </p><p> It was one of the benefits of belonging to a great clan. </p><p> Jet had dismissed the upper part of her armor and was sitting on a crate, her torso wrapped in bandages. There was a generous amount of food on another crate in front of her, as well as fruit juice and freshly brewed tea. She was devouring the improvised meal voraciously. </p><p> Crow Crow was sitting on her shoulder, seemingly enraptured and glued to his master. From time to time, Jet absentmindedly fed it a piece of fruit. </p><p> Nothing had found and attacked the beached ship yet, but Sunny was still tense. At the same time... he felt incredibly relieved. It was so reassuring to have Jet here with him, alive and relatively unscathed. </p><p> Nephis and Cassie seemed elated, too, even if they weren't as close with the infamous government Master. Their group of three had become a group of four. </p><p> 'Good...' </p><p> Another great thing about bringing Jet back was that Sunny was going to have an easier time explaining things to everyone. </p><p> When she seemed to have satiated her hunger, somewhat, he leaned forward and said: </p><p> "Alright. Now, I'll try to explain a few things."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1408.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1410.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

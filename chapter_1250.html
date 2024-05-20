@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1250</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1250 Death Of A Hero</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1250 Death of a Hero</h4> <p> A faint smile appeared on Neph's face. She stared into the fire for a while, then leaned her back against the weathered black rock with a shrug. </p><p> "Who can tell? There are a lot of stories about the trials and tribulations he had to endure." </p><p> Bathed in the warmth of the fire and with his belly pleasantly full, Sunny felt his body and mind relax. Throwing a curious glance at her, he asked: </p><p> "What is your favorite story about that guy, then?" </p><p> Nephis remained silent for a while with a look of contemplation on her face, which was cast in shadows, with only its vague silhouette visible in the darkness... and the dancing white sparks that shone in the depths of her eyes. </p><p> Eventually, she said: </p><p> "Maybe it's not a favorite... but I often think about one of them, in particular." </p><p> Sunny raised an eyebrow. </p><p> "Which one?" </p><p> Neph sighed quietly before answering: </p><p> "Odysseus was a great hero of Hellas, but he was not the greatest one. The greatest and most powerful hero was named Heracles, who was a demigod and a slayer of monsters. Heracles possessed incredible strength and performed many incredible feats... after he died, the gods took his soul to the heavenly realm, where he became an immortal god himself." </p><p> She grew quiet for a moment. </p><p> "However, Odysseus once descended into the underworld, where he saw the shadows of the dead. Among them was the forlorn shadow of Heracles... so, when I was a child, I always wondered how Heracles could both be a god and a lost shadow in the land of the dead." </p><p> Nephis shifted slightly and moved her hand, causing the fire to suddenly burn brighter. </p><p> "I asked my grandmother, and she explained that one part of Heracles was divine, while another part of him was human. It was the divine part of Heracles that ascended to godhood, while the human part was cast down into the underworld, doomed to wander its dark halls forever." </p><p> Her voice was a little wistful. </p><p> Sunny frowned and gave her a dark look. </p><p> "That's... a little messed up." </p><p> Neph smiled. </p><p> "Right? I also always thought that it was very unfair, for the gods to simply discard the human part of Heracles. Hypocritical, even." </p><p> She lingered for a few moments and shrugged. </p><p> "Of course, when I grew older, I realized that it was really just two different versions of the myth colliding with each other. The stories of Odysseus are older, and so Heracles, despite being the greatest of heroes, had a tragic death in those ancient myths. The version of his own stories that we know are newer, and the original ending was changed to a happier one at some point, with the added lesson... be a valiant hero, and you shall be rewarded. Something like that." </p><p> When she finished talking, Sunny suddenly chuckled. His eye glinted in the dark. </p><p> "So little Neph thought that the gods were hypocrites, huh? I see now... turns out, your disdain for the figures of authority goes very far back." </p><p> A corner of her mouth twisted up. </p><p> "...I guess it does." </p><p> 'No wonder she is dead set on killing the Sovereigns and destroying the Spell... this hopeless lunatic was like that from the very start...' </p><p> Sunny hesitated for a while, then asked: </p><p> "Don't you think that it is a little hypocritical too, though? You are a great figure of authority yourself now, after all. Lady Changing Star of the Immortal Flame, the torchbearer of humanity and the idol of millions of people, both mundane and Awakened. Seems like a contradiction." Re𝒂𝒂d the latest stories 𝒐n nov𝒆lbin(.)com</p><p> Nephis looked at him across the fire with a neutral expression. The sparks of white light in her eyes danced as she answered: </p><p> "Humans are contradictory creatures. They can wage genocidal wars in the name of pacifist religions, tell truths to deceive each other. They can even love and hate something... or someone... at the same time." </p><p> Looking away, she shrugged and smiled. </p><p> "I was a very reasonable child, and I often tried to understand people through reason - to no success whatsoever, of course. It was only after I learned that people are inherently unreasonable that I started to understand them a little. Oh... I am a person too. It's no surprise that I am a bit contradictory as well." </p><p> Sunny stared at her silently. After a while, he scoffed: </p><p> "Really? Because, let me tell you... I was a very unreasonable child." </p><p> Nephis looked at him in surprise. </p><p> "Seriously?" </p><p> He nodded energetically. </p><p> "Oh, yes. One might even say that I was a bit dumb. Trying to understand things through reason? Couldn't be me... I just learned things through trial and error." </p><p> Sunny paused for a moment, and then added somberly: </p><p> "Well... mostly error..." </p><p> Nephis tilted her head a little, and then suddenly smiled. </p><p> "To be honest, I can't really imagine you as a child. I just always imagine you as... you. What were you like?" </p><p> He scratched the back of his head with a bit of embarrassment. </p><p> "Well... if I remember correctly, I was very gentle and kind. To a fault, even. Do you know how kids would sometimes pull the wings off annoying insects? I would never... in fact, I would cry for a day straight if I accidentally killed a spider or a fly." </p><p> His face slowly turned grim. </p><p> "Oh, well... that didn't last long, though. So I was mostly a weird and wicked child, I guess. Still, it was better than being soft and naive." </p><p> Then, Sunny looked at Nephis in confusion. </p><p> "What? Why are you looking at me like that?" </p><p> She blinked a couple of times. </p><p> "Pulling the wings off insects? What? Is it really a thing children do?" </p><p> He coughed. </p><p> 'Right... I forgot that Neph grew up incredibly sheltered, because of all the assassination attempts. Had she even met someone her age before coming to the Academy?' </p><p> Sunny awkwardly looked away. </p><p> "Oh... maybe it's just a boy thing. Or an outskirts thing? I don't know, really... not everyone does it. But some kids do. Well, I have no idea... I didn't..." </p><p> Neph remained silent for a while, then said thoughtfully: </p><p> "Maybe they are playing Awakened and pretending to slay Nightmare Creatures. Yes, that makes sense. Still... it's a bit cruel..." </p><p> The conversation had taken a strange turn, and Sunny was feeling a little uncomfortable. The fire was dying down, too. </p><p> He cleared his throat. </p><p> "Well, anyway. I think it's time we went to bed. I mean, we don't have a bed... beds, I mean beds! So it's time we go... to sleeping bags? Damn it... what I'm trying to say is that you should sleep first. I'll take the first watch, and wake you up later. Alright?" </p><p> Neph watched him fumble his words with a strange expression, and then nodded silently. </p><p> 'What the hell was that... what was I even saying...' </p><p> Soon, the fire died, and Sunny was left alone. </p><p> Neph was asleep, and he could hear the soft sound of her breathing not too far away. After hesitating for a bit, Sunny summoned Nightmare and ordered him to guard her sleep. </p><p> At that moment, the Sin of Solace suddenly said: </p><p> "Wow, Sunny. You really have a way with words, huh? A real charmer... I wouldn't say that torturing insects is a very romantic topic of conversation, but other than that..." </p><p> Sunny ground his teeth, refusing to look at the pale apparition. </p><p> Her knew exactly what the bastard looked like, anyway. </p><p> '...Shut up!' </p><p> ----- </p><p> Erdiul's Note: Sunny should put on his weaver's mask, his rizz increases by +100 with that shit on. Jokes aside, chapters might be late this week and the next. A bit busy. If I do miss a day, the chapters will be released together with that days chapters. This goes for all the novels I update. Cheers.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1249.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1251.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

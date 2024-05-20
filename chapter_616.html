@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 616</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 616 Black String</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny had no clue how to create, decipher, or manipulate runic magic. His inherent ability to see the weave and inner structure of magical items, the one he had received after consuming the drop of ichor that fell from Weaver's eye, also gifted him with an innate understanding of the essence of spellweave. </p><p> While studying the Memories created by Spell, Sunny was not able to fully understand the intricate purpose of the vast patterns of ethereal strings… but he at least could intuitively feel a hint of it. </p><p> He had no such advantage when it came to other forms of sorcery. So, despite the fact that he had managed to perceive the enchantments encompassing the Red Colosseum, it was not like he could simply change them, or create new ones to counteract the old. </p><p> He could study the runes, of course… but with no teacher and only his wit and intelligence to help him draw the correct conclusions from observing various enchantments, it would take hundreds of years to gain enough insight to learn how to create any meaningful runic sorcery of his own. </p><p> Sunny, however, wasn't discouraged. Yes, he would not be able to create runic sorcery any time soon. </p><p> But destroying things was always much easier than making them. </p><p> Locked inside the narrow cage, surrounded by the smell of Nightmare Creatures and filth, Sunny stared into the darkness and thought. </p><p> Destroy the enchantments of the Red Colosseum… </p><p> In theory, it was simple to achieve. He just had to break enough runes to disrupt the paths they created for the soul energy. The problem with that, however, was that the runes Hope had used were giant, and carved into nearly unbreakable stone. Sunny doubted that he would be able to do enough damage to the arena to cause its sorcery to fail. </p><p> ...Causing a smaller and temporary disruption, however, was not entirely impossible. He felt that he would be able to achieve that much, at least… perhaps enough to free himself of the binding enchantment for a second or few. </p><p> Would several seconds of freedom be enough to escape this cursed place? </p><p> It was going to have to be… </p><p> As he waited in the darkness, a seed of a desperate plan started forming in his mind. </p><p> *** </p><p> At some point, Sunny straightened and sat cross-legged at the center of the cage, causing it to sway lightly. Raising one of his four monstrous hands, he stared at it for a while, and then commanded shadow essence to stream forward, concentrating at the tips of his fingers. </p><p> Even since he had consumed Weaver's alabaster phalanx and acquired Bone Weave, the tactile sense of his fingers went through a strange metamorphosis. It was now much more nuanced, vibrant, and keen. Even though his hands were currently bestial and covered by thick calluses, this sensitivity remained. </p><p> As shadow essence concentrated in the tips of his fingers, he felt a strange, ghostly tingling sensation. It was so real as to almost appear physical… </p><p> Tentatively raising another hand, Sunny hesitated for a few moments, then pinched the air near one of his tingling fingers and tried to pull essence outward. </p><p> To his surprise, it worked. </p><p> In his mind's eye, a strand of darkness suddenly extended into the air, summoned by his hand. It didn't look like one of the radiant strings he was used to seeing inside Memories, and neither did it look like the flowing liquid that essence was usually depicted as.<novelnext> </novelnext> Discover 𝒏ew chapters at novelbi𝒏(.)co𝒎</p><p> Instead, the strand of shadow essence looked like a tenebrous fog, similar to the grey wisps that rose from Saint's armor when one of the shadows wrapped itself around her. </p><p> It was insubstantial, ephemeral, and elusive, not at all like the sharp and beautiful strings that spellweave was created of. </p><p> Sunny frowned slightly, and pulled the fog with one hand while trying to get a hold of it with the other, wishing to draw it taut, and thus more concentrated. </p><p> However, this small movement instantly caused the strand to break, dissipate, and disappear, blown away by a gust of wind. </p><p> 'This… is going to take some time.' </p><p> Grim, Sunny continued to draw on his shadow essence and try to form it into a thin and durable string, emptying a small portion of his reserves with each failure. By the time morning came, he had not made any progress at all, and only managed to waste most of his essence in futile attempts. </p><p> Fighting after wasting so much power was going to cost him a lot. </p><p> Soon, the Ascended jailer appeared from the darkness, chains rattling on his belt. Sunny glanced at the giant in a tattered red robe, and then closed his eyes for a moment. </p><p> 'Doesn't matter… it doesn't matter. I'll be dead either way. But now, at least, there's a chance…' </p><p> He fought in the arena, killed the Nightmare Creatures, retrieved the soul shard to empower Elyas, and then barely survived in the battle against the Awakened Warriors on the final stage. </p><p> At night, he continued to experiment with shadow essence, trying to shape the elusive fog into something resembling an ethereal, resilient string. When his essence ran dry, he slept for a few minutes, and then woke up with a startle to start all over again. </p><p> When the morning came, he fought. When the murdering was over and done with, hidden in the darkness, he tried to weave strings out of the effervescent fog. The idea itself seemed ridiculous, mad, and impossible… how could something so intangible become something strong, durable, and distinct? </p><p> He sundered flesh and had his flesh sundered, then struggled to create something out of nothing, day after day, night after day. Time lost any meaning… Suny had already been struggling to hold on, but now, drained by the lack of sleep, the constant pressure of trying to shape essence into a magical string, and the need to fight in the arena with his reserves half-empty because of it, he was slowly sliding into the dark and bottomless abyss. </p><p> And yet, he persisted in his obsession, teaching his fingers to feel the smallest fluctuations of the fog, to guide and shape it, trying one approach after another, endlessly, without resting or giving up. </p><p> And by the time his second month in the Red Colosseum was coming to the end and most of the cages in the lightless dungeon hung empty… </p><p> Sunny suddenly straightened, staring at his cut, trembling hands. </p><p> Between them, a single ethereal string hovered, black as night, thinner than a hair, and as sharp as a diamond blade. </p><p> A low growl escaped from his mouth. </p><p> 'It's done... I've done it!'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_615.html">Previous Chapter</a><a class="navigationButton next" href="chapter_617.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

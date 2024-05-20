@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 472</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 472 Worthy Reward</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 472 : Worthy Reward </h4><p>Sunny stared at the blind girl with surprise clearly written on his face. Allowing this surprise to seep into his voice, he asked:</p><p>"The vine creature? You want to kill that thing?"</p><p>Why would she want to attempt to do something that dangerous?</p><p>Cassie nodded.</p><p>"Yes."</p><p>He shook his head.</p><p>"That bastard sprawls through the entire island, its vines buried underground. It is Corrupted, which means that our weapons will barely be able to cut it. And, if that was not bad enough, the vines produce clouds of deadly poison. Are you sure that you want to attack it?"</p><p>The blind girl lingered for a few moments, then answered calmly:</p><p>"It is a Corrupted Monster, indeed. It is terrifying and lethal, yes. But I am sure that we can destroy it, with enough preparation. Everyone has weaknesses, after all. That creature is susceptible to fire, for example. There must be other things we might be able to exploit, too."</p><p>Sunny thought for a while, then shrugged.</p><p>"Fine. I will help your cohort fight the monstrosity on the Shipwreck Island. I will not promise that we will succeed, though."</p><p>Cassie sighed.</p><p>"Then we have a deal. My cohort and I will remain in the Desecrated Growth until our business here is done. I expect it to take a month, at least. Maybe more. After, we will return to the Sanctuary, recuperate, and proceed to the Shipwreck Island."</p><p>She paused for a moment, and then added:</p><p>"And then, I will help you challenge the Second Nightmare."</p><p>Sunny smiled.</p><p>"If we don't die before that, you mean?"</p><p>The blind girl turned back to the roots of the dead tree.</p><p>"...Yes. If we don't die before that."</p><p>***</p><p>On his way back to the Sanctuary, Sunny had a lot to think about.</p><p>Firstly, there was the fact that he would have to cooperate with Cassie again, which made him feel all sorts of complicated emotions. The manner of their relationship, at least, was set clear — it was purely an alliance of convenience, and nothing else.</p><p>He could put away his resentment for the sake of mutual benefit. After all, Sunny could be a very pragmatic person when he needed to be.</p><p>Secondly, there was the perspective of returning to the wreck of the ancient ship, this time to do battle with the vine monster that ruled over the island. Sunny knew very well how dangerous that thing was, so he had a lot of preparations to do if he wanted to come out of that fight in one piece.</p><p>The divine flame augmentation of the Cruel Sight, however, was going to come in very handy.</p><p>And lastly, there was the ominous prediction that Cassie had made about both of them dying sometime in winter. Or falling into the Sky Below, at least. That… he didn't even know what to think about that. However, Sunny was not going to let this vision affect his decisions. The last time he had tried to act on the knowledge received through Cassie's prophetic gift did not end well for him… or anyone, for that matter.</p><p>The best thing to do was to keep it in his mind, but continue to act as if nothing had changed. At least he thought that this was the best course.</p><p>Tired and mentally exhausted from the long journey to and back from the Desecrated Grove, Sunny approached the Sanctuary of Noctis in the middle of the night. His shadow essence reserves were almost depleted, and his head buzzed from all the thoughts swarming inside of it.</p><p>Landing on the soft grass and hearing the familiar sound of water falling over the edge of the island, Sunny gritted his teeth.</p><p>"Forget about it, for now. First things first…'</p><p>The moon was high in the sky, which meant that he was finally going to get his sweet, enchanting reward.</p><p>His desire to find the source of the miraculous coins the dead Chain Worm had brought with it to the Iron Hand Island started this whole ordeal, and now, the coins would be its end.</p><p>His prize was waiting for him up ahead…</p><p>Entering the Sanctuary, Sunny walked through the empty garden and approached the clear pond in its center. Stopping for a couple of moments to make sure that no one was watching him, he then crossed the stone path leading to the small island in its center.</p><p>There, a white altar stood in the shade of an ancient tree, and an obsidian knife lay on its surface.</p><p>'The moment of truth…'</p><p>Sunny summoned the Covetous Coffer, took out one of the gold coins out of it, and placed it on the altar.</p><p>The coin shimmered, reflecting the moonlight, and then disappeared.</p><p>[Your shadow grows stronger.]</p><p>A big smile appeared on Sunny's face.</p><p>Summoning the runes, he read:</p><p>Shadow Fragments: [224/2000].</p><p>'It works!'</p><p>Initially, Sunny thought of going about using the coins in a slow and deliberate manner, throwing a dozen or so on the altar each time he had to return to the real world — to minimize the chances of being noticed and well as arising suspicion.</p><p>But now that the reward was in his sight, he decided against it.</p><p>No… he wanted all of it, right now.</p><p>He deserved it.</p><p>Putting the wooden box on the altar, he turned it to the side, and then put his hand inside. A moment later, a stream of golden coins flowed onto the white surface.</p><p>Then, they all started to disappear.</p><p>[Your shadow grows stronger.]</p><p>[Your shadow grows stronger.]</p><p>[Your shadow grows stronger…]</p><p>***</p><p>In the end, Sunny ended up sacrificing all fourteen hundred or so coins to the altar.</p><p>Frightened to believe that it actually happened, he summoned the runes again, then rubbed his eyes, and read the line describing his shadow fragments three times in a row — just to make sure that his eyes weren't deceiving to him.</p><p>Luckily, they weren't.DiScover 𝒏𝒆w stori𝒆s on no𝒗/e/lbin(.)com</p><p>The runes now showed:</p><p>Shadow Fragments: [1657/2000].</p><p>'I did it… I did it!'</p><p>In the first two months on the Chained Isles, Sunny worked really hard to hunt down Nightmare Creatures and slay them. And yet, he had only been able to collect two hundred fragments. His last journey, harrowing as it had been, though… gave him so much more.</p><p>A wide grin appeared on Sunny's face.</p><p>'...Who said that greed is a sin? It's a virtue! A goddamn virtue, I say!'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_471.html">Previous Chapter</a><a class="navigationButton next" href="chapter_473.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

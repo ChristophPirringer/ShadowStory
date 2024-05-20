@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1127</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1127 Escalation</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> There were more interesting things said that night. Sitting on a cot in a remote tent, Sunny had silently absorbed them all. There was a somber expression on his face. </p><p> 'Troublesome.' </p><p> Each clan was planning to test the other during the retreat back to the siege capitals... which had not come as a surprise. From this point forward, the hostilities between Valor and Song were only going to escalate. If anything, this first confrontation was shaping out to be rather tame. </p><p> Neither of the sides was fully committing their Saints to the ambushes, preferring to bide their time and turn the conflict into a war of attrition. There were valuable assets that both clans kept under layers of protection - in terms of the ruthless economy of war, trying to take these assets off the board was not cost-effective at this point in time. R𝒆ad lat𝒆st ch𝒂pters on n𝒐v𝒆lbi𝒏(.)c𝒐m</p><p> Luckily, Nephis seemed to be one such asset, as well. </p><p> However, neither Valor nor Song could keep all their people protected. Cohorts of Awakened had to be sent out into the wilderness to scout for suitable Nightmare Gates. Scouts had to enter the Dream Realm and explore the deadly desert in search of positions that were suitable for establishing fortified expedition camps. Ascended like Knight Shtad had to lead the most important of these teams. </p><p> These were the people the great clans were going to go after first - in East Antarctica, and in the Dream Realm at the later stages of the conflict. </p><p> Which Sunny did not mind one bit. The only thing he regretted was that he would not be able to get snacks and comfortably watch the soldiers of the great clans slaughter each other... as long as they limited their feud to outside the city walls. </p><p> Sadly - and predictably - that was already not the case. </p><p> Beastmaster was not satisfied with picking off Awakened cohorts in the wilderness. So, she was planning to deliver a more damaging strike to her enemies. </p><p> There were two possible targets - the headquarters of the Valor clan in the siege capital where Sunny was headed, or Saint Tyris and her White Feather clan in the city where central Army Command and Wake of Ruin were based. </p><p> She chose the former. </p><p> ...Morgan, meanwhile, was perfectly aware of the fact that an attack on her base of operations was imminent. Whether it was through some form of divination or simply through knowing her enemy and possessing a frighteningly sharp strategic mind, Sunny did not know. Regardless of the reason, she was not planning on preventing the assassins from infiltrating the siege capital. </p><p> Instead, she was planning to lure them into a trap and slaughter them all. </p><p> Imagining what sort of destruction the clash of two hidden forces would wreak in the heart of a besieged city, Sunny couldn't help but feel cold fury. Neither of the great clans cared about collateral damage. All they cared about was destroying the enemy. </p><p> In fact, they seem to care about it a little bit too much. </p><p> Sunny had gotten a strange feeling from observing the four leaders of the secret war - Madoc, Morgan, Seishan, and Beastmaster. There were small details in what they said and how they said it that did not make a lot of sense. It was as though they were under pressure... even more pressure than there was supposed to be. That pressure made them want to hurry. </p><p> Which was why Morgan was also considering a clandestine attack of her own... hers, however, was going to be much more daring and surgical. </p><p> Because, unlike her adversary, she was sending an actual Saint instead of a team of Awakened led by a few Masters. Sir Madoc, the Whispering Blade, was going to personally deliver her lethal will to the enemy. </p><p> His target was not the Antarctic headquarters of clan Song, nor was it a large-scale destruction of their assets. Instead, he had to capture a single man. </p><p> Mordret. </p><p> The bleak man who called himself Ascended Bast was still in a siege capital controlled by Song. By now, he started silently spreading the mirrors he had created throughout the city... no one on the Valor side knew what the purpose of his strange actions were, but they were determined to prevent whatever he was doing from coming to fruition. </p><p> Madoc was going to infiltrate the siege capital and either destroy or contain the Prince of Nothing with the help of special weapons crafted by the King of Swords. </p><p> It was a tremendous commitment for Morgan, considering how important Whispering Blade was. Sending him after Mordret meant that he would not be able to provide support for the forces of Valor anywhere else for a period of time. But on this, Sunny had to agree with the daughter of Anvil... getting rid of the Prince of Nothing was a more dire need than suppressing - or even killing - one Song's Saints. </p><p> The bastard was just too ineffable. </p><p> So, that was what the near future held for Sunny. He would follow the forces of Valor back to their siege capital, fighting a probing ambush staged by Song in the process. Once there, Madoc would send off reinforcements for Knight Shtad and depart, leaving Morgan to deal with the team of assassins Beastmaster was dispatching to attack their headquarters. </p><p> Sunny was not too concerned about what Whispering Blade would do to Mordret... the man was too powerful and too precise, and the decision to activate him so early into the conflict was too unexpected. No matter if he achieved his goal or not, the attack itself would be unseen and contained. </p><p> The fight between the team of Beastmaster's assassins and Morgan's warriors... now that promised to be do a lot of harm to the refugees trapped in the siege capital. </p><p> ...Which was why he had made a difficult decision to leave the gloomy shadow with the forces of Song. </p><p> There was a lot of risk tied to that decision, but also a lot of potential benefit. Once enough kilometers separated Sunny from his shadow, he would lose contact with it. After that, the gloomy guy would be on his own for a while. The task in front of the shadow was both simple and difficult - to keep itself hidden, learn the identities of the assassins, and follow them back to Valor's territory. </p><p> If everything went right, Sunny would know the precise location of the infiltration team as soon as they reached the siege capital. If not... his soul might get seriously wounded or, even worse, crippled. </p><p> All he could do was trust in his shadow's competence. </p><p> Sunny stood up from his cot and stretched, hearing the sounds of the battle slowly grow less intense. Now that the dawn had come, the joint army was preparing to withdraw and dissolve into three separate forces. </p><p> His expression was slightly tense. </p><p> '...He'll be alright. The gloomy guy has been through a lot by my side, so he knows what he's doing.' </p><p> He had to. </p><p> With that, Sunny left the tent and went to find Nephis.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1126.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1128.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

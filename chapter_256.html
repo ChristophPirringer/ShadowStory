@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 256</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 256 True Reason</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 256 True Reason</p><p>Sunny was silent for a while.</p><p>An Echo… that weird golden armor was actually a copy of some strange Corrupted Nightmare Creature?</p><p>What kind of creature took the shape of an armor?</p><p>But then again, the fact that it looked like an armor didn't mean that it was all it could look like. The main trait of the golden armor was that it seemed to be made out of liquid metal. That metal always flowed and moved around, enveloping Gunlaug's body like a second layer of skin.</p><p>The only thing that never changed was the mirror-like surface that served him as a face.</p><p>It wasn't impossible to imagine that the mass of living metal was, in fact, not a Memory but a bizarre Echo.</p><p>Not impossible, but a bit of a stretch.</p><p>Glancing at Nephis, Sunny asked:</p><p>"How do you even know this?"</p><p>She hesitated for a few moments, then said:</p><p>"You already know that we have an ally inside the castle. She was the one who told us."</p><p>That mysterious spy again… Sunny became even more convinced that this person was of a very high rank among the Bright Lord's servants. Only someone extremely close to him would know such an important secret.</p><p>In fact, Sunny expected that the paranoid tyrant would never let anyone learn of it.</p><p>Why would one of Gunlaug's most loyal minions help his enemy? Was it all an elaborate trap orchestrated by the Bright Lord himself?</p><p>Looking at Changing Star with a deep scowl on his face, he asked:</p><p>"Can this ally of yours even be trusted?"</p><p>If he was right in his guess about the identity of the spy... well, things would become complicated.</p><p>She was silent for a while, then said evenly:</p><p>"Trusted? Not really… never, actually. However, we can trust in the information that was provided to us."</p><p>He raised his eyebrows.</p><p>"And why is that?"</p><p>Nephis shrugged and then answered, her voice indifferent:</p><p>"Because I am the only chance anyone here has of ever getting out of this cursed place. And Gunlaug is not."</p><p>'Interesting…'</p><p>So, one of the top ranks of the Bright Lord's forces was an opportunist who desired to return to the real world desperately enough to risk betraying the ruthless tyrant. That person had been loyal to Gunlaug because there was no better alternative, but then changed sides once the last daughter of the Immortal Flame clan appeared like a miracle and promised to save the people of the Forgotten Shore.</p><p>That ally of hers was either swayed by Neph's rhetoric like the rest of the unfortunate fools in the Dark City or was confident of ending up among the few lucky people who would actually have the chance of surviving what was about to come.</p><p>…Or just knew something that Sunny did not.</p><p>In any case, Changing Star seemed to be confident in the information the spy provided, so he did not see the point of doubting it. She wasn't any more naive or trusting than he was, after all.</p><p>Nephis had learned the art of cynicism from the best.</p><p>Kai, who had been listening to their conversation with a fair bit of curiosity, suddenly cleared his throat.</p><p>"Uh… I am very sorry to interrupt you guys. But I just wanted to ask — since we have found the remains of the First Lord and came into possession of this Memory you were discussing… does that mean that the expedition is over? Have we actually accomplished our goal? Really?"</p><p>That, indeed, would seem to be the case.</p><p>However, Sunny knew better.</p><p>With a friendly smile, he shook his head.</p><p>"No. No, buddy, the goal of this expedition has not been achieved yet."</p><p>The charming archer looked at him with surprise:</p><p>"But… didn't we get the thing that will help us defeat Gunalugh?"</p><p>Nephis was staring at Sunny too, a subtle smile on her lips.</p><p>"Yeah, Sunny. What else do we have to do? Do tell."</p><p>He grinned.</p><p>"Well, it's very simple, really. Yes, you told us that the reason for this adventure of ours was to find the means of overthrowing the Bright Lord, and it certainly was a reason. But it's not the whole reason, is it?"</p><p>Cassie turned her head slightly to listen to him and sighed.</p><p>Caster's face, meanwhile, had turned grim. Effie didn't seem to care one way or another.</p><p>Nephis, on the other hand, just smiled wider.</p><p>"What is the whole reason then?"</p><p>Sunny gestured at the mouth of the tunnel in front of them.</p><p>"To finish what the First Lord had started, of course."</p><p>Kai was looking between him and Changing Star, unsure of what was going on.</p><p>"Uh... what do you mean? Exactly?"</p><p>Sunny shrugged.</p><p>"Think about it, Kai. We saw the same map. What were the symbols drawn at the very edge of it, near the place where the First Lord's expedition had disappeared?"</p><p>The charming archer frowned.</p><p>"That… uh. There were… three of them? A crown, a question mark. And a red cross?"</p><p>Sunny smiled.</p><p>"Exactly. There were six crosses drawn on the map, each marking one of the headless statues. Two to the east of the Dark City, one to the north, one to the west, and two to the south. We had visited one of the two statues situated to the south already. That's where the Spider Matriarch had weaved her nest."</p><p>He turned to Nephis and said, his smile gone:</p><p>"So the truth of it all is that the First Lord never really intended to find a way through the Hollow Mountains, isn't it? He wasn't a fool who would do something so misguided. No, he came to this godforsaken place for the same reason that we are here. To find the last statue."ALL new 𝒄hapters 𝒐n nov(𝒆)lbin(.)com</p><p>Changing Star was silent for a bit.</p><p>When the silence was on the verge of growing uncomfortable, she suddenly said:</p><p>"That is correct."</p><p>Kai stared at her in astonishment.</p><p>"But… why? No, wait… what's so important about that statue?"</p><p>Nephis sighed.</p><p>"This is something that people can only volunteer to do. Anyone who doesn't wish to proceed can stay behind and avoid risking their lives in the battle. In fact, some of us probably should."</p><p>She turned to face the tunnel, remained silent for a bit, and then said:</p><p>"Yes, somewhere up ahead lies another ancient statue. There will be a powerful creature guarding it. I don't know what that guardian is, exactly, but we have to kill it. Anyone who is willing to fight can join me. Others can stay back and wait for my return."</p><p>She glanced at the members of the cohort and added:</p><p>"However, if you do join me, you'll have to follow one simple rule. No matter what happens, it's imperative that you don't deliver the final blow to the creature... unless you have reached and touched the statue first."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_255.html">Previous Chapter</a><a class="navigationButton next" href="chapter_257.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

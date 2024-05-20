@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1275</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1275 Last Resort</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1275 Last Resort</h4> <p> Everything that needed to be said had already been said. Everything that needed to be done had already been done. Granted, there was not much to these preparations. Sunny and Nephis were in a desperate situation, and they could only escape it by resorting to desperate means. This was going to be it. They were either going to live, or die. </p><p> Sunny looked at the weathered surface of the Black Turtle's shell as they walked to the shore. The black rock, the green moss, the deep fissures with murky water glistening in some of them... he had spent the first month of the Nightmare here. </p><p> It was a harrowing place - or rather, it was supposed to be harrowing. But, strangely, all he could remember about the dark island were happy memories. </p><p> Training with Nephis until sweat covered their bodies and a pleasant fatigue settled in their muscles. Laying on the moss and staring at the dreamlike sky, unbothered by the movements of the world. Eating delicious meals and drinking cool, sweet water. Bathing in the warmth of a campfire as they talked to each other, surrounded by darkness. </p><p> All of that was coming to an end. It already had. </p><p> He... was reluctant to let go of this harrowing paradise. </p><p> But there was no other choice. </p><p> 'Maybe I truly am mad.' </p><p> Sunny had entered the Nightmare utterly crushed. From Falcon Scott to the Battle of the Black Skull, he had tasted nothing but bitter failure. He had wished to be strong. He had made this wish come true, only to find out that it was of no use in the end. </p><p> As if to mock him, fate had obliterated everything. </p><p> However... somehow... he had truly been content on the dark island. Sailing through a river of unholy blood on the corpse of a dreadful monster, being pulled into the past by the current - he had been happy on that journey, and happier still to share it with someone he... was fond of. Was fond of so much. </p><p> He had been having fun in the depths of a nightmare. </p><p> '...So what if I'm mad?' </p><p> He would need madness to survive today. </p><p> The three of them - Sunny, and Nephis, and Saint - reached the slope of the island. Below them, the Great River was flowing endlessly, bleak because of the encroaching night. </p><p> The darkest hour - the brief time after the suns had already plunged into the river but before the vast expanse of clear water started to glow with soft radiance - was swiftly approaching. </p><p> Sunny took a deep breath. </p><p> 'Calm down. You've prepared for this... you've been preparing this whole time.' </p><p> Indeed, Sunny had not spent the whole month simply relaxing and spending idle time with Nephis. He had always known that this unexpected respite was not meant to last. And so, he had been studying the Azure Serpent. </p><p> By now, Sunny knew the mad beast much better than he knew most people. He had learned everything about it - how the serpent fought, how the serpent thought. What emotions guided it, what dark passion burned in its vile, corrupted soul. </p><p> He also learned how the creature's colossal body moved and worked, down to the smallest detail, as well as how the great river serpent commanded water to turn it into a weapon. In that regard, Sunny's experience fighting side by side with the scions of the House of Night had been of great help. </p><p> After coming to learn all these things... Sunny knew for a fact that he would never be able to defeat the Azure Serpent in a battle. </p><p> But... </p><p> That was if the Azure Serpent was healthy and whole. </p><p> It was not anymore. </p><p> The Great Beast had been ravaged by the battles with the Dark Butterfly, the harrowing assaults of the krill swarms, and the insidious attacks of the marauding abominations. Its flesh was shredded and frayed, its strength was exhausted, and its mind was clouded by rampant madness. </p><p> So, maybe... just maybe... Sunny stood a chance of emerging victorious from the fight. </p><p> If he won, they would have to leave the dark island immediately and never look back. Otherwise, the monstrous butterfly was going to descend from the dark sky, notice them, and devour them. </p><p> If he lost, he would die. </p><p> ...At least he would die first, turning the words the Sin of Solace had whispered once into a lie. </p><p> 'I'm ready.' </p><p> With a sigh, Sunny turned to Nephis and offered her a faint smile. He lingered for a few moments, then said evenly: </p><p> "The next one is on you." </p><p> She nodded seriously, completely missing the humorous undertone. </p><p> "Of course." </p><p> Sunny shook his head, then took her hand, transferring the Essence Pearl from his soul into hers. </p><p> "I was joking, you know?" </p><p> Nephis lingered for a moment. Suddenly, she gripped his hand tighter and looked him straight in the eyes. </p><p> "...I wasn't." </p><p> He held her gaze for several long, poignant seconds before freeing his hand with a sigh. Then, Sunny glanced at Saint. </p><p> "You know what to do." </p><p> The graceful knight raised her bow with indifferent grace. She had to play an important part in the battle, too - Nephis might not have been able to augment her with the white flames, but Saint had been wearing the Stifled Scream for an entire month. </p><p> Better yet, just as Sunny had thought, sailing on the Great River had a strange effect on the Transcendent charm. By now, the enhancement it gifted to the taciturn Shadow was much greater than it was supposed to be. Even without the augmentation of the shadow flame, she was frighteningly powerful. </p><p> Finally, Sunny looked back at Nephis. </p><p> "Do it." </p><p> He felt the purifying warmth flowing into his body and soul, strengthening both. At the same time, all five of his shadows wrapped themselves around him. In an instant, Sunny felt strong enough to crush the black rocks with his bare fists, and shake the entire world with his steps. </p><p> Turning to the Great River, he took a deep breath and whispered. </p><p> "Lost from Light. Remember. This is your name..." </p><p> Then, he opened the gate of the Shadow Lantern and allowed a flood of shadows to flow out of it, drowning the slopes of the island. They flowed down like an avalanche of darkness, eventually touching the water. </p><p> Sunny closed his eyes and dissolved into the shadows. Foll0w current novÊls on nov/3lb((in).(co/m)</p><p> ...In the next moment, the shadows moved, and something tore free from their dark embrace. </p><p> A giant serpent with scales as black as onyx manifested itself from the darkness and dove into the water with a deafening roar.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1274.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1276.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

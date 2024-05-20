@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1625</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1625 Undergeared</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h3>Chapter 1625: Undergeared</h3><p>Rain rose to one knee in one smooth motion and raised her bow. Flakes of ash rained from it like black snow, dancing gracefully in the wind. In one heartbeat, she took out an arrow from her quiver and nocked it on the string. Another heartbeat, and she strained her muscles to draw the bow.</p><p>The composite alloy resisted her pull, but swiftly surrendered to her strength and perfect form, both of which were the result of arduous training and countless hours of practice. </p><p>Her bow was not a fancy Memory weapon. It was quite mundane, made from alloy and filament  more powerful than such weapons used to be, but nowhere near its enchanted counterparts. It was not a compound bow, either. More than that, even as far as recurve bows went, hers was on the weaker side.</p><p>But there was nothing Rain could do about it. There were alloy bows of monstrous power out there, but they were meant to be used by the Awakened. With her pitiful mundane strength, she wouldn't even be able to draw one, let alone do so swiftly and reliably.</p><p>As for compound bows while they offered increased draw weight and other advantages, that was only good on paper. In reality, there was more to a weapon than its power. How reliable was it? Was it easy to carry? Would it endure the wilds? Could it be cared for and maintained in harsh conditions? And so on.</p><p>Awakened did not have to think about such things, but Rain did. And thanks to her teacher, she had learned all about these matters. Each piece of her equipment was picked out thoughtfully.</p><p>Yeah. Not at all because I simply can't use anything better.</p><p>The inner layer of Rain's kit consisted of a military bodysuit, the kind the soldiers of the Evacuation Army had used in Antarctica. It could repair itself and regulate the temperature of her body, which was a necessity here in Ravenheart, where lethal cold and blistering heat somehow coexisted in appalling harmony.</p><p>Granted, the self-repair function of the bodysuit was practically exhausted after years of extensive use, and she had had to patch it up by hand on several occasions. Her teacher was weirdly good with thread and needle, for some reason, imparting that knowledge on his reluctant student.</p><p>She wore leather pants on top of the bodysuit, made from the hide of an Awakened Beast, as well as knee-high boots of the same material. The rest of her clothes consisted of a perfectly mundane henley, wool vest, and a military jacket with a manually reinforced lining.</p><p>There were a few pieces of armor supplementing her modest ensemble, as well - alloy bracers and shin guards, a leather chest guard, and a jointed shoulder guard.</p><p>The mundane armor was not nearly enough to protect her from the claws of Nightmare Creatures, but it was better than nothing. It could protect her from a glancing blow or two, at least. Wearing anything heavier would have just slowed her down without providing much additional protection.</p><p>Rain was also wearing leather gloves, while her long winter coat was currently folded and hidden inside her pack.</p><p>Needless to say, she felt bitter envy every time she saw young Awakened gallivanting in suits of shiny enchanted armor. They didn't even need to wash their Memories, let alone repair them by hand! Not to mention the fact that their armor was much more durable.</p><p>Focus!</p><p>The Stone Worm was almost a hundred meters away. The ash was raining from the sky, making its figure vague and blurry at least it was easy to tell the direction and strength of the wind. Hitting a target from such a distance was not an easy feat, but well within Rain's capability.</p><p>However, she wasn't sure that she would be able to kill the abomination with one arrow. Her arrows were more potent than her bow, true - the arrowheads had been made from the fangs of an Awakened Beast, and were quite deadly as a result. But the Stone Worms did not have an easily exploited vulnerability. There was no spot she could hit to bring the Monster down immediately.</p><p>The vile things were also terribly fast despite spending most of their lives underground. It would take the Stone Worm a couple of seconds, three at most, to cover the hundred meters separating them.</p><p>And another moment to rip her to shreds.</p><p>It had already noticed her, too.</p><p>Be calm.</p><p>It was like her teacher always said</p><p>And don't you dare die, or I will kill you myself!</p><p>As a respectful and dutiful pupil, Rain had no choice but to obey her teacher.</p><p>She held her breath and took aim. Time slowed down to a crawl. Rain moved her bow slightly, accounting for the wind, and then relaxed her fingers, allowing them to slide off the string.</p><p>Relieved from terrible tension, her alloy bow propelled the arrow forward with dire force. The string struck against her chest guard like a whip. The falling ash swirled, disturbed by the violent turbulence.</p><p>A hundred meters away, the Stone Worm toppled to the ground in a mess of long libs. The arrow had dove into its circular maw, piercing the creature's brain. </p><p>Sadly</p><p>Stone Worms had several independent brains.</p><p>Before Rain had time to blink, the abomination rolled on the ground and shot toward her like a revolting flesh torpedo. It covered half of the distance between them in what felt like a split second. A cloud of ash rose into the air in its wake, spreading outward like a wave of boiling darkness.</p><p>Before it could cover the remaining distance, though, a second arrow struck it. It had only taken Rain that long to draw her bow again, adjust her aim, and let the arrow fly.Visjt n𝒐velbin(.)c𝒐m for new updates</p><p>Even though hitting a moving target was endlessly more difficult, let alone such a fast one, the second arrow unerringly penetrated the creature's maw again. This time, it went in at a shallow angle, hitting the Stone Worm's spine.</p><p>The abominations stumbled but continued barreling toward Rain.</p><p>She blinked.</p><p>Crap.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1624.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1626.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

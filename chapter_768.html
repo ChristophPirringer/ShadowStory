@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 768</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 768 Dark Shore</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Eventually, the four of them were invited into the room where Nephis slept… this time on a hospital bed instead of inside of a closed coffin of a sleeping pod. The administrators of the Academy wanted to avoid any more damage, so asking the members of Changing Star's cohort for help was a logical step. </p><p> Seeing familiar faces first after waking up would probably calm her down. And if not… having four Masters at hand would be enough to deal with any unforeseen complications. </p><p> Most likely... </p><p> Sunny stood in the corner, looking at Nephis with a somber expression. Her pale face, her silver hair. For the past two years, he had often seen her through the transparent lid of the sleeping pod, bathed in its ghostly light. Now that she was out and returned to the real world, Changing Star seemed much more… material. And strangely vulnerable. </p><p> She was truly back. </p><p> He sighed. </p><p> Cassie was sitting on a chair beside the bed, while Effie and Kai were resting on a sofa. None of them knew when Neph was going to wake up, and they had already spent a couple hours waiting. Without having to discuss it, all four decided to stay quiet. So… by now, they were pretty bored. </p><p> Sunny, on the other hand, was filled with more and more tension. </p><p> The corner of his mouth twitched. </p><p> 'This anticipation is killing me. It's pure torture.' </p><p> He did not think that Nephis would abuse her power over him. But it was better to prepare for the worst. For that reason, Sunny was mentally going over all the clever ways he had thought of to undermine her absolute authority as his master. There were always ways... owning an unwilling slave was not an easy endeavor. Especially one as powerful and resourceful as him. </p><p> That had been one of the reasons why he had chosen to kill the Mirror Beast instead of subjugating it, all that time ago. </p><p> Still, Sunny could not help but feel a hint of fear. </p><p> ...After a while, he shook his head and moved slightly. Then, without being noticed by anyone, Sunny silently merged with shadows. </p><p> Hidden in their dark embrace, he hesitated for a few moments, and then called upon Nightmare. A vast shadow appeared near him, all around him… this was the dark destrier in his true, shapeless form. </p><p> Sunny allowed himself to be enveloped by the larger shadow, and then gave it a silent command. What happened next… was hard to describe. </p><p> He had only done this a few times in the past, and each time was as strange. It was a bit like traveling to the Dream Realm, but also different. </p><p> Tired of waiting, Sunny had decided to travel to Neph's dreams. There was no sense in prolonging his anxious anticipation, anyway. He had to see if Changing Star was still sane. He had to know that she was still... herself. </p><p> Soon, Sunny found himself on a dark shore. </p><p> Beneath him was a vertical slope, with furious waves crashing against the cliffs far below. Some distance away, a tall and beautiful lighthouse stood, illuminating the absolute darkness with its radiant flame. </p><p> Sunny studied it for a while, and then nudged Nightmare to walk along the edge of the cliff. Sitting in the saddle, he rode the black steed and tried not to look around too much. </p><p> Dreams were a strange place. They did not adhere to the logic of the real world and were always flowing, always changing. The more powerful a dreamer was, the more solid they sometimes appeared. </p><p> They were also dangerous for Dreamwalkers such as Nightmare and Sunny. The threats contained within them might not have been real, but by invading this subliminal space, the uninvited guests had to treat them as such. </p><p> This was why Nightmare often returned wounded from his travels. If an Ascended dreamt of a powerful abomination, the dark destrier had to battle the abomination as if it was real. However, not only dreadful fiends posed a threat. His opponents were empowered by the dream itself, so their strength depended on the strength of the dreamer. Their actual shape did not matter that much. </p><p> Nephis… was very strong. So her nightmares were bound to be terrible, as well. </p><p> Soon, the landscape around them changed. The dark shore and the lighthouse disappeared, and instead, the streets of a ruined city appeared from nowhere. With a bit of apprehension, Sunny recognized the familiar shapes of the stone buildings of the Dark City. However, they were simultaneously the alloy towers of the Siege Capital. Their facades were broken, with smoke and fire escaping from the cracks. </p><p> A wide road was littered with burning debris, and a luxurious PTV lay overturned some distance away, its armored frame bent and riddled with holes. Blood was spilling on the melting asphalt from the shattered windows. </p><p> Sunny slowly approached the PTV and then jumped off Nightmare's back. After hesitating for a moment, he bent down and looked inside the cabin. </p><p> There were several corpses inside, all wearing mundane clothes. Most disturbingly, these people lacked faces, and instead looked like smooth-faced mannequins. Their flesh, however, was quite real… and terribly mangled. </p><p> With a frown, he looked away and studied the surroundings. It did not take him long to notice a trail of blood leading away from the burning PTV. T/his chapter is updat𝓮d by nov(ê(l)biin.co/m</p><p> Leaving Nightmare behind, Sunny followed the trail. </p><p> He crossed the street and entered the foyer of a business tower through a large hole in its wall. Looking around, Sunny noticed that the foyer strangely resembled the silent shore of the dark river they had crossed once, a long time ago, while searching for the remains of the First Lord. </p><p> White fog swirled above the water, full of silent whispers. </p><p> There was only one thing that did not seem to fit — a large reception desk stood not too far away from him, drowning in shadows. </p><p> Sunny slowly walked to it and then moved around. </p><p> Behind the desk, leaning on it with her back, a young woman with silver hair sat on the ground. Her face was pale and tired, and her striking grey eyes were devoid of any light. She was wearing mundane clothes, which were marred with blood. </p><p> Sunny sighed, and then said: </p><p> "Hey, Neph." </p><p> The young woman slowly looked up... and then smiled. </p><p> "Hey, Sunny."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_767.html">Previous Chapter</a><a class="navigationButton next" href="chapter_769.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

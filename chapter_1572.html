@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1572</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1572 Testament Of Dread</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1572 Testament of Dread</h4> <p> As it turned out… the daemons had not appeared out of nowhere, nor had they created themselves. Instead, they were born from the seven pieces of a god whose very existence had been erased from the world, concealed, and forbidden from being mentioned. The seventh god… </p><p> The Forgotten God. Who had been Dream God, once. </p><p> So, it was not that the origin of the daemons was unknown. It was just that their very existence was forbidden, and since no one was allowed to remember the Forgotten God, it seemed as if they had appeared from nowhere. Sunny shivered, and then looked ahead. There, the last cluster of light was burning under the surface of the dark lake. He walked forward, his legs numb. Soon, he reached the light and looked down, seeing runes once again. Taking slow steps, he studied them. </p><p> The message left behind by Ariel, the Demon of Dread, read: </p><p> [Here is the truth I leave behind </p><p> That reveals the lie of the gods </p><p> The Forgotten One slumbers </p><p> In the Void </p><p> Eternal, everchanging </p><p> Dreaming of escape </p><p> The gods, who were flawless </p><p> Learned shame </p><p> And were flawless no more </p><p> I am a child of their transgression </p><p> And thus, their Flaw] </p><p> Suddenly, he remembered the last thing Noctis had said to him, in the depths of the Secon Nightmare, just before Hope broke free of her chains. He remembered the weight of the four words the whimsical sorcerer had whispered: </p><p> 'Never trust the gods.' </p><p> Sunny trembled. 'The gods… were flawless no more…' </p><p> Suddenly, he remembered the last thing Noctis had said to him, in the depths of the Secon Nightmare, just before Hope broke free of her chains. He remembered the weight of the four words the whimsical sorcerer had whispered: </p><p> 'Never trust the gods.' </p><p> The gods… were liars, indeed. They left one of their own in the cage they had built to imprison the Void, and, full of shame, erased his existence from the world. Was that how the universal law of imperfection had been born? Or maybe it had gone the other way around, and it was precisely the creation of the law of imperfection that had given the gods the final push they needed to seal the Void. </p><p> Thus making the Forgotten God their Flaw. And, therefore, making the daemons, who had been born from his soul, living incarnations of that Flaw. Was that what Hope had meant when she spoke to him? </p><p> Hope, who had been imprisoned by Sun God, her kingdom destroyed, after mortals started worshiping her. </p><p> 'Wait… no…' Was shame really what had made the gods forbid the knowledge of the Forgotten God from spreading? Or was there something deeper hiding behind that colossal lie? </p><p> 'The law of imperfection…' </p><p> Everything in the world created by the gods was imperfect, including the gods themselves. Therefore… the seal they had placed on the Void had to be imperfect, as well. </p><p> Which meant that it could be broken. That, in a sense, was their Flaw, too. And therefore, the Forgotten God, who had been sealed in the void for so long, slumbering, could one day break free. What would happen if he did? </p><p> Suddenly, something clicked in Sunny's head. 'No… not what would happen.' </p><p> He paled, an expression of utter terror appearing on his face. </p><p> 'What has happened.' </p><p> There were seven gods, not six. </p><p> And therefore, there had to be seven divine realms, not six, like Wind Flower had told him. </p><p> The waking world was the sixth, most likely belonging to War God… 𝒩ew st𝒐ries at n𝒐velbin(.)co𝒎</p><p> While the Dream Realm was the seventh, belonging to the Forgotten God. </p><p> The Dream Realm, which was devouring all the rest and spreading Corruption to all of existence through the blooming Seeds of Nightmare. </p><p> Corruption was the result of the Void influencing that which had been created by the gods… </p><p> What would happen if one of the gods was exposed to the Void for eons, then? </p><p> Could there be a corrupted god? The God of Corruption? </p><p> Sunny trembled once again. That god… had already broken free of his seal. But, perhaps, he was still asleep. And all of existence was in the throes of his nightmare. 'The Forgotten God… has succumbed to Corruption.' </p><p> And the day he was released would have brought doom to the world created by the gods. So, they had to have done everything in their power to prevent him from growing stronger, restless, and awakening from his slumber. They had erased all mentions of his existence from the world. They had forbidden the daemons from siring offspring, thus preventing the propagation the lineage of the Forgotten God. </p><p> And they had destroyed Hope's kingdom when people started worshiping her… and, through her, the god from whom she was created. Which was a really cruel punishment, considering that daemons had not even been aware of their origin at the time. After all, the description of the Mantle of the Underworld stated it clearly about Nether… </p><p> [...He wasn't the first to lead his army against the gods. However, he was the first to shed their blood, as well as learn the secrets of his own.] Nether had been the first to reveal the lie of the gods and learn the truth of his origin. Sunny gritted his teeth, feeling sick. </p><p> 'Damnation… damnation…' </p><p> Finally, the history of the Dream Realm was revealed in front of him. Except for the very end of it. What had happened during the Doom War? </p><p> How had the gods and the daemons perished? </p><p> How had the seal of the Void been broken? </p><p> And if it had been broken, why wasn't all of existence already consumed by it? </p><p> Why was the Forgotten God still sleeping, instead of awakening to devour everything? </p><p> Most importantly of all… </p><p> What was the true purpose of the Nightmare Spell, and what was Weaver's real goal? </p><p> Remembering the scheming daemon, Sunny suddenly shuddered. </p><p> 'Wait… wait a minute…' </p><p> The daemons had been forbidden from propagating, and yet the Demon of Fate still secretly created a lineage. The forbidden lineage… which Sunny had inherited. Since the blood of Weaver was flowing through his veins… </p><p> Did it mean that he had actually inherited the lineage of the Forgotten God? </p><p> 'What the hell does that mean?!' </p><p> Sunny raised his hands and clutched at his hair. He was a bit overwhelmed. After finally solving countless mysteries about the past of the world, despite that very knowledge having been forbidden from being learned by a divine law… he was left with one final set of questions. But these questions were perhaps the most important, because they directly influenced the present — and, therefore, the future. His future, as well as that of everyone he knew. 'Argh!' </p><p> Sunny would have loved to spend an eternity contemplating the many harrowing revelations he had received. But he wasn't sure that he could endure it, at the moment. Most importantly… he didn't have time! </p><p> His freedom was here, somewhere, in the Estuary of the Great River. </p><p> Hidden at the very heart of it… </p><p> Where the most burdensome truth Ariel wanted to be free of should have been buried. </p><p> Sunny had to reach it before Nephis burned the First Seeker to ash. Therefore, gritting his teeth, he tried to calm his frenzied mind and hurriedly walked forward. </p><p> 'Lying gods, forgotten gods, corrupted gods… I'll deal with all of this later!' </p><p> The Forgotten God dreamed of being free… </p><p> Well, Sunny dreamed of being free, as well! </p><p> And his wish was almost within his grasp. </p><p> So, he was going to make sure that he didn't fail to grasp it, at all costs.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1571.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1573.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

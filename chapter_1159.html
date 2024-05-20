@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1159</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1159</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Strips of meat were roasting above the fire, and a delicious fragrance permeated the air. The remains of the Corrupted Monster crackled as they burned. Somewhere far away, ancient chains rattled loudly. </p><p> Darkness shrouded the world outside the circle of light cast by the dancing flames. </p><p> "... and that was the moment when the explosives detonated. Boom! I don't know how the whole city did not just slide into the ocean, but it was really something. The wall fell, the buildings crumbled to dust, the earth itself sank. Oh, but I did not see any of this, of course, because I was right in the middle of the explosion, protected only by a few layers of manifested shadows." </p><p> The members of the cohort were staring at Sunny with wide eyes... well, except for Cassie, of course. Nephis had been paying more attention to roasting the meat, but as the story went on, she seemed to become more and more distracted. </p><p> He grinned. </p><p> "And the Scavenger was right there with me! I couldn't let the wretch escape into the shadows, so I held on to him with one hand, and pummeled him with the other. At that distance, swords were of no use, so he started biting. And let me tell you... his teeth were really, really sharp..." </p><p> Sunny smiled, revealing his own teeth, then suddenly made a ferocious face. </p><p> "But not as sharp as mine. I bit the bastard, too! At that point, the sphere of shadows was already breaking, and the heat inside was like an oven. It had survived the initial detonation, but got tossed around by the shockwave, and then rolled down into the crater before finally shattering." </p><p> His expression relaxed. </p><p> "Well, anyway. I came to my senses a bit faster than the Scavenger, who got pinned to the ground by some debris. Problem was, I still had no way of breaking his armor... luckily, I still had a chest full of the dark beetles with me. So, before the fiend could free himself, I poured the beetles out, and they ate him alive. A fitting end for a corpse eater, don't you think? And since those beetles were not exactly living things, the Spell attributed the kill to me. So, that was how I received a new Shadow." </p><p> There was silence for a few moments. Eventually, Effie shook her head. </p><p> "Wait, wait... so you're telling us that this Ravenous Fiend stalked you across all of the Antarctic Center, infiltrated a siege capital, and waited for weeks to ambush you at the worst possible moment? Since when are Nightmare Creatures that smart?" </p><p> Kai glanced at her with surprise. </p><p> "Uh... are we just going to ignore the fact that Sunny killed a titan?" </p><p> Sunny laughed. </p><p> "Yes, that is exactly what happened. The first months of the operation were really wild, what can I say." </p><p> There was a startled pause. In the silence, Cassie asked in a worried voice: </p><p> "But what happened to your soldiers? Were they alright? You said that the Ravenous Fiend gravely wounded one of them..." </p><p> Sunny's smile slowly faded away. </p><p> He stayed quiet for a few moments, then sighed. </p><p> "...Yeah. They were fine. Luster lost his legs, but he survived. He's currently back in the Northern Quadrant, recovering after receiving treatment from the best government healers. Kimmy is right here in East Antarctica, she is with Army Command now." </p><p> His eyes grew distant. Visit nov𝒆lbin(.)c𝒐m for the l𝒂test updates</p><p> "Quentin... Quentin is still marked as missing in action, officially. As for Belle, Dorn, and Samara, they died a few days later. When we tried to fight the Winter Beast. Everyone died that day, except me and Jet." </p><p> In the silence that followed, Cassie sighed lightly. </p><p> "I'm sorry." </p><p> Sunny glanced at her sharply. It was strangely off-putting, to hear those words coming out of her mouth... he knew very well that she was not one for apologies. </p><p> '...Have I unknowingly been waiting for something stupid like that for the last couple of years?' </p><p> He shook his head, then put a smile on his face. </p><p> "Yeah... I'm sorry too. But that is how Antarctica is. It has a way of reminding you that no matter how strong you have become, there is always something stronger out there, waiting to eat you alive." </p><p> Sunny lingered for a bit, looked at Nephis, and said in a carefree tone: </p><p> "I've tasted a lot of failure there. It's a bitter thing, failure, but after everything is said and done... I think it is more of a medicine than poison. You should try it too, sometime, before it's too late." </p><p> He did not know why he was being combative with Neph, but her confidence was really frustrating to observe recently. Perhaps... perhaps it was because he felt protective of her - Changing Star had put herself in terrible danger by joining Clan Valor, after all. She was facing death and destruction, but acted as if everything was under her control. </p><p> She was wrong. The Great Clans, the Sovereigns - these people were not someone who could be controlled. </p><p> Hearing his remark, Nephis calmly turned the meat and looked in Sunny's direction. </p><p> Her voice was even: </p><p> "I think I know more about failure than anyone here." </p><p> He frowned. </p><p> "You? When have you ever failed?" </p><p> Nephis sighed and continued tending to the meat. </p><p> "I failed to keep you by my side in the Dark City, didn't I? I failed to take control of the Bright Castle, too... I wanted to usurp Gunlaug's throne a few days after killing him. I had everything prepared, but in the end, it took many weeks of bloody struggle to achieve the goal. Each additional day that passed, each Sleeper that died fighting fellow humans... were my failures. I wasn't easy to come to terms with." </p><p> She took the fragrant meat off the fire and started placing it on the plates. </p><p> "I failed in the Crimson Spire, too. I failed to achieve the best result, and even messed up in my attempt to salvage the mistake. And I have failed countless times since." </p><p> She smiled, then handed Sunny his plate. </p><p> "But that's alright. You said it yourself, failure might be bitter, but it is a medicine. Now, let's eat... hopefully, this meat will taste better."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1158.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1160.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

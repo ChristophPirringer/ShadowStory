@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 583</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 583 Web Of Lies</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> It had taken Sunny a lot of time to understand what Mordret was doing, and why. But in the end, he had succeeded, and thus managed to predict what the elusive prince was going to do… or at least do it with a sufficient degree of certainty to stake his life on it in this desperate situation. </p><p> Just like everybody else, Sunny had been fooled at first. The initial revelation he had received had to do with the brutal murder of the two guards… it was then that he realized that Mordret was not as insane and perverse as everyone seemed to think. </p><p> Mordret's grotesque brutality was not the result of an irresistible, unhinged and sadistic compulsion. Instead, it was a cold and calculated strategy that the prince had employed to diminish his enemies, break their spirit, and make their souls susceptible to his attacks. He had weaponized terror itself, and made good use of it. </p><p> After all, people were most scared of that which was unknown. And what was more unknowable than the mind of a deranged, murderous madman? </p><p>  After Sunny realized that there was such a possibility, the next step was both simple and hard to take. He had to take a good look at himself and admit that he himself had fallen victim to this tactic.</p><p> Mordret had gotten under his skin. Sunny was more resilient to deceit and manipulation than most, but he was also more vulnerable to the schemes of the Prince of Nothing. Their enmity was personal, and as such, involved powerful and destructive emotions. Humiliation, resentment… the sense of betrayal. Such emotions were the enemy of clarity. </p><p> Sunny had allowed his mind to be clouded by them, and through them, by fear. Top 𝒏𝒐v𝒆l updates on nov𝒆lbin(.)com</p><p> So, he had to separate his emotions from his perception of the situation, knowing that some of them were a dire obstacle, and some were engineered by Mordret in order to obfuscate the truth. </p><p> Once he did, it was as though a veil had fallen from his eyes. Without it, several things became apparent. </p><p> The first one was that Mordret was not as terrifying as he wanted everyone to think. Sure, he was astonishingly powerful for an Awakened, and equally as lethal… enough so for Sunny to suspect that the prince possessed a divine Aspect. </p><p> If he and Nephis could, why not Mordret? </p><p> He didn't know how many soul cores Mordret possessed, but if his Aspect was indeed similar to theirs… there had been much more time for the former heir of Valor to accumulate soul fragments and grow stronger. This could also explain why his power level was so anomalous. </p><p> In any case, it didn't matter. Regardless of how powerful Mordret was, he was clearly not powerful enough to obliterate his jailers completely — otherwise, they would have been already dead. In fact, Sunny suspected that the Prince of Nothing was in the exact same situation as he himself was. </p><p> Sunny could take on one of the Masters, maybe even both of them with Cassie's help and a lot of luck. He also stood a chance in the battle against the surviving Lost. </p><p> But he couldn't fight them all together… and neither could Mordret. </p><p> It was not an accident that the guards had been killed in the usual brutal and ghastly fashion, but the wounded sentinels simply had their throats cut. The murderous prince had not abandoned his barbarous ways on a whim… he simply wasn't capable enough to do more unnoticed. Mordret was not all-powerful. </p><p> Just very, very good… </p><p> The second realization came thanks to the first one, after the two wounded sentinels had been killed and the crowd of their comrades was hungry for Sunny's blood. Back then, he briefly considered running away, despite the fact that Pierce and Welthe would certainly pursue… </p><p> And this was it. At that moment, he understood Mordret's true goal. It was not to single out Sunny, separate him from the Lost, and possess his body… no, what the prince wanted was to separate the Lost from each other with Sunny's unwilling help. So that he could kill them, divided. </p><p> Which didn't mean that he had no plans for Sunny's body. Only that he wasn't aiming for it yet. </p><p> After Sunny understood Mordret's immediate goal, one last thing became apparent. </p><p> ...It was that the murderer was indeed already among them. </p><p> Only he wasn't hiding inside Sunny, as the Lost suspected. Instead, he was hiding inside one of them. </p><p> This mystery tormented Sunny for a while. How could this be? After all, Pierce and Welthe weren't fools. They had a reason to be confident in their soldiers… and that reason was that none of the sentinels had interacted with a mirror or any sort of a reflection after Mordret's last vessel had been destroyed. Everyone was careful, and watchful of their comrades to keep them safe, too.</p><p> How could he have possessed one of them, then? </p><p> The answer was both simple and frightening. Sunny understood it after thinking about the sentinel who had brought food and water to their cage, then lost his mind and tore out his own eyes. </p><p> …The eyes. </p><p> The eyes were the mirror of the soul, after all. </p><p> Locked in a small room with Cassie, Sunny couldn't help but notice his own reflection in her beautiful eyes. Seeing his own face staring at back him from their depths, he shuddered… </p><p> Mordret didn't need a mirror to enter someone's soul. Every human in the Night Temple was a walking mirror — they just didn't know it. Not by chance, but by design. The banished prince had purposefully kept this facet of his power hidden, only using the mirrors and mundane reflections to take vessels, thus creating a false impression that this was the only way he could achieve it. </p><p> He was a devious monster, indeed. </p><p> Sunny kept this dreadful guess to himself and tried to deduce who among the Lost was the real murderer. He considered both Pierce and Welthe, then the only wounded sentinel to survive — using him as a vessel was just insidious enough for a fiend like Mordret. </p><p> But then, he entertained the idea that Mordret had not chosen his victims randomly. He had the ability to kill people inside the stronghold, to a much more terrifying effect… so why target the guards first? </p><p> One of the murdered guards had been a familiar face… the Lost who had an Aspect that allowed him to see the unseen, like Sunny's shadow hiding in the darkness. </p><p> Or peer through the veil of invisibility that the female sentinel who had almost cut Sunny's throat, invited him to see Welthe and Pierce, and even escorted him and Cassie to the bathroom could create. </p><p> Yes… Sunny was almost sure that Mordret was hiding in her body. This was how he had been able to kill the two guards, and later the two wounded, without being seen or heard. The answer was so obvious… the simplest solution was most often the correct one, after all. </p><p> And so, Sunny had predicted what was going to happen. </p><p> Mordret had pushed Pierce and Welthe into action. With their forces dwindling by the day and no definitive information on when Saint Cormac would arrive, the Masters could not simply wait. He lured them into leaving the stronghold to take Sunny away, thinking that they were luring Mordret into a trap instead. </p><p> And while they were gone… </p><p> The surviving Lost had no one to protect them from the monster hiding in their ranks. </p><p> …Welthe suddenly looked up, her face growing pale. Her lips trembled. </p><p> "No…" </p><p> Sunny lowered his head and suppressed a dark smile. </p><p> At that moment, the Masters finally understood what he had known for a while. </p><p> But it was too late. </p><p> Utterly and irrevocably late…</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_582.html">Previous Chapter</a><a class="navigationButton next" href="chapter_584.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

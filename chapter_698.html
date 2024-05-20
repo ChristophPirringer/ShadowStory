@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 698</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 698 Creature Of The Lake</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny landed on the very edge of the island and froze there, looking forward with a dark expression on his bestial face. The others remained silent, too, feeling his unease and tension. </p><p> The land in front of them seemed tranquil… beautiful, even. There was an expanse of vibrant green grass, and some distance away, it made way for the calm waters of a vast lake. Its surface was perfectly still and reflective, making it seem as though a piece of the blue sky above had somehow gotten embedded into the ground. </p><p> A gentle wind caressed their faces, and nothing broke the peaceful silence except for the rustle of grass and the distant rattling of chains. </p><p> …And yet, Sunny couldn't help but feel a sense of imminent danger. </p><p> He sighed, and then glanced at his friends with uncertainty. </p><p> "...Should we summon our armor and weapons?" </p><p> Kai hesitated for a moment, then said: </p><p> "Wouldn't that be seen as a sign of distrust and hostility? Pure heart, pure thoughts… whatever that means… does not seem to fit with being armed and ready for a fight." </p><p> Sunny grimaced. </p><p> "Yeah… however, what if we do have to fight?" </p><p> Effie smiled. </p><p> "The four of us should be able to at least retreat safely, should things go wrong. I mean, how terrible can that thing be?" </p><p> Sunny shivered, then shook his head. </p><p> "Terrible enough for Saints to fear it. I've… I've been to this island a few times, in the future, but stuck to the edges, never approaching the lake. So I don't actually know what kind of a creature lives in its depths. However… I did see bones laying on the shore. And just those bones alone looked like they had belonged to things I would not want to meet." </p><p> He hesitated for a while, then glanced at Cassie. </p><p> "What do you think?" </p><p> The young woman tilted her head a little, then said calmly: </p><p> "I don't feel any danger. Maybe Noctis was honest, this time." </p><p> Sunny sighed. Cassie's intuition had guided each of them through countless dangers unscathed… if she felt that it was safe, there was a good reason to listen. </p><p> That didn't mean that he had to be happy about it, though. </p><p> "Alright… no weapons or armor, for now. Just... pure thoughts…" </p><p> Together, they crossed the stretch of land between the edge of the island and the shore of the lake, stopping just a few steps away from the calm water. Because of how still and reflective it was, no one could peer beneath the surface… however, Sunny could feel something deep beneath the water. A vast and sprawling shadow… ancient, deep… unfathomable… </p><p> He shivered. </p><p> Sunny lingered for a bit, then cleared his throat and, feeling extremely stupid, addressed the lake: </p><p> "Uh… I am here to retrieve the Ruby Knife. Please… give it to me?" </p><p> There was a gust of wind… and nothing happened. </p><p> 'Is it… is it because of Harper? Or all the things I've done to survive in the outskirts?' </p><p> A few moments later, Effie laughed. </p><p> "Oh… I guess you are not pure, Sunny… who would have thought!" </p><p> He gritted his teeth, then growled at her angrily. </p><p> "Go and try yourself, then!" </p><p> The little girl shook her head vigorously. </p><p> "No, no… no one has ever accused me of being pure, I think! Although…" </p><p> She thought for a bit, and then shrugged. </p><p> "I guess I am in the body of a child…" 𝒩ew st𝒐ries at n𝒐velbin(.)co𝒎</p><p> The girl climbed down from Sunny's shoulders, approached the water, and stretched out a hand. </p><p> "Can I please have the knife, uh… Aunty from the lake?" </p><p> Once again, nothing happened. Effie remained there for a few moments, then sighed and took a step back. </p><p> "...Figures." </p><p> Finally, both of them turned and stared at Kai. </p><p> The young man hesitated for a few moments, then shook his head. </p><p> "I think Cassie should try." </p><p> Sunny and Effie glanced at each other, a little surprised, then shrugged and made way for the blind girl to approach the water. There was no harm in trying, anyway… </p><p> Cassie lingered for a few moments, then sighed and walked toward the shore. Stopping mere centimeters from the calm water, she lowered her head and said simply: </p><p> "I am here for the Ruby Knife." </p><p> At first, Sunny thought that she had failed as well… but then, the young woman suddenly paled and took a step back. </p><p> There was a ripple on the surface of the lake… and although the vast shadow hidden within it did not move, something suddenly appeared from beneath the water. </p><p> …A pale, white hand that held a long knife, which seemed to be made of solidified blood. </p><p> The hand rose from the water and offered it to Cassie, who suddenly trembled with her whole body and took another step back, shaking her head with a panicked look. </p><p> Then, however, she stopped. Her bloodless lips turned into a straight line, and, gritting her teeth, the young woman returned to the shore. There, she knelt and leaned forward, taking the Ruby Knife from the deathly white hand. </p><p> The hand let go of it easily and disappeared back into the water, and soon, nothing but a slowly dissipating ripple remained to remind them of its existence. </p><p> Sunny observed all of this in shock. </p><p> 'It didn't move… the shadow did not even move…' </p><p> He was about to say something, but then, the water rippled again, and another hand emerged — this one black as coal and holding nothing. It slowly moved toward Cassie, then rose, and softly caressed her cheek. The young woman flinched when the black flesh touched her, but remained in place. A few seconds later, the black hand retreated back into the lake as well. </p><p> Cassie only moved when the ripples were gone, standing up and turning to them with a distant expression on her beautiful face. In the spot where the black hand touched her cheek, her skin turned grey and opened, drops of blood rolling down her chin. </p><p> She was holding the Ruby Knife in her trembling hands. </p><p> Sunny finally found himself able to speak: </p><p> "What… what the hell was that?" </p><p> Cassie remained motionless for a while, then suddenly shivered. </p><p> "I am… I don't know. Let's just get out of here. Please?" </p><p> He frowned, but did not object. To tell the truth, Sunny couldn't wait to get away from the lake himself. </p><p> As they were walking away, he briefly turned and looked at the tranquil water one last time. </p><p> Was it an illusion, or did the reflection of the sky on its surface seemed… darker? </p><p> *** </p><p> As they were walking back across the chains, he looked at Kai and asked, a bit of curiosity finding its way into his voice: </p><p> "...How did you know that it will give the knife to Cassie?" </p><p> The blind girl turned her head slightly, as if equally interested to hear the answer. Even Effie seemed stumped. </p><p> The young man glanced at them and shrugged, smiling beneath his wooden mask. </p><p> "Pure heart, pure thoughts… all of us wondered what that means, right? Well… I think we all made a mistake, because it didn't really matter how we understood it. The only thing that mattered was how Noctis had understood it, centuries ago, when he entrusted the knife to the creature." </p><p> He grew silent for a bit, and then added: </p><p> "He gave the Ruby Knife away after finding out that Hope was driving the Chain Lords mad, fearing what he might do with it should the worst happen. So, to him, purity of heart and thought meant something very specific… the ability to remain of clear mind, true to his oath, and loyal to his sacred duty. And while none of us is perfect, Cassie is the most clear-headed and dutiful person I know." </p><p> Sunny tilted his head, not sure if he agreed with that statement… the creature of the lake had, though, which meant that Kai was at least partially right. </p><p> Or it had all been just a coincidence. </p><p> As he was remembering the past with a dark expression on his face, the young man suddenly spoke again, his voice hoarse and somber: </p><p> "...That was why Noctis had sent us to retrieve the knife instead of coming himself, I guess. Because he has gone mad, betrayed his oath, and abandoned his duty. And we… we are helping him walk even further on that path. Walk further into the madness, until he reaches its end…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_697.html">Previous Chapter</a><a class="navigationButton next" href="chapter_699.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

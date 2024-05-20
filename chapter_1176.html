@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1176</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1176 Bitter Feeling</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<h4>Chapter 1176 Bitter Feeling</h4> <p> The location of the Nightmare Gate that led to the vicinity of the Black Skull was of paramount importance. Currently, no one except for Mordret was anchored to the Gateway of the Citadel, so that Nightmare Gate was still the only feasible way to reach it. </p><p> If it was located in the wilderness of East Antarctica, the battle between the two great clans was going to happen far away from the siege capitals and the civilian population. </p><p> If it was inside a city, though... </p><p> 'Think rationally.' </p><p> Sunny walked through the corridors of the fortress as he analyzed the situation. </p><p> If the Nightmare Gate was located inside a siege capital, then there wasn't much he could do. The lives of countless civilians would be put in mortal danger, or maybe even snuffed out directly. The best Sunny could manage was to try mitigating the damage, somehow. </p><p> If it was somewhere in the wilderness, however... then he did not have to do anything. </p><p> His problems would just solve themselves. Valor and Song were welcome to slaughter each other as much as they wanted. </p><p> 'Wrong.' </p><p> Thinking that way was shortsighted. Sure, the great clans were a bunch of hateful jerks, but they were also responsible for defending a vast portion of East Antarctica, albeit simply to keep up appearances. Their power was especially important when dealing with high-value targets like titans, since six out of the seven Saints present on the continent belonged to the Domains. </p><p> What would happen if all of them just went and killed each other? </p><p> 'Nothing good...' </p><p> Countless refugees had already been evacuated, but millions more remained. If only the Evacuation Army had been given a few more months - enough for the legion of Sleepers to undergo Awakening - things would have been different. </p><p> But Mordret, the damned lunatic, had made that impossible. So, the power of the great clans was still too important. </p><p> Sunny felt sick to his stomach. He was deeply unhappy about the fact that, while the great clans were odious, they were also needed. They were like a necessary evil. </p><p> Thinking that way made him feel dirty. It felt like he was making compromises. </p><p> Was that how Wake of Ruin and the rest of the government felt? </p><p> 'Forget about it. So what the hell do I do?' </p><p> It seemed that, thanks to Mordret, a bloody and destructive all-out battle between the forces of Valor and Song was now both close and inevitable. They could entirely obliterate each other, which would be the worst outcome, since there would be no one left to continue defending the refugees from the myriads of Nightmare Creatures roaming the continent. </p><p> Therefore, there was only one way for him to achieve the best outcome. </p><p> If there was no way to prevent the battle, he had to do everything in his power to help one side achieve victory... and not any kind of victory, at that. A pyrrhic one would be no different from mutual destruction. Only an overwhelming victory would minimize the losses of one of the sides, thus leaving enough fighters alive to make a difference in the evacuation effort. </p><p> 'Wait... wait...' </p><p> Sunny suddenly froze, growing even more pale than usual. </p><p> His eyes widened. </p><p> His hands trembled. </p><p> ...Then, slowly, a smile that seemed more than a little mad appeared on his face. </p><p> Through the shadow that was hiding in the sealed strategy room, he looked at someone who stood there, silently listening to what Morgan was saying. </p><p> A young woman with silver hair and cold grey eyes, clad in an intricate armor of black steel. </p><p> He looked at Nephis. </p><p> Sunny slowly exhaled. </p><p> 'Was that what you meant?' </p><p> Was it not exactly what she had told him a lifetime ago, during the opulent ball of the great clan Valor? </p><p> That he would follow her not because she had ordered him to, but because he wanted to... with a smile on his face. </p><p> That their fates were intertwined. </p><p> On that day, Sunny had rejected Nephis and refused to follow her into the embrace of Clan Valor. Instead, he enlisted in the First Evacuation Army and left for Antarctica. </p><p> So much had happened since then... </p><p> And yet, here he was, planning to fight side by side with her under the banner of the great clan Valor, helping them in their sinful war against the great clan Song. </p><p> Entirely of his own accord. </p><p> Sunny reached with one hand and touched his neck, as if checking to see if there was a slave collar on it. Read latest 𝒏ov𝒆ls at n𝒐velbi𝒏(.)com</p><p> 'What is this bitter feeling?' </p><p> A hollow laugh escaped from his lips. </p><p> After a few moments, Sunny shook his head and continued on his way. </p><p> 'It doesn't matter, anyway.' </p><p> Sure, he felt bitterly reluctant to prove Neph right. But wouldn't it be pathetically childish, to throw a tantrum and change his decision just because his pride was hurt? </p><p> Since when did he have pride, anyway? </p><p> Whether he liked it or not, making sure that as many civilians as possible survived the Chain of Nightmares was indeed what he wished for. </p><p> So, if Sunny had to help Clan Valor battle Clan Song to achieve that goal, that was what he would do. </p><p> There was the possibility of helping Song defeat Valor instead, too. As far as he was concerned, one was just as vile as the other, so it made no difference to Sunny which side he would end up supporting. </p><p> However, he was already integrated into the Valor force to some extent, which was convenient. Nephis, Cassie, and the Fire Keepers were also here, so going to the other side meant potentially causing their deaths. </p><p> Directly or indirectly, that was not something Sunny wanted or was willing to do. </p><p> Which meant that he was stuck with Valor. </p><p> ...Of course, it was highly questionable if his involvement would even make a difference. But he had to at least try. </p><p> He had to try his best. </p><p> Sunny moved through the port fortress, which was slowly becoming filled with noise. There was a strange smile on his face. </p><p> '...Ain't it funny?' </p><p> He was suddenly sad that the Sin of Solace was not there to appreciate the joke.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1175.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1177.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

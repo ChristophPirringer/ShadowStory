@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1016</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1016 The Fall Of Falcon Scott 34</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> 1016 The Fall of Falcon Scott (34) </p><p> The monstrous killer whale snapped its jaws, savaging several massive Nightmare Creatures at once. Clouds of blood and pulverized flesh escaped from his maw like a red tide. </p><p> Powerful currents of crimson water swirled around his massive body, ripping even more abominations apart. A dozen thralls were destroyed when the great predator rammed through them at dreadful speed. </p><p> Armored fins moved, slicing bodies like giant blades. </p><p> A split second later, Bloodwave shot past the barrier of flesh, leaving devastation in his wake. He continued forward, heading for the eerie flower of white cloth that was the Terror. </p><p> Naeve and Sunny were left behind, though. Their task was to deal with the thralls and prevent them from attacking the Saint from behind. </p><p> 'How the hell... do I do this?' </p><p> Fighting underwater was not at all like fighting on land. At this depth, Sunny felt as though he was constantly being pressed down by an immeasurable weight, both from without and from within. His Ascended physique and augmented strength were enough to deal with it, but he still felt a strain considerable enough to demand adjustment. </p><p> It was a lot like fighting while under the effect of the Crushing. </p><p> More importantly, though, there was nothing to support him here. Usually, a fighter's might came from being grounded — without the ground under Sunny's feet, his blows would lack power. They would also push him away with the same force that had been exerted on the enemy, making battle flow and positioning a nightmare. </p><p> So, he saw two ways to fight effectively — one was to grapple the enemy and use their own body as support, bringing combat to an extremely close range. He would be greatly disadvantaged in such a scenario due to the length of his blade. The other was to use acceleration and maneuvering to turn each of his attacks into a deadly charge. </p><p> Sunny had a sinking suspicion that he would have to utilize both approaches today. </p><p> Ahead of him, Naeve clashed with one of the thralls — his harpoon shot forward, piercing the creature's head. The Nightwalker pushed it through all the way, then let go of the shaft, grabbed it again near the head a moment later, and tore the spear free. </p><p> Then, Sunny had no more time to observe the Nightwalker, forced to concentrate on his own enemy. </p><p> A vaguely familiar abomination that resembled a grotesque mannequin of flesh lunged at him, its hollow eyes full of darkness. A menacing bone scythe cut down, threatening to split Sunny apart. He was somewhat certain that his skin would withstand the edge, but there was no point in taking the risk. The Sin of Solace moved to intercept the strike, much slower than he was used to, but still viciously fast. </p><p> The jade blade easily cut through the scythe, breaking it, and then continued forward to sever the flesh mannequin from shoulder to thigh. </p><p> The Spell whispered into his ear, its voice unaffected by the heavy mass of water: </p><p> [You have slain a Fallen Monster...] </p><p> [Your shadow...] </p><p> With no time to listen to it, Sunny suppressed his revulsion and used the bleeding remains of the abomination to launch himself sideways. A moment later, a chitinous body barreled through the spot he had been occupying. </p><p> Five more were already closing in on him from five different directions. </p><p> Sunny took a deep breath. </p><p> 'This... this is not too bad.' </p><p> The situation was dire, but not as hopeless as he had expected. The greatest threat — the Terror itself — was currently preoccupied with Bloodwave. The thralls, meanwhile, were numerous and much more powerful than they had the right to be. However, there was one factor working against them. </p><p> Most of the thralls were no more native to the dark abyss of the ocean than he was. </p><p> Their movements were purposeful, but a little bit awkward. Their initial assault was dreadful, but mostly because many had been launched forward by the long pieces of white cloth that swirled around and trailed behind the Terror, behaving like the tentacles of a giant monster. Now that their momentum was spent, the thralls were much slower and less maneuverable than Naeve. </p><p> And Sunny, too, thanks to the Nimble Catch. An Awakened would have been torn to pieces in an instant, but the two Masters found themselves at a certain advantage. </p><p> More than that, Sunny realized that his Aspect was not as useless underwater as he had thought. There were no shadows around him to manifest... but that was only because he could not compel living shadows to obey him. Of those, there were plenty — shadows required a surface to exist, and each thrall's body was a surface. </p><p> Each of the thralls possessed a shadow, which allowed Sunny to sense their movements even if he did not see them. It also allowed Sunny to use Shadow Step, as long as the abomination was large enough. </p><p> As five thralls lunged at him, Sunny swam forward, dodged the claws of an especially large Nightmare Creature... and dove into its shadow, appearing on top of the chitinous monstrosity that had missed him a few moments earlier. </p><p> The Sin of Solace plunged through the thick carapace, instantly killing the abomination. </p><p> [You have slain a Fallen Beast...] </p><p> [Your shadow...] </p><p> Sunny almost grinned. </p><p> 'So many fragments...' </p><p> He pushed himself off the convulsing carcass, narrowly escaping the cloud of blood, and looked up just in time to see Naeve clashing with another thrall. </p><p> The bone harpoon once again struck first, beheading the hollow-eyed creature. </p><p> However, this time, the Nightwalker was a split second too late to dodge the incoming attack. </p><p> Even though the thrall had lost its head, the creature's tail still flew forward, carried by momentum and inertia. The long, vicious spike at the end of the tail struck Naeve square in the chest, easily piercing the nacreous shell armor and plunging deep into his body. Then, it emerged from his back. </p><p> Sunny's eyes widened. </p><p> But then, something strange happened. The scion of the House of Night seemed to ignore the terrible wound... and in fact, there was no wound. Instead, it was as though Naeve's body had turned into liquid — the spike pierced that liquid and then flew out of the Master's side without leaving a trace. A second later, Naeve turned solid once again, already attacking the next thrall. </p><p> His movements were swift, graceful, and flowing. Visit novelbin(.)c𝒐m for updates</p><p> Sunny tore his gaze away and lashed out with the Sin of Solace to deflect a blow from a hollow-eyes thrall. </p><p> '...Neat.' </p><p> Behind them, Bloodwave had finally reached the beautiful, harrowing white blossom.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1015.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1017.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

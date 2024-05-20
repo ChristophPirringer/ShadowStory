@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 897</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 897 Silent Ocean</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> After Sunny had broken through the mind hex and spent two days rescuing the mesmerized people, saving dozens of lives, the horror hiding in the cold black waves seemed to have left the vicinity of LO49. </p><p> The victims had regained their senses, and every person in the settlement was able to see and hear them clearly once again. In the next few hours, no one showed any sign of being under the influence of the hex. The vanishings stopped. </p><p> And the Ariadne was supposed to arrive soon. </p><p> The exhausted, frightened, and shaken inhabitants of the fortress were tentatively starting to unwind. Their fragile hope bloomed and blossomed. </p><p> However, the person most responsible for the positive change - Sunny - did not feel any of their cheer or relief. On the contrary, with each passing minute, his unease and sense of foreboding only grew stronger. </p><p> He did not like what was happening, not at all. </p><p> Walking through the snowy streets of the settlement, Sunny studied the lively faces of patrolling soldiers with a troubled expression on his own. It was dark and somber. </p><p> '...Doesn't make sense. None of it makes any sense.' </p><p> Approaching the security center, he placed his hand on the panel of a sophisticated biometric lock. The sensor was supposed to initiate a thorough scan, but as seconds passed, nothing seemed to happen. The damn thing was on the fritz. </p><p> Sunny stared at it for a moment, then sighed and banged on the heavy alloy door with his fist. Soon, it was manually unlocked from the inside by a sleepy soldier, who then allowed Sunny in. </p><p> Walking inside the security center, Sunny dusted snow off his shoulders, looked around, and headed toward Verne. </p><p> "What is the situation?" </p><p> Verne sent one of his officers off with a list of orders, then looked at his younger colleague and shrugged. </p><p> "Nothing changed. The Terror - or whatever that abomination was - seems to have truly moved on." </p><p> Sunny gritted his teeth. </p><p> "When has a Nightmare Creature ever moved on? You're deluding yourself." Your f𝒂vorite stories on 𝒏ov𝒆lb𝒊n(.)c𝒐m</p><p> The older Master frowned. </p><p> "We can't know for sure, of course, but the disappearance of the hex speaks for itself. Don't sell yourself short. Although creatures capable of mind manipulation are exceedingly dangerous, they often lack direct means of launching an effective attack. Maybe it decided to search for easier prey after you proved capable of dismantling its mental attack." </p><p> Sunny stared at him for a bit, then shook his head. </p><p> "A Corrupted Terror is a Corrupted Terror. We probably haven't seen even a fraction of its power yet, so why would it simply give up and leave?" </p><p> Verne tiredly rubbed his face and sighed. </p><p> "Do take into account that the creature's Rank and Class are only your conjecture. We don't really know how powerful it actually was. In any case, how else do you explain the fact that the hex is gone, and no one is vanishing anymore?" </p><p> Sunny hesitated for a moment. </p><p> "Maybe it decided to change tactics. Maybe it is gathering power for a singular, overwhelming attack. Maybe it just enjoys toying with its prey. Who the hell knows?!" </p><p> His counterpart looked away with a somber expression. </p><p> "...Alright, but what do you want me to do? It's not like I've relaxed the security measures. We are still on high alert and prepared for battle. We are still keeping the civilians locked up and concentrating our defenses on the southern wall. I don't see what other contingencies are there to prepare." </p><p> Sunny let out a frustrated sigh. </p><p> "All I am saying is that it's not a good time to become complacent. On the contrary, we must be preparing for a rapid escalation of the crisis." </p><p> Verne stared at him blankly for a few seconds. </p><p> "And all I am saying is that we are already doing everything we can. No matter how small, the possibility that you are right still exists, so we must. That is my position as the officer responsible for the safety of every person inside this facility. But personally... I think that exhaustion and paranoia are getting the better of you, Sunless. It's been hard on all of us." </p><p> Sunny remained silent for a bit, then said in a subdued voice: </p><p> "My paranoia has never led me astray, though." </p><p> With that, he winced and left. </p><p> 'Maybe I am really wrong this time. Even if I'm not, Verne is right... what else are we supposed to do? Until the damned ship arrives, there's not much more we can prepare.' </p><p> But why did he feel so disturbed? Why was his sense of unease so urgent? </p><p> Walking out of the security center, Sunny stood in place for a while with a dark expression on his face. After some time, he noticed Luster loitering around, and called him over. </p><p> "Uh... yes? You wanted something, Captain?" </p><p> Sunny lingered for a moment, then nodded. </p><p> "Yeah. Gather the others and tell them to stick close to the Rhino. Also, make sure that it's ready to move, in case we need to get the hell out of this damned place in a hurry." </p><p> Luster blinked a couple of times, looking at him with a startled expression. Then, he gulped. </p><p> "Ah...... understood, sir. I'll go do that, then." </p><p> Letting the young man go. Sunny turned south and stared at the distant wall for a bit. Frowning, he then headed toward it. </p><p> The beach was cold and shrouded in darkness. like always. The black waves continued their eternal, fruitless assault on the shore. They came and went with a wide, reverberating rustle, making it seem as though the whole ocean was breathing. </p><p> His chair was still standing at the edge of the water, with an empty thermos laying on the stones nearby. </p><p> Descending from the wall. Sunny slowly walked toward the water and stopped just outside its reach, staring at the vast undulating expanse of the cold ocean with a deep scowl. His tired eyes were hidden in shadows. </p><p> Looking at the waves, he whispered: </p><p> "Where are you, bastard?? What are you planning?" </p><p> ......Of course, the ocean remained silent. There was no response.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_896.html">Previous Chapter</a><a class="navigationButton next" href="chapter_898.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 435</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 435 Listening To Nothing</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 435 Listening to Nothing</p><p>Sunny shuddered.</p><p>The voice he heard… was not his own. It sounded pleasant and calm, and seemed to have come from the darkness of the Sky Below itself.</p><p>'...Have I finally lost it?'</p><p>His first thought was that he had gone crazy again and was now hearing things.</p><p>His second thought was much less comforting…</p><p>'Damnation!'</p><p>Had he summoned some unholy titan from the depths of the Sky Below, after all?!</p><p>Sunny outstretched one hand, ready to manifest the Cruel Sight, but then hesitated.</p><p>If the owner of the voice was not a figment of his imagination, but some harrowing being of the void, was it really wise to agitate it? Would the silver blade even do anything against it?</p><p>'Calm down. Calm down. Maybe you just imagined the whole thing…'</p><p>As if to answer his thoughts, the void laughed softly.</p><p>"Ah, my apologies. I seem to have startled you."</p><p>Sunny gulped.Your f𝒂vorite stories on 𝒏ov𝒆lb𝒊n(.)c𝒐m</p><p>The pleasant voice seemed to belong to a young man, but no matter how hard he looked into the darkness, he couldn't see anyone… or anything… nearby.</p><p>He was reminded of his first meeting with Kai, only this time... this time, things were much more frightening.</p><p>"N—no worries. I just… didn't expect to hear another human's voice here. You, uh… you are a human… right?"</p><p>The void was silent for a while, then answered in a neutral tone:</p><p>"A human? I used to be a human once, I guess."</p><p>Sunny realized that he couldn't even pinpoint the direction from which the voice was coming. It was just… there, somehow. Everywhere. Around him...</p><p>He tensed, then asked cautiously:</p><p>"Used to? Then what are you now?"</p><p>The voice disappeared for a few moments, then sighed. Finally, it answered:</p><p>"...Lost."</p><p>Sunny blinked.</p><p>'What the hell does he mean?'</p><p>"Lost? As in lost in the Sky Below?"</p><p>The darkness let out a sad laugh.</p><p>"...No. Not in the Sky Below."</p><p>As Sunny felt cold shivers run down his spine, it hesitantly added:</p><p>"I am sorry. I haven't spoken to anyone in a long, long time. Instead of lost, It would be more proper to say that I am one of the Lost. My body in the waking world was destroyed, but my soul continues to exist here, in the Dream Realm. I hope that explanation is more clear."</p><p>One of the Lost…</p><p>Sunny knew of these people, although he had never met one in person. Just like there were Hollow — people whose souls were destroyed, leaving an empty body behind — there were also the Lost. People whose bodies had somehow died in the real world, leaving their souls stranded in the Dream Realm. There wasn't a lot of them, since most of the time the soul perished shortly after the body had, but there were some.</p><p>Knowing that the owner of the voice was one of these lost souls made Sunny relax a little… not that he had any reason to believe that the stranger was telling him the truth. He could have been a Nightmare Creature, still.</p><p>Or something worse...</p><p>But even if he was Lost, that didn't explain how they were able to converse. The Lost, from what Sunny knew, were just like any other Awakened in the Dream Realm. It was just that they couldn't return to the real world.</p><p>What they certainly were not were disembodied voices coming from the void.</p><p>He shifted his weight slightly, ready to… do something to protect himself, if need be, and asked:</p><p>"Sorry to hear that. But how is it that I am able to hear your voice, but can't see you?"</p><p>The voice lingered for some time, that answered with a bit of amusement:</p><p>"That is a good question."</p><p>Sunny waited patiently for him to expand on that answer, but that seemed to be it. A bit irritated, he said:</p><p>"Well? Aren't you going to explain?"</p><p>Instead, the voice suddenly asked:</p><p>"Why are you descending into the Sky Below? This is a very dangerous place."</p><p>Sunny blinked a couple of times, then coughed.</p><p>"Ah, that… well, you see… I am not so much descending into the Sky Below as I am falling into it. I got stuck on an island because of the Crushing, and sadly, that island broke off its chain. So, I had to jump off. And here I am."</p><p>Then, he frowned.</p><p>"Wait… dangerous place? Why is it dangerous? I haven't seen anything dangerous anywhere in this dreadful pit!"</p><p>The voice lingered for a while, then sighed with regret.</p><p>"You'll see. When you reach the stars… then you will see."</p><p>Then, it disappeared.</p><p>Sunny stared into the darkness, a bit disturbed. A deep frown appeared on his face.</p><p>"What do you mean? What will happen when I reach the stars?"</p><p>But there was no answer.</p><p>No matter how long Sunny waited, the voice did not speak to him again. The void was silent and empty, just as it had been before.</p><p>In the end, he just massaged his temples and cursed.</p><p>"What the hell was that?!"</p><p>Did he imagine the whole thing? Had his mind finally cracked?</p><p>Sunny stared at the Ordinary Rock, as though expecting it to actually talk and collaborate his story. Sadly, the Memory could only repeat the sounds it had recently heard…</p><p>'Wait… the sounds it had heard!'</p><p>Sunny hurriedly commanded the Rock to repeat everything it had recorded in the past few minutes. Then, feeling cold sweat appear on his forehead, he listened to his own voice speaking to nothing. His words were repeated, but where the words of the strange voice should have been, there was nothing but silence.</p><p>Dismissing the Ordinary Rock, Sunny clutched his hair and groaned.</p><p>"Crazy… I've gone completely crazy… curse it all, it has been just four days, and am already turning back into a lunatic!"</p><p>Not even a full week passed by, and he was already going insane.</p><p>"This is the worst vacation ever!"</p><p>After a while, he frowned.</p><p>Despite being mostly sure that the whole thing was just a symptom of his sanity slowly breaking apart, Sunny cautiously crawled to the edge of the chest and looked down, at the distant shimmering stars.</p><p>..Was he imagining things, or did they seem to be a little closer?</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_434.html">Previous Chapter</a><a class="navigationButton next" href="chapter_436.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

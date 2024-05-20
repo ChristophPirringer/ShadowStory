@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1373</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1373 Counting Echoes</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1373 Counting Echoes</h4> <p> The word hung in the air, both ominous and strangely familiar. Sunny frowned and studied the remains of the crude weapon. Finally, he asked: </p><p> "The Drowned? We have never met abominations like that." </p><p> Which, of course, meant that they had. </p><p> Nephis nodded. </p><p> "Yes. A group of them attacked the Chain Breaker once... Drowned Outcasts, that was what the Spell called them. They weren't too powerful, apart from the depth dweller that arrived with them." </p><p> Cassie shook her head somberly. </p><p> "The Outcasts are the dregs of their kind. Most Drowned are much more dangerous. They are... a special tribe of Nightmare Creatures here in Ariel's Tomb. No one really knows where they come from, but many believe that the Drowned were humans, once. They hunt in groups and herd true horrors of the depths to use as war beasts. Most troublesome of all, all of them possess at least a rudimentary level of sentience... they follow strange rituals, too." </p><p> Nephis frowned. </p><p> "I'm sure we will manage. Unless there are titans or Great Ones among them, the three of us should be enough to deal with these Drowned." </p><p> The blind girl remained silent for a few moments. </p><p> "That is true. Although the trace of the Drowned is bad news, they're nothing we can't handle. I am concerned about what their presence here represents, though." </p><p> She turned to face the ruined temple and gritted her teeth. </p><p> "These abominations are very territorial. They constantly battle with other Nightmare Creatures, and leave signs to avoid the waters where truly powerful foes dwell. The fact that the Drowned are here, on the island... means that they have accepted the sybil as their ruler." </p><p> Cassie paused, then added with a dark expression: </p><p> "Which means that she has become a Tyrant, at least. Only those have enough authority to make the Drowned submit to them." </p><p> Sunny let out a sigh. </p><p> 'So... a Corrupted Tyrant, then.' </p><p> He had faced more powerful Nightmare Creatures... but only a handful. While a Corrupted Tyrant was not beyond their ability to slay, it was certainly not an easy foe to face. Especially on the creature's terms. </p><p> His voice sounded glum: </p><p> "How did she become a Tyrant, anyway? Wasn't she a Corrupted Beast first?" </p><p> Then again, Dusk of Fallen Grace had met him as a Terror. It was obvious that Nightmare Creatures could reach a greater Class than what they had started from, just like Saint could. That was a trait that all noble creatures - those that succumbed to Corruption and those who did not - shared. </p><p> And it seemed that corrupted humans shared that ability, as well. Not unlike how he, Nephis, and Mordret did. </p><p> Cassie shrugged. </p><p> "She was Defiled a long, long time ago. She also fed on the powerful warriors of Fallen Grace, and gods know what else since then. In any case, she won't be waiting for us alone. We must be prepared to fight her entourage, as well." </p><p> Sunny smiled behind his mask. </p><p> "Too bad we don't have an entourage of our own." </p><p> As he said those words, two menacing figures stepped out from the shadows to stand by his side. One was a graceful knight in a suit of intricate onyx armor, the other was an infernal fiend forged out of black steel and broken blades. </p><p> A terrifying black steed rose from the ground behind them, crimson light reflecting from his adamantine horns and wolf-like fangs. </p><p> Cassie let out a quiet sigh, then summoned her Echoes, as well. </p><p> A whirlwind of white sparks formed into two humanoid figures. One was a woman wearing a red dress not unlike the one the blind girl wore, her face hidden by a veil. Sunny suddenly felt a chill run down his spine as he looked at the silent figure... why did it seem like there was something entirely inhuman hiding beneath the flowing red fabric? </p><p> When the Echo of the Defiled sybil moved, it was eerily too smooth... as though she was hovering above the ground or slithering like an eel instead of taking steps. He thought he saw a glimpse of a glistening black tentacle appearing for a split second from beneath the hem of her crimson skirt. </p><p> The most unnerving part, however, was her empty gaze. Sunny had never felt comfortable around human Echoes, and he did not feel comfortable around an Echo of a former human, either. </p><p> Cassie's second Echo was less disturbing, but just as curious. </p><p> It was a tall steel mannequin with four arms, each holding a sharp blade. The artificial Echo - an Ascended Monster - looked like a clockwork man. His movements were somewhat awkward, but possessed the distinctive sharpness of a trained fighter. Sunny was reminded of something when looking at the mannequin, as well. ALL new 𝒄hapters 𝒐n nov(𝒆)lbin(.)com</p><p> The creature was vaguely similar in appearance to the steel mount that Morgan rode sometimes. So, that Echo must have been created by the enchanters of Valor, too. </p><p> 'I wonder how they do it... the complexity must be on an entirely different level...' </p><p> He was distracted from his thoughts by a disdainful grunt. Turning his head, Sunny glanced at Fiend with surprise. The steel ogre was staring down the clockwork swordsman with an obvious air of superiority. Was the fool sticking his chest out? </p><p> Under Sunny's dubious gaze, Fiend threw a furtive glance at Saint, and then stuck his chest out even further. His chin rose cockily. </p><p> ...The taciturn knight, of course, remained utterly indifferent. </p><p> Realizing that she was not impressed, the infernal ogre deflated a little. Then, he stared at the steel Echo vindictively. His fiery eyes were burning with... hunger? </p><p> "Don't even think about it!" </p><p> Hearing Sunny's hiss, Fiend flinched and turned away from the clockwork swordsman with an innocent look, as if the thought of gobbling up Cassie's Echo out of spite never crossed his gluttonous mind. </p><p> 'I can't believe it. This fool is really getting out of hand!' </p><p> Shaking his head, Sunny turned to Nephis. She was the only one of them who did have anything to summon... of course, that was only because Changing Star had always given the Echoes she earned away to someone else. Even now, two of Cassie's three had come from Neph. </p><p> It was a bit sad, though, for her to look like an impoverished noble when compared to Sunny and Cassie. </p><p> Feeling his gaze, Nephis shifted slightly and stared back. </p><p> "What?" </p><p> Sunny shook his head. </p><p> "No, nothing." </p><p> At that moment, the sword wraith laughed. </p><p> "Doesn't have anything to summon? Fool... why would she need to? She already has a mighty Shadow following her around, ready to satisfy her every whim. That's you. You're her Echo. So, in a way... Nephis has four, while Cassie has three. You, on the other hand, don't even qualify to be compared to them." </p><p> The Sin of Solace paused, then added with a smile: </p><p> "Ah, don't forget that it was the blind traitor who turned you into an Echo, to begin with..." </p><p> Sunny's face twitched. </p><p> Cassie, meanwhile, scowled and started walking toward the temple. </p><p> "Come on. We should finish her off before night comes." </p><p> He gritted his teeth and followed, furious at the fact that the apparition's words had gotten to him. </p><p> Approaching the breach in the wall of the crooked temple, the small, but extremely powerful cohort of Masters, Shadows, and Echoes dove into the sinister darkness.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1372.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1374.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

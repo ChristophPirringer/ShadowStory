@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 784</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 784 Single Whole</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The second lecture had turned out to be a challenge for Sunny. Not because he felt unprepared to teach the less experienced Awakened, but because all of them were very enthused and full of questions about Changing Star's return. </p><p> The whole Academy was abuzz. </p><p> "Master Sunless, have you met Lady Changing Star?" </p><p> "Is it true? Did she Ascend?!" </p><p> "Are you going to join the Immortal Flame clan now? Can we join, too?!" </p><p> Normally, that would not have been a problem. Sadly for Sunny, he could not refuse to answer any question due to his Flaw, so it took some time and ingenuity to not let anything important slip while reigning the students in. Eventually, he forced them to concentrate on the lecture. </p><p> After the lecture was over, he had to take care of some administrative issues, as well as visit Teacher Julius and assist the old man with a few tasks. Seeing that his assistant was very eager to leave, the elderly Instructor did not keep Sunny long and soon let him go with a knowing smile. </p><p> "Ah, youth…" </p><p> Sunny frowned a little as he hurried to the door. </p><p> 'What is that supposed to mean?' </p><p> Throwing the confusion out of his mind, Sunny decided to not waste time and used Shadow Step to reach the train station as fast as possible. On the way home, he was deep in thought. </p><p> After the night of experimenting and exploring their bond, he was very curious what else Nephis and him could do. As far as Sunny understood it, Shadow Bond made it so that their souls were strangely considered to be two parts of a single whole, at least when applied to the function of their Aspects. </p><p> So… did that mean that he could pool Neph with him through the shadows when using Shadow Step? </p><p> If he used a charm like Blood Blossom, would its effect be shared to her? </p><p> If so, would the boost granted to them remain the same, or grow twice as weak? The sourc𝗲 of this content no/v(𝒆l)bi((n))</p><p> He had many questions like that, and answers to them could only be found through further experimentation. Sunny was very excited. </p><p> Why wouldn't he? He was always resentful of his weakness and of the fact that stronger Awakened or powerful Nightmare Creatures could snuff out his life without too much trouble. Anything that could grant him more power to defend himself was a boon, and the memory of how powerful he had felt last night was still fresh in his mind. </p><p> Of course, reality was not so simple… </p><p> Firstly, any experiment would demand Neph to go through torturous pain. </p><p> Secondly, he had not forgotten that this power came at a cost. </p><p> The cost was his freedom. </p><p> Nephis seemed to be reluctant to use the Shadow Bond to compel him to do her bidding, but he could not be completely sure of her intentions. Not until they talked openly about it. </p><p> It was just that… he didn't want to have that talk yet. Talking openly about anything was the last thing he usually wanted to do. </p><p> 'Later… I'll do it later…' </p><p> Neph was barely out of the Nightmare. Sunny himself had not been in the best of shapes after Ascending, for a while. </p><p> It was better to give her some time to balance herself. </p><p> …Soon, he was nearing his house. The security system automatically scanned his biometrics and unlocked the door. Opening it, Sunny walked inside and took off his shoes. Then , he looked around and noticed Neph sitting on a tall stool near the kitchen counter, staring at her communicator with strange intensity. Her eyes were burning, and it seemed as if she had spent a lot of time without moving. </p><p> She seemed to be so engrossed with what was happening on the screen that she did not even pay attention to his return. Clenching her fist, Neph suddenly spoke: </p><p> "Come on. You can do it. She is good, but you are better!" </p><p> He blinked a couple of times, unaccustomed to hearing such enthusiasm in Changing Star's voice. She was usually far more reserved. And what did she mean? What was he supposed to do? Who was he better than? </p><p> 'Ah, she must be talking to herself. But what the hell is she watching?' </p><p> Sunny took a few steps forward and looked over Neph's shoulder. </p><p> A strange expression appeared on his face. </p><p> On the screen, a ferocious swordsman in black armor was fighting against a graceful woman who wore a light metal armor and an elegant half-mask. Rose petals fell from above, carpeting a grandiose arena. A dark odachi and a slender estoc clashed against each other, filling the air with the clangor of steel. </p><p> 'Wait. Isn't that… isn't that my duel against Queen Bee?' </p><p> That was a memorable fight! He had barely won that one. </p><p> Sunny blinked a couple of times, remained silent for a few moments, and then coughed. </p><p> "Uh… hey? I'm back." </p><p> Nephis froze. She paused the video, hesitated, then slowly turned and looked at him with a startled expression. </p><p> "Oh… hey." </p><p> Sunny stared at her for a couple of seconds, then asked with a little smile: </p><p> "What are you watching?" </p><p> Nephis suddenly livened up and gestured at her communicator. </p><p> "That… I stumbled on a video of a very interesting fighter. Have you heard about that guy, Mongrel? He's incredible! I've been watching… uh… studying his fights for a few hours…" </p><p> Sunny scratched the back of his head, and then said evenly: </p><p> "Mongrel? Yeah, I've heard a few things about him. Incredible, you say? Do tell what is so incredibly about him… in detail…" </p><p> Then, he suddenly frowned and sniffed the air. </p><p> 'What's this smell? Crap, don't tell that the filtration system is glitching…' </p><p> Sunny looked around, and then froze. </p><p> His eye twitched. </p><p> "What… what happened to my projector?!" </p><p> A familiar deadpan expression appeared on Neph's face. She glanced in the direction where the expensive model of the projector had used to be, lingered for a moment, and shrugged nonchalantly. </p><p> "Oh. A malfunction, I guess. How strange…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_783.html">Previous Chapter</a><a class="navigationButton next" href="chapter_785.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

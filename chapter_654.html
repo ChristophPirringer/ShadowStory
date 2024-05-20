@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 654</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 654 Shadow Lantern</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny read the runes with curiosity: </p><p> Memory: [Shadow Lantern]. </p><p> Memory Rank: Divine. </p><p> …He fell from the bed. </p><p> 'What?!' </p><p> Another… another Divine Memory? </p><p> Feeling cold sweat rolling down his face, Sunny wiped it off with a trembling hand and slowly clenched his fists. </p><p> 'Should... should be interesting…' </p><p> He looked back to the runes, trying to calm his wildly beating hearts. </p><p> Just what kind of a Relic had he received? </p><p> Sunny got ahold of himself and continued to read the description: </p><p> Memory Tier: I. </p><p> Memory Type: Tool. </p><p> 'A tool… makes sense. It is a lantern, after all. But what does it do? Lanterns are supposed to produce light and illuminate things. That's not exactly what shadows are known for, is it?' </p><p> With a concerned frown, he looked back at the runes. </p><p> Memory Description: </p><p> ["Death is just the shadow of life," said the Goddes of Life. "And peace is just the failure of war. Have you ever been something that had not been stolen, made empty, and vile? Have you ever done something that was not futile and hollow? Can you even exist without being cast by another? Look at how weak you are, how small you are. Am I supposed to be frightened of a small shadow?" </p><p> Made pale and feeble by the radiance of day, Shadow laughed and rose from the ground. As he did, his figure swallowed the land, devoured the heavens, and blotted out the light of the sun. Soon, there was nothing left around them but darkness. And from that darkness, a hiss came, making Life tremble: </p><p> "Life is just the prelude to death, and war is just the key to open its gates. Everything you cherish, everything you nurture, everything that starts with you will one day be mine, be welcomed by me, swallowed by me, and find peace within me. This is the mercy of Shadow. Hollow… futile... you might have come first, my sister, but when your cruelty ends… I will be all that remains…"] </p><p> Sunny shivered. </p><p> 'D—damn… was Shadow God always that creepy?' </p><p> Due to his closeness and affinity to shadows, he had never thought about the God of Shadows as terrifying. After all, even other gods had not held Shadow in high regard, at least from what Sunny knew. His temples had been burned and destroyed, his followers turned into slaves… even his aspects and attributes seemed to pale in comparison to others. </p><p> God of peace, death, solace, and mysteries… that sounded humble and rather inconspicuous when compared to something like Goddess of the Black Skies, the god of storms, depths, of the oceans, of darkness, stars, travel, guidance, and disaster. </p><p> …But things that preferred to remain unseen and unheard were often the most dangerous, weren't they? </p><p> Sort of like Sunny himself. </p><p> He shook his head, pondered about the description for a bit, and then smiled crookedly. </p><p> 'I guess War God did not like Shadow God at all… well, that's not surprising. In many ways, they are the opposite of each other. No wonder every time I meet someone from the War camp, I end up either having my heart torn out or, even worse, lured into a Nightmare so cursed that all other Nightmares ought to give it face.' </p><p> He sighed, then continued reading the runes: </p><p> Memory Enchantments: [Gates of Shadow]. </p><p> Enchantment Description: [This lantern devours light and can contain, and then release, an infinite amount of shadows.] </p><p> Sunny blinked. </p><p> 'Huh?' </p><p> The enchantment didn't seem like much, for a Divine Relic… that was unless one really thought about the meaning behind those words. </p><p> Infinite… </p><p> He suspected that in this case, the word was used to describe an actual infinity instead of a fake one, like with the Endless Spring. If that was the truth… yes, an object that could contain infinity was indeed worthy of being divine. It simply broke all the laws of reason. </p><p> However, how did it help Sunny? </p><p> He frowned, a little bit disappointed. </p><p> 'Why couldn't it be a nasty all-destroying sword, instead?' </p><p> He summoned the Memory and saw a small lantern weave itself from darkness in his hand. The thing was not too big, about the size of his palm, and made out of black… something. It didn't feel or look like any material he had ever seen, resembling stone more than anything. </p><p> The frame of the lantern was intricately engraved, making it seem and feel like the scales of a serpent, and its walls were made out of glossy black morion. There was a ring of dark metal on its top, with a short chain attached to it. It could be held in a hand or fastened to one's belt, if need be. </p><p> As soon as the lantern appeared, the darkness of the night that surrounded Sunny instantly became deeper and colder, oppressive, and impenetrable. Any hint of starlight was devoured, turning the interior of the cabin completely black. He, of course, could still see through that darkness, but anyone else would probably have a lot of trouble. </p><p> Suddenly full of a pleasant feeling of comfort, Sunny turned the beautiful lantern around and noticed a small door on one of its walls. He hesitated, then commanded the door to open. </p><p> It instantly slid forward, revealing a square of utter nothingness behind. A moment later, Sunny felt his hair stand on end, and his hearts stagger in his chest. He was suddenly cold, overwhelmed by unease, and… terrified. Like an animal facing something so much larger than itself that the difference in size could simply not be comprehended. </p><p> He slowly exhaled, the breath escaping his mouth as chilling mist. </p><p> '...I guess that is how infinity feels.' </p><p> The lantern was empty, so he couldn't command any shadows to escape it. So, instead, he glanced at the happy shadow and raised an eyebrow. </p><p> 'Wanna come inside?' </p><p> The shadow looked at him with fear, then energetically shook its head. Sunny rolled his eyes, then turned to the creepy one. VIsiT n0(v)eLb(i)(n).𝘤𝑜𝓂 for the best novel reading experience</p><p> 'What about you?' </p><p> The creepy guy stared at him for a bit, then shrugged indifferently… and disappeared into the small door, as if he had never been there. </p><p> Sunny could still vaguely feel their connection, but not in the way that he was used to. He couldn't see, hear, or sense what the shadow was seeing, hearing, and sensing. All he knew was that it still existed, somewhere else, in a terrible vast, dark, and cold place. </p><p> His face grew dim, and he commanded the creepy shadow to return. </p><p> The weird guy flowed out of the lantern, shrugged again, and planted himself back on the floor. </p><p> …Then, when it thought that no one was watching, the shadow shuddered and hugged itself for a moment. </p><p> 'What a strange Memory…' </p><p> What was the use of it? </p><p> Sunny summoned Saint and tried to repeat the experiment, but to no avail. The tenebrous knight remained motionless when he told her to enter the beautiful black lantern, not showing any signs of knowing how to abide by the order. </p><p> 'I guess it doesn't work with Shadows…' </p><p> He frowned, then lowered the lantern to the ground and brought it closer to wild shadows hiding in the corners of the cabin. Then, feeling extremely stupid, Sunny thought aloud: </p><p> 'Uh… do you want to come inside?' </p><p> The shadows moved slightly, flowing toward the lantern, and then swiftly slid through the black door. </p><p> A hint of a smile appeared on Sunny's bestial face. </p><p> 'Ah… now we're talking. That… that I can work with…' </p><p> Satisfied, he closed the door of the lantern, and then dismissed it. </p><p> Sunny was still a little bit sad that the Relic had not turned out to be a destructive weapon, but his disappointment waned. While not as immediately useful, the lantern would allow him to carry friendly shadows… an infinite amount of them, no less… with him at all times. That would counteract the main weakness of his Aspect — the fact that most of his Abilities only worked within the veil of darkness — to a large degree. </p><p> And, without a doubt, as his powers grew and the number of his Abilities increased, having a swarm of deep shadows at hand would only grow more useful. </p><p> Plus, he had a feeling that he had not discovered all the secrets of the Shadow Lantern yet... </p><p> But now it was time to study his last, and most important reward. </p><p> It was time to meet an old friend. </p><p> The Shadow of the black steed whose name was Nightmare…</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_653.html">Previous Chapter</a><a class="navigationButton next" href="chapter_655.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

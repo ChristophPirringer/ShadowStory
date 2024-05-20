@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 701</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 701 Four Hunters</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Soon after the Shadows left, the connection Sunny shared with them grew faint. He could still feel their existence, but not much beyond that. The same happened with the happy and creepy shadows — when Nightmare and the Soul Serpent left the range of Shadow Control, which had grown to about four kilometers, he lost the ability to perceive them, and the world through them. </p><p> Sunny felt that they were out there, somewhere, but that was it. The sudden loss of being able to see and hear through two out of his three shadows was abrupt and jarring, as though he had suddenly lost an eye and a limb. It made Sunny feel very uncomfortable. </p><p> Not only was his power severely diminished in the absence of his loyal companions, making him extremely vulnerable, but he also worried about them. There had been many opportunities to send Saint away to hunt on her own in the past, but Sunny never did. The risk was just too high… both for the Shadow and for himself. They were stronger together... </p><p> Shadows were not meant to be apart from their master. </p><p> But there was no other choice now. He did not know when the three Chain Lords were going to act, exactly, but there was not much time left before. Before the final confrontation began, Sunny had to become a Devil. </p><p> …Neph was already a Tyrant, after all. It would not do to let her remain so far ahead. </p><p> With a sigh, he turned around and walked back to his room. The gloomy shadow followed, trying to not show that it, too, missed its siblings. </p><p> The Shadows were gone, but there was still a lot Sunny had to do. He had to prepare himself for the battle, both mentally and physically. </p><p> The next few days passed without too much happening. Sunny trained archery with Kai, practiced swordsmanship with Cassie, and sharpened his mastery of the spear with Effie's help. The other three were busy with their own preparations, as well. </p><p> From time to time, all four left the Sanctuary to hunt and put their teamwork to the test. Sunny received a few fragments from those small expeditions, as well. </p><p> In the night, he continued to experiment with weaving. However, he was also careful to get enough sleep. It would not do to go into the final battle exhausted… </p><p> After several days of this, while Sunny was laying in bed, the Spell suddenly whispered into his ear: </p><p> [You have slain a Fallen Monster, Veiled Slayer.] </p><p> [Your shadow grows stronger.] </p><p> Sunny sat up and stared into the darkness, tense. So, one of them had found a prey… he did not know which one it was — Saint, Serpent, or Nightmare — or even if they were wounded in the fight. All he knew was that one of his Shadows had emerged victorious, and was not destroyed. </p><p> After that first kill, the shadow fragments started to pour into his soul frequently, making the goal of forming a new core before the fateful clash seem less hopeless. </p><p> In the meantime, all Sunny could do was carry on. </p><p> Two weeks of practicing weaving later, he could proudly say… that he had successfully managed to destroy thirty-eight out of the thirty-nine Memories received in the Red Colosseum. The only one remaining was the emerald bone flute. However, that saved him from damaging his actual Memories, at least. </p><p> After the initial success of transplanting enchantments, Sunny found out that it was not as easy as he had thought… well, it had never really been easy, but now, he realized that there were more things he had to consider than simply the pattern of the weave itself. </p><p> Each Memory had a certain capacity when it came to accommodating enchantments. The more powerful an enchantment was, the more burden it put on the weave. To withstand it, weaves needed to be moored to anchors, each serving as a nexus for the strings of essence. </p><p> Sunny created those anchors from soul shards — the more he used, the higher the Tier of the Memory was, and the higher its capacity. However, the Rank of the shards also played a role, albeit in a slightly different manner. Apart from capacity, weaves also had a threshold of intensity they could withstand. </p><p> More powerful enchantments put too much strain on the strings and the anchors, and so, both the strings and the anchors had to be of a high enough Rank to endure it. Additionally, only the weakest of enchantments could be activated passively, relying on the Memory's own ambient soul energy — everything else would only function when saturated by the flow of essence from the wielder's soul. </p><p> …But that was not all. </p><p> Sunny had found out the hard way that not all Memories could accommodate all enchantments, regardless of whether they had enough capacity and tolerance. Some were simply not meant for each other. He suspected that the name of the Memory, and therefore its nature, played a role in that. </p><p> He had transferred the [Sonorous] enchantments to the Silver Bell and the Ordinary Rock, and also made the Ordinary Rock, which had been able to repeat the sounds it heard, repeat the words Sunny thought of as well. Both of these changes improved upon the original qualities of the Memories, instead of introducing something entirely new. They were not in conflict with their natures. </p><p> However, when he tried to do something more radical, the results were disastrous. He could not add an enchantment meant to destroy to a Memory that was meant to protect, unless he wanted the whole weave to break apart. </p><p> It was not easy to understand the true nature of Memories, however… the Patient Avenger, for example, was a shield, and its purpose was to protect its master. And yet, that shield possessed enchantments capable of sowing utter devastation on the battlefield. So, it took Sunny a lot of time — and a lot of wasted Memories — to get an initial grasp on the nuances of what enchantments he could transfer, and where. </p><p> The hint was under his nose the whole time… the name of the Memory hid the secret of its nature. He was still unable to fully grasp it, but after destroying dozens of Memories, Sunny managed to develop an intuitive sense that allowed him to gleam the general direction of things, at least. </p><p> It was not much... but it was something. </p><p> *** </p><p> At the start of their fifth month in the Nightmare, Sunny found himself on a somewhat familiar island. Some distance away from him, a forest of tall trees stood, darkness nesting between their trunks. </p><p> The forest looked different from how it had been in the future. There, the trees were twisted and bent, their bark turned dark and rough. But here, they had no need to change and adapt to the devastating burden of the Crushing yet. And so, the forest stood tall. </p><p> …The wolves, however, were more or less the same. </p><p> The Nightmare Creature lunging at him was the size of a small truck, with fur as tough as steel wire and a long, terrifying muzzle. Its jaws were wide enough to bite a human in half, and strong enough to crush both bones and armor into dust. </p><p> As the giant beast jumped at him, Sunny dodged left and allowed Effie to barrel into the creature, her fist sending it flying to the ground with a whimper. A second later, an arrow landed from above, piercing one of the wolf's paws and nailing it to the ground. A slender rapier flashed through the air, doing the same with another. </p><p> Effie appeared near the wolf, pressing it down with all her inhuman strength, and shouted: </p><p> "Come on! The bastard is strong! R—really strong!" </p><p> Sunny did not make them wait. Jumping forward, he brandished the Cruel Sight and buried it between the abomination's six glowing eyes. Almost instantly, the flame of madness burning in them dimmed, and then was extinguished. </p><p> Sunny sighed as the Spell whispered: </p><p> [You have slain a Fallen Monster, Dread Wolf.] </p><p> [Your shadow grows stronger.] </p><p> He did not need the help of the cohort to slay a Dread Wolf, of course. These vile beasts were easy prey for someone like him. </p><p> ...He did, however, require their assistance for what was about to happen next. </p><p> Summoning the runes, Sunny found the familiar string of them. </p><p> The runes read: </p><p> Shadow Fragments: [3000/3000]. </p><p> He prepared himself, and a moment later, the voice of the Spell resounded once again: </p><p> [Your shadow is overflowing with power...] Ne/w novel chapt𝒆rs are published on no/vel(/bin(.)co/m</p><p> It was time for him to become a Devil.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_700.html">Previous Chapter</a><a class="navigationButton next" href="chapter_702.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

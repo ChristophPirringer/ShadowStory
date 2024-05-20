@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1511</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1511 Drowning Star</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1511 Drowning Star </h4> <p> 1511 Drowning Star </p><p> Nephis saw the Serpent King's palace sway, from afar. Its dome was collapsing, and a net of cracks appeared on its walls. However, she had no time to pay attention to what was happening in the distance… the street she had found herself on was crowded with countless warriors, and all of them were moving toward her, an eerie emptiness hiding behind their ruthless eyes. </p><p> Hundreds of them. Thousands, even — and that was only on this one street. Enemies were in front of her, behind her, and on all sides. </p><p> There seemed to be no escape from this human flood. Their hands were already reaching toward her, aiming to catch her and push her down. Surrounded by the undulating mob, Nephis struggled not to surrender to primal fear. </p><p> Before the first hand touched her chainmail shirt, she took a stance and lashed out with her sword. The movement was ingrained into her very bones, absorbed by both her body and mind. Mass, speed, force, space and time. Levers and fulcrums… transfer of energy. That was what swordplay was, deconstructed to its most basic pillars. Her body was a versatile and intricate tool for expressing these principles. </p><p> Of course, there was another element to it, one that existed outside the scope of fundamental physics. Thought. After all, the most perfect tool would be useless without a conscious will to guide it. And thoughts — both her own and those of her enemies — could become a tool, in turn. But that… was much harder to master… </p><p> The severed hand fell to the ground, bright blood spilling on the cobblestones. A normal human would have recoiled in terror, or at least showed a reaction. Even a Nightmare Creature would not have completely ignored the loss of a limb. However, the empty shell hosting the perverse consciousness of Soul Stealer did not pay it any attention, continuing its lunge at Nephis. Visit nov𝒆lbin(.)c𝒐m for the l𝒂test updates</p><p> She had calculated that the warrior would not be deterred, as well. </p><p> Shifting her weight, Nephis turned her torso and allowed the warrior to brush past her. At the same time, she gave him a measured shove. The man was already losing his balance, so that was enough to send him stumbling into the wall of people to her left. </p><p> Her sword had never stopped moving. </p><p> After severing the arm of the nearest human, she pierced the neck of another, then slammed the guard of the sword into the third, all in one fluid motion. By then, the hand she had used to shove the first warrior was already landing back on the hilt, giving her more leverage, and therefore speed. </p><p> And, therefore, freedom. </p><p> Nephis exploded into motion, shredding the bodies of the closest attackers like a hurricane of steel. A bright radiance suffused her skin, making it seem as though a merciless spirit of light was moving through the crowd of mortal warriors. One after another, their bodies seemed to melt in that light, severed and cut apart. </p><p> The white radiance was soon tinted red, shining through the bloody haze. </p><p> 'Faster.' </p><p> Her mind was silent and clear, moving at incredible speed. She perceived a million details about her environment, seamlessly assimilated these observations into a comprehensive understanding, and instantly formulated flawless responses to the shifting landscape of the battlefield. </p><p> The silver longsword cut down anyone who entered within its reach, knowing no mercy or hesitation. Crimson blood was boiling and evaporating from its incandescent blade. </p><p> Nephis was alone, surrounded by thousands of enemies. However, that was alright. Many of these people were Awakened, but most were mundane. They were much slower than her. Much weaker than her. Much more fragile than her… more than that, numerical advantage had a limit to how much it could help them — after a certain point, it did not matter. </p><p> The bodies of these warriors all took up a certain amount of space. Only so many enemies could attack her at the same time, obstructed from approaching her by the walls of the surrounding buildings and the bodies of their own comrades. So, it wasn't like Nephis had to fight with thousands of Soul Stealer's marionettes at the same time. </p><p> She only had to fight against a dozen or so at once, and those… those, she could kill. </p><p> But what did it matter? </p><p> She could kill a dozen. She could kill a hundred, a thousand… ten thousand, maybe. But she couldn't kill millions of them. </p><p> Sooner or later, she would grow tired. Her essence would run dry. Soul Stealer would send the more powerful Awakened and swarms of Masters to confront her. Warriors who could bulldoze through the walls of the buildings, destroying her only advantage, would appear, as well as those possessing insidious Aspects and arsenals of potent Memories. </p><p> In the end, she would be buried under a mountain of human flesh and torn apart. </p><p> 'What do I do?' </p><p> Nephis cut down an Awakened warrior wielding a long spear, severed a mundane soldier in half, pushed through the rain of blood, and pierced the throat of a heavily armored swordsman. The enchanted plate armor could not stop her blade, parting in front of it like paper. </p><p> She kicked the swordsman's body, sending it flying back to crush and maim a dozen hollow-eyed warriors. There was only a split second remaining before she would receive a blow on her back — spinning around, Nephis sliced through the descending sword, the attacker's arms, and his neck. </p><p> 'What do I do?' </p><p> There were still thousands of enemies surrounding her… if anything, there were more of them now than there had been before. Despite the gruesome deaths of the first wave, their faces remained cold and emotionless. Their eerie eyes were full of emptiness and chilling malice. They were still advancing, aiming to bury her under an avalanche of bodies. </p><p> Nephis moved, knowing that she could not stay in place. She was faster than them, after all, and although a wall of steel and flesh surrounded her from all sides, her sword was sharp enough to cut it down. </p><p> She cut, pierced, and crushed. She calculated every move — both of her own and of her enemies — perfectly. She was ten steps ahead in her calculations, even, plotting a bloody course through the flowing mob in advance. That was the only way not to drown in the flood. </p><p> 'What do I do?!' </p><p> Where was Sunny? Where was Cassie? What happened to Effie and Jet? Were they still alive, or had they already been taken as hosts by Soul Stealer? What about Kai? Had he escaped the trap of frozen time only to be devoured by the mirror fiend? </p><p> What about Mordret of Valor? What had happened to him? </p><p> Distracted by these thoughts, Nephis allowed the tip of an enemy's spear to strike her shoulder. The chainmail shirt held, but the cadence of her fluid sword dance was thrown into disarray, forcing her to scramble and recalculate dozens of movements. </p><p> What was she supposed to do? </p><p> Surrounded by thousands of enemies, Nephis looked ahead somberly. Then, furious white flames ignited in her eyes. </p><p> 'Kill them all… I'll just kill them all. I'll try, at least…' </p><p> Her sword flashed, countless lives turning to ash in the incandescent glow of its blade.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1510.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1512.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

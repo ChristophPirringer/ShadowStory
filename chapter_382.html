@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 382</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 382 The Crushing</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 382 The Crushing</p><p>Laying on the soft grass, Sunny felt his body grow heavier, and heavier still. The island continued to rise into the sunlit sky, and with each minute, the crushing pressure became slightly more unbearable.</p><p>The ancient forest covering its surface bent, a rain of leaves falling to the ground. The mighty trees lowered their branches, almost as if trying to touch the ground. With a loud crack, a few weaker ones broke and plunged down, showering everything around with sharp splinters.</p><p>Sunny grimaced, feeling his whole body struggle under the strain. He could still move and breathe without too much trouble, at least… for now. Soon, the island would rise high enough to make any kind of movement almost impossible.</p><p>…And if he was especially unlucky, it would continue to ascend, eventually making it hard to even inhale. Hopefully, the chains would draw taut long before that.</p><p>The skies above the Chained Isles were beautiful, but also forbidden. Nothing could survive their crushing embrace — neither humans, nor Nightmare Creatures. Nor anything else…</p><p>Well, except for one thing.</p><p>Shifting his gaze, Sunny looked straight up and found the shape of the Ivory Tower drifting high above the world, wrapped in a veil of clouds.</p><p>The Ivory Tower was the only thing that seemed to be capable of withstanding the deadly pressure of the forbidden sky. It was a tall, magnificent pagoda built out of flawlessly white material that was neither stone nor wood. The island on which it stood was very small, barely wider than the base of the tower itself, and surrounded by drifting slabs of shattered marble.</p><p>Seven broken chains hung from the soil of the island, swaying as it moved.</p><p>The Ivory Tower was visible in the sky both during the day, bathed in sunlight, and at night, glowing beautifully with the reflected radiance of the moon. No one knew what the mysterious structure was and why it remained untouched by the obliterating force that destroyed everything else that dared to rise above the Chained Isles, since no one had ever managed to withstand the ever growing Crushing to get anywhere near it.</p><p>Many even believed it to be a mirage.</p><p>'Crap…'</p><p>The island on which Sunny had the misfortune of getting stuck had finally reached the highest point of its ascent and shook violently as the chains connecting it to other isles drew taut. The pressure at this height was torturous… but not deadly.</p><p>His bones were not breaking under the assault of the Crushing, and he could still breathe, even if with great effort.</p><p>It would have been better if Sunny could wrap the second shadow around his body, but he didn't want to appear too strong in front of Master Roan.</p><p>Speaking of the devil…</p><p>The mighty rider chose that exact moment to speak. His voice sounded a little strained:</p><p>"Hey, Sunless. Can you breathe alright?"</p><p>Sunny gritted his teeth and struggled to speak. In the end, all he could manage was an affirmative grunt.</p><p>"Good, good. This is actually not that rough, as far as Crushing goes. If we rose by another hundred meters, though, even I would be having a bad time."</p><p>'...Good to know.'</p><p>At this point, Sunny was regretting that they had not climbed on the griffin and dove into the Sky Below.</p><p>The Chained Isles was a dangerous place, and the Nightmare Creatures living on them were fearsome and powerful beyond belief.</p><p>However, the creatures living under the islands were much, much worse. Sunny had seen them from afar a couple of times, and the mere memory of those horrors was enough to send a shudder running through his entire body.</p><p>Still, they could have fought their way through… probably…</p><p>It would have been better than this diabolical torture, for sure.</p><p>'Argh…'</p><p>But there was nothing he could do now except grit his teeth and endure. Minute after minute, hour after hour. Sunny couldn't even think properly because of how terrible the pressure of the boundless skies was. All he could do was suffer silently and stare at the Ivory Tower.</p><p>His shadow, on the other hand, was having a great time. It didn't move, reluctant to get noticed by Master Roan, but he could feel it stare at him gloatingly.</p><p>'Bastard… I'm going to wrap you around the Ordinary Rock and make it scream without rest for twenty-four hours straight… let's see who's going to be gloating then…'</p><p>The shadow hesitated for a bit, then awkwardly pretended to be interested in something else and looked away.</p><p>'Yeah, that's right...'</p><p>Somewhere in the forest, another tree exploded with a loud crack. Sunny tried to turn his head to look in that direction, but it demanded too much effort. He didn't have to worry about being attacked by Nightmare Creatures in this helpless state, anyway. They were currently hiding in their lairs, enduring the Crushing the same way he was.</p><p>Who could fight under this hellish pressure?</p><p>Sunny felt as if there was a mountain on his chest. Every breath demanded his utmost effort to make. His whole being ached, and his vision had become blurry. Exhausted, he closed his eyes and circulated the shadow essence through the coils of the Soul Serpent to keep his slowly breaking body going.</p><p>'Damn it… I'll be late to wake up, won't I? When were they going to call… in the morning? Such an important call, and I'm about to miss it…'</p><p>He was starting to feel really hurt when the blessed sound of rattling chains finally reached his ears once again.</p><p>'Oh, thank gods…'</p><p>After about four hours, the island had finally begun to move again, entering its descent phase. Little by little, the crushing pressure began to grow weaker.</p><p>Master Roan sighed with relief by his side.</p><p>"The worst part is over. Just wait a little bit more, kid. You're almost there."Follow 𝒏ew stories at n𝒐velbin(.)com</p><p>Sunny glanced at the older man and sighed. He used to hate it when people called him kid, but not anymore, at least not as much. He just felt a little wistful.</p><p>He didn't feel like a kid. Not for a long time now... not since coming back from the Forgotten Shore.</p><p>A dozen long and torturous minutes later, the island descended enough for them to move, and then slowly stand up.</p><p>The Crushing was over.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_381.html">Previous Chapter</a><a class="navigationButton next" href="chapter_383.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

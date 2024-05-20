@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 682</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 682 The Red Sect</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Effie stared at him with no amusement whatsoever on her childish face, which only made her attempts to appear serious look more comical. Then, she scowled and said evenly: </p><p> "Wanna die?" </p><p> Sunny shook his head with a grin, then went into more detail about the things he had learned, including various pieces of information he had gleaned in the nightmares, his experience with the Warmongers, and his observations about Solvane and Noctis. </p><p> When he was done, there was silence for a while. The others were digesting all the information he had shared with them, full of thought. Well… everyone except Effie. </p><p> The somber silence was soon broken by the sound of loud chewing. The little girl swallowed a piece of meat pie, then blinked a couple of times, noticing that everyone was staring at her. Finally, she wiped the oil off her lips and said: </p><p> "What? I am a growing child, you know! I need to eat well to grow big!" </p><p> Then, she wiped her oily fingers on the tablecloth and shrugged. </p><p> "Well, anyway… I guess I'll go next." </p><p> The little girl glanced at Sunny, made a face, and turned away. </p><p> "There's not much to tell, anyway. My three months in the Temple of the Chalice were not at all as exciting as Sunny's wild misadventures. Although…" </p><p> Her face suddenly grew dim and dark. </p><p> "...They weren't very pleasant, either." </p><p> Effie sighed, lingered for a few moments, and said spoke in a somber tone: </p><p> "Basically, I was sent into the body of one of the Red Sect's younger disciples. An orphan girl who had been entrusted to the Maidens, for better or worse… but mostly worse. As I already said, their teachings had grown cruel and perverse over the centuries. Now that I know about how Hope is manipulating everyone's desires, I finally understand why. That Solvane… she had been raised in the Red Sect, too, a long time ago. The difference is, she managed to escape. But we didn't." </p><p> The little girl trembled. </p><p> "I ran away once, early on, and managed to make it to the Iron Hand island. But I was caught, and the punishment… at the time, they already knew that nothing they did to me would make me obedient. So, they punished the others in my stead. After that… well, I did not try to escape again. At least while the other girls were still alive." </p><p> Effie grew silent for a bit, then shrugged. </p><p> "So it was pretty boring. Just endless training… battle training, essence training, body conditioning, and all that stuff. How to endure pain, how to endure fear, how to steel your will. How to be a perfect, merciless, lethal vessel of War. Of course, they were very inventive in their lessons… what better way to teach someone to endure pain than to torture them to the brink of death? Or over it, if the pupil is weak." </p><p> The little girl's face turned distant. </p><p> "...In the end, everyone turned out to be weak. Except for me." </p><p> She took a bite out of her piece of meat pie, chewed it slowly, and then said: </p><p> "One time, they put me in a coffin and buried me alive, for a few days. To teach me how to conquer the fear of darkness. These wretches… who said that I was afraid of darkness, to begin with? So… so stupid. But mostly, it was just combat training. They trained us ruthlessly. There's a lot you can achieve with a few Awakened healers and no regard for whether your disciples survive or not. If we broke a bone, the healers would put it back together, and order us to continue. If we bled too much… well, you get the idea." </p><p> Effie shook her head. </p><p> "The thing was, though, that I was getting it even worse than the rest. The girl whose body I took had the misfortune of Awakening at a very young age, you see. So, the Maidens saw her as their promised chosen one… a prodigious warrior fated to slay Solvane and wash away the humiliation she had visited upon the sect, to avenge her sin and sacrilege. So, they worked me harder than anyone else." </p><p> The little girl looked away, then sighed. </p><p> "The weirdest part was that all the vile crap they did to us was done without any hint of hatred, malevolence, or bad intentions. On the contrary, the older Maidens treated us like their little sisters — when they were not torturing and killing us, of course. My teacher… Hilde… I think she thought of me as her own daughter. She cared. A lot of good it did, in the end…" </p><p> She hesitated for a moment, and then grimaced. </p><p> "Well, anyway. Eventually, I was the only one left. Actually, I think they went harder on the other girls because of me. My presence… reignited their fervor, I think. After everyone else died and the Maidens had nothing else to hold over my head, I started planning my escape. I had no idea if I would survive it, but luckily, before I had the chance to find out, Sunny and Kai came and obliterated the whole sect. Cheers! Thanks, by the way." </p><p> She nodded at them, and then stuffed her mouth with another piece of the pie, clearly unwilling to say anything else. </p><p> Everyone remained silent, until Cassie leaned over and put her hand on the little girl's shoulder. She gripped it softly, and said: Visit nov3lb!n(.)c𝒐m for new 𝒏ov𝒆l𝒔</p><p> "You did well, Effie. You did well to survive." </p><p> Effie looked down, sighed, and then said darkly: </p><p> "Ah, but this time, I didn't just want to survive. I wanted to save a few people, too. But I failed… who cares, though? I am too really way too old to be this sentimental. Or maybe that Hope already did a number on my brain… this is just a Nightmare, after all." </p><p> Hearing a little girl proclaiming that she was too old to feel grief would have been funny, if it wasn't so sad. No one said anything, until Kai leaned back and sighed. </p><p> Then, his grating voice resounded in the stone room, sending shivers running down Sunny's spine: </p><p> "Well, in that case, I guess it is my turn. My story is not that long, though. I didn't do much." </p><p> He glanced at his hands, with skin that had been replaced by polished tree bark, remained silent for a bit, and then added: </p><p> "...I only fought a dragon. And lost."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_681.html">Previous Chapter</a><a class="navigationButton next" href="chapter_683.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

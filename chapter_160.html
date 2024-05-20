@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 160</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 160 The Future</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 160 The Future</h4> <p> "Hey, doofus. You're okay?" </p><p> Sunny reacted after a second or two, raising his head and staring at Effie with empty eyes. </p><p> "...Y—yeah. I'm fine. Just… thinking about stuff." </p><p> Effie gave him a strange look, then shrugged and turned away. Everyone was too busy to pay him any attention. Not that anyone ever did. </p><p> Left alone, Sunny staggered and slowly lowered himself to the ground. In his mind, one phrase was repeating itself, over and over, growing louder and louder with each second. </p><p> "A woman with a bronze spear drowning in a tide of monster… a woman with a bronze spear..." </p><p> This was a part of the vision that Cassie had seen back at the beginning of their journey, on the night they had spent atop the giant statue of a headless knight. </p><p> The one that was so harrowing that she had almost jumped into the dark waters of the cursed sea just to run away from her terror. </p><p> It was also the key that connected every little piece of information that Sunny knew into one cohesive picture and let him understand the true meaning of that terrifying vision. </p><p> He shuddered, remembering what Cassie had told them on that dark night in stark detail: </p><p> 'I saw the human castle again. Only this time, it was at night. There was a lonely star burning in the black skies, and under its light, the castle was suddenly consumed by fire, with rivers of blood flowing down its halls. I saw a corpse in a golden armor sitting on a throne; a woman with a bronze spear drowning in a tide of monsters; an archer trying to pierce the falling sky with his arrows…' </p><p> All that time, Sunny was sure, for some reason, that Cassie saw the cataclysm that had devoured this land and turned it into a desolate hell, creating the Forgotten Shore. The first part of the vision was certainly referring to how the curse of the all-consuming darkness had broken free from its seven seals. So he had just assumed that the other parts of the vision spoke about the past, too. </p><p> But Effie's spear gave him an epiphany, a terrible revelation that he had been wrong all this time. That the apocalyptic images Cassie had described were not of the past, but of the future. </p><p> Their future. </p><p> Trembling, Sunny raised his head and glanced at Nephis, who was using her powers to heal the wounded hunters, her ivory face contorted in a painful grimace. His eyes were wide and full of disbelief. </p><p> It was all so clear! </p><p> She… she was the lonely star that burned in the dark skies above the Bright Castle, bringing with it fire and rivers of blood. After all, her name was Changing Star. </p><p> Or, depending on the runes used to write it, Star of Misfortune. </p><p> The Star of Ruin. </p><p> Sunny spent so much time fearing what Gunlaug was going to do with Nephis, but he should have been scared of what she was going to do to him, instead. A corpse in a golden armor sitting on a throne… why hadn't he realized the truth after seeing the Bright Lord for the first time? It was him. Gunlaug was the corpse in Cassie's vision. </p><p> Effie was the woman drowning in the sea of monsters. The archer…Sunny didn't know yet, but he was sure that they would meet soon. </p><p> Maybe only to die together. </p><p> He had always known that Nephis was guided by some mysterious, overwhelming goal. He didn't know what that goal was, but it was certainly not here, on the Forgotten Shore. To achieve it, Changing Star had to find a way to return to the real world. </p><p> That's why she had always been so unwavering and relentless in her ambition to move forward, overcome any obstacle, endure any pain. At times, it even seemed as though her conviction was more akin to an obsession. Nephis was willing to do anything to fulfill her dream. </p><p> The comforting words she had told him on their first day in the Dark City suddenly resounded in his mind. Only now, there was another, colder, and much darker meaning hiding beneath their surface: </p><p> "We will find a way to return. No matter what has to be done, we will." </p><p> No matter what has to be done… </p><p> There was only one way to leave the Forgotten Shore, and it lay in the Crimson Spire. No Sleeper could ever hope to reach that Gateway in one piece. They would need an army to even try. Maybe then, walking on corpses, one or two survivors would be able to escape from this cursed place. </p><p> But Nephis didn't have an army. </p><p> …Yet. </p><p> To gather one, she would need to kill Gunlaug, usurp his power and eliminate all opposition, drowning the Bright Castle in blood. Only then would she be able to rally every single Sleeper left in the Dark City and lure them into following her on a suicidal crusade. Knowing all too well that most of them would die because of it. </p><p> No sane person would follow her. </p><p> 'They won't. Right?' </p><p> Sunny remembered the faces of the young men and women that had become part of their group in the last few weeks. The strange light of hope, or maybe faith, burning in their eyes. The almost religious reverence they felt toward Nephis… no, not Nephis. Toward Changing Star of the Immortal Flame clan. </p><p> Their personal angel. </p><p> Were they sane, still? </p><p> Finally, he understood every part of Neph's plan. </p><p> Looking at the beautiful young woman with silver hair, Sunny shivered. </p><p> And then… there was the last part of the prophecy. </p><p> *** </p><p> On their way back, Sunny felt as though he was in a feverish dream. The magnitude of the revelation was too… too much for him. His mind felt weak, unsteady, and on the verge of breaking apart. </p><p> He had never experienced such a deep feeling of shock. It was as though the very core of his being was violently shaken. He wasn't equipped with the right tools to cope with it. </p><p> It felt as if he was on the verge of losing it. </p><p> Sunny was truly horrified. </p><p> 'Don't… don't waste time trying to deal with your emotions. This is not the right time for feelings. You need to… to figure out how all of this affects you personally, and what you need to do to turn things to your advantage.' </p><p> After all… what was there to be scared of? That many people would die? What did their lives and deaths have to do with him? </p><p> Yes… yes. As long as he was the one left standing in the end, this whole thing might actually turn out to be beneficial. Hadn't he spent the last weeks being afraid of what Gunalug was going to do to them? Well, now he knew that Gunlaug was going to end up as a corpse. Problem solved. </p><p> Wasn't he crushed by the news that he would spend the rest of his life in this odious hell? Well, now that wasn't a certainty anymore. That last part of the prophecy… </p><p> Everything was well. Better than ever. </p><p> …And yet, no matter how much Sunny was trying to be rational, he just couldn't help but be filled with terror. </p><p> *** </p><p> In the crimson light of sunset, he found a reason to leave the lodge and walked to the edge of the stone platform. No one really cared that much about his whereabouts, so it wasn't hard to disappear for a while. </p><p> No one noticed that something was bothering Sunny, either. They were all accustomed to his moody behavior, anyway. Only Cassie seemed to have picked up on something. </p><p> ...And Caster, who pretended to be carefree, but actually had a habit of watching anyone close to Nephis like a hawk. </p><p> The bastard... </p><p> Reaching the very end of the stone platform, Sunny turned around and looked at the outer settlement and the magnificent castle towering above it, with hundreds of Sleepers rushing to find shelter before the coming of night. A cold and harrowing feeling gripped his heart. </p><p> 'All these people… all these people are going to die.' </p><p> Neph was going to kill them. </p><p> ...Was he willing to help her do it? </p><p> For some reason, Sunny wanted to laugh. This whole situation was so sick and appalling that it was almost ridiculous. He was never an altruistic type, really. More than that, he always prided himself on being a cynical, selfish, and vicious person. But this... this was too much even for him. </p><p> Grabbing his head, Sunny moaned. 𝒩ew 𝒏ovels upd𝒂tes on nov𝒆lbi𝒏(.)com</p><p> 'What am I going to do?!' </p><p> At that moment, the sound of steps suddenly attracted his attention. A gaunt figure appeared from the slum and walked toward him. </p><p> Sunny frowned. </p><p> 'Oh, right. That guy…I have completely forgotten about him.' </p><p> Harper stopped a few paces away and smiled timidly. </p><p> "Sunless! Uh… can we talk?"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_159.html">Previous Chapter</a><a class="navigationButton next" href="chapter_161.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

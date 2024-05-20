@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1163</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1163 Broken Land</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> After a long time spent in comfortable silence, Sunny glanced at Nephis, thought for a few moments, and asked: </p><p> "So, what do you make of this place?" </p><p> The other members of the cohort all had a deep connection to the Chained Isles. Sunny and Cassie had spent the most time here, but Effie and Kai were also deeply tied to the remains of the Kingdom of Hope. Their experiences in the Nightmare were not something one could ever forget. It was a place that had changed them. </p><p> Nephis, on the other hand, was a stranger here. She could look at the Chained Isles as an outsider. So, he was idly curious about her perspective.. </p><p> Neph lingered for a while, then said quietly: </p><p> "It is as everywhere else. Broken." </p><p> Sunny smiled. </p><p> "I guess. The Chained Isles are more honest in that regard, aren't they? They don't hide their broken nature." </p><p> Indeed, the Dream Realm was a ruined world. ...The waking world was a ruin, too. And the young woman standing next to him was the Star of Ruin. A fitting name for someone born of two broken worlds. </p><p> He sighed. </p><p> "Still, I thought you would have more of an opinion. Don't you feel a connection to this land?" </p><p> Nephis glanced at him with a bit of confusion. </p><p> "Why would I?" </p><p> Sunny shrugged. </p><p> "Well, the Kingdom of Hope was destroyed by Sun God. He brought his fire down, and obliterated it. You are the inheritor of that fire, are you not? Sun God's blood is flowing through your veins. So, in a sense, you are the last descendant of the being who brought ruin to this land." </p><p> Nephis remained silent for a while, then smiled. </p><p> "I see. Yes, it would make sense for me to feel a connection to Sun God. But, actually... in this case, I feel more connected to Hope." </p><p> Sunny raised an eyebrow. </p><p> "Hope? The wicked demon who spent a thousand years twisting the minds of everyone living in the ruins, driving them insane, and causing all kinds of unspeakable, abhorrent evil? The vile queen of madness, that Hope?" </p><p> Neph tilted her head a little. She lingered for a few moments, and then said: </p><p> "Hope who had everything that belonged to her destroyed by an impossible foe. Who remained chained for a thousand years, but never stopped trying to set herself free. Who escaped her prison and waged war against the eternal gods. And killed them. That Hope." </p><p> Sunny hid his smile. </p><p> "Huh. Well, if you put it like that... actually, I'm rather fond of Hope, too. I met her once, you know?" </p><p> For the first time in a long time, he saw Neph's usually calm expression crack a little. She looked at him with a startled expression. </p><p> "You... you met Hope? The Demon of Desire?" </p><p> Sunny nodded. </p><p> "Yes. Well... a version of her, at least. At the very end of the Nightmare, I entered the Tower and saw her, for a few fleeting moments. She even spoke to me." Find upd𝒂ted 𝒏ovels on n𝒐velbin(.)co/m</p><p> He hesitated for a few moments. </p><p> "She told me that the daemons were the Flaw of the gods. I'm not sure what she meant, though. I always assumed that the gods were flawless." </p><p> Nephis frowned, then turned away and looked at the stars. </p><p> "...I heard that the gods were perfect beings once, but then they were no more. It doesn't make a lot of sense, does it? I also don't know what she meant." </p><p> She remained silent for a while, then said evenly: </p><p> "It makes me wonder, though. Did Sun God also have to pay a price to use his power? Did he have to burn? Did he have to suffer? Did it hurt him to destroy Hope's kingdom?" </p><p> Nephis looked at the distant stars with a cold expression. </p><p> "The gods could die, so they must have suffered, too." </p><p> She stared at the black sky. Then, slowly, a pale smile appeared on her lips. </p><p> "...I hope he suffered a lot." </p><p> Eventually, they returned to the Ivory Island. The sun was disappearing beyond the horizon, and the crescent moon became visible in the twilight sky. The five of them gathered on the shore of the clear lake, in front of a bonfire, to enjoy their last meal before their return to the waking world. The short respite was almost over. </p><p> Sunny enjoyed the last of Neph's cooking he would taste in a while as he studied the faces of his companions - Nephis, Cassie, Effie, Kai... the shadows moved as the fire danced, painting them in shades of orange and grey. They seemed rested and relaxed. He felt at peace, too. </p><p> After a while, Sunny turned his head to look at the lake, where the flying ship swayed gently on the surface of the water. A small frown appeared on his face. </p><p> "...Hey. We still haven't come up with a name for that thing, have we?" </p><p> The others looked at him with confusion. Then, their expressions cleared. </p><p> "Oh!" </p><p> Kai was the first one to speak. He thought for a few moments, and then smiled. </p><p> "How about Sky Swimmer?" </p><p> Sunny gave him a measured look, making the handsome archer hesitate. </p><p> "What?" </p><p> He shook his head. </p><p> "No, no. Don't pay me any attention. I just think I understand now how your band ended up being called Night&amp;Gale..." </p><p> Both Kai and Nephis blinked. </p><p> "What's wrong with Night&amp;Gale?" </p><p> "Night&amp;Gale is an amazing band name!" </p><p> Sunny smiled crookedly. </p><p> "Alright, alright! There's nothing wrong with that name. Still, Sky Swimmer? Doesn't sound too majestic." </p><p> Kai looked down in embarrassment. </p><p> "Oh, well... on second thought, you're right..." </p><p> At that moment, Effie spoke: </p><p> "I have a great name in mind." </p><p> Everyone turned to her, while the huntress threw a mischievous glance at Sunny. </p><p> "This is a flying ship, right? It soars high in the sky, bathing in sunlight. So... how about... we call it The Sunfull?" </p><p> The corner of Sunny's eye twitched. </p><p> "...Next suggestion." </p><p> Cassie hesitated for a few moments. </p><p> "I really don't know. I would like to name it in honor of Noctis, but at the same time... this is the vessel of the Fire Keepers now. It was created to harvest divine flames, and in the future, it will be the symbol of Changing Star and her people. Do we name it for the past, or for the future?" </p><p> Everyone looked at Nephis, who remained silent for a while. Eventually, she said: </p><p> "Let's honor your friend, Noctis. Sunny knew him the best, so he's the best person to give the ship a name." </p><p> Sunny raised an eyebrow. </p><p> 'How come I ended up being the one to do it?' </p><p> Still... it wasn't the bad kind of responsibility. </p><p> He fought about Noctis, his self-proclaimed best friend, and about what Noctis had wanted. ...To break the will of gods and set Hope free from her chains. He also thought about Odysseus, and about his own desperate desire to be free. He thought about what Noctis had achieved. Who was Noctis, in the end? What words described him best? </p><p> 'That lying, dastardly cheat...' </p><p> After a while, Sunny let out a sigh and nodded. </p><p> "Yeah. I think I know. I have a good name." </p><p> He looked at the graceful silhouette of the ancient ship and remained silent for a few moments. Eventually, Sunny said: </p><p> "...Chain Breaker. Let's call it that."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1162.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1164.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

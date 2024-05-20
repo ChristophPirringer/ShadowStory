@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 475</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 475 A Few Things To Do</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 475: A Few Things To Do </h4> <p> Some time later Sunny was in his kitchen, eating the breakfast he had just prepared. He was thinking of all the things on his to-do list. </p><p> They were, in no particular order selling the soul shards he had brought with him from the Dream Realm, and setting up a stable method to sell more in the future; returning to the Dreamscape to participate in duels on the professional arenas to practice Shadow Dance and feed the Mantle of the Underworld with victories; observing Rain and thinking of a way to deal with that whole situation; learning how to properly fight with a spear; visiting Neph; writing a report about the Noctis coins for Teacher Julius. </p><p> There were probably more things he had to do, but was forgetting. But he already had enough on his plate. </p><p> Finishing the breakfast and staring toward the door of the guest bedroom, where Effie still slept while her spirit wandered the Dream Realm, he shook his head and went out to sit on the porch as he drank some delicious tea. </p><p> It was early morning. Sunny enjoyed the pleasant view of the terrace district, watched as Rain walked to the public transport hub on her way to school, and then activated his communicator. </p><p> He was going to start with the simplest of tasks. </p><p> Navigating to the market section of the network, he habitually imputed his identification number to access the Awakened section of it. Sunny had browsed the wares there before, even if back then he barely had enough money to buy anything. </p><p> Today, however, things were different Today, he was approaching the network as a seller, not as a buyer. </p><p> Sunny entered 'soul shards" as the keywords and stared at the listings, appreciating the number of zeroes in their prices. It seemed as though the value of shards was not uniform... of course, the higher Rank shards cost much more. But people, strangely, also seemed to care about what Nightmare Creature the crystal came from, and how it had been defeated. </p><p> 'What the hell? Follow 𝒏ewest stories at n𝒐velbin(.)com</p><p> Apparently, there were_ collectors among the wealthy mundane humans who were very interested in this sort of thing. Some superstitious Awakened also believed, for some reason, that absorbing "bad" shards would be detrimental to the purity of their souls. </p><p> Weirdos.: </p><p> Sunny didn't Imew a lot of things, but one thing he did know was that there was not a single Awakened out there with a pure soul. Even the best of them were murderers by nature, and their hearts were painted black by the nightmares they had experienced. </p><p> Not to mention that there were no bad or good soul shards. They were all pretty much the same, coming from terrible monsters and earned through bloodshed. Anyway, that was something he was going to consider when creating his own listing. After getting the gist of the pricing, Sunny opened the form to create his own digital shop. Without thinking too much, he named it "Brilliant Emporium and went on to fill out the entire form. Then, it came the time to put his soul shards into the auction. Sunny wrote simply: </p><p> 'Four soul shards coming from a Fallen Devil, Mordant Mimic. The creature was killed and eaten by the proprietor of the Brilliant Emporium himself. Before that, the Mordant Mimic had been pretending to be a treasure chest and devouring those lured by the promise of treasure. In the end, it bit off more than it could chew.' </p><p> Satisfied with that, he finalized the listing and stared at it for a bit as if expecting someone to bid instantly. Howeves nothing of the sort happened. With a sigh, Sunny deactivated the communicator and went back inside. 'Soon... I will be rich soon.... </p><p> It took several days for all four of his soul shard to sell. After that, Sunny had to arrange secure delivery, which was somewhat of a headache on its own. Overall, the process took too much time from his already packed schedule. </p><p> He also felt that he was missing some crucial knowledge on how to make his business really boom. Even though the product he was trying to sell was first class — there was not a lot of Fallen Rank soul shard out there, compared to Dormant and Awakened ones—the bidding had not really taken off. He did make a sizable amount of money, but not as sizable as it could have been. </p><p> Still, it was enough to purchase a couple of cheap lower Rank Memories. Sunny simply looked forthe most useless ones, which no one else would ever want to buy, and made the minimum offer. Whoever it was selling them must have been happy beyond belief to finally be rid of these things. </p><p> Sunny was going to feed the Memories to Saint immediately after receiving them, but before that, he spent a lot of time training with the Cruel Sight in his underground dojo. </p><p> He had a solid understanding of how use a short sword, but a spear was an alien beast to him. Even though Sunny knew the basic rules of combat technique and could perform somewhat effectively while wielding any weapon, he was far, far away from mastering them. </p><p> How fortunate it was then, that he had a renowned spear master — Raised by Wolves herself — crashing in his guest bedroom. </p><p> Granted, she couldn't really spar with him due to her condition. But he had Saint for that </p><p> In the end, the three of them spent a lot of time in his basement Effie was observing and explaining to him what to do, how to do it and most importantly, what not to do. Saint served as his opponent and the mighty enemy to polish his nascent skill against And Sunny_ Sunny found himself once again in the role of a willing punching bag. </p><p> It was just like in that week they had spent in the hidden chamber of the ruined cathedral in the Dark City. Sunny even got nostalgic, remembering how cozy and nice things had been back then. </p><p> Now, howeves things were much better. Not only was there an unlimited amount of delicious food they could eat during the breaks in his training, there were even medicine and ice baths to ease the pain in his bruised and beaten body. </p><p> Training with Saint was really effective, but she really didn't know how to pull her punches! Just like that a few days passed. And then, something that Sunny had been dreading for a while finally, and inevitably, happened. ...It was time to accompany Kai to the premier of the Song of Light and Darkness. </p><p> The Novel will be updated first on this website. Come back and continue reading tomorrow, everyone!</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_474.html">Previous Chapter</a><a class="navigationButton next" href="chapter_476.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

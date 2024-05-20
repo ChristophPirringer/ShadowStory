@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 758</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 758 Crossroad</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny left the Academy with a lot on his mind. </p><p> As a Master and a high ranking citizen, he had the right to acquire a PTV license and more than enough money to purchase one. However, Sunny had no idea how to control a personal transport vehicle and was too lazy to learn, so he still used public trains to move around the city. </p><p> Around the… Northern Quadrant Siege Capital. </p><p> Paying no attention to the captivated glances people threw at him, he looked into the window as the train slid forward on its magnetic guideway, flying through district after district with incredible speed. </p><p> The city… was a nice enough place, as long as you were not born in the outskirts. Tall buildings burrowed deep underground and rose high into the sky, connected by tunnels and aerial bridges into a complicated maze of graphene composite and reinforced alloy. Here and there, artificial trees and grass broke the white monotony with vibrant shades of green, yellow, orange, and red. </p><p> Everything seemed clean and bright despite the heavy snowstorms that were prevalent this time of year, not at all like the dirty, dim, poisonous clutter of the outskirts. There were large screens displaying beautiful vistas of breathtaking landscapes that had not existed on planet Earth since centuries ago, and propaganda projections that had been masterfully designed to brighten the mood of the citizens. </p><p> …Most of all, the city seemed full of life. Endless streams of people were crowding the crosswalks, with a rare PTV or two appearing from time to time. Millions… hundreds of millions of humans called this place their home. Only here, protected by the colossal outer barriers and protective air filtration systems, as well as powerful Awakened, could they survive and thrive. </p><p> It was strange to imagine that many similar human shelters in Antarctica were going to be abandoned and destroyed by the endless tide of Nightmare Creatures very soon. </p><p> Sunny had seen the panic and mayhem that an unexpected manifestation of a Gate could cause. However, his imagination failed when he tried to envision what would the same disaster, but magnified hunderfold look like. All he could picture was the horde of abominations that the Dreamer Army had faced under the Crimson Spire suddenly appearing on these peaceful streets. </p><p> Already, that image made him shudder. </p><p> …However, he still stood by his words. </p><p> He did not owe these people anything. Sure, if a Gate opened right in front of him, Sunny would have been inclined to fight and buy the civilians time to run away. This was just human nature. But he was not going to go out of his way and seek death just to fulfill some abstract obligation. No one had helped when he had been desperate for help. He had survived despite humanity, not because of it. </p><p> And he would continue to put himself first… </p><p> Most likely. </p><p> Sunny would have lied if he said that Master Jet did not put a seed of doubt in his heart. Sure, the expedition to Antarctica seemed like a suicidal exercise in futility, but she was right. Those who survived that ordeal were going to grow much stronger. </p><p> Although Sunny would not be getting any shadow fragments from the hordes of Dormant and Awakened abominations that were going to flood the Southern Quadrant soon, he could still collect plenty of soul shards and Memories, maybe even Echoes. There would be more than enough of Fallen Nightmare Creatures roaming Antarctica, as well. </p><p> …However, he also did not believe in the government's ability to accurately predict what would happen there. They seemed to think that only lower category Gates would appear during the chain reaction, but was that assessment right? Who could say with certainty that another Category Five Gate would not manifest itself instead? </p><p> The last time it happened, the likes of Immortal Flame and Smile of Heaven perished in the fight. Could Sunny guarantee that he would fare any better? No, he definitely could not. </p><p> In the end, it all came down to a simple choice that depended on tomorrow's negotiations. </p><p> If all went well, Sunny would regain the ability to enter the Dream Realm. There, he would be able to achieve much better results than the expedition to Antarctica could ever provide, and with much less risk. </p><p> More than that… he could even pledge allegiance to the illustrious clan Valor. By now, he had more than enough value to negotiate a supremely lucrative deal. With their training, support, and resources, becoming a Titan would not be out of the realm of possibility. </p><p> The barrier that stood between him and Transcendence would instantly disappear, too. Instead, he would be in the best position possible to attempt conquering the Third Nightmare! </p><p> Perhaps he would even be able to enhance his understanding of sorcery by leaps and bounds. Valor was widely renowned for creating incredible Memories, after all. He had also seen how proficient the representatives of the Great Clan were in using runic sorcery, back in the Night Temple. There was so much knowledge that they possessed! So much he could learn from them. </p><p> As for the fact that the Great Clans seemed to be preparing to abandon Earth in favor of the Dream Realm… </p><p> Were they even wrong? </p><p> Sunny still remembered the conversation he had had with Effie in the ruined cathedral of the Dark City. She, too, believed that the waking world was dying, and that the Dream Realm could become humanity's salvation. Her argument was… dreadful, but compelling. </p><p> In any case, if something went wrong, he would always be able to leave Clan Valor behind. Pledges of allegiance did not mean anything to Sunny, after all. As a person who abhorred the word honor, he was more than willing to betray any promise he made as long as it suited him. Explore 𝒖ptod𝒂te stories at no𝒗elbin(.)c𝒐m</p><p> Deserting a Great Clan would probably not be easy, but by then, he was going to be powerful enough to manage. </p><p> …So, if negotiations went well, he had no reason to do something as stupid as following Master Jet to Antarctica. </p><p> If they went poorly, however, that would be pretty much his only choice. </p><p> That was why Sunny had not given Soul Reaper a definitive answer. She did not ask for one, anyway. Master Jet had just told him to think about her offer and inform her of his decision during the next two months. </p><p> As the train approached the terrace distinct, Sunny sighed and headed for the exit. </p><p> 'Damn… my head hurts. Why did all of it have to happen on the day of my first lecture? That's too much excitement for one day!" </p><p> Worse still, tomorrow promised to be even more exciting…</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_757.html">Previous Chapter</a><a class="navigationButton next" href="chapter_759.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

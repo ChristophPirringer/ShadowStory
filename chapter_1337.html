@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1337</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1337 Ghost Ship</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1337 Ghost Ship</h4> <p> Bringing the ketch to the towering side of the battered ship... the Chain Breaker... Sunny and Nephis lingered for a while, looking up. Both felt more than a little bit of apprehension, but at the same time, they were relieved. </p><p> Traveling across the perilous expanse of the Great River on a mighty ship would be much more reassuring than on a small, damaged sailboat. </p><p> Eventually, Nephis summoned the familiar golden rope and glanced at Sunny. </p><p> He nodded, then hesitated for a moment. </p><p> Bending down, Sunny picked up Ananke's black mantle and looked at it with a forlorn expression. It was the only thing she had left behind... the last reminder of her existence, if one didn't count the ketch itself. </p><p> It was also the vestment of the priests of the Nightmare Spell. Check new 𝒏ovel ch𝒂pters at nov𝒆lbin(.)com</p><p> He remained motionless for a while, then silently wrapped the mantle around his shoulders. </p><p> As soon as his body became shrouded by the dark folds of the nebulous fabric, Sunny felt a strange shiver run down his spine. He had donned the black mantle in honor of Ananke, to have something to remember her by, but the act suddenly seemed deeply symbolic. </p><p> It was as though he was devoting himself to Weaver... which Sunny had no intention of doing. </p><p> And there was another, far more chilling detail. </p><p> 'This mantle...' </p><p> Was he just imagining things, or was it eerily similar to the tattered rags the Mad Prince wore in the nightmare? It was hard to tell due to how faded and sunburnt the rags were, but if he just pictured what they might have looked like decades, or even hundreds of years ago... </p><p> Sunny frowned, his gaze turning dark. But, in the end, he chose to leave the black mantle on. </p><p> 'That bastard will not define me.' </p><p> With that, he took a step forward and joined Nephis, who had already thrown the rope up, tightening the loop at its end around the broken railing of the ghost ship. She gave it a couple of tugs, then nimbly climbed up. </p><p> Sunny followed. </p><p> A few moments later, they jumped down on the deck of the Chain Breaker. </p><p> An eerie feeling gripped his heart. </p><p> The deck of the ancient vessel was both familiar and unfamiliar. It was very similar to the one he had spent so much time on - both in the Dream Realm and the Second Nightmare. However, there were also glaring differences. </p><p> The very geometry of the main deck seemed slightly different. However, it was hard to tell what the differences were exactly... because it was severely damaged. </p><p> Here and there, the wood was splintered and covered in soot, with deep grooves cutting into its surface - as if some enormous beast, or a legion of them, had torn through the ancient wood with monstrous claws. The railings were shattered and broken in many places, the mighty siege engines lay broken and destroyed. </p><p> Several massive holes had been punched through the deck, as well, revealing the devastated interior of the ship. Their jagged edges hinted that something dreadfully powerful had either broken into the cargo hold, or had broken free from it. </p><p> There was not a soul in sight. </p><p> Sunny and Nephis glanced at each other, wary. Then, without saying anything, he sent his shadows to scout the interior of the ancient vessel. </p><p> After a swift and corduroy search, they had not discovered anything except for more signs of a furious battle. </p><p> He let out a quiet sigh. </p><p> "It's empty. There's no one here." </p><p> Nephis nodded, lowering the sword that had appeared in her hand as soon as they climbed aboard. She looked around, seemingly more relaxed, and then said calmly: </p><p> "Let's explore properly." </p><p> They spent some time tentatively exploring the abandoned ship. Everywhere they went, they were met with signs of dreadful devastation. Sunny knew for a fact how enduring the enchanted wooden walls of the Chain Breaker were... he shuddered when imagining what kind of forces could have brought it to such a sorry state. </p><p> The last time the flying vessel had been damaged so severely, it was because Cassie had thrown it down from the skies and rammed an immortal Saint at full speed. This time, however, it seemed the ship had withstood a harrowing and prolonged assault before being breached, at which point the fighting continued inside. </p><p> Then, it drifted in the currents of the Great River for gods knew how long. As a result, there was nothing left to tell them where and when the ghost ship had really come from, and who had fought in the battle that rendered it broken and empty. </p><p> Sunny did not know what kind of beings could have devastated the ancient vessel to such a degree, nor did he know what kind of defenders could have resisted their assault. Whoever they were, the aftermath of their cataclysmic clash gave him chills. </p><p> However... there was good news, as well. </p><p> About an hour later, Sunny and Nephis returned to the main deck and rested in the shade of the sacred tree. Their expressions were thoughtful. </p><p> Touching the ivory bark, Nephis inhaled deeply. </p><p> "The damage is severe, but shallow. There are no leaks, and the ship is not taking on water. While the interior is a mess, the support structures are all holding... it is not going to sink anytime soon." </p><p> She lingered for a moment, studying the sacred tree, and added: </p><p> "The tree is also alive, and healthy. However, the enchantment circuits are broken. The runic circle at the stern is dormant. We won't be able to fly the Chain Breaker." </p><p> Sunny nodded. </p><p> "Does any of us even know how to control it? Cassie is usually the one doing the steering. She learned directly from Noctis." </p><p> Nephis sighed. </p><p> "I don't. Regardless, flying is not an option... that said, we don't need the sacred tree and the enchantments to make the ship move. It still has sails, doesn't it? Even though most sails are either burned or torn, we can repair them. We brought enough supplies from Weave." </p><p> He looked around, thinking. The sails were indeed torn, but there were repair kits just for that purpose among the supplies Ananke had left them with. All in all... it seemed that they had everything necessary to turn the Chain Breaker back into a seaworthy vessel, even if the repair job would not look pretty. </p><p> There would be... a lot for them to do. </p><p> Sunny sighed, then gave Nephis a short nod. </p><p> "Let's get to work, then."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1336.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1338.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

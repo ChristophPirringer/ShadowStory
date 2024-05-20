@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 476</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 476 A Song Of Light And Darkness</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 476 A Song of Light and Darkness</p><p>Some time later, Sunny was pondering his life choices while sitting in the back row of a crowded theater. The lights were already off, which obviously meant nothing to him. People seemed to be really excited to see the movie, though… especially Effie, who was to his side, munching on something called popcorn and staring at the screen.</p><p>In the darkness, somber music started to play, reverberating through the entire space and making the audience shiver. Effie suddenly jabbed her elbow into his ribs.</p><p>"Do you know who is the composer for this thing? It's Griffin! I don't know how they managed to get him, but he scored the entire movie. Such an honor! Can you believe it?"</p><p>Sunny had no idea who this Griffin guy was, but judging by Effie's reaction, he was someone famous. Massaging his ribs with a grimace, Sunny offered a stifled answer:</p><p>"I can."</p><p>On the screen, the interior of a spacious and beautifully lit room appeared. A small girl with silver hair was playing on a carpet, while a handsome man with dark circles under his eyes was shown studying a map.</p><p>'What the hell…'</p><p>Was that supposed to be Nephis? If so, her hair should have been black. It only turned silver after her First Nightmare.</p><p>Effie giggled.</p><p>"So cute!"</p><p>The girl, meanwhile, approached the table and reached to touch the strange sword that lay on it. The blade of the sword was short and misshapen, as though shattered a long time ago.</p><p>Before the girl could cut herself, though, the man lifted the sword and brought it out of her reach.</p><p>"This is not a toy, Nephis!"</p><p>Sunny palmed his face and grimaced.</p><p>"But, daddy… why is your sword broken?"</p><p>The man smiled.</p><p>"So what if it is broken? It is still sharp."</p><p>Then, he put his hand on the girl's shoulder and looked at her with a very serious expression:</p><p>"One day you will wield a sword too, darling. When you do, remember one thing: we, Awakened, only raise arms to protect humanity. As long as we don't give up, no matter how dire the situation is, there will be hope. Just like this sword, humanity is more resilient than it seems!'</p><p>Sunny tilted his head.</p><p>'Wait, this doesn't even make sense…'</p><p>The scene, however, was already over. The screen turned black for a few moments, and the movie transitioned into the future. Nephis — now a languid jade beauty with a slim waist, generous figure, long eyelashes, and mesmerizing grey eyes — was entering the Academy. What followed was a long training montage showing her defeating every other Sleeper there with a training sword, all the while offering words of wisdom.</p><p>Like "never give up hope", or "remember your duty", or "we are humans!".</p><p>The propaganda was so tacky and laid so thick Sunny could help but cringe</p><p>The only person the jade beauty couldn't defeat was a handsome young man with masculine features, broad shoulders, and a noble bearing… Han Li Caster.</p><p>'Oh, no. Oh, no…'</p><p>Sunny should have guessed by the invitation Kai had given him, but the director of the movie was obviously hinting at the nascent romantic feelings between the two. Their conversations in the Academy seemed to be about swordsmanship, but were also somehow deeply flirtatious.</p><p>The actors had mad chemistry together.</p><p>He wanted to vomit, but the audience was clearly enthralled by the two leads.</p><p>Sunny didn't dwell on this preposterous thing for long, though… because right about then, his own character was introduced.</p><p>'What he Spell is this?!'</p><p>The actor hired to play him… was a literal child! It was a teenage boy of about thirteen years of age, with a mischievous grin and a face that, for lack of better words, simply begged to be punched. Worse than that, he was shown as extremely uneducated, clumsy, and naive.</p><p>In short… Sunny was the comic relief!</p><p>He turned to Effie in outrage, only to see her laughing silently.</p><p>"Oh, man… who's the casting director for this movie, I need to send them flowers!"</p><p>Even his shadows were laughing. Both of them!</p><p>Sunny gritted his teeth, promised to exact revenge on Kai and Effie for making him endure this, and turned back to the screen.</p><p>Finally, Nephis entered the Dream Realm and found herself on the Forgotten Shore. The coral labyrinth and the dark sea were recreated with such detail that he couldn't help but shiver.</p><p>'Well… they did their research, at least!'</p><p>The audience was holding their breaths during Neph's journey to the Dark City. The terrifying nature of the dark tides and the deadly battles with Awakened Nightmare Creatures populating the Labyrinth created a truly tense, suffocating atmosphere.</p><p>Of course, everyone knew that the main character was not going to die in the first half of the movie. But that's where Sunny — as well as Cassie — came into play. Just as he had expected, the movie showed them as a burden that had to be carried by Nephis on her heroic journey. But since very few people knew who Sunny was, his fate was uncertain.</p><p>Nephis was bound to survive, but what about her friends?</p><p>And, thanks to his character, there were also moments of pleasant levity amidst all the tension. A few times, the whole audience exploded with laughter after Sunny on the screen did something especially stupid or said something really outrageous.</p><p>He had also slowly developed a catchphrase. It was… "Are you crazy?!"</p><p>That not only allowed the audience to chuckle, but also gave Nephis the opportunity to educate her worthless follower, thus naturally delivering a lot of necessary exposition.</p><p>The real Sunny wasn't amused, though. Because they weren't laughing with him… they were laughing at him.</p><p>'Idiots! What do you even know?'</p><p>They didn't know anything...</p><p>Since no one really knew what the three of them had gone through on their way to the Dark City, the writer simply came up with some dire dangers for Nephis to overcome.</p><p>Eventually, though, they made it to the ancient city, and met Effie.</p><p>Effie was played by a very tall, athletic, and attractive actress.</p><p>…The way she played her, though, was a sight to behold. Basically, the actress went out of her way to portray the huntress as a charismatic, but not very bright savage who was all brawn and no brain. All she knew how to do was fight, eat, and break things.Find 𝒏ew chapters on n𝒐velbi𝒏(.)com</p><p>Sunny turned to Effie and grinned, full of malice and gloating.</p><p>This was the first time he had ever seen the boisterous young woman... completely mortified.</p><p>"Casting director, you say? I think I'll send them flowers, too."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_475.html">Previous Chapter</a><a class="navigationButton next" href="chapter_477.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

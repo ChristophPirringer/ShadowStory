@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 830</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 830 Departure</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The next day, the exodus of the First Evacuation Army from the Northern Quadrant finally started. </p><p> Sunny and the other captains observed the mass of humans, machinery, and cargo containers flowing into the seemingly bottomless cargo holds of the forty metal leviathans from the tall walls of the port fortress. None of the six spoke, consumed by somber thoughts. Master Jet remained silent, as well. </p><p> Behind them, the large encampment that had been bustling with activity just a few days ago was completely dismantled and gone. In front of them was the endless grey expanse of the sea and an uncertain future. </p><p> Even though only a quarter of the entire evacuation contingent was sailing south from this port today, the scope of it all was truly immense. Looking at the fearsome ships and the flood of soldiers boarding them, Sunny couldn't help but feel a bit of awe. </p><p> It was easy to believe that nothing would be able to stop such a tremendous force. </p><p> …However, he knew better. </p><p> After a while, Master Jet sighed. </p><p> "Alright. It's time for us to go. Regroup with your cohorts and proceed to your assigned ships. You know what to do if the convoy encounters a disaster on the way. Try your best to survive. Should the flagship go down and I with it, follow the chain of command. Vandal is going to assume leadership over the company in my absence." </p><p> Master Randall glanced darkly at her and grimaced. </p><p> "Hopefully, I won't need to." </p><p> Even though the convoy was going to be guided by the emissaries of the House of Night, it was not a given that all ships would reach Antarctica. Naval navigation was always dangerous, and most of the Awakened and Ascended of the First Army were all but useless in aquatic combat. </p><p> Including Sunny. </p><p> Glancing at his colleagues one last time, he stepped through the shadows and appeared near a crowded dock. It was not hard to find the members of his cohort, since most people gave them a bit of space out of respect. </p><p> Walking up to them, he put on a confident mask and asked in a relaxed tone: </p><p> "Are you ready?" </p><p> Everyone nodded… except for Luster, who suddenly seemed concerned. </p><p> "Uh… actually, I've never been on a ship. I won't get seasick, right?" </p><p> Sunny stared at him for a few moments, then shrugged. </p><p> "You are an Awakened, are you not? Awakened are supposed to be resilient to such things. So… we'll see, I guess." </p><p> Luster's face dropped. He lingered for a few moments and sighed. </p><p> "...Somehow, I feel like you don't like me very much, captain." </p><p> Sunny did not respond. However, Belle suddenly patted the young man on the shoulder. </p><p> "Well, I, for one, am very happy that you're with us." </p><p> Luster beamed. </p><p> "Really?" </p><p> The swordsman gave him a friendly smile and nodded. </p><p> "Sure. People like you are very valuable to have around. I mean, one look at you, and it's clear that you are going to die first. Which, therefore, means that it won't be me. I feel better already!" </p><p> The young man glowered at him and scoffed. </p><p> "Don't joke like that. It's not funny." </p><p> Belle blinked a couple of times. </p><p> "...I wasn't joking." </p><p> Meanwhile, Sunny shook his head and turned away to hide a smile. </p><p> "Enough talking! Let's go." </p><p> Together, they entered the long pier and moved toward the distant ship. The mass of people parted to let them through and then closed behind them like water. It felt a little surreal. </p><p> Soon, the solid steel mass of the battleship obscured the sky. Feeling its thick shadow embrace him, Sunny suddenly felt a little calmer. </p><p> He glanced at the grey waves below, sighed, and stepped on the wide linkspan connecting the pier to the massive vessel. </p><p> A few seconds later, the dark maw of the cargo hold swallowed him and his people. </p><p> *** </p><p> Once aboard the ship, the cohort split to perform several tasks. Kim, Luster, and Samara went to check on the supplies allocated to the cohort, including the modified Rhino which had already been stored in a special cradle in one of the lesser cargo holds of the giant vessel for some time. Since they had had no access to it prior to today, there was a multitude of checks and diagnostics they had to run. </p><p> Belle, Dorn, and Quentin followed one of the ship's logistical officers to secure the living quarters for the cohort and get the lay of the land, while Sunny wandered off to the upper deck. </p><p> There, he walked close to the edge and leaned on the tall handrail, looking down at the distant surface of the water. Images of the Forgotten Shore and the dark sea rose from the depths of his memory, making him shiver. DisCover 𝒖pdated novels on n(o)v/elbin(.)co𝒎</p><p> As Sunny waited for the fleet to depart, his shadows explored the battleship. Even if he would not be too useful should a swarm of Nightmare Creatures or some colossal horror of the depths attack the convoy once in transit, he was still determined to memorize every nook and cranny of this giant steel coffin… just in case. </p><p> The prospect of handing his life into the hands of strangers did not appeal to Sunny, to say the least, but he did not have a lot of choice. For the next two to three weeks, the crew of the battleship and the Nightwalkers in charge of the convoy were going to decide whether all of them lived or died. </p><p> 'Curses…' </p><p> Sunny was suddenly very unhappy with the fact that he did not acquire any powerful swimming-related Memories. Even if they could only give him an illusion of being safe, it would have been still better than nothing. </p><p> 'Maybe I should make it a priority once we reach Antarctica. I doubt that this is the last time I have to traverse vast amounts of water. Come to think of it… isn't it strange that I, of all people, have neglected seafaring so much? After spending so much time trying to escape the dark sea, even a complete fool would have learned to respect water…' </p><p> But maybe that was the reason. On the Forgotten Shore, Sunny had grown very accustomed to equating depths to death. He had never considered the sea as anything else because of that. </p><p> Slowly, the last stragglers of the First Evacuation Army boarded the metal leviathans. The gates of the cargo holds were closed, the hatches were fastened. Massive chains rattled as the anchors were raised. </p><p> The whole battleship beneath him vibrated as its mighty reactors came to life. Slowly at first, then faster and faster, the convoy started to move. Forty mountains of alloy and steel sailed forward, their bows cutting the waves like giant blades. Thousands of people moved in their metal bellies, breathing life into the iron beasts. </p><p> Sunny looked as the port fortress slowly grew smaller and smaller. Soon, the shore became veiled in a murky haze. </p><p> The First Evacuation Army had left the Northern Quadrant.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_829.html">Previous Chapter</a><a class="navigationButton next" href="chapter_831.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

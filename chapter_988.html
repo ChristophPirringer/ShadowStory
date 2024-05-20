@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 988</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 988 The Fall Of Falcon Scott 6</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> ...And it still raged on by the time Sunny and his cohort were done with their shift. Or maybe it was already another assault - by now, it was often hard to tell where one attack ended and a second one began. </p><p> Descending from the wall, the Irregulars passed through the busy camp below. Lumbering loaders were racing to send heavy ammunition containers up, wounded soldiers were being triaged and tended to, fresh reinforcements were waiting their turn to enter the elevators. Here and there, a damaged MWP stood, being hastily repaired by a crew of technicians. </p><p> Leaving the staging area, they soon reached the Rhino. The mighty vehicle was not in the best shape, but it could still be used to get around the city. Plus, while the members of the cohort had decided to bunk in comfortable barracks, Sunny chose to remain in the familiar APC. He had even learned how to drive it... well, more or less... from Luster. </p><p> "Are you coming with us, Captain? Oh... sorry... Major." </p><p> Kim looked away awkwardly after asking the question. Sunny simply shook his head. </p><p> "Not today. I have a couple of errands to run, so just take the Rhino to the barracks and then park it in the usual spot. Oh... and rest well. Tomorrow is going to be a long day." </p><p> Although the cohort had ended up not doing much today, everyone was still tired. They quickly drove off, leaving Sunny alone. </p><p> ...Day four of their stay in Falcon Scott was coming to an end. </p><p> Circulating his essence to fasten its replenishment rate, Sunny walked for a few minutes, breathing in the cold air as the hum of distant explosions washed over him. Then, he jumped on the step of a moving transport and allowed it to carry him closer to his destination. </p><p> The vistas of a city at war floated past him, too many refugees crammed into too few buildings. Everyone was doing their best to create some sort of passable environment for themselves and their neighbors... but there were a lot of problems, too. Visit nov3lb!n(.)c𝒐m for new 𝒏ov𝒆l𝒔</p><p> Most of these people were shaken and traumatized, some very close to breaking down. There were a lot of conflicts and violent outbursts, and even more dark feelings. </p><p> ...There were a lot of Nightmare Creatures being born from the bodies of failed Aspirants, as well, since the Spell ran rampant among the refugees and there were not nearly enough soldiers to find all the infected before the worst happened. </p><p> A suffocating atmosphere of fear, tension, and sorrow permeated the air. </p><p> And yet, people lived on. Their resilience and adaptability triumphed over everything, allowing them to endure and even find moments of happiness in this hell. </p><p> Sunny saw plenty of smiles, heard plenty of laughter, and witnessed many small details of how the refugees were handling their changed conditions while looking forward to being evacuated. </p><p> 'They still have hope...' </p><p> Eventually, he jumped down and walked the rest of the way on foot, reaching a section of the staging area where large white warehouses stood in several rows, surrounded by a mass of activity. </p><p> That was where scavenged materials were being processed and refined for the use of the First Army. </p><p> A tired-looking engineer met him at the gate. </p><p> "Major Sunless?" </p><p> Sunny nodded and allowed the man to lead him toward a particular row of warehouses. </p><p> "Yeah, we received your request. The approval came fast enough, so as long as you have enough contribution points, you can cut a good chunk for yourself. Not that I know what you need it for... usually, it's the mundanes we arm with processed material that dream of wielding Memories, not the other way around..." </p><p> Sunny smiled. </p><p> The warehouses were full of Nightmare Creature carcasses - those valuable enough to be retrieved from the battlefield and processed by the army. </p><p> The corpse of the Remnant of the Jade Queen - the Corrupted Tyrant he and Sky Tide had killed - had been placed here once, for example. The incredibly durable jade carapace of the monstrous beetle was then refined and used to reinforce a section of the wall. </p><p> Most of the processed material was instantly used to strengthen the fortifications of the city or the First Army itself. There were all kinds of things that could be done with various parts of Nightmare Creatures, from crafting melee weapons and upgrading the armored shells of MWPs to powering exotic spelltech mechanisms. </p><p> That was why Sunny had to push his weight around, bargain a little, and spend a bunch of contribution points to receive a modest quota. </p><p> Studying the warehouses, he asked: </p><p> "There was a Corrupted Devil yesterday that managed to breach the wall. Where is it kept?" </p><p> The engineer stared at him for a few moments.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_987.html">Previous Chapter</a><a class="navigationButton next" href="chapter_989.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

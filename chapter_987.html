@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 987</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 987 The Fall Of Falcon Scott 5</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny was sitting on the battlement of the defensive wall, looking at the apocalyptic sight of a giant horde of Nightmare Creatures advancing on the city. There were so many of them that it seemed as though the ground itself was moving, flowing forward as it seethed and churned. </p><p> The darkness surrounding the city was chased away by dozens of flare rockets, which slowly drifted down from the black sky like bright falling stars. On the ground, rivers of flame were devouring the carcasses of the abominations that had been slain in the previous assaults. The incendiary mixture burned long and hot, but luckily enough, the stench of scorched flesh could hardly reach the top of the wall. </p><p> Pillars of smoke rose into the sky, twisting as they struggled to support its weight. And above it all, obscured by dark clouds, ghostly lights of the aurora swirled with shades of crimson. </p><p> The battle was about to begin. </p><p> As the advancing sea of Nightmare Creatures crossed an invisible line, the powerful mass drivers installed on the bastions of Falcon Scott came to life, flashing with electric light as they sent heavy tungsten rounds flying forward with terrifying speed. The rail gun fire was accompanied by deafening thunderclaps, making the whole wall shake and vibrate. </p><p> Even though the tungsten rounds were not explosive, they impacted the horde with enough force to produce flashes of light and a devastating shockwaves that pulverized dozens of Nightmare Creatures and cut bloody swathes through their mass. </p><p> The horde, however, continued forward unperturbed. A moment later, the breaches created by the first salvo of the rail guns were entirely gone, and the abominations rushed forward with murderous frenzy. </p><p> As the mass drivers accumulated new charges, the heavy- caliber turrets placed along the wall joined the fray. Long tongues of fire bloomed from their barrels, and thousands upon thousands of bullets filled the air. The shining streams of them twisted as they slid across the horde, decimating countless creatures. The noise of the turret barrage was dire and cacophonous. </p><p> Sunny winced unhappily. </p><p> War was a lot of things, but mostly it was... loud. </p><p> He glanced at the seventy-meter drop below him, then concentrated on his hands again. His fingers were spread apart and moving, as if performing an elaborate dance. From the side, it looked as if Sunny had either gone crazy or was trying to cast some strange hex. </p><p> Of course, he was doing neither. Instead, he was weaving shadow strings - it was just that the slowly forming threads of essence were only visible to him. </p><p> Luckily, the members of his cohort were long accustomed to their leader's eccentric antics, so they were not paying it any attention. Instead, all six were tensely observing the approaching horde. </p><p> Once the hundreds of MWPs stationed on top of the wall braced themselves and opened fire, Samara placed the barrel of her rifle on the battlement and leaned into the scope. Before she could charge a shot, however, Sunny placed his hand on her shoulder and shook his head. </p><p> ...His third hand, that was, since he was currently using four two of them made of flesh, two of them made of shadows. Samara glanced at him with a slight frown. </p><p> "Sir? Why not?" </p><p> Sunny continued to weave shadow strings as he answered: </p><p> "There's no need. The garrison has the situation under control, for now, so don't get involved unless the Nightmare Creatures scale the wall. Conserve your essence." </p><p> He lingered for a moment, then added: </p><p> "According to the latest reports, the Devouring Cloud is only one day away from reaching Falcon Scott. We are going to need all our strength tomorrow." </p><p> The Irregulars shifted uncomfortably, remembering their last brush with the flying swarm. Sunny, meanwhile, disregarded his own advice and turned his attention back to the invisible threads of essence. </p><p> The battle progressed more or less as he expected. The horde advanced despite suffering heavy losses, and not long after the MWPs unleashed a hail of rounds and missiles into the mass of abominations, the mundane soldiers joined, followed by Awakened sorcerers and archers. </p><p> The siege was a strange one, considering that most of the defensive measures of the city were only able to deal with Dormant and Awakened Nightmare Creatures. To slay the Fallen ones, Awakened fighters had to abandon the safety of the battlements and sortie out, emerging either from heavily armored hatches in the wall or from hidden tunnels stretching beneath the killing field. </p><p> Those tunnels were also used to intercept those abominations that were capable of burrowing through the ground, and could be easily collapsed in case the enemy took control of one. </p><p> If a Corrupted Nightmare Creature appeared, the Masters were sent out to destroy it. </p><p> It all sounded well-planned and controlled, but the actual reality was pure chaos and mayhem. Abominations possessed all kinds of vile powers, so each assault was unpredictable and dangerous. Each victory took a lot of human lives to achieve. </p><p> Noticing a line of hatches open lower down the wall and a dozen swift figures jump out of them, Sunny sighed. He caught a glimpse of Dale's heavy armor, which meant that something truly dangerous had emerged. Army Command was strangely protective of the Irregulars, mostly keeping them in reserve for now. They were probably meant to do their part of the dying once the priority targets showed up. </p><p> Considering that Knight's cohort had been unleashed, though, the current battle must have been going less smoothly than he thought. </p><p> And indeed, not long after Dale eliminated his target and retreated, the horde broke through the protective barrage and reached the wall. It seemed that the abominations had learned to use the piles of corpses left behind by the previous assaults as cover. </p><p> The lowest part of the wall was also the most reinforced. All materials retrieved from the carcasses of well-armored Nightmare Creatures went into making it hard to breach, so the horde stalled at the bottom for a while, suffering under a flood of bullets and explosive projectiles. Get latest 𝒏ovel ch𝒂pters on n𝒐velbjn(.)c/𝒐m</p><p> Then, however, the abominations started to pile one on top of another, forming morbid ziggurats of bodies. The ziggurats grew, rising higher and higher as more Nightmare Creatures climbed the ladders made of writhing flesh. Ten meters, then twenty, then thirty... eventually, it became clear that there was a substantial risk that the horde would scale the wall. </p><p> With a sigh, Sunny paused his weaving and stood up, easily holding his balance on top of the battlement. A black bow appeared in his hand, and an arrow that seemed to be made of lightning ignited on its string. </p><p> 'They know how to build siege towers now?' </p><p> Drawing the bow, Sunny lingered for a moment, and then sent the Strike of Thunder flying down. </p><p> A moment later, the howls of the Nightmare Creatures tore through the clamor of the battle, and the Spell whispered into his ear like a sonorous choir. </p><p> The battle raged on...</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_986.html">Previous Chapter</a><a class="navigationButton next" href="chapter_988.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

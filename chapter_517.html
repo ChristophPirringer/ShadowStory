@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 517</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 517 Baiting The Monster</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<p> Suddenly, the whole of the valley seemed to be moving. The ground shook and seethed, and slowly, green and brown vines started rising from beneath it like vile snakes. </p><p> The hulking Sailor Dolls that were about to descend upon the Fire Keepers froze, as if consumed by fear. Then, they turned around and stumbled away. Some simply crumbled into piles of debris, pretending to be dead. </p><p> Even these Fallen Beasts were terrified of the being that dwelled in the heart of the ancient wreck. </p><p> Cassie and her cohort, however, remained unperturbed. Moving with swift determination, they made their preparations. Just a moment after the blind oracle thrust her rapier into the ground, the Fire Keepers had strips of cloth wrapped around their mouths and noses. The corpses of the slain Sailor Dolls were dragged to form a circle around them and set aflame. </p><p> Soon, the cohort was surrounded by a ring of tall bonfires, the eight Awakened bathed in the waves of heat. They stood back to back, their weapons drawn and their faces full of grim resolve. Only Shakti was on one knee, her hand pressed to the ground. After a moment, she screamed something. </p><p> …Sunny was still observing from the shadows, his emotions in turmoil. Although he would no go so far as to call these young people friends, he had grown somewhat attached to them after going through the ordeal of the civil war in the Bright Castle and traveling together. These Fire Keepers were a likable sort. </p><p> He didn't want to watch them die while doing nothing. </p><p> But that was his role in this fight… he had to remain safely hidden until the Corrupted Monster's attention was fully concentrated on Cassie's cohort, and then deliver one decisive strike, ending it all. </p><p> That time had not come yet. </p><p> Consumed by dark discontent, Sunny continued to watch. </p><p> Reacting to Shakti's scream, one of the Fire Keepers suddenly dashed to the side. A fraction of a second later, the moss beneath his feet was pierced by a stem of a brown vine. It thrashed blindly, failing to catch anyone in its deadly embrace, but then seemed to have sensed the presence of life, and shot toward the nearest human. </p><p> The vine was as thick as a man's arm, and there were black thorns protruding from its glistening surface. </p><p> One of the Fire Keepers sliced at it with her sword, but the sharp blade just bounced off of the vine without leaving even a scratch on its surface. Two others simply fell on it, pressing the thing down with their shields. That gave enough time for the young man whose Aspect allowed him to enhance his weapon-type Memories to bring his glowing axe down, severing the vine. </p><p> As soon as he did, a cloud of poisonous mist shot out from the cut, enveloping the young man. Luckily, he knew to hold his breath and immediately jumped back. Cassie, who had sheathed her rapier and was now holding a familiar wooden staff, pointed it forward and summoned the wind. The cloud of poison was blown toward the bonfires and devoured by flame. </p><p> '...That axe is an Ascended Memory.' </p><p> Indeed, it was. In fact, all of the Fire Keepers seemed to be equipped rather well, and several of them wielded weapons above their Rank. </p><p> Quiet Dancer was also not the only Echo in their possession. Just as another vine appeared from the flames, its stem singed and damaged, a familiar shape suddenly weaved itself from sparks of light just beyond the ring of bonfires and pounced on it. It was a creature that looked like a giant praying mantis, its flesh composed of glass and bloodred clay.</p><p> Sunny remembered seeing these creatures during the siege of the Crimson Spire. </p><p> Two scythes came down on the vine, and bit deep into it. A moment later, the mantis dashed away with incredible speed, avoiding being entangled and shredded to pieces by the jagged black thorns. </p><p> Despite this efficient start, more and more vines were crawling toward the circle of fire, and several more appeared from beneath the ground inside it. With each moment that passed, the size of the vines attacking the Fire Keepers was bound to increase, too. The further from the wreck, the thinner and weaker the vines were. Ch𝒆ck for 𝒏ew st𝒐ries on novelbin(.)c0m</p><p> But closer to the ancient ship, truly monstrous ones were already in motion, spreading outward with murderous intent. It was as though the monster was slowly unfurling its long limbs… which both spelled doom for the cohort of Awakened and was their intent. </p><p> Only when the primary vines were too far away from the main body of the creature to return at once could Sunny make his move. After that, he was either going to succeed and end the whole battle, preventing the Fire Keepers from perishing in the flood of vines… or they were all going to die together. </p><p> That moment of truth was swiftly approaching. </p><p> Faced with more and more vines, Cassie and her cohort did their best to resist. They cut apart those that were damaged by the fire enough for their weapons to become effective, and concentrated the efforts of several members on those which did not. But no matter how hard they fought, soon, the scales started to tilt in the favor of the Corrupted Monster. </p><p> Their formation was on the verge of being broken, and their actions, perfectly coordinated at first, were slowly turning desperate and hectic. Despite its terrifying speed, the Echo of the bloodred mantis was finally caught by the vines. </p><p> Its glass body was immediately shredded, and the creature was only saved from being completely destroyed by the swift reaction of its master, who dismissed it just in time. </p><p> …That was the moment when the primary vines finally reached the ring of bonfires. </p><p> Sunny threw one last glance at the desperately fighting Fire Keepers. His gaze lingered on Cassie, who wielded her long dagger at the head of the cohort, for a few moments. </p><p> Then, he turned away and stepped through the shadows. </p><p> A second later, Sunny emerged from the gloomy shadow on the hull of the ancient ship, far away from the mayhem of battle… </p><p> And very close to the terrifying creature that was the source of all that horror. </p><p> Summoning the Cruel Sight, Sunny held his breath, and jumped into the darkness nesting in a jagged breach in the hull. </p><p> It was time for him to play his role.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_516.html">Previous Chapter</a><a class="navigationButton next" href="chapter_518.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

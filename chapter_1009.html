@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1009</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1009 The Fall Of Falcon Scott 27</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1009 The Fall of Falcon Scott (27)</h4> <p> As Sunny watched, the Tyrant tore apart several more abominations, devouring their flesh with its three enormous maws. This creature... it was on par with the Lord of the Dead that Sunny had faced in the catacombs below the Dark City. </p><p> Back then, he was merely a Sleeper. Now, he was an Ascended himself, and an abnormally powerful one at that. His loyal Shadows were indisposed, but he was accompanied by Dale instead. </p><p> There was no reason for this fight to be too hard... </p><p> However, they had a big problem. </p><p> The more Nightmare Creatures the Tyrant killed and devoured, the more invigorated it seemed. The ghastly injuries on its wings were already healing, and very soon, the monstrosity would be able to take flight again. </p><p> Sunny could not allow that to happen. </p><p> Glancing at Dale with a grave expression, he said: </p><p> "It's now or never." </p><p> Above them, a swarm of brood beasts separated from the dark mass of the Devouring Cloud, rushing down to protect their ruler. </p><p> Dale nodded and silently lunged forward, closing in on the Tyrant to trap the monstrosity — and the two of them with it — inside a barrier of shimmering energy. Sunny followed, cutting down several abominations that had tried to bar their passage. </p><p> However, the towering monstrosity seemed to have sensed the advancing threat, or maybe grew tired of the relentless attacks by the other Nightmare Creatures. It suddenly jumped, soaring high into the air, its broken wings raising a powerful gale. All 𝒍𝒂test nov𝒆l𝒔 on novelb𝒊n(.)c𝒐m</p><p> The Tyrant had not managed to stay in the air for long, at least not yet, but it succeeded in creating some distance between itself and the pursuers. Then, moving with stunning speed, it turned in the direction of the port fortress... and ran. </p><p> Sunny's eyes narrowed. </p><p> 'Damnation!' </p><p> It only took him a split second to make a decision and shout: </p><p> "I'll slow it down! Catch up as fast as you can and set up the barrier!" </p><p> With that, he left Dale behind and turned into a swift shadow. Flying with terrible speed across the stone beach, Sunny pursued the Tyrant. The monstrosity barreled forward like a speeding train, its six legs turning countless stones into rubble and dust. Its wings were healing more and more... </p><p> Close enough from the port fortress to be seen from its walls, Sunny finally overtook the monstrosity and jumped out of the shadow right in front of it. The Sin of Solace flashed, cutting one of the creature's limbs, and it toppled heavily to the ground. He barely managed to dodge the massive body, but in the next moment, the Tyrant's stinger was already shooting through the air, aimed at his heart. </p><p> 'Ah...' </p><p> Sunny blocked the terrifying spiky spike with the flat of the jade jian, at the same time turning his body as heavy as he could. The impact pushed him back, his feet leaving two grooves in the stones. The monstrosity struggled to stand up, but a dozen jet-black hands rose from the ground, grabbing and pressing it down. </p><p> Three long necks of the Tyrant twisted like snakes. Two maws bit into the shadow hands, tearing them apart, while the third flew toward Sunny. Staring at the repulsive fleshy circle full of razor-sharp fangs, he shuddered and realized that the thing could swallow him whole. </p><p> Sunny shifted his weight and dashed aside, narrowly dodging the maw, then lashed out with the Sin of Solace. As a bloody wound appeared on the abomination's neck, a ear-splitting wail slammed into him like a hammer. </p><p> The shadows he had manifested were all but gone, and the Tyrant was nowhere near being immobilized. Sunny could waste more essence creating shadow implements... maybe even encase the monstrosity and himself in a large dome... but what he really needed to do was damage its wings. </p><p> Sadly, the monstrosity was fiercely determined to protect them. As shortly as Sunny tried to get closer to the abomination's wings, its stinger, three maws, and five remaining legs all came after him. He scrambled to dodge the hurricane of attacks, dancing between them like a demented acrobat. Shards of stone and wet sand rose like a cloud into the air. </p><p> 'Curse you...' </p><p> The Tyrant's movements were growing more frenzied and chaotic. Its mind was being assaulted by the [Sinister Whisper] of the cursed sword — the effect of the charm was going to persist, too, driving the monstrosity utterly mad. </p><p> ...Funnily enough, the same erratic behavior seemed to be repeating in the skies above them, where a large portion of the Devouring Swarm seemed to have lost a lot of its unnatural cohesion. </p><p> They would only cease to be a threat to the city once both Tyrants were dead, though. </p><p> The massive abomination understood that there was something strange going on with its mind, as well. It tried to disengage and lowered itself to the ground, as if preparing to jump again... only this time its wings might have been healed enough to allow the Tyrant to fly. </p><p> 'No!' </p><p> Before it could escape, however, a dome of shimmering energy suddenly appeared around them. The Tyrant jumped, slammed into the roof of the dome, and plummeted back down. </p><p> Heavily armored figure of Dale slammed into its body, a flanged mace falling down to crush another of the creature's legs. </p><p> The three of them were now locked inside the barrier. The Tyrant would not be able to escape anymore... </p><p> However, the dome of energy was not particularly large. It barely encompassed the enormous body of the winged monstrosity and a few meters of the stone shore around it, leaving Sunny and Dale no room to maneuver. </p><p> It was like being locked in a tiny cage with a very angry, starving tiger. </p><p> If the tiger was the size of a small building, had three heads, and possessed the tail of a scorpion. </p><p> And had also been driven into rabid insanity by a whispering jade sword. </p><p> 'Crap...' </p><p> The Tyrant wailed again, its screeching voice full of madness and fury. </p><p> Then, it rose from the ground, and all hell broke loose.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1008.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1010.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

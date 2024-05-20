@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1262</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1262 A Shrimp Between Two Whales</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<h4>Chapter 1262 A Shrimp Between Two Whales</h4> <p> Sunny described what was happening in a hushed voice. He didn't really need to whisper, considering that they were surrounded by a dome of silence, but it made him feel better. </p><p> And what was happening... appeared pretty clear. </p><p> The monstrous butterfly had been attracted by the smell of blood and arrived to feast on the corpse of the Black Turtle that the Azure Serpent had so laboriously killed. The Azure Serpent, meanwhile, was having none of it. </p><p> In fact, judging by the madness burning in its eyes, the Great Beast was overcome with the bloody desire to rip the giant butterfly apart as well. </p><p> 'This thing... really doesn't know what's good for it, huh?' </p><p> What was the reason for the Azure Serpent's reckless insolence? </p><p> Humans often described Nightmare Creatures as mad, but that description was not entirely accurate. The abominations were indeed insane, but that did not mean that they lacked sanity. Rather, it meant that their sanity was perverted, sinister, ineffable, and entirely different from what humans deemed sane. </p><p> So why would the Great Beast risk its life fighting much more powerful Monsters? </p><p> Was it indeed madness? Was it pride? Was it reluctance to give up such an enormous prize? </p><p> ...Or was it more reluctant to surrender two human souls that burned the flames of divinity to the stronger abomination? </p><p> Whatever the reason was, the stubborn leviathan seemed ready to battle the monstrous butterfly to the death. </p><p> The butterfly let out an indescribable sound. The waters of the Great River suddenly grew restless, rippling as they were assaulted by the powerful sonic waves. The serpent roared again, rising higher above the river's tumultuous surface. </p><p> "I think they are going to fight." </p><p> Sunny was not sure what it meant for the two of them. He was belatedly happy about his decision to abandon the skies and seek shelter on the shell of the Black Turtle... if something like that butterfly had caught him in the air, he would have surely been dead in an instant. </p><p> However, now that Nephis and he were trapped on the dark island, their fates seemed to be swaying on the edge of a perilous abyss. They were deeply unsure of their ability to slay a Great Beast... but a Great Monster was far more dreadful. </p><p> They were only alive now because the Azure Serpent either lacked the ability or was reluctant to crawl out of the water. If the abominable butterfly won the battle, though, nothing was going to stop it from doing just that. Then, their shelter would turn into a deadly trap. </p><p> So, no matter how strange it sounded, Sunny had no choice but to root for the familiar Great Beast that had been staring at them hungrily for many days, wishing to swallow them whole. </p><p> The Azure Serpent had already killed one Great Monster... maybe the mad snake would be able to pull off another miracle. </p><p> Finally coming to a decision, the butterfly waved its wings and plummeted down, landing on the shell of the Black Turtle a moment later. The entire island shook from the devastating force of the impact. </p><p> The creepy shadow remained motionless as it looked up at the six incredibly thin and long legs of the monster. The pale body of the butterfly was high above the ground, and its wings were open, covering a vast area in deep darkness. Now that it was closer, Sunny could see that it was covered in thick scales, with white hairs growing between them. </p><p> There was a complicated pattern on the creature's wings, as well, coalescing into a strange image... an image... and image of... </p><p> Sunny hurriedly commanded the shadow to look away as a strange certainty that he should never, ever try to look directly at the pattern covering the butterfly's wings flooded his mind. </p><p> 'D-damnation...' Visjt n𝒐velbin(.)c𝒐m for new updates</p><p> "Sunny? What is happening?" </p><p> He sucked in a shaky breath. </p><p> "They're just... staring at each other..." </p><p> The butterfly shifted slightly, the sharp tips of its chitinous legs striking sparks from the black rock. Its trunk-like mouth slowly unfurled, turning into a fearsome black spear dozens of meters long. </p><p> The abomination let out another harrowing screech, then suddenly struck the surface of the dead turtle's shell with its beak. One, two, three times... the island quaked, but not even a thin crack appeared on the rock. The butterfly froze for a moment, then twisted its head, looking at the Azure Serpent. </p><p> It seemed reluctant to go into the water. </p><p> 'Well... of course. One is a flying abomination, and the other is a sea creature. The butterfly has to go into the water if it wants to gorge on the Black Turtle's meat, but that would mean fighting the Azure Serpent... and on the enemy's home ground, no less.' </p><p> Maybe... maybe it would simply retreat. </p><p> Just as Sunny thought that, the butterfly suddenly folded its wings and lunged forward. </p><p> There was no hesitation, no warning. Just a deafening sonic boom and a harrowing black and white blur that suddenly shot toward the serpent like a gigantic javelin. </p><p> A hurricane gale rose from the confounding fury of the Great Monster's lunge. </p><p> "It's attacking!" </p><p> A split second later, an enormous pillar of foaming crimson water rose into the sky. The serpent seemed to have managed to avoid the abominable butterfly's obliterating charge. However, its sharp legs tore at the sea creature's azure body. </p><p> "They're fighting." </p><p> Nephis remained silent for a few moments, then gave him a strange look. </p><p> "Sunny... where are they fighting, in relation to our position?" </p><p> He stared at her in confusion, then said: </p><p> "Below water, to the left of the turtle's tail." </p><p> She lingered a bit, then took a deep breath. </p><p> "Then, they're on the opposite side from the turtle's head. Where the entry wound is. So... while the serpent is preoccupied... shall we dive down and harvest some meat?" </p><p> He opened his mouth, startled. </p><p> Then, he slowly closed it again. </p><p> "Dive down? Harvest meat? Are you... are you crazy?!" </p><p> 'Damn... I said it again!' </p><p> Nephis looked at him very seriously and shook her head. </p><p> "No, I'm not crazy. I'm... hungry."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1261.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1263.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

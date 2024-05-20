@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 708</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 708 Crimson Beast Of Twilight</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The colossus staggered back, swayed, and then moved his foot to balance himself. The island quaked once more, and the giant grew still, bent slightly and grasping the gaping wound with his one remaining hand. His head turned, staring at Noctis with the same empty, unmoving expression. </p><p> However, his polished steel eyes, which had been burning with the blinding reflections of the sun, became submerged in deep shadow. </p><p> For a moment, there was silence. </p><p> Sunny gritted his teeth, then slowly exhaled and raised a hand to wipe the sweat off his brow. </p><p> …After the initial panic of being sold out by Noctis, he had forced himself to calm down and think. It was then that Sunny had realized that they were not in real danger, and told his friends to stand down. </p><p> The immortal sorcerer was many things, including a liar and a cheat. Sunny did not doubt that Noctis had lied to him on many occasions, and about many things — sometimes for a specific purpose, and sometimes simply for the fun of it. However, one thing that Noctis was not… was a fool. </p><p> Sunny could imagine many situations in which the immortal would betray and damn him to death, but not without a good reason. And surrendering the cohort to Sun Prince was the opposite of what Noctis wanted to achieve — at best, it would have bought him some time, at the expense of losing the three knives to the other Chain Lords. </p><p> One thing that Sunny did not doubt was the sincerity of the sorcerer's desire to free Hope. And so, he had understood that the immortal's sudden betrayal was just another deception. Ne/w novel chapt𝒆rs are published on no/vel(/bin(.)co/m</p><p> It had not been hard to guess what the purpose of the deception was, as well. After all, Sunny had already guessed the fateful meeting between rebellious Noctis and the herald of the Chain Lords was going to end, and how the Iron Hand island would get its name. </p><p> Sun Prince had walked right into the sorcerer's trap, and Sunny… Sunny had been used as bait. </p><p> Not for the first time, and probably not for the last... </p><p> So, he wasn't very shocked by the sight of the giant's missing arm and of the streams of molten steel that flowed out of it, slowly cooling on the broken stones… or at least he wasn't supposed to be. </p><p> In reality, the scene in front of him was so striking, so tremendous that it was simply impossible to remain untouched by the vast and poignant scale of it. </p><p> Still… </p><p> He turned to Noctis, remained silent for a moment, and then let out a low growl: </p><p> "...You could have warned me, you know?" </p><p> The sorcerer looked at him with sincere confusion. Then, he smiled and said: </p><p> "But... but what if I changed my mind at the last moment? Then, warning you would have made me a liar! I have a reputation to uphold, don't I?" </p><p> With that Noctis winked at him, then turned to face the motionless colossus. </p><p> As Sunny stared at him darkly, the smile slowly disappeared from the sorcerer's face, making way for something cold and frightening. His grey eyes shone with distant moonlight. And in that moonlight, there was… </p><p> Madness. </p><p> Taking a step forward, Noctis suddenly appeared to be taller than he had been, his previously contained presence spreading over the world like a flood. Sunny shivered, feeling… feeling like prey being stalked by a hungry predator. </p><p> The air suddenly seemed to smell of blood, the light of the sun appeared slightly dimmer, and in the echoing silence, they could almost hear the howls of countless beasts. </p><p> Even though Sunny knew and somewhat trusted Noctis, he suddenly felt scared. </p><p> …And he wasn't even the focus of the immortal's furious gaze. Instead, it was aimed at the hunched colossus. </p><p> The sorcerer grinned, revealing his canines, and spoke, his clear voice flowing across the island like a river of blood: </p><p> "Surrender the knives? Ah, I don't think so, my old friend… if I do, how will I kill you and your vile brother?" </p><p> He laughed, and then took another step forward, raising his hand. A toppled pillar than blocked his path exploded into a rain of shards and stone dust, obliterated in a split second. </p><p> "...And that is what I intend to do. You, Sevras, Solvane… I'll kill you all, break the chains that bind the Demon of Desire, and set her free." </p><p> Noctis took another step and then stopped, staring at Sun Prince with ruthless determination. </p><p> "So, if you want to take the knives, you'll have to take them off my cold corpse. Oh, wait… you can't. I am immortal." </p><p> He threw his head back and laughed again. This time, the sorcerer's laughter did not seem carefree and infectious… instead, it was chilling and full of madness. </p><p> The steel colossus looked at him from above, unmoving. His face was motionless and unexpressive, like that of a statue. However… it seemed as though the shadows veiling his eyes grew even deeper. </p><p> Noctis shook his head, and then said with disdain: </p><p> "Oh, but you can try, of course. Go back… go back and return with the Sun Legion, with the Dragon Sevirax, with the Warriors of the Red Colosseum, with Solvane. You know where to find me… and I'll be waiting to welcome you." </p><p> The giant continued to stare at him for a while, the molten steel flowing between his fingers. Sunny held his breath, not knowing what was going to happen next. </p><p> …Then, Sun Prince straightened, turned around, and walked away, making the island shake with each step. </p><p> He reached the edge of it, stepped down on the heavenly chain, and continued walking, somehow keeping perfect balance. The chain was colossal in its own right, and yet, the giant made it seem like a thin rope being traversed by a rope-walker. </p><p> Soon, he reached the neighboring island, climbed on it, and disappeared from sight. Only the rattling of chains and the tremors running through the ground from time to time reminded them of his visit. </p><p> …Well, that, and the giant hand laying not too far away from them. </p><p> Sunny studied it for a while, then walked over to Noctis and asked, his voice low and cautious: </p><p> "Not to complain… but why let him go? Wouldn't it be easier to kill him right here and now? We won't get another chance to catch him alone, most likely. And judging by how easily you took his arm off…" </p><p> Noctis did not respond immediately. Instead, he slowly turned his head, looked at Sunny coldly… and then gracelessly fell on his butt, his face pale, his chest rising and falling wildly, and his breath hoarse and labored. </p><p> The sorcerer cursed, looking as if he was about to vomit. </p><p> "...Easily? Are you insane? I am at my weakest during the day, remember! And that strike… gods… I spent several centuries infusing this shrine with moonlight. Do you think there's another one just laying around nearby?! Just… just be happy he believed my bluff. Otherwise… things might have turned really ugly really fast for us…" </p><p> Sunny stared at the sorcerer with wide eyes for several long moments, then shook his head and sighed. </p><p> "Lunatic... you damned lunatic… by the Moon, I take it back! You are a fool..."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_707.html">Previous Chapter</a><a class="navigationButton next" href="chapter_709.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

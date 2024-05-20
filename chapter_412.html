@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 412</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 412 Perfect Adversary</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 412 Perfect Adversary</p><p>'Well… one mystery is solved, at least.'</p><p>Sunny became painfully aware of how the devil of the Reckoning was able to slaughter so many Awakened, and why no Nightmare Creature could survive on its island.</p><p>If the bastard was able to turn into a copy of any enemy while remaining as powerful as a Fallen Devil, then very few things could ever hope to escape from it alive.</p><p>And those Awakened who had escaped despite everything mistakenly believed that their companions fell to a creature that could mess with people's sight… what else would they think after watching a human being killed by what looked like their exact copy?</p><p>Well… why had no one thought that it was an actual copy and not a trick on the eye, damn it?!</p><p>If there was one thing that landed Sunny in this dire situation, it was that people in the Sanctuary severely lacked imagination!</p><p>…All these thoughts flashed through his mind as he used Shadow Step to disappear and fall awkwardly to the ground a dozen meters behind the devil, completely out of the way of the flying arrow.</p><p>'Great… but now what?'</p><p>Just a few moments before, Sunny had been contemplating abandoning the fight and simply running away. Unlike some humans he had met in the past, he wasn't burdened by useless things like pride or vanity. If the situation called for a cowardly escape, he was ready and willing to do just that.</p><p>But now that the bastard had turned into Saint and was holding a bow, the idea of trying to run was not very enticing. The last thing he wanted was to be hit in the back of his head by an arrow.</p><p>'Think, think…'</p><p>There was no time to think, though.</p><p>The reflection of Saint swiftly spun and lunged toward him. As Sunny teleported further away, the creature suddenly pivoted and crashed into the trunk of a tall, ancient tree.</p><p>A moment later, Sunny emerged from the shadows and saw, with horror, a giant mass of heavy wood plummeting on him from above.</p><p>Desperately burning through his essence, he filled his body with as much strength as possible and raised his hands, trying to catch the falling tree. As a groan escaped from his mouth, Sunny's feet dug into the soft soil of the Reckoning Island. Somehow, he managed to stop the tree without being crushed by it.</p><p>It was at this moment that a second arrow flashed toward his heart…</p><p>Only to collide with another one in the air and fly aside.</p><p>Some distance away, the real Saint dismissed the bow, raised her sword, and dashed toward the impostor.</p><p>'Eat that, bastard!'</p><p>Sunny gritted his teeth, strained his already overtaxed muscles, and threw the massive tree at the abomination with a tremendously powerful push. When he used his essence and augmented his body with both shadows, Sunny was able to achieve bursts of truly inhuman strength.</p><p>How was the bastard going to escape this?</p><p>The creature indifferently lowered its shoulder, then simply disappeared into the shadows and appeared on the other side of the flying trunk. Then, it met attacking Saint with a devastating shoulder bash.</p><p>The onyx armor of the taciturn demon cracked, and she was thrown back, causing another tree to explode into a cloud of splinters.</p><p>Sunny paled.</p><p>'S—shadow Step. Not good…'</p><p>The apparition turned to him and mockingly tilted its head.</p><p>Something… something was very wrong with that thing. It seemed maleficent and utterly mad, but at the same time… incomplete, somehow. Behind the evil will and terrifying killing intent that dwelled in its ruby eyes, there was a hint of some other, boundless emotion.</p><p>Sunny faintly recognized the feeling of it, since he had felt the same deep and indescribable emotion one time before.</p><p>Far below the Hollow Mountains, in the darkness of the misty stone labyrinth between to otherworldly rivers, he had sensed the same feeling of loss, anguish, and confusion in the shadows left behind the by companions of the First Lord of the Bright Castle.</p><p>'...What even is that thing?'</p><p>He had no time to ponder about its nature, though, because the creature had once again turned into a pale young man with dark eyes and was lunging at him, a vicious smile frozen on its lips.</p><p>Feeling a cold shiver running down his spine, Sunny realized that he would not win this fight. Nor was he capable of escaping from the Reckoning alive.</p><p>This time, he was truly in danger.</p><p>He was really going to die on this beautiful, peaceful island… and the last thing he was going to see before falling into the embrace of death would be his own reflection staring back at him through the eyes of his killer.</p><p>Unless…</p><p>Sunny sent Saint back into the Soul Sea and met the apparition's attack with a block, feeling his body shudder from the force of the blow.</p><p>He had assumed that the Devil of Reckoning was a shadow, and it was indeed similar to one… but, really, it was not. It only appeared as a shadow because Sunny himself had been in the form of a shadow when they first clashed. And once he had turned into a human, the devil, too, became a human.</p><p>The young man with the cold eyes of a killer took a small step and made a high thrust with the tachi. Sunny, however, knew his one fighting style too well to be caught by that trap. Knowing that the thrust was just a feint, he threw his own blade downward, and just barely managed to deflect a vicious slash that followed. He was late by a fraction of a second, though… another tear appeared in the fabric of the Puppeteer's Shroud, and a shallow wound on his thigh began sipping with blood.</p><p>The creature was more of a reflection than a shadow. It mirrored everything about its enemy. Their appearance, their weapons, their battle technique. Even their powers… otherwise, how would it be ble to use Shadow Step? In a sense, it was a perfect adversary. But that wasn't all…</p><p>Sunny grimaced as the apparition threw his sword away and delivered a powerful kick that almost turned all of his ribs into bone dust. If not for the burst of essence he had sent to his legs, Sunny would have never managed to dodge that devastating blow. But his essence was already running dry, and his enemy seemed to be even stronger now… as if the more Sunny bled, the more powerful the pale young man became.</p><p>The devil was even able to mirror the Memories its enemy wielded. Before, Sunny had experienced the soul attack of the copy of the Broken Oath. And now, the creature was obviously being fed raw power by the Blood Blossom…</p><p>He attacked with the Midnight Shard to by himself a couple of moments to think…</p><p>The apparition had not seemed to be affected by the Broken Oath, though. Was that because it had assumed the form of Saint, who was immune to soul attacks? Did this mean that the devil was able to copy not only powers and Memories, but Attributes, too?</p><p>The creature easily deflected Sunny's attack and leaned forward to deliver the final blow. Sunny's only hope to escape it was to jump back…</p><p>But what else did the creature copy? Was it really a perfect reflection?</p><p>There was only one way to find out.</p><p>Instead of jumping back, Sunny stepped forward and collided against the apparition, completely open, unable to escape being struck down by the enemy's blade.𝒩ew 𝒏ovels upd𝒂tes on nov𝒆lbi𝒏(.)com</p><p>Before the deadly strike came, however, he leaned close to the devil's ear and whispered, so softly that no one except for the two of the would ever be able to hear what he had said:</p><p>"Stop, Lost from Light."</p><p>And then, the devil froze, as if suddenly turned to stone.</p><p>Sunny smiled.</p><p>…It was a perfect reflection, indeed.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_411.html">Previous Chapter</a><a class="navigationButton next" href="chapter_413.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

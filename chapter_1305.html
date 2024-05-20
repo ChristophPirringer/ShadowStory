@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1305</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1305 House Of Parting</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1305 House of Parting</h4> <p> "This... is the House of Parting. It is the furthest point of Weave as one travels upstream." </p><p> Ananke's voice sounded uncharacteristically dispirited. </p><p> 'House of Parting...' </p><p> Sunny studied the artificial island and the solemn structure built upon it, then turned to the old woman and asked: </p><p> "It's... a windmill?" </p><p> She nodded. </p><p> "Yes, my Lord. The tower harvests the wind to maintain the island." </p><p> Ananke lingered for a second, and then added: </p><p> "The cities of the Great River are actually more akin to flotillas, each consisting of many city-ships - some small like this one, some spanning dozens of kilometers across. They migrate sometimes, but mostly they have to stay in place. There is nothing to anchor a ship to on the Great River, though." </p><p> Nephis raised an eyebrow. </p><p> "Is the Great River so deep that no anchor can reach its bottom?" </p><p> Ananke shook her head. </p><p> "It is not that the floor of the Great River is too deep, it's that it doesn't exist. No one has ever managed to reach it, at least... so, we had to find other ways." </p><p> She pointed to the rotating blades of the towering windmill. </p><p> "There are various ways to make a city-ship resist the current, from mundane ones to magical. The House of Parting... you can't see it from here, but there is a great water wheel at the back of the island, constantly propelling it forward at the same speed as the River pushes it back. Its mechanism is mostly powered by the current itself, but the windmill lightens the burden significantly." </p><p> She sighed. </p><p> "The island's mechanism is on the brink of collapse, now... I've tried to repair it as well as I could, but my knowledge is insufficient to keep an entire city from breaking apart. There's little point to, anyway." </p><p> Sunny and Nephis looked at the dark windmill, feeling a sense of awe. The island in front of them was actually the creation of incredible human ingenuity - a floating city district that used the wind and the power of the Great River itself to fight against the currents of time. </p><p> Even now that the people of Weave were gone, it was still pushing forward, refusing to become a thing of the past. </p><p> The ketch approached the island in solemn silence. As it drew close, Ananke released the wind filling the sails, skillfully guided the boat to the pier, and moored it to the pier with a piece of rope. </p><p> The three of them left the small ketch for the first time in a long, long while. </p><p> Feeling the sturdy wooden planks of the pier under his feet, Sunny enjoyed the fact that the ground was not swaying and took a few steps. He was swaying like a drunk himself for the first couple, but then regained his balance. </p><p> As he stretched his limbs, Nephis looked around and asked: </p><p> "The House of Parting... why was this place given such a name?" </p><p> Ananke smiled faintly as she headed toward the stone hall, and gestured for them to follow. </p><p> "It is the point of Weave that is the furthest upstream. You know that the bodies of Riverborn like me don't age... however, humans are not created to be immortal. If one lives for too long and her soul grows weary, she might want to rest in the embrace of Shadow." </p><p> The old woman turned around and looked at her ketch, tied to the peer of the House of Parting. </p><p> "When that happens, the one leaving comes to the House of Parting. Those who love them come too, to say farewell. They prepare a feast and celebrate. When all is said and done, the weary Riverborn sets sail to go on their last journey. They sail far, far upstream... until they reach the end of their lifespan and pass away. One way or another." </p><p> Ananke lingered for a while, and then added wistfully: </p><p> "Actually, I considered going on such a journey too, before receiving a dream of your arrival. Ah... ironically, I ended up repeating all the same steps, stopping just shy of the last one. It feels strange, to return to the House of Parting from upstream alive." </p><p> She chuckled and shook her head: </p><p> "In truth, there are two of these Houses. The other one is situated at the furthest point of Weave downstream... all other human cities on the Great River are the same, I'd imagine. The Lower House is meant for those who were not given a choice, and died an untimely death. Their bodies, if recovered, are sent downstream, to return to the Estuary - the origin of everything. Of course, every Outsider departs on their last journey from the Lower House, as well." </p><p> Sunny tilted his head, thinking. If the bodies of all perished Outsiders were sent downstream, and the Estuary was the source of the Defilement... was that how Dusk of Fallen Grace had ended up becoming a Nightmare Creature? Or had she succumbed to Corruption first, and was given the river burial as a result? She had been wearing a burial shroud when they first met, after all. </p><p> 'Is she a friend or an enemy?' </p><p> Ananke sighed. </p><p> "My Lord and Lady... we will spend the night here. I will retrieve some of the supplies I stored on this island, and in the morning, we will continue on the way to Weave proper. There will be more supplies for you to take downstream there, so I hope you don't mind." </p><p> Sunny felt that spending the night in a place called the House of Parting was a bit ominous, but he was not going to refuse a night of sleeping on solid ground, with a roof over his head, out of superstition. </p><p> More than that, while he and Nephis had enjoyed plenty of rest on the way, Ananke had mostly stayed awake, controlling the ketch and preventing anything dangerous from happening to them. She had to take a break, too. </p><p> He nodded. </p><p> "Of course. Guide the way." </p><p> The old woman nodded, and continued walking toward the great hall. </p><p> Her steps were light and energetic. </p><p> By the time the seven suns fell into the river, the three of them were inside the House of Parting. The interior of the grand hall was beautiful and solemn, but at the same time strangely modest - the followers of Weaver had not been a prosperous nation, after all. </p><p> Looking at the decor of the stone hall, Sunny could clearly see which ornaments and decorations had been inherited from the original Outsiders, who came from the Dream Realm, and which were crafted by their Riverborn descendants. </p><p> Despite being attentive and earnest artisans, the Riverborn were clearly much less sophisticated than their ancestors, not to mention extremely limited in terms of resources. </p><p> In fact, he was surprised by some of the things he had seen already... the wood that Ananke's ketch and the pier of the House of Parting were built of, for example. Where had it come from? The fruits that she had treated them to, as well. There was no soil anywhere on the Great River, so how could there be trees? How could there be flour to bake pies, and tea leaves to brew tea? </p><p> Curious, he asked the old woman about it. She smiled: </p><p> "The trees? There are some. There are floating gardens and fields in Weave. They are not too large, of course, because the surface of the city is limited. So... we can only afford to eat fruit, bread, and rice on special occasions. Most of the year, the River People eat what the River gives." </p><p> Sunny looked down, suddenly feeling guilty. So the delicious food he and Nephis had been enjoying was something that Ananke herself had not tasted often. </p><p> They were currently in one of the smaller chambers of the House of Parting, the old woman preparing to cook them a late supper. He had been rather complacent in allowing her to take care of them... mostly because it felt great to be pampered by someone caring and kind, but also because Ananke was strangely adamant about treating Sunny and Nephis with utmost dedication. </p><p> However, he suddenly wanted something else to happen today. </p><p> Walking over to the old woman, he gently pushed her away from the table where all the ingredients were waiting to be prepared and cooked. </p><p> "Go rest, Ananke. I'll take care of everything." </p><p> She looked at him with big eyes. </p><p> "But, my Lord..." </p><p> Sunny resolutely shook his head. </p><p> "No 'buts'! You don't need to cook. Today, this lord is going to cook for you instead." </p><p> Throwing an evaluating look at the ingredients, he grinned and added: </p><p> "Do you know? I am planning to get rich by opening a restaurant in the future." </p><p> Then, he paused for a moment, scratched his head, and pointed at Nephis... who gave him a confused look in response. </p><p> Sunny smiled brightly. </p><p> "And that... is my star chef. Come and help your boss, chef! You don't want to get fired before the restaurant even opens, do you?" </p><p> ----- </p><p> [Author's Note: Hey, guys :] I have good news and bad news. The good news is that I've been invited to participate in the Shanghai Online Literature Week. So, after close to two years of being chained to a laptop in a dark basement, this chapter gremlin... I mean, this dignified author is finally going to see sun again! The bad news is that due to traveling and participating in the conference, I won't be able to keep up with the usual writing schedule. So, from today and until about December 10th, there will be only one chapter published each day. I know that you are suffering from a crippling cliffhanger addiction just like me, but we must stay strong in these challenging times... Cheers!Find the new𝒆st 𝒏ovels on n𝒐velbin(.)com</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1304.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1306.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

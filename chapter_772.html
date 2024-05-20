@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 772</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 772 Journey To The East</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Some time later, all five members of the cohort finally found themselves alone. The Fire Keepers were still around, but decided to give their leaders some much-needed privacy. As the result, only Nephis, Sunny, Cassie, Effie, and Kai remained in a spacious hospital room. </p><p> Changing Star was standing by the window, looking at the peaceful landscape of the Academy ground with a strange, still expression. She seemed to have regressed to her old self, which had trouble communicating emotions and interacting with people. For that reason, it was hard to understand what she was thinking about. </p><p> The others gave her some space. Despite the fact that Nephis was standing right in front of them, it was not too easy to come to terms with the fact that she was actually, truly back. They were still struggling to get used to this new reality, but a warm wave of relief and happiness was slowly rising in their hearts. </p><p> Sunny was no different. It was just that his joy was somewhat overshadowed by a contradicting feeling of unease and apprehension. </p><p> Finally, Nephis sighed and turned around. A pale smile appeared on her face. </p><p> "You… you are all Masters. I did not expect that." </p><p> Effie, who was sitting comfortably on a cushy chair with her legs stretched, laughed. </p><p> "You're one to talk!" </p><p> Neph studied the four of them, then let out a slow sigh. </p><p> "I did not even know if all of you managed to survive. I… I hoped, of course. So I am very glad to see that you did. And helped each other." </p><p> A distant look appeared on Kai's face. He remained silent for a bit, remembering the events of the Second Nightmare, and then said gently: </p><p> "Yes, we had each other to lean on in our darkest moments. But you… you were completely alone, all that time. Lady Nephis, please forgive me… but how did you survive?" </p><p> Nephis looked away with a smile. </p><p> "...I wasn't really completely alone, too." </p><p> Then, she walked over to the hospital bed and sat down, facing them. </p><p> "There is not much to tell, really. The Crimson Terror was in its most vulnerable state when I reached the top of the Spire. Unrestrained by the dark sea, she had absorbed countless souls and was in the middle of an arduous evolution. With the help of the Dawn Shard, I was able to strike her down." </p><p> That simple explanation did not really do justice to the incredible accomplishment of slaying a Fallen Terror, but Neph seemed reluctant to dwell too much on that part of her story. She also decided to skip the part about their confrontation with Sunny entirely. Instead, she looked at the window and continued: </p><p> "After she died, however, the Spire became unstable. The Gateway collapsed, and the tower itself soon followed. I barely escaped the debris. The artificial sun of the Forgotten Shore was extinguished, as well, submerging it into absolute darkness. The labyrinth itself perished, too, the crimson coral turning grey and slowly crumbling to dust. With no sea, no sun, and most Nightmare Creatures eradicated by the culling, it became a lightless and desolate place." </p><p> She sighed. </p><p> "I traveled back to the Dark City and spent some time there, hunting down the remaining abominations and preparing for a long journey. With the help of the Dawn Shard and the Nameless Sun, many powerful Nightmare Creatures fell to my blade. For a while, I entertained the idea of trying to cross the Hollow Mountains, but eventually had to abandon it. Nothing but death awaited me there. So, I had to choose another direction." </p><p> Nephis paused for a moment, then continued in a steady tone: </p><p> "I knew that the deadly mountain chain stretched further than Ravenheart in the west. There was no passage there. Going north meant moving further away from human Citadels. So, it only left east. There was a chance that the Hollow Mountains were not as tall and unassailable there, or even that there was an end to them somewhere in those unexplored regions. It was only a chance, but it was all that I had. So, I left the Dark City and retraced the steps of the journey that Sunny, Cassie, and I had made before… avoiding the Ashen Barrow, of course." </p><p> Sunny moved slightly, remembering their encounter with Soul Devourer. He had not forgotten his promise to come back and destroy the damned tree… granted, he had no plans of returning to the Forgotten Shore, currently. Even his pettiness had a limit. </p><p> Maybe he would still be able to exact his revenge on the vile fiend one day, though. </p><p> Changing Star, meanwhile, continued her tale: Get the l𝒂test 𝒏𝒐v𝒆ls at 𝒏ovelbi𝒏(.)co𝒎</p><p> "Eventually, I reached the edges of the Forgotten Shore and crossed into a vast and terrible desert. Seeing the sun and the stars once again… it was like a blessing. But that blessing came with its own curse. The desert had once been the site of a great battle, I think… or maybe that land had been turned into a lifeless desert by the battle, instead. In any case, echoes of the clash between powers well beyond our comprehension still linger there, making it a dire and deadly place." </p><p> As Sunny remembered the white desert from her dream, Nephis paused, and then continued in a somber tone: </p><p> "But at that point, it was too late for me to turn back. Following along the Hollow Mountains, I ventured into the desert and made my way further east. Unfortunately, no matter how many days I traveled, the misty peaks showed no signs of abating. Eventually, I knew that I could not continue. I think… I think that the white desert is impossible to cross. The parts of it I only barely survived were on the periphery of the ancient battlefield. The deeper I went, the more terrifying it became. The inner reaches of that region, where the true clashes had happened, had to be a Death Zone of its own. Worse still, even if one manages to resist the many horrors dwelling there, the desert itself will eventually kill them. There is… there is simply no way to survive it." </p><p> She looked at them, white sparks igniting in her eyes. </p><p> "With no way forward and no way back, I... I grew desperate enough to finally venture into the Hollow Mountains. However, I had no hope of traversing them and reaching the human territories on the other side. I had also failed to find any sign of a Gateway in my long travels. So, I did the only thing I could think of… I tried to find a Seed of Nightmare. Eventually and with some help, I encountered one near the boundary of the dark realm that hides within the mountains… and challenged it." </p><p> A pale smile appeared on Neph's face. </p><p> "And here I am. Safe and sound." </p><p> She grew silent for a few moments, and then added quietly: </p><p> "Well… not quite. But I am still alive, at least."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_771.html">Previous Chapter</a><a class="navigationButton next" href="chapter_773.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

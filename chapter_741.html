@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 741</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 741 Chain Breaker</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> For a few moments, Sunny remained motionless, staring at the beautiful ivory walls of the great pagoda that towered above the world. Although the whole city was being consumed by immolating flame, here at its precipice, everything was calm and quiet. </p><p> He couldn't quite believe it. </p><p> Solvane, the Saint of War, was dead. The immortal prince encased in the mountain of moving steel was dead. The noble dragon that had dutifully guarded the tower was dead, as well. </p><p> They won. The Nightmare… was conquered. </p><p> More or less. </p><p> From the blood-soaked arena of the Red Colosseum, to the neverending prison of nightmares, to the numinous Temple of the Chalice, to the furious battle for the sky above the Ivory City, to confronting the Prince of Nothing… somehow, he had lived through all of it, and triumphed. </p><p> What were the chances of that? </p><p> 'Just five months... but it felt like a lifetime.' </p><p> Of course, there were a few issues left. </p><p> Most of the army of the perished Chain Lords was still intact, and on its way to the city. The cohort had dealt a terrible blow to the small part of it, but hundreds upon hundreds of flying ships still remained, carrying thousands upon thousands of soldiers. Now that their commanders were dead, he was not sure what would happen to them, and how they would react. </p><p> Noctis was nowhere to be found. </p><p> And Hope was still chained, even if not for long now. </p><p> With a sigh, Sunny stood up and grimaced as a feeling of sickening weakness overwhelmed him. His soul was terribly damaged… he had never abused it to this degree before, not even during the siege of the Crimson Spire. His body was not doing too great, either. Sunny had given his all to come this far, and now, he was at the end of his rope. </p><p> But he was also so close to becoming a Master. </p><p> Slowly walking to the edge of the island, he looked into the darkness of the Sky Below for a few moments, summoned the Dark Wing, and then glided down to the last remaining chain holding the Ivory Island in place. </p><p> There was not enough essence left in his soul to turn into a swift shadow, and he was too tired to run, so Sunny simply walked forward, using his enchanted cloak to scale the uneven links of the heavenly chain from time to time. It took him a while to traverse the wide chasm of emptiness and climb to the surface of the familiar tranquil island. </p><p> The emerald meadow, the calm surface of a clear lake, the peaceful grove of ancient trees… he had been here before, in the distant future. Of course, now, the island did not look exactly the same. There were pools of dragon blood sizzling in the green grass, and wisps of smoke floating in the air, brought over from the burning city by the wind. </p><p> He looked at the Ivory Tower and saw the body of a beautiful white dragon wrapped around it, not yet reduced to weathered bones. </p><p> Sunny remained motionless for a bit, and then went to find Kai. </p><p> The young man was laying on the grass not too far away, unconscious. His armor had melted and disintegrated, and his bark-like skin seemed damaged and scorched. Many of his bones were broken, and his disfigured face was contorted by a grimace of pain. </p><p> But he was alive. </p><p> After checking on his friend, Sunny came to the conclusion that Kai's life was not in danger. His wounds, while serious, were not enough to kill an Awakened. At least not in a short time… </p><p> Not knowing what else to do, Sunny summoned the Puppeteer's Shroud, rolled it, and placed the soft fabric under the archer's head as a pillow. Then, he lingered for a few moments, patted Kai on the shoulder, and stood up. </p><p> Then, he slowly walked forward and stood in front of the dead dragon's head, looking at the closed gates behind it. </p><p> This was it. </p><p> The prison of Hope… </p><p> As he studied the gates, something suddenly rustled behind him. Sunny remained motionless for a few moments, and then slowly turned around. His eyes were dark and hollow. </p><p> ...Noctis did not look as bad as he had after the battle with Solvane, but he also did not look good. The sorcerer was battered and beaten, his body covered by terrible burns. His elegant garments had turned into rags, and his raven-black hair was singed and uneven. </p><p> He also looked… different. </p><p> It was as though the burden of madness that had clouded his beautiful grey eyes finally disappeared, leaving them sparkling and clear. The sorcerer looked radiant and at ease, emanating a cool and calming aura. His friendly presence enveloped Sunny like an embrace. </p><p> Perhaps this was how he had been centuries ago, before the duty of being a shackle to Desire turned him twisted and weighed down by the curse of eternal servitude. </p><p> Noctis glanced up, at the ivory expanse of the great pagoda, and then looked at Sunny with a smile: </p><p> "Ah, Sunless! Please excuse my disheveled appearance. Looks… looks like we've won, doesn't it?" </p><p> Sunny lingered for a few moments, then offered him a silent nod. </p><p> After that, he faced the sorcerer and asked: </p><p> "So. What now? This is it? We are done?" </p><p> Noctis remained silent for a bit, then lightly shook his head. </p><p> "Well… actually, there is one small thing left to do." </p><p> A crooked smile appeared on Sunny's face, and he looked away, hiding his eyes from the sorcerer. His voice resounded from the Extraordinary Rock, tinged with a bitter emotion: </p><p> "...I thought you said that she can break one chain on her own." </p><p> Noctis smiled. </p><p> "Oh, I think that she can. However…" </p><p> The immortal's smile paled and then disappeared, leaving his face strangely bare. </p><p> "...That doesn't mean that she should." </p><p> He sighed, and then looked away, at the pillars of smoke rising above the dying city. His gaze was distant and solemn. </p><p> "Have you ever seen a wolf gnaw its paw off to escape a trap, Sunless? Ah… it's a terrible thing to behold. I wouldn't wish such a fate on anyone." </p><p> Noctis remained silent for a while, and then added in a wistful tone: </p><p> "Wolves... are meant to be free." </p><p> Then, a carefree smile appeared on his beautiful face once again, and the sorcerer turned to Sunny with sparks dancing in his grey eyes. </p><p> "So, my friend… the time has finally come for me to request something of you." </p><p> He reached out with his hand and opened his palm. Sunny remained silent, refusing to look in the sorcerer's direction. </p><p> "Will you give me the Obsidian Knife?" </p><p> 'Goddammit!' Visit nov3lb!n(.)c𝒐m for new 𝒏ov𝒆l𝒔</p><p> Sunny wanted to say so much. He wanted to do so much. He felt so much… </p><p> But he knew that it would have been a wrong and cruel thing to do. </p><p> A betrayal. </p><p> He sighed heavily, and then faced Noctis. A swirl of sparks appeared around his hand. </p><p> "I have never seen a real wolf, you know? And yes, I will… since you asked nicely…" </p><p> He opened the lid of the Covetous Coffer, rummaged inside, and then placed the knife cut from a single piece of obsidian in the sorcerer's hand. </p><p> Noctis received it and then calmly looked at the black blade. His fingers slowly closed around the handle. </p><p> A sad smile appeared on his face. </p><p> "Well, then… I guess this is a goodbye. Farewell, Sunless. You have been a great friend to me. And I… I hope that I have been a good friend to you, too." </p><p> He sighed, lingered for a few moments, and then added: </p><p> "Before we part, however, I must tell you something." </p><p> Sunny looked at him darkly and asked in a hoarse voice: </p><p> "What?" </p><p> Noctis silently shook his head. </p><p> "You... you really should stop wearing all black. What a terribly drab color! Ah, Sunless… you are better than this…" </p><p> With that, the sorcerer laughed and took a step forward. </p><p> He hesitated for a second, then locked Sunny in a hug. Because of the difference in their heights, Sunny had to bend down a little. </p><p> Noctis chuckled, then grew silent for a moment. </p><p> Then, he sighed and whispered, his voice suddenly low and somber. </p><p> Just four words, each carrying immeasurable weight: </p><p> "Never trust the gods." </p><p> Then, the sorcerer let go of Sunny, smiled one last time, and walked away. </p><p> Soon, he disappeared from sight. </p><p> And not too long after that, the Ivory Island trembled slightly as the last chain holding it in place broke apart. </p><p> Sunny gritted his teeth, then looked away and wiped his eyes. </p><p> His shoulders fell. </p><p> "Damn scoundrel… you tricked me again…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_740.html">Previous Chapter</a><a class="navigationButton next" href="chapter_742.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

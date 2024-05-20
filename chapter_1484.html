@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1484</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1484 Radiant Depths</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1484 Radiant Depths</h4> <p> 1484 Radiant Depths </p><p> Surrounded by darkness, the Chain Breaker continued to travel down the twisting underwater tunnel. Cassie had taken up the steering oars, which alleviated some of Sunny's nervousness — while she was the most experienced helmsman among them, he barely knew what he was doing. </p><p> So, the chances of the flying ship colliding with the walls of the tunnel and being torn apart by the water current were reduced by a lot with the blind seer at the helm. </p><p> Still… no one knew what waited for them in the depths of the Great River. They were nervous, apprehensive, and full of grim anticipation. </p><p> The cohort rested, consumed a hearty meal, and went about repairing the slight damage dealt to the flying ship by its crash landing on Aletheia's Island. The enchanted hull weathered the rough landing well, only receiving a few shallow scrapes. However, there were more delicate parts of the ship that had to be mended or replaced. </p><p> Sunny, Nephis, Jet, and Effie were not carpenters or builders, but their skill was enough for the task — after all, Sunny was a specialist in wilderness survival, while Nephis had been able to build boats all the way back on the Forgotten Shore. Effie had the experience of surviving in the Dark City for years, while Jet... was Jet. She was somehow capable of doing anything that needed to be done. </p><p> Later, they gathered on the deck and silently observed the darkness below. </p><p> After a while, Sunny grew bored and summoned the Covetous Coffer. Borrowing Effie's locket, he began comparing the two weaves with each other. He was very curious to see if he could make the storage inside the Coffer habitable, as well… for now, it seemed incredibly far-fetched. </p><p> But then again, many of the things he had accomplished seemed far-fetched once. If he was not capable of doing something today, he might be able to do it in the future. Becoming a competent sorcerer was a gradual process. </p><p> Time slowly passed. </p><p> And as it did, the depths of the Great River slowly changed. </p><p> It was not something that they could see or hear, but more of a vague, eerie, oppressive feeling. Although the Chain Breaker was surrounded by water and had descended deep below the surface of the River by now, none of them could perceive what hid beyond the spinning walls of the twisting tunnel. </p><p> However, it seemed as if… the absolute darkness that surrounded them was somehow growing darker and darker with each hour that passed. </p><p> Sunny felt… a sense of immense threat. Cassie was pale, as well. It was as if they were surrounded by terrifying danger from all sides, worse even than it had been in the flowing mist of Aletheia's Island. </p><p> However, if there was some harrowing being in the water, it did not enter the tunnel to swallow them whole. </p><p> ...Remembering how much the dreadful whirlpool resembled a colossal maw, Sunny could only hope that it was not because they were already in the being's intestines. </p><p> 'Maybe whatever creatures dwell in the unfathomable depth simply can't exist outside of water… or maybe the current of the tunnel walls is as dangerous to them as it is to the Chain Breaker.' </p><p> Calming himself like that, he tried to find distraction in weaving. </p><p> A few more hours passed. </p><p> Eventually, Nephis stood up and looked around with a slight frown on her face. </p><p> "...Don't you think that it's getting brighter?" </p><p> Then, the others noticed it, too. The darkness seemed slightly less impenetrable now. </p><p> The process continued. Slowly but surely, the dark mass of water was starting to glow. The darkness was dispelled, and instead, a blinding radiance surrounded them from all sides. It was so bright that Sunny couldn't open his eyes for a while. </p><p> 'What… what's this…' </p><p> The abyssal tunnel was now a tunnel of radiant light. It was as if they were traveling through the depths of a star. </p><p> "It's the suns!" Top 𝒏𝒐v𝒆l updates on nov𝒆lbin(.)com</p><p> Sunny was confused by Jet's words at first. But then, he understood. </p><p> 'Ah… of course…' </p><p> Every evening, the seven suns seemed to dive into the Great River. And every night, the Great River started to glow. Its shine was soft, dreamlike, and iridescent. </p><p> However, that was on the surface. What would that light look like in the unfathomable depths? </p><p> They were currently learning the answer. </p><p> Soon, Sunny's eyes adjusted to the brightness, and he cautiously opened them. </p><p> The members of the cohort were all frozen still, observing the radiant world around them. </p><p> It was… beautiful. </p><p> But also harrowing. </p><p> A moment later, Sunny shuddered and took an involuntary step back. </p><p> Somewhere out there, in the blinding light… a shadow suddenly moved, so colossal that it dimmed the radiance of the water for a few moments. Its size was so immense that he struggled to comprehend it. And its shape… </p><p> As soon as Sunny tried to ascertain it, it was as if he had lost consciousness for several seconds. When he came back to his senses, the shadow had disappeared somewhere far below, and he was covered in cold sweat. His head was pulsing with a splitting ache. </p><p> 'T—that thing… how far away was it?' </p><p> What was it? </p><p> He looked at the members of the cohort and found them in a similar state to his. Especially Cassie, who was blind, but also saw much more than anyone else… </p><p> Then, the brightness of the water changed once again as another inconceivable shadow moved through its radiant mass, far in the distance. </p><p> He shivered. </p><p> "Go inside." </p><p> Cassie's voice was hoarse. Lowering her head, she sighed and repeated herself: </p><p> "Go inside. Don't return until it's dark again. It's not good for you to stay here." </p><p> Nephis looked at her for a moment, then frowned: </p><p> "What about you? We won't leave you alone." </p><p> The blind girl shook her head. </p><p> "I'll be fine. I won't be able to see anything if you leave, anyway. Most importantly…" </p><p> She shivered slightly. </p><p> "...nothing will be able to gaze back at me. Go." </p><p> Sunny knew all too well that some Nightmare Creatures felt when someone was looking at them. That was why people had to be careful where they turned their eyes in the Dream Realm, especially in those regions of it where true horrors dwelled. That was why he did not try to dissuade Cassie and silently pulled Nephis toward the entrance to the lower decks. </p><p> He recalled his shadows, as well. </p><p> Jet and Effie followed. </p><p> They spent some time together at the mess deck, but no one was in the mood to talk. It felt as if the smallest sound could be heard by the beings that moved in the depths of the Great River… and so, after a while, the members of the cohort left for their cabins and tried to fall asleep. </p><p> The merciless light bathed the Chain Breaker for a few more hours, and then grew dim. </p><p> Finally, it disappeared entirely, replaced once again by absolute darkness. </p><p> The spinning tunnel continued to lead them down, down, down… down into the unfathomable depths. </p><p> The Great River was rumored to be bottomless, and surrounded by the darkness, Sunny could easily believe that it was. </p><p> However, he also felt that if they survived a few more days of the descent… </p><p> Perhaps they would prove the rumors wrong.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1483.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1485.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

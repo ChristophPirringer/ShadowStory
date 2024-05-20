@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 429</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 429 Schism</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 429 Schism</p><p>A moment later, a deafening roar of massive iron links being torn apart rolled other the entire island, which then lurched up by a few meters and suddenly came to an abrupt stop.</p><p>Sunny yelped, feeling the Crushing assault him with even more obliterating force.Your f𝒂vorite stories on 𝒏ov𝒆lb𝒊n(.)c𝒐m</p><p>'The chain… the chain is failing!'</p><p>Why did it happen so soon?</p><p>For a few moments, he felt nothing but pure, bestial panic. Then, he forced himself to regain control over his mind and threw a desperate glance toward the not-so-distant edge of the Twisted Rock.</p><p>Would he be able to escape in time?</p><p>He lingered for a moment, then gritted his teeth and commanded one of the shadows to slide off his body onto the ground.</p><p>As soon as it did, a muffled scream escaped from his lips. It felt as though a giant hammer struck his body, making every bone in it shudder and groan. Sunny turned his head to the side and spat a mouthful of blood.</p><p>'Curse it all…'</p><p>The shadow flew to the edge of the island and slid over its edge, desperately trying to reach the dying chain.</p><p>…But it was too late.</p><p>As Sunny watched in horror, one of the links of the heavenly tether broke. Only one, the weakest of them all… but that was all it took.</p><p>'No!'</p><p>The chain that connected Twisted Rock to the rest of the Chained Isles snapped in two, and as ten kilometers of gargantuan iron links slowly fell toward the Sky Below, the island suddenly shot upward. Since it was still in the ascent phase, and now unrestrained by anything, the speed of its rise was simply terrifying.</p><p>'No, no, no!'</p><p>The Crushing struck at Sunny with such fury that he couldn't even scream. He felt himself being slowly broken, and feverishly tried to come up with a solution.</p><p>'Step through the shadows… jump down and try to glide to the Shipwreck Island…'</p><p>No, that would never work. There were more than ten kilometers separating these isles from one another, which was far outside the Dark Wing's capabilities. He could try to chase after the piece of the chain still connected to the Shipwreck Island, but chances of catching up with it were close to zero.</p><p>The length of the heavenly tether was falling deceitfully slow, but it was just an illusion caused by its colossal size. In truth, the torn end of it was flying through the air at tremendous speed, moving both down and away from the Twisted Rock.</p><p>The repulsive silhouettes of the gluttonous Chain Worms were growing smaller by the second.</p><p>Sunny was already late to rush in pursuit of it, and every moment that passed made the probability of success lower.</p><p>'Great! Goddamn great, you fool! You finally let your greed kill you!'</p><p>Sunny growled, full of fury at himself, but then suddenly stopped.</p><p>No, that didn't make any sense. He was not on this island because of greed. Even though Sunny had made several risky decisions in order to get to the miraculous coins, at the end of it, standing on the edge of the Shipwreck Island, he put his avarice aside and made a sober choice.</p><p>He came here because his intuition had told him that something on the Twisted Rock was very important to his future.</p><p>But what was it?! There was nothing but stone and bones in this damned place!</p><p>What was he supposed to do? How was he supposed to survive?</p><p>Sunny tried to calm down and think. He summoned his shadow back, and briefly regained the ability to breathe.</p><p>It wasn't going to be for long, though. The Crushing was already overwhelming his physical ability to resist its lethal pressure. Sunny had a few dozen seconds, at most, before he would be forced to retreat into the shadows or die.</p><p>'Think… think… there has to be a way out. Hide inside the dead Mimic or the Covetous Coffer? No, the items inside the Memory maintain their weight, which means that they, too, will be affected by the Crushing. And even if not, what's the point? Even if the chest survives until the Twisted Rock itself is torn apart and plunges down into the Sky Below, I'll just be falling forever inside of a box instead of on my own… that's like dying inside of a coffin…'</p><p>And the Twisted Rock was going to be destroyed by the Crushing, inevitably and without a doubt. As it rose higher and higher, it was going to start to fall apart. When enough of it was destroyed to obliterate the mysterious force that kept the isles afloat, the remaining debris was going to fall down and eventually disappear into the Sky Below.</p><p>…Alongside what was going to remain of Sunny.</p><p>He lay motionlessly for a few seconds, then for a few seconds more. Another crack appeared on the corpse of the Mordant Mimic. Then, the stone beneath it cracked, too.</p><p>Sunny did not move at all.</p><p>The cracks on the stone widened and crawled in every direction.</p><p>A few moments later, a heavy sigh escaped from his lips.</p><p>Sunny had one last gamble left…</p><p>Gathering all of his strength, he groaned and pushed himself off the ground. Even though it felt as if he was lifting a mountain, and every muscle in his body trembled at the edge of bursting apart, he somehow managed to sit up.</p><p>Then, Sunny summoned Weaver's Mask.</p><p>After returning from the Forgotten Shore and deciding to create a separate persona to investigate the Sovereigns, as well as do all the things that Sunny didn't want to be associated with his name — the one which would then accidentally become known as the famous Lord Mongrel — he had decided to never use any of the equipment that it wielded if there was even the smallest chance of someone connecting him to the mysterious masked man.</p><p>But he had little choice right now.</p><p>His last hope was… fate. He knew that something had drawn him to the Twisted Rock, even though in the end he failed to find it. In the past, his intuition only reacted that strongly to the things that were connected to the gods, the Unknown… and Weaver. So, there was a high chance that Weaver's Mask would show him the way to salvation.</p><p>As the cool black wood caressed his kin, Sunny forced air into his lungs… and sent his shadow essence toward the mask.</p><p>He was going to do something that he dreaded doing for many months…</p><p>Activate the mysterious [???] enchantment of the divine Memory.</p><p>When the power of his soul poured into the Weaver's Mask, Sunny froze for a moment…</p><p>And then let out a horrible, inhuman scream.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_428.html">Previous Chapter</a><a class="navigationButton next" href="chapter_430.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

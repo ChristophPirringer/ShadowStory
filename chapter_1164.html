@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1164</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1164 Nice Summer Day</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> It was a hot, lazy summer day. The sun bathed the Northern Quadrant Siege Capital in heat and light, making people long for the cool shade of the ventilated buildings. The sky was clear and vast, without a single cloud in sight. Looking at its blue expanse, it was hard to believe that somewhere far away people were suffering in the darkness, assaulted by cold and dread. </p><p> The Chain of Nightmares that was raging in the Southern Quadrant seemed so distant here. </p><p> On that peaceful day, a young man in expensive clothes was sitting on a bench in a beautiful park. Located in one of the more affluent districts of the city, the park was full of vibrant greenery and pleasant shade. The filtered air was crisp and clean. Everything here looked spotless and new. </p><p> The young man was enjoying a cup of coffee as he watched children play on a nearby playground. There was an absent-minded smile on his handsome face. He seemed to be in a pleasant mood.. </p><p> 'How curious...' </p><p> The young man observed the children. They were so strange, so innocent. Fragile. It would take no effort at all to break them. ...But why would he? Watching the kids play was interesting and nice. And yet, he couldn't help but imagine what the playground would look like painted with their blood. Those images entered his mind on their own. The images were interesting and nice, too. </p><p> 'Are all human children like that?' </p><p> The young man had been a child himself, once, but he did not really remember much about that time. He knew that he had been a timid kid who did not start to speak until he was four - others made sure that he knew that. At some point, the old man came to claim him. </p><p> The rest of his childhood had been spent in the Dream Realm. It was only much later, after the old man had discarded him, that he returned to the waking world. The waking world had felt alien then, and felt a bit alien still. But really, it was the young man who was the alien. </p><p> 'Am I the strange one? Huh.' </p><p> It might have been an easy conclusion to draw, but it was not so easy for the young man. He had trouble imagining that others were different from him. It took a conscious effort to remember. </p><p> At some point, there was a slight disturbance. One of the kids kicked a ball too hard, and it flew toward the young man, almost making him spill his coffee. </p><p> The young man looked at the ball with displeasure. The culprit of his displeasure ran over and stopped a couple of steps away, looking at him with wide eyes. </p><p> "Oh! S-sorry, mister..." </p><p> The kid was tiny and cute. He was maybe five years old, with blonde hair, smooth skin, and blue eyes. He also had short legs, which made his run look rather comical. His neck seemed very thin and malleable. </p><p> The young man smiled. </p><p> "No problem. Ah, you speak so well. I couldn't speak that well at your age." </p><p> The kid beamed with a bright smile. </p><p> "I go to classes! Mommy takes me. I know alphabet, too!" </p><p> The young man tilted his head. </p><p> "Oh? Is your mom here?" </p><p> The kid nodded enthusiastically. </p><p> "She's over there!" </p><p> Then, a complicated expression appeared on his little face. </p><p> "...Are you mom here too, mister?" </p><p> The young man stared at the kid silently. </p><p> "No. I'm here all by myself." </p><p> The child looked at him with pity. </p><p> "Oh. I'm sorry. Don't be sad..." </p><p> The young man's smile widened. </p><p> "I'm never sad. I can't be sad." </p><p> The kid stared at him awkwardly, failing to understand the strange words. </p><p> "Uh... can I have my ball back, mister?" </p><p> The young man leaned forward and said: </p><p> "Of course. But first, answer me a question. That game you and your friends are playing... what is it called?" </p><p> The child seemed surprised. </p><p> "Uh, mister... that's football. Have you never played football?" </p><p> The young man lingered for a few moments. Find upd𝒂ted 𝒏ovels on n𝒐velbin(.)co/m</p><p> "No. There were no other kids where I grew up. I think I would have been great at football, though. Ah... maybe I should become a kid and play some football, what do you think?" </p><p> His voice sounded as if he was genuinely contemplating doing just that. </p><p> The kid smiled, thinking that it was a joke. The young man smiled, too, then pushed the ball toward the child, glanced at him one last time, and leaned back. </p><p> The kid picked up the ball and shouted: </p><p> "Thank you, mister!" </p><p> With that, he turned around and ran back to his friends. </p><p> The young man did not respond. </p><p> In fact, he did not move at all. </p><p> His eyes were closed, as though he was enjoying a nap in the sun. </p><p> ...A few hours later, long after the children and their mothers left, a woman taking a walk in the park passed the bench. </p><p> A frightened scream suddenly disturbed the peaceful day. </p><p> "Gods! Somebody, help! D-dead, he's dead!" </p><p> Indeed, the young man was as cold as a corpse. </p><p> He was, and had been, dead. </p><p> Of course, Mordret was long gone, hiding in the eyes of the talkative kid. Extinguishing a mundane human's soul was easier than... well, taking candy from a baby... but he had not taken the body of this child. </p><p> He was just taking a ride, watching the world through the kid's eyes. </p><p> Currently, they were walking back home, holding the kid's mother's hand. </p><p> The woman was in her early thirties, and very attractive. She was wearing expensive, but simple clothes - of course, anyone who lived in the affluent district had the means to afford the best attire, but few were dignified enough to not flaunt their wealth. </p><p> Every time the woman glanced at her son, she smiled warmly, which made Mordret feel a slight sense of amusement. </p><p> He had no memories of his own mother, who had died in childbirth when he was young, so this experience was rather new. </p><p> Being loved by someone was interesting and nice, too. </p><p> Enough to make him want to kill the child and take his place. </p><p> But Mordret didn't. </p><p> Even a creature like him had principles, after all. </p><p> Well... not principles. Inclinations, maybe. </p><p> He was not inclined to kill someone without a decent reason, even if he wanted to. </p><p> Of course, his definition of what constituted a decent reason was different from the norm. </p><p> ...Hiding in the kid's eyes, Mordret entered his home, uninvited.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1163.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1165.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

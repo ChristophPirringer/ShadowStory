@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1468</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1468 An Extravagant Meal</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1468 An Extravagant Meal</h4> <p> It was already deep into the night by the time the hall was clean enough for them to make camp in one of its less damaged corners. Everyone was bone-tired and ready to topple over - Sunny and Cassie had been suffering in the loop for a long time, while for Effie and Jet, this terrible day had come straight after surviving the evisceration of their tribe and being chased by the Drowned for an entire week. Nephis, meanwhile, was mentally and physically drained because of how much she had used her Aspect today. </p><p> Sunny left his companions in the corner of the hall designated as their camp and walked over to the corpse of the Great Tyrant. While they were making a fire, he manifested a raised platform from the shadows and went about extracting the five Supreme soul shards from the horrid corpse. Luck was on his side - King Daeron had neglected to collect them after slaying the creature. </p><p> Perhaps he had been in a hurry to leave Aletheia's Island, or perhaps such things had no value for the mighty Sovereign. In any case, it was Sunny's win. </p><p> Soon, he returned to his companions carrying five radiant crystals and a generous chunk of monster meat. </p><p> It was the meat of a Great abomination, as well... despite the divine taste, chewing it was not going to be easy for Cassie and Jet. Nephis, Effie, and himself would have to augment themselves with their Aspects to enjoy the meal, as well. </p><p> While Nephis went about preparing the extravagant meal, Sunny wiped the soul shards clean, summoned the Covetous Coffer, and stored them inside. At that time, Jet gave him a long look. </p><p> "There's enough meat to feed Effie for a long time." </p><p> He nodded. Soul Reaper lingered for a few moments, then asked: </p><p> "What about me? How am I going to last longer than Undying Slaughter here, inside the tower?" </p><p> Sunny frowned. </p><p> This was indeed an issue. Both Jet and Undying Slaughter could only exist for as long as there was essence in their fractured soul cores. Neither could generate essence naturally, and would only replenish it by killing living beings. </p><p> The mist wraith had many more creatures to kill out there, in the dreadful reaches of Aletheia's Island. Of course, she would also have to burn some essence to prevail against them. Still... Jet was at a disadvantage while locked inside the tower. </p><p> He had a solution, though... hopefully, he did. </p><p> Lowering his hand into the open maw of the Covetous Coffer, Sunny took out a beautiful golden fruit. The fruit looked clean, ripe, and delicious... tantalizing, really. Its refreshing fragrance made him want to sink his teeth into the soft, succulent flesh of the fruit right that instant. </p><p> The fruit, of course, had come from the sacred tree growing on the deck of the Chain Breaker. </p><p> In fact, Sunny had plucked all the fruits from its branches before leaving the ship in the morning. </p><p> Suppressing the gnawing desire to devour the golden fruit, Sunny threw it to Jet. </p><p> "Try it." </p><p> She caught the fruit and looked at it in confusion. Then, she shrugged and took a generous bite. </p><p> The rest of them watched Jet consume the fruit of the sacred tree with envy. By the time it was gone, a stunned expression appeared on her face. 𝒂ll new st𝒐ries at novelbi𝒏(.)c𝒐m</p><p> "I... I just received an infusion of essence. A lot of it!" </p><p> Sunny nodded in satisfaction. </p><p> 'Thank the gods. It works.' </p><p> He had tried eating the golden fruits during one of the revolutions. Sunny was understandably afraid of them, considering what had happened to him on the Ashen Barrow. By now, it was clear that the Soul Devouring Tree was somehow connected to the sacred tree that grew on the Chain Breaker - and had come from Heart God's desecrated grove. </p><p> ...And perhaps to the strange tree to which Eurys of the Nine had been nailed in punishment. </p><p> However, there was a big difference between the Soul Devourer and Chain Breaker's mystical tree - apart from the fact that the former was thousands of years old and a Nightmare Creature. It was that the Soul Devourer fed on living beings, while their tree didn't. </p><p> As a result, while the fruits of the Soul Devourer could grant Awakened soul fragments, the fruits of the young sacred tree couldn't. Instead... they were brimming with soul essence. </p><p> Sunny had used them a few times to help Nephis recover from essence exhaustion faster, but in the grand scheme of things, it was of not much use. Especially because they had no visible effect on him, due to the fact that his soul required shadow essence instead of soul essence. </p><p> It was also why Sunny was not sure that the golden fruits would have any effect on Jet, considering how unique her soul was, even when compared to his. </p><p> Luckily, everything seemed to work fine. Otherwise, he would have had to take Jet outside the tower to hunt in the next few days, risking both their lives. </p><p> Sunny let out a sigh of relief. </p><p> There were a good dozen fruits inside the coffer, some of them riper than the others. They would last Jet a good deal of time. </p><p> A pale smile appeared on his face. </p><p> "Good. That's good. I have a bunch of these with me... so, don't worry about getting enough essence for now." </p><p> Jet threw a long look at the Covetous Coffer, then nodded. </p><p> Soon, their late supper was ready. Effie and the rest of them consumed the sublime meat of the Great Tyrant as they struggled to stay awake. Then, just before dawn, they finally allowed themselves to succumb to exhaustion and went to sleep on the cold stone floor. </p><p> ...Everyone except for Sunny, that was. </p><p> He lingered for a while, sitting silently on a piece of rubble. His gaze was hollow and grim. </p><p> Soon, Sunny felt the enchantment of the Crown of Twilight come to life once again, replenishing his essence once more. </p><p> It was dawn. </p><p> Which meant that now, there was absolutely no doubt that the loop had indeed been destroyed. He had already known it, of course, but still waited for the former termination point to arrive... just to be sure. </p><p> The dawn came and went, but Sunny was still sitting on the piece of rubble inside Aletheia's Tower. He was not sent back to the deck of the Chain Breaker. </p><p> Motionless as a statue, Sunny let out a long sigh. </p><p> Then, he slowly looked up. </p><p> There, far above... Wind Flower was waiting for him. </p><p> Now that the loop was no more, it was time for him to fulfill his oath. </p><p> With a heavy heart, Sunny looked at his sleeping companions, then stood up. </p><p> The deep shadows drowning the great hall of Aletheia's Tower stirred and moved, restless, as he walked away from their little camp.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1467.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1469.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 445</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 445 Respite</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 445 Respite</p><p>Visible only to Sunny, the diamond weave beneath the surface of the gate ignited with ghostly light. Almost immediately, a thin vertical crack appeared in the ancient stone.</p><p>Then, the gates silently opened, and a gust of wind hit Sunny in the back.</p><p>He took a few steps away, hiding behind Saint, and cautiously looked over her shoulder at the dark entrance.</p><p>Nothing was moving in the darkness. From what he could see, the interior of the Obsidian Tower seemed quite mundane. As soon as the gate opened, his Shadows Sense could finally penetrate the invisible barrier surrounding the graceful pagoda — it didn't detect any danger, as well.</p><p>It really did seem safe.</p><p>He waited for a few moments, then coughed and waved a hand in front of his face, trying to get the soot that had flown into the air away from it.</p><p>"Ah, well. Nothing to worry about, then. Let's go!"</p><p>Sunny glanced at Saint, lingered for a second, and added in a polite tone:</p><p>"...Oh, ladies first."</p><p>The taciturn demon turned her head slightly, stared at him with one ruby eye, then simply walked forward and stepped over the threshold of the ancient tower. Sunny waited for a few moments, and followed.</p><p>Tightly gripping the handle of the Moonlight Shard, he dove into the darkness that reigned behind the tall frame of the entrance, made a dozen steps forward, and found himself in a wide corridor that seemed to encircle the entire first level of the pagoda.</p><p>The corridor stretched both far to the left and to the right. Here and there, Sunny could see large doors leading to differently sized rooms that were situated in the direction of the tower's outer wall, all the way to the bends of the corridor. And right in front of him was an intricate wooden gate decorated with beautiful engravings.</p><p>Behind it was the central hall of the tower.</p><p>Sunny hesitated for a bit, then pushed the wooden gate, which opened easily and revealed a vast chamber on the other side.</p><p>'That smell…'</p><p>His eyes widened.</p><p>Behind the gate was a large hall with a very tall ceiling. As soon as the gate opened, glass lanterns ignited on its walls, filling the interior of the Obsidian Tower with ghostly blue light. There were various things in the hall, all of which demanded Sunny's attention.</p><p>There was a stand holding smith's tools and implements, all masterfully crafted from black obsidian and silver. A badly burned worktable with a scattering of beautiful soul crystals on its black surface. A stone wall with mysterious schematics cut into it, the cuts themselves so smooth and deep that he couldn't even begin to imagine what had left them behind, let alone what the schematics described.</p><p>There were strange devices forged from silver and black steel, some of which reminded him of astronomical instruments, but also very mundane things, like chairs, tables, and even something that resembled a very long bed.</p><p>All of it was perfectly preserved and immaculate, with not a speck of dust anywhere, cleaner than even his own house in the real world was… despite the thousands of years that must have passed since the Obsidian Tower was visited last.</p><p>It also all felt slightly… wrong. The sizes of everything were almost fit to be used by a human, but slightly different. The shapes of the handles of all the tools were slightly strange. The way the pieces of furniture and equipment were arranged in space filled him with a slight feeling of unease, even though he didn't know why.</p><p>…But Sunny did dwell on this for too long. Neither did his gaze linger on any of these items. His attention was pulled toward one specific place.</p><p>Not too far from him stood a simple wooden table. And on it… was all kinds of delicious food.Visjt n𝒐velbin(.)c𝒐m for new updates</p><p>Juicy meat, freshly baked bread, succulent grapes, glass jars of exquisite wine, beautiful pots full of steaming tea, all of it waited for him, as if served only a few seconds ago.</p><p>Sunny's mouth watered.</p><p>'How is this possible? This has to be an illusion… right?'</p><p>Covered in layers of soot, sweat, and blood, he walked toward the table. His boots left black marks on the pristine floor of the hall. Arriving at his destination, Sunny reached out and grabbed a piece of bread with his dirty hand and greedily devoured it, then took one of the intricate silver goblets and filled it with wine.</p><p>The rest of the goblets clattered to the floor, thrown off the table by his careless movement.</p><p>Not paying it any attention, Sunny gulped down the sweet wine and laughed, sending breadcrumbs flying into the air.</p><p>"Ah… this is not bad, really…"</p><p>He would have preferred something without alcohol, but then again, this wine tasted so good...</p><p>There was a wide grin on Sunny's face, but also dirty traces left by tears. His shoulders trembled.</p><p>"This really hits the spot…"</p><p>He was aware of the fact that the food could have been full of poison, but didn't care too much. He was just too hungry, tired, and spent. His body and his soul both hurt too much. He was at his wits' end.</p><p>Refilling his goblet and grabbing a piece of perfectly roasted meat, he wandered away from the table and took another look at the large hall.</p><p>"There's no one here, right, Saint?"</p><p>The Shadow silently walked behind him, vigilantly looking around and keeping the Midnight Shard ready.</p><p>But there was nothing to use it against.</p><p>Sunny wandered for a minute or so, and eventually stopped near a large bed covered with black, lavish furs. Dropping the empty goblet on the floor, he hesitated a little… and then climbed into the furs.</p><p>'...Who's been sleeping in my bed?'</p><p>Sunny dismissed the Puppeteer's Shroud and lowered his heavy head onto a soft pillow.</p><p>He wanted to give Saint the command to stand guard, but there was no need. The taciturn demon was already doing exactly that…</p><p>Before Sunny could think about something else, the exhaustion of the past few weeks took over his mind, and, offering almost no resistance, it slipped easily into the embrace of darkness.</p><p>The first thing Sunny ended up doing after discovering the Obsidian Tower and finding his way inside… was falling on a bed and going to sleep.</p><p>He slept well.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_444.html">Previous Chapter</a><a class="navigationButton next" href="chapter_446.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

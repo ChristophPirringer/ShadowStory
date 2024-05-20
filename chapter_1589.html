@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1589</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1589 Untethered</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1589 Untethered</h4> <p> "...Identify yourself." </p><p> Sunny's smile froze. His body froze, too. For a moment, he was utterly confused, doubting that he had heard Nephis correctly. But there was no doubt — her voice was very clear. 'Identify yourself? What is she doing, giving me the cold shoulder?' </p><p> He could understand if she was angry at him because of what had happened on the cold shores of Verge. Resentful, even. But still, wasn't it too childish, to pretend as if she did not know him? </p><p> Sunny tried to calm down, but at the same time, he knew that he was deceiving himself. Nephis was not the kind of person to lash out by treating him as a stranger… she just genuinely did not recognize him. 'H—how can it be?' </p><p> Well... to be fair... he was indeed covered in dust and dirt from head to bottom. It was easy to mistake him for someone else. No, was it? It might have been for someone else, but not for Nephis. She knew him far too well for that, not to mention that he was wearing a rather unique suit of armor. There was no mistaking the Onyx Mantle. Sunny hesitated, not knowing what to say. But he had to say something, because the pressure of the Flaw was building, forcing him to answer. "It's me… Sunny." </p><p> His voice sounded strangely lost. </p><p> Neph's frown deepened slightly. "Your affiliation?" </p><p> Petrified and feeling his hair stand on end, Sunny answered stiffly: </p><p> "...Evacuation Army, I guess. Army Command, special envoy." </p><p> What was going on? </p><p> What was happening? As Sunny was balancing on the edge of mental collapse, desperately trying to keep the emotions from showing on his face, Nephis nodded. It seemed that he accepted his explanation easily. </p><p> She looked around, then opened her mouth to say something... possibly to ask what was going on, what date it was, and what state the Southern Quadrant was in. But then her expression changed, and she turned slightly, as if listening to a distant sound. "Cassie!" </p><p> A moment later, Nephis dashed away and plunged her hands into the slope of the crater. Her beautiful white wings spread, and with a barely audible gasp, she pulled a massive alloy plate from under the ground. The plate itself must have weighed many tons, and with the added weight of all the soil and debris piled on top, it should have taken titanic strength to raise it. But that was exactly the kind of strength Nephis possessed. </p><p> Straining her slender body, she gritted her teeth and tossed the massive plate of torn alloy to the side. It landed a dozen meters away from them, making the whole crater shake and raising a cloud of dust into the air. Then, Nephis jumped down into the ruins below. Leaving Sunny alone, for a few moments. He gasped for air, suffocating. 'Fate… the Thieving Bird stole my fate…' </p><p> But what did it mean, to have his fate stolen? In simple terms, it meant that the loathsome miscreant had taken all the countless strings of fate that bound Sunny, and tore them away. Leaving Sunny entirely free of their shackles. However… those shackles… </p><p> Were also what made Sunny the person he was, and what connected him to all other living beings, as well as to the world itself. He suddenly remembered a thought that had visited him once, in the depths of a Nightmare... </p><p> As one went through life, they collected strings and tethers that connected them to others. Everyone's fates were intertwined, and everyone was tied down and bound by those numerous connections, some of them fleeting, some deep and precious. Sunny, too, was tethered to the world that way. </p><p> ...Or rather, he had been. By proclaiming that he wanted to break fate… that he wished to be free of its chains… </p><p> Had he not proclaimed his desire to set himself free from these tethers, as well? </p><p> His mouth was suddenly terribly dry. Taking a step back, Sunny swayed and almost fell down. His face was as pale as that of a ghost. </p><p> 'Be careful… of what you wish for.' </p><p> A disbelieving chuckle escaped from his lips. He should have known that there would be a price to pay… no, he had known. Of course, he knew. But he stubbornly pressed forward, anyway. To gain freedom. </p><p> Well, now, he had gained it. He had liberated himself. Not just from fate, but from… everything. When the vile Thieving Bird stole the strings of fate wrapped around him, it also tore his very existence from the tapestry of fate. And so, his existence was erased from the fabric of the world. His [Fated] Attribute was gone. His connection to the Nightmare Spell was gone. And much more importantly… he had lost his True Name, as well. Because True Names were innately tied to one's fate. That was why Nephis could not command him anymore. Everything about his Aspect remained intact, including his Innate Ability, Shadow Bond. [Find a worthy master and let them know your True Name. Once they recite it out loud, you will be bound to their will, unable to disobey any command. It is improper for a shadow, let alone a divine one, to walk around without a master.] Your f𝒂vorite stories on 𝒏ov𝒆lb𝒊n(.)c𝒐m</p><p> Shadow Bond had not disappeared. It was just that Sunny did not have a True Name anymore, and therefore, its condition could not be fulfilled. The bond formed between him and Nephis was broken, and no one else was going to be able to enslave him, ever again. </p><p> Because a fateless being could not earn a True Name. Sunny was truly and utterly free. </p><p> But at what cost? </p><p> The memories of his existence had been erased from the world. 'Be… be careful… of what you wish... of what you wish for…' </p><p> Sunny fell to the ground and looked up, at the grey sky drowning in the flood of rustling swords. After a while, a terrible smile split his face like a jagged chasm. Taking a shallow breath, he laughed bitterly and whispered: </p><p> "...I'm free"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1588.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1590.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

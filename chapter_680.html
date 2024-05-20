@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 680</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 680 Lost And Found</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Everyone seemed stunned into a grave silence by these words... even Noctis, who must have heard and seen a lot during his long life. Frozen, Sunny stared at Cassie, his lightless pupils narrowing into two vertical slits. Everyone… was dead? </p><p> Everyone? </p><p> Had Mordret... slaughtered an entire region? Thousands of people, or even tens of thousands? Mundane humans, Awakened, Ascended… even the Transcendent Lady of the North herself? </p><p> Suddenly, a cold shiver ran down his spine. </p><p> Sunny knew, of course, that the Prince of Nothing — the owner of the friendly voice he had heard once, in the darkness of a bottomless abyss — was formidable, and would have grown more formidable still after being sent into the body of a Terror. He also knew that Mordret was not completely of sound mind, and that the influence of Hope would have only exacerbated that subtle fissure. </p><p> But a slaughter on such scale… he had never even thought that Mordret would be capable of committing something like that… and why? What goal was the banished prince pursuing? He was never cruel without a cold and calculated reason… or at least he had not been, in the past. Every monstrous act that Mordret had perpetrated before was full of perverse, but deliberate practicality. </p><p> How could something like that be practical? Even forming a seventh core would not have demanded a hecatomb of that magnitude... </p><p> Sunny really did not know how to feel. On one hand, the news of a Chain Lord's demise was beneficial for his plans… in that sense, the Prince of Nothing had already accomplished more to conquer the Nightmare than the four of them combined. But on the other hand, Sunny just couldn't help but feel uneasy about it… about Mordret. </p><p> What was the son of Valor planning? </p><p> His thoughts were interrupted by Noctis, who let out a deep sigh. </p><p> "Everyone is dead… ah, I barely remember the last time something like that happened. But when I was young, at the dawn of the Age of Heroes, things like that were rather common… you wouldn't remember, I guess. That is what happens when human champions grow unfit for their duty." </p><p> He looked away with a dark expression, and then added in a grim tone: </p><p> "And we, the champions of this kingdom, have been unfit for quite a while now… if the Lords can even be called champions, still. Come to think of it, I am surprised that this had not happened sooner." </p><p> He sighed again, then shrugged and turned to Cassie, seemingly having no desire to elaborate on this strange statement: </p><p> "Thank you for delivering this message, girl. If everyone in the north is dead… that makes you the last one, then?" </p><p> The blind woman lingered for a moment, then nodded. </p><p> Noctis pursed his lips. </p><p> "Ah, well, I am very sorry. For what it is worth, you are welcomed to stay here, in my Sanctuary. This is a place for those who are lost, lonesome, and have nowhere else to go. Don't hesitate to ask if you need anything…" </p><p> He turned away, as if losing any interest in the conversation, but at that moment, Cassie suddenly spoke: </p><p> "Actually, there is indeed something that I need." </p><p> The sorcerer stopped, then looked at her with a slight frown and asked with a bit of surprise: </p><p> "Really? Oh… then tell me! I am sure I'll be able to help." </p><p> The beautiful young woman placed a hand on the hilt of her rapier, and then said, her voice deep and pleasant: DiScover 𝒏𝒆w stori𝒆s on no𝒗/e/lbin(.)com</p><p> "I am looking for my friends. I wonder if you would be able to help me find them, Lord Noctis." </p><p> Noctis blinked a couple of times, then glanced at Sunny, Kai, and Effie with a strange expression on his face. Finally, he answered in a cautious tone: </p><p> "Of course! Gladly. But... uh... do you, perhaps… not know how your friends look, where they are, and what they are called? If so, finding them will be... difficult." </p><p> Cassie tilted her head, remained silent for a few moments, and then answered with a bit of confusion: </p><p> "...Why would I not know? I am looking for a four-armed demon, a cripple with a grating voice, and a little girl. Their names are Sunless, Nightingale, and Raised by Wolves. They should be here in your Sanctuary, my lord, or at least visited it not too long ago." </p><p> Noctis smiled radiantly. </p><p> "You would, wouldn't you? Not knowing something like that would be very strange! Gods, finally, someone normal... a four-armed demon, you say? A four-armed... four... huh..." </p><p> The sorcerer's voice trailed off, and then he slowly turned to Sunny, seemingly struggling to say anything else. </p><p> Before he managed to speak again, however, there was a sound of little feet pattering on soft grass, and a small figure collided with the young woman, hugging her with inhuman strength. </p><p> "Cassie! You're alive!" </p><p> Despite the fact that the blind young woman could perceive several seconds into the future and had to have known that Effie was going to tackle her, a bewildered expression still appeared on her beautiful face. She remained frozen for a few seconds, and then hesitantly lowered a hand to pat the little girl on the head. </p><p> "Uh… yes, yes I am. I am happy to see you too, Effie…" </p><p> The little girl stared up at Cassie, and then made a pouty face: </p><p> "What the hell, Cassie? How is this fair? Sunny was short but became tall, Kai was pretty but became hideous, and I… let's not talk about that… but you were pretty before and became even prettier now! The injustice!" </p><p> The young woman smiled gently, and then tightly hugged the little girl. </p><p> "...Why? I think you became very pretty, too." </p><p> Noctis stared at all this, then looked at Sunny with an inexplicable expression. The immortal sorcerer hesitated for a couple of seconds, and then cautiously asked: </p><p> "Ah, Sunless… is this beautiful priestess one of your friends, too?" </p><p> Sunny glanced at him, and then raised the emerald amulet. </p><p> "Yes… the last friend I wanted to find. Her name is Song of the Fallen." </p><p> Noctis remained silent for a while, then looked away and mumbled in a barely audible whisper: </p><p> "By the Moon… I guess I really need to improve my friend-making skills. Otherwise, I would not be able to call myself the friendliest man in all of the Kingdom of Hope anymore…" </p><p> Hearing that, Sunny smiled. He had a reason to. </p><p> Their small cohort... was finally back together.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_679.html">Previous Chapter</a><a class="navigationButton next" href="chapter_681.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

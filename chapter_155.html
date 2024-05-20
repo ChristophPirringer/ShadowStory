@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 155</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 155 First Recruits</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<h4>Chapter 155 First Recruits</h4> <p> The blood was still dripping from Andel's severed head when they left the castle. Nephis was holding it by the hair, her face as indifferent as always. It seemed as though carrying human heads was not even something worthy of changing facial expressions. </p><p> Suddenly, Sunny saw Changing Star in a new light. It was a long time since he had last been wary of her, but now, he was starting to wonder. </p><p> Just how many people had she killed in the past? </p><p> The facial expressions of everyone else, though, ranged from astonishment to horror. People who had witnessed the duel stared at Nephis as though she was some sort of an avenging angel. The others treated her like a terrifying demon. </p><p> 'I wonder... how much souls essence had she absorbed with this one kill? Has to be a lot, right?' </p><p> …But those were just the inhabitants of the castle. The reactions of the people of the outer settlement were strangely reserved, but even more intense. They had never seen one of them stroll into the ancient fortress and walk away freely with a severed head of a Pathfinder in their hands. Now, all of them were watching silently, an inexorable, dark, sweltering emotion burning in their eyes. </p><p> All of it made Sunny very uncomfortable. </p><p> He wasn't sure if Nephis knew what kind of a storm her stunt had evoked in the hearts of these people. That sort of emotion was dangerous and almost impossible to control. If she didn't know, things could turn really bad really quickly. </p><p> …But it was even worse if she did, and had done it on purpose. Was Neph really capable of such ingenious and effective manipulation? Was this her plan all along? </p><p> Sunny wasn't sure that he knew this side of Changing Star. </p><p> Come to think of it, he didn't really know that much about her at all. </p><p> Consumed by these doubts, Sunny didn't even notice that they were already in front of Effie's cabin. He glanced at the sky, only to see the sun hiding behind the ominous silhouette of the Crimson Spire. </p><p> It was evening, just like Nephis had promised. </p><p> '...Scary.' </p><p> The unruly huntress opened the door before they even knocked, a hint of irritation in her eyes. </p><p> "What's with all the commotion?! Can't a girl spend a day in…" </p><p> Noticing the three of them, she froze. </p><p> Without so much as batting an eye, Nephis simply threw Andel's head to Effie's feet and asked: </p><p> "Can we talk now?" </p><p> Looking down at the macabre present, the huntress narrowed her eyes. Her face darkened. </p><p> A few moments later, she glanced up and said in a grim voice: </p><p> "Come inside." </p><p> *** </p><p> As soon as the door closed behind them, Effie asked in a furious whisper: </p><p> "What the hell have you done, princess?!" </p><p> Nephis tilted her head and slightly frowned. Then, she said with a hint of sincere confusion in her voice: </p><p> "You wanted me to prove my strength. Did you not?" </p><p> The huntress stared at her in disbelief. Misunderstanding her silence, Neph blinked, then added: </p><p> "Oh. That head belonged to…" </p><p> "I know whose head it is! Where did you get it?!" </p><p> Sunny sighed and slumped heavily on one of the sturdy chests. Then he forced out a dark smile and said: </p><p> "Oh, by the way… you might be the last human in the Dark City to learn this, but standing right in front of you is none other than Changing Star of the Immortal Flame clan, the champion of justice. She just walked into the castle, challenged the bastard, and killed him with one strike of her sword, right under everyone's eyes. By now, this must be the only thing people are talking about." </p><p> His tone lacked any kind of amusement. If anything, it seemed as though Sunny was just barely stopping himself from cursing out loud. </p><p> Why… why did trouble have to follow him everywhere he went? </p><p> While Neph and Cassie were anxiously waiting for Effie's response, Sunny just stared at his shadow, hoping to find some sympathy. Sadly, there wasn't any to be found. The shadow was just staring back at him, full of jubilant gloating. </p><p> Effie, meanwhile, blinked a couple of times and looked at them with a strange expression. </p><p> 'That's right. Run while you can…' </p><p> Then, she threw her head back and laughed out loud. </p><p> "Oh! Oh, gods! Did you really?! This is priceless! I wish I'd seen their faces!" </p><p> Sunny watched her with his mouth wide open. That was not the reaction he had been expecting. </p><p> 'Crazy, they're all crazy! I'm surrounded by crazy people!' </p><p> When Effie finished laughing, she glanced at Changing Star with a dark, but gleeful expression. </p><p> "Alright, you have proven your point. But there's something you should know. Back when I refused to join the Host, Gunlaug made it clear that if he can't have me, no one else will. Ever since, any group that dared to invite me to join them ended up regretting their decision. By hiring me as a guide, you will be putting yourself in his crosshairs. Are you sure you want to do this?" </p><p> So there was more to her story... no wonder she was so solitary. </p><p> In the ensuing silence, Sunny was the first one to speak. His voice sounded bitter and dejected: </p><p> "I mean… it's a bit late to worry about that. Don't you think?" </p><p> *** </p><p> The next morning, they were preparing to go on a hunt. A small crowd of slum dwellers gathered around to see them off, their dark eyes burning with a strange mix of hope and anguish. </p><p> By now, the story of Changing Star's clever ruse and heroic battle against villainous Pathfinder Andel had already flown all other the place, growing more and more unbelievable with each retelling. Now, these people came to witness her with their own eyes. </p><p> They were especially interested in the Starlight Legion Armor and the symbol engraved on its breastplate. Who knew that the Memory of a simple carapace centurion would have such an effect on the inhabitants of the Dark City? </p><p> Sunny was not happy about it at all. </p><p> The previous evening, he had a chance to ask Nephis a few questions after they had returned to their lodge. However, he kept most of them to himself, not knowing how to properly express his feelings. In the end, he only asked about how she had managed to defeat her human opponent, who was much more powerful in terms of physical prowess, so easily. </p><p> Changing Star's answer was very simple. She just shrugged and said: </p><p> "An old Legacy trick." </p><p> Which pretty much explained everything and nothing at all. </p><p> And now, they were going into the Dark City to hunt monsters. </p><p> When the four of them were ready to set off, a sudden hum of voices made them turn around. The slum dwellers stepped aside, letting a tall young man walk through. </p><p> Sunny frowned. </p><p> 'Great. What is he doing here?' </p><p> Walking closer, Caster stopped a few meters away from them and gave a polite bow. </p><p> "Lady Nephis, Huntress Athena, Cassia, Sunny. Good morning to all of you. I, Caster of the Han Li clan, would like to join your hunting party. Will you have me?" </p><p> Everyone grew quiet for a few moments. Despite Sunny's dislike of the handsome Legacy, having him on their side would be an incredible boon. Genius fighters like Caster were hard to come by anywhere, let alone on the Forgotten Shore. He felt torn. </p><p> A buzz of whispers rose from the crowd. People were shocked to see a warrior from the castle volunteering to join an outer settlement cohort. And one of such fearsome reputation, too! Explore 𝒖ptod𝒂te stories at no𝒗elbin(.)c𝒐m</p><p> After some time had passed, Changing Star simply shrugged. </p><p> "If you want." </p><p> Just like that, the proud scion of the Han Li clan had become the fifth member of their hunting party. It was strange to see their numbers grow after months spent alone in the Labyrinth, but that was probably inevitable. </p><p> What else did Sunny expect? That it would be just the three of them forever? </p><p> 'Stupid...' </p><p> Together, the five Sleepers left the slum of the outer settlement behind and stepped on the road of white stone that lead into the cursed ruins. </p><p> …And just like that, the fates of every human in the Dark City were sealed. </p><p> The end had begun.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_154.html">Previous Chapter</a><a class="navigationButton next" href="chapter_156.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

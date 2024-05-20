@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 13</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 13 Moment Of Truth</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 13 Moment Of Truth</h4> <p> The smile froze on Hero's face. He lowered his head, as though in shame. After a minute or so passed, shrouded in heavy silence, he finally answered. </p><p> "Yes. I thought that if I do it when you sleep, you won't have to suffer." </p><p> Unseen to him, a bitter grin appeared on Sunny's face. </p><p> A long sigh escaped from the young soldier's lips. He rested his back against the cave's wall, still not looking up. </p><p> "I don't expect you to forgive me. This sin, too, will be mine to bear. But, please, if you can… find it in your heart to understand. If things were different, I would have gladly faced that monster to let you escape. But my life… does not belong to me alone. There is an unencompassable duty I am sworn to fulfill. Until it's done, I cannot allow myself to die." </p><p> Sunny laughed. </p><p> "You people… Look at you! Planning to kill me and still insisting on having a good excuse. How very convenient! I really hate hypocrites like you the most. Why don't you be honest for once? Don't give me that crap... just say it! I'm going to kill you because it's easy. I'm going to kill you because I want to survive." </p><p> Hero closed his eyes, his face full of sadness. </p><p> "I'm sorry. I knew you wouldn't be able to understand." </p><p> "What's there to understand?" </p><p> Sunny leaned forward, anger coursing through his veins. </p><p> "Tell me. Why do I have to die?" </p><p> The young soldier finally looked up. Even though he couldn't see in the dark, he turned his face in the direction of Sunny's voice. </p><p> "That man was a villain… but he was also right. The scent of blood is too heavy on you. It will attract the beast." </p><p> "You can just let me go, you know. We'll part ways. After that whether or not the monster finds me won't be your problem." </p><p> Hero shook his head. </p><p> "Dying in that creature's maw… is too cruel a fate. It's better if I do it myself. You are my responsibility, after all." </p><p> "How noble of you." </p><p> Sunny leaned back, dejected. After a short while, he quietly said: </p><p> "You know… when I just came here, I was ready to die. After all, in this whole world — two worlds, actually — there's not a single soul who cares whether I live or die. When I'm gone, no one will be sad. No one will even remember that I existed." </p><p> There was a forlorn look on his face. A moment later, however, it was gone, replaced by mirth. </p><p> "But then I changed my mind. Somewhere along the way, I decided to survive. I must survive, no matter what." </p><p> Hero gave him a thoughtful look. </p><p> "To live a life worth remembering?" </p><p> Sunny grinned. A dark gleam appeared in his eyes. </p><p> "No. To spite you all." </p><p> The young soldier was silent for a few moments, then nodded, accepting this answer. He rose to his feet. </p><p> "Don't worry. I'll make it quick." </p><p> "Aren't you overly confident? What makes you think you'll be able to kill me? Maybe I'll kill you instead." </p><p> Hero shook his head. </p><p> "I doubt that." </p><p> … But in the next second, he staggered and fell on one knee. The young man's face turned deathly pale, and with a pained groan, he suddenly vomited blood. </p><p> A satisfied smile appeared on Sunny's face. </p><p> "Finally." </p><p> *** </p><p> "Finally." </p><p> Hero was standing on his knees, the lower part of his face covered in blood. Astonished, he was staring at his hands, trying to understand what had happened to him. </p><p> "What… what magic is this?" </p><p> With wide eyes and a pale face, he turned to Sunny. </p><p> "Was… was that thief right? Did you put the curse of the Shadow God on us?" </p><p> Sunny sighed. </p><p> "I wish that I had the ability to throw divine curses around, but no. To tell you the truth, I don't have any abilities at all." </p><p> "Then.. how?" </p><p> The young slave shrugged. </p><p> "That's why I poisoned you all." </p><p> Hero flinched, trying to comprehend his words. </p><p> "What?" </p><p> "After the tyrant first attacked, you send me to search for water. While gathering flagons from the dead soldiers, I squeezed Bloodbane juice into each one — except my own, of course. Not enough to taste it, but enough to slowly kill anyone who would drink from them." </p><p> The soldier gritted his teeth, struggling through pain. A sudden realization appeared on his face. </p><p> "So that's why… the other two were in such bad shape." </p><p> Sunny nodded. </p><p> "Shifty drank the most, so his condition worsened the fastest. Scholar was also not long for this world, but you finished him off before the poison could. Yourself, however… it was as though Bloodbane had no effect on you at all. I was really starting to get worried." </p><p> Hero's face darkened. </p><p> "I see… I understand." </p><p> He thought about something, then looked at Sunny with surprise. </p><p> "But… but back then you didn't know… that we will turn on you." </p><p> Sunny just laughed. </p><p> "Oh, please. It was obvious. Shifty was the kind of man who would kill for a pair of boots. Scholar was like a wolf in sheep's clothing. People are selfish and cruel in the best of situations — was I supposed to believe that those two weren't going to do something terrible to me when faced with certain death?" </p><p> Hero spat more blood. </p><p> "Then… what about me?" </p><p> "You?" A disdainful expression appeared on Sunny's face. "You are the worst of them." </p><p> "Why?" </p><p> Sunny looked at him and leaned forward. </p><p> "I might have not learned much in my short life, but I do know one thing," he said, all traces of humor gone from his voice. </p><p> Now there was only cold, callous contempt. Sunny's face hardened as he spat: </p><p> "There is nothing more pathetic than a slave who begins to trust his slaver." </p><p> Hearing these words, Hero lowered his head. </p><p> "I see." Visit n𝒐velbin(.)c𝒐m for 𝒏ew 𝒏ovels</p><p> Then, suddenly, he laughed. </p><p> "You… you are a wicked little shit, aren't you?" </p><p> Sunny rolled his eyes. </p><p> "There's no need to be rude." </p><p> But Hero wasn't listening to him. </p><p> "Good. This is good. My conscience will be clearer." </p><p> The young slave sighed in irritation. </p><p> "What are you mumbling about? Just die already." </p><p> Hero chuckled and suddenly pierced him with a stare. Somehow, he didn't look so sick anymore. </p><p> "You see, that plan would have worked if I was a normal human. But, alas, my Soul Core has Awakened long ago. I've slain countless enemies and absorbed their power. Bloodbane poison, unpleasant as it might be, can never kill me." </p><p> 'Crap!' </p><p> Sunny turned around and tried to run away, but it was already too late. Something hit him in the back, sending his body crashing into the rock wall. With a scream, he felt a sharp pain piercing his left side. Rolling out of the cave, Sunny clutched his chest, scrambled back onto his feet and ran, trying to escape the narrow crevice. </p><p> He managed to reach the old path, finally being able to see the stars and the pale moon shining brightly in the night sky. But it was as far as he was able to get. </p><p> "Stop." </p><p> As the cold voice sounded behind him, Sunny froze. If Hero really had an Awakened Soul Core, he had no chances of getting away from him. In a fight, he had no chances at all. </p><p> "Turn around." </p><p> The young slave obediently turned, holding his hands up. He looked at Hero, who was wiping the blood off his face with a displeased look in his eyes. The two of them stared at each other, shivering in the murderous cold. </p><p> "Was it worth it? No matter. Despite it all, I will be true to my promise. I'll make it quick." </p><p> The soldier unsheathed his sword. </p><p> "Do you have any last words?" </p><p> Sunny did not answer. </p><p> However, a small silver bell suddenly appeared in his hand. </p><p> Hero frowned. </p><p> "Where were you hiding that thing?" </p><p> Sunny shook the bell. A beautiful, clear ringing sound flowed over the mountain, filling the night with an enchanting melody. </p><p> "What are you doing?! Stop!" </p><p> The young slave dutifully stopped. </p><p> "What was…" </p><p> Right under Hero's bewildered eyes, the silver bell disappeared into thin air. He looked at Sunny, stumped and suspicious. </p><p> "Tell me! What did you just do?" </p><p> But Sunny didn't answer. In fact, he hadn't said a single word ever since escaping the cave. Right now, he wasn't even breathing. </p><p> Hero, on the other hand, continued to speak. </p><p> "Tell me right now or you will regret it." </p><p> He scowled. </p><p> "Why are you not saying anything?" </p><p> The shivering boy just stared at him, completely silent. </p><p> No… he was staring into the darkness behind him. </p><p> Hero's eyes widened. </p><p> "What…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_12.html">Previous Chapter</a><a class="navigationButton next" href="chapter_14.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

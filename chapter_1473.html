@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1473</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1473 Hiding In The Tower</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1473 Hiding in the Tower</h4> <p> Days passed in a strange mix of idleness and tension. Aletheia's Island had always been like a misty hell, but now, that hell was boiling - even secreted away inside the tower, the members of the cohort could feel the echoes of the harrowing clashes between the abominable Nightmare Creatures. </p><p> These fiends had been caught by the island across many centuries, but now that the loop was destroyed, they were eradicating each other with terrifying speed. </p><p> Of course, Undying Slaughter and Devouring Beast were at the forefront of the massacre. </p><p> Sunny caught glimpses of the two from time to time. His shadows were always keeping an eye on the outside world. With the mist growing thinner with each day, the landscape of Aletheia's Island gradually cleared - so, by now, he could see a good chunk of the ancient forest from the top of the tower. </p><p> The lumbering shape of the bestial giantess was easily noticed. Undying Slaughter was much harder to spot, but he could clearly see the death throes of her victims. For now, nothing seemed to be able to prevail against the two Defiled Saints... to his disappointment. </p><p> He would have preferred to see the two Plagues killed by the powerful Nightmare Creatures residing on the island. If they perished, there would be no need for the cohort to stay. Sunny and his companions would be able to return to the Chain Breaker and slip away into the darkness at the heart of the vortex. </p><p> But, of course, reality was not that convenient. </p><p> Speaking of his companions, each of them was recuperating in their own manner. Nephis was replenishing her soul essence with stunning speed, and spent most of her time training. Her singular devotion to her sword seemed almost obsessive, by now. </p><p> Cassie had disappeared into the spherical chamber of Aletheia's Tower, where she was supposed to be studying the runes. And she did do that, of course... but, somehow, Sunny felt that the blind girl mostly went there to be alone. That was why she only returned above ground to eat meals prepared by Nephis and sleep. Most of the time, it was easy to forget that she was even with them. </p><p> Effie and Jet were perhaps the most tired of them all. They had experienced months of battling dangerous Nightmare Creatures across the Great River, the tragic destruction of their nomadic tribe, the escape from the swarm of the Drowned, and the horrors of Aletheia's Island without ever having a moment to catch their breaths. </p><p> So, these days of hiding inside the tower were the first real opportunity to rest they had received since entering the Nightmare. </p><p> The two women mostly relaxed and remained idle. Sunny spent some time with Effie, describing his own experiences in the Tomb of Ariel and sharing valuable knowledge. Jet also listened, sometimes offering her opinion or asking questions... but mostly, she just looked deeply and comfortably asleep. Check new 𝒏ovel ch𝒂pters at nov𝒆lbin(.)com</p><p> Sunny was baffled about how someone could sleep so much, but after remembering how overworked Soul Reaper had usually looked since the first day they met, he just figured that she was catching up on nap time after a decade of being worked to the bone by the government. </p><p> It really told a lot that she could only get enough sleep... inside a Nightmare. </p><p> Jet was consuming the fruits of the sacred tree to replenish her dwindling essence. For now, it looked like there were enough of the succulent golden fruits to last her a long while... she even shared a couple with Effie, partially because the huntress was drooling a lot when Soul Reaper ate, and partially because, according to Jet, "it could be good for the baby". </p><p> Sunny wasn't sure what she meant, but he wasn't going to complain. </p><p> As for himself... he had tried to stay idle for the first day, but quickly grew bored with doing nothing. Or rather, the memories of his gruesome death were too vivid when Sunny was not doing anything, so he quickly found something to do. </p><p> Of course, that something was weaving. Now that Sunny had five Supreme soul shards to spare, he could start thinking about how to empower the cohort best. He had a few ideas, but was not confident yet. He needed some practice first. </p><p> In order to test his theories, Sunny made a few simple alterations to his weaker Memories. For example, he managed to transplant the [Blessing of Spirit] - the enchantment enhancing recovery from mental fatigue - from the Shroud of Dusk to the Puppeteer's Shroud. </p><p> He did not even have to add an additional nexus to his first Memory armor, because it already possessed five, but only two relatively light enchantments. Additionally, the [Blessing of Spirit] suited the original Shroud well, considering that its [Doubtless] enchantment also had to do with protecting the mind. </p><p> In the same manner, he transplanted the [Blessing of Flesh] - the enchantment that enhanced recovery from physical fatigue - to the Eternal Spring. Now, not only could the beautiful glass bottle provide a near-infinite supply of water, but drinking that water was also especially invigorating. </p><p> Sunny also made another attempt to master the [Unseen] enchantment of the Moonlight Shard. That single enchantment, which allowed the ghostly stiletto to be summoned instantly, could qualitatively change every Memory in his arsenal. Sadly, it remained unattainable and elusive. He often felt that he was almost there... but at the last moment, the weave always slipped from his fingers. </p><p> These were all minor projects, though. His true desire, the white whale Sunny continued to pursue... had little to do with Memories. </p><p> Instead, it had to do with Echoes. He had already studied Cassie's blade mannequin before, but now, he also asked her to lend him the Quiet Dancer. By comparing the two Echoes - one created by the enchanters of Clan Valor, the other by the Spell - Sunny was able to learn many new things and come to several tentative conclusions. </p><p> He felt that creating an Echo was still far beyond him, or at least too time-consuming to try. However... Sunny came up with a crazy idea. </p><p> What if, instead of creating an Echo, he could convert a Memory into one? The Quiet Dancer was already similar to a sentient weapon. Sunny did not know how to weave a semblance of sentience. He did not know how to even approach learning something like that, either. </p><p> But he also did not need to. </p><p> Anyone else would, but he already had something to substitute artificial sentience with... the true sentience of the silent shadows dwelling within the darkness of his soul. </p><p> If he could change the weave of a Memory to that of an Echo... even if the resulting Echo lacked the most important quality - the false spark of life to animate it - his Aspect could theoretically allow him to convert the defective Echo into a perfectly fine Shadow, given that the original Memory and the dark spirit shared the same source and were thus compatible. </p><p> Or at least, that was his theory. Truly, Sunny had no idea what kind of a monster such an experiment would create. </p><p> Nevertheless, he set his eyes on the Covetous Coffer, which already possessed a few qualities necessary for an Echo, and shared some qualities with the Quiet Dancer, as well. The shadow of the Mordant Mimic was there, in Sunny's soul, so he decided to make it his test subject. </p><p> He was only starting to consider how to go about making the Coffer into a partial Echo, though, when something unexpected happened. </p><p> As he was coaxing the temperamental rapier into staying still and letting him study her weave... </p><p> The entire tower suddenly shook.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1472.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1474.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

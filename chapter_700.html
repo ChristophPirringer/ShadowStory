@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 700</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 700 Blood Of The Moon</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> No one dared to speak for a few moments, unnerved by the sudden change in the sorcerer's mood. After a while, though, Effie tugged on his sleeve and asked: </p><p> "Uh, care to elaborate... Grandpa Noctis?" </p><p> Noctis looked at her absentmindedly, then flinched and jerked his sleeve away, wiping the spot where the little girl touched it with a repulsed look. </p><p> "G—grandpa? Who are you calling a grandpa, you critter?!" </p><p> He moved his chair away from Effie and stared at her menacingly for a moment, then threw a hurt look at Sunny. </p><p> Sunny shrugged. </p><p> "...You are a thousand years older than her." </p><p> The sorcerer opened his mouth with a deeply offended expression, then puffed and looked away. </p><p> After a long and poignant pause, he continued: </p><p> "Anyway… as I was saying, Sevras has three weaknesses. The first one is his Flaw — he is incredibly powerful during the day, but nearly powerless during the night. The second one is his brother… surprising, I know, considering what he did to the poor guy. But the Ivory Lord still genuinely cares about his younger sibling. In fact, that is probably the only thing he cares about anymore, apart from his duty and principles." </p><p> Noctis grew quiet for a moment, and then added in a somber tone: </p><p> "And the third one is his city. That… Sevras loves his people. But he also hates them. They are a burden that weighs heavily on his soul, one that he cannot escape. Their relationship had long been perverted by Hope, and by his own stubborn unwillingness to give up. Noble, righteous Sevras… he might seem like the sanest among us, but in reality, he is the closest to utter madness. All it will take to send him over the edge is one push." </p><p> The immortal Transcendent sighed, then shook his head reproachfully. </p><p> "That guy… ah, truly, he has always been too serious. You can't survive in this place without a sense of humor… even if you are immortal." </p><p> The sorcerer giggled at his own joke, and then looked at them with a relaxed smile. </p><p> "...So, we will attack at night, when the Ivory Dragon Sevirax is at his weakest. And we will kill his younger brother before dawn. That will be the push that sends him into the abyss, and dooms him." </p><p> Sunny shivered, looked at the immortal Transcendent, and asked cautiously: </p><p> "...Is it wise, to drive a dragon insane?" </p><p> Hearing this, Noctis simply laughed. </p><p> "Of course! Sevras the Ivory Lord is fearsome and dreadful, but Sevirax the Dragon is just a mindless beast. Killing a beast is not too difficult, for a cunning hunter. And while I might not be as righteous and as noble as Sevras…" </p><p> His smile disappeared, and his eyes suddenly shone with pale light. </p><p> "...I am blood of the Moon, Beast God... the God of Hunters." </p><p> With that, the sorcerer leaned back and took a sip of his wine, slowly returning to his usual carefree self. 𝑅ead new chapt𝒆rs on novel𝒃in(.)com</p><p> "Granted, I have not hunted for a while… the wilderness is just so ghastly, you know? The dirt, the insects… the fashion. Oh, the horror!" </p><p> He sighed heavily, and then smiled again. </p><p> Sunny hesitated for a bit. There was a question that he really wanted to ask, but was not sure that he should. </p><p> Finally, he said: </p><p> "What is your Flaw, then? I know that it is not the kind of question people ask, or answer… but our lives will be depending on your fight with the dragon. I think we have the right to know." </p><p> Noctis waved his hand dismissively. </p><p> "Oh, it's nothing much. More or less the exact opposite of his. I am at my strongest under the moonlight, but grow weak in the sunlight. No reason to hide it from friends." </p><p> He thought for a bit, and then added: </p><p> "Solvane's Flaw is perhaps the most cruel… she is cursed with beguiling beauty. Being with her slowly drives people mad with longing and lust, like an insidious drug. The more someone spends time with her, the more they want to possess her, eventually giving in to irresistible desire. A terrible fate, no doubt, but… not exactly something we can use. Unless, of course, one of you… no, let's not think about that!" </p><p> Noctis grinned, then shook his head. </p><p> "The Sun Prince's Flaw… well, it doesn't matter anymore. Now that he is encased in that steel monstrosity and almost mindless, we won't be able to make use of it, anyway. We will just have to kill him in a straightforward manner. So… do you guys have questions?" </p><p> The four of them looked at each other, and after a long pause, Kai asked hoarsely: </p><p> "Yes, Lord Noctis… just one. When we attack the Ivory City at night, and you are fighting the Sun Prince and Solvane… what, exactly, are we four supposed to do?" </p><p> The sorcerer stared at them in confusion, then raised an eyebrow. </p><p> "Why, is it not clear? While I am preoccupied with the Chain Lords... you will simply have to destroy the Sun Legion and the army of the Red Colosseum." </p><p> He thought for a bit, and then added: </p><p> "Well, if you somehow fail to destroy them, at least keep them away from me for a while. Solvane and the Sun Prince… yeah, shouldn't take me too long… I think you will manage…" </p><p> *** </p><p> At the precipice of night, Sunny came to the edge of the island alone and stood there for a while, shrouded in shadows. </p><p> Now that things were nearing the final stage, there was a lot he had to think about. There was the seemingly insane plan of attacking the Ivory City… the battle the cohort was going to wage against two armies while Saints fought in the skies above them… </p><p> And then there was Mordret, who remained an unknown variable in this whole mess. </p><p> What concerned him the most, however, was his unformed fourth core. Going into the dire battle as a Devil would have been far better… what's more, he couldn't allow himself to undergo the debilitating process of forming a new core in the midst of the furious clash. </p><p> With the culmination of the Nightmare swiftly approaching, he had no more time left to slowly seek out and kill Nightmare Creatures, and so, Sunny was forced to do something that he had always been reluctant to do. </p><p> With a sign, he summoned his Shadows. </p><p> The taciturn knight, the stygian steed, and the tenebrous serpent appeared in front of him, their figures drowning in the darkness. Two of his shadows slid forward and wrapped themselves around Nightmare and the Soul Serpent, with only the gloomy one remaining at his feet. </p><p> Sunny lingered for a bit, and then said: </p><p> "Go. Travel far and wide, seek out Nightmare Creatures… and kill them. I need you to hunt for me, instead of with me, for a while." </p><p> He paused, and then added somberly: </p><p> "Be careful, however. This world… is a dangerous place. No matter how strong you are, how powerful you are, there is always someone — or something — far stronger. Especially when you are alone. So, don't let yourself get destroyed. Alright?" </p><p> Saint stared at him for a few moments, then outstretched a hand. After he placed the hilt of the scarlet odachi in it, she silently turned around and jumped down, landing on the links of the heavenly chain far below. </p><p> Nightmare and the Soul Serpent dashed in opposite directions, soon disappearing from view. </p><p> Just like that, Sunny was left alone. </p><p> He remained motionless for a few moments, then sighed and looked down, at the gloomy shadow. </p><p> "I guess it's just you and me again. Like good old times, huh?" </p><p> The shadow stared at him darkly for a second, and then raised a hand, clearly unsure what good times he was talking about, exactly. </p><p> Sunny smiled. </p><p> "Yeah. Love you too, buddy…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_699.html">Previous Chapter</a><a class="navigationButton next" href="chapter_701.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

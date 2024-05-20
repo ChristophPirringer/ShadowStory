@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 503</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 503 Harsh Reality</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny shifted in his seat, a bleak expression appearing on his face. </p><p> 'A human?' </p><p> Why would a Master be hunting down a human? There was police for that. </p><p> Unless, of course, that human was an Awakened… </p><p> Sunny was aware that special government agents — carriers of the Nightmare Spell themselves — dealt with those Awakened who broke the law, simply because police officers were often helpless against criminals that possessed inhuman strength and wielded bizarre or dangerous Aspect Abilities. It made sense that Master Jet would be involved in that side of government work, too. </p><p> But, honestly, he didn't know too much about how these things usually went. </p><p> Glancing at her, Sunny asked: </p><p> "Is it an Awakened criminal?" </p><p> Master Jet spared him a short glance. </p><p> "A… criminal? Yes, you might say that." </p><p> She remained quiet for a few moments, and then corrected herself. </p><p> "No, actually, do not. The man we must find is not a criminal. He is an animal... a rabid one." </p><p> Sunny frowned. </p><p> "An interesting choice of words." </p><p> Master Jet was concentrating on driving the PTV, so she didn't answer immediately. When she did, however, her voice was strangely calm: </p><p> "You are not an inexperienced Sleeper anymore, Sunny, so I will be straightforward. You, of all people, should be able to understand. The Nightmares, the Dream Realm… they take a toll. Some people endure, some people break. Some people carry the nightmares back with them to the real world." </p><p> A dark expression slowly appeared on her face. </p><p> "From what I heard about the Forgotten Shore, you witnessed the worse of what the Spell does to us. Yes, we Awakened are at the top of the world… those who return alive, that is. We have all the privileges, all the money, all the power. But the mark it leaves on us never goes away. After all the pain, blood, and horror… after all the crap we the lucky few are forced to survive, many crack." </p><p> Master Jet looked at the road, her icy eyes full of unimaginable coldness. </p><p> "...Some crack a little, and some crack a lot. The government portrays us Awakened as powerful and noble, the saviors of the world… but really, most of us are walking on the edge, just one little step away from madness. All that trauma can mess one up really good, you know? It's all a big, big mess. So, when one of the Awakened loses control up and makes that last step… what do you think happens?" </p><p> Sunny remained silent for a while, thinking about the damage a deranged Awakened could do in the mundane world. His expression became dark and heavy. </p><p> He didn't even want to imagine. </p><p> "When that happens... you receive a call." </p><p> Master Jet glanced at him and smiled. </p><p> "Smart. Yes, when an Awakened goes out of control, I — or someone like me — receives the call. Things like that usually don't get out, because the government doesn't want them to. For obvious reasons. Everything is dealt with quietly, and so, here we are." </p><p> Sunny didn't speak for a bit. Then, he asked: </p><p> "So, what exactly is going to happen? We find this guy, talk him down or overpower him, and then put him in cuffs? Arrest him?" </p><p> What a funny thought that was. Him, making an arrest. Sunny had been on the other side of this equation a few times in the past, and never in his life had he imagined putting handcuffs on someone, and not the other way around. </p><p> Master Jet gave him a complicated look. There was almost... pity? </p><p> "...No. We are not going to arrest him." </p><p> Sunny blinked a couple of times.</p><p> "Will he be free to walk around as if nothing happened until the trial?" </p><p> Of course, there was another, much darker answer… </p><p> As if reading his thoughts, Jet slowly shook her head. </p><p> "No. No, he won't be walking around." </p><p> Sunny looked into the window. </p><p> "...Ah." </p><p> Master Jet sighed. T/his chapter is updat𝓮d by nov(ê(l)biin.co/m</p><p> "If they summoned me, then things are already beyond that. Think about it… if a mundane human needs to be contained, you can put them in prison. But we… we are Awakened. Realistically, there is no prison that can be built to hold us. Not with every Aspect being unique, and demanding unique means of containment. So there will be no arrest, and there will be no trial." </p><p> She accelerated the PTV even further, and then said evenly: </p><p> "...There will only be an execution." </p><p> Sunny looked out the window, not sure how he felt about that. Yes, what Master Jet said made sense. Awakened were too powerful, and too dangerous. If one of them lost control, then they needed to be dealt with, somehow. In a perfect world, they would go through the same process that mundane humans went through. </p><p> They would be arrested, tried, and either locked in a cell or receive proper help in a mental institution. </p><p> But this was not a perfect world. </p><p> So, instead, they would just be hunted down and executed, and the whole thing would be swept under the rug to preserve the spotless reputation the Awakened enjoyed. </p><p> Although harsh, this was the somber reality. He wasn't against the idea itself. He just didn't know how to feel about the fact that this time, he was going to be the executioner. </p><p> Finally turning to Master Jet, Sunny lingered for a few moments, and then asked: </p><p> "So why me, of all people? Why ask me for help?" </p><p> Master Jet glanced at him, then grinned. </p><p> "Three reasons, really." </p><p> She blew through an intersection, almost crashing into a heavy cargo vehicle, and then dodged it at the last second. </p><p> "First, I know you. There are many people who could have helped, but very few whom I would trust to have my back." </p><p> Sunny nodded, strangely pleased to hear that. </p><p> "Second, from the initial information I received, the suspect might have an Aspect that is somewhat similar to yours. High affinity to shadows. So, you'll be helpful when we're tracking him down, and if things go south, he won't be able to escape easily." </p><p> 'Another shadow user... interesting.' </p><p> She gave him a calm look, and added: </p><p> "And lastly… there are a lot of people working for the government, but very few who are suited for this kind of work. Unlike you and I." </p><p> Sunny considered her words. After a while, he asked: </p><p> "Because I am from the outskirts, just like you?" </p><p> Master Jet remained silent for a bit, and then gave him a bright smile. </p><p> "...No. Because you are a killer. Just like me."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_502.html">Previous Chapter</a><a class="navigationButton next" href="chapter_504.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

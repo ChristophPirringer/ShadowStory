@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 661</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 661 Precious Tether</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The towering demon and the hideous cripple stared at each other for a bit, their eyes wide with shock. </p><p> "Now way… he was here all along? Wait, who dared to do this to Kai?! When I find the bastard, I'll tear them limb from limb!" </p><p> Sunny was so stunned that he even failed to let go of the emerald amulet. He gritted his fangs, then asked a question, at the same time as Kai did: </p><p> "...Who did this to you?!" </p><p> "...Why are you so tall?!" </p><p> Flustered, the two fell silent for a moment. </p><p> Then, Sunny reached out and grabbed the cripple into a crushing hug, wrapping all of his four arms around him. Who knew… who knew that this repulsive body, which was covered in dirty bandages that smelled of blood and pus, would suddenly become so precious and dear to him? </p><p> "I was put into a body of a demon… why wouldn't I be tall, you idiot?" </p><p> Kai let out a startled yelp, struggled weekly, and then patted Sunny on one of the arms. </p><p> "Argh… Sunny… I am very glad to see you, as well… but… my burns!" </p><p> Sunny jolted, then hurriedly let go of the cripple's body and gave him an apologetic look. </p><p> …Beneath that simple emotion, though, a dark ocean of fury smoldered with dangerous flames. </p><p> "Sorry… I didn't... Kai! You're alive! Damn, I am so happy to see you! I was starting to wonder… wonder if any of you guys have made it alive…" </p><p> Kai looked at him, then smiled. Through the gaps in the bandages, his disfigured face looked ghastly and hideous… but the sparks glinting in his eyes were the same. He sighed. </p><p> "Yeah. I was fearing the same." </p><p> The young man hesitated, and then added, his voice suddenly ringing hollow: </p><p> "After the Iron Hand island… I almost gave up hope. I didn't think that I'll see any of you ever again." Nêw 𝒄hapters will be fully updated at nov(𝒆)l/bin(.)com</p><p> Sunny frowned, confused by Kai's words. He dismissed his bow, and then thought tensely: </p><p> "...Why? What is on the Iron Hand island?" </p><p> The cripple looked at him with surprise. </p><p> "You haven't been there?" </p><p> Sunny shook his head. </p><p> "No. I was going to travel there in a week, after my new heart settles. Ah… I made a deal with a sorcerer, you see, to replace a heart I lost…" </p><p> Kai stared at him for a bit, then looked down and let out a heavy sigh. </p><p> "I see. Well… there's not much to tell." </p><p> He remained silent for a few moments, and then said quietly, his hoarse voice growing even more creaky and grating: </p><p> "There was no sign that you or Cassie had ever managed to reach the rendezvous point… even though months had already passed. But Effie… Effie left a message there, carved into a stone pillar." </p><p> "So Effie is alive, too!" </p><p> Sunny clenched his fists, excited. </p><p> Of course she was alive! That glutton would never die and leave all the food in two worlds uneaten! </p><p> Encouraged, he eagerly asked: </p><p> "What message did she leave?" </p><p> Kai looked away, as if reluctant to answer. </p><p> After a while, he finally opened his mouth and said quietly: </p><p> "It was… it was just one sentence." </p><p> The young man glanced at Sunny, then added in a somber tone: </p><p> "Do not come to the Temple of the Chalice…" </p><p> *** </p><p> As it turned out, Kai had reached the Sanctuary two weeks before Sunny. Although he did not go into detail, the archer explained that he had been sent into the body of an officer in the army of the Ivory City, and got entangled in the conflict between the Sun people and the Warmongers for the first months of the Nightmare. </p><p> Eventually, he managed to escape and made his way east. The journey was slow and torturous because of how terribly mangled his body was, but he somehow made it to the Iron Hand island alive… if just barely. There, his hope of reuniting with his friends was cruelly crushed by the fact that neither Sunny nor Cassie seemed to have made it, while Effie had only left an ominous message imploring them to not try to find her. </p><p> Consumed by terrible pain and despair, Kai left his own message on the island and continued to the Sanctuary, where, as he had heard, stragglers like him could find refuge and shelter. </p><p> He remained there since, trying to recover as much strength as he could and hoping against all logic that the others were going to read the message he had left and come to the Sanctuary, too. And then, through a strange twist of fate, Sunny arrived despite not even visiting the Iron Hand island! </p><p> Kai shook his head and said, his voice full of amusement: </p><p> "...How did you even end up here? Arriving on that flying ship, no less. Sunny, do you know who its captain is?" </p><p> Sunny nodded. </p><p> "Who else? It's Noctis… that guy goes around insisting that he is now my best friend. You see... the Spell sent me into the Warmonger's territory, where I was captured and forced to participate in their wicked Trials. I barely escaped with my life, and stumbled upon him while fleeing to the Southern Island. He needed a favor from a shadow creature, and I needed passage to the eastern parts of the Chained Isles. So… that's how I arrived here on that ship." </p><p> He grew silent for a bit and scowled, thinking feverishly. </p><p> Do not come to the Temple of the Chalice… that was what Effie had written on a stone pillar. However, Sunny had heard of the place before, in the nightmare of the Shadow Lord. </p><p> Give the glass knife to the War Maiden in the Temple of the Chalice — that was what the immortal Shadow had told the original owner of the four-armed demon's body. And that was the secret Noctis wanted to learn from Sunny, while Sunny wanted to find his friends. So many coincidences... </p><p> Kai cleared his throat. </p><p> "You… you know who he is, right? Lord Noctis is the master of this place, as well as one of the five Transcendent immortals. Throughout the Kingdon of Hope, he is feared and revered in equal measure, and his name is synonymous with mystery and power… as well as debauchery, mischief, and disaster. A being like him… although Lord Noctis is rumored to possess a merciful heart, he is still dangerous and terrifying. Sunny... are you sure that you should be getting entangled with such a being?" </p><p> Sunny glanced at Kai and remained silent for a while, then said in a grim tone: </p><p> "...There is not much choice. He is the axis of this Nightmare. Dangerous, terrifying... Noctis is all that, and also so much more. However, all of that is not very important right now." </p><p> He sighed, and then turned toward the residence of the frightening immortal with a dark expression on his face. </p><p> "What's important right now… is that he can help us find Effie…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_660.html">Previous Chapter</a><a class="navigationButton next" href="chapter_662.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

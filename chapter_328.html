@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 328</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 328 Siege Of The Crimson Spire 14</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 328 Siege of the Crimson Spire (14)</p><p>Left on the top of the tall mound of crimson coral, Cassie stood alone in the darkness.</p><p>Now that the Quiet Dancer had left her side, she was back to her previous self.</p><p>Lost.</p><p>Weak.</p><p>Frightened.</p><p>Utterly helpless.</p><p>The oppressive nothingness surrounded her from all sides.</p><p>But that nothingness was full of sound.</p><p>It swelled with the deafening cacophony of the nightmare horde's onslaught. Cassie heard howls, growling, inhuman screams, shrieks, and the scraping of chitin.</p><p>She heard the clangor of steel and the sound of flesh being ripped apart.</p><p>She also heard countless human voices calling out to any kind of deity that could save them. Full of fury, agony, bravery, fear, resolve, sorrow, strength, helplessness, hope, faith, despair, disbelief.</p><p>She heard them dying.</p><p>Standing above it all, Cassie shivered. She wanted to press her hands against her ears, but didn't.</p><p>…Her terrible vision was coming true.</p><p>And she was back to being lost in the darkness.</p><p>Just like before. Worse than before. Almost like on that first day in this cursed, forsaken, lightless land.</p><p>In this forgotten hell.</p><p>Back then, she had found herself stranded on a similar mound of coral. Only what surrounded her was the dark sea and not a horde of Nightmare Creatures.</p><p>But Cassie didn't know that. She didn't know where she was, and what was hiding in the boundless darkness. She only knew that she was alone, and helpless.</p><p>That she was going to die in that lonesome, cold nothingness.</p><p>She had given up. Sitting down on the hard coral, she hugged her knees and tried not to cry. Abandoned and forgotten, she waited for death.</p><p>But instead of death, a cold and indifferent voice came out of the darkness:</p><p>"...What are you doing?"</p><p>That was how she met Nephis, who saved and protected her ever since. Without even asking anything in return, not before, and not after learning of what Cassie's Aspect was able to do.</p><p>Just because she wanted to.</p><p>Nephis brought her out of the darkness and destroyed the bitter, all-encompassing prison of her loneliness. How was Cassie supposed to ever repay that debt?</p><p>And then, she met Sunny. Sweet Sunny, who pretended to be callous and cruel, but was actually caring and kind.</p><p>And then, she had to make a choice.</p><p>…And now, she had to live with that choice.</p><p>Or die with it...</p><p>As Cassie stood, listening to the sounds of slaughter, a sudden gust of wind rustled her beautiful blond hair.</p><p>She flinched, and slowly turned to face the wind.</p><p>A moment later, her face paled, and her lips moved slightly.</p><p>'No!'</p><p>Left alone, away from the battle and anyone who could have heard her, Cassie closed her eyes and whispered into the nothingness:</p><p>"A storm… there is a storm…"</p><p>***</p><p>The Dreamer Army became much smaller, but still held on. In fact, it was slowly pushing the horde of the Nightmare Creatures back.</p><p> As the line of archers ran out of arrows and ammunition, those who had no suitable Memories to replace them summoned their melee weapons and joined the vanguard, reinforcing its dwindling numbers. The Artisans had done the same, abandoning their siege engines and throwing themselves into the crucible of combat.</p><p>The nightmare horde, meanwhile, had depleted its seemingly endless reserve of fresh bodies. With no more abominations crossing the bridges of crimson coral and lunging forward to join the massacre, its mass was slowly growing thinner.</p><p>With Changing Star serving as the unassailable core of the human formation and rallying fighters around her, with Effie stalling the entire horde to give the rest of the humans time to mend the breaches in their defense lines, for a few minutes, the flow of the battle froze in fragile balance.</p><p>The two opposing forces seemed to finally be evenly matched.</p><p>All it would have taken for the humans to turn that balance in their favor was one last furious push.</p><p>"Come on! Hold strong!"</p><p>"Lit yourself on fire!"</p><p>"Follow the Immortal Flame!"</p><p>As several people yelled, feeling that the fate of this battle was about to be decided, a gust of wind suddenly blew over the battlefield, bringing with it the smell of salt.</p><p>The light dimmed slightly.Ch𝒆ck for 𝒏ew st𝒐ries on novelbin(.)c0m</p><p>Looking west, they suddenly stumbled and froze for a few moments. Their faces became as white as snow.</p><p>…Behind the Crimson Spire, an impenetrable wall of darkness was slowly devouring the world. It was approaching the battlefield with terrifying speed, numerous bolts of lightning illuminating its furious depths.</p><p>A storm was coming.</p><p>As it drew closer and closer, the surface of the black water that swirled around the island of the cyclopean tower suddenly trembled.</p><p>And then, it began to crawl upward.</p><p>First slowly, and then faster and faster, the black whirlpool swelled and moved forward, swallowing the crimson coral meter after a meter, its dark vastness rising and seething.</p><p>The cursed sea was coming to devour the Forgotten Shore.</p><p>The monsters that guarded the Crimson Spire, however, did not react in the same way as the usual Nightmare Creatures would have.</p><p>Instead of scurrying away to find shelter, they howled and shrieked in eerie triumph, and then crashed into the Dreamer Army with renewed fury.</p><p>Expressions of terror and despair appeared on people's faces. But there was nowhere to retreat, nowhere to run.</p><p>All they could do was stand and fight.</p><p>Even when the ground beneath their feet became slippery and slick, covered by a thin film of black water.</p><p>Even when the water continued rising.</p><p>***</p><p>[You have slain an awakened…]</p><p>[Your shadow…]</p><p>[You have received a…]</p><p>Spinning as soon as the remains of the Lord crumbled to the ground, Sunny dashed toward the remaining six golems to reinforce the heavily damaged Saint.</p><p>He didn't listen to the Spell, picking up only one piece of information from her words: the coral golems were of the Awakened rank.</p><p>…Made sense.</p><p>Just as a Fallen Tyrant was not supposed to be able to create minions of the same Rank, a Fallen Terror was most likely not capable of such feat either.</p><p>Previously, the coral constructs were fast and powerful enough to make Sunny think that they were Fallen creatures. But it was just the effect of the profane gem burning in the Lord's forehead.</p><p>Just like the Dawn Shard was able to elevate Awakened Memories to the boundary of the Ascended rank, so had the Lord enhanced his fellow abominations, bringing their power close to that of the Fallen.</p><p>But now that he was destroyed, the augmentation disappeared with him.</p><p>Sunny was confident in his ability to finish off six awakened Nightmare Creatures… for the most part.</p><p>As he ran, a strong gust of wind suddenly hit him in the back, almost making Sunny stumble.</p><p>'What the hell…'</p><p>Throwing a glance over his shoulders, he stared at the skies, his eyes widening.</p><p>An endless wall of darkness crashed into the Crimson Spire and swallowed it, painting the whole world black.</p><p>Stunned, Sunny gritted his teeth and turned away from it, a cold feeling of dread permeating his entire body.</p><p>'...Curse it all!'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_327.html">Previous Chapter</a><a class="navigationButton next" href="chapter_329.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1227</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1227 A Friendly Invitation</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1227 A Friendly Invitation</h4> <p> The Black Skull was a death trap, so no one would be able to escape the Nightmare Desert through its Gateway. However, there was at least one other Citadel in this infernal region of the Dream Realm — the Tomb of Ariel. </p><p> The black pyramid that always loomed just beyond the horizon like an ominous mirage, but never grew closer no matter how far one went into the sea of white dunes. One of the main reasons why the great clans had come to Antarctica, in the first place. </p><p> Now that the expeditionary forces of both clans had been wiped out and the daughters of Ki Song fully withdrew from the race, Morgan decided to make one last, desperate attempt to reach the daemon's tomb. </p><p> Which was a piece of good news for Sunny and other members of the cohort. Sunny knew that reaching the pyramid was their best — and, perhaps, only — chance of getting out of the desert alive. The others understood, as well. Having a powerful Saint and a princess of Valor with them was a great boon. </p><p> Summer Knight and Morgan could make the lethal task of traversing the Nightmare Desert slightly less impossible to accomplish. </p><p> There was just one problem… </p><p> Without showing any emotion, Sunny stared at the reflection of Mordret through the shadows. The Prince of Nothing looked rather chilling… he was terribly wounded, his armor battered and covered in blood. Where one of his hands was supposed to be, there was now only a bloody stump. Even one of his eyes was gone, replaced by a gaping hole. </p><p> He looked like a corpse. </p><p> Nevertheless, there was a familiar smile on Mordret's face. </p><p> "Sunless. Ah, I am so glad to see you in good health!" </p><p> Maintaining a calm facade, Sunny furtively glanced at his companions. None of them seemed to have heard Mordret's voice… it appeared that it was being transmitted directly into his head. </p><p> Maybe what Mordret was actually talking to was not Sunny, but instead Sunny's reflection. In any case, it was a little disconcerting. </p><p> 'Great. Now I hear even more voices…' </p><p> Mordret lowered his bloody arm and coughed awkwardly. </p><p> "Oh, right. I guess you can't answer without announcing my presence to everyone. How about you nod once or twice to indicate…" </p><p> Sunny hesitated for a few moments, then silently reached out to the reflection with the [Blessing of Dusk]. To his surprise, it actually worked. </p><p> Continuing to act as if nothing had happened, he sent a mental message to the mangled reflection: </p><p> [How about you get out of my head and go die someplace else? No matter what you're scheming, I'm not interested.] </p><p> Mordret blinked. </p><p> "Well, what a pleasant surprise. We can actually have a conversation. How nice!" </p><p> Sunny sighed. He was really quite exasperated. </p><p> [Why would I want to talk to you, bastard? This is all your fault! If not for your machinations, there would have been no battle. Then, I wouldn't be stuck in this damned desert!] </p><p> The Prince of Nothing looked at him with a smile. </p><p> "This is really uncalled for, Sunless. Ah, I'm a bit hurt. Sure, I might have pulled a few strings to make the battle happen, but how was I supposed to know that you would decide to participate in it on my family's side? After all, it was you who told me over and over again that you didn't want to have anything to do with the great clans. So… blaming me for everything is a little unfair. In fact, I'm the one who is supposed to be disappointed and angry. All those lies!" </p><p> Mordret's smile widened. </p><p> "But, being the forgiving and broad-minded person that I am, I'm willing to put my grievances aside. Here, I've decided. I forgive you, Sunless… no need to even mention it!" </p><p> Sunny felt tempted to turn his head and stare at the reflection. </p><p> 'This… this lunatic… has he completely lost his mind?' </p><p> He slowly exhaled. </p><p> [...What do you want?] </p><p> Mordret's reflection shifted slightly, avoiding a random glance from Sir Gilead. Then, he looked at Sunny and lingered for a few moments. </p><p> "I see that my sister has decided to try reaching the Tomb of Ariel. I suppose you are tempted to join her?" </p><p> Sunny frowned slightly. </p><p> [Yes, I am. Why wouldn't I be tempted? The Black Skull is now in the hands of a great abomination… thanks to a certain someone. So, the pyramid is our best bet to escape the Nightmare Desert.] </p><p> Mordret stared at him with a smile. </p><p> "Oh, but it's not. Don't listen to my sister, Sunless — she is young and inexperienced. In fact, none of you can reach the pyramid. It's impossible." </p><p> That finally forced Sunny to react. Turning away to hide his face from the members of the cohort, Morgan, and Sir Gilead, he looked at the reflection with a deep scowl. </p><p> [Oh, yeah? How would you know?] </p><p> The Prince of Nothing shrugged. </p><p> "Simple, really… it's because I've already seen Asterion try it once, and fail. So, let me ask you a question — if a Sovereign failed to reach the Tomb of Ariel, what makes you think that your ragtag team of Ascended can succeed?" </p><p> Sunny was startled. Mordret had just confessed a piece of truly shocking information… Asterion had already been to the Nightmare Desert? And it had happened while Mordret was still with him, so more than a decade ago, at least? </p><p> A thousand questions instantly appeared in his head. </p><p> [...I don't know enough to guess who can reach the pyramid and who can't. Does it matter, though? It's not like there is a better solution. But why did Asterion want to enter the Tomb of Ariel? No, wait… if even he had failed, then why did your father and Ki Song still send their people into the desert?] </p><p> Mordret chuckled. </p><p> "Because Asterion doesn't have to report to them what he does. I know, but they don't… and even I don't know what his motives were. As for the pyramid being the best solution — are you sure about that?" </p><p> Sunny remained silent for a while, then said reluctantly: </p><p> [No. If what you said is true.] </p><p> The Prince of Nothing grinned. </p><p> "It is so pleasant to talk to a smart person. Let's put aside the question of my honesty, for now… yes, the Tomb of Ariel seems like a solution, but it really isn't. My sister can't help you save yourself and your companions, Sunless." T/his chapter is updat𝓮d by nov(ê(l)biin.co/m</p><p> Sunny looked down with a wary expression. </p><p> [And I suppose that you can?] </p><p> Mordret stared at him for a while. His grin slowly faded. </p><p> "Yes, I can. I'm not doing it out of kindness, either… you need my help, but I also need yours. The strength of your companions, too — I need it. The more, the merrier. If we are to escape this hell, we'll need all the strength we can get. It is fortunate that we are able to talk, really — this ruin you're in is at the very edge of where my reflection can reach. Ah, it seems that fate is on our side." </p><p> He sighed, then smiled again. </p><p> "So, Sunless… why don't you forget about trying to reach the Tomb of Ariel with my sister, and come challenge the Third Nightmare with me instead?"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1226.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1228.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

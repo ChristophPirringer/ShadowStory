@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 251</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 251 Boundary Of The Underworld</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div id="pf-8450-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "660f70227d1ca27afc9d2827", id: "pf-8450-1"})</script></div>
+<div></div>
+<p>Chapter 251 Boundary of the Underworld</p><p>Standing on the edge of the bottomless well, Sunny sighed and summoned the Prowling Thorn. Then, he commanded the Dark Wing to come to life and took a step into the emptiness.</p><p>The dragonfly wings of his enchanted cloak were too fragile to rely on them alone in a situation that posed unknown risks. It was better to have a backup at hand.</p><p>Softly gliding down, he descended in a straight line for a few moments, then made a turn and glanced at the other members of the party.</p><p>The golden rope had been thrown into the darkness. Nephis, Effie and Caster were already climbing down, while Kai hovered near them, ready to draw his bow should anything attack the cohort. Cassie was by his side, holding the Quiet Dancer in her hand.</p><p>The elegant rapier served as her guide as well as support, allowing the blind girl to make better use of the transparent wings. With it, she was able to zip around with considerable speed or stay in one place without any surface beneath her feet.</p><p>'Handy.'</p><p>Just like that, the cohort descended to the bottom of the ancient mine. Sunny was gliding down in a wide spiral, sometimes close enough to the wall of the well to touch it with his hand. He was slightly ahead of the rest of the group.</p><p>When the distance between them grew too much, he would insert the dagger into a crack in the stone and wait for others, attached to the vertical wall like a strange insect.</p><p>His shadow moved further and further down, exploring the darkness below.</p><p>Despite the tension that permeated the air, in the end, nothing had attacked the group of descending humans. They discovered the reason for this unexpected respite at the bottom of the mine.</p><p>Sunny was the first one to land on solid ground. With other members of the cohort still a few dozen meters away, for some time, he was left in complete darkness.</p><p>As soon as he took a step, something crunched under his foot. Looking down, Sunny saw a piece of pale bone.</p><p>A few meters away from him, the remains of a giant skeletal creature lay broken on the ground. It resembled a snake with hundreds of tiny claws growing from its belly and a terrifying, round maw. Glancing up, he judged that the length of the dead abomination was enough to coil around the whole shaft of the mine at least several times.</p><div id="pf-8886-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d36c95a2f0a704fff59", id: "pf-8886-1"})</script></div><p>While Sunny was thinking, the other members of the cohort approached the ground. The light of their lantern Memories fell on him, then shone further, revealing the remains of the colossal bone worm.</p><p>Exposed by this light, a nimble shadow glided on the stone and attached itself to Sunny's feet.</p><p>Nephis was the first one to jump down. Glancing at the repulsive Nightmare Creature, she outstretched one hand and asked:Read latest 𝒏ov𝒆ls at n𝒐velbi𝒏(.)com</p><p>"Sunny?" ꜰʀᴇᴇᴡᴇʙɴᴏᴠᴇʟ.ᴄᴏᴍ</p><p>He shook his head.</p><p>"It's dead. Nothing is moving out here."</p><p>Soon, all of them were on the ground. Gathering around the giant worm, everyone had the same thought:</p><p>'Fighting that thing on the vertical wall of the well would have been a true nightmare.'</p><p>Sunny didn't know how the members of the lost expedition had managed to defeat the terrifying creature, but was thankful to them. He would not have wanted to test the durability of the Dark Wing if that thing suddenly lunged at him from the dark.</p><p>There was a disturbing question now in his mind, however.</p><p>If the cohort of the First Lord was strong and capable enough to slay the stone abomination that used to guard the quarry and the worm that lived in the well of the mine…</p><p>Then was kind of a horror had killed them all in the end?</p><p>With a dark expression on his face, Sunny turned away from the dead creature and walked into the darkness.</p><p>Not too far from the corpse of the abominable worm, they stumbled upon an abandoned campsite.</p><p>A makeshift firepit was built on the rock floor, with five large stones surrounding it for the humans to sit on. A bit further, a low barricade was constructed out of the rubble, protecting the camp from unwelcomed visitors.</p><div id="pf-8887-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d55c95a2f0a704fff8b", id: "pf-8887-1"})</script></div><p>The lost expedition had definitely been here.</p><p>Since they had been walking, climbing and running for the better half of the day, the cohort decided to settle for the night and continue the search tomorrow.</p><p>Soon, the orange glow of a bonfire chased away the darkness.</p><p>It was a bit strange to relax and cook food in the same place where the First Lord and his companions had rested and prepared theirs all those years ago. Sunny felt as though he was touching history.</p><p>Or, rather, making it.</p><p>However, he didn't have too much time for empty thoughts.</p><p>If what Nephis had told him at the start of this expedition was true, tomorrow… tomorrow was going to be his time to shine.</p><p>***</p><p>The next day, the cohort ventured further into the tunnels of the ancient mine. No one could tell how deep underground they were exactly, but the feeling of countless tons of stone looming over their heads, ready to come crashing down and bury them under their terrible weight, was not a pleasant one.</p><p>They were in the belly of the mountains now.</p><p>After several hours of walking through narrow tunnels, Sunny suddenly felt a soft breeze touch his cheeks. A few minutes later, a distant rustle reached his ears.</p><p>The deeper they went into the darkness, the louder that rustle became, until finally turning into an easily discernable murmur of running water.</p><p>Soon, they reached the dark shore of a wide underground river.</p><p>The running water was black as ink, but not in the way that the waves of the cursed sea had been. There was no smell of salt in the air, too. Wisps of mist were rising above the surface of the subterranean river, swirling in the silent darkness.</p><p>It looked like a boundary of the Underworld.</p><p>There was a stone pillar built on the shore, and tied to it, a beautiful boat made of pale wood swayed gently on the cold black surface of the dark river.</p><p>Looking at the graceful boat, Sunny sighed.</p><p>It was time to earn his keep.</p>
+<div id="pf-8888-1"><script>window.pubfuturetag = window.pubfuturetag || [];window.pubfuturetag.push({unit: "663b1d6bc95a2f0a704fffa3", id: "pf-8888-1"})</script></div>
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_250.html">Previous Chapter</a><a class="navigationButton next" href="chapter_252.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

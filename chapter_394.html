@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 394</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 394 One Strike</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 394 One Strike</p><p>Leo Striker appeared on the Colosseum and looked around with a bit of nostalgia. A few years ago, at the very start of his career, he had been a frequent visitor of this arena… this was where it all had started for him.</p><p>Times had changed, of course.</p><p>Using the few moments before he was recognized, Leo smiled widely and said:</p><p>"Well, well, well. Did you really think that I would forget about the Public Mondays, guys? Of course not! This is a sacred tradition… SACRED, guys. Some of the Strike Force veterans might remember how I started in the amateur arenas, and now that I am a brilliant, famous, and incredibly handsome celebrity, I have to return here from time to time. To, you know… stay humble."</p><p>There were currently around twenty thousand people watching his broadcast, and pretty much all of them immediately exploded with a flood of mocking messages. Glancing at the Broadcaster Interface that Dreamscape provided to popular duelists like him, he grinned and winked, humored by some of the good-natured jabs thrown his way.</p><p>Leo Striker was not the most extraordinary fighter in the Dreamscape, but over these past few years, he had gathered a rather large following thanks to his skill, flair, and boisterous personality. He was so popular, in fact, that thousands of younger Awakened became enamored with the battle style he and a few of his duelist buddies practiced.</p><p>As the result, the Roaring Lion Strike style had become all the rage among the amateur duelists, and his old mentor was now flooded by a deluge of new pupils. That fact really warmed Leo's heart… he was glad to be able to repay the old man for all his patience.</p><p>Leo spent most of his days participating in top-level duels on the professional league arenas, but on Mondays, he liked to visit a public dream or two, chat with fans, fight a few amateurs and provide them with pointers as a way to give back to the community.</p><p>Today was one such Monday.</p><p>Looking around the Colosseum, Leo noticed a small gathering a dozen or so meters away from him and headed over. As he walked, he heard excited voices:</p><p>"Hey… isn't that Leo Striker?!"</p><p>"No way… wait! It's him! I can recognize that gorgeous armor with my eyes closed!"</p><p>"Leo! Love you, man! Keeping it real like always!"</p><p>"Strike Force Roar! I've been watching your broadcasts for two years, Leo!"</p><p>A friendly smile appeared on his face. Waving at several fans, he approached the crowd of challengers and glanced at the lone figure standing in the empty space in the middle.</p><p>'Woah! This dude has style!'</p><p>The man in the middle of the crowd wore a beautiful onyx armor that radiated a sense of solemn, dark menace. His face was hidden behind a fearsome black mask, with three twisting horns rising from it like a jagged crown. His hair was stark white, and there were two pools of impenetrable darkness in the place where his eyes were supposed to be.</p><p>His weapon of choice was a long, curved odachi forged of lusterless black steel. It rested on his shoulder, seemingly devouring the bright light of the illusory sun.</p><p>The stranger looked more like a demon than a human being.</p><p>Leo let out an approving whistle.</p><p>'Is he also a broadcaster? Huh, I don't recognize those Memories.'</p><p>He checked the stats of the demonic warrior.</p><p>"Mongrel"</p><p>"Victories: 27."</p><p>"Defeats: 0."</p><p>'A newbie… but a talented one! A perfect KDA, what a rarity!'</p><p>In any case, that guy was incredibly photogenic. A duel with him was not going to be interesting due to the gap in their skill, but it would definitely look stunning. Leo felt a little ashamed to break Mongrel's perfect streak, but this talented amateur would receive useful advice in return, which was far more useful.</p><p>Who knows, they might meet again in the professional arena one day…</p><p>Looking at the invisible camera, Leo raised an eyebrow and asked:</p><p>"What do you say, Strike Force? Should we challenge that dark and handsome guy other there?"</p><p>As the viewers expressed their approval, he approached Mongrel and gave him a friendly smile.</p><p>"Hey there, friend. That's a big sword you got there. Do you even know how to use it?"</p><p>Teasing the opponent was another sacred tradition of the Dreamscape, and Leo was rather good at it.</p><p>Mongrel shifted slightly and faced him. The disturbing mask stared at Leo, making him shiver slightly for no apparent reason.</p><p>"No."</p><p>Leo laughed.</p><p>"No? You don't know how to use your sword? Well, would you like me to teach you?"</p><p>The demonic warrior stared at him and didn't even move.</p><p>"No."</p><p>'What's up with that dude? Does he not know other words? Come on, work with me here, buddy! I am dying here, trying to make this duel entertaining…'</p><p>With a sigh, Leo stepped forward and unsheathed his own blade.</p><p>The viewers once again exploded with a flood of messages, and at the same time, the voice of the Dreamscape announced:</p><p>"...Leo Striker has challenged Mongrel!"</p><p>***</p><p>'Goddammit!'</p><p>Sunny stared at the young man in a beautiful azure armor, cursing his luck.</p><p>'Why can't he get a hint?!'</p><p>Even though Sunny couldn't say a word of truth while wearing Weaver's Mask, he tried to communicate his reluctance to fight this guy... to no result whatsoever.</p><p>He didn't have anything against the new challenger… what did the Dreamscape call him, Leo?... but there was one problem.</p><p>Just from the way the young man walked, Sunny could tell that he practiced the same damned battle style that everyone else here seemed to practice. And Sunny had more than enough of it for one day.</p><p>'Ugh…'</p><p>His time in the real world was limited, so he really hoped to experience a more diverse collection of opponents before it ran out.</p><p>'Maybe there's still hope. Maybe the next one is going to be different.'</p><p>It was better to finish this fight quickly, then.</p><p>Sending the happy shadow from the Autumn Lief to his body, Sunny lowered the Shadow Serpent and took a step forward.</p><p>His opponent, meanwhile, smiled.</p><p>"Let me teach you the first lesson. You should always…"</p><p>'...wear a helmet into the battle, fool.'</p><p>Dashing forward, Sunny easily deflected Leo's blow and pierced his head clean through by continuing the same motion.</p><p>As the corpse of the eloquent young man fell down and disintegrated into a rain of sparks, he flourished the odachi to clean it from blood, returned to his previous spot, and indifferently put it on his shoulder.</p><p>'I swear to gods. The next person to challenge me better be using a different style. Otherwise… I might get angry!'</p><p>***</p><p>Leo Striker found himself standing in a boundless black void, his mouth agape.</p><p>His viewers, too, were uncharacteristically silent.</p><p>'One strike… one strike! He killed me in one strike?'</p><p>He lingered for a few moments, then turned to the invisible camera and forced out an awkward smile.</p><p>"That was… uh… that was really unexpected, right guys?"</p><p>Then, his smile grew wide and sincere.𝒩ew 𝒏ovels upd𝒂tes on nov𝒆lbi𝒏(.)com</p><p>"That, Strike Force, is what people call finding a diamond in a pile of… uh… dung! Incredible luck! Yeah, definitely a stroke of luck. Oh, by the way... has anyone clipped it?"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_393.html">Previous Chapter</a><a class="navigationButton next" href="chapter_395.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

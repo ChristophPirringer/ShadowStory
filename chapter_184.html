@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 184</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 184 Value Of Humility</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 184 Value Of Humility</h4> <p> The mighty huntress stared at the Stone Saint, her hand hovering in the air, ready to grasp the shaft of the spear. Her beautiful hazel eyes were full of tension and dark anticipation. </p><p> The contrast between that fierce pose and the fact that she was still comfortably wrapped in a blanket was so funny that Sunny couldn't help but snicker. </p><p> "Gee, relax. Haven't you seen an Echo before?" </p><p> Effie blinked. </p><p> "That thing… is yours? Wait, you got an Echo?!" </p><p> He gave her a nod and gestured at the Stone Saint. </p><p> "Yes, I did. Meet Saint. Aint' she a beauty?" </p><p> The huntress stared at the taciturn creature, then scowled with outrage. </p><p> "You lucky bastard! You do know that I haven't even caught a sniff of an Echo after three years in this pit? How dare you get one before me, huh?" </p><p> Sunny laughed. </p><p> "Actually, this was my second Echo. The first one got killed in the Labyrinth." </p><p> Effie glared at him for a long time, then shook her head with an expression of utter dejection. Finally, she turned to the Shadow and studied her. </p><p> "Wait… is she what I think she is?" </p><p> Sunny nodded. </p><p> "Yeah." </p><p> The huntress stood up from the bed and, leaving the blanket behind, walked barefoot around the Stone Saint. She studied her from all angles and then said: </p><p> "How the hell did you manage to kill one of those things and survive?" </p><p> Sunny, who had found himself involuntary studying Effie from all angles as well, blinked a couple of times and shrugged. </p><p> "Actually, they got wiped out by a group of Fallen. It was an epic clash, to say the least. I just happened to be there in time to finish one off. And here we are." </p><p> Effie stared at the Shadow with admiration. </p><p> "What class is she?" </p><p> Sunny smiled. </p><p> "Awakened monster. But I watched her kill two Fallen Beasts, so… I'd say she's an elite among her peers. Anyway, you can see how it's not impossible to hunt three monsters in one night with her by my side. I studied them in advance, of course. That's why we were so fast in dealing with them." </p><p> The huntress crossed her arms, thought for a bit, then gave Sunny a strange look. </p><p> "Why are you showing her to me? With how paranoid you are, I'd expect you to keep such a treasure hidden." </p><p> He stood up, lingered for a moment, then said: </p><p> "With what I have planned, showing her to you is sort of a requirement." </p><p> Effie grew silent, then gave him a mischievous smile. </p><p> "Ah. Sorry to disappoint. Don't get me wrong, I'm up for all kinds of fun. But, Sunny… Nightmare Creatures is where I draw the line." </p><p> He frowned, not quite getting what she was talking about. Then, his eyes widened. </p><p> "What?! You… what kind of a degenerate are you?! Training! I wanted to use her for training!" </p><p> The unruly huntress blinked innocently. </p><p> "Training? Sunny, there's nothing wrong with being a bit inexperienced, at your age. In fact, it's quite charming! You don't need to resort to this kind of thing, you know…" </p><p> "Inexperienced?! Who are you calling inexperienced?! I'm plenty experienced! Wait… crap. What are we even talking about?!" </p><p> Dying from laughter, Effie left Sunny to fume with outrage and walked over to the makeshift kitchen while shaking her head. Soon, the tantalizing smell of roasting meat filled the air. </p><p> '...I'm going to kill her. Should I kill her? It's going to be pure self-defense, anyway. A week of this will be the death of me.' </p><p> With a sigh, he tried very hard to calm down. When his thoughts returned to their usual cadence, Sunny stood in front of the Stone Saint and slowly exhaled. </p><p> It was time to learn. </p><p> *** </p><p> On his way back to the cathedral, Sunny had made a hard decision. </p><p> He decided not to augment his body with the power of the shadow during his practice with the Stone Saint. </p><p> Even though he knew that this was going to bring him a lot of pain in the future, he was adamant about his choice. There were several reasons why he wanted to face his pet monster with his own physical ability and nothing else. </p><p> The first and most simple reason was that Sunny knew that the shadow would not always be there when he needed it. Just like during the battle against the Spire Messenger, when it had been away scouting, circumstances in which he was going to have to rely on nothing but his own prowess were bound to happen. </p><p> Not to mention that it had been his own reflexes, and not the shadow, that saved him from being cut in halves by the Black Knight. </p><p> The second reason was less evident. It had to do with the existing hierarchy of power in the Dark City. At the very top, there were the Fallen. Beneath them, those creatures that were merely Awakened. And at the very bottom, Sleepers. </p><p> Any fight that a human could face in that cursed place was going to be against an overwhelming force. With time, Sunny had adjusted to this reality and was able, these days, to face the lower classes of the Awakened abominations on almost equal terms… with the help of the shadow. He was still weaker, but not by that much. </p><p> However, deep down he knew that, sooner or later, he would be forced to fight against Fallen enemies. And he was also almost sure that he would have to cross swords with humans that had saturated their cores to the brim with soul essence, and were thus much stronger than him. </p><p> For that reason, his experience hunting monsters who were not much stronger than his augmented self was actually an impediment. It dulled his edge and made him forget what it actually meant to struggle against an enemy who was leagues above him — the knowledge and mindset that he desperately needed to retain to have a chance of surviving the future. </p><p> He had to keep himself humble. </p><p> And lastly, there was one truth that he had learned during these six months on the Forgotten Shore, and it was that nothing was more beneficial to one's growth than fighting against a superior opponent — especially if that fight ended in your loss. One defeat taught a person more than a dozen victories against weaker enemies would. 𝒩ew 𝒏ovels upd𝒂tes on nov𝒆lbi𝒏(.)com</p><p> The problem was that, in this cursed place, any defeat meant death. So Sunny actually had little experience losing to someone. From start to finish, he tasted loss only three times: once in a battle against the carapace centurion, once when he had faced Nephis under the branches of the Soul Tree, and once in this very cathedral, when the Black Knight's sword had sliced his stomach open. </p><p> Each of those defeats taught him more than anything else did. </p><p> …So, having the opportunity to fight with a monster who was much more powerful than him, and yet had no desire to kill him, was an extremely rare and precious opportunity. </p><p> That's why Sunny steeled himself and let the shadow rest on the floor while he faced the Stone Saint. </p><p> Taking a deep breath, he summoned the Midnight Shard, assumed a defensive stance, and looked the menacing stone knight right in the eyes. </p><p> "Attack me." </p><p> Not wasting even a second, she did just as she was told. </p><p> 'Oh… crap!'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_183.html">Previous Chapter</a><a class="navigationButton next" href="chapter_185.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

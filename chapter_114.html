@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 114</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 114 Voice Of Darkness</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 114 Voice Of Darkness</h4> <p> The enchanting voice came from the well in a wave of whispering echoes. It was soft and charming, flowing like a smooth silken melody. It seemed to belong to a young man… if mere humans could even possess such a voice. A divine being would suit it more. </p><p> …Or a profane one. </p><p> Sunny wasn't in the mood to appreciate the smooth and rich texture of the voice, though. </p><p> He was covered in cold sweat. </p><p> The echoes whispered: </p><p> "...time, …time, …time." </p><p> In all his time on the Forgotten Shore, Sunny had only met one other creature capable of mimicking human speech. The memory of that encounter still made him tremble. </p><p> The thing that had come from the depths of the dark sea in a mantle of fog and stolen Cassie's voice was by far the most terrifying being he had ever met. He didn't even want to remember the utter horror he had felt when the swarm of whispering voices had surrounded him. On that night, Sunny had only been able to keep his sanity intact because of the blind girl's timely warning. </p><p> He had only survived the meeting with the creature that possessed a human voice by keeping his eyes tightly shut. </p><p> And now, here was another. </p><p> 'Why were those hunters searching for this ancient horror?' </p><p> He frowned. If something sinister was brewing inside the castle, he had to warn Changing Star. But he couldn't do anything before establishing at least some understanding of the entire situation. </p><p> That's why Sunny forced himself to stay still despite the fact that every instinct in his body screamed for him to run away. Instinct was not always the best advisor. Humans possessed intelligence for a reason. </p><p> …The black fissure of the well loomed in front of him like a pool of darkness. Suddenly, he was incredibly grateful for the immensely heavy ornate grate that kept the charming talker imprisoned in the lightless depths. </p><p> Sunny licked his lips and tried to regain his composure. Ready to summon the Stone Saint and the Midnight Shard at any moment, he took a step forward and gazed into the dark emptiness once again. </p><p> Then, he slowly said: </p><p> "It's… nice to meet you." </p><p> He couldn't quite believe that he was trying to communicate with the terrifying prisoner of the well instead of running away without looking back. Life was sure full of surprises. </p><p> Until the moment it gave you the last one, of course. </p><p> A soft chuckle resounded from the well. After its melodious murmur disappeared in the darkness of the secluded courtyard, the voice said: </p><p> "Oh, no… the pleasure is mine…" </p><p> The echoes whispered: </p><p> "...mine, …mine, …mine." </p><p> Sunny was considering his next words very carefully. </p><p> 'My life might be depending on what I say next…' </p><p> He couldn't help but remember old fairy tales about terrible monsters that liked to play riddles with lost children. One wrong answer, and the children were devoured, never to be seen again. Was he going to end up in similar danger? </p><p> It was still not too late to turn back. </p><p> However, before he could ask his question or make the decision to retreat, the thing in the well spoke again. It said: </p><p> "So… are you guys going to feed me or not? Not to offend anyone, but lately, you've been very tardy. I have been sitting here by my lonesome for three days already. Or have you decided to try something new?" </p><p> Sunny blinked. </p><p> 'What?' </p><p> That… that wasn't exactly what he expected to hear from the mouth of an ancient evil. The thing sounded so… human. He was almost tempted to believe that it actually was. </p><p> 'That's how it gets you, fool!' </p><p> Sunny forced himself to remain vigilant. What did he know about how primordial evils were supposed to talk, anyway? If it was able to steal the knowledge of human language from his head, it would surely be able to steal some other things too. </p><p> While Sunny was trying to comprehend what was happening, a few seconds flew by. The voice waited for a bit, then returned: </p><p> "Oh, I see. So we are going with starvation now. Well… I have to give you guys some credit, this is your best idea yet. Sadly, it won't work. Do you even know what type of diets we trainees have to follow to debut? I guess not. Actually, I have to thank you. This is a great opportunity to work on my BMI." </p><p> The echoes whispered: </p><p> "...BMI, …BMI, …BMI." </p><p> 'Wait… what?!' </p><p> Sunny stared into the well, dumbfounded. His eye twitched. </p><p> 'Don't tell me… don't tell me that there is really just some guy sitting on the bottom of that damn well!' </p><p> Feeling like the world suddenly stopped making any sense, he rubbed his temples, then asked in a strange tone: </p><p> "Who are you?" </p><p> The well fell silent. </p><p> Sunny tried to remember what the charming voice had told him before. Something about not being fed in a long time. It surely sounded ominous and creepy in the moment, but if he looked at it a bit differently… if the group of hunters he lured to their deaths had been on its way to deliver food to a prisoner… then that would explain why the poor guy had to skip a few meals… </p><p> But why would they keep someone imprisoned in this remote area of the ruins? </p><p> Meanwhile, the voice spoke again. This time, it sounded tense: </p><p> "Wait, you're not one of the… you're not… oh! Oh, gods!" 𝒂ll new st𝒐ries at novelbi𝒏(.)c𝒐m</p><p> Sunny covered his face with his hand, realizing what was going to happen next. </p><p> "Oh, gods! It's not a human… heavens, I'm going to die. Those damn fools finally got me killed!" </p><p> From the perspective of a Sleeper locked inside a well in the middle of the ruins, only two types of beings could come here to find him: either his captors or… Nightmare Creatures. </p><p> Sunny revealed that he wasn't one of the captors by asking his last question, which left only one other possibility. The fact that he came to the well during the night, alone, and not using anything to light the way only made the conclusion easier to make. </p><p> "Wait, it speaks… oh, gods! I've only ever heard of one other creature on the Forgotten Shore that can mimic human speech… no, no, no! Not like this…" </p><p> 'Damn, he really does have a nice voice. It's beautiful even when full of despair… huh, what? It's just a voice! Why am I so enamored with… uh…' </p><p> Was he so desperate to hear a human voice? Why? He was doing fine on his own. Great, even! Better than ever. </p><p> 'Focus on the task!' </p><p> But what exactly was the task? </p><p> Sunny had never expected to find a human at the end of the crude map. What was he supposed to do now? </p><p> 'I guess the first step would be to find out who the guy in the well is, and how he got there. Then I can decide what to do with him, or if I should do anything at all.' </p><p> But there hid the problem… first, Sunny had to convince the young man in the well that he was actually a human, too. </p><p> Sunny glanced at his shadow, feeling somewhat helpless. </p><p> The shadow was bent over, holding its stomach. Its shoulders were shaking.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_113.html">Previous Chapter</a><a class="navigationButton next" href="chapter_115.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

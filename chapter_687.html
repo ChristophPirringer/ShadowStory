@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 687</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 687 Oracle Of The Night</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Effie and Kai seemed like they had some questions, but they chose to remain silent… at least for now. Of course, they knew who Mordret was and had a general impression of his powers — Sunny and Cassie had described their experience in the Night Temple to them in enough detail, so that their friends, as well as the Fire Keepers, knew what they would be facing should they cross paths with the Prince of Nothing. </p><p> However, even Sunny himself had only a vague understanding of how Mordret's Aspect functioned, and so did Cassie. So hearing how powerful he had grown in the Nightmare was a shock to him. </p><p> 'The Mirror Beast was a devil… had it been created as such, or had it earned more cores in battles with powerful Nightmare Creatures, as Saint did? If it is the former… then does it mean that Mordret was more than a Terror once? He had many Reflections before clan Valor imprisoned him, too… gods, just what kind of a menace Anvil's firstborn was in the past?' Nêw 𝒄hapters will be fully updated at nov(𝒆)l/bin(.)com</p><p> And, more importantly… just how dangerous was he going to become in the future? </p><p> His somber thoughts were interrupted by Cassie, who spoke again after remaining silent for a while: </p><p> "In any case, destroying Mordret's body was not too hard. He appeared wearing the body of the priestess who had been first sent to find him, anyway. But, of course, doing so was useless, because he could just take another. In the chaos of the battle, I couldn't explain what dire powers the enemy possessed to the forces of the Night Temple. And, more than that…" </p><p> She shook her head somberly. </p><p> "...In the moment, I was not sure that it would have been the right thing to do. Was I meant to help the inhabitants of the Nightmare slay one of the Awakened from the waking world? Were we not supposed to be allies? No matter how vile Mordret was and despite what had happened between us in the past, here in the Nightmare, both he and I were meant to pursue the same goal." </p><p> The blind young woman sighed. </p><p> "So, after a bloody battle, Mordret escaped our trap and disappeared. Soon after that, we learned of the massacre that had taken place while we were distracted by his deceit. And after witnessing the desolate town that his Reflection had slaughtered… I was disabused of the notion that he and I were the same in any way. Sadly, by that time, it was already too late." </p><p> Cassie lowered her head, then continued quietly: </p><p> "After feasting on the souls of the town's inhabitants, the Reflections became much more powerful. Mordret was not bound by the necessity to stay hidden anymore, as well. His attacks grew much more frequent and devastating, and the number of his victims started to grow with chilling speed. The more people he killed, the more dangerous he became. He was not invincible, of course… among the Awakened serving the Night Temple, there were a lot of those who possessed means to contain him. Especially the Eyeless, who, like me, were immune to his possession. But Mordret knew that as well. And so, he went after those who could threaten him first." </p><p> She paused for a moment, her face growing solemn. </p><p> "...Eventually, people — those who were still alive, at least — became so terrified that they left their homes and fled to the Night Temple, hoping that the High Priestess would protect them. The army and the priestesses grew desperate, as well. We begged the One in the North to intervene. She was a Transcendent, and an oracle without an equal, after all… and despite her indifference, my lady promised to face the creature herself. That day, people were so relieved that they held a grand celebration." </p><p> Cassie remained silent for a while, and then continued, her voice growing sad and wistful: </p><p> "...While everyone was celebrating, however, my lady summoned me in secret, and asked me to deliver a message to her old friend, Lord Noctis, in the east. Just three words… I am dead." </p><p> She paused for a moment and turned away, her beautiful face growing still. </p><p> "I was appalled, of course. What about her immortality? What about all these people whom she promised to protect? She smiled sadly, and told me… that they were all dead, as well. And that it was better that way." </p><p> A heavy sigh escaped from Cassie's lips. </p><p> "I left the next morning, and made my way south all alone. Traveling through the wilderness of the Kingdom of Hope, blind and without anyone's help, was not easy. But I managed to survive, somehow. Whether by luck or due to the One in the North protecting me, Mordret never intercepted me. I had to face a few powerful Nightmare Creatures, though… as well as other dangers, along the way. I overcame these obstacles and eventually reached the Sanctuary. And on the day that I arrived, I finally felt it… the sudden change." </p><p> A dark expression appeared on her face. </p><p> "My lady had died, and another flaw was added to Hope's prison. The approaching disaster was accelerated even more. You… you know the rest." </p><p> For a moment, Sunny could sense a hint of profound sorrow in Cassie's voice, but then it disappeared, and the blind young woman smiled: </p><p> "So, now… I guess we know enough to make a decision about whether or not to support Noctis in his war against the rest of the Chain Lords." </p><p> He frowned, and then said in a grim tone: </p><p> "There is one thing we don't know, though. Something that can potentially change everything. Mordret… what is his goal? What is he going to do when the four Chain Lords go to war? </p><p> Cassie hesitated and slowly shook her head. </p><p> "That I don't know. He must have realized the nature of the Nightmare's conflict himself, by now… or maybe he had always known it, through means that none of us can even guess about. He was the one who had sought out this Seed, put the idea of seeking out the knives into our heads, and manipulated us into bringing him here, after all. No matter what his goal is, though… I doubt that he just wants to become a Master. He is here for something else, as well." </p><p> Sunny remained silent for a bit, then let out a frustrated growl and turned away. </p><p> "Alright, then. I guess it is time to choose our fate…"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_686.html">Previous Chapter</a><a class="navigationButton next" href="chapter_688.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

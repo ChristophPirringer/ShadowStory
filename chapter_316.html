@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 316</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 316 Siege Of The Crimson Spire 2</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 316 Siege of the Crimson Spire (2)</p><p>On the outskirts of the Crimson Spire, there were no more passages and tunnels in the coral. It was just a solid red mass, an unbroken surface of the strange living substance that had devoured the Forgotten Shore thousands of years ago.</p><p>Currently, Effie was standing on that surface.Get your 𝒇avorite 𝒏ovels at novelb𝒊n(.)com</p><p>Several hundred people were standing beside her, staring at the approaching wave of Nightmare Creatures with horror and shock. All of them knew what was going to happen once they reached the Spire, but even then, the sight of it was terrifying.</p><p>She was at the center of the front row of these frightened people, supposedly in command of them. With her tall stature and lean, powerful figure, Effie stood out among the rest of the Sleepers. Her archaic armor glistened in the light of the rising sun, and on her shouldered, there was a flowing white cloak weaved from starlight.</p><p>She held Zenith in one hand and Dusk in the other.</p><p>Effie seemed like a bastion of strength and resolve in the sea of fear. A mythical hero that had stepped into the mortal realm from an ancient legend.</p><p>…But really, she was scared shitless.</p><p>Looking at the rolling horde of abominable horrors with a grim expression, the huntress lowered her head a little and summoned the helm of her armor, which was crowned with a tall crest of blue horsehair, and thought:</p><p>'Fuck me sideways… fuck, fuck, fuck!'</p><p>All around her, people were trembling. Some fool dropped his weapon and took a few steps back, as if considering running away. Even though she was currently seriously thinking of doing the same, Effie snarled and bellowed:</p><p>"Stand your ground, wretches! If anyone runs, I'll kill you myself!"</p><p>…What was the point of running, anyway? There was nowhere to run.</p><p>If they were going to die, they might as well die like humans.</p><p>Just like Princess had said. She was somewhat full of shit, but also never wrong.</p><p>"Get ready, bastards!"</p><p>Gripping her spear, Effie cast a sideways glance at the two men standing beside her. One of them was Caster, and the other one was Gemma. Who would have thought that one day she and the leader of Gunlaug's Hunters were going to fight side by side?</p><p>Weirdly, the presence of her past enemy was now extremely reassuring. However, even on his face, there were hints of fear.</p><p>The only person who could have stayed nonchalant in this situation was probably Doofus. That pale miscreant was either too crazy or too stupid… or both… to be scared of anything. But he was currently nowhere to be seen. Effie sort of missed the tiny menace.</p><p>But Sunny was probably either hiding someplace dark or doing something too insane to be entrusted to anyone else. In any case, she wished him luck.</p><p>She wished herself luck, too.</p><p>Looking at the approaching horde of monsters, Effie waited for a few seconds, and then screamed:</p><p>"First mark!"</p><p>Her shout was repeated by Seishan, who commanded the second line, and reached Night somewhere in the third.</p><p>The plan of the battle was really simple. The first line had to hold off the monsters, changing places with the second once they grew tired. Meanwhile, the third was in charge of eviscerating as many creatures as they could.</p><p>But first, they had to withstand the initial charge. Nothing was more important than breaking the momentum of the attacking horde.</p><p>Somewhere behind her, the enchanting voice of their resident idol gave the command to fire the siege engines. These monstrous machines were constructed by the Artisans and were supposed to be able to pierce the armor of the most heavily protected Nightmare Creatures. As long as they were not Fallen, of course…</p><p>A strange and melodic sound reached her ears, and a fraction of a second later, six heavy metal spears, each at least two meters long, flew above their heads with incredible speed. They streaked through the air and collided with the front of the horde, sending bits of chitin and streams of blood to the ground.</p><p>She saw one of them behead a giant crab-like creature, the other pierce right through a bloodred mantis and skewer several monsters behind it. But the wave of horrors did not slow down one bit. There was just so many of them…</p><p> Feeling a shiver run through her body, Effie gritted her teeth, then shouted:</p><p>"Second mark!"</p><p>Almost immediately, a rain of arrows fell on the monsters, wounding many and killing a few. There were many other projectiles mixed in with the arrows. Some Sleepers used slings, crossbows, or more exotic projectile weapons. Some used their Aspect Abilities, which allowed them to create all sorts of sorcerous attacks, like flying blades made of wind, fire, and ice. Some could even create bombs filled with soul essence, which detonated in the midst of advancing horrors and ripped many apart.</p><p>But still, no reaction. The monsters only seemed to become more frenzied, the fury, madness, and bloodlust in their eyes flashing even brighter.</p><p>The second rain of arrows fell, and shortly after, six more spear shot from makeshift ballistae crashed into the horde. By then, the Nightmare Creatures were already too close to the front line of humans to change anything.</p><p>Making a step forward, Effie strained her muscles and threw the Zenith Shard into the approaching mass of abominations. The beautiful bronze spear shattered the steel carapace of an especially tall creature and pierced its heart.</p><p>How could it not kill, empowered by the miraculous enchantment of the Crown of Dawn? All of their weapons, and all of their armors, were currently being fed raw power by Changing Star.</p><p>All around the steel demon, numerous abominations fell, killed in a similar fashion by the Memories thrown by the other Sleepers.</p><p>Summoning the spear back, Effie watched as the first row of Nightmare Creatures fell into a deep ditch that the Artisans created just an hour earlier. Those moving behind them simply stepped on the bodies of their fellow abominations and continued moving forward.</p><p>But finally, the speed of the horde was diminished, if only by a little.</p><p>'Damn thi…'</p><p>"Brace!"</p><p>That's all she had time to yell before the wave of monsters crashed into the line of humans.</p><p>Then, the world was consumed by nothing but madness, havoc, and death.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_315.html">Previous Chapter</a><a class="navigationButton next" href="chapter_317.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

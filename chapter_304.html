@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 304</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 304 Hunting For A Big One</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 304 Hunting for a Big One</p><p>Sunny stared at Aiko, secretly delighted that he didn't have to look up for a change. The young woman's eyes darted into the depths of the corridor, clearly evaluating how good her chances of running away were.</p><p>...They weren't.</p><p>In the end, she sighed and turned to Sunny with a deep frown. For some reason, such a serious expression looked a bit comical on her petite face.</p><p>"Sunny, was it? Listen, buddy… uh… boss. I am really thankful to you for helping me out, but honestly, do I look like a hunter? How am I supposed to help you hunt? Maybe go ask one of your strong manly friends…"</p><p>Then, her eyes widened.</p><p>"You're not planning on using me as bait, are you?"Follow the latest novels 𝒐𝒏 n𝒐velbin(.)com</p><p>Sunny chuckled.</p><p>"No, no. Nothing like that. It's just that for this particular hunt, you are the only one who can help. By the way, I didn't just stumble on you by chance. I was watching you for a long time, actually."</p><p>She paled a little.</p><p>"Ah, I see. Well… to each their own, I guess. But still, I am no warrior. I really think that I won't be able to help you out this time, sadly…"</p><p>Sunny shook his head.</p><p>"Relax, Aiko. You see, the big one I'm hunting… is a friend of yours. Big, fat bastard named Stev. He's the one I'm after. And I know for a fact that you know where he is hiding. Because you're the one hiding him. So…"</p><p>An expression of utter surprise appeared on Aiko's face. With sincere confusion, she asked:</p><p>"Wait, what? Stev? The Memory Market guy? Why the Spell would I know where he is?!"</p><p>She blinked a couple of times, then said in a hesitant tone:</p><p>"Are you sure you're not confusing me with someone, Sunny?"</p><p>He sighed and lingered for a few moments, then rolled his eyes.</p><p>"Alright. I don't really want to waste time here, so we'll do it the quick way. Look there."</p><p>He pointed to his shadow. Aiko lowered her eyes, which then widened when the shadow suddenly turned its head and waved to her.</p><p>"What the…"</p><p>Sunny crossed his arms and said:</p><p>"This here is my shadow. It's an invaluable helper. Among other things, it can walk around on its own and report back to me the things it saw. Guess what it saw yesterday?"</p><p>Aiko paled, staring at the shadow with wide eyes.</p><p>The shadow stared back at her, full of disdain.</p><p>"So… let's not pretend that you don't know where Stev is. Just take me to him."</p><p>The young woman glanced at him and gritted her teeth. Then, she asked with dark resolve in her eyes:</p><p>"What do you want from him?"</p><p>Sunny raised his eyebrows.</p><p>"What do I want? That guy is walking around with a hundred Memories in his soul core. Guess."</p><p>Aiko clenched her tiny fists.</p><p>"He's my friend. I'm not going to…"</p><p>Sunny waved her hand and interrupted her.</p><p>"Oh, don't be so dramatic. I'm not going to do anything bad to him. If I wanted to, I would have killed you already. My shadow saw where you were going already, remember?"</p><p>In fact, Sunny was bluffing. While he was almost sure that Aiko was hiding Stev because of how much food she was stealing every couple of days — too much for such a tiny girl to eat on her own — he had no idea where her hideout was.</p><p>That was because it was situated somewhere past the Guard's territory, and Sunny had avoided sending his shadow anywhere near where Seishan was.</p><p>A stunned expression appeared on her face. After a while, Aiko asked:</p><p>"You really are not going to hurt us?"</p><p>Sunny offered her his most friendly, honest smile.</p><p>For some reason, the petite girl shuddered.</p><p>"I am not, you can trust me. I am the most honest man in the world, after all. Two worlds, even…"</p><p>***</p><p>A few hours later, three figures were sneaking through the corridors of the Bright Castle. One was a pale young man in dark leather armor, the second was a petite girl with mischievous eyes, and the third was a giant of a man with a vast round belly.</p><p>Because of him, all their attempts of being stealthy were rendered practically useless.</p><p>Nearing another corner, Sunny sighed and gave the other two a signal to stop.</p><p>"The Guards are patrolling ahead. We'll have to wait for a bit."</p><p>Stev and Aiko glanced at each other and shrugged. Because of their difference in size, the two looked nothing short of comical together. Shaking his head, Sunny summoned the Endless Spring and took a few sips of water, then offered the beautiful glass bottle to them.</p><p>"Why were you hiding from everyone anyway, Stev?"</p><p>The ample giant looked at him with a sullen expression, then said in a depressed tone:</p><p>"Why else? As soon as this mess started, I knew that people would be coming for me to get the Memories."</p><p>Sunny frowned.</p><p>"The Memory Market belonged to the Host, so why didn't you just go to either Tessai or Gemma?"</p><p>Stev grimaced.</p><p>"I know Tessai too well to go anywhere near him with Lord Gunlaug gone. As for Gemma — we're on friendly terms, actually. But that girl, Kido… uh, let's just say that I called her a few names in the past. Over a, uh… business dispute, one might say. Who knew she'll go and become one of the lieutenants? Anyway, I was afraid for my safety because she and Gemma are, you know…"</p><p>Sunny raised an eyebrow, then asked in an curious tone:</p><p>"Then what about Nephis?"</p><p>Aiko gave him a complicated look.</p><p>"We heard that her people don't treat us Castle folk well. And Stev was even officially under the Host, so… we sort of had nowhere to go."</p><p>Sunny frowned. There was indeed a measure of internal strife in Neph's faction, with some outer settlement people being against anyone from the Castle joining them. Changing Star and the members of her cohort tried to prevent anything too nasty from happening, but they couldn't be everywhere at once.</p><p>"There are a few troublemakers, true. But you'll be fine. Just say that you're with me."</p><p>He thought for a couple of moments, and then corrected himself:</p><p>"Actually, don't say that. Most of them barely know who I am. Say that you're with Night. And if Night asks why are you going around telling people that you're with him, then tell him that you're with me."</p><p>The two of them suddenly looked at him.</p><p>"My buddy Kai is alive? That's wonderful news!" Stev said with a wide smile.</p><p>On Aiko's face, a dreamy expression appeared.</p><p>"Why haven't you told me that you knew Night from the start? That would have made things so much easier!"</p><p>Sunny stared at them and shook his head.</p><p>"Pick up your drool, will you?"</p><p>Why had he even spent a whole hour trying to convince Stev to return with him? He could have just taken Kai with him, and the damn bastard would just say yes after one smile from the beautiful archer.</p><p>'So unfair...'</p><p>Then, he suddenly turned his head and froze.</p><p>Something was wrong. Very, very wrong. The Guards that were supposed to walk past his shadow a whole minute ago… never appeared.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_303.html">Previous Chapter</a><a class="navigationButton next" href="chapter_305.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

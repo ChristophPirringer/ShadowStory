@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1320</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1320 Childhoods End</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1320 Childhood's End</h4> <p> Eventually, Ananke replaced Nephis at the steering oar. Neph looked drained after commanding the winds for an entire day... nevertheless, Sunny felt that her eyes were duller than mere exhaustion could explain. Throwing a questioning glance at her, he asked: </p><p> "Are you alright?" </p><p> She lingered for a few moments, then nodded silently. Sitting down and leaning her back against the side of the ketch, Nephis then tiredly closed her eyes. She had not slept since they left Weave, and although Masters like them could easily remain awake for days, mental fatigue still had a way of catching up to them. </p><p> '...I guess she doesn't want to talk about whatever it is that's troubling her.' Sunny studied Neph's pale face, then quietly summoned Nightmare and ordered him to guard her dreams. The tenebrous steed hid in the shadows at the bow of the boat, formless and watchful. Not satisfied with that, Sunny sent all but one of his shadows to augment him. </p><p> Memories of meeting the manifestation of the Prince of Madness still haunted his thoughts. </p><p> Later, there was nothing for him to do but continue weaving threads of essence. Sunny sat on the deck of the ketch with his legs crossed, his fingers dancing in the air. By now, he was proficient enough in creating essence strings to not pay a lot of attention to the process. Ut was a far cry from when he had attempted weaving for the first time and constantly cut his hands to the bone. </p><p> His painfully gained experience and the increased sensitivity that Bone Weave granted to his fingertips made it easier. Now, Sunny just needed time and essence to create as long a thread as he needed to weave a Memory. </p><p> It still took some time. </p><p> After a while, Ananke looked at him with curiosity and asked: </p><p> "My Lord... if you don't mind me asking, what are you doing?" </p><p> Sunny remained silent for a few moments, then turned his head slightly. He hesitated before answering, knowing how weird she was about all things involving the Demon of Fate. Nevertheless, eventually, he said: </p><p> "I am creating essence strings... weaving." </p><p> Her azure eyes widened slightly. </p><p> "You... you are a weaver, my Lord?" </p><p> 'A weaver...' Sunny tilted his head. </p><p> "If you mean someone who uses Weaver's sorcery, then yes. Although I am not very proficient with it." </p><p> The young priestess was staring at him with reverence. He sighed. </p><p> "Why, were these... weavers very rare in your time?" </p><p> She nodded slowly. </p><p> "Extremely so, my Lord. The sorcery created by the Demon of Fate was not something mortals could easily learn... or gods, even. There were only a few who mastered it. One of the two High Priests of the Nightmare Spell was one such sorcerer - my mother told me that he was a shaper of souls and a master of all kinds of magic. Are there a lot of weavers like you in the future?" </p><p> Sunny slowly shook his head. </p><p> "No. There are a few whose Aspects allow them to create Memories, but as far as I know, I am the only one who truly knows how to weave sorcery, unbound by the limits of my Abilities." </p><p> He sighed. </p><p> "I never had a teacher, though. Everything I know, I've learned myself. That is why I can only create copies of the weaves created by the Spell, or modify them at best." </p><p> The young priestess looked at him silently for a while, then smiled. </p><p> "But, my Lord... wouldn't that mean that the Nightmare Spell is your teacher? How can there be a better teacher than that?" </p><p> The corner of his mouth twitched. Suddenly grim, Sunny looked away. </p><p> "...I guess. The Spell has taught me a great deal of things, indeed." </p><p> Ananke's smile widened. </p><p> "You are beloved by fate, then. I feel at ease." </p><p> He hid his face, not wanting her to see the dark resentment drowning his eyes. </p><p> 'Beloved by fate, huh?' Sunny was indeed Fated. However, that did not mean that fate was especially kind to him... it just meant that he was wrapped in its strings like a helpless puppet, doomed to always be at its mercy. </p><p> In a sense, it meant that he would never know peace. </p><p> Not until he learned how to rip those strings apart. </p><p> 'It's much more like I am cursed by it...' But then again, wasn't his fate to become Defiled, tear his face with his nails, and turn into a mad abomination? Wasn't that his future? </p><p> Sunny shuddered, remembering that frightening possibility. </p><p> 'No, no way. I would rather die. I will die, if this is the only outcome. That stupid theory of mine has to be wrong. The Mad Prince... I will never become him.' </p><p> Closing his eyes for a moment, he calmed his wildly beating heart and concentrated on weaving essence strings once again. </p><p> However, his fingers trembled as he did. </p><p> By the time the seven suns touched the surface of the flowing water, the swift ketch reached the second of the Seven Houses. Mooring the boat to its peer, they camped for the night on the forlorn island. </p><p> It looked like a place where life had thrived once, but now, that vitality was gone. The children were gone, the parents were gone... and soon enough, the Seven Houses would be gone, too, swallowed by the eternal currents of the Great River. </p><p> In the morning, Sunny was awoken by the creaking of the windcatchers. After giving Ananke some time to take a walk along the shore and remember the days of her childhood, they left the artificial islands and sailed downstream once again. </p><p> It took them another day to pass the third House. By then, Ananke's appearance had changed once again. </p><p> She used to look only slightly older than Sunny and Nephis in Weave, but now, it was as if she was of the same age as them, or even younger. </p><p> By the time the swift ketch reached the fourth House, she seemed to be in her late teens. </p><p> The mood inside the ketch had turned dark. Looking at the endearing adolescent face of the young priestess, it was impossible to deny that they would have to leave her behind... soon. </p><p> The House of Parting was not that far away anymore. </p><p> Before they reached it, though, they had to pass by the last three of the Seven Houses. </p><p> ...However, by the time they were supposed to come in view of the fifth, Ananke's expression had turned tense. </p><p> Because the artificial island was nowhere to be found.Follow the latest novels 𝒐𝒏 n𝒐velbin(.)com</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1319.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1321.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

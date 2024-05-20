@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 172</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 172 Memory Market</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 172 Memory Market</h4> <p> Behind the door, there was a medium-sized hall that had no windows. It was illuminated by a strange lantern that levitated in its center, radiating a bright and stable glow. </p><p> Along the walls of the room stood various weapon racks, wooden mannequins dressed in full suits of armor, and tables with a wide assortment of beautiful and intriguing objects placed upon them. </p><p> All of it — the weapons, the armors, the objects, even the levitating lantern — were Memories. </p><p> Sunny felt a thundering thought explode in his mind. For a few moments, he was only able to think about one thing: </p><p> 'Money! That is so much money!' </p><p> Inside this unassuming hall hid a fortune that could rival that of an entire corporation. </p><p> He was barely stopping himself from drooling. </p><p> "Uh… Sunny?" </p><p> Brought back from his covetous stupor, Sunny blinked a couple of times and glanced at Kai. </p><p> "Huh?" </p><p> The beautiful archer hesitated for a moment, then said: </p><p> "I was saying, this is Stev. He is in charge of this place." </p><p> Only now did Sunny notice that there was someone else in the room. It was a man that was old by the standards of the Dark City, nearing twenty-five or so. He had a round face and cheerful eyes, which were currently full of doubt and hints of disgust. </p><p> His gaze, of course, was aimed at Sunny. </p><p> 'Have you looked in the mirror, bastard?!' </p><p> Apart from his extremely tall stature, there was one other special thing about Stev's appearance, and it was that he was… fat. He was the first obese person that Sunny had met in the Dark City. Having a belly like that in a place like this must have required a lot of work, talent and dedication. </p><p> He didn't know whether to be impressed or appalled. </p><p> In any case, Sunny decided to not get on Stev's bad side. </p><p> ...He wouldn't want to get eaten by this ogre, after all! </p><p> "Uh… nice to meet you, Stev. I'm Sunny." </p><p> The ample giant looked down at him, then glanced at Kai, and said in a strange voice: </p><p> "Night, my dear friend. Are you sure this dirty vagrant is… a customer?" </p><p> Sunny frowned. </p><p> 'Be civil… be civil…' </p><p> "Hey, fat bastard. Are you sure that this dirty vagrant won't break every bone in that fat blob you have for a body?" </p><p> In the dead silence, both Kai and Stev stared at him with wide eyes. </p><p> Then, Stev leaned back and let out a thunderous laugh. </p><p> "This little gremlin is a funny one, Night! Well, good. Very good! If there's one thing I lack in this cave, it's entertainment." </p><p> Chuckling, he shook his head and said: </p><p> "Still, my goods aren't cheap, my dear friend… uh… Sunny? A good Memory will cost you a dozen shards, at least. Much more if you want something really useful. Are you sure you have the means to shop here in my emporium? How many shards can a slum rat like you have?" </p><p> Sunny blinked. </p><p> "I think there was a misunderstanding. Have you seen me? Do I look like someone who would ever be able to buy something from you? Of course not! I've never even absorbed a single soul shard, that should tell you how many of them I have." </p><p> Kai gave him a strange look. </p><p> Because of how confident Sunny had been while traversing the ruins, he must have assumed that his companion was sufficiently powerful. However, now he suddenly learned that Sunny had never absorbed any soul essence. With his ability to sense lies, the charming archer would know that it was the truth. </p><p> Well, of course it was. He absorbed plenty of shadow fragments, instead. </p><p> Sunny gave away that misleading secret on purpose. He didn't want Night to start questioning the amount of soul shards he was about to spend. Letting the archer think that he was too obsessed with wealth to expend any on increasing his power would, hopefully, lessen the impact a bit. </p><p> Meanwhile, Sunny shook his head. </p><p> "No, no. Kai here is the one who'll be handing you the shards. I'm just here to point him at the right ones. I have an eye for good Memories, you see." </p><p> By which he meant that his eyes were literally capable of peering into the very essence of Memories and discerning their true traits. But neither of them needed to know that. </p><p> Stev scratched the back of his head. </p><p> "Uh… well. In that case, take a look around. Ask me any questions if something catches your eye." </p><p> Then he glanced at Night and scoffed. </p><p> "You could have just asked me for advice, you know? It's not like I can lie to you." </p><p> Kai smiled with embarrassment. </p><p> "Oh. Ah… yeah, sorry." Follow 𝒏ewest stories at n𝒐velbin(.)com</p><p> When Stev walked away, he leaned to Sunny and whispered: </p><p> "So the favor you wanted from me is to pretend to buy a Memory and then give it to you, so that no one knew that you have a hidden ace?" </p><p> Sunny stared at him. Actually, it was a good theory. Having a weapon or tool that no one knew about was a very good advantage. </p><p> Unfortunately, Kai didn't really know who he was dealing with. </p><p> Sunny shook his head. </p><p> "No. I don't want you to buy a Memory on my behalf." </p><p> Then, with an earnest smile, he added: </p><p> "I want you to buy around ten." </p><p> Kai's beautiful green eyes widened. </p><p> *** </p><p> Leaving the charming archer struck dumb and speechless, Sunny walked away and started perusing the various Memories on display. </p><p> There were a lot of them. By his estimations, at least a hundred, if not more. </p><p> All sorts of weapons immediately attracted his attention. </p><p> There were straight swords, curved swords, estocs and rapiers, scimitars and sabres. Various daggers and knives called to him, shining in the bright light on the enchanted lanterns. There were a dozen or so of polearms, from spears to glaives to halberds to naginatas. Several battle axes were displayed nearby. Further away, war hammers, maces, and flails radiated a silent feeling of crushing force. A few bows received a dreamy look from Kai. </p><p> There were suits of armor, too. From leather to metal, light to heavy, scale to plate. Elegant, unrefined, graceful, barbarous… whatever a person could wish for. Some of them were shaped like actual armour, others looked like cloth garments. </p><p> Placed on tables, various objects begged for his attention. Gods only knew what enchantments they possessed… </p><p> Well, to be precise, gods and Stev. </p><p> And Sunny. </p><p> Walking among the Memories, he would periodically place his hand on them. Immediately, the inner weave of the Memory would be laid bare to his eyes, which were changed forever by the drop of Weaver's ichor. </p><p> Studying the logic of the weave, he was able to glimpse its purpose. Of course, there weren't any truly remarkable Memories in the hall. Who would want to sell something like that? However, even then, he managed to separate really good ones from simply acceptable, from borderline awful. </p><p> …That last category was what he came here for. </p><p> 'Quantity over quality, remember?' </p><p> Sunny was almost done choosing the absolute worst Memories out of them all when his sight suddenly fell on a badly illuminated corner. </p><p> In that corner, covered in a thick layer of dust, stood a seemingly discarded suit of armor. </p><p> …When Sunny saw it, his hands slightly trembled.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_171.html">Previous Chapter</a><a class="navigationButton next" href="chapter_173.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

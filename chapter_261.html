@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 261</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 261 Moon Shard</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 261 Moon Shard</p><p>Some time later, Sunny found the time to dove into the Soul Sea and take a look at the new Memory he had gotten.</p><p>It was a heavy round shield forged from dull, lusterless, dark steel. Inside of it, visible only to him, a complex weave of ethereal strings shone with stark radiance.</p><p>Memory: [Dusk Shard].</p><p>Memory Rank: Ascended.</p><p>Memory Tier: II.</p><p>Memory Type: Weapon.</p><p>Memory Description: [Forged from a shard of a fallen star, this shield contains the weight of the heavens. Depending on the heart of its wielder, it can be light as a feather or heavy as regret.]</p><p>Memory Enchantments: [Indomitable].</p><p>Enchantment Description: [Following the will of its master, the Dusk Shard can change its weight.]</p><p>Sunny frowned.</p><p>This enchantment… at first glance, it seemed very unassuming. People usually thought about the weight of their weapons only when they considered how much endurance they would need to wield them. In that regard, the lighter the weapon was, the better — a light weapon could allow a person to fight longer without growing tired, which often meant the difference between victory and defeat.</p><p>However, things changed when it came to the Awakened, who often possessed inhuman strength and endurance. Light weapons had their role to play, but more often than not, what you really needed was force. And the more mass something had, the more force it could produce.</p><p>In the past, Sunny had only considered shields as a defensive tool. But after watching Effie and Stone Saint use them in battle, he realized that in the hands of a trained warrior, a shield could be as destructive and deadly as a sword. Sometimes much more so.</p><p>Just imagining Effie bashing someone with a shield that weighed a few hundred kilograms sent shivers running down his spine. Not to mention that the weight could be changed on the fly, making it light to maneuver faster, then turning it into an improvised siege ram at the right moment.</p><p>But even in terms of pure defense, a shield that could be turned into a literal wall was priceless. He could see a monster such as the Spire Messenger colliding with it… and simply bouncing off in the chorus of shattering bones.</p><p>...Maybe.</p><p>Granted, Sunny never trained with a shield, and the sword he used demanded two hands to be wielded properly. But where there was a will, there would be a way.</p><p>With a slight smile, Sunny summoned the Dusk Shard. The sparks of light appeared in a whirlwind around his arm. A few long seconds later, the silhouette of a large round shield weaved itself into reality. After a few more seconds, and the Memory was fully formed.</p><p>'How ni… oh crap!'</p><p>With a surprised yelp, Sunny staggered and toppled over. Luckily, he fell on top of the dull iron shield — otherwise, he might have been crushed under its weight.</p><p>'This... is so heavy!'</p><p>The damn thing was heavier than he had ever expected. In fact, it was probably too heavy for him to even lift, let alone carry around.</p><p>The members of the cohort glanced at Sunny, who was struggling to stand up, with perplexed expressions.</p><p>Gritting his teeth, Sunny rose to one knee and awkwardly tried to lift the shield off the ground. However, no matter how hard he tried, he only managed to drag it by a few centimeters.</p><p>"Curses!" ꜰʀᴇᴇ ᴡᴇʙ ɴᴏᴠᴇʟ. ᴄᴏᴍ</p><p>'Alright, I admit it. It's too damn heavy! Let's reduce the weight a little…'</p><p>But a few seconds later, his face froze.</p><p>'...This can't be. No way!'</p><p>However, the truth was hard to deny.</p><p>He... couldn't change the Dusk Shard's weight at all.</p><p>The enchantment that was supposed to allow Sunny to do that was there, but it required him to actively manipulate the soul essence — shadow essence, in his case — to access it.</p><p>The most powerful enchantments were all like that. And the higher a Memory rank, the more probable it was for the enchantments it possessed to be really powerful.</p><p>The problem was that Sleepers had no way to control and manipulate their soul essence.</p><p>Sunny didn't know whether to laugh or cry. What were the chances of him coming to possess not one, not two, but three whole Ascended Memories… only to find out that two of them were completely unusable, while the third one required him to somehow become a master marksman to avoid dying from blood loss?</p><p>'Damn it! Damn it all! But especially damn that damned Fated attribute!'</p><p>While Sunny was grinding his teeth in outrage, Effie approached him and glanced down from her considerable height. Then, she leaned forward, took the Dusk Shard by the rim, and lifted it — along with Sunny — from the ground, seemingly without too much strain.</p><p>"That's it, then? The Memory you got from the pale bastard?"</p><p>Finally standing up with the help of the huntress, he stared at her for a long time, his expression unreadable. Then, he suddenly smiled:</p><p>"Yes. By the way, Effie. We're friends, aren't we? See, I couldn't help but notice that your shield Memory was destroyed in that last fight. How about…"</p><p>She rolled her eyes.</p><p>"Wait, don't tell me... Sunny's Shady Emporium is open for business again?"</p><p>He blinked a couple of times, then grinned:</p><p>"Why yes! How did you know?"</p><p>The huntress glanced down at the heavy shield, squinted, and said in a cautious tone:</p><p>"Well… what do you want in exchange?"</p><p>Sunny thought for a bit.</p><p>"That bottomless bag of yours. And two other Awakened Memories."ALL new 𝒄hapters 𝒐n nov(𝒆)lbin(.)com</p><p>Before Effie could come to a decision, though, Nephis interrupted their conversation. Coming closer, she glanced at the huntress first, then at Sunny, and finally at the shield.</p><p>Finally, she asked:</p><p>"How about giving it to Effie in exchange for another Ascended Memory? One more suited to your technique. "</p><p>Sunny dismissed the Dusk Shard and hesitated for a bit, looking at Changing Star with doubt. Was this her ploy to get the Shard Memory from him?</p><p>If she had an Ascended Memory all this time, why had she been hiding it? And where could she have gotten one, to begin with?</p><p>After a while, he said:</p><p>"I don't know. Show me the Memory, and then we'll decide."</p><p>Nephis silently stepped closer and took his hand. Then, a spark of energy traveled from her body to his.</p><p>The Spell whispered:</p><p>[You have received a Memory.]</p><p>Throwing a dubious glance at Nephis, Sunny summoned the runes and found the name of the Memory he had received. His shadow tilted its head, surprised.</p><p>Shimmering in the air in front of him, a string of runes read:</p><p>Memory: [Moon Shard].</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_260.html">Previous Chapter</a><a class="navigationButton next" href="chapter_262.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 248</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 248 Those Who Survived</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 248 Those Who Survived</p><p>Leaving the mouth of the tunnel and the swirling white mist behind, the cohort cautiously went further into the darkness. As they walked, they summoned the Memories that produced light to illuminate the way.</p><p>The tunnel leading into the mine was wide and spacious. Despite the ruthless flow of time, it had remained in perfect condition — just like the ancient wall that surrounded the Dark City. The floor was inclined and led down, deep into the belly of the mountain.</p><p>Sunny sighed, not happy with the idea that they had to travel further into this deadly region of the Dream Realm. Who knew what horrors lived in the darkness at the roots of the Hollow Mountains? The only thing that consoled him was that, with some luck, the cohort wouldn't have to go too far.</p><p>They just had to find the remains of the doomed expedition that had disappeared somewhere down below. He wasn't entirely comfortable hoping that those people had died sooner rather than later, but they were dead either way.</p><p>What Sunny cared about the most was for him and his companions to not follow suit.</p><p>Walking at the back of the party, he glanced at the five people in front of him.</p><p>How did Changing Star's cohort stacked against that of the First Lord? Were they weaker, stronger, or just about the same?</p><p>His brow furrowed.</p><p>Regarding Nephis herself, he doubted that the young man who had led a group of Sleepers to conquer the Bright Castle could have been more powerful or driven than her, at least not at the start. However, he had much more time to accumulate power and resources before venturing into the Hollow Mountains to find his death.</p><p>Fifteen years ago, when he had entered the Dream Realm and got stranded on the Forgotten Shore, things were much different from now. The Immortal Flame clan was yet to fall, for one. In fact, it was not long after Broken Sword, Neph's father, had become the first human to conquer the Third Nightmare and achieve the rank of Saint.</p><p>Would the world be different if the First Lord managed to find the way out and returned to reality? Yes, most likely. If the era of the Nightmare Spell had shown anything to humanity, it was that history was often changed by individuals, as opposed to events and invisible currents. The influence one extraordinary person could exert on history in a time of adversity was hard to deny.</p><p>From everything that Sunny knew about the First Lord, a man like him could have done a lot to improve the position humanity was in. What a shame that he had perished in this godforsaken hell, the story of his incredible deeds known only to a handful of people as unfortunate as him.</p><p>But how many were there of such brilliant youths, killed before their time by the Nightmare Spell?</p><p>In the end, history was not written by the best, but by those who survived.</p><p>Glancing at the people walking in front of him, Sunny couldn't help but think:</p><p>'How many of us will survive?'</p><p>Each member of the cohort was incredibly strong. Just like Nephis was at least an equal to the First Lord, her companions were most likely equal to his.</p><p>Because of Effie's light-hearted and carefree demeanor, it was easy to forget how fearsome of a warrior she was. The huntress had not survived three years of stalking monsters on the cursed streets of the Dark City alone by accident. Hundreds upon hundreds of vicious Nightmare Creatures fell by her hand.</p><p>As much as Sunny hated to admit it, Caster was a true powerhouse among the Sleepers, too. His incredible Aspect Ability, outstanding skill, cold intelligence and the wide arsenal of inherited Memories made him a deadly threat to anyone foolish enough to become his enemy.</p><p>Kai was not as ferocious of a fighter as the core members of the cohort, but his ability to fly coupled with the mastery of the bow and the Ascended arrow that Sunny had sold him made him a real menace in a battle, too.</p><p>Cassie was not much of a fighter, but her gift was arguably more important than any combat Aspect Ability could ever be. Especially so on the Forgotten Shore, where inconceivable dangers lurked under each rock.</p><p>…And then there was Sunny himself.</p><p>Sunny was, perhaps, the deadliest of them all. If he wanted to, he could have killed every member of the cohort twice over.</p><p>With the exception of Nephis himself, of course.</p><p>If the two of them had to face each other in battle, he didn't count his chances too high.</p><p>…At least for now.</p><p>***</p><p>As they walked deeper into the mine, there were more tunnels forking away from the main one. The cohort turned a few times, choosing the path that led further down underground.</p><p>Soon, the walls surrounding them changed. More and more, they were decorated with the intricate stone carving that the inhabitants of the ancient city had loved so much.</p><p>At first, these carvings were strictly decorative and mostly senseless, shaped into beautiful patterns of lines and simple images. But then, slowly, something about them changed.</p><p>Sunny was, perhaps, the only one who paid attention to the carvings. Due to his passion for learning the history of this ancient civilization, he had spent a lot of time doing the same back in the Dark City, where there were a lot of similar things.</p><p>He was still planning to clear the floor of the ruined library of rubble and study the vast fresco that was hidden beneath — the project he had been working on before the events of these recent weeks had taken him away.</p><p>However, the condition of the carvings back in the ancient city was mostly terrible. The unknown disaster that had wiped out its inhabitants, the passage of time, and the Nightmare Creatures left most of them in ruins.</p><p>Here in the remote mine, however, the carvings were preserved in pristine condition.</p><p>When Sunny finally saw what was depicted on them, his breath became faster.</p><p>The answers to many questions that were tormenting him were right there, carved into these walls.ALL new 𝒄hapters 𝒐n nov(𝒆)lbin(.)com</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_247.html">Previous Chapter</a><a class="navigationButton next" href="chapter_249.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

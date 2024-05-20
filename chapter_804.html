@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 804</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 804 Whispering Blade</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> A few minutes later, the atmosphere in the great hall suddenly changed. The hum of voices grew quiet, and many of the guests shifted, turning to a particular spot. As Sunny watched, a tall figure appeared on a wide balcony above them. </p><p> The man was strong and severe, with a sharp face and even sharper, cold eyes. His black hair was touched by silver at the temples. He was wearing an elegant attire that somehow looked like a suit of impregnable armor despite being made of nothing but black fabric. His vermilion cloak moved slightly, as if touched by invisible wind. </p><p> As soon as the man appeared, Sunny felt a considerable pressure descending on the hall. The dignified stranger radiated so much power and authority that it was hard not to admire him… or fear him. He was a Saint, without a doubt. </p><p> What was more, his features looked slightly like that of Mordret and Morgan. For a moment, Sunny thought that he was looking at Anvil of Valor himself… but no, that could not be. Although the familial likeness was there, it was not too pronounced. The mythical Sovereign was also not supposed to be able to enter the waking world easily, let alone openly show himself in public. </p><p> That would just go against everything that the Sovereigns did to remain in the shadows. </p><p> 'This… must be Saint Madoc of Valor, also known as Whispering Blade.' </p><p> Saint Madoc was one of Anvil's siblings and the nominal leader of the great clan Valor. Of course, Sunny knew who truly called the shots… but the status of this powerful man was by no means for show. Whispering Blade was a legendary warrior and one of humanity's most formidable champions in his own right. </p><p> As the guests quieted down, Saint Madoc looked at them from above with his steely blue eyes, and then smiled slightly. Instantly, the pressure receded, making the mundane humans in the crowd sigh with relief. </p><p> Morgan's uncle spoke, his strong voice easily reaching into every corner of the great hall: </p><p> "Ladies and gentlemen, esteemed guests. Welcome to the annual ball of the great clan Valor. It is my honor and pleasure to welcome you all under our roof once again. In the past year, many things have happened. Some of our brothers and sisters... are not with us anymore." </p><p> A somber silence settled over the hall. Every year brought a lot of death to Awakened. Even Masters were not spared from that fate... this year, in particular, had dealt a heavy blow to humanity. </p><p> Even though few knew of what had really happened, the absence of Saint Cormac was clearly felt by many. Transcendents were so exceedingly rare that the loss of even one of them echoed across the world. </p><p> As the guests turned somber, Whispering Blade's smile suddenly widened, dispelling the solemn mood. </p><p> "...Despite that, it pleases me to see many new faces among you. Humanity has grown stronger yet again! New heroes rose to carry the torch for those who had fallen in battle. With champions like these, our world has nothing to fear! Despite it all, we persevere. But more than that… we rise. Nothing can stop our ascension." </p><p> He looked at the guests, and then sighed. </p><p> "Well, those of you who know me also know that I am not one for long speeches. To be honest… this one was actually written by my beloved wife, who is far more eloquent and wise than me. Not to mention pleasant to look at." </p><p> A wave of polite chuckles spread through the crowd. Saint Madoc smiled once again. </p><p> "Today is not a day for sorrow. Today is a day for joy. And so… let the ball commence!" </p><p> As soon as he said that, the space in the middle of the hall was cleared, and the musicians started to play a magnificent and emotional composition. Whispering Blade danced the first dance himself, accompanied by a beautiful, mature woman. Moving with elegance and grace, they both looked breathtakingly splendid. </p><p> Soon, other pairs joined them. </p><p> Sunny observed the dance with a bit of interest. He had not known what to really expect from this ball, but to his relief, it was nothing like the awkward and almost comical sight that he had witnessed in the nightclub a few weeks ago. </p><p> The dancers were much more purposeful and elaborate in their movements. Both partners had to move in synchronicity to not disturb the flow of the dance, following the music with surprising skill. The gracefulness of their steps, the exquisite attires, the radiant physical beauty common among the Awakened, the luxurious decorations of the great hall… all of it made the ball look rather dazzling. </p><p> He was also able to appreciate the ceremony due to his familiarity with Shadow Dance. Of course, his battle style was not a literal dance… however, it was derived from one. In fact, every battle style had something in common with dancing, since both had to do with motion, coordination, agility, and rhythm. </p><p> So, even if Sunny was never taught how to dance, he was able to quickly learn the basics from just observing those who were better versed in it. He could have even joined the dancers… if he wanted to. </p><p> Of course, he didn't. </p><p> Sunny noticed that it was customary for men to invite the women to dance. As he watched, many handsome and distinguished guests offered their hands to their beautiful counterparts and led them to the center of the hall. </p><p> More than a few burning gazes landed on Nephis, but were quickly doused by her cold, unapproachable expression. Fortunately or unfortunately, the other members of the cohort were caught in the cone of silence that surrounded her, so no one approached them either. </p><p> After some time, Kai invited Cassie to dance, while Effie wandered away in the direction of the tables that were barely standing, burdened by the weight of various delicacies. </p><p> Sunny, meanwhile, grew bored. Fi𝒏d 𝒏ew upd𝒂t𝒆s on novel𝒃in(.)com</p><p> 'Damn… how long do we have to wait? Are these negotiations going to start, or what?' </p><p> Eventually, he glanced at Nephis, then left her and walked away in search of a bathroom. </p><p> A few minutes later, he was washing his hands in front of a mirror. Looking at his pale reflection, Sunny lingered for a few moments, and then said: </p><p> "I know that you are there. Stop hiding." </p><p> Nothing happened for a few seconds. </p><p> ...Then, his reflection suddenly offered him a pleasant smile. </p><p> "Oh. How did you know?"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_803.html">Previous Chapter</a><a class="navigationButton next" href="chapter_805.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

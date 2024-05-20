@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 653</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 653 Cute Little Snake</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny remained motionless for a while, a pale smile appearing on his face. Beyond the window of his cabin, the sky was slowly turning black, the stars shining on its velvet surface as they welcomed the arrival of the newborn moon. </p><p> 'Nightmare… so that is your name.' </p><p> What better name could there be for a Shadow that moved through human dreams, turning them into visions of horror? </p><p> He hesitated for a few moments, then looked away, turning to a different string of runes first. </p><p> There was another Shadow of his that had changed. The Soul Serpent... every time Sunny moved up a Class, so did the Serpent. And every time Sunny mastered a new step of Shadow Dance, the Serpent ascended to a new Rank. </p><p> ...At least, that was how things were supposed to go. </p><p> Shadow: Soul Serpent. </p><p> Shadow Rank: Ascended. </p><p> Shadow Class: Demon. </p><p> Shadow Attributes: [Shadow Guide], [Soul Weapon], [Soul Beast]. </p><p> Sunny sighed. </p><p> 'Ascended...' </p><p> Now that he had mastered the third step of the Shadow Dance, the Serpent had, indeed, evolved as well. The tenebrous creature was now an Ascended Demon, just like Saint. Both of them had left Sunny in the dust. </p><p> While it hurt his pride a little that his Shadows were more powerful than him… not to mention way cooler, according to some tasteless brats… having two creatures of such formidable might under his command was going to be of tremendous help, without a doubt. Especially considering the caliber of enemies he would most likely have to face in this trial. </p><p> He glanced down, at the intricate tattoo coiling around his arms and torso. It seemed larger. Sunny could already feel the rush of the essence through his body, its rate of expenditure and speed of replenishment increased even further. </p><p> Not only was the Serpent going to be much more powerful in its Soul Beast form, but also, from now on, any Soul Weapon Sunny would want to use would be of the Ascended Rank, as well. </p><p> Basically, he now had a vast arsenal of Ascended armaments to choose from. </p><p> '...Well, isn't that neat?' </p><p> Sunny lingered for a few moments, then continued to read the runes. The Serpent was not supposed to gain any new Abilities from rising to a new Rank, just like Saint had not. However, that Legacy Shadow of his was a bit strange… it had come into possession of the [Soul Beast] Attribute and the [Soul Reaver] Ability the last time he mastered a step of the Aspect Legacy, after all. </p><p> Who knew, maybe this time would be the same? All 𝒍𝒂test nov𝒆l𝒔 on novelb𝒊n(.)c𝒐m</p><p> And just as Sunny hoped, there was a new set of runes shining in the darkness. </p><p> Shadow Abilities: [Serpentine Steel], [Soul Reaver], [Grace of Shadows]. </p><p> He frowned. </p><p> 'Huh? Grace of Shadows?' </p><p> Sunny concentrated on the new Ability, and read: </p><p> Ability Description: [The master of the Soul Serpent can grace another with the trust and companionship of their Shadow Guide. One should be careful whom they bestow with their grace; entrusting others with the loyalty of Shadows is the same as sharing one's soul, and thus should not be offered lightly.] </p><p> He tilted his head. </p><p> 'Uh… what?' </p><p> So, basically, this Ability allowed Sunny to transfer the ownership of the Soul Serpent to someone else, as if the Shadow was just an Echo. No, not quite… Echoes could be transferred only to other Awakened, while the Grace of Shadows could be bestowed upon anyone with a shadow, presumably. </p><p> If Sunny wanted to, he could gift the Soul Serpent to a random Nightmare Creature. Like the Mordant Mimic, for example. That would have been funny… </p><p> 'What? No! No, it wouldn't have!' </p><p> Why would he give away his precious Serpent? Especially considering that the description hinted that doing so would leave him vulnerable. What nonsense was this? </p><p> Sunny grimaced. Well, not every Ability could be a winner. This one was rather useless… he could imagine a situation where lending the Soul Serpent to one of the cohort members would be beneficial, but just barely. It would be easier to just command the creature himself. </p><p> With a sigh, he commanded the Serpent to slither off of his skin and present itself for inspection. </p><p> A few moments later, Sunny flinched back. </p><p> 'What?! Where… where did my cute little snake go?!' </p><p> The Shadow had changed a lot, indeed. Before, the Soul Serpent had not really been a "cute little snake", but its size was at least not too terrible… no more than six meters in length, at best. But now, a stygian creature of at least twice that size sprawled through the cabin, its mighty body covered in adamantine jet-black scales and as thick as a tree trunk. </p><p> Its terrifying maw was wide enough to swallow Sunny whole… well, at least his real, human body… and its triangular head however near the ceiling, two tenebrous eyes looking at him from above. </p><p> The Soul Serpent was so large that it barely fit into the confines of the cabin, suddenly making it look small and fragile. </p><p> Sunny gulped. </p><p> 'What… what a good boy… you are. Nice snake! Uh, you... you can return now, buddy.' </p><p> The Shadow stared at him for a few more seconds, then hissed deeply and moved, its scales rustling on the floorboards. Soon, it turned back into an intricate, beautiful tattoo. </p><p> Sunny remained motionless for a few moments, shaken, and then slowly grinned. </p><p> 'Good... perfect! If even I am afraid of that thing… imagine how my enemies will feel…' </p><p> *** </p><p> Some time later, Sunny commanded the Serpent to turn itself into the black odachi, and sat quietly for a while, glancing at its somber steel. Every centimeter of this weapon was familiar to him… and yet, it felt different. The great blade felt sharper, stronger, far more devastating. </p><p> This was a weapon one could cut a mountain with. </p><p> He willed the Soul Weapon to shift into a spear, then a tang dao, then a tachi, and finally a battle axe. All of them felt the same — deadly and brimming with dark power. Only the axe seemed a little bit off. </p><p> The Serpent could take any form, but was limited by Sunny's knowledge. The better he knew a weapon, the better he could imagine it, to the smallest of details… the greater the result would be. And so, while he could command it to assume any shape, those that he had experience with would produce the best result. </p><p> He feasted his eyes on the somber steel for a bit, and then put the Shadow aside. </p><p> It was time to check on the rest of his rewards. </p><p> Since Sunny's mind had been preoccupied with the Soul Serpent and his Aspect Legacy for the last few minutes, he decided to continue with that. </p><p> Summoning the runes one more time, he looked to the bottom of the shimmering field of symbols and concentrated on a certain string. </p><p> Aspect Legacy: [Shadow Dance]. </p><p> Shadow Dance Mastery Level: [3/7]. </p><p> First Relic: Claimed. </p><p> Second Relic: Claimed. </p><p> Third Relic: [Claim] </p><p> Sunny hesitated for a long time, his face turning grim. </p><p> What the hell was he going to do if the third Relic turned out to be another drop of ichor? Waste it again? </p><p> 'Curses...' </p><p> Finally, he inhaled deeply and thought: </p><p> 'Claim!' </p><p> For a moment, nothing happened. And then, the Spell whispered into his ear: </p><p> [You have claimed an Aspect Legacy Relic.] </p><p> [...You have received a Memory.] </p><p> Sunny gritted his teeth and looked up, at the list of his Memories. Then, a relieved sigh escaped from his lips. </p><p> It was not a drop of Shadow God's blood. </p><p> Instead, an unfamiliar combination of runes appeared at the end of the list. It read: </p><p> Memory: [Shadow Lantern].</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_652.html">Previous Chapter</a><a class="navigationButton next" href="chapter_654.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

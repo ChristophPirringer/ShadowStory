@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1022</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1022 The Fall Of Falcon Scott 40</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> 1022 The Fall of Falcon Scott (40) </p><p> On the way back, Sunny couldn't help but retreat inside himself. He did not know what was happening on the surface — whether the port fortress still stood, whether the Devouring Cloud had breached the walls of the city. The very idea of a world outside of the cold, dark, muted, oppressive abyss of the ocean seemed strange and distant. </p><p> Chances were, he would have to fight again as soon as Bloodwave delivered them under the walls of Falcon Scott. </p><p> However, Sunny was too tired, both physically and mentally, to care. He just wanted to forget about everything and rest, at least for a short while. </p><p> Luckily, the killer whale seemed to be moving much slower as they ascended from the depths. That, most likely, was done for the benefit of Sunny and Naeve — even though they were Masters, they were still fundamentally humans. Neither would have died from the decompression sickness, but it could do a lot of damage to their already strained and battered bodies. </p><p> Actually, Sunny was not sure if he was even susceptible to the bends, considering how strange and tenacious his blood was. However, he welcomed the short moment of respite. </p><p> Somber and unchanging, the dark ocean remained the same as they retreated from its cold depths. The only difference Sunny could feel was the slow, gradual lessening of the pressure that weighed on him like a slab of stone. With each minute, his body seemed to become a little lighter, and breathing was a little easier. Visit nov𝒆lbin(.)c𝒐m for the l𝒂test updates</p><p> He closed his eyes, allowing the cold currents to carry him. </p><p> '...Right. There was a Memory. I should... probably... study it before we return to the battlefield.' </p><p> Sunny was in no shape to fight, but he might have no choice but to join the battle soon. He had to use any advantage there. </p><p> He summoned the runes and watched as they shimmered in the darkness, slowly forming into coherent shapes. Before turning his attention to the Memories, he briefly checked the list of Shadows. Both Saint and Nightmare seemed to be alive. Relieved, Sunny let out a mental sigh and looked up. </p><p> A new set of runes appeared at the end of the list of his Memories. </p><p> Memory: [Shroud of Graceless Dusk]. </p><p> He lingered for a moment. </p><p> 'Huh.' </p><p> That was the second Memory in his arsenal named after a burial garb. Was the Spell trying to insinuate something? </p><p> Too apathetic to care, Sunny shrugged and continued to read. </p><p> Memory Rank: Transcendent. </p><p> Memory Tier: VI. </p><p> Memory Type: armor. </p><p> He closed his eyes again, for a moment. </p><p> A Transcendent Memory of the Sixth Tier was the strongest he had ever received after slaying an enemy... of course, it was, since Sybil of the Fallen Grace was the strongest enemy he had ever slain. There was the Spawn of the Vile Thieving Bird, as well, but Sunny did not really consider that victory a true, honestly earned kill. </p><p> In any case, the Shroud of Graceless Dusk had to be an extremely potent Memory. And it was an armor, too — something that he desperately lacked at the moment. </p><p> 'Lucky.' </p><p> Somewhat encouraged, he opened his eyes and looked back at the runes. </p><p> Memory Description: [Sybils were the heralds of the gods and conduits of divine grace. Many mysteries were known to them, and so were many truths. There was one being, though, who knew much more — the graceless caitiff, Demon of Dread. He knew every truth there was, because he knew everyone's fear- even that of the gods. </p><p> And so, seeking salvation from the end, the sybils abandoned the mortal realm and guided their people on a long and arduous journey. They led them far away, across the lands consumed by war... </p><p> To the Tomb of Ariel. </p><p> There, they found solace, safety, and shelter. In time, the voices of the gods grew silent one after another, leaving behind only a vast and dreadful silence. That was how the sybils embraced the Estuary, and that was how they fell.] </p><p> Sunny frowned. </p><p> 'That guy again...' </p><p> By now, he was all but certain that the region of the Dream Realm where the Chain of Nightmares had originated — and the black pyramid hidden within — had something to do with Ariel, the Demon of Dread. Was the pyramid really his tomb, then? How would a daemon die, and who would build him an opulent grave? </p><p> And what did the great river that allegedly flowed back in time have to do with any of that? Its estuary was mentioned in the description of the Stifled Scream as a place where a dreadful secret had been hidden. Was this the same estuary? </p><p> The sybils had been, apparently, some sort of oracles that received revelations from the gods. Once the gods died, those revelations obviously stopped. The timing didn't really make sense, though, because the Tomb of Ariel had seemingly existed long before that. </p><p> 'Mysterious...' </p><p> With a tired sigh, Sunny tried to ignore the myriad of questions and turned his attention to the enchantments of the Graceless Dusk. There were no less than six of them: </p><p> Enchantments: [Blessing of Mind], (Blessing of Soul], </p><p> [Blessing of Spirit], [Blessing of Flesh], [Sublime Silk], </p><p> [Blessing of Dusk]. </p><p> Somewhat invigorated, he studied the descriptions: </p><p> [Blessing of Mind] Enchantment Description: "This Memory enhances one's mental acuity." </p><p> [Blessing of Soul] Enchantment Description: "This Memory enhances one's rate of passive soul essence replenishment." </p><p> [Blessing of Spirit] Enchantment Description: "This Memory enhances one's ability to endure and recover from mental fatigue." </p><p> [Blessing of Flesh] Enchantment Description: "This Memory enhances one's ability to endure and recover from physical fatigue." </p><p> [Sublime Silk] Enchantment Description: "This Memory is woven out of sublime, mystical silk. It is impervious and possesses a beautiful splendor." </p><p> [Blessing of Dusk] Enchantment Description: "This Memory carries the blessing of Dusk, last sybil of the Estuary. The wearer can establish a mental connection with another being to hear their voice and thoughts, or make their own be heard." </p><p> Sunny blinked a couple of times, and then apathetically dismissed the runes. </p><p> 'Well... I'd say it's a jackpot.' </p><p> The Shroud of Graceful Dusk was an incredible Memory, indeed. Its value was only increased by the fact that all but the last of its enchantments were passive — a rare case for Memories of the higher Ranks. </p><p> The silk garment would enhance Sunny's thinking, passive essence regeneration, as well as make him tire less and recover from fatigue faster. He would also be able to communicate with other people... or maybe even creatures... telepathically, which was an incredibly valuable ability. </p><p> If there was one thing about the Graceless Dusk that made Sunny feel a bit regretful, it was that it did not seem to be oriented toward battle, and instead gifted the wearer with great utility outside of it. That was not too strange, since there were a lot of armor-type Memories like that. Still... a Transcendent one, even if it was made of fabric instead of steel, would not be too shabby. </p><p> And he was already thinking about how to use the [Blessing of Dusk] to cause savage mental shock to people. Sunny had plenty of harrowing experiences to share through a mental link... </p><p> As he thought about that, the temperature of the ocean surrounding him subtly changed. Looking up, Sunny could see dim lights through the mass of water. </p><p> They were approaching the surface.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1021.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1023.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

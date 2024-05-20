@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 770</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 770 Aimless Blade</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> 'Argh! What an infuriating woman!' </p><p> Sunny appeared from the shadows and resumed his position in the corner. No one seemed to have noticed his absence, which was for the best. </p><p> Their short conversation with Nephis had been interrupted by the appearance of a ghastly demon with six arms and charred black holes instead of eyes. Sunny had done his best to restrain the abomination while Nightmare attacked it from the back. In the end, they managed to destroy it without sustaining any wounds. </p><p> It had not been an easy battle, though. </p><p> After that, Sunny felt too confused to continue the conversation, and instead chose to return to the waking world. </p><p> 'Because I do… that doesn't even make any sense!' </p><p> It seemed that Neph's whole existence was designed to continuously stump him. From their first conversation on the Forgotten Shore until now, he just could not get how her mind worked. Protecting Cassie simply because she wanted to, caring about people simply because she did… the sheer audacity of being so unapologetically strange and irrational made him fume. </p><p> Especially so because he suspected that Nephis somehow derived strength from this bizarre attitude. Was that what Effie had meant when she talked about conviction? </p><p> Sunny did not really understand what exactly it was that she thought he lacked. Was it will or determination? If so, the huntress was terribly mistaken. He might not have been the most principled of people, but few could boast of having more determination than Sunny. Otherwise, he would not have survived all the terrible trials that life had thrown his way. </p><p> But maybe… maybe conviction was something else. Maybe having will and determination was not enough, unless they were aimed at something precise, and guided by a singular purpose. After all, having a sharp sword was useless unless it was brandished against an enemy. </p><p> Was conviction a guiding principle that shaped formless power and determination into a sharp blade? Was it an unbreakable will to achieve a certain purpose? </p><p> No… it was not so simple. Sunny was not without a purpose, after all. He had his own goals — to have a good life, to be free, to make sure that those he cared about were safe. Why were these values not worthy of being called a conviction? </p><p> If there was one thing he noticed, it was that all of his desires were centered around him. They were all aimed inside. He did not think that there was anything wrong with that… in fact, he considered it a great virtue. </p><p> Nephis, on the other hand, disregarded herself to an almost demented degree in pursuit of her goals. All her desires were aimed outside, and incredibly ambitious. </p><p> Was that the meaning of conviction, then? Was it not only important to have a purpose, but also for the nature of that purpose to be larger than oneself? For the principles that guided one's determination to be founded in something vast and deep, thus pushing the person to rise higher and strive for more? </p><p> All that sounded too high and mighty to Sunny. He was more inclined to value his own simple goals over such lofty ambitions. </p><p> However, he couldn't help but feel a bit uncomfortable at the thought that someone with a greater purpose had an inherent advantage over someone who just wanted to be left alone, as he did. </p><p> Unfortunately for Sunny, he was fated to compete against exactly this kind of people if he wanted to be free to live his life as he seemed fit. Only if he became greater than all of them would they leave him be. </p><p> Which was bound to result in a very inconvenient paradox… </p><p> 'Why am I even thinking about this? Damned Effie and her damned moments of insightfulness… who says she's even right?' </p><p> In any case, he had other things to consider. </p><p> His visit to Neph's dream had not turned out how he hoped it would. Sunny did accomplish one of his goals and tentatively made sure that two years of lonely and, no doubt, harrowing travels through the Dream Realm had not driven Changing Star insane. </p><p> The exact scope of damage done to her mind was yet to become clear, but at least she was not a raving lunatic. In fact… Nephis seemed strangely stable for a person who had gone through something that no one should have ever been forced to endure. </p><p> Whether it was the result of her stalwart willpower or something else entirely, he did not know. Regardless, a lot of tension Sunny had felt slowly dissipated. </p><p> Not all of it, however. </p><p> While he had determined Neph's general mental state, he failed in his two other intentions. </p><p> First, Sunny had not been able to find a bit of closure in dismantling her reasons for invoking his True Name. He had expected Changing Star to hide behind a false and misguided veil of having done it for his own good. He had been prepared, and wished to, obliterate her hypocritical pretense of righteousness. </p><p> He wanted to express his anger, fury, and resentment. He wanted to cause her to feel at least a small part of the anguish that she had caused him to feel. </p><p> Bus Nephis had subverted his expectations by readily admitting that her actions were nothing but selfish, making all the attacks and accusations he had prepared moot. That left Sunny confused and unsatisfied. The fight he had wanted to pick never happened, because the other person did not want to fight. </p><p> His animosity was not only struggling against his own complicated feelings, but also completely one-sided. </p><p> 'Infuriating…' </p><p> Much more importantly… Sunny had failed to learn the most vital information. He had not gathered the courage to ask the question that was bothering him the most. </p><p> What were Changing Star's intentions toward their strange and inescapable bond? Get the l𝒂test 𝒏𝒐v𝒆ls at 𝒏ovelbi𝒏(.)co𝒎</p><p> What was she going to do with her power over him? </p><p> So many heavy, complicated, and frightening things were tied to that question. Once he asked it, there would be no going back. He could lose so many things that he cherished, and even more that he did not even have the opportunity to experience yet. </p><p> Depending on the answer, the nature of their relationship could forever change. There was a possibility that it would cease to exist, even. </p><p> Although it might have seemed like he was burying his head in the sand, Sunny simply could not bring himself to have that fateful conversation yet. The stakes were too high. And so, for now, he decided to follow the easiest path and simply let some things remain unsaid. </p><p> He wanted to see how the situation would develop, first. There would always be time to act later. </p><p> …At least that was what he told himself. </p><p> As time passed, the four Masters remained silent. They were watching over the young woman who slept peacefully, her nightmare slain by a transient shadow and his steed. </p><p> After a while, Neph's eyelids quivered. And then, slowly, she opened her eyes.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_769.html">Previous Chapter</a><a class="navigationButton next" href="chapter_771.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

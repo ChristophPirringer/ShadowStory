@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 904</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 904 A Journey Of A Thousand Miles</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Two days later, they finally received a word from Master Jet. The message, which had passed through several people before reaching Sunny, was simple - retreat to Erebus and rendezvous with Davis and his cohort of Irregulars there. </p><p> Godspeed. </p><p> Sunny took a deep breath after hearing the news. </p><p> It was as he had expected, even though a small hope that some miraculous help would be sent to assist them on the thousand-kilometer journey had been still somehow aflame in his heart. Now, it was completely extinguished. </p><p> With that, the cohort's short period of rest was over. It was a good thing, too. </p><p> Over the past couple of days, Sunny killed several Nightmare Creatures that had wandered close to the camp. Strangely, there had not been as many of them as one would have expected, and he was quick to dispose of the bodies. Still, the smell of blood was slowly permeating the area, and pretty soon, it was bound to attract bigger threats. </p><p> The blizzard was still raging outside the wreck of the old war machine. Piercing the swirling snow with beams of light, the Rhino growled as it drove forward and abandoned its temporary shelter. Accelerating, it then moved north, toward the slopes of the towering mountains. </p><p> The atmosphere inside the vehicle was tense, but as minutes passed without anything lunging an unexpected attack on the APC, everyone calmed down a little. </p><p> ...Except for Sunny. He had no plans of calming down until they safely reached the stronghold of the First Evacuation Army. In fact, he would prefer if his people remained tense and paranoid, as well. </p><p> But there was such a thing as too much pressure, too. People tended to break if subjected to persistent and overwhelming stress without any chance to take a breath. Actually, his soldiers were holding up surprisingly well, considering everything they had gone through in the past two months... and for a good reason. One of the criteria he had chosen these particular Awakened by was their mental resilience, after all. </p><p> Even Luster, who seemed like a carefree fool most of the time, was enduring the rigors of the calamitous Antarctica campaign with a surprising tenacity. Maybe it was exactly that lighthearted and frivolous personality of his that made the young man so immune to despair. </p><p> '...Do I need to learn from Luster?' </p><p> That was something Sunny had never expected to think about. DisCover 𝒖pdated novels on n(o)v/elbin(.)co𝒎</p><p> The Rhino drove forward, and, hidden by the veil of snow, Saint and Nightmare followed it from a small distance. Even though the mountains were obscured from view by the snowstorm, the jagged peaks were getting closer and closer. Sunny's shadows prowled outside, scouting the path ahead. </p><p> Just before they reached the terminus that separated the coastal highway, which stretched along the whole length of the Antarctic Center, from the road leading to the former LO49 and the path that took a turn to climb high into the mountains, one of the shadows noticed something strange in the snow. </p><p> Sunny hesitated for a few moments, frowning. Then, he moved closer to the pilot's seat and spoke calmly: </p><p> "Turn to the left a little and slow down. We are going to take a stop in a couple of kilometers." </p><p> Luster obediently followed his instructions, gradually slowing down. Eventually, the massive vehicle came to a halt. </p><p> Sunny opened the hatch and dove into the blizzard, the polished black wood of the Cruel Sight's shaft falling silently into his hand. Struggling against the wind, he then walked forward and stopped in front of a tall pile of snow. </p><p> Less than a hundred meters forward was the terminus of the coastal highway, with several empty buildings standing with their doors ajar. Some distance away to his left was the ocean, which made Sunny feel very tense. </p><p> Right now, however, his attention was concentrated on the tall mound in front of him. Under a thick layer of snow, portions of a massive carcass could be seen. The Nightmare Creature had not been dead for long - a day at most, maybe two. From a cursory look, it had been a Demon, probably of the Awakened Rank. </p><p> Judging by the vicious wounds covering its body, it had not been killed by human weapons, and as if to illustrate that point, large sections of the carcass seemed to have been devoured. </p><p> '...Strange.' </p><p> Nightmare Creatures were known to fight amongst themselves on occasion, but only in the Dream Realm. Out here in the waking world, there were too many human bodies for them to tear apart, and too many human souls to devour. So, even when different tribes of abominations collided with each other, they rarely showed any sign of hostility. Hunting down much tastier prey always took precedence. </p><p> However... with how many Nightmare Creatures were currently rampaging across Antarctica, and how concentrated the human population had become due to being moved to a small number of siege capitals, things could have changed. If there were instances of infighting between the abominations, it could potentially help the mission of the First Army tremendously. </p><p> Of course, Sunny prevented himself from becoming too optimistic about that prospect. </p><p> He had more important and immediate concerns, anyway. A Nightmare Creature capable of slaughtering an Awakened Demon had to be sufficiently strong, and it could still be near. </p><p> What kind of abomination was it, and where had it gone? Was it alone or accompanied by a whole swarm of other monsters? </p><p> If he managed to deduce something about the nature of the enemy from the corpse, he would be able to better prepare to deflect the threat. </p><p> Sadly, the dead demon did not offer any clues. The only thing Sunny found out was that the killer was not too fearsome, since there were signs of a furious confrontation all over the place. If the other party was truly powerful, their victory would have been entirely one-sided. </p><p> 'Waste of time...' </p><p> Shaking his head, Sunny was just about to turn back when he sensed something through his shadows. One of them had glided a bit further up the highway, and was currently observing some disturbances in the blizzard. </p><p> He slowed down, turning to the north. </p><p> '...What is that?' </p><p> A moment later, a troubled expression appeared on Sunny's face.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_903.html">Previous Chapter</a><a class="navigationButton next" href="chapter_905.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

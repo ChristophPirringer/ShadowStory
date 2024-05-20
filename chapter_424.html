@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 424</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 424 Unlucky Streak</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 424 Unlucky Streak</p><p>Sunny glided through the skies, tensely observing the underside of the Shipwreck Island through the eyes of his shadow. The chain ahead of him was teeming with a swarm of Fallen Demons, but behind him… he didn't even want to know what the thing hiding in the darkness was.</p><p>One thing became clear, though, and it was why none of the Chain Worms had tried to devour the iron giant that swayed in the wreckage of a broken heavenly chain… or rather, had succeeded in trying to bite a piece out of him. The dead colossus was like cheese in the mousetrap, attracting these vile creatures into the range at which the being that dwelled in the perpetual darkness could catch them.</p><p>Sunny was sure that many Chain Worms had attempted to feast on the iron giant, but ended up being the feast instead.</p><p>Currently, he was trying to avoid the same fate.</p><p>Luckily, the Dark Wing allowed him to glide diagonally away from the Shipwreck Island instead of plunging straight down, avoiding the attack range of the terrifying being. He reached the chain without attracting the attention of the bottom dweller, and instantly became a shadow, hiding on its underside.</p><p>Waiting for a few moments, Sunny studied the length of the heavenly tether in front of him.</p><p>'...Not too bad.'</p><p>A large section of the unusually long chain hung low, reaching the Sky Below. He would be able to ride most of it without being noticed by the Chain Worms. The last stretch of it, though… Sunny was going to have to use Shadow Step to jump from shadow to shadow if he wanted to avoid having to fight a swarm of the Fallen Demons.</p><p>The problem was that his reserves of shadow essence were already running low. Except for the short walk across the hull of the ancient ship, Sunny had no chance to really replenish it. In the meantime, he had used a lot to get to the wreck, fight the damnable chest abomination, and pursue it. Chances were, he would reach the Twisted Rock with no essence to spare whatsoever.</p><p>How was he even going to kill the vile chest, especially with one of his arms broken?</p><p>He hesitated for a bit, then rushed forward, swiftly reaching the section of the chain submerged into the Sky Below and continuing to fly through the darkness once there. To avoid tempting fate, Sunny remained on the underside of the gargantuan tether, where there were way fewer Worms crawling around.</p><p>He did, however, encounter several, and saw up close how they were tearing into the rusting iron of the chain as he silently flew past. The sight of it was simultaneously disturbing, fascinating… and strangely sad.</p><p>'All things must come to an end, I guess…'</p><p>Even as seemingly eternal as the miraculous heavenly chains.</p><p>...Soon, he caught up with the chest creature and followed it from the shadows. The bizarre monstrosity was still running as fast as it could, jumping from link to link and using its long gangly limbs to keep balance. From time to time, it got into a short and vicious fight with one of the Chain Worms and either left them severely wounded, or promptly escaped with a ghastly wound or two of its own. By now, its grating giggles grew somewhat miserable, as well as menacingly angry.</p><p>Sunny observed its fighting habits, thinking about how to deal with it best.</p><p>At the same time, he was meticulously calculating the amount of shadow essence he would have to spend to cross the last section of the way to the Twisted Rock, trying to find a way to keep his reserves as high as possible.</p><p>…His calculations, thought, had turned out to be for naught.</p><p>When both Sunny and the chest monstrosity were about halfway to the small island, a dreadful sound reached their ears.</p><p>It was the rattling of the chain.</p><p>Sunny froze for a moment, then glanced toward the goal of this journey.</p><p>'Oh, no…'</p><p>The Twisted Rock had entered its ascent phase, and was now rising quickly into the sky.</p><p>***</p><p>'Curse it all!'</p><p>Sunny remembered thinking that he was in luck today, and couldn't help but growl… mentally, of course, since he had no vocal cords currently.</p><p>Where the hell was this supposed luck?!</p><p>The fact that the Twisted Rock was ascending meant two things for him.</p><p>One was that he would have to act fast and try to kill the chest creature before the Crushing became too terrible, or somehow obliterate the damned thing while being weighed down by it.</p><p>The second was that the position of the heavenly chain was swiftly shifting, making it so that the stretch of it submerged into the Sky Below was becoming shorter and shorter.</p><p>This meant that he would have to spend much more essence to reach the island without attracting the attention of the swarm of Chain Worms. And he didn't have a lot of essence to spare, to begin with…</p><p>'Damn it!'</p><p>As the angle of the chain increased and the bizarre monstrosity swayed, then fell on all fours and rushed forward even faster, Sunny tried to deal with the resentment growing in his heart and followed it.</p><p>'...Was my intuition wrong?'</p><p>Things didn't seem too good for him right now.</p><p>Soon, the two of them emerged from the darkness of the Sky Below and saw the sunlight again. The chest creature seemed indifferent to it, but to Sunny, it was an ill omen.</p><p>Out here in the sunlit expanse of the Sky Above, the heavenly chain was not covered in an uninterrupted layer of shadows anymore. That meant that he couldn't move through it unobstructed. Instead, Sunny had to either step from one shadow to another, if they were close enough, or send his own forward and make use of it to jump over long stretches of brightly lit parts of the heavenly tether.</p><p>'Damn it...'</p><p>Knowing that there was no other choice now, Sunny burned through his essence in order to not fall behind the rushing monstrosity.</p><p>Soon, his reserves grew dangerously low. It was still enough to reach the Twisted Rock… probably… but once there, he would have to fight while both of his cores were nearly empty.</p><p>That meant no bursts of speed, strength, and resilience that he had already gotten used to.</p><p>No access to active enchantment like the [Dark Mirror].</p><p>No more using Shadow Step to escape dangerous situations, at least for a while.</p><p>…And added to all that, one of his arms was broken and completely useless.All 𝒍𝒂test nov𝒆l𝒔 on novelb𝒊n(.)c𝒐m</p><p>Oh, and there was also the Crushing.</p><p>If Sunny had teeth in his shadow form — or a mouth, for that matter — he would have gritted them right now. Full of dark emotions, he thought:</p><p>'...Doesn't matter. I'm getting these coins even if it kills me!'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_423.html">Previous Chapter</a><a class="navigationButton next" href="chapter_425.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

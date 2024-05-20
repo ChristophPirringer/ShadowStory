@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 355</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 355 Back To Reality</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 355 Back to Reality</p><p>On one of the underground levels of the Academy hospital complex, in a small room that was filled with the massive rectangle of the dream pod and various pieces of medical equipment, a delicate girl with pale blond hair was sleeping beneath the transparent glass lid, her face surrounded by wisps of cold vapor.</p><p>Suddenly, a series of lights ignited on the surface of the pod, and the medical machinery in the room came to life, producing various noises.</p><p>A few moments later, the girl opened her striking blue eyes and screamed.</p><p>…On a top floor of a private care facility in the center of a city, in a spacious room with tall windows and a luxurious interior, a state-of-the-art sleeping pod stood silently, bathed in sunlight. An attending nurse sat in a comfortable chair beside it, monitoring the vital signs of a beautiful young man who slumbered inside.</p><p>For the past three years, there had not been a single minute when the young man was left alone. His pod was surrounded by fresh flowers, and someone was always there to keep watch.</p><p>For three years, the flowers and nurses came and went, but the young man had remained the same. Nothing about him ever changed.</p><p>Suddenly, the nurse opened her eyes wide.</p><p>A second later, the sleeping pod shone with bright light. Its lid swiftly slid sideways and hid in a special housing slot.</p><p>The figure inside was slowly raising in the air, as if pulled up by an invisible force. The beautiful young man was… levitating.</p><p>The nurse remained motionless for a few seconds, stunned. Then, she hastily ran to the panel on the wall and pressed a call button.</p><p>…In a small apartment in one of the less prestigious areas of the city, in a tiny room, a tall young woman was lying in an old and barely functioning pod. This one was possibly the last representative of its model, taken out of production a long time ago. Still, it seemed like the most luxurious thing in the apartment, by far.</p><p>The door of the room was open, letting in the sound of a news broadcast. A pleasant and confident tone was currently saying:</p><p>"...unusual number of Awakenings! Dear viewers, we… we are currently receiving a report from our correspondents, and will be able to update you on this event shortly. The representatives of the great Legacy Clans, meanwhile…"</p><p>Suddenly, the sound of the broadcast was cut out, replaced by a heavy, hopeless silence.</p><p>Soon, the sound of tentative steps could be heard, approaching the room where the pod stood.</p><p>Just a second later, however, a fist slammed into the armored glass of its lid from inside, sending a net of cracks through it.</p><p>…Back in the Academy, in a room identical to the first one, the lights suddenly blinked and then went out. It was now shrouded in absolute darkness.</p><p>Something crashed down with a thunderous noise, and then, a pained human voice hissed:</p><p>"Damnation!"</p><p>A moment later, the lights came back, revealing the figure of a lithe young man with pale skin and dark hair standing near an overturned medical monitor.</p><p>There was a disoriented, confused expression on his face.</p><p>The lid of the sleeping pod was still closed.</p><p>However, it was empty.</p><p>…And a few hundred meters away, hidden even deeper underground, there was another room.</p><p>This one was slightly bigger, and much better guarded, than all the others.</p><p>In it stood a simple sleeping pod.</p><p>Beneath its transparent lid, a young woman with ivory skin and long silver hair slept, undisturbed by anything.</p><p>Despite the growing commotion outside, inside the tranquil room, it was quiet and peaceful.</p><p>Nothing changed.</p><p>The pod did not shine with bright lights, the medical equipment remained silent.Discover 𝒏ew chapters at novelbi𝒏(.)co𝒎</p><p>Imprisoned in the glass coffin of the sleeping pod, the young woman continued to dream, as if cursed to remain in her nightmares forever.</p><p>***</p><p>Sunny looked around the small room, slowly realizing where he was.</p><p>…Academy. He was back at the Academy.</p><p>He had returned to the real world.</p><p>He looked around, noticing the medical equipment and the sleeping pod, all of which were currently ablaze with the light of alarms. The pod was still closed.</p><p>'How the hell did I get out?'</p><p>Speaking of which…</p><p>Looking down, Sunny realized that he was naked. To avoid any awkward situations, he summoned the Puppeteer's Shroud.</p><p>Once the armor weaved itself out of black strings and covered his skin, he felt a lot better.</p><p>…He did, however, have to force himself to not summon the Midnight Shard as well. His instincts screamed, demanding him to arm himself in an unfamiliar environment.</p><p>But this was the real world. He had to adjust his behavior.</p><p>The decision to cloth himself turned out to be the correct one. Just a few moments after he had made it, the door of the room opened, and a woman in a white coat rushed inside.</p><p>Noticing Sunny, she froze. Her eyes widened in horror, and she raised a hand to cover her mouth, as if suppressing a scream.</p><p>'What's wrong with her?'</p><p>Sunny frowned, blinked a couple of times, then looked at his reflection in one of the medical machines.</p><p>'...Oh.'</p><p>Since both Sleepers and Awakened traveled to the Dream Realm in spirit, his actual body was whole and pristine, without even a single scar.</p><p>However, the same could not be told about the Puppeteer's Shroud.</p><p>The silk armor was torn and dirty, looking like rags. What's more, it was covered in so much blood that it was hard to tell that its fabric was once grey.</p><p>Looking at the doctor in embarrassment, Sunny forced out a smile and said in a raspy voice of someone who had not spoken in more that year:</p><p>"Uh… hi? Can I maybe get some clean clothes?"</p><p>The woman stared at him for a few moments, then said in a trembling voice:</p><p>"Slee… Awakened Sunless? Sir, you are awake?"</p><p>'Sir… did she just call me sir?'</p><p>Sunny grinned.</p><p>"I sure hope so. I've been sleeping for a year and two weeks, after all."</p><p>The doctor finally seemed to relax and looked at him with a relieved, joyous expression in her eyes.</p><p>A few moments later, she smiled slightly and said, her voice full of sincere admiration:</p><p>"Welcome back to the real world, sir!"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_354.html">Previous Chapter</a><a class="navigationButton next" href="chapter_356.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

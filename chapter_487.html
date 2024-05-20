@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 487</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 487 First Wave</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny took a step forward and brandished the Soul Serpent, feeling the indomitable nature of Saint's grounded battle style permeate his bones. The gloomy shadow wrapped itself around the blade of the odachi, causing it to shine with dark radiance. </p><p> Just like the taciturn demon, this Serpent shared a kinship with the shadow, and as such, the augmentation it received was even more powerful than Sunny himself could enjoy. Even though the odachi was only of the Dormant Rank, for now, this alone made it equal to an Awakened blade in terms of sharpness, durability, and lethality. </p><p> He activated the [Living Stone] and [Feather of Truth] enchantments of the onyx armor to make it light as a feather and able to heal the damage it was bound to receive. </p><p> Then, Sunny summoned the Blood Blossom charm and willed the armor to integrate it, activating the [Underworld Armament] enchantment. This way, the enhancing effect the crimson flower had on his Memories and Shadows was going to be inherited by the Mantle itself, and then strengthened even further. </p><p> He had not told the other Awakened to make the Nightmare Creatures bleed just to seem cool. He literally needed there to be as much blood flowing to the pavement as possible, so that his armor and sword became as powerful as possible. </p><p> The Gate was open now, revealing a dark rift in the fabric of reality, as wide as the street itself and as tall as the buildings. It seemed to devour all light around it… and call to him. </p><p> Call for him to enter. </p><p> …Sunny wasn't too preoccupied with the gate itself, though. His gaze was locked on the unclear silhouettes moving through the darkness. </p><p> Soon, the first Nightmare Creature burst into the daylight, leaving cracks on the asphalt with its black claws. </p><p> '...Good.' </p><p> Had he not wanted to accumulate shadow fragments? Had he not wanted to raise the counter of the [Prince of the Underworld] enchantment? </p><p> Well, he should have been careful about what he wished for! </p><p> There were going to be hundreds of abominations coming through the rift today to satiate his wish… </p><p> The Second Category Gates were the most frequent to appear in the waking world. As such, everyone was familiar with how they functioned. </p><p> The first few waves of advancing Nightmare Creatures were not going to be too terrible, at least for a fighter of Sunny's caliber. They would be comprised mostly of Dormant creatures, with some Awakened abominations mixed in. Their Classes and numbers, too, would be comparatively low. </p><p> But these first few waves… they were just a hint of the horror to come. </p><p> Pretty soon, every Nightmare Creature coming from the Gate was going to be of the Awakened Rank, with more and more Fallen ones appearing as well. Their Classes were going to rise, until there were as many Demons as there were Monsters and Beasts around. </p><p> And if Sunny was still alive by the time this second stage was nearing its culmination… well, two things could happen, neither promising him anything good. </p><p> Either the Gate was going to end up really being of the Second Category, or not. </p><p> If it continued to grow, reaching the Third Category, then there would be more and more waves of Nightmare Creatures, hundreds of Fallen abominations lunging into the real world from the dark void between worlds, with Corrupted horrors and creatures of higher Classes appearing among them.</p><p> If it didn't… then, the Guardian of the Gate would manifest itself into reality. The Guardian was always at least one Rank higher than the Gate's Category, and could be of any high Class, from a Devil… to a dreaded Titan. </p><p> …In any case, Sunny had to live through the initial waves first to find out what was going to kill him in the end. </p><p> The first creature to appear from the darkness resembled a terrifying hound with bloodred bone spikes growing from its mottled, black fur. It landed on the road and opened its maw, then produced a guttural, hoarse roar. </p><p> …And then abruptly grew silent as Shadow Serpent's blade slashed across its neck, severing its head entirely. </p><p> [You have slain a Dormant Beast…] </p><p> Sunny jumped back, and just as he did, more silhouettes lunged at him from the dark rift, their eyes burning with madness and bloodthirst as they smelled what was waiting for them up ahead… </p><p> A whole world full of defenseless, untainted souls for them to devour. </p><p> 'Not so fast, you filth…' </p><p> Sunny had a very simple plan. </p><p> He was going to build a barrier in front of the Gate. </p><p> …He was going to build a mountain of bleeding corpses right at the border of the darkness, to show the next waves of Nightmare Creatures how welcoming the real world was to their kind. </p><p> As soon as more spiked hounds entered into the light, he lunged forward to meet them. </p><p> Blood sprayed into the air, and as the menacing odachi reaped another life, Sunny shifted his weight, slammed the pommel of the sword into the face of a lunging creature, then swiftly stepped forward and pierced the third one through the throat. </p><p> Before the drops of blood even fell to the ground, he tore the blade from the corpse of the abomination, slicing it almost in half, and brought his heel on the skull of the beast he had previously slammed to the ground. In the process, he increased the weight of the Mantle of the Underworld, so the creature's head simply exploded under his boot. Find 𝒏ew chapters on n𝒐velbi𝒏(.)com</p><p> All of it took no more than two seconds. </p><p> …And on the third second, a dozen hellish beasts emerged from the rift, some of them running, some of them jumping high into the air to land on him from above. </p><p> Behind them, a macabre wall of flesh, claws, and fangs was spilling out of the darkness like a rabid tide. </p><p> Sunny growled, feeling the enchantment of the Blood Blossom activate and fill his sword with an unquenchable bloodlust. </p><p> 'Come! Come, you bastards! Let this mongrel guide you all to hell!'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_486.html">Previous Chapter</a><a class="navigationButton next" href="chapter_488.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

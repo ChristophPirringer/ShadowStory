@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 186</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 186 Eureka</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 186 Eureka</h4> <p> It took Sunny a long time to perceive the anomaly for several reasons. To begin with, it was so subtle that it was almost impossible to notice. His whole mind was concentrated on the thoughts of battle technique and styles, and still, he only saw it by accident. </p><p> The second reason had to do with his decision to face the Stone Saint without the augmentation of his Aspect Ability. Because of it, the shadow had nothing to do. It returned to acting as a proper shadow and obediently repeated his every movement while he fought. </p><p> The last reason was Effie — or, more specifically, the fact that she had brought a source of light into the hidden lair, making the shadow actually visible. </p><p> Because of this unlikely combination of events, Sunny was able to see it. </p><p> He was in the middle of a fierce battle against the Stone Saint, sweat and blood trickling down his battered body. The clamor of swords clashing against each other permeated the chamber, drowning the raspy sound of his laborious breathing. Deflecting another blow, Sunny swiftly crouched and let the edge of the creature's shield whistle through the air above his head. </p><p> His rather clumsy attempt to imitate one of the Stone Saint's explosive ripostes was easily blocked, and the two of them continued the duel. This time, it lasted for an especially long time. Sunny was pretty sure that he had already withstood the oppressive assault of the monster for one and a half minutes. </p><p> If true, this was his personal best. </p><p> After countless spars like this, he would sometimes enter a special state of flow. In it, his mind was calm and clear, operating at a tremendous speed. When Sunny entered this state, his attention became simultaneously sharp like a blade and strangely unfocused. </p><p> Normally, he would have to concentrate on specific details, like watching the enemy's footwork to predict where the next blow would come from. Sunny was even able to split his mind in two, with one part of it absorbing the information that came through his eyes, while the other was preoccupied with what the shadow saw. </p><p> In this way, he could either concentrate on two enemies at the same time or have a full view of his surroundings, so that no one could sneak up on him from behind. </p><p> However, with his attention not focused on anything, he was somehow capable of perceiving everything. Every detail, be it the enemy's footwork, the direction of their gaze, or the slight change in the environment simply became a part of the all-encompassing tapestry that he perceived as a whole. </p><p> Needless to say, this ability to see everything simultaneously and think with sufficient speed to act on it dramatically boosted his combat performance. It was consonant with and felt like a natural continuation of the strange sense of clarity that he had achieved after almost dying in the battle against his first carapace centurion. </p><p> ...Right then, Sunny entered this state of flow once again. After a few more exchanges, he suddenly noticed that there was something strange about his shadow. </p><p> Instinctively, he paid it more attention while continuing to fight. </p><p> It was then that he realized that his shadow's movements, while almost exactly like his, were actually not the same. Followw new 𝒄hapters at nov(e)l/bin/(.)com</p><p> There was a very slight, almost imperceptible difference. Pa nda </p><p> No vel But he could feel something vast and profound hiding in this tiny divergence. </p><p> Stunned, he slowed down and stared at the shadow. </p><p> 'What… what did I just see?' </p><p> Sunny was so stunned, in fact, that for a moment he completely forgot where he was. In the next second, the rim of the Stone Saint's shield hit him in the chest, sending him flying at the wall once again. </p><p> Sunny crashed into the cold stones, fell to the floor, and weakly groaned. </p><p> 'Ouch. That one hurt.' </p><p> However, he immediately forgot about the pain. Sitting up, Sunny stared at his shadow with wide eyes. </p><p> 'This… this is…' </p><p> What did he see? </p><p> The shadow's movements, while exactly like his own, were also different. It was… it was… </p><p> As though a light ignited in his head… or rather, became drowned in shadows… Sunny suddenly had an epiphany. This revelation was so astonishing that he almost cried out loud. </p><p> The divergence between him and his shadow was not random, nor was it chaotic. It was consistent and harmonious, hinting at a deeper meaning. And that meaning was… </p><p> That his shadow had a battle style of its own. </p><p> Sunny only saw a glimpse of it through the slight discrepancy in their movements. If someone didn't know the shadow as well as he did, they would never notice anything. Even he only saw it by accident. </p><p> What he saw wasn't enough to discern anything about that battle style except for the fact that it existed. He was also able to sense its… essence. It was flowing and insidious, shapeless and everchanging, like the shadow itself. </p><p> This description was so close to its nature that Sunny felt it was safe to assume that the movements of the battle style were not something the shadow performed on purpose, but rather a manifestation of its innate quality. </p><p> Did… did his shadow have a battle art fused into its very being? </p><p> "...It is an invaluable helper," he whispered. </p><p> If this was true, then Sunny had just found the answer to the question that had been tormenting him for the last few days. </p><p> While the battle style entrusted to him by Nephis was versatile and deadly, and the technique of the Stone Saint was indomitable and oppressive, they were not his own. No matter how much he practiced them, he felt that there was something missing. </p><p> Individuality. </p><p> Only by creating a style of his own would Sunny be able to become equal to the best fighters out there. Until then, he would always be just an imitator. </p><p> Of course, creating a true battle style was not something that a novice like him was capable of doing. More than that, there was a difference between knowing that the mysterious shadow style existed and actually understanding what it was. </p><p> But still, still… it was a beginning. If he learned the secret hiding inside his shadow and combined it with the flowing adaptability of his current style, what would the result be? </p><p> Standing up, Sunny spat a mouthful of blood, wiped the sweat off his brow and walked over to his tormentor, the Stone Saint. </p><p> Raising the Midnight Shard, he gritted his teeth and said: </p><p> "Again!" </p><p> Soon, the clangor of swords resounded in the hidden chamber once more. </p><p> Only this time, Sunny paid close attention to his shadow…</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_185.html">Previous Chapter</a><a class="navigationButton next" href="chapter_187.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

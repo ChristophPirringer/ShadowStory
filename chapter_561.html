@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 561</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 561 Journey To The North</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> When they started their expedition, the last vestiges of summer warmth were leaving the Chained Isles. Not every region of the Dream Realm had seasons that were the same as those of the waking world, but this one was somewhat similar. By the time they were supposed to reach Night Temple, autumn would be in full swing. </p><p> If everything went well, the journey was going to take two or three weeks. Sunny wanted to reach the mysterious Citadel and retrieve the ivory knife by the middle of October, then rendezvous with Effie, Kai, and the Fire Keepers at the Shipwreck Island in the first days of November. That would give them almost a full month to reach the Ebony Tower and enter the Seed before winter. </p><p> Of course, in the Dream Realm, one could never put too much faith in any plan. </p><p> Sunny felt reasonably confident in his ability to travel across Chained Isles, but he knew not to get arrogant. This was a wild and deadly land, one full of fearsome creatures and insidious threats. </p><p> He had explored many islands and hunted down many abominations here, but even after nine months of fighting and traveling across the region, Sunny was only well-acquainted with the southeastern part of it, where the Sanctuary of Noctis was located. He had never ventured west or north of the Tear. </p><p> The situation was only made worse by the fact that the closer one got to the vast emptiness at the heart of the Chained Isles, the more dire dangers they would face. To reach Night Temple quickly, Sunny and Cassie had to reach the Tear and skirt around its edge, which meant that they would be moving through the most perilous area of the entire region. </p><p> Not all was bad, though. Cassie had some of the knowledge that Sunny lacked, since the Fire Keepers had spent a lot of time in the northern reaches of the Chained Isles. He also had all the information copied from Mordret's map, which contained a detailed description of many places they were going to have to travel through. 𝒩ew 𝒏ovels upd𝒂tes on nov𝒆lbi𝒏(.)com</p><p> He was strong enough to face the dangers that awaited them there, and Cassie wasn't defenseless anymore. The two of them were enough... most likely. These were the reasons why Sunny had decided to attempt the expedition without a full cohort. </p><p> The following days proved that he had been right in his decision. Their journey was surprisingly smooth. The traversal itself provided no problems — Cassie was more than capable of moving from island to island without his help, which was a relief. </p><p> Due to her second Aspect Ability and the Quiet Dancer, the blind girl was able to move through space with an adequate measure of accuracy. As it turned out, she also had an Ascended charm that provided a powerful augmentation to a single Echo, which she used on her rapier. </p><p> With its help, the Dancer could carry her weight for a short distance, which allowed Cassie to get to and off the chains with ease. The only drawback of the charm was that it ate through her soul essence rapidly, and she couldn't use it often or for too long. </p><p> Of course, traversal was the least of their problems. As they traveled further into the heart of the Chained Isles, more and more Nightmare Creatures picked up their scent. That was where Sunny came in. </p><p> With the help of Saint and, when needed, the Soul Serpent, he was able to deal with anything that dared to attack them. Cassie helped, too, but there was rarely anything for her to do — Sunny and his Shadows were just too swift, cunning, and deadly. Their combined power was almost terrifying.</p><p> That was not to say that the blind girl was useless. On the contrary, her presence was perhaps the single most important factor of why they were able to move toward their goal with such ease. </p><p> Her great affinity to revelations, keen senses, and supernatural intuition complimented Sunny's battle prowess perfectly. It was almost disturbing how well they worked together — him scouting ahead and obliterating monsters, her guiding them through the maze of shifting isles in a way that took them past the true horrors, the hidden hazards, and the Crushing. </p><p> The strangest part about all of this was that they didn't even talk to each that much, yet were able to achieve such a deep level of understanding. Most of the journey was spent in silence, with both of them preferring not to speak to another unless absolutely necessary. There was no small talk, no irrelevant conversations, and no friendly banter. </p><p> Sunny didn't even talk to his shadows and Saint like he was already used to, which made the silence almost suffocating. It was indeed a bit awkward in the beginning… but then, he got used to it. He actually started to enjoy the peace and quiet, as well as the company of another human being — even if it was Cassie. </p><p> Their cooperation was efficient, seamless, and not burdened with emotions and other troublesome complications. An alliance of pure convenience. What was there to complain about? </p><p> They traveled across islands that were barren and stark, and across islands that were lush with beautiful verdure. Across islands that teemed with vile abominations, and islands that were full of nothing but bones and ash. Across islands that were open and vast, and islands that were small and hid unseen dangers behind a veil of deception. </p><p> …It wasn't long before a day arrived when a dark line became visible far away, over the northern horizon. When Sunny first saw it, he stood motionlessly for a while, looking north with a dark expression. </p><p> The Hollow Mountains. </p><p> After so long, he finally saw them again. </p><p> Every day after that, the black line grew bigger and closer. Soon, he was already able to discern individual peaks and the jagged shape of the mountain chain that pierced the sky, like the fangs of a colossal dragon. </p><p> And on the day that the dark peaks towered above, shrouded in flowing mist… they finally reached Night Temple.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_560.html">Previous Chapter</a><a class="navigationButton next" href="chapter_562.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

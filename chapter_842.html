@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 842</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 842 Lessons Of The Past</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Leaving the great pagoda, Sunny glanced warily at the bones of Sevirax the Ivory Dragon, whom Kai had slain in the Nightmare, and slowly headed for the lake. </p><p> Its surface was calm and clear, as always. Sunlight reflected from the tranquil waters, making it seem like a pool of shimmering silver. Despite the beauty of the heavenly lake, Sunny couldn't help but feel a hint of unease as he approached it. The memory of the furious naval battle was still fresh in his mind, so no body of water felt safe. </p><p> On the shore, an intricate bench cut from white stone stood, inviting people to rest and enjoy the idyllic view. Currently, it was occupied by a familiar figure. Nephis sat with her legs crossed, staring at the sparkling water with a distant look. When Sunny's shadow fell on her, she lingered for a moment and then looked up. </p><p> "Sunny." </p><p> He remained silent for a while, then sat on the bench and studied the beautiful lake, as well. </p><p> "How's life treating you? Being adopted into a great clan has to be a weird experience." </p><p> Nephis frowned. </p><p> "It's… fine. Feels a bit strange to be addressed as sister by Morgan of Valor, I guess. She seems to enjoy my discomfort." </p><p> Considering who Morgan's other sibling was, she probably put a different meaning into the word "sister"... one that entirely lacked affection, most likely. For a moment, Sunny was darkly amused. </p><p> 'Never thought I would pity the Princess of War one day, but having both Mordret and Nephis as siblings… damn, her luck must be even worse than mine. If that's even possible.' </p><p> Changing Star let out a heavy sigh and turned slightly to face him. </p><p> "You should have told me, Sunny." </p><p> He smiled. </p><p> "What, about Antarctica? Oh, that was classified information. I thought that Cassie would have informed you, anyway. She had to have known, right?" </p><p> She studied him for a few moments, then shook her head. </p><p> "If she did, she kept the knowledge to herself. Cassie… has changed a lot since the Forgotten Shore. She carries a lot of secrets." </p><p> Sunny raised an eyebrow. </p><p> 'Huh. I guess there's trouble in paradise.' </p><p> "I was under the impression that she's utterly loyal to you… like a lost puppy, you know. It's surprising to hear." Top 𝒏𝒐v𝒆l updates on nov𝒆lbin(.)com</p><p> Changing Star did not respond immediately. After a while, she said: </p><p> "Cassie has her own thoughts and her own desires. She is powerful, too… no less than the rest of us. Brushing her agency aside would be a mistake." </p><p> Sunny laughed. </p><p> "Of all the people in the world, I would be the last one to underestimate Cassie, don't you think?" </p><p> Nephis simply looked at the lake. </p><p> "...Are you safe?" </p><p> He lingered for a bit, then shrugged. </p><p> "Is anyone safe? I am surrounded by thousands of soldiers, Awakened, Masters, and even a few Saints. Plus, I'm me. Antarctica is no worse than the Forgotten Shore or the Kingdom of Hope. In fact… if anyone is in danger, it's you. Are you safe?" </p><p> Her face grew dark. Nephis gritted her teeth for a moment, and then said with unusual intensity: </p><p> "You don't understand, do you? This is not the first expedition of that kind. Humanity has tried to resist the Spell before. The last attempt… the last one took the lives of both my grandfather and my mother. They were powerful, too. They were exceptional and ahead of their time, too. What makes you think that you'll do better than them?" </p><p> Sunny shook his head. </p><p> "Many things have changed in the past two decades. Back then, humanity had much less Awakened. There were barely any Masters around. No Saint had even emerged yet… at least officially. Our tech, spelltech, and strategies were much more primitive. We had no experience dealing with something like that. Yes, North America was a disaster, but we learned our lesson there. This campaign, it will be different. It will be better. I will survive it, and grow stronger as a result." </p><p> Nephis looked at him with a challenge. </p><p> "Says who?" </p><p> He smiled. </p><p> "I do. I say if I die or not. It all depends on me, does it not?" </p><p> Sunny sighed and glanced at the radiant lake. </p><p> "The Nightmare Creatures don't scare me. The Chain of Nightmares doesn't scare me, either. If there's one thing that does, however… it's the great clans and their ambitions. Will they really come to Antarctica to start a war of their own?" </p><p> A troubled expression appeared on Changing Star's face. She hesitated before giving him an answer. </p><p> "I… don't know. Maybe. It is a perfect opportunity." </p><p> His own face grew ugly. </p><p> "Why? Why are they doing it now? This is insanity! Our civilization is already on its last leg!" </p><p> Nephis lingered for a while, then sighed. </p><p> "There has to be a logic to their actions, but what is it? I am not sure. All of it is very strange. We are missing something, I think. A key piece of information that can explain everything. The Sovereigns… they never do anything without a reason." </p><p> Sunny scoffed. </p><p> "Is there something you are sure of?" </p><p> She looked at him and said in a serious tone: </p><p> "There is one thing." </p><p> Changing Star remained silent for a moment, distant flames dancing in her cold grey eyes. </p><p> "When the great clans do come to Antarctica… all of us better be ready." </p><p> *** </p><p> Several days later, Sunny ascended to the upper deck of the colossal battleship and walked over to its bow. The guards stationed here and there on the deck let him pass freely, both because of the three stars on the shoulder insignia of his black bodysuit and his close relationship with Naeve of House Night, their direct superior. </p><p> Stopping in the shadow of a massive cannon turret, Sunny endured the cold winds that pelted him with drops of icy water and looked ahead. </p><p> In front of him were the towering hulls of other metal leviathans of the naval convoy, which cut the waves as they sailed toward a distant horizon. </p><p> And out there, on the horizon… </p><p> A dark line slowly appeared, finally putting an end to the vast expanse of undulating water. </p><p> Antarctica… </p><p> After several tumultuous weeks at sea, the fleet had reached its destination.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_841.html">Previous Chapter</a><a class="navigationButton next" href="chapter_843.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

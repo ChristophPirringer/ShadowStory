@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 714</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 714 Dread Naught</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> As the silver circle of the full moon reached the highest point in the sky, a sudden movement tore through the darkness of the night. In the clamor of drums and human voices, an armada of wooden ships flew forward, each vessel illuminated by the orange flame of lanterns. Some had red sails, and some had white. In the pale moonlight, all of them looked grey and colorless. </p><p> The ships rushed forward, seeming like a river of lights. On their decks, human figures moved, feverishly preparing for battle. The soldiers were drawing their weapons and nocking arrows on the strings of their bows, while the captains stared at the radiant moon, their faces tense and grim. </p><p> …Soon, a lonesome black dot appeared on the surface of the silver disk, and then slowly grew as it drew closer. A single ship, this one much larger and more graceful than the rest of them, was fearlessly flying to meet the luminous armada. There was a beautiful tree growing around its mast, and a man with pale skin and raven black hair standing at the oar, guiding the vessel forward. His eyes were grey and clear, shining with the reflected light of the moon. </p><p> Standing near Noctis, Sunny could not help but feel a dark resentment grip his hearts. </p><p> 'Curse it…' </p><p> They had chosen the time of the attack to catch the armies of the Chain Lords unprepared. Most of the soldiers were still on march to the Ivory City, their formation broken and in disarray. It was not easy to unite two large forces, and Noctis had chosen the precise moment when the chaos was at its worse to stage his assault. </p><p> And yet, there was still a considerable force ready to defend the city. At least a hundred ships rose into the air to intercept and destroy them, each carrying dozens of warriors — some of them Awakened, and some even Ascended… but all the absolute elite the warring factions had to offer. </p><p> And somewhere out there, two immortal Transcendents were waiting to take their turn. </p><p> That is what Noctis and the cohort were up against. </p><p> Sunny lingered for a moment, and then glanced past the approaching river of lights, at the distant shapes of the Ivory City. It was as beautiful during the night as it was during the day… the graceful arches of the tall aqueducts, the aerial bridges that connected the islands, the buildings made of white stone... </p><p> The streets of the city were empty, but he could feel thousands of frightened souls trembling behind the walls that they had considered solid and safe. Not knowing what calamity he, and his friends, were bringing to their doorstep. </p><p> Suddenly grim, he had to remind himself that these were the people that had tried to sacrifice Kai to satiate a dragon's hunger, and then burned him alive for daring to survive. </p><p> And the dragon himself was there, too, powerless for now… at least until the dawn came. </p><p> Gritting his teeth, he took a step forward and closed his eyes for a moment. </p><p> 'Just a hundred ships… what is there to fear? I just have to bring ten or twenty down. Maybe kill a few Ascendents. Big deal…' </p><p> The armada was already close enough to make out the distant shapes of humans rushing on the decks. A gust of wind brought with it a chorus of voices. Sunny shuddered, recognizing the familiar chant. </p><p> …Glory! Glory! Glory! </p><p> He opened his lightless eyes, all doubt and remorse disappearing from them. Leaving behind only the cold will to kill. </p><p> Somewhere behind him, Noctis suddenly grinned, and then whispered in a hoarse voice: </p><p> "Now… witness us, gods..." </p><p> A moment later, the massive siege engine standing at the bow of the ship suddenly rang, sending a heavy bolt flying through the darkness. As it pierced the sky, a weave of ancient runes shone on its surface, and the winds howled, cut by its sharp blades. </p><p> Streaking toward the distant armada like a falling star, the bolt struck the hull of the forward vessel… and crushed straight through it, pulverizing a large part of the bow. It tore through the innards of the enemy ship, and then, an explosion of pale light suddenly illuminated the vessel from within for a split second, leaving behind nothing but a cloud of bloody debris. </p><p> The whole ship was destroyed in an instant. </p><p> Noctis laughed madly, and as he did, the Sailor Dolls were already rushing to reload the engine. While they were busy with it, the sorcerer moved one of the oars, throwing his own ship into a turn to let its left bort, and the loaded ballistae situated there, face the rushing enemy fleet. </p><p> …And, just like that, the battle that was meant to change the course of history forever started. </p><p> *** </p><p> The sorcerer's ship had an advantage in size, speed, power of enchantments, and the reach of its weapons. However, the difference was not insurmountable. Before the bow engine could be reloaded, they would already be being pelted by arrows and harpoons of the enemy. </p><p> "Get ready, my friends!" </p><p> The Sailor Dolls pulled the levers of the portside ballistae, sending several smaller, but still devastating bolts flying toward the approaching armada. Others readied their bows, staring forward with indifferent wooden faces. </p><p> Sunny raised Morgan's Warbow, ready to draw it, and threw a question over his shoulder: </p><p> "What of Solvane? What of Sun Prince?" </p><p> Noctis smiled wickedly. </p><p> "Can't you feel? They are approaching. Song of the Fallen, my lady… I am afraid you will have to take the oars soon. Do not worry, however. As long as the moon shines, I will make easy work of those two." </p><p> He lingered for a moment, sending the ship into another turn, and then added: </p><p> "Do worry about the enemy ships, though. If you are not careful, they will tear my beauty apart in no time… not to mention peppering you full of arrows." </p><p> The ships he mentioned were almost in range to shoot their own onagers and ballistae. Even though the sorcerer's vessel was graceful, swift, and stalwart, it seemed impossible for anything to survive the devastating rain of projectiles. Sunny tensed, his pupils narrowing into two vertical slits of pure darkness. Fi𝒏d 𝒏ew upd𝒂t𝒆s on novel𝒃in(.)com</p><p> A few moments before the onslaught came, however, fourteen fearsome shadows suddenly flew from below the islands and flashed upward, colliding against the first row of the enemy ships. Splinters of wood and torn limbs shot into the air, and for a moment, the enemy's formation was broken. </p><p> Using that moment, Noctis send the ship into a dive, narrowly avoiding the aim of the armada, and at the same time presenting its starboard. Another set of ballistae shot their bolts, adding to the mayhem. </p><p> The sorcerer glanced at Sunny, Effie, and Kai with a wild smile. </p><p> "It is your turn, Sunless! Now or nev…" </p><p> Then, however, he abruptly grew silent and flinched. </p><p> Noctis's face, which had already been pale, turned white as a sheet. He groaned, and then slowly turned his head, looking up with a stunned expression. </p><p> A moment later, Sunny heard the immortal let out an ominous whisper. </p><p> "Oh… this is not good… not good at all…" </p><p> Feeling a cold shiver run down his spine, Sunny turned and followed the sorcerer's gaze, up and up, into the night sky. </p><p> Then, he froze. </p><p> 'W—what?' </p><p> The moon… </p><p> The moon was disappearing.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_713.html">Previous Chapter</a><a class="navigationButton next" href="chapter_715.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

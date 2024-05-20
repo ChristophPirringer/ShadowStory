@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1360</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1360 Marooned</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1360 Marooned</h4> <p> A grim silence settled over the open platform. Even the deaf guards seemed affected by it, shifting uncomfortably and throwing worried glances at Cassie. Knowing what he knew now, Sunny recognized the complicated emotions reflected in their eyes... love, devotion, loyalty. </p><p> But also wariness and fear. </p><p> He sighed, then took a bite out of a succulent fruit and leaned back. </p><p> "So... you guessed who the Six Plagues are, too." </p><p> Of course, she did. Cassie always knew more than them, even if she kept it to herself. </p><p> The blind girl nodded slowly. </p><p> "I did... who they are, but not how they are. The Great River is a strange place. Many things that should not be possible anywhere else are possible here." </p><p> She frowned. </p><p> "The Six Plagues - I had to learn a lot about them, since they are the main threat to Fallen Grace. It was hard not to draw conclusions in the process. Strangely enough, though, none of them participated in the attacks on the city during the year I've spent here." </p><p> Nephis looked at her somberly. </p><p> "Were you serious about what you said? That Torment might be responsible for us coming here?" </p><p> Cassie hesitated for a few moments, then shook her head. </p><p> "Not really. She strikes me as someone far too wild and damaged to come up with such an intricate scheme. She's dangerous, though... after the Dread Lord, she has to be the most dangerous of the Plagues. Simply because of her foresight." </p><p> So, there was no answer after all. Sunny was still unable to learn who it was that had been manipulating the Nightmare, unseen, showing terrifying knowledge of fate and the future. </p><p> There was another problem facing them currently, though... </p><p> 'Not good.' </p><p> Meeting Dusk might have turned out entirely differently from how Sunny and Nephis had imagined it, but their overall goal remained the same. They had to conquer the Nightmare... but first, they had to find the members of the cohort. </p><p> Their last theory was that each challenger except for Nephis had been sent into the body of a powerful Defiled champion... who might or might not have been the future version of themselves. </p><p> Regardless of the true identity of the Six Plagues, that theory had been proven wrong now. After all, Cassie was right here in front of them, in place of the last sybil, Dusk - not Torment. </p><p> Which meant that they had no idea where the other members were. </p><p> And since it had already been a year since the Nightmare started... </p><p> Sunny felt intense worry gnaw at his heart. </p><p> 'No, no... don't think about it.' </p><p> Looking at Cassie, he hesitated for a while, then composed himself and asked: </p><p> "You said you knew that would arrive eventually?" </p><p> The blind girl nodded. </p><p> "Yes. I saw us meeting, in a vision. Or rather, felt it." </p><p> Sunny took a deep breath. </p><p> "Then what about the others? Do you know where they are?" </p><p> There was one more question that he had, but couldn't bring himself to ask. </p><p> 'Are they alive?' </p><p> Cassie suddenly smiled. The melancholy shrouding her features was vanquished, her face illuminated by that smile. </p><p> "Yes! Of course!" </p><p> She froze, then coughed awkwardly. </p><p> "...They're alive, I mean. Sorry." </p><p> 'Right. I should remember who I'm talking to...' </p><p> The blind girl was more than capable of answering questions that had not been asked yet. </p><p> Her smile dimmed a little, and Cassie sighed. </p><p> "I haven't wasted the whole year doing nothing, you know. Apart from making sure that Fallen Grace is not conquered by the Defilement, I also tried to learn as much as I could. About the world, the Tomb... I also tried to find the others, of course." </p><p> Nephis leaned forward, a hint of excitement in her eyes. </p><p> "And?" </p><p> The blind girl hesitated. </p><p> "I managed to determine their locations. Effie and Jet are together... are, here it is." </p><p> Suddenly, a small shadow fell on the platform, and a familiar crow landed on Cassie's shoulder. It stared at Sunny with an aggrieved expression, and then cawed loudly: </p><p> "Sah-nee! Sah-nee!" </p><p> It was Jet's crow Echo. </p><p> Staring at the bird with excitement, he asked: </p><p> "They're here, in Fallen Grace?" </p><p> The crow suddenly looked crestfallen. It shook its beak slightly, then cawed sadly: </p><p> "Stuck! Stuck!" </p><p> Both Sunny and Nephis looked at Cassie, worry apparent in their eyes. </p><p> She sighed. </p><p> "They are alive, and together. But they are caught in a dangerous zone of the Great River, unable to escape. I spent a lot of time trying to locate the exact coordinates of where they are marooned, but only succeeded after this Echo found me. I would have tried to rescue them myself, but Dusk is... I am... the only Outsider left in Fallen Grace. I couldn't leave before you arrived." </p><p> Sunny nodded, both relieved and concerned. It was good that Effie and Jet were together... and it was even better that Cassie had determined their exact location. The existence of the crow Echo also proved that at least one of them was still alive. </p><p> And yet, how could he not worry when he had just learned that they were stuck in some bizarre hazardous zone of the Great River? </p><p> Nephis inhaled deeply, then asked: </p><p> "What about Kai and Mordret? Anvil's son?" </p><p> The blind girl frowned. </p><p> "They... are also together. However, their situation is worse." Visit n𝒐velbin(.)c𝒐m for 𝒏ew 𝒏ovels</p><p> She lingered for a few moments and said darkly: </p><p> "They are in Twilight." </p><p> Sunny and Nephis glanced at each other, confused. He suppressed the impulse to touch the Crown of Twilight and asked: </p><p> "Twilight? The city of the Serpent King? Wasn't it destroyed?" </p><p> Cassie remained silent for a while. Eventually, she shrugged with uncertainty. </p><p> "It is lost, but it is not destroyed. The legends say that it was devoured by time. I... am not sure what it means. In fact, I am not sure about anything that has to do with King Daeron and his people." </p><p> Sunny raised an eyebrow. </p><p> "Oh? Why is that?" </p><p> A deep frown appeared on the blind girl's face. She pursed her lips, then said hesitantly: </p><p> "Everything about them is odd. They were not Riverborn... but they weren't refugees from the Dream Realm, either. They appeared within the Tomb much, much later than the sybils and the Seekers, when the River People civilization had already been established and the Defilement had already spread." </p><p> Cassie lingered for a bit, and then added: </p><p> "If not for the fact that they simply can't be from Earth, I would have said that they... they were challengers just like us, each and every one of them."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1359.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1361.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

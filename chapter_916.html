@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 916</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 916 Divide And Conquer</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> From what Sunny had seen, each of the two groups of Nightmare Creatures was about as strong as the swarm of eyeless abominations his cohort had eradicated at the very start of the Antarctica campaign. The first swarm consisted of about two hunred creatures, most of the Awakened, with several dozen Fallen leading them. </p><p> The second was further away and much smaller, with no more than fifty creatures comprising it. However, all of them were Fallen, and there were four Corrupted among them. </p><p> Fighting each of the swarms separately would have been hard, but not impossible. But if they were allowed to join forces... Sunny did not know what would happen then. </p><p> There was a faint hope in his heart that Nightmare Creatures would obliterate each other, but he knew that it was too improbable, at that stage. Whatever animosity there was between these two tribes of abominations could not compare to their frenzied desire to devour humans, and with hundreds of defenseless civilians close by, that bloodlust was already starting to flow like fire through their veins. </p><p> A battle was inevitable. </p><p> The question was... how was he supposed to go about fighting that battle? </p><p> The best possible solution would have been to stop the onslaught of abominations near the convoy, on the narrow mountain road. There was no space here for the enemy to exploit their overwhelming numerical advantage, so the defenders could face them a few at a time. </p><p> However, Nightmare Creatures were not known for their reason and strong sense of self-preservation. They would madly press on, potentially burying Sunny and his cohort in an avalanche of bodies. It would not matter how many of them ended up being cut down or falling into the abyssal chasm of the mountain gorge, as long as some could sink their fangs into human flesh. </p><p> Additionally, he did not know what strange powers the abominations possessed, so he could not guarantee that the convoy would not sustain damage. </p><p> But most importantly... </p><p> Sunny simply could not let the two swarms merge. The only chance of a swift and decisive victory he saw was to obliterate them before that happened. </p><p> Which meant that the Irregulars had to advance and face the enemy on the wide, open battlefield of the valley ahead. They had to either destroy one swarm before the second arrived, or somehow engage both at the same time. Otherwise, a lot of people would die. </p><p> 'Curses...!' </p><p> The Rhino had already stopped, forcing the vehicles moving behind it to follow suit. The APC's width blocked pretty much the whole road, so they couldn't move past it even if they wanted to. Sunny and his people had to climb to the roof through one of the upper hatches, and then jump down. </p><p> Before too long, Gere's distorted voice came through the speakers of a portable radio: </p><p> "Captain Sunless? Is there another obstacle?" </p><p> Sunny lingered for a few moments, then responded in a measured tone: </p><p> "Negative. There's trouble ahead... deploy your soldiers and prepare to defend the convoy. My cohort will advance to engage the enemy, but if something gets past us, it will be up to you and your men to stop it." </p><p> Sadly, Gere couldn't do much. There was the lone Sleeper, and a small amount of charged ammunition that Samara had supplied to the soldiers before leaving the bunker - the charge wasn't supposed to dissipate completely yet, so they had a few hours left to make use of the few enchanted bullets. </p><p> However, that was pretty much it. Without even the powered exoskeleton armor suits, mundane soldiers were no match for Nightmare Creatures above the Dormant Rank. </p><p> Gere's answer came after a few seconds of silence. </p><p> "...Understood." </p><p> 'What to do, what to do..." </p><p> Looking ahead, Sunny feverishly went through numerous scenarios, calculating risks and trying to come up with a way out of the dire situation, one that would not spell disaster for the convoy. No matter how he looked at it, something had to be sacrificed to balance the scale in their favor... Re𝒂𝒂d the latest stories 𝒐n nov𝒆lbin(.)com</p><p> His mind was running on all cylinders, but failing to come up with a decision. </p><p> Soon, he gritted his teeth and commanded the Irregulars to advance. They dashed forward, braving the snow in cold silence. It did not take long to reach the small valley. They managed to arrive at its edges before the first swarm of Nightmare Creatures had time to descend from the mountain, but just barely. There was maybe a minute or two left. </p><p> The second swarm was still some distance away, hidden behind a tall slope. </p><p> In front of them was a large, empty space. It was covered with snow and almost perfectly flat... that was because most of the valley was taken by a mountain lake, which was frozen now that the long night had come to Antarctica. </p><p> This was where they were going to fight. Soon, the pristine surface of the snow would be painted by blood... hopefully, of Nightmare Creatures, but maybe that of humans, too. </p><p> Sunny ordered his soldiers to hide behind tall boulders and climbed on top of one. Then, he summoned Morgan's Warbow and closed his eyes for a moment. </p><p> He was just not strong enough. There were just too few assets at his disposal. This damned war was just too unfair. </p><p> Someone had to stop the larger swarm, and someone had to stall the smaller but more powerful one. Someone had to advance, while someone had to stay back and defend the convoy. </p><p> There was simply no way to achieve all these goals without suffering a loss of something, and even though Sunny knew what decision he had to make, it was not easy to make it. </p><p> '...Sorry, Saint.' </p><p> His loyal demon would have to pick up his slack and face the second swarm with just Nightmare by her side. He could not even spare a shadow to reinforce them. One was watching over the convoy, and he needed the other three himself. </p><p> Saint had always been an outstanding warrior, but even she was not capable enough to handle fifty Fallen and three Corrupted abominations alone. The black steed would be of help, of course, especially now that he had subjugated a lot of nightmares, but still... the odds were not in their favor. If left to face the enemy alone, both Shadows would eventually be destroyed. </p><p> That was why speed was of the essence. If the Irregulars handled the larger swarm fast enough, they would be able to come to Saint's rescue. </p><p> If not... </p><p> Sunny would have to either risk losing his Shadows, or dismiss them and compromise the lives of the Irregulars, who would then be attacked from two sides. </p><p> "Kim, I need your help." </p><p> With a grim sigh, he raised his bow and pulled on its string.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_915.html">Previous Chapter</a><a class="navigationButton next" href="chapter_917.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

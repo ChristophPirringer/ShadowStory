@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1039</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1039 The Fall Of Falcon Scott 57</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> 1039 The Fall of Falcon Scott (57) </p><p> Bloodwave reached them just a moment later. The mighty Saint looked... spent. Sunny shivered when he noticed that his armor was torn, and there were ugly injuries covering his body. Out of the three Echoes, only the monstrous crab remained... the other two had either been destroyed or dismissed to save them from perishing. </p><p> 'Even the Transcendent Echo is gone... gods. What could have destroyed one of those and severely injured a Saint? The Heart of Darkness... just what kind of creature was it?' </p><p> He felt a bit of dread, and a bit of curiosity. However, now was not the time to ask questions. </p><p> Their small party had to hurry and fight their way back through the boundless horde of Nightmare Creatures. Five Awakened, two Masters, one Saint... as well as two powerful Shadows and an Echo. They were an exceedingly formidable group. </p><p> Granted, all of them were wounded, tired, and low on essence. Still, cutting through the horde while keeping everyone alive would not pose a problem. </p><p> In theory. </p><p> Bloodwave studied the rest for a moment, then sent his Echo forward and growled, his voice husky, low, and domineering: </p><p> "Move!" </p><p> Saint spared the mighty Saint an indifferent glance, then mounted Nightmare and sent the dark destrier into a gallop, the spearhead of the Cruel Sight igniting with the incandescent white glow in her hand, a shield made of pure darkness weighing on the other. They moved ahead of the party, cutting into the horde as a fierce vanguard. </p><p> Soul Reaper was just behind, accompanied by the members of Sunny's cohort. Bloodwave and his Echo flanked the Awakened, protecting them from the frenzied Nightmare Creatures. </p><p> Sunny himself took up the rear position, dragging his tired body along and preventing the abominations from attacking the backs of his soldiers. </p><p> In a cacophony of chilling howls, they dove into the mass of abominations. Blood, severed flesh, and fragments of broken bone instantly filled the air. </p><p> 'Damn it, damn it, damn it...' </p><p> No one in the group was weak, and some of them were truly powerful. However, the horde that Goliath had brought to the walls of Falcon Scott was simply too vast. Countless Nightmare Creatures were throwing themselves at the exhausted humans in a rabid frenzy, every moment, from every direction. Slowing down meant being buried under a mountain of monstrous bodies and torn apart. </p><p> Their only chance was to cut through the mass of abominations faster than the abominations could pile up on them. </p><p> Sunny continued to fight with his teeth gritted. The rearguard position was the most awkward, because he had to move backwards at considerable speed while slaughtering the mass of Nightmare Creatures pursuing the party. By now, they were deep inside the horde, and the abominations were surrounding them on all sides. </p><p> With how sharp and swift the Sin of Solace was, no creature could resist its blade. Sunny was managing somehow, for now, but his battered body was hurting all over. Even though the Marble Shell had yet to succumb to an attack, the few blows he failed to dodge or deflect still delivered some damage. </p><p> It was only his skin that was as hard as stone, after all, not his entire body. A sufficiently powerful strike would send a concussive shock through his insides, potentially causing internal organs to rupture. That hadn't happened yet... but being hit still hurt. </p><p> 'What the hell... it just never ends, does it?' </p><p> Today, he had killed a titan and faced a creature that might have been even more wicked. Despite it all, the hard part was not over... </p><p> The fact that everything around him could blow at any moment, plunging the whole place into an inferno of immolating flame, both mundane and magical, did not make Sunny feel any better either. </p><p> Slowly, the ruined walls of the siege capital drew closer. Bloodwave's Echo was almost destroyed, causing the Saint to dismiss it — Master Jet took its place with a resigned expression, her wounds starting to bleed again. The somber glaive was nowhere to be seen, but a slender naginata appeared in Soul Reaper's hands instead. Using it, she cleared the right flank of the formation with several vicious strikes. </p><p> The pressure on Sunny was also increasing. By now, he was forced to support himself with Shadow Manifestation from time to time — his already pitiful reserve of essence was diminishing even further with each use. </p><p> And yet, they continued to cut through the horde unimpeded, the ground sleek with blood under their feet. </p><p> After what felt like a thousand years of slaughter, the party finally reached the melted ruin of the city wall. </p><p> In front of it, the Awakened force in charge of the southern section was holding back the ocean of Nightmare Creatures... what was left of it, at least. A grim expression settled on Sunny's face when he realized that of the initial seven hundred, perhaps only two hundred remained. </p><p> Reuniting with the line of Awakened soldiers gave them a moment of respite, and gave the desperate soldiers a much-needed morale boost. </p><p> Soul Reaper, Mongrel, and Devil... all three were famous champions of the First Army, and although few soldiers knew what Saint Bloodwave looked like, the Transcendent of the House of Night had a presence that made it impossible to mistake him for an ordinary person. Seeing them return alive from the sortie, the Awakened regained some of their spirit. </p><p> No one was out of the woods yet, though. </p><p> There was a large distance separating the wall from the secondary defense perimeter that had been established deep within the city. That whole abandoned area was set up to go up in flames, as well. </p><p> Sunny looked through one of the numerous breaches in the deformed wall, noticing that the staging area on the other side of it had already been evacuated. The mundane soldiers had retreated, taking the logistics personnel, medical officers, technicians, engineers, and all other non-combatants with them. </p><p> The vast resources stored inside the staging area were all left behind. Tall crates of MWP munitions, carcasses of slain Nightmare Creatures, loader robots, and so on... a wealth of supplies, much of it highly flammable or outright explosive, was going to be blown up once the Rampart Protocol was initiated, too. </p><p> Usually, Sunny would have been pained to see all these riches go to waste, but right now, he did not Upd𝒂ted chapters 𝒐n n𝒐velbin(.)com</p><p> care. </p><p> Usually, Sunny would have been pained to see all these riches go to waste, but right now, he did not care. </p><p> All he cared about was not being near when they did.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1038.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1040.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

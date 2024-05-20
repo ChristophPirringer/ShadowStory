@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 290</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 290 Judgement Day</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 290 Judgement Day</p><p>Changing Star's words brought the room to dead silence. On both sides of it, people were slowly preparing themselves, dark resentment burning in their eyes. It felt as though the tension reached critical mass and was about to explode into a storm of violence.</p><p>Only three people remained calm and unaffected by the direness of the situation: Nephis herself, Sunny… and Tessai.</p><p>The giant bared his canines in a grin. His eyes, however, remained cold as ice.</p><p>"What a… revelation. And here I was, thinking that you are a great defender of justice. Were you not, Changing Star? Or is your sense of justice reserved only for the crimes of those who don't serve you?"</p><p>He sighed and added, his voice full of disappointment:</p><p>"That huntress of yours is accused of murder. Why are you trying to prevent me from bringing her to justice? I thought that you, of all people, would not get in the way of fairness."</p><p>Nephis frowned.</p><p>"Accused does not mean convicted. Why do you claim that she is guilty?"</p><p>Tessai stared at her and said, his low voice sending tremors through the stone hall:</p><p>"There is plenty of evidence. There are plenty of witnesses. So many people came forward to give a testimony! Her guilt is undeniable. How will you answer that, Changing Star?"</p><p>Sunny smiled slightly.</p><p>'How peculiar. So many people apparently saw Effie slaughter those fools. Did I imagine killing them or what? I was a bit crazy at the time, to be fair. Ha.'</p><p>Before Nephis could answer, Kai suddenly took a step forward and shouted:</p><p>"That is impossible! I…"</p><p>However, she made him stop with a stern look. The charming young man hesitated, then gritted his teeth and fell silent, glaring at Tessai with burning indignation.</p><p>Changing Star turned to the imposing giant and smiled.</p><p>"...Well, well. That changes everything, then. Please forgive me, if you can. I have been away from the Dark City for so long, and wasn't informed of these… developments. If this is the case, then by all means, take her away."</p><p>Effie grimaced and looked at her with an amused expression. Sunny did not take his eyes off of Tessai, however, his shadow stared at Nephis, too.</p><p>The smile suddenly disappeared from her face, replaced by boundless coldness.</p><p>"...However, I am coming with her. All of us are, in fact. We are awfully curious to see that evidence and hear those witnesses. And, most of all, we are all dying to see justice done and those guilty punished. Surely, Lord Gunlaug would not mind."</p><p>An expression of dissatisfaction appeared on Tessai's face. With a deep frown, he looked down on Neph from his oppressive height and said in a growling voice:</p><p>"Why do you think that you can come, wench?"</p><p>Changing Star was silent for a few moments, calmly looking at him. Then, her eyes suddenly shone with furious white light. In a voice that promised agony and death, she said with contempt:</p><p>"...Who's going to stop me?"</p><p>The giant stared at her with a complicated expression. It seemed as though he was being torn between pride… and fear.</p><p>It was all a mask, though. A masterful performance to hide his true emotions…</p><p>Triumph and jubilation.</p><p>He had come here with the excuse of bringing Effie to justice, but his true goal had always been Nephis. She was the one Gunlaug wanted to destroy. And now, she was bringing herself to him, like a lamb going to slaughter.</p><p>What Tessai did not know was that Changing Star was as far from a lamb as one could be.</p><p>'...More like a demon in sheep's clothing.'</p><p>Sunny glanced at the morose giant with something that resembled pity. Meanwhile, Tessai slowly shook his head and said, his voice full of false reluctance:</p><p>"...Fine. Do as you wish. Come with me to the Castle, if you want. Bring your rats with you. All of you will witness the brilliance of our Lord!"</p><p>***</p><p>All together, they exited the lodge. Tessai was walking in the front, holding the tall huntress by the shoulder. Her hands were tied behind her back with a flimsy rope — more of a symbolic gesture than a real restraint, considering Effie's strength. Nephis was keeping close, her face calm and indifferent.</p><p>The Guards and the members of Changing Star's faction were right behind them, throwing menacing looks at each other. Their faces were grim and full of resentful indignation. Sunny had hidden himself in the crowd, not wishing to draw any attention. Now, he was moving with it, feeling the restless agitation through the chaotic movement of the surrounding shadows.</p><p>As they moved toward the Castle, more and more slum dwellers surrounded them, their faces full of shock and anger.</p><p>"They got Effie!"</p><p>"Bastards! Let her go!"VIsiT n0(v)eLb(i)(n).𝘤𝑜𝓂 for the best novel reading experience</p><p>"Lady Nephis! Do something!"</p><p>Glancing at the growing number of people who were gathering around them, she smiled reassuringly and said:</p><p>"Stay calm! Come with us if you want. Today, we'll see justice done!"</p><p>However, her appeal to remain calm had the opposite effect on the crowd. It ignited it instead, and soon, a clamor of shouts rose above the outer settlement:</p><p>"Justice! Justice!"</p><p>…However, at some point, the tone of it changed, an almost palpable sense of bloodlust finding its way into the people's voices. The word they were shouting was also replaced, and soon, the crowd was chanting something else. Calling not for justice, but for…</p><p>Judgment.</p><p>"Judgement! Judgment!"</p><p>Sunny observed the raging beast of the human crowd with a troubled frown. A cold, familiar emotion grasped his heart. He knew this sickening feeling all too well.</p><p>It was the same way he felt when facing frenzied Nightmare Creatures.</p><p>'Hell...'</p><p>As they drew close to the stairs leading to the entrance of the castle, almost a hundred people were following them. The Guards standing at the gates stared at the crowd with a bit of fear in their eyes.</p><p>…And at some point, Caster appeared out of nowhere and took position right behind Nephis. The proud Legacy looked pale and a bit disheveled, but it seemed that he had managed to complete the mysterious task given to him by Changing Star without receiving any wounds.</p><p>A few moments later, they entered the Bright Castle.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_289.html">Previous Chapter</a><a class="navigationButton next" href="chapter_291.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

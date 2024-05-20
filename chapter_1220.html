@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1220</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1220 Indestructible</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1220 Indestructible</h4> <p> A towering bonfire of pristine flames enveloped both Nephis and the vessel of the Gate Guardian, rising high into the sky. It bloomed like a beautiful white flower, suffused with both brilliant radiance and incinerating heat. </p><p> The soul flame burned so hot that, for a moment, Sunny actually felt dreadfully cold, as if he had been transported back to the frigid fields of the Antarctic Center. </p><p> With a curse, he staggered back, fell, and rolled away. </p><p> 'Hell!' </p><p> Neph's flames could be warm and nurturing, healing and purifying anything they touched. But they could be ruthless and ferocious, destroying everything in their path. </p><p> Sunny knew that he would not survive a plunge into the blossoming bonfire — he might have shared a bond with Nephis, but he did not share the lineage of Sun God with her. Even then, Changing Star was not immune to the destructive fury of the fire — she was only capable of being locked in the cyclic agony of having her flesh burned, restored, and then burned again without dying. </p><p> He thought that he heard a distorted shriek escape from the flames, but it was swallowed by the dull roar of the immolating blaze. Nephis and the abomination were in the center of the dire conflagration, their figures obscured by its radiance — he did not know what exactly was happening there, just that only one of them would emerge from the flames alive. T/his chapter is updat𝓮d by nov(ê(l)biin.co/m</p><p> The sand around the white bonfire was already melting, soon to turn into black, brittle glass. </p><p> 'Curse it…' </p><p> Sunny could not allow himself to be concerned about Nephis right now. </p><p> Because while she had dealt with Master Xu — at least temporarily </p><p> — there was still another vessel of the great abomination coming after them. </p><p> Jumping to his feet, he spun around. </p><p> Seishan had both her arms wrenched and cruelly broken, while the extent of Morgan's wounds was unknown. Effie had received a blow from the Gate Guardian, as well, but her shield had protected her from harm — at the cost of being destroyed. </p><p> So, only Sunny, Effie, and Kai were left standing. </p><p> And Saint. </p><p> He senses the movement of shadows. </p><p> [Here it comes!] </p><p> A dark blur flashed across the desert, lunging at them from behind. </p><p> As it did, Effie's spear collided with it in mid-air. </p><p> The huntress had tossed it with terrible speed and precision, catching the vessel of the Gate Guardian in the chest. The whole upper torso of the taken corpse exploded, instantly pulverized into a ghastly stream of viscous crimson liquid. </p><p> Propelled by inertia, the mutilated corpse flew several dozens meters forward, the crimson stream stretching behind it as if suspended in the air. </p><p> Then, however, the liquid was pulled back and reformed into a Before it could, a flaming arrow hit the half-formed corpse and exploded, obliterating its entire left side. </p><p> human silhouette, still a split second away from turning back into flesh. </p><p> Before it could, a flaming arrow hit the half-formed corpse and exploded, obliterating its entire left side. </p><p> The Gate Guardian was not disturbed. </p><p> The mangled corpse calmly walked forward, its flesh already growing back. Its shattered ribs were assembled from bloodied fragments, and its bared heart grew whole before starting to beat once again. One mocking eye had already appeared from the liquid mess of its destroyed face. </p><p> Sunny felt a chill run down his spine. </p><p> 'What… what the hell…' </p><p> The sight in front of him was so terrifying that it almost appeared ridiculous. </p><p> Greeting his teeth, Sunny dashed forward. </p><p> He was not in good shape… in fact, his state was terrible. Not only was he utterly exhausted, sapped of all energy by the merciless heat, and low on essence, but he was even devoid of the support of his shadows. </p><p> It had been a long time since Sunny had to enter a serious fight without being augmented by at least one of them. Without their familiar enhancement, he felt slow, fragile, and weak. </p><p> 'Doesn't matter. It's do or die…' </p><p> The Sin of Solace laughed, amused by his defiant resolve to give it his all. </p><p> "No, no... it's just die..." </p><p> Sunny and Saint arrived near the vessel of the Gate Guardian at the same time. Acting as one, they attacked the creature from different sides. A sword made of darkness and a sword made of immaculate white jade struck in unison, aiming to prevent the corpse from taking another step. </p><p> Somewhere behind them, Morgan rose from the sand with a groan. Her sword was destroyed, but she didn't seem to care — her vermilion eyes blazed with murderous fury, and the Princess of War shot forward like a piercing arrow. </p><p> Seishan's eyes rolled back, revealing a different pair of pupils — these ones inhuman and monstrous, surrounded by a sea of red. Her graceful figure suddenly grew much taller — taller than Effie, even when hunched. Her limbs elongated, and long claws extended from her fingers. Her smooth grey skin suddenly turned rough like that of a shark. </p><p> Finally, the monster's jaw unhinged, revealing several rows of terrifying triangular teeth. </p><p> Kai was pale and somber, drawing the string of his bow. </p><p> '...Not good.' </p><p> Sunny tore the Sing of Solace out of the body of the great abomination and desperately dodged. Perhaps because the corpse did not fully recover from the previous barrage of attacks, its movements were much slower — barely faster than those of Dire Fang had been. </p><p> Still, there was no hope for him to escape the retaliation. </p><p> Instead of trying to simply evade the strike, he simultaneously delivered a backward cut with his sword, slicing through the elbow joint of the corpse. </p><p> That allowed Sunny to avoid the crushing blow by a hair's breadth. </p><p> Saint received a bloody fist on her shield and was thrown back, crashing into the slope of a dune. </p><p> At that moment, Jet was already there. </p><p> Instead of relying on enchanted weapons, she struck the abomination with her fist. It passed through the chest of the vessel unopposed, directly attacking its soul. </p><p> Morgan was there, as well. Her palm fell like an executioner's axe, severing the creature's spine. </p><p> And finally, the monstrous figure of Seishan appeared by the Gate Guardian's side. Her arms were still broken, hanging limply. Instead of relying on her claws, she sank her frightening teeth into the taken corpse, ripping away a huge chunk of its neck, shoulder, and upper chest. </p><p> 'There has to be a limit to how much punishment that thing can take… there has to be…' </p><p> A desperate hope burned in Sunny's chest. </p><p> …But if there really was a limit, it seemed that the creature had not reached yet.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1219.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1221.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

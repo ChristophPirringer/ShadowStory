@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1034</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1034 The Fall Of Falcon Scott 52</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> 1034 The Fall of Falcon Scott (52) </p><p> The special shutes built into the wall had mostly been destroyed or damaged, so the Awakened had to use other means to sortie into the killing field. Some rappelled down, some summoned Memories capable of slowing one's fall, some simply used the exposed framework of the great barrier to swiftly climb to the ground. </p><p> The few surviving Masters stationed on the southern wall went first to clear the landing. </p><p> Saint mounted Nightmare, who leaped from one protruding sheet of deformed alloy to another, reaching the swarming abominations in mere seconds. Wielding the Cruel Sight, she quickly slaughtered the nearest enemies. </p><p> Sunny was not far behind. He glided through the air using the Dark Wing, then dismissed it a couple dozen meters above the ground and plummeted down, landing among the Nightmare Creatures like a cannonball. The Sin of Solace danced, effortlessly slicing through flesh and bone. </p><p> It took Sunny only a few seconds to carve out a small island of safety. The members of his cohort joined him, forming a beachhead. More Awakened followed behind them, grim determination shining in their eyes. </p><p> Everyone knew that for many, if not most of them, this was going to be the last fight. Nevertheless, no one tried to flee or turn back. </p><p> ‘It is strange: </p><p> Cutting down a lunging beast, Sunny glanced at the descending Awakened. Surely, all of them valued their lives... maybe if left alone, most would listen to their fear and their desire to survive, and choose to save themselves instead. However, they had all been swept up in the moment and lost their reason. </p><p> They were all individuals, but more than that, they were also parts of something much larger right now. A crowd, a mob... a collective had no fear of death, because the destruction of one of its small parts did not mean the destruction of the whole. Maybe that was how these people suppressed their utterly natural and reasonable desire to live, knowing that even without them, the larger entity they belonged to would continue to exist. </p><p> Was that what Professor Obel had meant when he said that humanity needed a bit of stupidity to survive? </p><p> In any case, the feeling was alien to Sunny. He had spent most of his life being refused and rejected by the collective, so naturally, he valued himself more. There was really nothing more valuable than himself, and things he personally held dear. </p><p> ..And yet, here he was, charging into the horde of Nightmare Creatures with the rest of the Awakened of the First Army. Of course, his situation was vastly different — Sunny was pretty sure of his ability to at least escape alive, no matter what happened. But he was still taking a great risk for no apparent reason. </p><p> Was it stubbornness? Was it pride? Was it spite and unwillingness to admit defeat? Or had he actually become infatuated by the same sense of collective responsibility as these selfless people? </p><p> He truly did not know. However, the word "selfless" seemed rather vile and frightening to Sunny. After all, his self was all he had. Without it, what was the point of staying alive? </p><p> Gritting his teeth, Sunny brandished the Sin of Solace and pushed forward, cutting through one abomination after another like a ruthless, eerily graceful butcher. At some point, his three shadows joined him, wrapping themselves around his body — the fourth one he had sent to help Nightmare. Sunny was surrounded by a fine haze of blood, but whenever drops of it fell on his black tunic, they rolled off the soft silk without leaving the slightest trace. </p><p> The Graceless Dusk remained immaculately pristine. </p><p> He left the hundreds of Awakened behind and advanced into the horde, leading his cohort toward the river of black beetles. </p><p> Luckily, it was not very hard to reach, because the dark river was flowing forward to meet them, as well. Visit nov𝒆lbin(.)c𝒐m for the l𝒂test updates</p><p> Before the Irregulars clashed with the claw of the Heart of Darkness, though, Bloodwave finally arrived at the battlefield. </p><p> The mighty Saint landed like a falling star, causing the earth to split and a shockwave to spread outward in all directions. Awav </p><p> causing the ealtn to split and a shockwave to spread outward in all directions. Away from water, most of his powers would be of no use... </p><p> But a Transcendent was still a Transcendent. </p><p> Wearing dark grey armor sewn of sharkskin and wielding two curved swords, Bloodwave instantly turned into a whirlwind of steel, moving with such speed and force as to resemble an annihilating blur. Countless Nightmare Creatures disappeared into it, and the blurry twister instantly turned red from the mass of blood. </p><p> More than that, the champion of the House of Night was perfectly aware of his vulnerability on land. For that reason, his soul arsenal included many powerful Memories to account for that weakness... among other things. </p><p> As soon as Bloodwave appeared, three Echoes manifested by his side. One was a monstrous crab the size of a house, one resembled a towering golem of wet clay, and the last one was ethereal and elusive, like a creature made of fog. </p><p> Sunny's eyes glinted when he realized that the creature shrouded in fog was actually Transcendent itself. It would have been powerless underwater, but here under the walls of Falcon Scott, the Echo could exert truly devastating power. </p><p> Asmall shadow fell from the sky, and a familiar black bird landed on Bloodwave's shoulder, cawing something into his ear. A moment later, the Saint and his Echoes changed direction, heading for one of the four rivers of darkness. </p><p> ‘Maybe we can actually pull this off... </p><p> Throwing all unnecessary thoughts out of his head, Sunny concentrated on carving a path toward the tide of beetles. Somewhere behind him, hundreds of Awakened were desperatelv pushina </p><p> somewhere behind him, hundreds of Awakened were desperately pushing against the horde of frenzied abominations, killing and dying without holding anything back. An ear-splitting groan of tearing metal thundered as. another section of the wall collapsed, unable to withstand its own weight after suffering severe damage to its inner structure. </p><p> He paid it no attention. </p><p> ‘How am I supposed to fight against the damned bugs?’ </p><p> The Sin of Solace could cut through dozens with each swipe, but there were countless thousands of them. Trying to kill the entire swarm with a sword was no different from trying to cut the sea. </p><p> He had a couple of tools capable of mass destruction... Shadow Manifestation, the Strike of Thunder... he could also control the swarm, somewhat, with the Dying Wish. Best of all, the beetles would have to try very, very hard to bite through the Marble Shell. </p><p> Sunny was not too worried about his defense. It was the offense that posed an </p><p> issue. ‘I guess I'll just have to manage, somehow... </p><p> A few moments later, the mass of Nightmare Creatures around them diminished, and those who did lunge at the cohort looked more panicked than consumed by bloodlust. It seemed that the Heart of Darkness cared not about whom it devoured — humans or abominations. </p><p> And there, behind these last few monsters... </p><p> The tide of darkness was rushing toward Sunny once again.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1033.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1035.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1130</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1130 Closeness</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The journey back to the Valor enclave in East Antarctica was going to take several days. On the first day, the Awakened riders charged forward many times, slaughtering any band of Nightmare Creatures that was unfortunate enough to wander into the convoy's path. </p><p> Awakened and Fallen abominations were ruthlessly cut down long before they could pose a threat to the vehicles. When a Corrupted one appeared, the Knights of Valor attacked personally. Watching these exalted Masters fight was both an inspiration and a grim reminder of what Sunny contended against. </p><p> Each of them was no less deadly than Pierce and Welthe, Mordret's jailers, had been... maybe even more so. With the Knights slaying the more dangerous Nightmare Creatures, none of the Saints had to personally intervene yet. </p><p> There were also Morgan's Echoes. Strangely enough, there were only a few of them in view - the Princes of War must have dismissed some of them, for now. </p><p> Of course, there was also another possibility. Morgan could have sent several Echoes to stage an ambush of her own. </p><p> In fact, Sunny was more or less certain that she had. </p><p> He had spent the last month carefully studying the expedition force of the great clan. By now, he knew the faces of pretty much every Awakened, Ascended, and mundane specialist that Valor had sent to the Southern Quadrant, as well as the rough outline of their abilities. </p><p> Which was why it had not escaped Sunny's attention that several cohorts of Awakened that had participated in the battle against the titanic horde were mysteriously missing from the convoy. They were, most likely, en route to lay a trap for the returning force of Song warriors. </p><p> He did not envy them one bit. </p><p> Sunny himself spent the first day silently observing how the warriors of Valor fought through the shadows. He thought about striking up a conversation with Cassie, but found it hard to find a topic to discuss. At least one that did not have to do with Nightmare Creatures, machinations of the great clans, or the tumultuous future facing them all. </p><p> ...Work, basically. </p><p> It was a bit strange. He had thought that they were close - despite everything, there were very few people in this world, if any, who were closer to him than her. </p><p> And yet, Sunny realized that he did not know much about Cassie outside the dire reality of being an Awakened. He never met her family, which she mentioned so much on the Forgotten Shore. He had never visited her home, or learned of her hobbies - things she enjoyed, things she found frustrating. He didn't even know what her official position in clan Valor was, and how her life had changed because of it. </p><p> That realization was... disheartening. </p><p> Granted, Cassie herself was part of the reason for the distance between them. After Awakening, she seemed to have closed herself off from the outside world, somewhat. After the Ascension, her isolation had only grown more pronounced - it was as though the blind girl was making a conscious effort to blend into the background, becoming as obscure and forgettable as possible. </p><p> But still... </p><p> Sunny glanced at her with a complicated expression. A sudden thought crossed his mind: </p><p> '...I don't think I ever wished her a happy birthday.' </p><p> That had been how they met, all those years ago... well, actually, it was only around four years ago. On the day of the winter solstice, in the Academy cafeteria, Cassie had suddenly wished him a happy birthday. She was more or less the only Sleeper who had spoken to him there. Your favorite 𝒏ovels at novelbin(.)com</p><p> Sunny knew that Cassie was the youngest of the cohort, and that her birthday was somewhere in late June or early July... close to Rain's. This year, he had been busy fighting his way to Falcon Scott during that time, so there was a solid excuse. </p><p> However, there were the years before that. </p><p> Sunny remained silent for a while, thinking. </p><p> Then, he shifted slightly and asked: </p><p> "By the way, Cassie, how is your family doing?" </p><p> She did not react for a moment, then turned her head slightly and frowned in confusion. </p><p> "...What?" </p><p> Sunny leaned back. </p><p> "I said, how is your family doing?" </p><p> The blind girl hesitated. Then, a subtle smile illuminated her delicate face. </p><p> "Oh! They are doing well. I applied to have their citizenship rank raised, so my mom can't stop bragging to the neighbors. Dad had to have a talk to her... right after taking driving lessons and purchasing a PTV license. He parks the PTV where everyone can see it, too... so I think I'll be the one who has to have a talk with him, now..." </p><p> Sunny chuckled. </p><p> "Ah, I understand. You might not know it, but I took driving lessons, as well - from an actual ace pilot, by the way. Uh... my ride sort of blew up, but when we get back to NQSC, I'll definitely buy a new one. And when I do... you can count on it being parked in the most visible places often..." </p><p> Cassie remained silent for a few moments, then asked with strange curiosity: </p><p> "...What else do you want to do when you get back?" </p><p> He scratched the back of his head. </p><p> "Huh... I actually have not given it much thought. Well, first things first - my shop is in desperate need of new exclusive merchandise. I've been practicing a lot here in Antarctica, so I might be able to bring the Brilliant Emporium to an entirely new level. Maybe I'll even branch out and open a Memory boutique in Bastion. Oh, also... I've been thinking about opening a restaurant. Feeding people and making money at the same time, isn't that a dream?" </p><p> Sunny thought for a bit, and then added: </p><p> "I'm going to need to be in Bastion a lot, if I want to do proper business. I don't want to be anchored there, though... so, maybe I'll find a scenic, quiet Citadel somewhere nearby. Out of the way of the mess between Valor and Song." </p><p> He smiled, then asked: </p><p> "How about you?" </p><p> Cassie simply sighed. </p><p> "I think I'll be very busy after returning to NQSC. If I do have some free time... all I want to do is wear pajamas around the house and do nothing." </p><p> She lingered for a moment, then suddenly flashed him a smile: </p><p> "I do promise to visit your restaurant, though! I'll even leave a big tip..." </p><p> As they talked, the sun wobbled to the edge of the sky, never falling behind the horizon, but turning the world dim. </p><p> The convoy came to a stop, preparing for the next leg of the journey. </p><p> In that lull, an Awakened from Clan Valor arrived, putting an end to their conversation.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1129.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1131.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

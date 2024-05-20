@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1329</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1329 Last Hurdle</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1329 Last Hurdle</h4> <p> As Nephis steered the ketch toward the wall of darkness, Sunny had some time to prepare himself mentally for the arduous struggle that lay ahead of them. He also had time to observe Ananke closer. What he saw… did not bode well. Despite being an adult — and someone hundreds of years old, at that — the priestess had regained the body of a young child. Looking at her youthful appearance, it was hard to remember how ancient, decrepit, and frail she had been once, when they met her in the far future. </p><p> But the change was not exactly a benevolent one. Despite being full of vitality, Ananke had obviously grown much weaker. Her immature body was not as strong and physically capable as it had been before… but, worse than that, the differences went deeper than that. As Sunny observed the child priestess, he slowly realized that her mind had been affected by her turning into a child, as well. It was as though her head could not contain the mature consciousness of an experienced adult anymore. Nor could her heart handle the powerful emotions of one with the same composure. Ananke had not really turned dull or less intelligent, but… there was a certain infantile straightforwardness to how she spoke and behaved now. Her eyes, which had always been wise, seemed slightly naive, as well. Her mind slowly regressing. Sunny felt cold claws grip his heart. 'Curse it…' </p><p> He gritted his teeth and looked down, but then forced himself to straighten. 'Fine. It's fine. She has taken care of us enough… we'll take care of her, now.' </p><p> Of course, they still needed the child priestess to protect the ketch from the ravages of broken time. Sunny hoped that she would be able to maintain the bubble of stability around the ketch — both for their sake, and her own. </p><p> Once they were out of the storm, they would find a way to help her return to Weave, even if it meant turning around and sailing back upstream. His heavy thoughts were interrupted by a sudden breeze that threw tiny droplets of water into his face. Sunny looked up, sensing the shadows around them shift. 'We're here…' </p><p> The wall of darkness was already drawing close. "Hurry!" </p><p> Nephis dismissed the winds she had summoned and hurried to the middle of the ketch. Together, they swiftly lowered the sails and dismantled the masts, repeating the actions they had performed before entering the storm for the first time. By the time they were done, the water around them was not still anymore. Although weak, there was a hint of a current, pulling them toward the seething wall of dark mist. The light of the seven suns slowly dimmed, and the winds grew more violent. Sunny grimaced, sensing the bizarre transition from the absence of time to the unnerving mess of it being broken and volatile. 'Come on, Ananke…' </p><p> Despite his worries, the child priestess performed her task just as flawlessly as she had before. Submitting to her will, the feeling of time having gone mad diminished, allowing him to breathe freely. The nauseating feeling of fundamental wrongness in the world was still there, but bearable. Sunny quietly cursed. 'Argh. I have not missed that sensation…' </p><p> The current was growing faster and faster, the still surface of the water becoming restless. Finally, waves appeared, small and weak at first, then chaotic and powerful. Standing at the stern of the ketch, Nephis steered it with an iron hand. Sparks of white flame danced in her eyes, refusing to be devoured by the encroaching darkness. 'Here we go…' </p><p> The darkness swallowed the world once again. The tranquil silence was torn apart, replaced by the furious howling of the wind. The deck of the ketch jerked, mounting a tall wave. A thunderous thunderclap shook the world. 'This is it. The last hurdle!' </p><p> Looking into the nightmarish abyss of the storm, Sunny found Ananke's shoulder and pulled her closer to him, so that she wouldn't be thrown overboard by the violent waves. Looking down, he hesitated for a few moments, and then smiled. "Don't worry. It will be fine… I once rode a Saint into the depths of the ocean to fight a Corrupted Terror, you know? That was way scarier than this." Check new 𝒏ovel ch𝒂pters at nov𝒆lbin(.)com</p><p> Ananke stared at him with her large azure eyes, and then nodded. </p><p> "Yes, my Lord!" </p><p> Sunny grinned, then picked up the iron bowl and prepared to scoop up as much water as he could. 'Granted… I only survived fighting the Sybil of the Fallen Grace by luck. And now I need to survive this storm, somehow, to meet her again. What a ridiculous turn of events, really…" </p><p> It was indeed a bit ridiculous. However, Sunny did not feel like laughing. </p><p> The storm swallowed them like a giant beast. The ketch flew on the raging current, dwarfed by towering waves. The swirling mist enveloped the world, making it seem as though nothing except for the terrible disaster remained within the Tomb of Ariel. The insidious tranquility of the eye of the storm seemed as though it had never existed. They had left its shelter, as well as the reflections of the gods and the daemons, behind. </p><p> Sunny would have felt regret at the missed opportunity to learn divine secrets, but he had no time to think about such things. Bending down, he scooped up the first portion of water and tossed it back into the mist. His body did not ache… for now. His reserves of essence were not empty, for now. His mind was not numbed by the sickening feeling of time breaking apart, for now. All these torments would come soon. And then, hopefully, he would leave them behind as well. To make space for some new horrors, without a doubt. But one day, at the end of it all… </p><p> A bright future awaited him. Maybe. For now, however, what lay ahead was the past. Sunny had to travel far into the past, meet Dusk of the Fallen Grace, find the members of the cohort, and conquer this damned Nightmare. Shielding his face from the devastating blow of the wind, he gritted his teeth. 'Ah, really now…' </p><p> They were braving a storm of broken time in the company of a two-hundred-year-old child, who was a priestess of the Nightmare Spell. Sunny chuckled. '...No one is going to believe this crap!'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1328.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1330.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

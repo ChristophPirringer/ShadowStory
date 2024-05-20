@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 896</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 896 The Obstacle</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> Sunny felt like he was going insane. </p><p> He was tired, sleep-deprived, and cold. He was stuck in a fortress on a remote continent, which had been built around an eerie abandoned observatory. The fortress was being besieged by an unknown horror from the depths, and he was the only person who had managed to escape from the horror's hex. </p><p> The strangest thing about all that, however, was that Sunny was sometimes invisible. Every time he subdued and dragged one of the victims to the containment facility built inside the old observatory, everyone in the settlement acted as though he did not exist. </p><p> No, not exactly invisible... people were able to observe him. But the fact of his existence seemed to flow out of their consciousness almost immediately after being registered there. As long as Sunny was in the presence of one of the mesmerized victims, the residents of LO49 looked at him, frowned, and then went about their business, instantly forgetting what they had seen. It was really unnerving. </p><p> In his exhausted state, Sunny felt a deep and irrational fear that if this went on, he would be forgotten by everyone, forever. </p><p> He wondered if that was how the Demon of Oblivion had felt. </p><p> ...Luckily, the bizarre effect seemed to only last for as long as Sunny was transporting prisoners to their cells. As soon as he placed them in the containment units, his existence was made normal once again. Well... as far as his existence could be called normal, to begin with. </p><p> On the first day of his catcher duty, Sunny had fought, subdued, and imprisoned twenty-nine people. His muscles were sore, and his armor was wet from being close to the water for so long. Despite his efforts - and to his relief - the Terror had not reacted to the sudden obstacle that appeared in the path of its satiation. At least not yet. </p><p> Saint continued to hide in the shadow of the tall wall of the fortress, monitoring the deep, dark, cold waters of the ocean. </p><p> At midnight, Sunny reported the results of his effort to Verne. They walked over to the observatory together, where the other Master remained silent for a long time. </p><p> "Are you telling me that there are people in these cells?" </p><p> Sunny struggled with a yawn, failed to suppress it, and then nodded. </p><p> "...Yeah. Around thirty of them." </p><p> Verne stared at the cells with a deep frown for a minute or two, then shook his head in bewilderment. </p><p> "Strange. Even though I know that they're there, I can't see anything. To me, the cells seem empty." </p><p> Sunny was a bit late to react. </p><p> "Oh. Believe me, they're there. They just stand near the southern side of their units and do nothing. At least they are staring at the walls, and not at us. That would be really creepy." </p><p> Verne looked at him with dark amusement. </p><p> "...I think this situation is sufficiently creepy as it is." </p><p> Then, he turned away from the cells and asked in a somber tone: </p><p> "Any change in the Terror's behavior?" </p><p> Sunny shook his head. </p><p> "No. At least not that I've noticed." </p><p> Verne remained silent for a moment, and sighed. </p><p> "Good. Continue, then. The Ariadne should be arriving soon, so... we just have to endure a little bit longer." </p><p> Just like that, Sunny continued his eerie task. He waited by the water, caught the people trying to drown themselves in the ocean, and locked them up in cells while suffering from being invisible. </p><p> 'Damn cold..." </p><p> He had long summoned the Memory of Ice and continuously fed it with essence to save himself from the chilling wind. </p><p> Just like that, another day passed. During that day, Sunny rescued thirty-five people from being devoured by the waves. His skill of making chains out of shadows improved by a lot. </p><p> A few minutes before midnight, Sunny was sitting on his chair with an empty thermos in his hand, and stared at the sky. Today, there was no moon, and no aurora. Only the stars remained, shining softly up above. </p><p> 'The waves sound differently today... </p><p> He rubbed his face, then turned around and stared at the undulating black surface of the ocean with intense distrust. </p><p> Just then, something seemed to change about the world. Sunny frowned, but before he could do anything, another figure appeared on the wall, forcing a long sigh to escape from his lips. </p><p> 'Forty... it is accelerating.' </p><p> He stood up, ready to step through the shadows and subdue the fortieth victim, but there was something strange about the figure. Instead of moving toward the edge of the wall like the rest of them, it stopped and raised a hand, as if signaling to him. </p><p> "Huh?" </p><p> It was Quentin. </p><p> Sunny conserved his essence by jogging forward, then lowering his body slightly and mounting the wall with one inhumanly high jump. He landed on the concrete surface of the rampart, walked a few steps, and looked at Quentin with a deep frown. </p><p> "What? What happened?" </p><p> The chivalrous healer smiled, excitement shining in his eyes. </p><p> "Captain! The observatory... you need to see..." </p><p> Without wasting any time, Sunny jumped down to the roof of the nearby building, and then hurried toward the white dome at the center of the settlement. Walking inside, he instantly heard a swarm of confused, frightened, and angry voices. </p><p> "What? Where am I?" </p><p> "What happened?" </p><p> "Hey! Someone! What the hell is this?! Let me out!" </p><p> He stared, dumbfounded. </p><p> These voices...... were coming from within the cells. They belonged to the victims he had imprisoned. Somehow, they seemed to have shrugged off the mind hex and regained their awareness. 𝑅ead latest ch𝒂pters at n𝒐velbi𝒏(.)co/m</p><p> And it wasn't just them. </p><p> Sunny turned his head and looked at the maintenance workers that were in charge of keeping the containment units secure. They were all speaking with excitement and glancing at the cells with relieved faces. They heard the victims. too. </p><p> ...Which meant that the hex was not affecting them anymore, either. </p><p> "Thank the gods!! That abomination must have left!" </p><p> Despite the happy circumstances, Sunny was suddenly overwhelmed by a deep, cold, urgent feeling of unease. It grasped his heart and remained there, growing slightly stronger with each second. </p><p> He shivered. </p><p> '..What is going on?'</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_895.html">Previous Chapter</a><a class="navigationButton next" href="chapter_897.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 1290</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 1290 Royal Promise</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<h4>Chapter 1290 Royal Promise</h4> <p> Sunny raised an eyebrow, pleasantly surprised. Three enchantments on a Memory of the First Tier… that was rare. As an amateur sorcerer, he knew just how hard it was to build a varied spellweave around a single nexus. Intrigued, he continued to study the runes. </p><p> [Legacy of Twilight] Enchantment Description: "This Memory greatly improves the rate at which the wearer's essence is replenished at the borders between day and night." </p><p> [King's Resentment] Enchantment Description: "This Memory grants the wearer complete immunity to mind attacks, but plagues them with irresistible wrath instead." Updated 𝒏ov𝒆ls on 𝒏ov𝒆lbin(.)c𝒐m</p><p> [Royal Promise] Enchantment Description: "This Memory infuses authority over water into the wearer's Domain. The extent of this authority depends on the might of the Domain." </p><p> Sunny scratched the back of his head. 'Huh…' </p><p> The first enchantment was rather straightforward, and extremely useful — granted, that usefulness was situational. It would greatly speed up his recovery of essence at the borders between day and night, meaning dawn and dusk. </p><p> The second enchantment… was tricky. Complete immunity to mind attacks was an incredible trait to have, but it came at the cost of being consumed by mad fury. Sunny wasn't sure what to make of it. Luckily, it was an active enchantment, so he could use the other two without going berserk. But the third enchantment was simply confounding. </p><p> 'Infuses authority over water into a Domain? What?' </p><p> What were people like him, who didn't even have a Domain, supposed to do with it?! </p><p> Sunny took a deep breath, then left the Soul Sea and opened his eyes. The Great River was still shining softly, the flowing water foaming as it parted before the bow of the ketch. Suddenly, he felt the water… responding to him. The sense of connection he felt was faint and weak, not at all like the kinship he shared with shadows, but still, a wave He hesitated for a few moments, then summoned the Crown of Dusk. Soon, a band of black metal shaped and engraved to resemble a river serpent appeared on his head. The weight of it felt unfamiliar, but at least it prevented his hair from getting in his eyes. That was already useful enough. </p><p> 'It looks cool, too…' </p><p> Sunny lingered a little, then lowered his hand toward the surface of the river and activated the [Royal Promise]. </p><p> Suddenly, he felt the water… responding to him. The sense of connection he felt was faint and weak, not at all like the kinship he shared with shadows, but still, a wave suddenly rose, touching his palm for a brief moment before collapsing back into the current. Sunny stared down with a strange expression. 'So that's how it is.' </p><p> The extent of the authority the [Royal Promise] granted to the master of the Crown of Twilight was dependent on the power of their Domain. Sunny did not have a Domain, so that extent was negligible — but it wasn't non-existent. Leaning back, he smiled slightly. </p><p> 'Still. In a world that has nothing but water, even that much will prove endlessly useful…' </p><p> The ketch continued its journey, while Sunny continued to stare at the beautiful radiance of the Great River. The Crown of Twilight… it was an insidiously powerful Memory. At first glance, none of its enchantments seemed too staggering. However, once he thought a bit more about them, he realized how outstanding they really were. The [Legacy of Twilight] could help him recover his essence. The effect of a Supreme Memory would be immense, but there was a condition — it only functioned at dawn and dusk. As a veteran of the Southern Campaign, Sunny knew better than most how important managing one's reserves of essence was. </p><p> There was dawn and dusk every day, too. So, he would benefit greatly from improved rate of essence replenishment twice a day, every day. Combined with the [Blessing of Soul] of the Shroud of Dusk, that would put him in a very advantageous position… not to mention that here on the Great River, there were places where sunrise and sunset lasted endlessly, as if frozen in time. The [King's Resentment] offered stellar defense against mind attacks — the most dreadful kind, as far as he was concerned — but would turn Sunny berserk. The benefit seemed as great as the cost was terrible… or did it? He could easily think of situations where boundless fury would only be beneficial. Wasn't it almost like a dangerous, but potent boon? </p><p> And lastly, the [Royal Promise] would give him a degree of control over water in a world where there was nothing but water. The value of such an ability was evident, but more than that, this enchantment also possessed the greatest capacity for growth. Sunny did not doubt that the Sovereigns — the actual Sovereigns of the waking world — would stop at nothing to possess a Memory that could grant a second authority to their Domains. Hell… since the independence of the House of Night was founded, to a large extent, on the fact that it was close to impossible to conquer the Stormsea, the Crown of Twilight could very well completely upset the balance of power between the Great Clans. The [Royal Promise] would allow any Sovereign to add Night's territory to their own. </p><p> And yet, here he was — a mere Master — in possession of it. Sunny smiled. 'Who knows… maybe I'll be the one who conquers the House of Night.' </p><p> However, his smile quickly disappeared. Right now, even his chances of surviving the Third Nightmare seemed incredibly bleak. In case he did manage to return home, nothing would ever compel him to attempt the Fourth. Nothing. </p><p> 'Yeah… thanks, but no thanks.' </p><p> Somewhat sober now, Sunny sighed and dismissed the Crown of Twilight. There was something else he had to think about. The battle with the Azure Serpent had been like a feverish dream. He had turned into a mad beast to fight the great abomination… but he had also managed to remain himself. More than that, it was the first time he had succeeded in using Shadow Shell to assume the shape of a Nightmare Creature. </p><p> The shadowspawn was different, because he had lived in that body for many months. The form of the onyx serpent, however, had been constructed purely by observing the Great Beast and sensing his essence through Shadow Dance. As a result, Sunny felt that the mastery of the fourth step of his Aspect Legacy was already within his grasp. </p><p> All he had to do was contemplate the revelations gained during the battle, absorb the knowledge, and integrate it into the systematic framework of Shadow Dance he had already established. The evolution was already in sight… he could practically smell it. Still, there was a bit of work left to do before he could reap the rewards. Closing his eyes, Sunny tried to remember the perilous, ferocious battle with the Azure Serpent in all its harrowing details. It was better to do it now, while the memories were still fresh, and the remnants of the serpentine form still lingered in his mind. </p><p> Time flowed slowly.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_1289.html">Previous Chapter</a><a class="navigationButton next" href="chapter_1291.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

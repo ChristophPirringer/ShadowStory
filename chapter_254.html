@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 254</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 254 The First Lord</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 254 The First Lord</p><p>For a moment, Sunny was afraid that they had been walking in circles all this time and now returned exactly to where they had started. But then, he calmed himself down and noted that this river, while as eerie as the one they had crossed on a wooden boat, was rather different.</p><p>He couldn't exactly explain it, but it didn't feel the same. Plus, there was no pier with two boats tied to stone pillars anywhere in sight… or rather, sense.</p><p>Instead, there was a bridge.</p><p>Sunny could feel its shadow falling on the cold water, solid and firm as the stone it was built from. The bridge arched over the river, leading far into the distance.</p><p>Not wishing to spend another minute in the terrible maze that no living thing could see if it hoped to remain alive, Sunny led the cohort toward the bridge.</p><p>If Cassie was correct, they would be safe after crossing the second river. Sunny surely hoped that it was true, because the long journey where he had to play the role of a guide for five blind people had been nothing short of exhausting.</p><p>After spending seven… or was it eight by now?... months on the Forgotten Shore, Sunny had thought that he possessed a high tolerance for terror. But this last ordeal tested the limits of his mental endurance.</p><p>Walking through that dark place with his sight taken away…</p><p>It was a miracle that Cassie had somehow managed to remain sane at all.</p><p>He tensed up when they entered the bridge, expecting for something dreadful to happen at the last moment. But the silence was not broken by anything except for the sound of rushing water, their steps, and laborious breathing.</p><p>The cohort walked on the bridge, leaving the dark maze behind. Soon, they could feel the mist surrounding them grow thinner.</p><p>And at some point, it was gone.</p><p>They crossed the river without any trouble and returned to solid ground again.</p><p>Making several more steps, Sunny stopped and finally allowed himself to tremble. Then, he opened his mouth and said in a hoarse voice:</p><p>"Are we through?"</p><p>Although Cassie had not said anything about the need to remain quiet, each of them subconsciously avoided speaking ever since entering the mist. Because of that, the sound of his own voice startled Sunny a little.</p><p>A few moments later, Cassie answered in a hesitant tone:</p><p>"I… I think so?"</p><p>Without wasting any more time, Sunny untied the cloth that covered his eyes and removed the wax from them. Then, he carefully opened them and looked around.</p><p>They were standing on a stone shore inside a vast cave, through which the underground river was flowing unobstructed. Some distance away from them, the wall of the cave came down, with a mouth of a wide tunnel visible in it.</p><p>By his side, other members of the cohort were removing the strips of cloth. Sunny could hear the sighs of relief coming from them.</p><p>However, his attention was instantly drawn to Nephis, who had already opened her calm grey eyes and was looking at something behind him.</p><p>Turning around, Sunny followed her gaze… and froze.</p><p>Just a few meters away from them, on the shore of the dark river, he saw a human skeleton. It was sitting on the cold stones, its back straight, facing the water.</p><p>Unlike the ferocious undead from the catacombs of the Dark City, this one was tranquil and untouched by the corruption of the Forgotten Shore.</p><p>…This was the place where the First Lord of the Bright Castle had died.</p><p>***</p><p>The young man whom the members of the cohort only knew by his title had died on the shores of the cold underground river, just a few meters away from the bridge that he had used to escape the terrible place which, according to Cassie, no living being should have been able to escape.</p><p>Somehow, he had survived even without knowing that anyone entering the mist had to keep their eyes closed at all times. But in the end, the wounds he had received there — or somewhere up ahead, perhaps — turned out to be too grievous.</p><p>Before the last vestiges of life abandoned him, the young man — the First Lord who had wrestled the Bright Castle from the Nightmare Creatures, created a safe place for the humans sent to the Forgotten Shore to live, and lead an expedition to find a way out of this cursed place — sat down and looked in the direction of the misty, dark maze.</p><p>…The place where his friends and companions had died, leaving him alone in the darkness of this forsaken underworld.</p><p>Looking at the skeleton that sat quietly on the shore of the river, Sunny couldn't help but feel a deep feeling of awe… and sorrow.</p><p>He had never met this young man, but somehow, it felt as though they knew each other very well.</p><p>Everything that humans had on the Forgotten Shore was thanks to his bravery, power, and skill.</p><p>…What a shame that he had died here, in this lonesome place, with no one to share his last moments and tell the tale of his last deeds.</p><p>The skeleton was strangely well-preserved. It was sitting with its legs crossed, back straight, its hands resting on the hips, as if meditating. The skull of the First Lord gazed at the river with the dark chams of its empty eyes, strangely calm and at peace.</p><p>What Sunny noticed, though, was not the whiteness of the bone nor the eternal grin of the bare skull, but a thin strip of light metal resting on it like a humble crown.</p><p>There was a single bright gemstone on the metal band, placed right above the middle of the skull's forehead.</p><p>After the six of them gathered around the remains of the First Lord and stood there for a while in silence to express their respect for this extraordinary human, Nephis sighed and approached the skeleton.</p><p>Gently, she took the strip of metal and removed it from the First Lord's head.</p><p>…A moment later, the band suddenly broke into countless sparks of light, which then disappeared, absorbed into her soul core.</p><p>Sunny's eyes widened.Gêt the latest ch𝒂pters on n𝒐velbin(.)com</p><p>The crown of the First Lord… was a Memory.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_253.html">Previous Chapter</a><a class="navigationButton next" href="chapter_255.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

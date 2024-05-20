@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 388</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 388 Vigil</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p>Chapter 388 Vigil</p><p>The was no one in the room besides the two of them. Well… Nephis wasn't really there, either. In a sense, Sunny was alone.</p><p>In more senses than one, really.</p><p>There were two small tables standing on both sides of the sleeping pod, each bearing a vase with fresh flowers. Sunny only ever changed flowers in one of the vases, while Cassie tended to the other. They had yet to bump into each other while visiting Neph after that first fateful day, though, which suited Sunny fine.</p><p>He didn't really want to see the blind girl now… or ever again.</p><p>Glancing at Changing Star, Sunny sighed and kept his mouth shut. He didn't know what kinds of recording equipment were installed in the room, so his one-sided conversations with Nephis had to happen in the safety of his mind.</p><p>'I've just returned from the Dream Realm. Spent a whole three days there, exploring ruins and hunting down a few Nightmare Creatures. My shadow fragments… well, you already know. I've been working hard to not let you leave me completely in the dust. Oh… I met a Master from the White Feather clan yesterday. He seems like a nice enough guy. You would have liked him, I think.'</p><p>He paused for a few moments and wondered if this was considered crazy behavior… talking to a person that wasn't really there, pretending that they were. Maybe it was. But despite how much Sunny hated to admit it, he wasn't as fine and stable as he pretended to be.</p><p>He was angry, guilt-ridden… and lonely. He missed Nephis much more than he had ever expected. Out there on the Forgotten Shore, she had somehow become a fundamental part of his life. It was strange to exist without her occupying a place in the same world as him.</p><p>…Painful.</p><p> He missed Cassie, too. Or rather, the version of her that had lived in his mind before everything they had turned to ashes. He missed their friendship, their camaraderie, their trust in each other... things that had been broken and lost.</p><p>Sunny sighed.</p><p>'You know, these days I often think about the time we spent in the Labyrinth. The three of us. It was a… a simpler time, don't you think? A wonderful time. It seemed so terrible back then, but now… now, I miss it a lot. I wonder if you do, too.'</p><p>He grimaced, then looked away.</p><p>'Anyway… what else? Oh. That house I bought is ready. Kai and Effie are doing fine. They are both very busy, though. I… hear that Cas is doing well, too. She had become the leader of those Forgotten Shore Awakened who remained independent. People are calling them the Fire Keepers. Funny, right?'</p><p>Sunny lingered for a while, gathering his thoughts.</p><p>'...I have visited your mom, by the way. I remember that you didn't like the thought of her being alone, so I went to see her. She is fine, too. Well… I mean, you know. For a Hollow. Oh, and the funniest part…'</p><p>He looked around, then thought:</p><p>"Do you remember how you told us that you wanted to dye your hair? You won't believe it, but I actually bought a little Memory that allows me to change the color of my hair at will. Not because of you, it's just something that I needed for a thing I'm about to do. Still, I think that it's sort of hilarious."</p><p>Nephis remained still and absent, her ivory face looking lifeless in the white glow of the sleeping pod. He gritted his teeth.</p><p>'...Where are you? How are you doing? Are you hurt? Are you fucking happy?! I imagine that you would be, free of everything, with nothing to do but slaughter Nightmare Creatures and battle against the thing you hate the most.'</p><p>Sunny looked down and clenched his fists, then remained still for a long time.</p><p>'Are you... coming back?'</p><p>There was no answer.</p><p>He sat by Changing Star's side for a while, staring at her still face. Then, he nodded heavily and stood up.</p><p>"Alright. Figures. I'll see you later, then."</p><p>With that, Sunny turned around and left.</p><p>***</p><p>Exiting the Academy, Sunny lingered for a bit, then turned around and looked back.</p><p>The massive red gates looked very different from how they used to, back when he and Nephis walked through them sixteen months ago. The space in front of them had been empty then, but now, it was filled with tens of thousands of burning candles.</p><p>These candles were an altar to Changing Star.</p><p>After the survivors of the Forgotten Shore had returned to the real world, their story spread like wildfire and captured humanity's attention for a few weeks. Both the independent media and the government propaganda machine added fuel to the fire, spinning it as an inspirational epic of human resilience, heroism… and sacrifice.</p><p>And Nephis, of course, was the protagonist of that epic.</p><p>Most of the Forgotten Shore Awakened were her willing apostles, after all. In their hearts, she was their savior. They were also under the impression that Changing Star had become trapped in the Dream Realm in order to give them a chance to escape.</p><p>Their voices fell into fertile soil. Nephis already had the established mythos of the Immortal Flame clan to raise her into the spotlight of glory, and with her extraordinary accomplishments on the Forgotten Shore, it only grew brighter. The thing that really elevated and exalted her, however, was something else. It was martyrdom.</p><p>People loved nothing more than a martyr.</p><p>Just like Sunny had said, a person had to die to become a true hero. Changing Star, however, had done something strange. She was now, somehow, neither dead nor alive, which only made the whole thing more gripping and emotional.</p><p>Nephis had become a martyr without actually dying.</p><p>...Which was, coincidentally, very fitting, considering her clan's name.</p><p>All of humanity was now entranced by the story of the last daughter of the legendary Immortal Flame clan, the heiress to two most prominent warriors in human history, who had been thrust into hell, stormed the citadel of a Fallen Terror that ruled it, and fought the creature off long enough for a hundred Sleepers to escape back to the real world, staying behind to ensure their survival.</p><p>From the outside, she seemed like a paragon of humanity.</p><p>Sunny didn't know who came up with the idea of placing candles near the gates of the Academy, but it was rather ingenious. People seemed to believe that the Immortal Flame would not be extinguished as long as at least one candle continued to burn for Changing Star. So the Academy had unexpectedly become a place of pilgrimage for thousands of humans who wished for her to do the impossible once again and return alive.</p><p>The idea was so poignant that even Sunny himself had felt compelled to light a candle a couple of times.</p><p>'...Zealots.'</p><p>With a dismissive shake of his head, he turned around and walked away, leaving the sea of candles behind.</p><p>None of them really knew Nephis. Only he did.</p><p>She didn't need their candles to escape the Dream Realm.Visit n𝒐velb𝒊n(.)c𝒐m for l𝒂test 𝒏𝒐vels</p><p>Perhaps it was the Dream Realm that needed help escaping from her.</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_387.html">Previous Chapter</a><a class="navigationButton next" href="chapter_389.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

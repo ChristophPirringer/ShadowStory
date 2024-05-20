@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 819</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 819 Alloy Beast</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> The room provided to Sunny was a far cry from the luxurious cabin he had enjoyed on the train. It was small, spartan, and lacked windows due to being located deep underground. The designers of the military bunker did not even install a false one, so the walls lacked the lifelike projections of the outside. </p><p> Not that Sunny cared about such things. In fact, he quite liked the solid nature of his temporary quarters. Perhaps things would have been different if he did not possess the ability to escape to the surface with the help of Shadow Step, but since he did, the fear of being buried under countless tons of stone and soil was not bothering him too much. </p><p> The room reminded him of his hidden lair in the ruined cathedral of the Dark City, which was a pleasant bonus. </p><p> Sitting on a narrow bed, Sunny sighed and projected the screen of his communicator on the opposite wall. Leaning back, he then got lost in thought for a few minutes. </p><p> In the next day or so, he would have to make a lot of important decisions. There were a lot of things to consider. While the task seemed daunting, he was rather excited to start. </p><p> 'It's like playing a game… only without checkpoints and real human lives at stake. Including mine. So… uh… I guess nothing like a game, actually.' </p><p> The first thing he did was acquaint himself with the default set of assets provided to his future cohort by the government. This generous and highly optimized array of premium gear and equipment included everything to cover the basic needs of his unit during their deployment in Antarctica, from thermoregulated outerwear to priceless spelltech medical kits and beyond. </p><p> The centerpiece of the set was, without a doubt, an advanced all-terrain personnel carrier that was going to serve as the mobile home of his cohort in the future. This heavily armored transport vehicle resembled an angular, high-tech mix between a turtle and a rhinoceros. </p><p> …Of course, Sunny only knew what a rhinoceros was because he had looked up the extinct beast after learning that the APC was colloquially known as Rhino. It was hard to believe that the massive thing was an actual animal and not a strange Nightmare Creature. </p><p> Despite its prodigious size and thick armor, the Rhino armored personnel carrier was capable of moving with immense speed across various terrains. It could even climb mountains without too much problem, provided that the driver knew what they were doing. </p><p> The advanced variant provided to the cohorts of the First Irregular Company was additionally modified with even more robust armor, inordinately powerful engines, enhanced internals, and a sophisticated command and communications suit. </p><p> Of course, there was always room for improvement. In fact, the interface offered Sunny a lot of opportunities to enhance the APC much further. These additional augmentations were going to cost him a lot of contribution points, however. </p><p> Still, he was inclined to believe that they would be worth it. The armored vehicle was not only going to be responsible for keeping his cohort mobile, it would also serve as the logistical core of their deployment. Its importance was already apparent due to the fact that the default set of assets provided by the government was based on its carrying capacity. </p><p> The logistics and supply officers in charge of compiling this array of gear were not familiar with the Covetous Coffer, of course. Thanks to his loyal toothy chest, Sunny would be able to more or less double his cohort's storage space. That alone gave him a lot of flexibility as far as spending contribution points on additional equipment was concerned. </p><p> 'The tech is important… however, it is also unreliable.' </p><p> Gates were known to mess with technology in various ways. The military vehicle certainly included several measures to minimize that effect, but it would still be prudent of him to beef this aspect up. After all, no one knew what would happen if dozens, or even hundreds of Gates came to exist in the area around the APC at the same time. </p><p> That was something for Sunny to think about later, however. </p><p> Now that he knew what he was dealing with, he had a clearer picture of what kind of Awakened he wanted to recruit. </p><p> Closing one interface and opening another, he rubbed his temples and sighed. </p><p> 'That is not going to be easy.' </p><p> *** </p><p> Soon enough, hundreds of concise dossiers were in front of him, each containing the personnel file of one of the best Awakened soldiers stationed in the port. Most of them were going to be assigned to other units, while forty-two would become members of the elite First Irregular Company. </p><p> Six of them would be his own subordinates. </p><p> For a while, Sunny was paralyzed by all the choice. </p><p> Each dossier contained the description of the Awakened's Aspect and Abilities, their service record, and psychological profile, as well as of additional skills and specializations that the soldier might have mastered and other information. </p><p> His task was to pick six warriors who would not only comprise a well-rounded cohort and compliment his own powers, but also work well with each other both in terms of combat ability and interpersonal compatibility. The former was already hard enough, but the latter gave him a headache. </p><p> Luckily, very few people working for the government possessed contrarian and antisocial personalities. People who chose the life of service were predisposed to having a certain level of agreeableness by definition. </p><p> …Unlike Sunny. He was contrarian and antisocial enough to balance out their agreeableness all by himself! </p><p> One thing that the files did not include, regretfully, was detailed information about the Flaws of these elite soldiers. Not even the government servants were comfortable sharing something like that with their employer. Each file only mentioned how severe the Flaw had been judged to be through passive observation, and sometimes an approximate evaluation of its specific effects. </p><p> Which was a shame. A serious enough Flaw could derail any battle plan. </p><p> Just out of curiosity, Sunny looked up the dossiers of the other Ascended captains — Vandal, Mustang, Queen, Knight, and Pride — as well. Their files were also there, although in a much more redacted version. </p><p> Reading what little was left unredacted, he couldn't help but whistle. </p><p> '...Impressive.' </p><p> Master Jet's personal file was even more obscure. Pretty much everything except for her name and Rank was blacked out. </p><p> His own dossier was rather short and mostly consisted of question marks. Either the government truly knew so little about him, or simply chose not to show how well they were informed. </p><p> 'Well… at least they got my height right.' </p><p> Sunny closed the file and shook his head. </p><p> He could not allow himself to delay the task any further. Find new 𝒔tories on novelbin(.)com</p><p> He was in for a long and sleepless night…</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_818.html">Previous Chapter</a><a class="navigationButton next" href="chapter_820.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

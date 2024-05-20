@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 284</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 284 Nothing Serious</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+
+<div></div>
+<p>Chapter 284 Nothing Serious</p><p>In the cold light of dawn, Sunny approached the spot where the other members of the cohort and he agreed to meet. The shadow had already located their camp in the ruin of an ancient building and was currently watching them, hidden in the darkness.</p><p>The five youths were busy preparing for the last stretch of the way to the Bright Castle. They were calm and collected, not at all like people who were about to face the horrifying wrath of the Bright Lord.</p><p>What kind of horror had they not faced already?</p><p>Climbing over the rubble, Sunny let Nephis and the rest know of his approach and jumped down.</p><p>Landing just a few meters away from the group, he straightened his back and gave them an indifferent look.</p><p>"Hey."</p><p>They greeted him in a reserved manner. A palpable tension permeated the air, making everyone reluctant to speak too much. Only Effie was seemingly unaffected by this dark mood.</p><p>Leaning on a stone wall, the huntress was enthusiastically gnawing on a juicy bone. Her white teeth were effortlessly crushing it into tiny pieces, which were then chewed and swallowed along with the marrow. Noticing Sunny, she smiled.</p><p>"Hey, doofus."</p><p>He gave her a nod and wanted to turn away, but then noticed a slight frown that appeared on Effie's face. Looking at him with a bit of uncertainty, she asked:</p><p>"Uh… you alright?"</p><p>Sunny was silent for a few moments, then smiled. Finally, he said in an even tone:</p><p>"I'm perfect."</p><p>Leaving the doubtful huntress behind, he walked past Caster and approached Nephis.</p><p>The Changing Star was standing with her back to the group, looking up at the silhouette of the Bright Castle that loomed in the distance. Hearing his steps, she turned around.</p><p>The gentle light of dawn reflected in her eyes, making them appear to shine.</p><p>"...You've made it, Sunny. I am glad."</p><p>He shrugged.</p><p>"Why? You didn't expect me to show up?"</p><p>She was silent for a while, and then looked away. A lock of silver hair fell on her eyes. Nephis tucked it behind her ear and sighed.</p><p>"Could I not? It's not like I know the future."</p><p>After that, she smiled.</p><p>'...Amusing.'Find 𝒏ew chapters on n𝒐velbi𝒏(.)com</p><p>In the eleven months they had spent on the Forgotten Shore, this was only the second time Sunny heard Changing Star tell a joke, and the first time it was actually funny.</p><p>If a little macabre. But what was the harm in indulging in a bit of dark humor, at this point?</p><p>Sunny did not return the smile, however. Glancing in the direction of the Bright Castle, he asked:</p><p>"So, what's the plan?"</p><p>Nephis shrugged.</p><p>"This time there is no plan. We have confirmed that Gunlaug is still pretending to be looking for Effie to bring her to justice for killing the missing Guards. Once we enter the outer settlement, the members of the Host will come for her. Then, I will most likely be forced to challenge him. We'll… see after that."</p><p>Sunny looked at her with a dark expression.</p><p>'Pretty much exactly what I expected.'</p><p>He didn't hesitate to ask:</p><p>"Can you really break his armor? Even with the Dawn Shard, your sword is barely equal to an Ascended Memory. And that thing is a true Transcended Echo."</p><p>She lingered for a while before answering. When she finally spoke, her voice was calm and even:</p><p>"I don't have to break the armor. I just have to break the man."</p><p>Sunny shook his head with a humorless smile.</p><p>"Good luck achieving one without the other."</p><p>He paused for a moment, and then said without a hint of levity in his voice:</p><p>"Anyway. You owe me a conversation."</p><p>Changing Star glanced at him, then nodded.</p><p>"Alright. But not here."</p><p>With that, she gave the others a sign to wait and walked away. Sunny followed.</p><p>His shadow stayed, making sure that no one was going to try and eavesdrop on them. It was staring directly at Caster, following his every move with intense attention.</p><p>As they walking, Sunny suddenly said:</p><p>"By the way, I have something to tell to you, too."</p><p>Nephis glanced at him and slightly raised an eyebrow.</p><p>"Yes? What is it?"</p><p>Sunny was silent for a bit. Then, he smiled.</p><p>"Oh, it's nothing serious. Do you remember a guy called Harper?"</p><p>She frowned, then shook her head.</p><p>"Should I? Who is he?"</p><p>Sunny shrugged. His expression remained neutral.</p><p>"Just a guy that I killed. He was one of Gunlaug's spies."</p><p>Neph looked at him for a few moments, then asked with indifferent confusion:</p><p>"What about him?"</p><p>A slight shadow ran over Sunny's face. However, his smile remained exactly the same.</p><p>"...No, nothing. Just wondered if you knew him."</p><p>When they walked far enough and were concealed from the eyes of the cohort by several tall walls, Changing Star stopped and turned to face him. Looking at Sunny, she said:</p><p>"It is good that we can speak privately. Actually, I wanted to ask you a favor."</p><p>He blinked.</p><p>'Well, that is unexpected.'</p><p>"What is it?"</p><p>She hesitated for a few moments.</p><p>"After my fight with Gunalug is over, if… when I win, I might not be in the best shape. Even if I am, there will be a flood of soul essence pouring into my body. It will incapacitate me for a bit."</p><p>The changes that happened to the body after a small portion of soul essence was consumed were subtle, but in large quantities, it could be disorienting, sometimes even debilitating for a short while.</p><p>Sometimes, experiencing these changes and getting used to them took a little time.</p><p>Sunny tilted his head.</p><p>'A flood of soul essence? What does it matter if her core is either full to the brim or at least almost saturated?'</p><p>He frowned, trying to guess what he wanted from him.</p><p>"So what do you need me to do? Keep Harus busy while you recover?"</p><p>She shook her head, then looked away.</p><p>A light sigh escaped from Changing Star's lips.</p><p>"No. I want you to make sure that Caster is nowhere near me when that happens."</p><p>Here it was. The truth was about to come out.</p><p>Sunny stared at Nephis, his expression cold and dark. After a few moments of tense silence, he asked:</p><p>"Why? What's the deal with you and Caster?"</p><p>She looked at him, her striking grey eyes calm and deep.</p><p>Then, she said:</p><p>"It's very simple, really. Caster has been sent here to kill me."</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_283.html">Previous Chapter</a><a class="navigationButton next" href="chapter_285.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>

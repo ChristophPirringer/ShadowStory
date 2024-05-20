@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Chapter 535</title>
+                            <style>
+                                /* CSS styles for HTML content */
+                                /* General styles */
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f9f9f9;
+                                    color: #333;
+                                }
+
+                                /* Content div styles */
+                                .contentDiv {
+                                    max-width: 800px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                    background-color: #fff;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                    border-radius: 8px;
+                                    overflow: hidden;
+                                    word-wrap: break-word;
+                                }
+
+                                /* Navigation button styles */
+                                .navigationButton {
+                                    display: inline-block;
+                                    margin: 20px 10px;
+                                    padding: 10px 20px;
+                                    background-color: #007BFF;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    transition: background-color 0.3s ease, transform 0.3s ease;
+                                }
+
+                                .navigationButton:hover {
+                                    background-color: #0056b3;
+                                    transform: scale(1.05);
+                                }
+
+                                .navigationButton:active {
+                                    background-color: #004085;
+                                    transform: scale(1);
+                                }
+
+                                /* Center navigation buttons */
+                                .navigation-buttons {
+                                    text-align: center;
+                                }
+
+                                /* Chapter title styles */
+                                .chapter-title {
+                                    text-align: center;
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    margin: 20px 0;
+                                }
+
+                                /* Responsive adjustments */
+                                @media (max-width: 600px) {
+                                    .contentDiv {
+                                        margin: 10px;
+                                        padding: 15px;
+                                    }
+
+                                    .navigationButton {
+                                        padding: 8px 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                            </style>
+                            <script>
+                                document.addEventListener('keydown', function(event) {
+                                    if (event.key === 'ArrowLeft') {
+                                        var prevLink = document.querySelector('.previous');
+                                        if (prevLink) {
+                                            prevLink.click();
+                                        }
+                                    } else if (event.key === 'ArrowRight') {
+                                        var nextLink = document.querySelector('.next');
+                                        if (nextLink) {
+                                            nextLink.click();
+                                        }
+                                    }
+                                });
+
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var xDown = null;                                                        
+                                    var yDown = null;
+
+                                    function handleTouchStart(evt) {
+                                        const firstTouch = evt.touches[0];                                      
+                                        xDown = firstTouch.clientX;                                      
+                                        yDown = firstTouch.clientY;                                      
+                                    };                                                
+
+                                    function handleTouchMove(evt) {
+                                        if ( ! xDown || ! yDown ) {
+                                            return;
+                                        }
+
+                                        var xUp = evt.touches[0].clientX;                                    
+                                        var yUp = evt.touches[0].clientY;
+
+                                        var xDiff = xDown - xUp;
+                                        var yDiff = yDown - yUp;
+
+                                        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /* most significant */
+                                            if ( xDiff > 0 ) {
+                                                /* left swipe */ 
+                                                var prevLink = document.querySelector('.previous');
+                                                if (prevLink) {
+                                                                                        prevLink.click();
+                                                }
+                                            } else {
+                                                /* right swipe */
+                                                var nextLink = document.querySelector('.next');
+                                                if (nextLink) {
+                                                    nextLink.click();
+                                                }
+                                            }                       
+                                        }
+                                        /* reset values */
+                                        xDown = null;
+                                        yDown = null;                                             
+                                    };
+
+                                    document.addEventListener('touchstart', handleTouchStart, false);        
+                                    document.addEventListener('touchmove', handleTouchMove, false);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div class="contentDiv">
+                                <div class="chapter-title">Chapter 535 No Hard Feelings</div> <!-- Displaying chapter name -->
+                                <div class="chr-c" id="chr-content" style="font-family: Arial, sans-serif, serif; font-size: 18px; line-height: 160%; margin-top: 15px;">
+<div style="margin: 10px auto;"><script async="" data-pid="9322" src="//go.trvdp.com/init/12123.js" type="text/javascript"></script></div>
+<div></div>
+<p> A triumphant sound of trumpets resounded above the ancient forest. </p><p> "Only three challengers remain!" </p><p> "These brave heroes are: Mongrel, one hundred and eleven kills; Fireshing, eighty-seven kills; Kim Saitoh, fifty-nine kills!" </p><p> "Dream of Glory awaits, heroes!" </p><p> Sunny dragged his tired body out of the forest, feeling the ground under his feet shift and tremble. At this point, the titan was almost fully awake, and no part of the arena was safe… </p><p> With the exception of the narrow strip of sand between the dark woods and the lake that he had just reached, of course. </p><p> Sunny walked into the shallow water and stopped, using the Soul Serpent to support himself. His breath was ragged and hoarse, and there were several dents on the onyx surface of the Mantle of the Underworld. </p><p> Almost at the same time, two more figures emerged from the darkness of the hungry forest. </p><p> One was an attractive young woman with broad shoulders and an athletic build, her long auburn hair gathered in a ponytail. She was wearing a modest red tunic, her torso protected by a leather cuirass, and wielded a light spear. Her blue eyes were tired, but clear, full of intensity and focus. </p><p> The other was a man in heavy armor, carrying a greatsword with its blade inscribed by a complicated weave of runes. His face was hidden behind the visor of a helmet, with only calm, cold eyes visible in the narrow slit. His steps were confident, but a little unsteady, betraying a dire level of exhaustion. </p><p> 'This must be Fireshing and Saitoh.' </p><p> The mighty archer had not made it. Sunny could only guess what had happened to him, but the most likely scenario was pretty obvious. The powerful Legacy must have run into an ambush similar to those Sunny himself had encountered, only with a much less happy result. </p><p> Well, that was life. Dar of the Maharana clan had paid the price for daring to stand out too much without having enough power to answer for such audacity. On one hand, it was not very fair, as far as tournaments went. On the other hand, when was anything ever fair? </p><p> Sunny much preferred to stay in the shadows, even if this damned persona of his had somewhat failed to help him in that regard. </p><p> Coincidentally, none of those who had conspired to form a group had made it this far, as well. And with a good reason — the type of person who would resort to such methods did not have what it took to win this battle, to begin with. </p><p> So Sunny was not going to underestimate his last two opponents. They had already proven how formidable they were. </p><p> …The three Awakened stood apart, looking at each other warily. The clear water of the tranquil lake splashed against their shins. The magnificent castle loomed in the distance, its ancient walls bathed in the bright sunlight. The vista was beautiful and peaceful, but the air was practically crackling with tension. </p><p> After a while, the man in a suit of heavy plate armor turned to the fiery young woman and said hoarsely: </p><p> "Let's deal with that demon together. We can decide who wins between the two of us after that thing is eliminated." </p><p> Sunny rolled his eyes. </p><p> 'Wow. How unexpected.' </p><p> He gripped the hilt of the Soul Serpent, preparing himself for a tough fight. </p><p> To his surprise, though, the young woman shook her head a said simply, a clear expression of disdain appearing on her freckled face: </p><p> "No." </p><p> He raised his eyebrows. </p><p> 'Huh. Such nobility… gods, what an idiot! What a fool!' </p><p> The man called Saitoh laughed, and then glanced at Mongrel: </p><p> "How about it, Mongrel? Same offer. Let's take care of the girl first, and then have a proper duel, you and I. Or is it beneath you?" </p><p> Sunny gritted his teeth, but had no choice but to say: </p><p> "It is." </p><p> 'Argh, curse it!' </p><p> Saitoh shook his head.</p><p> "Young people these days… so naive. Have the Dream Realm taught you nothing?" </p><p> Sunny raised the odachi and grinned. </p><p> "...It taught me everything." </p><p> With that, he shifted his weight and prepared to dash forward. </p><p> The time for words was over. </p><p> The other two also understood that, and in the next moment, the calmness of the clear lake was instantly no more. </p><p> *** </p><p> 'What the!' </p><p> As soon as Sunny moved, a powerful explosion thundered, and he was thrown into the air by the devastating shockwave. Landing in a roll, he hurriedly slotted the Memory of Fire into the Mantle and rose just in time to see a massive fireball dissipate into the air. </p><p> His body felt even more damaged than it had been a moment ago. </p><p> Kim Saitoh, however, took the brunt of the explosion. His heavy armor was mangled and torn, patches of burned skin visible through the tears. Just as Fireshing lunged at him, tongues of flame appearing on the blade of her spear, he suddenly moved with unexpected agility, thrusting his sword forward. </p><p> He wasn't aiming at the girl, though. </p><p>  '...Bad!'Your f𝒂vorite stories on 𝒏ov𝒆lb𝒊n(.)c𝒐m</p><p> Sunny noticed the rows of runes ignite with a menacing purple light, and then hastily threw his body sideways. In the next moment, a phantom figure of an armored giant appeared in the air and slashed downward, cutting the air where he had just stood with the identical copy of the same greatsword. </p><p> 'What a powerful Memory!' </p><p> Since both of his enemies seemed to possess deadly means of range attack, he had no choice but to close the distance. Luckily, Saitoh was already entangled with Fireshing, who rained a barrage of lightning-fast, but precise and deadly strikes on him. It was as if the young woman was dancing, her auburn hair and red tunic flying through the air like tongues of wild flame. </p><p> 'Interesting style… I should leave her for last...' </p><p> The man, meanwhile, didn't try to evade the burning spear and instead turned his body swiftly, making sure that it struck the undamaged parts of his armor. Despite being mangled by the explosion, the heavy armor held, betraying the fact that it, too, was a Memory of considerable power. </p><p> It didn't matter, though. </p><p> A moment later, Sunny was upon them and joined the fight, the dark odachi united with the flaming spear and a runic greatsword to sing the song of steel. </p><p> *** </p><p> A few minutes later, the voice of the Dreamscape spoke again: </p><p> "Challenger Kim Saitoh was eliminated." </p><p> "Challenger Fireshing was eliminated." </p><p> "Challenger Mongrel is victorious! Glory to the victor!" </p><p> As blood turned into a flood of sparks and the waters of the tranquil lake became clear once more, triumphant music thundered from all sides. </p><p> Hidden behind the black mask, Sunny grimaced and suppressed the desire to plug his ears. </p><p> 'What's with this terrible noise... argh! That was way too hard…' </p><p> Unbeknownst to him, the network was already exploding with countless articles, all titled more or less the same… </p><p> "No hard feelings: Lord Mongrel easily defeats a thousand Awakened!"</p>
+
+</div>  <!-- Inserting chapter HTML content -->
+                                <div class="navigation-buttons"><a class="navigationButton previous" href="chapter_534.html">Previous Chapter</a><a class="navigationButton next" href="chapter_536.html">Next Chapter</a></div>  <!-- Inserting navigation buttons -->
+                            </div>
+                        </body>
+                    </html>
